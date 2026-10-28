@@ -1,0 +1,146 @@
+
+> check
+> npx --yes hyperframes@0.8.181 check --snapshots
+
+◆  Checking video
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\eb-garamond)
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\eb-garamond)
+[INFO] [Compiler] Fetched 10 font face(s) for "JetBrains Mono" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\jetbrains-mono)
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 4 requested font families
+
+Lint
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S02.wav at 0.15-5.3s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S03.wav at 0.15-13.4s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S04.wav at 0.15-17.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S05.wav at 0.15-15.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S06.wav at 0.15-10.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S01.wav at 0.15-14.8s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S03.wav at 0.15-13.4s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S04.wav at 0.15-17.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S05.wav at 0.15-15.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S06.wav at 0.15-10.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S02.wav at 0.15-5.3s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S03.wav at 0.15-13.4s, ../../assets/voice/master/S04.wav at 0.15-17.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S03.wav at 0.15-13.4s, ../../assets/voice/master/S05.wav at 0.15-15.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S03.wav at 0.15-13.4s, ../../assets/voice/master/S06.wav at 0.15-10.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S03.wav at 0.15-13.4s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S03.wav at 0.15-13.4s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S04.wav at 0.15-17.9s, ../../assets/voice/master/S05.wav at 0.15-15.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S04.wav at 0.15-17.9s, ../../assets/voice/master/S06.wav at 0.15-10.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S04.wav at 0.15-17.9s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S04.wav at 0.15-17.9s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S05.wav at 0.15-15.7s, ../../assets/voice/master/S06.wav at 0.15-10.7s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S05.wav at 0.15-15.7s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S05.wav at 0.15-15.7s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S06.wav at 0.15-10.7s, ../../assets/voice/master/S07.wav at 0.15-11.9s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S06.wav at 0.15-10.7s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ duplicate_audio_track: Multiple audible <audio>/<video> elements on track 1 overlap (../../assets/voice/master/S07.wav at 0.15-11.9s, ../../assets/voice/master/S08.wav at 0.15-9.5s). This causes layered audio playback.
+    index.html [data-composition-id] t=0s
+    Fix: Use non-overlapping time windows or different track indices.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S01_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S01.html #S01_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S02_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S02.html #S02_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S03_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S03.html #S03_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S04_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S04.html #S04_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S05_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S05.html #S05_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S06_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S06.html #S06_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S07_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S07.html #S07_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  ⚠ nested_media_start_basis_ambiguous: <audio id="S08_audio"> has data-start="0.15" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.
+    C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\compositions\frames\S08.html #S08_audio t=0s
+    Fix: Keep data-start="0.15" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis="global"; otherwise convert it to local time by subtracting the host start.
+  0 error(s), 36 warning(s), 0 info(s)
+
+Runtime
+  ◇ 0 errors, 0 warnings
+
+Layout
+  ◇ 0 issues across 9 sample(s)
+
+Motion
+  ◇ 0 errors, 0 warnings
+
+Contrast
+  ◇ 27/27 text checks pass WCAG AA
+
+Snapshots
+  ◇ 5 PNG(s) saved
+    .hyperframes\artifacts\snapshots\720ded71-9e30-479b-8b14-2e067d281051\frame-00-at-6.0s.png
+    .hyperframes\artifacts\snapshots\720ded71-9e30-479b-8b14-2e067d281051\frame-01-at-30.0s.png
+    .hyperframes\artifacts\snapshots\720ded71-9e30-479b-8b14-2e067d281051\frame-02-at-54.0s.png
+    .hyperframes\artifacts\snapshots\720ded71-9e30-479b-8b14-2e067d281051\frame-03-at-78.0s.png
+    .hyperframes\artifacts\snapshots\720ded71-9e30-479b-8b14-2e067d281051\frame-04-at-102.0s.png
+
+◇  Check passed
+Report: C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\.hyperframes\artifacts\checks\74167792-7fa7-4ba7-911f-25d6db5809cc.json
+Revision: none (inputs-changed)

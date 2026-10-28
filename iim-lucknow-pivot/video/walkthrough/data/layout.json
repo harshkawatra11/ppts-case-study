@@ -1,0 +1,222 @@
+{
+  "s01": {
+    "id": "2:2",
+    "rects": {
+      "CHIP: IIM LUCKNOW · PIVOT ": [64, 48, 520, 56],
+      "CHIP: TEAM IDEAFORGE": [1476, 48, 380, 56],
+      "KICKER": [64, 156, 283, 96],
+      "TITLE": [64, 236, 1115, 173],
+      "CARD: verdict": [64, 497, 1120, 236],
+      "TABLE: team": [64, 816, 1120, 212],
+      "CARD: attention map": [1236, 164, 620, 860],
+      "NODE WATCH THE MATCH": [1416, 304, 260, 74],
+      "NODE LIVE SCORE": [1252, 396, 220, 74],
+      "NODE DEEP STATS": [1620, 396, 220, 74],
+      "NODE REACT LIVE": [1252, 568, 220, 74],
+      "NODE CLIPS, MEMES": [1620, 568, 220, 74],
+      "NODE A STAKE IN IT": [1252, 668, 264, 104],
+      "NODE PROVE YOU KNOW CRICKET": [1576, 668, 264, 104],
+      "CARD: dream11 node": [1252, 804, 588, 80]
+    },
+    "logos": [
+      { "id": "25:9", "file": "assets/logos/25-9.png", "rect": [1302, 304, 93, 75] },
+      { "id": "25:15", "file": "assets/logos/25-15.png", "rect": [1294, 479, 81, 81] },
+      { "id": "25:18", "file": "assets/logos/25-18.png", "rect": [1730, 478, 84, 84] },
+      { "id": "25:21", "file": "assets/logos/25-21.png", "rect": [1478, 888, 136, 136] },
+      { "id": "25:24", "file": "assets/logos/25-24.png", "rect": [1708, 296, 82, 82] },
+      { "id": "26:52", "file": "assets/logos/26-52.png", "rect": [601, 50, 67, 60] },
+      { "id": "25:6", "file": "assets/logos/25-6.png", "rect": [370, 163, 75, 75] }
+    ]
+  },
+  "s02": {
+    "id": "2:4",
+    "rects": {
+      "CHIP: 1 / 8": [1700, 40, 156, 60],
+      "CHIP: EXECUTIVE SUMMARY": [64, 118, 380, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "PANEL: THE CEO'S QUESTION AND OUR VERDICT": [64, 318, 640, 254],
+      "TABLE: keep change": [728, 318, 600, 254],
+      "PANEL: WHAT THE BAN TOOK": [1352, 318, 504, 254],
+      "PANEL: DO NOT: KEEP THE DECLARED DESTINATION, OR WAIT FOR THE COURT": [64, 592, 880, 214],
+      "PANEL: DO: SHARPEN INTO INDIA'S FREE CRICKET SKILL LEAGUE": [976, 592, 880, 214],
+      "CARD: answer 1": [64, 824, 340, 196],
+      "CARD: answer 2": [427, 824, 340, 196],
+      "CARD: answer 3": [790, 824, 340, 196],
+      "CARD: answer 4": [1153, 824, 340, 196],
+      "CARD: answer 5": [1516, 824, 340, 196]
+    },
+    "logos": []
+  },
+  "s03": {
+    "id": "2:5",
+    "rects": {
+      "CHIP: 2 / 8": [1700, 40, 156, 60],
+      "CHIP: Q1 DIAGNOSE: WHO LEF": [64, 118, 420, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "PANEL: THE 300M IS A REGISTRY": [64, 318, 700, 382],
+      "LOGO: Dream11": [624, 328, 110, 30],
+      "PANEL: WHERE THE LEAVERS WENT": [788, 318, 560, 382],
+      "PANEL: WHO LEFT, BY SEGMENT (M, EST.)": [1372, 318, 484, 382],
+      "TABLE: leavers": [1388, 380, 452, 264],
+      "PANEL: DREAM11'S APP-STORE RATING FELL AT EVERY STEP OF THE PIVOT": [64, 720, 1100, 310],
+      "CARD: seed": [1188, 720, 668, 310]
+    },
+    "logos": [
+      { "id": "25:27", "file": "assets/logos/25-27.png", "rect": [1751, 771, 50, 50] },
+      { "id": "25:30", "file": "assets/logos/25-30.png", "rect": [1443, 771, 52, 42] },
+      { "id": "25:33", "file": "assets/logos/25-33.png", "rect": [1443, 826, 52, 52] },
+      { "id": "25:36", "file": "assets/logos/25-36.png", "rect": [1751, 833, 53, 53] },
+      { "id": "25:39", "file": "assets/logos/25-39.png", "rect": [1445, 885, 46, 46] },
+      { "id": "25:42", "file": "assets/logos/25-42.png", "rect": [1744, 878, 67, 67] }
+    ]
+  },
+  "s04": {
+    "id": "2:6",
+    "rects": {
+      "CHIP: 3 / 8": [1700, 40, 156, 60],
+      "CHIP: Q1 DIAGNOSE: WHO STA": [64, 118, 440, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "TABLE: segment heatmap": [64, 318, 1074, 334],
+      "TABLE: wants": [1146, 318, 710, 334],
+      "PANEL: SIZE (JUL 2026, M, EST.) AND VALUE PER FAN": [64, 672, 700, 358],
+      "TABLE: review heatmap": [788, 712, 558, 310],
+      "CARD: quote": [1372, 687, 484, 160],
+      "CARD: quote #2": [1372, 867, 484, 160]
+    },
+    "logos": []
+  },
+  "s05": {
+    "id": "2:7",
+    "rects": {
+      "CHIP: 4 / 8": [1700, 40, 156, 60],
+      "CHIP: Q2 JUDGE THE PIVOT": [64, 118, 380, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "TABLE: options": [64, 318, 1112, 314],
+      "CARD: formula": [64, 648, 1248, 70],
+      "TABLE: word by word": [1336, 318, 520, 320],
+      "CARD: fancode": [64, 742, 470, 280],
+      "LOGO: FanCode": [80, 988, 120, 28],
+      "LOGO: JioHotstar": [214, 988, 120, 28],
+      "CHIP: Play-along overlay": [578, 786, 260, 44],
+      "CHIP: Watch-on links": [578, 844, 260, 44],
+      "CHIP: Joint ad package": [578, 902, 260, 44],
+      "CHIP: One shared login": [578, 960, 260, 44],
+      "CARD: dream11": [882, 742, 470, 280],
+      "CARD: verdict": [1376, 742, 480, 280]
+    },
+    "logos": [
+      { "id": "25:46", "file": "assets/logos/25-46.png", "rect": [1184, 812, 152, 152] }
+    ]
+  },
+  "s06": {
+    "id": "2:8",
+    "rects": {
+      "CHIP: 5 / 8": [1700, 40, 156, 60],
+      "CHIP: Q3 THE MATCH-DAY LOO": [64, 118, 440, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "CARD: loop 1": [382, 355, 300, 126],
+      "CARD: loop 2": [696, 533, 300, 126],
+      "CARD: loop 3": [576, 822, 300, 126],
+      "CARD: loop 4": [188, 822, 300, 126],
+      "CARD: loop 5": [68, 533, 300, 126],
+      "CARD: loop hub": [407, 601, 250, 150],
+      "CHIP: NO STAKE": [64, 988, 200, 40],
+      "CHIP: NO PRIZE": [284, 988, 200, 40],
+      "CHIP: MONEY NEVER BUYS AN ": [504, 988, 480, 40],
+      "CARD: phone AI SCOUT": [1024, 318, 260, 300],
+      "CARD: phone LIVE CALLS": [1310, 318, 260, 300],
+      "CARD: phone DREAM RATING": [1596, 318, 260, 300],
+      "TABLE: replaces money": [1024, 664, 832, 200],
+      "TABLE: ai jobs": [1024, 876, 832, 148]
+    },
+    "logos": []
+  },
+  "s07": {
+    "id": "2:9",
+    "rects": {
+      "CHIP: 6 / 8": [1700, 40, 156, 60],
+      "CHIP: Q3 THE NEXT 12 MONTH": [64, 118, 440, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "TABLE: gantt": [64, 318, 1786, 442],
+      "PANEL: WE WILL NOT BUILD (7)": [64, 785, 1100, 250],
+      "PANEL: RICE SCORE: WHY THE LOOP SHIPS FIRST": [1188, 785, 668, 250]
+    },
+    "logos": []
+  },
+  "s08": {
+    "id": "2:10",
+    "rects": {
+      "CHIP: 7 / 8": [1700, 40, 156, 60],
+      "CHIP: Q4 MAKE IT PAY": [64, 118, 340, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "PANEL: 12-MONTH REVENUE BUILD, BASE (₹ CR)": [64, 318, 1100, 382],
+      "MONEYSHOT": [804, 394, 341, 132],
+      "PANEL: THE LEGALITY TEST": [1188, 318, 668, 382],
+      "PANEL: BEAR, BASE, BULL (₹ CR)": [64, 720, 560, 310],
+      "PANEL: MONTH BY MONTH, BASE (₹ CR)": [648, 720, 560, 310],
+      "PANEL: WHO PAYS FOR IT: ₹ PER FAN A YEAR": [1232, 720, 624, 310],
+      "CARD: formula": [1248, 918, 592, 86]
+    },
+    "logos": []
+  },
+  "s09": {
+    "id": "2:11",
+    "rects": {
+      "CHIP: 8 / 8": [1700, 40, 156, 60],
+      "CHIP: Q4 MEASURE + STRESS ": [64, 118, 480, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "CARD: nsm root": [295, 318, 600, 72],
+      "CARD: M1": [64, 428, 250, 76],
+      "CARD: M2": [336, 428, 250, 76],
+      "CARD: M3": [608, 428, 250, 76],
+      "CARD: M4": [880, 428, 250, 76],
+      "CARD: formula": [64, 516, 1066, 48],
+      "TABLE: targets": [64, 576, 1066, 230],
+      "CARD: kill signal": [608, 846, 522, 176],
+      "CHIP: STRESS TEST: THE BAN": [1154, 318, 702, 48],
+      "PANEL: DREAM11 KEEPS PER ₹100 OF CONTEST ENTRIES": [1154, 382, 702, 334],
+      "PANEL: THE DECISION RULE FOR GOING BACK": [1154, 732, 702, 298],
+      "NODE": [1170, 794, 206, 100],
+      "NODE #2": [1398, 794, 206, 100],
+      "NODE #3": [1626, 794, 206, 100],
+      "NODE stay": [1170, 912, 434, 56],
+      "NODE go": [1624, 912, 216, 56]
+    },
+    "logos": []
+  },
+  "s10": {
+    "id": "2:12",
+    "rects": {
+      "CHIP: A1": [1700, 40, 156, 60],
+      "CHIP: APPENDIX (1 PAGE)": [64, 118, 340, 56],
+      "HEADLINE": [64, 188, 1792, 112],
+      "PANEL: METHOD": [64, 318, 560, 712],
+      "TABLE: n": [80, 522, 528, 174],
+      "CARD: not done": [80, 874, 528, 144],
+      "LOGO: Dream11": [234, 326, 110, 30],
+      "LOGO: FanCode": [356, 326, 110, 30],
+      "TABLE: assumptions": [648, 318, 600, 472],
+      "CARD: ai use": [648, 806, 600, 218],
+      "PANEL: SOURCES (URLS IN THE RESEARCH DOC)": [1272, 318, 584, 712]
+    },
+    "logos": []
+  },
+  "s11": {
+    "id": "14:2",
+    "rects": {
+      "CHIP: A2": [1700, 40, 156, 60],
+      "CHIP: APPENDIX 2: ABBREVIA": [64, 118, 560, 56],
+      "HEADLINE": [64, 188, 1792, 60]
+    },
+    "logos": []
+  },
+  "s12": {
+    "id": "2:13",
+    "rects": {
+      "TABLE: team": [400, 520, 1120, 212]
+    },
+    "logos": [
+      { "id": "29:55", "file": "assets/logos/29-55.png", "rect": [810, 733, 300, 300] }
+    ]
+  }
+}

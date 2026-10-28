@@ -1,0 +1,259 @@
+<template>
+<style>
+  @font-face {
+    font-family: 'Fraunces';
+    src: url('capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Fraunces';
+    src: url('capture/assets/fonts/0494568ab28b6008-s.1b8f__myswv-j.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('capture/assets/fonts/e390973e931a41c5-s.3zhtymus0wdqb.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('capture/assets/fonts/68757d6cddeff913-s.0htwiiqufp3l9.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+  }
+
+  #root {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    container-type: size;
+    font-family: 'Fraunces', Georgia, serif;
+  }
+
+  #root .clip { position: absolute; inset: 0; }
+
+  /* --- background --- */
+  .stack-bg {
+    background: #1F1D1B; /* navy-soft */
+  }
+
+  /* --- grid guide (scene 1) --- */
+  .stack-guide { pointer-events: none; }
+  .stack-guide-line {
+    position: absolute;
+    background: #F2EAD9; /* cream */
+    opacity: 0;
+  }
+  .stack-guide-v { width: 1px; top: 200px; height: 680px; }
+  .stack-guide-h { height: 1px; left: 60px; width: 1800px; }
+
+  /* --- kicker --- */
+  .stack-kicker {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 0.6cqw;
+    opacity: 0;
+  }
+  .stack-kicker-mark {
+    color: #93691F; /* coral */
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.5cqw;
+    line-height: 1;
+  }
+  .stack-kicker-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #F2EAD9;
+  }
+
+  /* --- grid wrap (camera push target) --- */
+  .stack-gridwrap {
+    position: absolute;
+    inset: 0;
+    transform-origin: 50% 62%;
+  }
+
+  .stack-tile {
+    position: absolute;
+    width: 560px;
+    height: 310px;
+    border-radius: 12px;
+    border: 1px solid rgba(242, 234, 217, 0.14); /* cream@14% on navy */
+    background: #252320; /* navy-elev */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 3px 10px rgba(0,0,0,0.14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3cqw;
+    opacity: 0;
+    will-change: transform, opacity;
+  }
+  .stack-tile.stack-coral {
+    background: #93691F; /* coral fill — the one voltage moment */
+    border-color: rgba(242, 234, 217, 0.28);
+  }
+  /* depth-layer stagger: row 1 sits nearest, row 2 a step back, the coral capstone deepest */
+  .stack-tile-0, .stack-tile-1, .stack-tile-2 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 3px 8px rgba(0,0,0,0.12);
+  }
+  .stack-tile-3, .stack-tile-5 {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.30), 0 8px 22px rgba(0,0,0,0.20);
+  }
+  .stack-tile-4 {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.36), 0 14px 34px rgba(0,0,0,0.26);
+  }
+  .stack-tile-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(242, 234, 217, 0.6);
+    margin-bottom: 0.6cqw;
+  }
+  .stack-tile.stack-coral .stack-tile-tag { color: rgba(242, 234, 217, 0.85); }
+  .stack-tile-label {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: 2.3cqw;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: #F2EAD9;
+  }
+  .stack-tile.stack-hero .stack-tile-label {
+    font-size: 3.1cqw;
+  }
+
+  .stack-tile-0 { left: 80px;  top: 220px; }
+  .stack-tile-1 { left: 680px; top: 220px; }
+  .stack-tile-2 { left: 1280px; top: 220px; }
+  .stack-tile-3 { left: 80px;  top: 570px; }
+  .stack-tile-4 { left: 680px; top: 570px; } /* Vercel — centered-bottom, coral, lands last */
+  .stack-tile-5 { left: 1280px; top: 570px; }
+</style>
+
+<div id="root" data-composition-id="10-stack" data-width="1920" data-height="1080">
+
+  <div class="clip stack-bg" data-start="0" data-duration="6.869" data-track-index="0"></div>
+
+  <div class="clip stack-guide" data-start="0" data-duration="6.869" data-track-index="1">
+    <div class="stack-guide-line stack-guide-v" id="stack-guide-v1" style="left:660px;"></div>
+    <div class="stack-guide-line stack-guide-v" id="stack-guide-v2" style="left:1260px;"></div>
+    <div class="stack-guide-line stack-guide-h" id="stack-guide-h1" style="top:550px;"></div>
+  </div>
+
+  <div class="clip" data-start="0" data-duration="6.869" data-track-index="2">
+    <div class="stack-kicker" id="stack-kicker">
+      <span class="stack-kicker-mark">&#10033;</span>
+      <span class="stack-kicker-text">the stack</span>
+    </div>
+  </div>
+
+  <div class="clip" data-start="0" data-duration="6.869" data-track-index="3">
+    <div class="stack-gridwrap" id="stack-gridwrap">
+      <div class="stack-tile stack-tile-0 stack-hero" id="stack-tile-0">
+        <div class="stack-tile-tag">framework</div>
+        <div class="stack-tile-label">Next.js 16</div>
+      </div>
+      <div class="stack-tile stack-tile-1" id="stack-tile-1">
+        <div class="stack-tile-tag">routing</div>
+        <div class="stack-tile-label">App Router</div>
+      </div>
+      <div class="stack-tile stack-tile-2" id="stack-tile-2">
+        <div class="stack-tile-tag">language</div>
+        <div class="stack-tile-label">TypeScript</div>
+      </div>
+      <div class="stack-tile stack-tile-3" id="stack-tile-3">
+        <div class="stack-tile-tag">library</div>
+        <div class="stack-tile-label">React 19</div>
+      </div>
+      <div class="stack-tile stack-coral stack-tile-4" id="stack-tile-4">
+        <div class="stack-tile-tag">deployed on</div>
+        <div class="stack-tile-label">Vercel</div>
+      </div>
+      <div class="stack-tile stack-tile-5" id="stack-tile-5">
+        <div class="stack-tile-tag">database</div>
+        <div class="stack-tile-label">Firestore</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  var tl = gsap.timeline({ paused: true });
+
+  // ---- Scene 1 (0.0–1.0s): bare navy-soft ground, near-invisible grid guide ----
+  tl.fromTo('#stack-guide-v1, #stack-guide-v2, #stack-guide-h1',
+    { opacity: 0 },
+    { opacity: 0.08, duration: 0.7, ease: 'power1.out' },
+    0.1
+  );
+  tl.fromTo('#stack-kicker',
+    { opacity: 0, y: 12 },
+    { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' },
+    0.15
+  );
+
+  // ---- Scene 2 (1.0–5.0s): tiles cascade, one per spoken word, reading order ----
+  var landings = [
+    { id: '#stack-tile-0', t: 1.00, dur: 0.55, dy: 44, ease: 'power3.out' }, // Next.js 16
+    { id: '#stack-tile-1', t: 1.85, dur: 0.55, dy: 40, ease: 'power3.out' }, // App Router
+    { id: '#stack-tile-2', t: 2.70, dur: 0.55, dy: 40, ease: 'power3.out' }, // TypeScript
+    { id: '#stack-tile-3', t: 3.55, dur: 0.55, dy: 40, ease: 'power3.out' }, // React 19
+    { id: '#stack-tile-5', t: 4.40, dur: 0.55, dy: 40, ease: 'power3.out' }  // Firestore
+  ];
+  landings.forEach(function (item) {
+    tl.fromTo(item.id,
+      { opacity: 0, y: item.dy, scale: 0.86 },
+      { opacity: 1, y: 0, scale: 1, duration: item.dur, ease: item.ease },
+      item.t
+    );
+  });
+
+  // ---- Scene 3 (5.0–6.0s): Vercel lands last, centered-bottom, coral, spring accent ----
+  tl.fromTo('#stack-tile-4',
+    { opacity: 0, y: 46, scale: 0.8 },
+    { opacity: 1, y: 0, scale: 1, duration: 0.62, ease: 'back.out(1.6)' },
+    5.30
+  );
+
+  // ---- whole grid holds still: gentle sine float per tile (subtle life, no bounce) ----
+  var tileIds = ['#stack-tile-0', '#stack-tile-1', '#stack-tile-2', '#stack-tile-3', '#stack-tile-5', '#stack-tile-4'];
+  var floatStart = 5.95;
+  var floatEnd = 6.869;
+  tileIds.forEach(function (id, i) {
+    if (floatEnd - floatStart <= 0) return;
+    tl.to(id,
+      { y: -4, duration: (floatEnd - floatStart) / 2, ease: 'sine.inOut', yoyo: true, repeat: 1 },
+      floatStart + i * 0.03
+    );
+  });
+
+  // ---- slow camera push-in on the whole assembled grid during the hold ----
+  tl.fromTo('#stack-gridwrap',
+    { scale: 1 },
+    { scale: 1.016, duration: 6.869 - 5.30, ease: 'power1.inOut' },
+    5.30
+  );
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines['10-stack'] = tl;
+})();
+</script>
+</template>

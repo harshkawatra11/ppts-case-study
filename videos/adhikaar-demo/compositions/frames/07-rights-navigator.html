@@ -1,0 +1,111 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      src: url("capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F2EAD9;
+      font-family: "Fraunces", Georgia, serif;
+    }
+
+    .r07-shot {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #F2EAD9;
+    }
+
+    .r07-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: 50% 42%;
+    }
+
+    .r07-mask {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 51% 42%, rgba(242,234,217,0) 0, rgba(242,234,217,0) 34%, rgba(242,234,217,0.72) 67%, rgba(242,234,217,0.92) 100%);
+      opacity: 0;
+    }
+
+    .r07-citation {
+      position: absolute;
+      left: 534px;
+      top: 445px;
+      width: 852px;
+      height: 86px;
+      border: 3px solid #93691F;
+      border-radius: 10px;
+      box-shadow: 0 14px 56px rgba(147, 105, 31, 0.26);
+      opacity: 0;
+    }
+
+    .r07-card {
+      position: absolute;
+      left: 568px;
+      bottom: 116px;
+      width: 784px;
+      padding: 28px 34px;
+      border: 1px solid rgba(36, 26, 16, 0.18);
+      border-radius: 8px;
+      background: rgba(242, 234, 217, 0.96);
+      box-shadow: 0 16px 54px rgba(36, 26, 16, 0.14);
+      color: #241A10;
+      opacity: 0;
+    }
+
+    .r07-title {
+      font-size: 40px;
+      line-height: 1.12;
+      margin-bottom: 10px;
+    }
+
+    .r07-copy {
+      font-size: 24px;
+      line-height: 1.36;
+      color: rgba(36, 26, 16, 0.76);
+    }
+
+    .r07-em {
+      color: #93691F;
+      font-weight: 650;
+    }
+  </style>
+
+  <div id="root" data-composition-id="07-rights-navigator" data-width="1920" data-height="1080">
+    <div class="clip r07-shot" data-start="0" data-duration="5.184" data-track-index="0">
+      <img class="r07-img" id="r07-img" src="assets/rights-navigator-answer.png" alt="" />
+      <div class="r07-mask" id="r07-mask"></div>
+      <div class="r07-citation" id="r07-citation"></div>
+      <div class="r07-card" id="r07-card">
+        <div class="r07-title">Actual law, not a guess</div>
+        <div class="r07-copy"><span class="r07-em">Model Tenancy Act, 2021, Section 12</span> stays visible as the proof point.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      tl.fromTo("#r07-img", { opacity: 0, scale: 1.04, y: 38 }, { opacity: 1, scale: 1.09, y: -50, duration: 1.7, ease: "power3.out" }, 0);
+      tl.to("#r07-mask", { opacity: 1, duration: 0.45, ease: "power2.out" }, 1.6);
+      tl.fromTo("#r07-citation", { opacity: 0, scaleX: 0.84 }, { opacity: 1, scaleX: 1, duration: 0.38, ease: "power3.out" }, 2.05);
+      tl.fromTo("#r07-card", { opacity: 0, y: 32, scale: 0.97 }, { opacity: 1, y: 0, scale: 1, duration: 0.44, ease: "power3.out" }, 2.65);
+      tl.to("#r07-citation", { boxShadow: "0 16px 70px rgba(147,105,31,0.34)", duration: 0.9, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.3);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["07-rights-navigator"] = tl;
+    })();
+  </script>
+</template>

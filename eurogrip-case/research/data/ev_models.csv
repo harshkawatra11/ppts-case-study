@@ -1,0 +1,11 @@
+model,maker,segment,kerb_weight_kg,peak_torque_nm,front_tyre,rear_tyre,rim_in,fy_sales_units,source_sid
+Ola S1 Pro,Ola Electric,EV scooter,118,58,90/90-R12,90/90-R12,12,164294,S471
+TVS iQube 2.2 kWh,TVS Motor,EV scooter,112,140,90/90-12,90/90-12,12,341471,S472
+TVS iQube 3.1 kWh,TVS Motor,EV scooter,116.8,140,90/90-12,90/90-12,12,341471,S472
+TVS iQube 3.5 kWh,TVS Motor,EV scooter,118.6,140,90/90-12,90/90-12,12,341471,S472
+Ather 450X 2.9 kWh,Ather Energy,EV scooter,108,26,90/90-12,100/80-12,12,239124,S507
+Ather 450X 3.7 kWh Pro Pack,Ather Energy,EV scooter,112,26,90/90-12,100/80-12,12,239124,S507
+Bajaj Chetak 3202,Bajaj Auto,EV scooter,134,20,90/90-12,90/100-12,12,289323,S508
+Hero Vida V1 Pro,Hero MotoCorp,EV scooter,125,25,90/90-12,100/80-12,12,144313,S509
+Honda Activa e,Honda Motorcycle and Scooter India,EV scooter,119,22,90/90-12,110/80-12,12,,S510
+Honda Activa 125 (ICE baseline),Honda Motorcycle and Scooter India,ICE scooter,106,10.5,90/90-12,90/100-10,12 front / 10 rear,,S510

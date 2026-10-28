@@ -1,0 +1,349 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .nav-ribbon {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      display: flex;
+      border: 2px solid #0A0A0A;
+      background: #EDEDED;
+    }
+    .ribbon-item {
+      padding: 6px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-right: 2px solid #0A0A0A;
+      color: #0A0A0A;
+      background: #E8B33C;
+    }
+    .ribbon-item.active {
+      background: #3A0E30;
+      color: #FFFFFF;
+    }
+    .ribbon-item:last-child {
+      border-right: none;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 36px;
+      right: 72px;
+      background: #3A0E30;
+      color: #FFF;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 6px 18px;
+      border: 2px solid #0A0A0A;
+    }
+
+    .section-chip {
+      position: absolute;
+      top: 86px;
+      left: 72px;
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .slide-headline {
+      position: absolute;
+      top: 132px;
+      left: 72px;
+      right: 72px;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0A0A0A;
+    }
+
+    /* Incident Clock Timeline */
+    .timeline-container {
+      position: absolute;
+      top: 220px;
+      left: 72px;
+      right: 72px;
+      height: 170px;
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 20px 30px;
+    }
+    .timeline-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 25px;
+    }
+    .timeline-bar {
+      position: relative;
+      width: 100%;
+      height: 6px;
+      background: #0A0A0A;
+      margin-top: 40px;
+    }
+    .timeline-tick {
+      position: absolute;
+      top: -12px;
+      width: 2px;
+      height: 30px;
+      background: #0A0A0A;
+    }
+    .timeline-label {
+      position: absolute;
+      top: 24px;
+      transform: translateX(-50%);
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .pukaar-window {
+      position: absolute;
+      top: -46px;
+      left: 10%;
+      width: 22%;
+      height: 40px;
+      background: #E5399E;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+    }
+    .legacy-marker {
+      position: absolute;
+      top: -65px;
+      left: 36%;
+      font-size: 12px;
+      font-weight: 700;
+      color: #5C1A4B;
+      background: #E8D5E2;
+      padding: 4px 8px;
+      border: 1.5px solid #0A0A0A;
+    }
+
+    /* Main Grid: Comparison Table vs Opportunity Gaps */
+    .grid-container {
+      position: absolute;
+      top: 420px;
+      left: 72px;
+      right: 72px;
+      bottom: 50px;
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 32px;
+    }
+
+    .table-panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+    th, td {
+      border: 1.5px solid #0A0A0A;
+      padding: 9px 12px;
+      text-align: center;
+    }
+    th {
+      background: #E8D5E2;
+      font-weight: 800;
+      color: #3A0E30;
+    }
+    th:first-child, td:first-child {
+      text-align: left;
+      font-weight: 700;
+    }
+    .highlight-col {
+      background: #E8B33C;
+      font-weight: 800;
+    }
+
+    .gaps-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .gap-card {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 800;
+      color: #0A0A0A;
+      display: flex;
+      align-items: center;
+    }
+    .gap-card.primary {
+      background: #E5399E;
+      color: #FFFFFF;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 16px;
+      left: 72px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="03-prevention-window" data-width="1920" data-height="1080">
+    <div class="nav-ribbon">
+      <div class="ribbon-item">PROBLEM</div>
+      <div class="ribbon-item active">ANALYSIS</div>
+      <div class="ribbon-item">SOLUTION</div>
+      <div class="ribbon-item">ARCHITECTURE</div>
+      <div class="ribbon-item">IMPACT</div>
+    </div>
+    <div class="slide-num">03 / 07</div>
+
+    <div class="section-chip">PROBLEM ANALYSIS</div>
+
+    <div class="slide-headline" id="headline-03">
+      The alarm layer is mature. The missed window is before escalation, when she needs cover more than a button.
+    </div>
+
+    <!-- Incident Clock Timeline -->
+    <div class="timeline-container" id="timeline-box">
+      <div class="timeline-title">Incident Clock: Where Safety Products Activate</div>
+      <div class="timeline-bar">
+        <!-- Pukaar Window -->
+        <div class="pukaar-window" id="pukaar-tag">Pukaar Prevention Window</div>
+        <!-- Legacy Marker -->
+        <div class="legacy-marker">Existing Apps: Himmat, 112, bSafe (After assault begins)</div>
+
+        <div class="timeline-tick" style="left: 10%;"></div>
+        <div class="timeline-label" style="left: 10%;">T-90s</div>
+
+        <div class="timeline-tick" style="left: 22%;"></div>
+        <div class="timeline-label" style="left: 22%;">T-30s</div>
+
+        <div class="timeline-tick" style="left: 36%;"></div>
+        <div class="timeline-label" style="left: 36%; font-weight: 900; color: #E5399E;">T+0 (Incident)</div>
+
+        <div class="timeline-tick" style="left: 60%;"></div>
+        <div class="timeline-label" style="left: 60%;">T+5m</div>
+
+        <div class="timeline-tick" style="left: 85%;"></div>
+        <div class="timeline-label" style="left: 85%;">T+18.6m (Police arrive)</div>
+      </div>
+    </div>
+
+    <!-- Table + Gaps -->
+    <div class="grid-container">
+      <div class="table-panel" id="table-box">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>112</th>
+              <th>Himmat+</th>
+              <th>Raksha</th>
+              <th>bSafe</th>
+              <th>HerSignal</th>
+              <th class="highlight-col">Pukaar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Trigger</td>
+              <td>Tap</td>
+              <td>Tap</td>
+              <td>SMS</td>
+              <td>Tap</td>
+              <td>Tap</td>
+              <td class="highlight-col">Spoken</td>
+            </tr>
+            <tr>
+              <td>Watched phone</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Partly</td>
+              <td class="highlight-col">Yes</td>
+            </tr>
+            <tr>
+              <td>Two-way talk</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td class="highlight-col">Yes</td>
+            </tr>
+            <tr>
+              <td>Before act</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Partly</td>
+              <td>Partly</td>
+              <td class="highlight-col">Yes</td>
+            </tr>
+            <tr>
+              <td>India-first</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>No</td>
+              <td>No</td>
+              <td class="highlight-col">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="gaps-panel" id="gaps-box">
+        <div class="gap-card">⏱️ 90 seconds before escalation</div>
+        <div class="gap-card">📱 Works while phone is actively watched</div>
+        <div class="gap-card primary">✨ Turns an existing habit into product</div>
+      </div>
+    </div>
+
+    <div class="bottom-source">Source: DoT Panic-Button Rules | ERSS Response Data | Rideshare Safety Survey 2026</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#headline-03", { opacity: 0, y: 15, duration: 0.6, ease: "power2.out" }, 0.1);
+      tl.from("#timeline-box", { opacity: 0, y: 20, duration: 0.6, ease: "power3.out" }, 0.3);
+      tl.from("#pukaar-tag", { scale: 0, transformOrigin: "center center", duration: 0.5, ease: "back.out(1.7)" }, 0.8);
+      tl.from("#table-box, #gaps-box", { opacity: 0, y: 30, stagger: 0.15, duration: 0.7, ease: "power3.out" }, 1.0);
+
+      tl.to({}, { duration: 10.40 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["03-prevention-window"] = tl;
+    })();
+  </script>
+</template>

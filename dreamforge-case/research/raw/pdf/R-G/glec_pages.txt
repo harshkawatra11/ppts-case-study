@@ -1,0 +1,585 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+=== page 58 ===
+58
+Emission Intensity
+Emission intensity is an important KPI to 
+gain insight into the efficiency of transport 
+and transport operations. Emission intensity 
+metrics provide a numerical value to track, 
+analyze and strategize emissions reduction. 
+They also provide a pathway for companies 
+to showcase efficiency in the face of business 
+growth; e.g. an expanding business might 
+show an increase in total emissions while 
+reducing emission intensity.
+Generally, reporting a KPI combination of total 
+emissions and emission intensity values is 
+always the best way to understand how far 
+an improvement of transport efficiency and 
+sustainability is achieved, e.g., by reporting a 
+tonne-kilometer-based emission intensity KPI 
+alongside total emissions. 
+Emission intensity values provide a numerical 
+basis for carriers to communicate to 
+customers and stakeholders their progress 
+towards meeting emissions reduction targets 
+over time. For example, if an operator invests 
+in new electric trucks or consolidates its 
+shipments to reduce partial loads, the energy 
+efficiency will go up and the CO2e intensity will 
+go down.
+Figure 2 
+Calculating emission 
+intensity of transport 
+operation categories 
+(TOCs) 
+Figure 3 
+Calculating emission 
+intensity of hub 
+operation categories 
+(HOCs)
+GHG emission 
+intensity of a 
+hub operation 
+activity
+Total GHG 
+emissions of 
+that specific 
+hub operation 
+activity 
+Quantity of 
+this  specific 
+hub operation 
+activity
+=
+GHG emission 
+intensity of 
+a transport 
+activity
+Total GHG 
+emissions 
+of a specific 
+transport 
+activity 
+Quantity of 
+this specific 
+transport 
+activity in tkm
+=
+Granularity
+In the context of reporting GHG emissions, 
+granularity refers to the level of detail at which 
+data is reported or analyzed. It is the extent 
+to which data is broken down into smaller or 
+more specific components.
+For example, in the case of reporting GHG 
+emissions for transport and hubs, granularity 
+may refer to the level of detail at which 
+emissions are reported for different modes of 
+transport, types of hubs, or specific transport 
+or hub services. A high level of granularity 
+would mean that emissions are reported 
+in very specific detail, while a low level of 
+granularity would mean that emissions are 
+reported in more general terms.
+The level of granularity chosen will depend on 
+the goals of the reporting entity and the level 
+of detail needed to support decision-making 
+or communicate with stakeholders. In general, 
+higher granul
+
+=== page 59 ===
+59
+Accuracy and data quality
+To ensure transparency, an emission report 
+should be clearly structured, and the data 
+sourcing and calculation must be explained. 
+ISO 14083 requires transparent reporting 
+of modeled data or default GHG emission 
+intensities used in calculations.2 Each report 
+should specify the quality of data used by 
+indicating the share of primary and secondary 
+data applied in the calculation of GHG 
+emissions. For secondary data, the report 
+should distinguish between the share of 
+modeled and default data.2 
+If modeled data is used, the report must 
+specify the type of model used and the 
+parameters applied. If the share of primary 
+and secondary data used for different TOC 
+parameters (such as vehicle size category, 
+filling rate and street category/topography) 
+differs as input to a model, the report should 
+indicate what the balance of data type is for 
+each parameter. Furthermore, for each model 
+it should be stated, which of the following 
+parameters are included or not:2
+?	 use of energy or activity-based model
+?	 vehicle related: vehicle class and fleet 	
+	
+	 profile, energy consumption profile, vehicle 	
+	 configuration (body type and empty vehicle 
+	 mass, engine type, engine emission class,  
+	 energy carrier used in vehicle, share of  
+	 energy carrier)
+?	 operational: freight type (freight  
+	 requirements/characteristics, use of specific  
+	 container types, load factor of average load  
+	 expressed in tonnes, service type such as 
+	 full truck load, less than truck load etc.,  
+	 extent of empty trips)
+?	 journey characteristics: routing including 
+	 locations of intermediate stops (route 	
+	
+	 characteristics, location characteristics,  
+	 direct/via locations/multiple collection 
+	 and delivery), drive cycle (road type, urban/ 
+	 mixed/long-haul, frequency of stops, speed  
+	 profile, topography), geographic region of  
+	 applicability, currents/flowrate, head, cross 
+ 	 or tail wind and windspeed, any additional 		
+	 parameters
+When using default emission intensities, the 
+report must specify the source of the default 
+data and justify its use. 
+Frequency and format of reporting
+Reports should be produced at least 
+annually and more frequently when deemed 
+necessary and relevant, such as during 
+change processes or to evaluate different 
+development scenarios. The report must 
+specify the exact period covered.
+There are different reporting formats that 
+an organization can use, depending on its 
+objectives and audienc
+
+=== page 61 ===
+61
+The table below summarizes the basic 
+reporting requirements and the recommended 
+requirements of ISO 14083 for reporting GHG 
+emissions at the organizational level and the 
+level of transport or hub services:2
+   Reporting requirements
+Identification of transport 
+chains/services
+Reference to ISO 14083
+Total GHG emissions
+Total GHG emission intensity
+Total GHG emissions for each mode 
+of transport and hub operation
+Total GHG emission intensity for 
+each mode
+Reference to the location of 
+supporting info
+Report Frequency
+Data Quality
+Specification of any deviation to 
+standard processes
+Additional Details strongly 
+recommended
+   Organizational level
+Report on all or part of transport chains 
+operated or used by an organization
+Required
+Required
+Required, specifying the type of 
+transport activity distance used
+Required
+Required, specifying the type of 
+transport activity distance used
+Required
+At least on an annual basis covering 
+all operations performed or purchased 
+during a 12-month period
+Specification of data quality applied 
+(primary or secondary, modeled or 
+default values)
+Required, including explanation for 
+deviation and resulting impacts
+? Disaggregation of GHG emissions by 
+	 mode of transport and by hub location
+? disaggregation of total GHG emissions 
+	 into operational GHG emissions and 
+	 energy provision GHG emissions
+? breakdown of GHG emissions by
+	 energy carrier.
+   Transport or hub services level
+Identification of TCE(s) or transport 
+chain(s) covered by the report
+Required
+Required
+Required, specifying the type of 
+transport activity distance used
+Required
+Required, specifying the type of 
+transport activity distance used
+Required
+At least on an annual basis covering 
+all operations performed or purchased 
+during a 12-month period
+Specification of data quality applied 
+(primary or secondary, modeled or 
+default values)
+Required, including explanation for 
+deviation and resulting impacts
+? Disaggregation of GHG emissions by 
+	 mode of transport and by hub location
+? disaggregation of total GHG emissions 
+	 into operational GHG emissions and 
+	 energy provision GHG emissions
+? breakdown of GHG emissions by
+	 energy carrier.
+4. Tracking emission reductions 
+in conformance with the GLEC 
+principles beyond ISO 14083
+There are many ways to calculate aggregated 
+and mode-specific logistics GHG emission 
+reductions on a year-on-year basis. In the 
+following, KPIs under the principles of the 
+GLEC are listed and explained:
+?	 Reduction o
+
+=== page 65 ===
+65
+		
+Carbon Disclosure Project4
+The CDP, started in the UK in 2002, has become 
+a multinational NGO to which thousands of 
+companies disclose their GHG emissions. CDP 
+allows a range of protocols for reporting, and 
+most companies report their GHG emissions 
+to CDP using the GHG Protocol or a protocol 
+based on it. Since 2018 the GLEC Framework 
+has been recognized by CDP as a mechanism for 
+calculating and reporting logistics GHG emissions 
+as part of a broader corporate report.
+In 2018, CDP released guidance on creating 
+transportation emission intensity metrics.8 
+In addition to reporting on emissions, CDP?s 
+questionnaire helps companies to evaluate 
+the relevance of each category?s emissions, 
+assess the potential to collaborate with suppliers 
+to reduce emissions and evaluate the risks 
+associated with supply chain transport emissions.
+CDP guidance includes provisions on how to 
+consider transportation in Scopes 1 and 2, and 
+detailed reporting requirements for each of the 
+15 categories in Scope 3 (listed below).9 Of 
+these categories, only five are included in the 
+ISO standard, namely: 1. Purchased goods and 
+services, 3. Fuel- and energy-related activities, 
+4. Upstream transport and distribution, 
+9. Downstream transport and distribution, 
+12. End-of-life treatment of sold products.
+? Category 1: Purchased goods and services. 	
+	 This includes WTW emissions from 	 	
+	
+	 transportation embedded in goods and services 	
+	 purchased by the reporting organization. These 	
+	 are cradle-to-gate emissions only; transportation 	
+	 from the supplier to the reporting organization is 	
+	 included in Category 4.
+? Category 2: Capital goods. Like Category 1, 
+	 this category contains WTW emissions for 	
+	
+	 transport embedded to capital goods purchased 	
+	 by the reporting organization.
+? Category 3: Fuel- and energy-related 	
+	
+	 emissions (not included in Scope 1 or 2. 
+	 Emissions related to the production and 	
+	
+	 distribution of fuels (WTT) burned in Scope 1 
+	 are included here.
+? Category 4: Upstream transportation 	
+	
+	 and distribution. This category covers WTW 	 	
+	 emissions from outsourced logistics services 	 	
+	 used to transport or distribute products from  
+	 tier 1 suppliers to organization facilities or 
+	 transport between the organization?s own 	
+	
+	 facilities. These are generally services paid  
+	 for by the reporting organization.
+? Category 5: Waste generated in operation.  
+	 This category includes WTW emissions related 
+ 	to logist
+
+=== page 68 ===
+68
+Make your efforts visible
+The use of standardized GHG emission 
+accounting is a valuable, respected and 
+increasingly requested action for companies 
+to render their sustainability efforts visible 
+and to prove their commitment to meeting 
+climate targets. In areas such as financing 
+and insurance, as well as in tender processes, 
+this commitment is taken into consideration 
+for evaluation of organizations. Adopting 
+the GLEC Framework v3, and therefore the 
+ISO 14083, ensures that organizations are 
+prepared for such demands and expectations 
+from their stakeholders. It also equips them 
+with a KPI corporates can share with their 
+customers, who are increasingly looking for 
+sustainably produced products and services.
+Motivate your staff
+The impact of learning about processes and 
+procedures within your own organization in the 
+course of the data collection for your emission 
+accounting should not be underestimated. 
+Many companies who introduced GHG 
+emission accounting have reported that this 
+analysis of transport and logistics processes 
+in connection with the data collection has 
+already resulted in insights about inefficiency 
+and improvement potentials.
+Leverage sales and procurement
+Two important business mechanisms to 
+leverage carbon reduction, and where reliable 
+emissions data are essential, are sales and 
+procurement. 
+?	 Sales. If your organization is making 
+	 sustainable investments such as electric 
+	 vehicles, driver training and fuel-efficient 
+	 routing, this information can be used to drive 
+	 brand value as a provider or user of  
+	 sustainable transport. Emission intensity 
+	 KPIs, such as CO2e per tonne-kilometer, 
+	 provide information that allows your 
+	 investments to be showcased and	
+	
+	 celebrated. This information, in turn, can be 	
+	 used as a KPI in logistics planning activities, 	
+	 such as  choice of transport modes, routes 	
+	 or vehicle. 
+2
+Chapter 2
+Beyond 
+reporting 
+LSPs
+Carriers
+Aim higher
+Aim higher
+Sales
+Procurement
+Figure 3 
+Sales and Procurement ? powerful 
+levers for emission reduction
+?	 Procurement. Just as you can provide 	
+	
+	 GHG emission accounting information for 		
+	 your customers, you can also use the GLEC 	
+	 Framework in your procurement, to ensure 	
+	 that the services you purchase are 
+	 aligned with your corporate values. The 	
+	
+	 Smart Freight Procurement Guidelines 	
+	
+	 document provides  practical guidance on 
+ 	 how to integrate  climate into freight 
+	 transport and logistics procureme
+
+=== page 70 ===
+70
+Data quality assurance
+With a standard for emission accounting and 
+reporting in place, it is important to develop 
+guidance and assurance processes for data 
+quality as a next step. Such data quality 
+assurance protects companies? efforts from 
+greenwashing by validating their efforts. Along 
+with data exchange, these two steps are key 
+for a global uptake, and one supports the 
+other. Reliable and assured data quality is 
+needed for data exchange. At the same time 
+data exchange and big data is required for 
+establishing meaningful default data basis.
+Data exchange
+Improved access to reliable data will help 
+both business and governments make 
+better decisions to collectively reach climate 
+goals. To get there, improved data exchange 
+and supportive programs, tools, initiatives, 
+standards, policy and research are key.
+Access to good quality, preferably 
+independently verified, data is a condition 
+for transport operators and their customers 
+to maximize the impact of applying the 
+GLEC Framework. Data collection and 
+sharing initiatives exist, such as Clean Cargo 
+and SmartWay. For transport operators, 
+particularly in the road freight sector, their 
+customers, information technology system 
+providers and operators of energy efficiency 
+and emissions data platforms further efforts 
+are needed to: 
+?	Harmonize the approach to the collection 	 	
+	 of the data necessary for comprehensive 	 	
+	 and meaningful freight emissions KPIs.
+?	Develop consistent formats to enable data 	
+Aim higher
+	 sharing between an interoperable network  
+	 of platforms.
+?	 Incorporate consistent reporting of carbon 	
+	 emissions, and hence the development 	
+	
+	 and implementation of a widespread GHG 		
+	 emission reduction strategy.
+We are already in a world of big data, and 
+with digital technologies that coordinate the 
+complex movement of millions of tonnes of 
+goods each day, the amount of data is only 
+going to increase. Digitization brings with it 
+new opportunities for coordination that can 
+be capitalized upon to collect and share the 
+data needed to use the GLEC Framework on 
+a global scale. The SFC Data Exchange 
+Network and the WBCSD PACT/Pathfinders 
+are tools to facilitate such a data exchange. 
+Further alignment of emission tools and 
+approaches
+Next to the alignment of data quality and its 
+assurance, the further alignment of emission 
+tools and approaches is an important step 
+towards global uptake. The more programs 
+are aligned, the more easily companies can
+
+=== page 71 ===
+71
+Sustainability initiatives
+A further effective way to realize widespread 
+uptake of the GLEC Framework is through 
+climate and sustainability initiatives that reach 
+beyond the freight sector.
+The CDP already recommends using the 
+GLEC Framework for companies that report 
+logistics emissions to the scheme.14 It is 
+also the basis of the SBTi?s guidance for 
+the transport sector, allowing companies to 
+include logistics in their corporate targets.15 
+The GLEC Framework is one of the actions of 
+the Global Green Freight Action Plan, which 
+is a transport initiative under the Marrakech 
+Partnership for Global Climate Action of the 
+United Nations Framework Convention on 
+Climate Change.16 All initiatives with a climate 
+or sustainability focus, including socially 
+responsible investment funds, are encouraged 
+to follow suit.
+The freight sector is not in control of its 
+own destiny but merely responds to market 
+demand. For that reason, mainstreaming the 
+inclusion of logistics GHG emissions through 
+the GLEC Framework and ISO 14083, into 
+sectoral sustainability initiatives, is key. The 
+electronics sector is leading the charge 
+through inclusion of the GLEC Framework 
+in the Electronic Product Environmental 
+Assessment Tool (EPEAT) standards of the 
+Green Electronics Council.17 Similarly, it has 
+been incorporated in guidance for container 
+port terminals.18  Ideally, product labels, such 
+as for cotton, food and forestry products, will 
+all assess whether logistics emissions is a 
+blind spot.
+Aim higher
+Assurance
+Many companies have started to introduce 
+emission accounting and reporting. 
+Assurance, in the form of verification of 
+corporate emission calculations and claims 
+and certification of calculation tool processes, 
+is important for these companies for two 
+reasons: transparency towards others, 
+and clarity and reliability towards their own 
+management.
+As far as transparency is concerned, 
+independent assurance confirms to external 
+partners and stakeholders that accounting and 
+reporting are carried out reliably according 
+to a specified norm. The assurance is 
+confirmation to external partners of the efforts 
+made by an organization. At the same time, 
+such assurance supports customers to trust 
+the reported emissions, and for governments 
+the assurance is the basis for policy measures.
+The second reason for assurance is 
+the confirmation that the results of an 
+organization?s emission accounting and 
+reporting is based on an approved approach
+
+=== page 144 ===
+144
+? Use of incorrect emission factors ? most 	 	
+	 likely substituting a tank-to-wheel rather 	
+	
+	 than a well-to-wheel value. This would be 	 	
+	 apparent through incorrect, probably lower, 	
+	 total emission and emission intensities than 	
+	 expected. 
+? Failure to include the emissions from empty 	
+	 running within the calculation.  This would 
+ 	result in a systematically lower, total  
+	 emission and emission intensities than 	
+	
+	 expected and would be more noticeable for 	
+	 dedicated transport where the level of empty 	
+	 running is higher. 
+? Inclusion of the weight of transport 	
+	
+	 equipment, such as containers or tank 	
+	
+	 containers, within the weight of the load 	
+	
+	 and hence the transport activity (tonne-km).  
+	 This would result in a systematically lower, 		
+	 total emission and emission intensities than 	
+	 expected. 
+ 
+In the future, as this type of data sharing 
+becomes more common it is likely that cost-
+effective, commercial data verification services 
+will become available.
+5.3 Alternative Calculation approaches 
+ 
+In addition to the use of aggregated data 
+provided by the carrier, which is presented 
+above as the standard approach to reporting, 
+and the backup provided by the chemical 
+sector default emission intensities presented 
+in this report, other approaches are possible. 
+ 
+5.3.1 Shipment level data 
+ 
+As noted in Section 4 Step 4, your carrier may 
+be willing to share primary information with 
+you so that you can see the full calculation.  
+This would probably help to remove 
+uncertainty regarding the approach taken 
+and data used in the calculation.  Access to 
+data at this level is most likely for dedicated 
+transport where long term contracts support 
+a truly collaborative approach to operational 
+efficiency.  In contrast, this approach is 
+unlikely for shared transport options where 
+it might reveal commercially confidential 
+information. 
+ 
+This level of data transparency can be useful 
+to understand the underlying issues that 
+influence GHG performance; however, as 
+corporate reporting generally occurs at annual 
+level it is more useful for proactively identifying 
+opportunities for operational efficiency and 
+emission reduction through gain sharing 
+ 
+If you do have access to shipment level data 
+in collaboration with your carrier, it is important 
+to resist the temptation to exclude emissions 
+linked to empty running.  For road transport 
+the most widely accepted way to include the 
+impact of empty running is 
+

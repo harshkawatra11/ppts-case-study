@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NewsRoom</title>
+    
+<link rel="canonical" href="https://www.yulu.bike/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NewsRoom" />
+<meta property="og:url" content="https://www.yulu.bike/" />
+<meta property="og:site_name" content="Yulu" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NewsRoom" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.yulu.bike/#website","url":"https://www.yulu.bike/","name":"Yulu","potentialAction":{"@type":"SearchAction","target":"https://www.yulu.bike/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.yulu.bike/#webpage","url":"https://www.yulu.bike/","inLanguage":"en-US","name":"NewsRoom","isPartOf":{"@id":"https://www.yulu.bike/#website"},"datePublished":"2019-08-09T13:52:50+00:00","dateModified":"2019-09-03T11:58:28+00:00"}]}</script>
+
+<link rel='dns-prefetch' href='//www.yulu.bike' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.yulu.bike\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.yulu.bike/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.yulu.bike/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_load_more-frontend-css'  href='https://www.yulu.bike/wp-content/plugins/easy-load-more/assets/css/frontend.css?ver=1.0.0' type='text/css' media='all' />
+<style id='easy_load_more-frontend-inline-css' type='text/css'>
+.elm-button { background: #00dcf7; color: #071228; }
+.elm-button:hover, .elm-button:active, .elm-button:focus { background: #33e3f9; }
+.elm-loading-icon { fill: #071228; stroke: #071228; }
+
+</style>
+<link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='https://www.yulu.bike/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=5.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.yulu.bike/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.yulu.bike/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://www.yulu.bike/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.yulu.bike/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.yulu.bike/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.yulu.bike/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.yulu.bike/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.yulu.bike%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.yulu.bike/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.yulu.bike%2F&#038;format=xml" />
+<link rel="icon" href="https://www.yulu.bike/wp-content/uploads/2019/08/ms-icon-310x310-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.yulu.bike/wp-content/uploads/2019/08/ms-icon-310x310-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.yulu.bike/wp-content/uploads/2019/08/ms-icon-310x310-300x300.png" />
+<meta name="msapplication-TileImage" content="https://www.yulu.bike/wp-content/uploads/2019/08/ms-icon-310x310-300x300.png" />
+		<style type="text/css" id="wp-custom-css">
+			.footer-links-wrapper {
+    color: #949CAB;
+    background-color: #071228;
+}
+
+.blog-description-text img {
+    width: 100%;
+    height: auto;
+}		</style>
+		    <link rel="preload" href="https://www.yulu.bike/wp-content/uploads/2019/08/banner_mini.mp4" type="video/mp4" as="video">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://newsroom.yulu.bike/assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/header.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/home-1st-fold.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/css/swiper.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/fonts.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://newsroom.yulu.bike/assets/css/fonts_v1.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/home.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/css/download.css">
+</head>
+
+<body>
+    <header id="navbar-template" class="fixed-top">
+        <nav class="navbar navbar-expand-lg mobile-bg-color align-items-stretch">
+    <a class="navbar-brand" href="https://www.yulu.bike"><img src="https://www.yulu.bike/wp-content/uploads/2019/08/Yulu-Logo.svg" alt="Yulu"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-toggler-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul id=" " class="navbar-nav ml-auto header-link"><li id="menu-item-22" class="nav-item page-link-wrapper menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22"><a href="https://www.yulu.bike/" class="nav-link">Home</a></li>
+        <li id="menu-item-24" class="nav-item page-link-wrapper dropdown products menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="#" class="nav-link">Products</a></li>
+        <li id="menu-item-25" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://www.yulu.bike/partners/" class="nav-link">Partner</a></li>
+        <li id="menu-item-3860" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom menu-item-3860"><a href="https://ats.careers.yulu.bike" class="nav-link">Careers</a></li>
+        <li id="menu-item-23" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="https://www.yulu.bike/about/" class="nav-link">About</a></li>
+        <li id="menu-item-27" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-27"><a href="https://newsroom.yulu.bike" aria-current="page" class="nav-link">NewsRoom</a></li>
+        <li id="menu-item-28" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="https://www.yulu.bike/blogs/" class="nav-link">Blogs</a></li>
+        <li id="menu-item-1843" class="nav-item page-link-wrapper menu-item menu-item-type-custom menu-item-object-custom menu-item-1843"><a href="http://rentals.yulu.bike/" class="nav-link">Long Term Rentals</a></li>
+        
+        <li id="menu-item-30" class="nav-item page-link-wrapper download-app-link-wrapper large-link-wrapper no-active menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="https://www.yulu.bike/download-yulu/" class="nav-link"><span>Download</span><p>Yulu App</p></a></li>
+        </ul>
+        <div id="products" style="display: none;">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">                     <a class="dropdown-item" href="https://www.yulu.bike/products/miracle/">
+                        <div class="image-wrapper">
+                            <img class="upper" src="https://www.yulu.bike/wp-content/uploads/2019/08/Miracle.png" alt="Miracle">
+                            <img class="lower" src="https://www.yulu.bike/wp-content/uploads/2019/08/Miracle.gif" alt="Miracle">
+                        </div> Miracle                    </a>                     <a class="dropdown-item" href="https://www.yulu.bike/products/move/">
+                        <div class="image-wrapper">
+                            <img class="upper" src="https://www.yulu.bike/wp-content/uploads/2019/08/Move.png" alt="Move">
+                            <img class="lower" src="https://www.yulu.bike/wp-content/uploads/2019/08/Move.gif" alt="Move">
+                        </div> Move                    </a>                     <a class="dropdown-item" href="https://www.yulu.bike/products/dex/">
+                        <div class="image-wrapper">
+                            <img class="upper" src="https://www.yulu.bike/wp-content/uploads/2021/09/dex_menu_icon.png" alt="Dex">
+                            <img class="lower" src="https://www.yulu.bike/wp-content/uploads/2021/09/dex_menu_icon.png" alt="Dex">
+                        </div> Dex                    </a>             </div>
+        </div>
+
+        <div id="appDownload" style="display: none;">
+            <li class="nav-item download-btn-wrapper d-none">
+                <a class="nav-link download-btn"  href="https://play.google.com/store/apps/details?id=app.yulu.bike" rel="noopener" target="_blank">
+                    <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Download/Google-play-color.svg" class="img img-fluid" alt="Yulu App - Google Store">
+                </a>
+            </li>
+            <li class="nav-item download-btn-wrapper d-none">
+                <a class="nav-link download-btn"  href="https://itunes.apple.com/in/app/yulu-bike/id1331504548" rel="noopener" target="_blank">
+                    <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Download/App-store.svg" class="img img-fluid" alt="Yulu App - Apple Store">
+                </a>
+            </li>
+        </div>
+    </div>
+</nav>    </header>
+    <section class="download-section-1 banner-section">
+        <div class="container-fluid container-custom">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 custom-grid-column">
+                    <div class="press-kit-content-container">
+                        <div class="section-headings">
+                            <h3>NewsRoom</h3>
+                        </div>
+                        <!-- <p class="text-content">Working on a story about Yulu? We have put together a media kit with all the information you need.<br><br>You can also drop a line to Pr@yulu.bike and we'll be happy to help!</p> -->
+                        <p class="text-content">
+                            Find all the important media & news announcements by Yulu here.<br><br>
+                            If you are working on a story on Yulu, you can refer to the media kit here for important information you might need. And if you would like to get in touch, feel free to write to pr@yulu.bike and we will be happy to connect.
+                        </p>
+                        <!-- <a href="https://www.yulu.bike/wp-content/uploads/2019/11/yulu_media_broucher_kit.pdf" download><button class="download-btn">Download Media kit</button></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 background-img-container press-kit-image lazy-bg" style="background-image: url(https://www.yulu.bike/wp-content/uploads/2019/09/PressMedia.jpg);height: calc(80vh - 82px);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section-4">
+        <div class="container">
+            <div class="row">
+                <div class="section-headings col-12 text-center">
+                    <h3>PRESS RELEASES</h3>
+                </div>
+            </div>
+            <div class="row news-card-container">
+                <div class="col-12 news-card-wrapper" style="overflow: scroll;">
+                    <a href="https://newsroom.yulu.bike/press-01-April-2024.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg" data-src="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Launches in Indore with Industry-First Franchise Partner-Led Model</h5>
+                                <p class="card-text"><small class="text-muted">01 April 2024</small></p>
+                                <p class="card-text d-none d-md-block">Yulu has launched its services in Indore, Madhya Pradesh, in partnership with a city-based firm, Yuva Mobility. The much-anticipated launch in India’s cleanest city will see Yuva independently operating Yulu’s popular electric vehicles (EV) across Indore, with infrastructural and technological support from Yulu.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-23-February-2024.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg" data-src="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Co-founder_(From_L-R_Anuj_Tewari,Naveen_Dachuri,RK_Misra,Amit_Gupta).jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Raises $19.25 Mn in Equity Funding</h5>
+                                <p class="card-text"><small class="text-muted">23 February 2024</small></p>
+                                <p class="card-text d-none d-md-block">The funds have been raised via further issuance of shares to Yulu’s existing strategic investors Magna and Bajaj Auto. The infusion will enable Yulu to quickly unlock additional capital and cater to the spurt in demand for its shared electric vehicle (EV) services over the past year.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-10-November-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/Yulu_Names_CFO_Anuj_Tewari_as_Co-Founder.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Names CFO Anuj Tewari as Co-Founder</h5>
+                                <p class="card-text"><small class="text-muted">10 November 2023</small></p>
+                                <p class="card-text d-none d-md-block">Following the announcement, Anuj formally joins the existing founding team—CEO Amit Gupta, CTO Naveen Dachuri, and President Ecosystem Partnerships RK Misra, at the helm of India’s largest shared electric two-wheeler mobility firm. Anuj’s elevation at Yulu – he is now both Co-Founder and CFO – comes at a time of rapid growth for the company.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-18-August-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_zepto_partnership.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Partners with Zepto to Scale Green Hyperlocal Deliveries</h5>
+                                <p class="card-text"><small class="text-muted">18 August 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu announces its partnership with Zepto, India’s fastest growing e-grocery service. The association will expand Yulu’s presence in the fast-growing hyperlocal delivery category, while enabling Zepto to move to an all-electric vehicle fleet and maximise green deliveries.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-03-August-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu-ybp.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Invites Entrepreneurs in Indian Cities to Become Local E-mobility Pioneers</h5>
+                                <p class="card-text"><small class="text-muted">03 August 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu launched the Yulu Business Partner initiative for Indian cities. The Yulu Business Partner initiative aims to transform the mobility landscape in non-metro cities by enabling 10,000 Yulu electric 2-wheelers to be rolled out over the coming year.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-20-July-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu-gurugram.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu Powers into Gurugram to Revolutionise Last-Mile Mobility & Delivery</h5>
+                                <p class="card-text"><small class="text-muted">20 July 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu launched its mobility-as-a-service (MaaS) offering in Gurugram, Haryana, today. Gurugram is Yulu’s 4th city after Bengaluru, Mumbai & Delhi, where it already operates a shared fleet of over 25,000 electric vehicles.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-30-May-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/ficci-awards-press-release.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu wins "Smart Mobility" recognition in FICCI 4th Smart Urban Innovation Awards </h5>
+                                <p class="card-text"><small class="text-muted">30 May 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu wins FICCI 4th Smart Urban Innovation Awards under the “Smart Mobility” category. The award is in recognition of Yulu’s successful integration of technology, sustainability, and convenience to building innovative urban mobility solutions.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-04-May-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/deepak_yuma.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yuma Energy appoints Deepak Nanwani as the Head of Revenue & Operations</h5>
+                                <p class="card-text"><small class="text-muted">04 May 2023</small></p>
+                                <p class="card-text d-none d-md-block">Deepak comes with deep expertise in mobility & technology. Deepak will focus on building a strong Yuma network to enable anxiety free e-mobility for the masses, building business partnerships with OEMs to bring them on Yuma's network and implementing processes to create positive customer experiences.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-28-April-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_wynn.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu launches Wynn, India's 1st electric 2-wheeler for easy-mobility</h5>
+                                <p class="card-text"><small class="text-muted">28 April 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu, India's largest shared electric mobility company, opened the bookings of its 1st personal electric two-wheeler Yulu Wynn - India's 1st electric 2-wheeler for easy-mobility. Wynn is born out of years of understanding & research that Yulu has gathered on user behaviour & urban mobility needs of a wide cross-section of customers.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-26-April-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/mumbai_yulu.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu aims to power half-million green rides & 3 Mn green deliveries in Mumbai & Navi Mumbai</h5>
+                                <p class="card-text"><small class="text-muted">26 April 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu is doubling-down on its green and shared electric mobility services in Mumbai & Navi Mumbai. With 3500+ vehicles on the road it has already increased its fleet size by 3 times in 2023 and aims to exit the year with 10,000+ vehicles on the road.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-03-April-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_and_zomato_green_deliveries.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu and Zomato join hands to make last-mile deliveries green</h5>
+                                <p class="card-text"><small class="text-muted">03 April 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu announced its association with Zomato for using Yulu DeX EV for intra-city deliveries. Kicking off this project, about 25,000-35,000 Yulu DeX will be given to delivery partners onboarded on Zomato’s platform for last-mile deliveries on custom-made rental plans.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-27-Feb-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_bajaj_release.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu & Bajaj Auto launch new electric 2-wheeler platform</h5>
+                                <p class="card-text"><small class="text-muted">27 February 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu and Bajaj Auto today launched Miracle GR & DeX GR. Yulu-Bajaj partnership is a first-of-its-kind global collaboration between a new-age MaaS company and a leading OEM to create an all-new platform for sustainable last-mile mobility and deliveries.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-06-January-2023.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/amit_gupta_ceo_yulu_at_ces_2023_in_las_vegas_nevada.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu takes its EV micro-mobility solutions to a global audience at CES 2023</h5>
+                                <p class="card-text"><small class="text-muted">06 January 2023</small></p>
+                                <p class="card-text d-none d-md-block">Yulu is participating in the largest global consumer tech event, the Consumer Electronic Show (CES) 2023 in Las Vegas, Nevada (USA). Yulu's electric mobility platform is built to enable several micro-mobility use cases, and provides a plug & play solution to build green and profitable businesses globally.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-05-December-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/yulu_green_mobility_partner_bmm_2022.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu joins Bengaluru Midnight Marathon (BMM) 2022 as Green Mobility Partner</h5>
+                                <p class="card-text"><small class="text-muted">05 December 2022</small></p>
+                                <p class="card-text d-none d-md-block">Yulu continues its partnership with the BMM to help raise awareness and funds for environmental causes and build a connect with Bangaloreans. The theme for BMM 2022 is 'Run Freely Again' which celebrates the spirit of coming out and running in the open after a 2 year break due to the pandemic.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-14-November-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/anuj_tewari_2022_nov_yulu_management_team.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu secures $9 Mn from U.S. International Development Finance Corporation (DFC)</h5>
+                                <p class="card-text"><small class="text-muted">14 November 2022</small></p>
+                                <p class="card-text d-none d-md-block">Yulu, India's largest shared electric Mobility-as-a-Service (MaaS) player, received a loan confirmation of $9 Mn by the U.S. International Development Finance Corporation (DFC), the United States government's Development Financial Institution (DFI).</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-02-November-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/signs_an_mou_with_government_of_karnataka.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu signs an MoU with Government of Karnataka to invest ₹1200 crores</h5>
+                                <p class="card-text"><small class="text-muted">02 November 2022</small></p>
+                                <p class="card-text d-none d-md-block">Yulu, India's market leader in shared electric 2 wheeler Mobility-as-a-Service (MaaS) and Battery-as-a-Service (BaaS) businesses, today entered a Memorandum of Understanding (MoU) with the Government of Karnataka to invest ₹ 1200 crores and create 7000+ jobs.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-10-Oct-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/pradeep_puranam_head_of_revenue_operations.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu appoints Pradeep Puranam as Head - Revenue & Operations</h5>
+                                <p class="card-text"><small class="text-muted">10 October 2022</small></p>
+                                <p class="card-text d-none d-md-block">Pradeep's proven experience of growing consumer-facing businesses built on technology, and deep understanding of the mobility sector will play a key role in the scaling up ambitions of Yulu.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>                      
+                    <a href="https://newsroom.yulu.bike/press-12-Sep-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg" data-src="https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg" data-srcset="https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg 420w,
+                                https://newsroom.yulu.bike/assets/pdf/funding_announcement.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu secures $82 Mn (₹ 653 Cr) equity funding led by Magna</h5>
+                                <p class="card-text"><small class="text-muted">12 September 2022</small></p>
+                                <p class="card-text d-none d-md-block">Yulu, India's market leader in shared electric Mobility-as-a-Service (MaaS) and Battery-as-a-Service (BaaS) businesses, today announced the infusion of $82 Mn (Rs 653 Cr) in Series B funding round, led by mobility technology company, Magna International Inc.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-25-May-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/safe_rider.jpg" data-src="https://assets.yulu.bike/site/images/safe_rider.jpg" data-srcset="https://assets.yulu.bike/site/images/safe_rider.jpg 420w,
+                                https://assets.yulu.bike/site/images/safe_rider.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/safe_rider.jpg 420w,
+                                https://assets.yulu.bike/site/images/safe_rider.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">'Safe Rider' Program - India's 1st road safety program for delivery executives</h5>
+                                <p class="card-text"><small class="text-muted">25 May 2022</small></p>
+                                <p class="card-text d-none d-md-block">Bengaluru Traffic Police trained the inaugural batch of the 'Safe Rider' Program comprising 50 delivery executives. The program, co-created by Yulu, aims to impart traffic rules education and build road safety awareness among delivery workers.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-12-April-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/sandilya.jpg" data-src="https://assets.yulu.bike/site/images/sandilya.jpg" data-srcset="https://assets.yulu.bike/site/images/sandilya.jpg 420w,
+                                https://assets.yulu.bike/site/images/sandilya.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/sandilya.jpg 420w,
+                                https://assets.yulu.bike/site/images/sandilya.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu appoints Sandilya Konduri as Head of Product</h5>
+                                <p class="card-text"><small class="text-muted">12 April 2022</small></p>
+                                <p class="card-text d-none d-md-block">Sandilya's deep expertise & hands-on experience in building technology products for large-scale platforms will bolster Yulu's hyper-growth plans. He will focus on adoption of the latest technology and product management practices to help build a thriving product culture at Yulu.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-29-March-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/divay_pranav.jpg" data-src="https://assets.yulu.bike/site/images/divay_pranav.jpg" data-srcset="https://assets.yulu.bike/site/images/divay_pranav.jpg 420w,
+                                https://assets.yulu.bike/site/images/divay_pranav.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/divay_pranav.jpg 420w,
+                                https://assets.yulu.bike/site/images/divay_pranav.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu brings in Divay Pranav as Director - Policy & Partnerships</h5>
+                                <p class="card-text"><small class="text-muted">29 March 2022</small></p>
+                                <p class="card-text d-none d-md-block">Divay will apply his rich experience in public policy & business investment to accelerate growth of Yulu's businesses. He will also engage with key policymakers and stakeholders to create a conducive policy environment for shared EV's and BaaS in India.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-07-Mar-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg" data-src="https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg" data-srcset="https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg 420w,
+                                https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg 420w,
+                                https://assets.yulu.bike/site/images/3_million_battery_swaps.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">'Max Network' achieves 3MN battery swaps</h5>
+                                <p class="card-text"><small class="text-muted">07 March 2022</small></p>
+                                <p class="card-text d-none d-md-block">'Max Network' by Yulu becomes India's largest BaaS Network, with over 3 MN battery swaps till date. Spearheading India's EV revolution, Yulu will operate at 3 MN monthly battery swaps and 1 Lakh EVs by the end of 2022.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-21-Feb-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/manjunath_athrey.jpg" data-src="https://assets.yulu.bike/site/images/manjunath_athrey.jpg" data-srcset="https://assets.yulu.bike/site/images/manjunath_athrey.jpg 420w,
+                                https://assets.yulu.bike/site/images/manjunath_athrey.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/manjunath_athrey.jpg 420w,
+                                https://assets.yulu.bike/site/images/manjunath_athrey.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu appoints Manjunath Athrey as Head - Engineering</h5>
+                                <p class="card-text"><small class="text-muted">21 February 2022</small></p>
+                                <p class="card-text d-none d-md-block">Manjunath, a global technology leader with 25+ years of cross- geography experience finds the perfect blend of professional challenge and personal passion in his new role at Yulu. His primary responsibility will be to scale a world-class engineering team.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-17-Jan-2022.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/rupini_raman.jpg" data-src="https://assets.yulu.bike/site/images/rupini_raman.jpg" data-srcset="https://assets.yulu.bike/site/images/rupini_raman.jpg 420w,
+                                https://assets.yulu.bike/site/images/rupini_raman.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/rupini_raman.jpg 420w,
+                                https://assets.yulu.bike/site/images/rupini_raman.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu brings in Rupini Raman as Head of HR</h5>
+                                <p class="card-text"><small class="text-muted">17 January 2022</small></p>
+                                <p class="card-text d-none d-md-block">Raman is a seasoned HR professional with a rich experience in building organization capability for global brands. Her key responsibilities will be to build Yulu into a preferred employer brand and create an inclusive, enriching and progressive work culture.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-1-December-2021.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/ankit_taparia.jpg" data-src="https://assets.yulu.bike/site/images/ankit_taparia.jpg" data-srcset="https://assets.yulu.bike/site/images/ankit_taparia.jpg 420w,
+                                https://assets.yulu.bike/site/images/ankit_taparia.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/ankit_taparia.jpg 420w,
+                                https://assets.yulu.bike/site/images/ankit_taparia.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Ankit Taparia joins Yulu as Head of Marketing</h5>
+                                <p class="card-text"><small class="text-muted">1 December 2021</small></p>
+                                <p class="card-text d-none d-md-block">Ankit has a rich experience in the field of marketing and is a veteran of the mobility sector. In this new role, his primary responsibilities will include Brand Building, Marketing Communications, Public Relations, Growth & Marketing activities at Yulu.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://newsroom.yulu.bike/press-16-November-2021.html" rel="noopener" target="_blank" class="news-card">
+                        <div class="card common_card_wrapper">
+                            <img src="https://assets.yulu.bike/site/images/max_network.jpg" data-src="https://assets.yulu.bike/site/images/max_network.jpg" data-srcset="https://assets.yulu.bike/site/images/max_network.jpg 420w,
+                                https://assets.yulu.bike/site/images/max_network.jpg 1200w" class="img img-fluid card-img-top" alt="News &amp; Media" srcset="https://assets.yulu.bike/site/images/max_network.jpg 420w,
+                                https://assets.yulu.bike/site/images/max_network.jpg 1200w">
+                            <div class="card-body" data-mh="news-card">
+                                <h5 class="card-title">Yulu launches 'Max Network'</h5>
+                                <p class="card-text"><small class="text-muted">16 November 2021</small></p>
+                                <p class="card-text d-none d-md-block">'Max Network' will be India's first AI-enabled battery charging & swapping solution to accelerate electric 2W adoption. The first batch of 10 Yulu Max stations was launched in Bengaluru, with the inauguration held on 16 November, 2021.</p>
+                                <p class="card-text"><small class="text-muted read-more">Read More >></small></p>
+                            </div>
+                        </div>
+                    </a>                     
+                </div>
+                <div class="col-12 read-more-btn-container d-none">
+                    <div class="read-more-btn-wrapper">
+                        <button class="read-more-btn">View All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="modal video-popup-modal" tabindex="-1" role="dialog" id="video-popup">
+        <div class="modal-dialog container modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                    <video autoplay loop id="myVideo2" controls data-src="https://www.yulu.bike/wp-content/uploads/2019/08/banner-new.mp4">
+                        <source src="" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container py-5 px-md-0">
+    <div class="row">
+        <div class="col-md-4 col-lg-2 logo-wrapper">
+            <img src="https://www.yulu.bike/wp-content/uploads/2019/08/Yulu-Logo.svg" onclick="window.location='https://www.yulu.bike'" alt="Yulu">
+        </div>
+        <div class="col-12 col-md-6 download-btn-container d-md-none hidden-section">
+            <div class="download-btn-wrapper">
+                <a class="nav-link download-btn" href="https://play.google.com/store/apps/details?id=app.yulu.bike" rel="noopener" target="_blank">
+                    <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/g-play.svg" class="img img-fluid" alt="Yulu App - Google Store">
+                </a>
+            </div>
+            <div class="download-btn-wrapper">
+                <a class="nav-link download-btn" href="https://itunes.apple.com/in/app/yulu-bike/id1331504548" rel="noopener" target="_blank">
+                    <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/app-store.svg" class="img img-fluid" alt="Yulu App - Apple Store">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-6 footer-links-and-address-container">
+            <div class="row footer-links-and-address-wrapper">
+                <div class="col-6 col-md-4 footer-links-wrapper quick-links"> <ul id=" " class="footer-link-list"><li id="menu-item-702" class="footer-link-list-item menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://www.yulu.bike/blogs/" class="nav-link">Blogs</a></li>
+<li id="menu-item-49" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a href="https://www.yulu.bike/about/" class="nav-link">About</a></li>
+<li id="menu-item-50" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href="https://ats.careers.yulu.bike/" class="nav-link">Careers</a></li>
+<!-- <li id="menu-item-51" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="/media" class="nav-link">Media</a></li> -->
+<li id="menu-item-52" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a href="https://newsroom.yulu.bike" class="nav-link">NewsRoom</a></li>
+<li id="menu-item-53" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a href="https://www.yulu.bike/privacy-policy/" class="nav-link">Privacy Policy</a></li>
+<li id="menu-item-54" class="footer-link-list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-54"><a target="_blank" rel="noopener noreferrer" href="https://www.yulu.bike/policy/user_agreement.html" class="nav-link">User Agreement</a></li>
+<li id="menu-item-753" class="footer-link-list-item menu-item menu-item-type-post_type menu-item-object-page menu-item-753"><a href="https://www.yulu.bike/faq/" class="nav-link">FAQs</a></li>
+</ul>                </div>
+                <div class="col-6 col-md-3 footer-links-wrapper product-list-wrapper">
+                    <h4 class="footer-list-heading">Product</h4>
+                    <ul class="footer-link-list">                             <li class="footer-link-list-item">
+                                <a href="https://www.yulu.bike/products/miracle/">Miracle</a>
+                            </li>                             <li class="footer-link-list-item">
+                                <a href="https://www.yulu.bike/products/move/">Move</a>
+                            </li>                             <li class="footer-link-list-item">
+                                <a href="https://www.yulu.bike/products/dex/">Dex</a>
+                            </li>                     </ul>
+                </div>
+                <div class="col-12 col-md-4 px-md-0 footer-links-wrapper addressWrapper">
+                    <h4 class="footer-list-heading">Address</h4>
+                    <p class="addressText"> <div class="textwidget custom-html-widget">Yulu, 1st Floor, <br class="d-none d-md-block">Aurbis Business Park, <br class="d-none d-md-block">Survey No. 58, 7, Outer Ring Rd, 
+Devarabisanahalli, Bellandur, <br class="d-none d-md-block">Bengaluru, Karnataka 560103 <br class="d-none d-md-block">India
+
+ 
+</div>                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4 download-btns-and-social-links-container">
+            <div class="row download-btns-social-links-wrapper">
+                <div class="col-12 col-md-6 col-lg-12 download-btn-container d-none d-md-flex">
+                    <h4 class="footer-list-heading">Download App</h4>
+                    <div class="download-btn-wrapper">
+                        <a class="nav-link download-btn" href="https://play.google.com/store/apps/details?id=app.yulu.bike" rel="noopener" target="_blank">
+                            <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/g-play.svg" class="img img-fluid" alt="Yulu App - Google Store">
+                        </a>
+                    </div>
+                    <div class="download-btn-wrapper">
+                        <a class="nav-link download-btn" href="https://itunes.apple.com/in/app/yulu-bike/id1331504548" rel="noopener" target="_blank">
+                            <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/app-store.svg" class="img img-fluid" alt="Yulu App - Apple Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-12 footer-links-wrapper social-media-icons-container">
+                    <h4 class="footer-list-heading">Follow Us on</h4>
+                    <div class="social-icons-container">                             <a rel="noopener" target="_blank" href="https://www.facebook.com/yulumobility/">
+                                <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/fb.svg" alt="Facebook">
+                            </a>                             <a rel="noopener" target="_blank" href="https://www.instagram.com/yulubike/">
+                                <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/instagram.svg" alt="Instagram">
+                            </a>                             <a rel="noopener" target="_blank" href="https://www.linkedin.com/company/yulu/">
+                                <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/linkdn.svg" alt="Linkdin">
+                            </a>                             <a rel="noopener" target="_blank" href="https://twitter.com/yulubike">
+                                <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/twittr.svg" alt="Twitter">
+                            </a>                             <a rel="noopener" target="_blank" href="https://www.youtube.com/channel/UCvdrpmOQYF1N6Eh52b5S1Kg">
+                                <img src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/images/Home/Footer/youtube.svg" alt="Youtube">
+                            </a>                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid break-line-footer">
+    <div class="container py-3">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-7 text-center text-md-left">
+                <div class="textwidget custom-html-widget"><p>Copyright © 2019 Yulu Bikes Pvt Ltd</p></div>            </div>
+            <div class="col-sm-12 col-md-5 text-center text-md-right">
+<!--                 <p>Powered by <a href="http://www.redbaton.in/" rel="noopener" target="_blank" class="poweredByLink">Red Baton Design
+                        Studio</a></p> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    </footer>
+    <script>
+var ajaxurl = 'https://www.yulu.bike/wp-admin/admin-ajax.php';
+</script>
+<script type='text/javascript'>
+var fc_JS=document.createElement('script');
+fc_JS.type='text/javascript';
+fc_JS.src='https://wchat.freshchat.com/js/widget.js?t='+Date.now();
+(document.body?document.body:document.getElementsByTagName('head')[0]).appendChild(fc_JS); 
+window.fcSettings = { token:'7ca38372-bb51-47a6-a068-3f07170ca220', host : 'https://wchat.freshchat.com'};
+</script><script type='text/javascript' src='https://www.yulu.bike/wp-content/plugins/easy-load-more/assets/js/frontend.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.yulu.bike/wp-includes/js/wp-embed.min.js?ver=5.2.2'></script>
+	<script type="text/javascript">
+		var elm_button_vars = { wrapper: '.ajax-posts' };
+	</script>
+	    <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/popper.min.js"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/match-height.js"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/swiper.min.js"></script>
+    <script type="text/javascript" src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/vendor/js/yall.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107285707-1"></script>
+    <script src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/js/custom.js"></script>
+    <script src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/js/home.js"></script>
+    <script src="https://www.yulu.bike/wp-content/themes/redbaton/redbaton/js/common.js"></script>
+</body>
+</html>

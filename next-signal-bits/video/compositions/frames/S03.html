@@ -1,0 +1,44 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    #S03_root{position:relative;width:100%;height:100%;overflow:hidden;background:#FFFFFF;font-family:Arial,sans-serif}
+    #S03_kicker{position:absolute;left:0;right:0;top:160px;text-align:center;font-family:'Courier New',monospace;font-size:22px;letter-spacing:0.14em;text-transform:uppercase;color:#C8102E}
+    #S03_title{position:absolute;left:0;right:0;top:210px;text-align:center;font-family:Georgia,serif;font-size:52px;color:#0B0B0C;padding:0 300px}
+    #S03_row{position:absolute;left:160px;top:420px;width:1600px;height:280px;display:flex;gap:24px}
+    .s03-card{flex:1;border:2px solid #0B0B0C;background:#FFFFFF;padding:28px 20px;opacity:0}
+    .s03-num{font-family:'Courier New',monospace;font-size:26px;font-weight:700;color:#C8102E}
+    .s03-name{margin-top:14px;font-family:Georgia,serif;font-size:34px;color:#0B0B0C}
+    #S03_foot{position:absolute;left:0;right:0;bottom:140px;text-align:center;font-size:30px;color:#3A3936;padding:0 360px;opacity:0}
+  </style>
+  <div data-hf-id="hf-fy2m" id="S03_root" data-composition-id="S03" data-width="1920" data-height="1080">
+    
+    <div data-hf-id="hf-w4kt" id="S03_kicker">The method</div>
+    <div data-hf-id="hf-9nus" id="S03_title">Six stages, always in the same order</div>
+    <div data-hf-id="hf-uzg6" id="S03_row">
+      <div data-hf-id="hf-8y6m" class="s03-card" id="S03_c1"><div data-hf-id="hf-kx98" class="s03-num">01</div><div data-hf-id="hf-yx4b" class="s03-name">Discover</div></div>
+      <div data-hf-id="hf-2sgt" class="s03-card" id="S03_c2"><div data-hf-id="hf-jqc5" class="s03-num">02</div><div data-hf-id="hf-1nki" class="s03-name">Connect</div></div>
+      <div data-hf-id="hf-20t0" class="s03-card" id="S03_c3"><div data-hf-id="hf-k4n6" class="s03-num">03</div><div data-hf-id="hf-v8a8" class="s03-name">Calculate</div></div>
+      <div data-hf-id="hf-piaj" class="s03-card" id="S03_c4"><div data-hf-id="hf-m46b" class="s03-num">04</div><div data-hf-id="hf-vyi8" class="s03-name">Reason</div></div>
+      <div data-hf-id="hf-lk6i" class="s03-card" id="S03_c5"><div data-hf-id="hf-mihc" class="s03-num">05</div><div data-hf-id="hf-sptp" class="s03-name">Challenge</div></div>
+      <div data-hf-id="hf-hm2h" class="s03-card" id="S03_c6"><div data-hf-id="hf-lbk9" class="s03-num">06</div><div data-hf-id="hf-tmgy" class="s03-name">Prove</div></div>
+    </div>
+    <div data-hf-id="hf-o0sq" id="S03_foot">The arithmetic runs before any language model sees the numbers.</div>
+  </div>
+  <script>
+    (() => {
+      gsap.set(["#S03_kicker","#S03_title"], { opacity: 0 });
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#S03_kicker", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.1);
+      tl.fromTo("#S03_title", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.6 }, 0.3);
+      const cards = ["#S03_c1","#S03_c2","#S03_c3","#S03_c4","#S03_c5","#S03_c6"];
+      const spoken = [3.46, 4.36, 5.28, 6.16, 7.08, 7.92];
+      cards.forEach((sel, i) => {
+        tl.fromTo(sel, { opacity: 0, y: 16, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: "power2.out" }, spoken[i] + 0.10);
+      });
+      tl.fromTo("#S03_foot", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 9.25);
+      tl.to({}, { duration: 14.000 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S03"] = tl;
+    })();
+  </script>
+</template>

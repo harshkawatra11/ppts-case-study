@@ -1,0 +1,344 @@
+{
+  "text": " I am Harsh Kavatra with Gurus Imran Gaur as team idea forch. Most finance tools summarize a filing. Next signal, compute first, checks outside the company and spends most of its effort trying to prove itself wrong.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.8,
+      "text": " I am Harsh Kavatra with Gurus Imran Gaur as team idea forch.",
+      "tokens": [
+        50364,
+        286,
+        669,
+        48914,
+        591,
+        706,
+        33593,
+        365,
+        33716,
+        301,
+        4331,
+        4257,
+        460,
+        3463,
+        382,
+        1469,
+        1558,
+        337,
+        339,
+        13,
+        50590
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5347182959841009,
+      "compression_ratio": 1.3630573248407643,
+      "no_speech_prob": 0.035827409476041794,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.8655593395233154
+        },
+        {
+          "word": " am",
+          "start": 0.84,
+          "end": 0.94,
+          "probability": 0.7698542475700378
+        },
+        {
+          "word": " Harsh",
+          "start": 0.94,
+          "end": 1.12,
+          "probability": 0.630529522895813
+        },
+        {
+          "word": " Kavatra",
+          "start": 1.12,
+          "end": 1.48,
+          "probability": 0.42690613865852356
+        },
+        {
+          "word": " with",
+          "start": 1.48,
+          "end": 1.74,
+          "probability": 0.977187991142273
+        },
+        {
+          "word": " Gurus",
+          "start": 1.74,
+          "end": 2.0,
+          "probability": 0.24415703862905502
+        },
+        {
+          "word": " Imran",
+          "start": 2.0,
+          "end": 2.18,
+          "probability": 0.5198606848716736
+        },
+        {
+          "word": " Gaur",
+          "start": 2.18,
+          "end": 2.48,
+          "probability": 0.5170400813221931
+        },
+        {
+          "word": " as",
+          "start": 2.48,
+          "end": 2.94,
+          "probability": 0.8270326852798462
+        },
+        {
+          "word": " team",
+          "start": 2.94,
+          "end": 3.08,
+          "probability": 0.5836122035980225
+        },
+        {
+          "word": " idea",
+          "start": 3.08,
+          "end": 3.36,
+          "probability": 0.5842816829681396
+        },
+        {
+          "word": " forch.",
+          "start": 3.36,
+          "end": 3.8,
+          "probability": 0.5466089844703674
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.32,
+      "end": 6.04,
+      "text": " Most finance tools summarize a filing.",
+      "tokens": [
+        50590,
+        4534,
+        10719,
+        3873,
+        20858,
+        257,
+        26854,
+        13,
+        50710
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5347182959841009,
+      "compression_ratio": 1.3630573248407643,
+      "no_speech_prob": 0.035827409476041794,
+      "words": [
+        {
+          "word": " Most",
+          "start": 4.32,
+          "end": 4.54,
+          "probability": 0.8432461023330688
+        },
+        {
+          "word": " finance",
+          "start": 4.54,
+          "end": 4.8,
+          "probability": 0.6584615707397461
+        },
+        {
+          "word": " tools",
+          "start": 4.8,
+          "end": 5.14,
+          "probability": 0.9532564282417297
+        },
+        {
+          "word": " summarize",
+          "start": 5.14,
+          "end": 5.54,
+          "probability": 0.8435229659080505
+        },
+        {
+          "word": " a",
+          "start": 5.54,
+          "end": 5.74,
+          "probability": 0.7721714377403259
+        },
+        {
+          "word": " filing.",
+          "start": 5.74,
+          "end": 6.04,
+          "probability": 0.9546536803245544
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.68,
+      "end": 12.6,
+      "text": " Next signal, compute first, checks outside the company and spends most of its effort trying",
+      "tokens": [
+        50710,
+        3087,
+        6358,
+        11,
+        14722,
+        700,
+        11,
+        13834,
+        2380,
+        264,
+        2237,
+        293,
+        25620,
+        881,
+        295,
+        1080,
+        4630,
+        1382,
+        50998
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5347182959841009,
+      "compression_ratio": 1.3630573248407643,
+      "no_speech_prob": 0.035827409476041794,
+      "words": [
+        {
+          "word": " Next",
+          "start": 6.68,
+          "end": 6.9,
+          "probability": 0.962911069393158
+        },
+        {
+          "word": " signal,",
+          "start": 6.9,
+          "end": 7.24,
+          "probability": 0.6797199845314026
+        },
+        {
+          "word": " compute",
+          "start": 7.44,
+          "end": 7.66,
+          "probability": 0.238091841340065
+        },
+        {
+          "word": " first,",
+          "start": 7.66,
+          "end": 8.08,
+          "probability": 0.621360719203949
+        },
+        {
+          "word": " checks",
+          "start": 8.64,
+          "end": 8.86,
+          "probability": 0.8494501113891602
+        },
+        {
+          "word": " outside",
+          "start": 8.86,
+          "end": 9.26,
+          "probability": 0.9765011668205261
+        },
+        {
+          "word": " the",
+          "start": 9.26,
+          "end": 9.46,
+          "probability": 0.977340579032898
+        },
+        {
+          "word": " company",
+          "start": 9.46,
+          "end": 9.8,
+          "probability": 0.9956091046333313
+        },
+        {
+          "word": " and",
+          "start": 9.8,
+          "end": 10.3,
+          "probability": 0.7474557161331177
+        },
+        {
+          "word": " spends",
+          "start": 10.3,
+          "end": 10.66,
+          "probability": 0.9755977392196655
+        },
+        {
+          "word": " most",
+          "start": 10.66,
+          "end": 11.36,
+          "probability": 0.9747982621192932
+        },
+        {
+          "word": " of",
+          "start": 11.36,
+          "end": 11.58,
+          "probability": 0.9855515956878662
+        },
+        {
+          "word": " its",
+          "start": 11.58,
+          "end": 11.8,
+          "probability": 0.7532459497451782
+        },
+        {
+          "word": " effort",
+          "start": 11.8,
+          "end": 12.16,
+          "probability": 0.9162503480911255
+        },
+        {
+          "word": " trying",
+          "start": 12.16,
+          "end": 12.6,
+          "probability": 0.9772469997406006
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.6,
+      "end": 13.68,
+      "text": " to prove itself wrong.",
+      "tokens": [
+        50998,
+        281,
+        7081,
+        2564,
+        2085,
+        13,
+        51052
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5347182959841009,
+      "compression_ratio": 1.3630573248407643,
+      "no_speech_prob": 0.035827409476041794,
+      "words": [
+        {
+          "word": " to",
+          "start": 12.6,
+          "end": 12.82,
+          "probability": 0.9948284029960632
+        },
+        {
+          "word": " prove",
+          "start": 12.82,
+          "end": 13.04,
+          "probability": 0.9917855858802795
+        },
+        {
+          "word": " itself",
+          "start": 13.04,
+          "end": 13.38,
+          "probability": 0.9616507291793823
+        },
+        {
+          "word": " wrong.",
+          "start": 13.38,
+          "end": 13.68,
+          "probability": 0.9988470077514648
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

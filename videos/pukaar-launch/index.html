@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #0a0a0a;
+      }
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Root composition: Exact calibrated duration matching user voiceover: 101.43s (1m 41.4s) -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="101.23" data-width="1920" data-height="1080">
+      <div id="scene-01-baseline" class="clip" data-composition-id="01-baseline" data-composition-src="compositions/frames/01-baseline.html" data-start="0" data-duration="9.36" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-02-economic-toll" class="clip" data-composition-id="02-economic-toll" data-composition-src="compositions/frames/02-economic-toll.html" data-start="9.36" data-duration="11.84" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-03-prevention-window" class="clip" data-composition-id="03-prevention-window" data-composition-src="compositions/frames/03-prevention-window.html" data-start="21.20" data-duration="10.40" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-04-cover-call" class="clip" data-composition-id="04-cover-call" data-composition-src="compositions/frames/04-cover-call.html" data-start="31.60" data-duration="22.48" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-05-architecture" class="clip" data-composition-id="05-architecture" data-composition-src="compositions/frames/05-architecture.html" data-start="54.08" data-duration="16.32" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-06-privacy" class="clip" data-composition-id="06-privacy" data-composition-src="compositions/frames/06-privacy.html" data-start="70.40" data-duration="10.96" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-07-economics" class="clip" data-composition-id="07-economics" data-composition-src="compositions/frames/07-economics.html" data-start="81.36" data-duration="12.24" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="scene-08-outro" class="clip" data-composition-id="08-outro" data-composition-src="compositions/frames/08-outro.html" data-start="93.60" data-duration="7.63" data-track-index="0" data-width="1920" data-height="1080"></div>
+
+      <!-- User Voiceover Audio Track -->
+      <audio id="voice-user" src="assets/pukaar-voiceover-clean.wav" data-start="0" data-duration="101.23" data-track-index="20" data-volume="1"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to({}, { duration: 101.23 });
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

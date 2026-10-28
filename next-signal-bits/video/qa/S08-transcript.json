@@ -1,0 +1,186 @@
+{
+  "text": " Nothing here is any investment advice. The research paper, the model workbook, the dashboard all are linked below. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.94,
+      "text": " Nothing here is any investment advice. The research paper, the model workbook, the",
+      "tokens": [
+        50364,
+        6693,
+        510,
+        307,
+        604,
+        6078,
+        5192,
+        13,
+        440,
+        2132,
+        3035,
+        11,
+        264,
+        2316,
+        589,
+        2939,
+        11,
+        264,
+        50660
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40644578010805194,
+      "compression_ratio": 1.2019230769230769,
+      "no_speech_prob": 0.02419162355363369,
+      "words": [
+        {
+          "word": " Nothing",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.7443951368331909
+        },
+        {
+          "word": " here",
+          "start": 0.86,
+          "end": 1.24,
+          "probability": 0.9653032422065735
+        },
+        {
+          "word": " is",
+          "start": 1.24,
+          "end": 1.54,
+          "probability": 0.977381706237793
+        },
+        {
+          "word": " any",
+          "start": 1.54,
+          "end": 1.96,
+          "probability": 0.9612985253334045
+        },
+        {
+          "word": " investment",
+          "start": 1.96,
+          "end": 2.8,
+          "probability": 0.8001455068588257
+        },
+        {
+          "word": " advice.",
+          "start": 2.8,
+          "end": 3.34,
+          "probability": 0.9615588784217834
+        },
+        {
+          "word": " The",
+          "start": 3.78,
+          "end": 3.92,
+          "probability": 0.930465579032898
+        },
+        {
+          "word": " research",
+          "start": 3.92,
+          "end": 4.26,
+          "probability": 0.8442590832710266
+        },
+        {
+          "word": " paper,",
+          "start": 4.26,
+          "end": 4.66,
+          "probability": 0.8851208686828613
+        },
+        {
+          "word": " the",
+          "start": 4.8,
+          "end": 4.9,
+          "probability": 0.9623696804046631
+        },
+        {
+          "word": " model",
+          "start": 4.9,
+          "end": 5.14,
+          "probability": 0.771176815032959
+        },
+        {
+          "word": " workbook,",
+          "start": 5.14,
+          "end": 5.7,
+          "probability": 0.7786651253700256
+        },
+        {
+          "word": " the",
+          "start": 5.9,
+          "end": 5.94,
+          "probability": 0.9589788317680359
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.94,
+      "end": 8.66,
+      "text": " dashboard all are linked below. Thank you.",
+      "tokens": [
+        50660,
+        18342,
+        439,
+        366,
+        9408,
+        2507,
+        13,
+        1044,
+        291,
+        13,
+        50896
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40644578010805194,
+      "compression_ratio": 1.2019230769230769,
+      "no_speech_prob": 0.02419162355363369,
+      "words": [
+        {
+          "word": " dashboard",
+          "start": 5.94,
+          "end": 6.3,
+          "probability": 0.8091562390327454
+        },
+        {
+          "word": " all",
+          "start": 6.3,
+          "end": 7.04,
+          "probability": 0.4040735960006714
+        },
+        {
+          "word": " are",
+          "start": 7.04,
+          "end": 7.28,
+          "probability": 0.9931977987289429
+        },
+        {
+          "word": " linked",
+          "start": 7.28,
+          "end": 7.5,
+          "probability": 0.9950954914093018
+        },
+        {
+          "word": " below.",
+          "start": 7.5,
+          "end": 7.78,
+          "probability": 0.9963951706886292
+        },
+        {
+          "word": " Thank",
+          "start": 8.2,
+          "end": 8.44,
+          "probability": 0.9813736081123352
+        },
+        {
+          "word": " you.",
+          "start": 8.44,
+          "end": 8.66,
+          "probability": 0.9391874074935913
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

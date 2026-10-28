@@ -1,0 +1,406 @@
+{
+  "files": [
+    {
+      "file": "0494568ab28b6008-s.1b8f__myswv-j.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Italic",
+      "postscript": "Fraunces-9ptBlackItalic",
+      "weight": 900,
+      "style": "italic",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "1773d0375f79890f-s.1j7-gqhxzy6ed.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Regular",
+      "postscript": "TiroDevaHindi-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "20aee433927f7d4b-s.2u46yrlpkdxrh.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Regular",
+      "postscript": "SourceSerif4-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "23f1a98b08006014-s.32g3_4t-7pe44.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Regular",
+      "postscript": "Fraunces-9ptBlack",
+      "weight": 900,
+      "style": "normal",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "256e1f7f180674ba-s.444m1fhac1z6e.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Regular",
+      "postscript": "SourceSerif4-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "2fe89d53234c61d4-s.1i05ju5aeyhye.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "46bc28de2e2b0d9f-s.p.056cfvo8ni9g6.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Regular",
+      "postscript": "TiroDevaHindi-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "53d463513cd1ef1d-s.p.2qury780uc-au.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Italic",
+      "postscript": "TiroDevaHindi-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "54fc36028e2bb174-s.p.1h6pn64pmfi2q.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Regular",
+      "postscript": "Fraunces-9ptBlack",
+      "weight": 900,
+      "style": "normal",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "59b15b4bcd7b1eb5-s.3nkuoiize4urq.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "5fc1def936cbc1e5-s.2jo6ehgrhwoh9.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Italic",
+      "postscript": "TiroDevaHindi-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "62492e45f348cf87-s.3gua8xictboza.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Italic",
+      "postscript": "SourceSerif4-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "66b33cc02d8f8b9d-s.p.3xdkf2df5spiy.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Italic",
+      "postscript": "Fraunces-9ptBlackItalic",
+      "weight": 900,
+      "style": "italic",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "6865e74822869db5-s.2q67k36_u2-4v.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Italic",
+      "postscript": "Fraunces-9ptBlackItalic",
+      "weight": 900,
+      "style": "italic",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "68757d6cddeff913-s.0htwiiqufp3l9.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono Medium",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Medium",
+      "weight": 500,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "741805f5bd1ef272-s.41q8r466ocsbj.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Italic",
+      "postscript": "SourceSerif4-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "812e2ecb5e17ea59-s.0dth3y3445pgb.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Regular",
+      "postscript": "TiroDevaHindi-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "8c38e81c61c50756-s.3fh_yph3p9eww.woff2",
+      "family": "Tiro Devanagari Hindi",
+      "rawFamily": "Tiro Devanagari Hindi",
+      "subfamily": "Italic",
+      "postscript": "TiroDevaHindi-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "a5a3076f5a3c2968-s.2yekaq-lsxzxl.woff2",
+      "family": "Fraunces",
+      "rawFamily": "Fraunces",
+      "subfamily": "Regular",
+      "postscript": "Fraunces-9ptBlack",
+      "weight": 900,
+      "style": "normal",
+      "variationAxes": [
+        "opsz",
+        "wght",
+        "SOFT",
+        "WONK"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "a7afbb44bec2bb18-s.3xauquyg2sixn.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono Medium",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Medium",
+      "weight": 500,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "c73d4b34880585a8-s.3-_lg5umlo0tj.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Italic",
+      "postscript": "SourceSerif4-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "e390973e931a41c5-s.3zhtymus0wdqb.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "ea3421846039b7f3-s.p.3d58dkudqlgaq.woff2",
+      "family": "Source Serif 4",
+      "rawFamily": "Source Serif 4",
+      "subfamily": "Italic",
+      "postscript": "SourceSerif4-Italic",
+      "weight": 400,
+      "style": "italic",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "effe91970fc4db64-s.p.28xcb7557rbh2.woff2",
+      "family": "IBM Plex Mono",
+      "rawFamily": "IBM Plex Mono Medium",
+      "subfamily": "Regular",
+      "postscript": "IBMPlexMono-Medium",
+      "weight": 500,
+      "style": "normal",
+      "variationAxes": [],
+      "identified": true,
+      "isIcon": false
+    }
+  ],
+  "families": [
+    {
+      "family": "Fraunces",
+      "weights": [
+        900
+      ],
+      "variable": true,
+      "fileCount": 6,
+      "files": [
+        "0494568ab28b6008-s.1b8f__myswv-j.woff2",
+        "23f1a98b08006014-s.32g3_4t-7pe44.woff2",
+        "54fc36028e2bb174-s.p.1h6pn64pmfi2q.woff2",
+        "66b33cc02d8f8b9d-s.p.3xdkf2df5spiy.woff2",
+        "6865e74822869db5-s.2q67k36_u2-4v.woff2",
+        "a5a3076f5a3c2968-s.2yekaq-lsxzxl.woff2"
+      ]
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weights": [
+        400,
+        500
+      ],
+      "variable": false,
+      "fileCount": 6,
+      "files": [
+        "2fe89d53234c61d4-s.1i05ju5aeyhye.woff2",
+        "59b15b4bcd7b1eb5-s.3nkuoiize4urq.woff2",
+        "68757d6cddeff913-s.0htwiiqufp3l9.woff2",
+        "a7afbb44bec2bb18-s.3xauquyg2sixn.woff2",
+        "e390973e931a41c5-s.3zhtymus0wdqb.woff2",
+        "effe91970fc4db64-s.p.28xcb7557rbh2.woff2"
+      ]
+    },
+    {
+      "family": "Source Serif 4",
+      "weights": [
+        400
+      ],
+      "variable": true,
+      "fileCount": 6,
+      "files": [
+        "20aee433927f7d4b-s.2u46yrlpkdxrh.woff2",
+        "256e1f7f180674ba-s.444m1fhac1z6e.woff2",
+        "62492e45f348cf87-s.3gua8xictboza.woff2",
+        "741805f5bd1ef272-s.41q8r466ocsbj.woff2",
+        "c73d4b34880585a8-s.3-_lg5umlo0tj.woff2",
+        "ea3421846039b7f3-s.p.3d58dkudqlgaq.woff2"
+      ]
+    },
+    {
+      "family": "Tiro Devanagari Hindi",
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "fileCount": 6,
+      "files": [
+        "1773d0375f79890f-s.1j7-gqhxzy6ed.woff2",
+        "46bc28de2e2b0d9f-s.p.056cfvo8ni9g6.woff2",
+        "53d463513cd1ef1d-s.p.2qury780uc-au.woff2",
+        "5fc1def936cbc1e5-s.2jo6ehgrhwoh9.woff2",
+        "812e2ecb5e17ea59-s.0dth3y3445pgb.woff2",
+        "8c38e81c61c50756-s.3fh_yph3p9eww.woff2"
+      ]
+    }
+  ],
+  "unidentified": [],
+  "meta": {
+    "generatedAt": "2026-08-29T19:05:22.815Z",
+    "tool": "fontkit"
+  }
+}

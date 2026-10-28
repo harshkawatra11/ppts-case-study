@@ -1,0 +1,107 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING E1720A57
+
+Suresh Patil
+DRAFTED
+
+Your application is drafted. Pick the office to write to, then download it.
+
+I want a copy of the 7/12 extract and mutation register entry for my agricultural land in Haveli taluka, Pune, khasra number 231. I went to the tehsildar's office twice and they keep telling me to come back later without giving any reason.
+
+Will an RTI actually get you what you need?
+
+YES, PROCEED AS A RIGHT TO INFORMATION APPLICATION
+
+Right to Information application
+
+This reads as a straightforward request for a record held by a public authority. Proceed with jurisdiction triage and drafting.
+
+Limitation: No limitation period to file the original application; thirty days to appeal a refusal or non-response
+
+§ 2(f)
+Who is legally required to answer you
+State subject
+Land and land revenue
+List II, Entry 18 (Land)
+Land and land revenue is a State subject (List II, Entry 18 (Land)), but the selected authority, Department of Land Resources, is a Central authority. Under DoPT OM No. 10/2/2008-IR, a Central Public Information Officer is not required to transfer a State-subject application: it will be returned to the applicant, without a refund of the fee. Select the correct State authority instead. See the rule
+
+Revenue and Forest Department, Government of Maharashtra
+
+confidence 78%
+
+Government of Maharashtra
+
+The Public Information Officer, Revenue and Forest Department, Mantralaya, Mumbai 400032
+
+Matched on subject matter "Land and land revenue" (List II, Entry 18 (Land)). For a specific 7/12 extract, file with the Tehsildar or Circle Officer of the taluka concerned, not Mantralaya directly, where the local office is known.
+
+Maharashtra Police
+
+confidence 52%
+
+Home Department, Government of Maharashtra
+
+The Public Information Officer, Office of the Director General of Police, Maharashtra, Old Council Hall, Mumbai 400001
+
+Matched on subject matter "Land and land revenue" (List II, Entry 18 (Land)). For a specific station-level matter, file with that police station's own CPIO where known, rather than the Director General's office.
+
+This is the office I will write to
+Your application
+
+1.Please provide a certified copy of the 7/12 extract and mutation register entry for khasra number 231, Haveli taluka, Pune district, for the last five years.
+
+Remove
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in Marathi, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+Fee
+
+Rs. 10, payable via court fee stamp, postal order, online via rtionline.maharashtra.gov.in
+
+Sources disagree on this figure. One tracked source states 10 rupees under the notified Maharashtra RTI Rules; another states 30 rupees. Confirm against the current Maharashtra Right to Information (Fee) Rules before filing, and do not treat this figure as settled.
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

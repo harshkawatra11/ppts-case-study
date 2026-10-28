@@ -1,0 +1,2201 @@
+{
+ "n": {
+  "Dream11": {
+   "P0": 11514,
+   "P1": 8230,
+   "P2": 9309,
+   "P3": 195,
+   "total": 29248
+  },
+  "FanCode": {
+   "P0": 2060,
+   "P1": 6163,
+   "P2": 3561,
+   "P3": 1727,
+   "total": 13511
+  }
+ },
+ "avg_rating": {
+  "Dream11": {
+   "P0": 4.27,
+   "P1": 3.84,
+   "P2": 2.55,
+   "P3": 2.52
+  },
+  "FanCode": {
+   "P0": 3.9,
+   "P1": 3.42,
+   "P2": 3.29,
+   "P3": 3.28
+  }
+ },
+ "share": {
+  "Dream11": {
+   "T01": {
+    "P0": 6.4,
+    "P1": 6.4,
+    "P2": 7.0,
+    "P3": 20.0
+   },
+   "T02": {
+    "P0": 0.7,
+    "P1": 0.9,
+    "P2": 5.4,
+    "P3": 6.7
+   },
+   "T03": {
+    "P0": 0.1,
+    "P1": 1.0,
+    "P2": 1.9,
+    "P3": 4.1
+   },
+   "T04": {
+    "P0": 1.3,
+    "P1": 1.0,
+    "P2": 1.4,
+    "P3": 1.0
+   },
+   "T05": {
+    "P0": 0.8,
+    "P1": 0.4,
+    "P2": 0.5,
+    "P3": 0.5
+   },
+   "T06": {
+    "P0": 0.1,
+    "P1": 0.2,
+    "P2": 4.5,
+    "P3": 0.0
+   },
+   "T07": {
+    "P0": 0.6,
+    "P1": 0.3,
+    "P2": 0.5,
+    "P3": 0.0
+   },
+   "T08": {
+    "P0": 0.1,
+    "P1": 0.9,
+    "P2": 7.4,
+    "P3": 1.5
+   },
+   "T09": {
+    "P0": 3.3,
+    "P1": 3.0,
+    "P2": 12.0,
+    "P3": 2.1
+   },
+   "T10": {
+    "P0": 0.2,
+    "P1": 0.3,
+    "P2": 0.5,
+    "P3": 1.0
+   },
+   "T11": {
+    "P0": 0.2,
+    "P1": 0.2,
+    "P2": 0.4,
+    "P3": 0.0
+   },
+   "T12": {
+    "P0": 0.2,
+    "P1": 1.0,
+    "P2": 1.5,
+    "P3": 4.6
+   }
+  },
+  "FanCode": {
+   "T01": {
+    "P0": 2.5,
+    "P1": 4.2,
+    "P2": 4.6,
+    "P3": 5.0
+   },
+   "T02": {
+    "P0": 1.0,
+    "P1": 1.3,
+    "P2": 1.8,
+    "P3": 2.4
+   },
+   "T03": {
+    "P0": 0.0,
+    "P1": 0.2,
+    "P2": 0.4,
+    "P3": 0.3
+   },
+   "T04": {
+    "P0": 0.3,
+    "P1": 0.1,
+    "P2": 0.1,
+    "P3": 0.0
+   },
+   "T05": {
+    "P0": 0.0,
+    "P1": 0.1,
+    "P2": 0.2,
+    "P3": 0.0
+   },
+   "T06": {
+    "P0": 3.2,
+    "P1": 3.7,
+    "P2": 7.4,
+    "P3": 4.2
+   },
+   "T07": {
+    "P0": 0.0,
+    "P1": 0.1,
+    "P2": 0.1,
+    "P3": 0.0
+   },
+   "T08": {
+    "P0": 0.9,
+    "P1": 2.6,
+    "P2": 3.0,
+    "P3": 1.2
+   },
+   "T09": {
+    "P0": 2.0,
+    "P1": 2.8,
+    "P2": 8.4,
+    "P3": 2.6
+   },
+   "T10": {
+    "P0": 0.0,
+    "P1": 0.0,
+    "P2": 0.1,
+    "P3": 0.1
+   },
+   "T11": {
+    "P0": 0.0,
+    "P1": 0.0,
+    "P2": 0.0,
+    "P3": 0.1
+   },
+   "T12": {
+    "P0": 0.1,
+    "P1": 0.1,
+    "P2": 0.1,
+    "P3": 0.2
+   }
+  }
+ },
+ "monthly": {
+  "Dream11": {
+   "2025-06": {
+    "n": 5872,
+    "avg": 4.17,
+    "pct_1star": 15.8
+   },
+   "2025-07": {
+    "n": 3543,
+    "avg": 4.36,
+    "pct_1star": 12.0
+   },
+   "2025-08": {
+    "n": 4851,
+    "avg": 3.98,
+    "pct_1star": 21.4
+   },
+   "2025-09": {
+    "n": 3258,
+    "avg": 3.92,
+    "pct_1star": 21.1
+   },
+   "2025-10": {
+    "n": 1205,
+    "avg": 3.84,
+    "pct_1star": 23.7
+   },
+   "2025-11": {
+    "n": 910,
+    "avg": 4.08,
+    "pct_1star": 17.8
+   },
+   "2025-12": {
+    "n": 1366,
+    "avg": 2.86,
+    "pct_1star": 47.4
+   },
+   "2026-01": {
+    "n": 1077,
+    "avg": 3.25,
+    "pct_1star": 37.9
+   },
+   "2026-02": {
+    "n": 692,
+    "avg": 3.07,
+    "pct_1star": 42.6
+   },
+   "2026-03": {
+    "n": 1931,
+    "avg": 2.34,
+    "pct_1star": 60.2
+   },
+   "2026-04": {
+    "n": 2162,
+    "avg": 2.03,
+    "pct_1star": 68.9
+   },
+   "2026-05": {
+    "n": 1196,
+    "avg": 2.86,
+    "pct_1star": 46.2
+   },
+   "2026-06": {
+    "n": 271,
+    "avg": 2.45,
+    "pct_1star": 58.3
+   },
+   "2026-07": {
+    "n": 441,
+    "avg": 2.15,
+    "pct_1star": 64.6
+   },
+   "2026-08": {
+    "n": 325,
+    "avg": 2.49,
+    "pct_1star": 58.2
+   },
+   "2026-09": {
+    "n": 148,
+    "avg": 2.52,
+    "pct_1star": 55.4
+   }
+  },
+  "FanCode": {
+   "2025-06": {
+    "n": 617,
+    "avg": 4.02,
+    "pct_1star": 18.6
+   },
+   "2025-07": {
+    "n": 921,
+    "avg": 3.86,
+    "pct_1star": 21.3
+   },
+   "2025-08": {
+    "n": 859,
+    "avg": 3.78,
+    "pct_1star": 22.7
+   },
+   "2025-09": {
+    "n": 4381,
+    "avg": 3.28,
+    "pct_1star": 36.8
+   },
+   "2025-10": {
+    "n": 517,
+    "avg": 3.52,
+    "pct_1star": 30.2
+   },
+   "2025-11": {
+    "n": 874,
+    "avg": 3.89,
+    "pct_1star": 20.9
+   },
+   "2025-12": {
+    "n": 210,
+    "avg": 3.61,
+    "pct_1star": 27.6
+   },
+   "2026-01": {
+    "n": 87,
+    "avg": 3.25,
+    "pct_1star": 37.9
+   },
+   "2026-02": {
+    "n": 540,
+    "avg": 3.53,
+    "pct_1star": 28.7
+   },
+   "2026-03": {
+    "n": 639,
+    "avg": 3.24,
+    "pct_1star": 36.6
+   },
+   "2026-04": {
+    "n": 324,
+    "avg": 2.54,
+    "pct_1star": 55.6
+   },
+   "2026-05": {
+    "n": 376,
+    "avg": 2.89,
+    "pct_1star": 46.0
+   },
+   "2026-06": {
+    "n": 211,
+    "avg": 3.56,
+    "pct_1star": 27.5
+   },
+   "2026-07": {
+    "n": 1052,
+    "avg": 3.39,
+    "pct_1star": 33.9
+   },
+   "2026-08": {
+    "n": 206,
+    "avg": 3.71,
+    "pct_1star": 23.8
+   },
+   "2026-09": {
+    "n": 1697,
+    "avg": 3.28,
+    "pct_1star": 37.0
+   }
+  }
+ },
+ "quotes": {
+  "Dream11": {
+   "T01_P0": [
+    {
+     "text": "This game is fixed. You only lose your money. Even though your players perform well your rank will not increase due to fixing. The system gives wrong information and keep dropping rank",
+     "rating": 1,
+     "date": "2025-08-16",
+     "store": "play",
+     "thumbs": 87
+    },
+    {
+     "text": "sir,I'm planning 7yers but not win anny big money all time lose money. লোভে পাপ। This game not skill, and others fake app. আপনার টাকা দিয়ে জুয়া টাকি স্কিল বলছেন",
+     "rating": 1,
+     "date": "2025-08-03",
+     "store": "play",
+     "thumbs": 70
+    },
+    {
+     "text": "5 saal se khel raha hun aaj tak kabhi 1 rupye bhi nahin jeeta dream11 ne spin&win ke naam par bhi kuchh nahin diya kitne matlbi ho",
+     "rating": 4,
+     "date": "2025-07-13",
+     "store": "play",
+     "thumbs": 64
+    }
+   ],
+   "T01_P1": [
+    {
+     "text": "We're having trouble loading this page. Please try again in sometimes that error comes everytime You can't edit your team and you will lost but if you want to add money they will work properly, Fake application don't use anyone.",
+     "rating": 1,
+     "date": "2025-09-02",
+     "store": "play",
+     "thumbs": 76
+    },
+    {
+     "text": "4` 5 sal se khel raha abhi tak winning nahin hua asha aur ummid karta hun ki ek bar winning hoga aur esi ummed aur asha ke sath khel rha hu",
+     "rating": 4,
+     "date": "2025-09-07",
+     "store": "play",
+     "thumbs": 56
+    },
+    {
+     "text": "Abhi top prize bahut down aa gayi hai. Kam se kam 10 lakh toh bhi honi chahiye top prize 100 200 ke liye nahi khelte hum log",
+     "rating": 4,
+     "date": "2025-11-16",
+     "store": "play",
+     "thumbs": 31
+    }
+   ],
+   "T01_P2": [
+    {
+     "text": "I enjoyed your app. for atleast 4-5years.and that was a memorable experience.Now you have to withdraw the balance in my account.I would be obliged if you enlighen me the procedure to be followed to get back my balance.",
+     "rating": 5,
+     "date": "2026-01-08",
+     "store": "play",
+     "thumbs": 1627
+    },
+    {
+     "text": "don't recommend the fake apps in advertising... like teen patti dhan... it's fake app withdraw money not credited only processing",
+     "rating": 2,
+     "date": "2026-01-07",
+     "store": "play",
+     "thumbs": 53
+    },
+    {
+     "text": "Your D app consume my lots of Data in few minutes, For joining cash prize games your app shows too many & longer ads 😞 moretime & Data consuming I don't like 😡-----star rating",
+     "rating": 1,
+     "date": "2025-12-13",
+     "store": "play",
+     "thumbs": 44
+    }
+   ],
+   "T01_P3": [
+    {
+     "text": "now this app is useless because you can make team but there is no prize if you win.",
+     "rating": 1,
+     "date": "2026-08-30",
+     "store": "play",
+     "thumbs": 48
+    },
+    {
+     "text": "Please bring back football on Dream11. Even if there is no money involved, I just enjoy watching football matches with my Dream11 team, the same way I do with cricket.",
+     "rating": 5,
+     "date": "2026-08-30",
+     "store": "play",
+     "thumbs": 33
+    },
+    {
+     "text": "worst sport fantasy app ever no prior notice to there regular user directly shut down all your systems no free to play prize contest totally worst sport fantasy.please totally wind up your scrap from here",
+     "rating": 1,
+     "date": "2026-08-27",
+     "store": "play",
+     "thumbs": 15
+    }
+   ],
+   "T02_P0": [
+    {
+     "text": "A useless update,it makes things difficult ,like in the previous version we just need to long press on players to see past performances,but now we need to click on (!) to see that ,it's frustrating me",
+     "rating": 1,
+     "date": "2025-06-26",
+     "store": "play",
+     "thumbs": 50
+    },
+    {
+     "text": "I Uninstalled this useless app...I also suggest everyone please don't play this useless app..only money loss..never win..frustrated since a year..",
+     "rating": 1,
+     "date": "2025-07-30",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "useless app there is no discount &team does not download while match running",
+     "rating": 1,
+     "date": "2025-07-14",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T02_P1": [
+    {
+     "text": "Bad app, when it gives lineups during the match, the server goes down. They deliberately down these apps. Those who play matches on Dream Eleven should uninstall this app. It's a useless app.",
+     "rating": 1,
+     "date": "2025-09-14",
+     "store": "play",
+     "thumbs": 23
+    },
+    {
+     "text": "This is useless app not open properly and every time it shows \"we're having troubling loading this page please try after sometimes\" I can't change my team after lineup.",
+     "rating": 1,
+     "date": "2025-10-20",
+     "store": "play",
+     "thumbs": 22
+    },
+    {
+     "text": "New application is not working properly, not able to update matches on time. Not showing old match results. Now not showing anything 😔. It is too boring an app now.",
+     "rating": 1,
+     "date": "2025-10-20",
+     "store": "play",
+     "thumbs": 21
+    }
+   ],
+   "T02_P2": [
+    {
+     "text": "The new app looks useless. We are unable to see data of players from previous matches. In previous app atleast we know the statistics of the players.",
+     "rating": 1,
+     "date": "2026-04-21",
+     "store": "play",
+     "thumbs": 617
+    },
+    {
+     "text": "very worst experienced fantacy app I ever played. worst performance. continuous troubling essue. don't play on dream 11. it's totaly waste of time and mental harrasment.",
+     "rating": 1,
+     "date": "2025-12-14",
+     "store": "play",
+     "thumbs": 56
+    },
+    {
+     "text": "The Dream11 app has become useless. The app's quality has deteriorated to a very low level. Precisely when the lineups are announced and only 10-15 minutes are left before the match starts, their technical problems begin. This is pure nonsense.",
+     "rating": 1,
+     "date": "2026-01-08",
+     "store": "play",
+     "thumbs": 56
+    }
+   ],
+   "T02_P3": [
+    {
+     "text": "now this app is useless because you can make team but there is no prize if you win.",
+     "rating": 1,
+     "date": "2026-08-30",
+     "store": "play",
+     "thumbs": 48
+    },
+    {
+     "text": "uninstalling Dream11...with no cash prizes...it has become a useless app...plz shift to My Circle 11...They are giving good Cash Prizes",
+     "rating": 1,
+     "date": "2026-09-03",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "no contest of price like other app now it's become useless",
+     "rating": 1,
+     "date": "2026-08-27",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T03_P0": [
+    {
+     "text": "I Uninstalled this useless app...I also suggest everyone please don't play this useless app..only money loss..never win..frustrated since a year..",
+     "rating": 1,
+     "date": "2025-07-30",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "The app is a scam! You can never withdraw the winning amount to your bank, you have to keep playing contests and lose money!! I am going to uninstall this app forever!!!",
+     "rating": 1,
+     "date": "2025-06-04",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "something went wrong i uninstall and reinstall app then it's work for 5 min thatn again saying refresh or try again",
+     "rating": 1,
+     "date": "2025-06-21",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T03_P1": [
+    {
+     "text": "My two Teams hv won in play for free contest! 20k, 10k fo each team! But bastards credited only 7k with TDS itseems and telling ur only one team had won! Bloody losers! Everyone uninstall Dream11!",
+     "rating": 1,
+     "date": "2025-10-15",
+     "store": "play",
+     "thumbs": 31
+    },
+    {
+     "text": "Bad app, when it gives lineups during the match, the server goes down. They deliberately down these apps. Those who play matches on Dream Eleven should uninstall this app. It's a useless app.",
+     "rating": 1,
+     "date": "2025-09-14",
+     "store": "play",
+     "thumbs": 23
+    },
+    {
+     "text": "i quit dream 11. new rule may clear me bank account.",
+     "rating": 5,
+     "date": "2025-11-28",
+     "store": "play",
+     "thumbs": 18
+    }
+   ],
+   "T03_P2": [
+    {
+     "text": "Very bad experience. uninstalling the app very soon. Unnecessary advertisement and no interesting updates.",
+     "rating": 1,
+     "date": "2026-01-20",
+     "store": "play",
+     "thumbs": 81
+    },
+    {
+     "text": "very very very very very very very boring going to uninstall because nothing interesting like before waste app either we install you can ban or dismantle this app boring unwanted adds irritating",
+     "rating": 1,
+     "date": "2026-02-11",
+     "store": "play",
+     "thumbs": 22
+    },
+    {
+     "text": "Unable to remove watch along option Even in private leagues . Watch along is irritating. advertisement is fine but watch along is so irritating. from ipl all of our groups moving to alternate app. end of dream 11.",
+     "rating": 1,
+     "date": "2026-03-04",
+     "store": "play",
+     "thumbs": 14
+    }
+   ],
+   "T03_P3": [
+    {
+     "text": "uninstalling Dream11...with no cash prizes...it has become a useless app...plz shift to My Circle 11...They are giving good Cash Prizes",
+     "rating": 1,
+     "date": "2026-09-03",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "Fantasy games are now rewarding for no money. Worst decision. moving to my11circle.",
+     "rating": 1,
+     "date": "2026-09-05",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "money contest suru karoo ya hum uninstall kar de D11 ko khtam kar diya D11 ko Aapp ne",
+     "rating": 1,
+     "date": "2026-08-28",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T04_P0": [
+    {
+     "text": "dream 11 most popular skill but update is baar option changing so many bad moment 🙃",
+     "rating": 5,
+     "date": "2025-07-02",
+     "store": "play",
+     "thumbs": 80
+    },
+    {
+     "text": "sir,I'm planning 7yers but not win anny big money all time lose money. লোভে পাপ। This game not skill, and others fake app. আপনার টাকা দিয়ে জুয়া টাকি স্কিল বলছেন",
+     "rating": 1,
+     "date": "2025-08-03",
+     "store": "play",
+     "thumbs": 70
+    },
+    {
+     "text": "Dream 11 is a very good app. It not only helps to earn money but also assists to increase knowledge regarding sports. You get details of the game over there.",
+     "rating": 5,
+     "date": "2025-07-26",
+     "store": "play",
+     "thumbs": 28
+    }
+   ],
+   "T04_P1": [
+    {
+     "text": "please baned d11 i request government this is not based skill game only luck game i loss my money 10 lakh and my past 4years loss 🙏🙏",
+     "rating": 1,
+     "date": "2025-08-21",
+     "store": "play",
+     "thumbs": 14
+    },
+    {
+     "text": "Fantasy is a game of skill. And our Dream11 supports it a lot. This helps a lot.",
+     "rating": 5,
+     "date": "2025-11-03",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "Good to see the app finally released. Ads are ok, but not during last minute team selection.",
+     "rating": 3,
+     "date": "2025-10-30",
+     "store": "play",
+     "thumbs": 6
+    }
+   ],
+   "T04_P2": [
+    {
+     "text": "old app was very good it provide venue stats, previous match points of every player, top venue player,dream team. which all these are not available in this updated app.",
+     "rating": 1,
+     "date": "2025-12-05",
+     "store": "play",
+     "thumbs": 41
+    },
+    {
+     "text": "after updated its looking worst. Not an user friendly and hanging issues. looks not comfortable to handle. Old version is much much better than new. No stats of players, its seems to like hard for use.",
+     "rating": 2,
+     "date": "2025-12-11",
+     "store": "play",
+     "thumbs": 37
+    },
+    {
+     "text": "Dream 11 show ads when team selection but I agree but background screen black this is not good for eyes . Red dream 11 app was good.",
+     "rating": 4,
+     "date": "2025-12-07",
+     "store": "play",
+     "thumbs": 27
+    }
+   ],
+   "T04_P3": [
+    {
+     "text": "we will wait for skill fantasy paid game",
+     "rating": 5,
+     "date": "2026-08-31",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T05_P0": [
+    {
+     "text": "dream 11 is good app. but now i can't see my friends,don't know what happened. i update the app and now i can't see my network option, also not showing scoreboard. please check this and update this options",
+     "rating": 4,
+     "date": "2025-08-03",
+     "store": "play",
+     "thumbs": 58
+    },
+    {
+     "text": "The best thing I loved about it was comparing our stats with our friends. But sadly now you can't see the score or points of your friend.",
+     "rating": 3,
+     "date": "2025-07-23",
+     "store": "play",
+     "thumbs": 12
+    },
+    {
+     "text": "I can't see my friend team. my connection section is missing.",
+     "rating": 1,
+     "date": "2025-08-06",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T05_P1": [
+    {
+     "text": "before we can see our friends team score but you removed after update. some time this app stuck and not open also not update score proper time.",
+     "rating": 2,
+     "date": "2025-08-21",
+     "store": "play",
+     "thumbs": 27
+    },
+    {
+     "text": "please introduce contest with less spots as well. i know paid contest are not allowed but what about private contest. you can allow private paid contest by user consent. maje some system. user generated contest are not illegal.",
+     "rating": 5,
+     "date": "2025-08-27",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "very worst app any time not open worst app don't used friends 20 minutes I will try but not open waste of time",
+     "rating": 1,
+     "date": "2025-09-25",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T05_P2": [
+    {
+     "text": "Unable to remove watch along option Even in private leagues . Watch along is irritating. advertisement is fine but watch along is so irritating. from ipl all of our groups moving to alternate app. end of dream 11.",
+     "rating": 1,
+     "date": "2026-03-04",
+     "store": "play",
+     "thumbs": 14
+    },
+    {
+     "text": "Dream 11 has become a useless app now, where it's all about Ad. Even playing private contests is no fun, because whenever you open it, it's all Ad.",
+     "rating": 1,
+     "date": "2026-03-08",
+     "store": "play",
+     "thumbs": 12
+    },
+    {
+     "text": "It was such a beautiful app where friends had fun playing Dream 11. But the current UI is pathetic and very irritating. I hope they make good changes soon and make it similar like the earlier version",
+     "rating": 1,
+     "date": "2026-04-20",
+     "store": "play",
+     "thumbs": 9
+    }
+   ],
+   "T05_P3": [],
+   "T06_P0": [
+    {
+     "text": "\"This is very useful for me. I say well done to the creators of this brilliant app\"",
+     "rating": 5,
+     "date": "2025-07-04",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "brain cricket game Meri bahut crash ho rahi hai please uska crash fix kar do meri purani ID video download",
+     "rating": 1,
+     "date": "2025-07-18",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "I'm new here, give a five star rating for trust, you should have work on referral and small content creators",
+     "rating": 5,
+     "date": "2025-06-01",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T06_P1": [
+    {
+     "text": "Don't advertise Dream11, promote the video of the winner, say today e won the city, today that city won, but don't let it be banned, I am not addicted but I used to play it sometimes.",
+     "rating": 5,
+     "date": "2025-08-22",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "bahut jyada advertisement dikha rh h wo v Video wala",
+     "rating": 1,
+     "date": "2025-10-08",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "after update now you have to see long video to make 1 team ...hahahah ... now the .. rating goes down 👇👇👇👇👇👇👇",
+     "rating": 1,
+     "date": "2025-10-22",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T06_P2": [
+    {
+     "text": "Hey Dream 11 Your Stream Feature is Very Good and I love it but I want to ask can we play and withdraw winnings in this app till now.",
+     "rating": 5,
+     "date": "2025-12-13",
+     "store": "play",
+     "thumbs": 35
+    },
+    {
+     "text": "problem while selecting team ,always have to watch video for every team created , when the time remaining is less than 5min always a message flash on screen SOMETHING WENT WRONG, While selecting the team . very poor experience 😕😞",
+     "rating": 2,
+     "date": "2025-12-09",
+     "store": "play",
+     "thumbs": 32
+    },
+    {
+     "text": "worst app ever seen , cant see players list, cant see scores, real players never wins, most worst thing is watch along , totally it's a time waste headache irritating fake n fraud app",
+     "rating": 1,
+     "date": "2026-04-14",
+     "store": "play",
+     "thumbs": 19
+    }
+   ],
+   "T06_P3": [],
+   "T07_P0": [
+    {
+     "text": "only bot teams win...never won more than entry fee..this a big scam. 1st rank 1 crore. 2nd rank 1 lakh. 1st rank winners are always perfect bot teams. 40 teams only owners can make.",
+     "rating": 1,
+     "date": "2025-08-12",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "Aaj Tak is aap me rank 1 me jita nahi",
+     "rating": 4,
+     "date": "2025-06-13",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "Leaderboard race har over ke sath change hoti rehti hai 😎",
+     "rating": 5,
+     "date": "2025-07-09",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T07_P1": [
+    {
+     "text": "I have been using this app for more than 8 years. I am creating teams and join the Free contestants but never rank first. And never got more than ₹60",
+     "rating": 1,
+     "date": "2025-08-22",
+     "store": "play",
+     "thumbs": 10
+    },
+    {
+     "text": "99% users never won more than 10000 or lose more than 10000 what's the meaning of this statement by dream 11 ,when I see leaderboard one single person won grand league , is this dream 11 own bots",
+     "rating": 2,
+     "date": "2025-09-03",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "accha hai magar rank 1 Wale ko 1 lakh ka price hota to accha rahta kyu ki rank 1 ko 10.000 by chanch milte bhi hai to 3000 tds cut jata hai esliye maza nhi aata",
+     "rating": 3,
+     "date": "2025-11-13",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T07_P2": [
+    {
+     "text": "The Dream11 app has become useless. The app's quality has deteriorated to a very low level. Precisely when the lineups are announced and only 10-15 minutes are left before the match starts, their technical problems begin. This is pure nonsense.",
+     "rating": 1,
+     "date": "2026-01-08",
+     "store": "play",
+     "thumbs": 56
+    },
+    {
+     "text": "it was very low standards gameplay walkthrough I'm apologies to make a major default is there no big price to a 1st rank ,I have all through a big price of 1 crore in the mega contast",
+     "rating": 4,
+     "date": "2026-01-20",
+     "store": "play",
+     "thumbs": 13
+    },
+    {
+     "text": "Dream 11 sucking on next level. Too much ads and forcefully live streaming. not able to access already joined league from fantasy tab.",
+     "rating": 1,
+     "date": "2026-03-28",
+     "store": "play",
+     "thumbs": 8
+    }
+   ],
+   "T07_P3": [],
+   "T08_P0": [
+    {
+     "text": "im tired to many ads please close all add",
+     "rating": 5,
+     "date": "2025-07-14",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "App use karte waqt koi ads ka disturbance nahi hota 👌",
+     "rating": 5,
+     "date": "2025-07-09",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "bohot hara hu me akbar to jitav puri jidgi free me advertisement karunga dream 11 ka. Jay dream 11",
+     "rating": 1,
+     "date": "2025-07-19",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T08_P1": [
+    {
+     "text": "Waste app because of free joining mega contest they pushing ads worst application don't use",
+     "rating": 1,
+     "date": "2025-10-16",
+     "store": "play",
+     "thumbs": 123
+    },
+    {
+     "text": "\"This app has become terrible. After the lineup stage, you can't even make a team because the servers stop working. And just when you're already frustrated, you're forced to sit through 20 ads. This is the worst experience right now.\"",
+     "rating": 1,
+     "date": "2025-11-25",
+     "store": "play",
+     "thumbs": 37
+    },
+    {
+     "text": "Very bad experience, here ads are being shown to participate in every contest joining but think about it if you want to participate in multiple contest you can't because each ad takes time and the end time is over.",
+     "rating": 1,
+     "date": "2025-10-08",
+     "store": "play",
+     "thumbs": 31
+    }
+   ],
+   "T08_P2": [
+    {
+     "text": "Very bad experience. uninstalling the app very soon. Unnecessary advertisement and no interesting updates.",
+     "rating": 1,
+     "date": "2026-01-20",
+     "store": "play",
+     "thumbs": 81
+    },
+    {
+     "text": "it takes long time to edit the team and save. joining contest is horrible. unable to add multiple team at once. too much ads",
+     "rating": 1,
+     "date": "2025-12-09",
+     "store": "play",
+     "thumbs": 63
+    },
+    {
+     "text": "don't recommend the fake apps in advertising... like teen patti dhan... it's fake app withdraw money not credited only processing",
+     "rating": 2,
+     "date": "2026-01-07",
+     "store": "play",
+     "thumbs": 53
+    }
+   ],
+   "T08_P3": [
+    {
+     "text": "lots of fake gaming ads wastage of time please don't download 👎👎👎👎👎👎👎",
+     "rating": 1,
+     "date": "2026-09-07",
+     "store": "play",
+     "thumbs": 8
+    },
+    {
+     "text": "Purane waala dream 11 thik tha or ye new version samag nhi aa rha Black and white or jab cash prize nhi hai to ads kis baat ka dikhaa rhe ho",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T09_P0": [
+    {
+     "text": "some problem with ur app.. tried refreshing but allwats error pls update ur app ok matter got resolved thanks",
+     "rating": 4,
+     "date": "2025-06-22",
+     "store": "play",
+     "thumbs": 123
+    },
+    {
+     "text": "Very terrible experience.... When I want to withdraw my money, it is showing error... I am not able to verify my email address too. I have raised a ticket but no action has been taken",
+     "rating": 1,
+     "date": "2025-07-07",
+     "store": "play",
+     "thumbs": 59
+    },
+    {
+     "text": "Even after being a regular user of this app for years the verified details gets unverified during the time of withdrawal only and it starts showing errors and the money gets stuck, what's the point of playing then.",
+     "rating": 1,
+     "date": "2025-06-07",
+     "store": "play",
+     "thumbs": 29
+    }
+   ],
+   "T09_P1": [
+    {
+     "text": "app is not working after line up announce and I am not able to modify my teams what's wrong with the app",
+     "rating": 1,
+     "date": "2025-10-01",
+     "store": "play",
+     "thumbs": 155
+    },
+    {
+     "text": "We're having trouble loading this page. Please try again in sometimes that error comes everytime You can't edit your team and you will lost but if you want to add money they will work properly, Fake application don't use anyone.",
+     "rating": 1,
+     "date": "2025-09-02",
+     "store": "play",
+     "thumbs": 76
+    },
+    {
+     "text": "The recent update is totally annoying and full of glitches. Even after 5g+ network, it shows unable to connect try again later . You can't edit the time .",
+     "rating": 2,
+     "date": "2025-09-14",
+     "store": "play",
+     "thumbs": 46
+    }
+   ],
+   "T09_P2": [
+    {
+     "text": "What's the point of backups, this app not using any backups now days even after taking full 4 players as backups. full of bugs app.",
+     "rating": 1,
+     "date": "2026-03-02",
+     "store": "play",
+     "thumbs": 1313
+    },
+    {
+     "text": "Not working properly, can't join contest. and too many long add . two add show for one team joining this is very bad. Team not joining after showing 90 seconds add.",
+     "rating": 1,
+     "date": "2026-01-26",
+     "store": "play",
+     "thumbs": 42
+    },
+    {
+     "text": "after updating the application I'm unable to see my own profile or contestent to participate. i don't know it's a glitch or temporary error.",
+     "rating": 1,
+     "date": "2025-12-06",
+     "store": "play",
+     "thumbs": 41
+    }
+   ],
+   "T09_P3": [
+    {
+     "text": "kehte hai jab kisi ki kismat meh barbad hona likha hota hai toh uska barbad hona teh hai. Aisa hi kuch dream 11 ke saath hone wala hai. Mujhe toh lagta hai dream 11 ka CEO bik chuka hai.",
+     "rating": 1,
+     "date": "2026-08-29",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "pahle se app jyada Kharab.ho.gaya.hai.free.me.teem.lagane.par.app.kam.hi.nhi.karta. our is app ko hamesa,ke liye band Kar do",
+     "rating": 1,
+     "date": "2026-09-07",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T10_P0": [
+    {
+     "text": "it is a worst app in the betting game and iam lose more much of money in the game so all are stay aware and don't play this game please 🥺🙏🏻",
+     "rating": 1,
+     "date": "2025-07-18",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "do not install this app they take 90% of the money you bet . if you win 5 crores they take 2 crores as taxes . They take taxes for everything. bad app guys pls don't install.",
+     "rating": 1,
+     "date": "2025-06-10",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "very worth app service compair to other app",
+     "rating": 1,
+     "date": "2025-06-21",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T10_P1": [
+    {
+     "text": "one of the worst app when you go to create the team it's always shows loading error...my11 circle app are better...",
+     "rating": 2,
+     "date": "2025-11-05",
+     "store": "play",
+     "thumbs": 14
+    },
+    {
+     "text": "Gone too soon. I had just downloaded this app and I was struck with the news of banning betting apps.",
+     "rating": 1,
+     "date": "2025-08-21",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "Banned... It's a very good decision that should have been made earlier. Those betting apps were only making the owners rich, not the users. As a developer, I can say the results are completely manipulated since no one verifies them.",
+     "rating": 2,
+     "date": "2025-08-22",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T10_P2": [
+    {
+     "text": "after update it's become like a local betting app. now you can't even view the dream team. well done dream.11. now my 11 circle is far better than you.",
+     "rating": 1,
+     "date": "2025-12-07",
+     "store": "play",
+     "thumbs": 35
+    },
+    {
+     "text": "realy bad if u see full add and app says block u r add.. may be soft error best other app not like this frustrating not play for win just want to check",
+     "rating": 1,
+     "date": "2026-02-13",
+     "store": "play",
+     "thumbs": 15
+    },
+    {
+     "text": "the previous version without all those videos was far better. the interface has become too complicated. I would advise to go back to the old version. this app is downloaded for betting not watching commentary. please understand the purpose.",
+     "rating": 1,
+     "date": "2026-04-18",
+     "store": "play",
+     "thumbs": 11
+    }
+   ],
+   "T10_P3": [
+    {
+     "text": "Fantasy games are now rewarding for no money. Worst decision. moving to my11circle.",
+     "rating": 1,
+     "date": "2026-09-05",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "no contest of price like other app now it's become useless",
+     "rating": 1,
+     "date": "2026-08-27",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T11_P0": [
+    {
+     "text": "One-time setup, lifetime support—this app is an absolute gem 😍",
+     "rating": 5,
+     "date": "2025-07-12",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "dream coins ko bada dijiye 500 coins me 50% off Wale pass do sir",
+     "rating": 4,
+     "date": "2025-06-25",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "Chandra prakash Hanjii mast gems hame kyu nhi jit rhe hai sir ji kafi mecha khel liye hai",
+     "rating": 5,
+     "date": "2025-06-02",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T11_P1": [
+    {
+     "text": "after installing the update today , section of withdraw went missing, dream coins 13000 , went missing. what's goin on ,if you win today where that prize money goes,as withdraw section is unavailable",
+     "rating": 1,
+     "date": "2025-09-13",
+     "store": "play",
+     "thumbs": 20
+    },
+    {
+     "text": "why there is not any option to buy dress & merchandise in the app through dream coins. it was there (why it was removed now)",
+     "rating": 2,
+     "date": "2025-08-21",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "where is the dream coin ? in new update dream coin is not showing",
+     "rating": 3,
+     "date": "2025-09-13",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T11_P2": [
+    {
+     "text": "I've been using this app last 6year 8moth, but I don't like it anymore because I had something 5600 dream coin but after update it's just 790 dream box so better not use this anymore",
+     "rating": 2,
+     "date": "2025-12-15",
+     "store": "play",
+     "thumbs": 17
+    },
+    {
+     "text": "Very inappropriate behaviour by team, initially they forced to buy dreambucks for ads free and now when we have also sufficient balance in dreambucks for another 1 month ads free they give only 499rs option..such a fool things.. 0 rating",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 12
+    },
+    {
+     "text": "It's Playing Good Fantasy And Lot Of Prizes Of Rank 💚 Every League.Coin FanShop",
+     "rating": 5,
+     "date": "2026-03-28",
+     "store": "play",
+     "thumbs": 10
+    }
+   ],
+   "T11_P3": [],
+   "T12_P0": [
+    {
+     "text": "1 Star for latest update. App was fine b4 update but after update it became worse. Before update we could see players points in recent matches by long pressing on player name but now we can't. Bring back old UI.",
+     "rating": 1,
+     "date": "2025-06-26",
+     "store": "play",
+     "thumbs": 69
+    },
+    {
+     "text": "A useless update,it makes things difficult ,like in the previous version we just need to long press on players to see past performances,but now we need to click on (!) to see that ,it's frustrating me",
+     "rating": 1,
+     "date": "2025-06-26",
+     "store": "play",
+     "thumbs": 50
+    },
+    {
+     "text": "network tab missing after few days of use. reinstalling the app rectifies the issue. i reinstall the app every week to bring back the network tab.",
+     "rating": 3,
+     "date": "2025-08-11",
+     "store": "play",
+     "thumbs": 6
+    }
+   ],
+   "T12_P1": [
+    {
+     "text": "Latest updates is not looking good as compare to previous update but all things are good however winning chance of 1st prize is 0.0000000001 percent. I request take come back of previous update.",
+     "rating": 4,
+     "date": "2025-08-23",
+     "store": "play",
+     "thumbs": 21
+    },
+    {
+     "text": "Jo Laga tha vah bhi wapas nahin aata",
+     "rating": 1,
+     "date": "2025-09-14",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "Nice and awesome app for fantasy league pls bring back all sports like kabaddi, football, with cricket league.",
+     "rating": 5,
+     "date": "2025-09-05",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T12_P2": [
+    {
+     "text": "Please come back! When you were here, I didn't realize your value, but now I do.\"",
+     "rating": 5,
+     "date": "2026-08-23",
+     "store": "play",
+     "thumbs": 116
+    },
+    {
+     "text": "New update is annoying . Dark mode is irritating. old one is good where we can see other's team exactly. now in comparison mode it's really frustrating . Bring back older version",
+     "rating": 1,
+     "date": "2025-12-18",
+     "store": "play",
+     "thumbs": 38
+    },
+    {
+     "text": "worst updated version, it's dead slow , so many adds , waste of time, old version is super,dear dream 11 please come back with old version otherwise u lose somany customers",
+     "rating": 1,
+     "date": "2025-12-13",
+     "store": "play",
+     "thumbs": 32
+    }
+   ],
+   "T12_P3": [
+    {
+     "text": "Please bring back football on Dream11. Even if there is no money involved, I just enjoy watching football matches with my Dream11 team, the same way I do with cricket.",
+     "rating": 5,
+     "date": "2026-08-30",
+     "store": "play",
+     "thumbs": 33
+    },
+    {
+     "text": "Now it's good and fine simply super bring back the old way gaming please",
+     "rating": 5,
+     "date": "2026-09-17",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "dear dream 11 team this is janakiraman from Chennai tamilnadu India... it's a kind request . kindly bring back through the paid contest. otherwise banbcompletly dream11 app. no one will play simply by game contest....",
+     "rating": 5,
+     "date": "2026-08-28",
+     "store": "play",
+     "thumbs": 2
+    }
+   ]
+  },
+  "FanCode": {
+   "T01_P0": [
+    {
+     "text": "Don't waste your money and time. They show you long ads even if you pay for the pass. I will shift to a different sports app but NEVER return to this greedy app.",
+     "rating": 1,
+     "date": "2025-08-18",
+     "store": "play",
+     "thumbs": 15
+    },
+    {
+     "text": "I got my subscription just to watch F1. Its very glitchy and keeps buffering when watching F1 race every weekend. Feels like I wasted money on this app.",
+     "rating": 1,
+     "date": "2025-08-03",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "I have a subscription plan and there are advertisements, it was a waste of money.",
+     "rating": 1,
+     "date": "2025-07-19",
+     "store": "play",
+     "thumbs": 3
+    }
+   ],
+   "T01_P1": [
+    {
+     "text": "psl streaming is stopped, politics should not overcome sports. Would you return money back? Uninstalling this app as even the streaming was very poor. one of the worst app, clearly shows the partiality in videos being posted.",
+     "rating": 1,
+     "date": "2025-09-08",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "No review.. hurry to show more and more advertisement. show some reply and some falling wickets. DRS etc . shame to earn more and more money rather than give good stuff of sports",
+     "rating": 1,
+     "date": "2025-09-10",
+     "store": "play",
+     "thumbs": 10
+    },
+    {
+     "text": "Now that I posted a complaint they have removed sound completely wow what a joke..get back to me ASAP I want a refund if u cannot solve the issues, disgusting experience after paying",
+     "rating": 1,
+     "date": "2025-11-20",
+     "store": "play",
+     "thumbs": 8
+    }
+   ],
+   "T01_P2": [
+    {
+     "text": "Subscribed to watch F1, the ads had no issues loading but the live stream race won't load. Tried restarting phone , restarting app & clearing cache. But it still didn't work. Waste of time and money!",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 16
+    },
+    {
+     "text": "I am Pay for subscribe but worst app waste my money. so many adds show in live match. please don't pay like app .",
+     "rating": 1,
+     "date": "2026-03-22",
+     "store": "play",
+     "thumbs": 14
+    },
+    {
+     "text": "The tie up with jio tv is not working, it is useless and only waste of money .",
+     "rating": 1,
+     "date": "2026-06-14",
+     "store": "play",
+     "thumbs": 8
+    }
+   ],
+   "T01_P3": [
+    {
+     "text": "videos are not uploading properly and so many matches are not displaying in the lists. I think u people are focusing only money so only these kind of laziness for uploading videos even after so many days of match completion",
+     "rating": 1,
+     "date": "2026-08-31",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "1match pass 25 rupees or video quality is very poor 144 quality not good app jio star is best app of cricket matches",
+     "rating": 1,
+     "date": "2026-09-17",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "ghatiya app don't subscribe zero quality money waste",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T02_P0": [
+    {
+     "text": "Earlier Fantasy information are available in the App but now no information are there. Very useless now 😭",
+     "rating": 1,
+     "date": "2025-08-16",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "live match on than Add very much it is very useless, these balls are moving in cricket",
+     "rating": 1,
+     "date": "2025-07-22",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "only works on laptop and tv. v poor interface. My ID got deleted somehow (of no fault of my own) and the support team was useless.",
+     "rating": 2,
+     "date": "2025-07-27",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T02_P1": [
+    {
+     "text": "Very much disappointed about this channel. because,this channel allows us to watch only for 5 minutes then what is the use of this channel in downloading ?Everytime it asks to pay and watch?Waste of time.",
+     "rating": 1,
+     "date": "2025-09-07",
+     "store": "play",
+     "thumbs": 19
+    },
+    {
+     "text": "Good broadcasts but tired of ads for paid content. I mean why play advertisements in the middle of the broadcast for something which we paid a subscription fee for.",
+     "rating": 3,
+     "date": "2025-10-04",
+     "store": "play",
+     "thumbs": 5
+    },
+    {
+     "text": "It cannot get any worse. No point in acquiring a pass for the whole season as your stream will keep loading the 2nd ad all of a sudden.",
+     "rating": 1,
+     "date": "2025-11-08",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T02_P2": [
+    {
+     "text": "Subscribed to watch F1, the ads had no issues loading but the live stream race won't load. Tried restarting phone , restarting app & clearing cache. But it still didn't work. Waste of time and money!",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 16
+    },
+    {
+     "text": "The tie up with jio tv is not working, it is useless and only waste of money .",
+     "rating": 1,
+     "date": "2026-06-14",
+     "store": "play",
+     "thumbs": 8
+    },
+    {
+     "text": "Just waste of time tried to log in multiple times to watch a match but after typing the otp it is showing error!!!! Such a waste of time",
+     "rating": 1,
+     "date": "2026-02-22",
+     "store": "play",
+     "thumbs": 6
+    }
+   ],
+   "T02_P3": [
+    {
+     "text": "bekar hai ise acha jiohotstar hai ye bas paisa lut raha hai",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "bahut bekar aaps h. koi bhi ise download na kare. aur is aaps me koi vi payment mat kare. fraud h sacm h ye apps.",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "T20 ODI aur test ka score card 2 3 sal old ka ab nahin dikhata jab tak yah dream11 chal raha tha tab tak liye show kar raha tha lekin ab sab bekar hai",
+     "rating": 1,
+     "date": "2026-09-19",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T03_P0": [
+    {
+     "text": "I get logged out of my Mobile application for every single session. quite frankly it's very annoying. the only other device it's logged in on is my desktop.",
+     "rating": 2,
+     "date": "2025-06-06",
+     "store": "play",
+     "thumbs": 5
+    }
+   ],
+   "T03_P1": [
+    {
+     "text": "The ONLY best thing is now not available. Apart from everything else Player stats were very useful and now it has been removed. UNINSTALLING it now. Will wait until they bring back the player statistics section again.",
+     "rating": 1,
+     "date": "2025-09-09",
+     "store": "play",
+     "thumbs": 20
+    },
+    {
+     "text": "psl streaming is stopped, politics should not overcome sports. Would you return money back? Uninstalling this app as even the streaming was very poor. one of the worst app, clearly shows the partiality in videos being posted.",
+     "rating": 1,
+     "date": "2025-09-08",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "not sure what is happening but when i am on wifi this app dont want to work, i have to switch to mobile data always. after the update now it dont want to work with my mobile data also.",
+     "rating": 3,
+     "date": "2025-11-29",
+     "store": "play",
+     "thumbs": 5
+    }
+   ],
+   "T03_P2": [
+    {
+     "text": "Streaming speed and quality is bad, although I have high speed internet, no vpn. Still it sucks quite often.",
+     "rating": 2,
+     "date": "2026-06-05",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "Somany ads...And day and night mode interface disabled.After paying the monthly or yearly pass getting this much ads very pathetic.i am uninstalled this app..I am using this app since 2020",
+     "rating": 1,
+     "date": "2025-12-10",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "Even after buying the match pass, ads keep on coming every one min in the middle of the match and have to skip it every time, uninstalling the app right away",
+     "rating": 1,
+     "date": "2026-03-13",
+     "store": "play",
+     "thumbs": 5
+    }
+   ],
+   "T03_P3": [
+    {
+     "text": "tomorrow highlights dekhoga ok don't west money 🤑 lala may bahot kangal ho aur app bhi uninstall kara hu 😁😔",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "I paid Rs.49. Then I watched match 2min after that again asked for money. So I'm going to uninstall this app.",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "Not good at all, worst experience. FanCode app is not running smoothly. It keeps buffering and lagging, which makes it difficult to watch the match properly. The video quality also drops frequently, and the overall streaming experience is quite frustrating.",
+     "rating": 1,
+     "date": "2026-08-27",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T04_P0": [
+    {
+     "text": "fancode discontinue player stats article in new update but user want this article in fantasy section player stats options at least for previous completed matches not for upcoming matches please add this so user can used it",
+     "rating": 3,
+     "date": "2025-08-18",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "now we miss the fantacy tips & win prediction points table previous matches list comparison this update was not nice previous update was fantastic than this",
+     "rating": 4,
+     "date": "2025-08-15",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "fantasy stats have been removed from fancode very bad 👎",
+     "rating": 1,
+     "date": "2025-08-19",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T04_P1": [
+    {
+     "text": "The ONLY best thing is now not available. Apart from everything else Player stats were very useful and now it has been removed. UNINSTALLING it now. Will wait until they bring back the player statistics section again.",
+     "rating": 1,
+     "date": "2025-09-09",
+     "store": "play",
+     "thumbs": 20
+    },
+    {
+     "text": "player stats ke liye aap famous ho ohi abhi tak tikh nahi huwa hai aap jald se jald thik kare me aap ko 5 star dunga bhai sukriya",
+     "rating": 2,
+     "date": "2025-08-22",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "nice app to watch movie only glitch is sound automatically stops then have to mute for no reason and play the sound it starts again but rest everything is superb especially stats parts",
+     "rating": 4,
+     "date": "2025-09-14",
+     "store": "play",
+     "thumbs": 3
+    }
+   ],
+   "T04_P2": [
+    {
+     "text": "Man why do they have to put everything in foreign language which most don't even understand. You keep popping strategy room suggestions etc etc and when I at last open, it's in Hindi which we don't even understand.",
+     "rating": 1,
+     "date": "2026-05-09",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T04_P3": [],
+   "T05_P0": [
+    {
+     "text": "yes ok i will tell all my friends 👍🏻",
+     "rating": 4,
+     "date": "2025-07-19",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T05_P1": [
+    {
+     "text": "hi friends good night sweet dreams take care 😘💅😘 hai kya 8",
+     "rating": 5,
+     "date": "2025-09-26",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "this app want to pay money 😔😔 not easy to middle class family 😭😭",
+     "rating": 1,
+     "date": "2025-09-04",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "hello friends fancode download na karo .bekar me tumhara time barbat hoga.kyo ki Paisa mangta hai. 😢😥☹️😡🤧",
+     "rating": 3,
+     "date": "2025-09-05",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T05_P2": [
+    {
+     "text": "such a worst app even after buying subscription it is not displaying the match it is keep on loading Note: My network is good",
+     "rating": 1,
+     "date": "2026-04-01",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "punda mari iruku bro friend solli Ulla kasu kekursga bro",
+     "rating": 2,
+     "date": "2026-07-25",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "it lets me see live matches for free. i can rest and enjoy matches with my friends",
+     "rating": 5,
+     "date": "2026-03-14",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T05_P3": [],
+   "T06_P0": [
+    {
+     "text": "Please stop the fifa ad after the end of each over.. So painful to watch live streaming.. Absolutely hating this",
+     "rating": 1,
+     "date": "2025-07-13",
+     "store": "play",
+     "thumbs": 20
+    },
+    {
+     "text": "Too many ads while watching Race Replays. Skip a little bit, boom, there you go, 15 seconds unskippable ad, ffs. I have Unlimited Live Stream pass btw which is like the highest sport subscription they offer.",
+     "rating": 2,
+     "date": "2025-07-09",
+     "store": "play",
+     "thumbs": 19
+    },
+    {
+     "text": "Pathetic app for live streaming F1. After some time it just rewinds itself to at least 4 laps. Also, even if you have subscription it'll show ads in the middle of the race! 🤬🤬",
+     "rating": 1,
+     "date": "2025-07-06",
+     "store": "play",
+     "thumbs": 17
+    }
+   ],
+   "T06_P1": [
+    {
+     "text": "I love the option to preview matches and pay per game. This is how sports streaming apps should be.",
+     "rating": 5,
+     "date": "2025-09-19",
+     "store": "play",
+     "thumbs": 50
+    },
+    {
+     "text": "You are paying for the subscription and still need to watch some stupid ads in between, that's exactly the case with fancode. Absolutely annoying experience, and let's not talk about the video quality, it's just mediocre at best.",
+     "rating": 1,
+     "date": "2025-08-30",
+     "store": "play",
+     "thumbs": 24
+    },
+    {
+     "text": "App is built exceptionally well, surprised me at first instance only, Kudos to the team behind this service. Happy streaming, Happy Customer.",
+     "rating": 5,
+     "date": "2025-10-21",
+     "store": "play",
+     "thumbs": 22
+    }
+   ],
+   "T06_P2": [
+    {
+     "text": "the UI looks great now, could use some more tuning. the service has got the potential to be the best sports streaming platform in India.",
+     "rating": 5,
+     "date": "2026-02-22",
+     "store": "play",
+     "thumbs": 26
+    },
+    {
+     "text": "Ads before and in between highlights. Haven't seen an ad during live matches.",
+     "rating": 1,
+     "date": "2025-12-08",
+     "store": "play",
+     "thumbs": 18
+    },
+    {
+     "text": "Subscribed to watch F1, the ads had no issues loading but the live stream race won't load. Tried restarting phone , restarting app & clearing cache. But it still didn't work. Waste of time and money!",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 16
+    }
+   ],
+   "T06_P3": [
+    {
+     "text": "doesn't let me buy more than 7 F1 weekend passes. stream quality is good but not excellent, but it's worth for the price",
+     "rating": 3,
+     "date": "2026-09-05",
+     "store": "play",
+     "thumbs": 5
+    },
+    {
+     "text": "trash app, streaming on my tv is a pain, the whole stream stutters and lags, why make a trash app if you can't provide quality streaming experience..",
+     "rating": 1,
+     "date": "2026-08-28",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "videos are not uploading properly and so many matches are not displaying in the lists. I think u people are focusing only money so only these kind of laziness for uploading videos even after so many days of match completion",
+     "rating": 1,
+     "date": "2026-08-31",
+     "store": "play",
+     "thumbs": 3
+    }
+   ],
+   "T07_P0": [],
+   "T07_P1": [
+    {
+     "text": "Good app but should have a option to maintain the brightness level.",
+     "rating": 5,
+     "date": "2025-09-15",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "i never seen this level of live streaming",
+     "rating": 1,
+     "date": "2025-09-08",
+     "store": "play",
+     "thumbs": 0
+    },
+    {
+     "text": "UI has to improve a lot audio level is below average",
+     "rating": 3,
+     "date": "2025-09-18",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T07_P2": [
+    {
+     "text": "need some view level changes like audio and brightness controls. otherwise looking good.",
+     "rating": 4,
+     "date": "2026-07-24",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "The app keeps hanging. Loading speed is very low. It needs NASA reserch level internet speed. And more over, even after having a subscription adds are mandatory....So why am I paying??",
+     "rating": 1,
+     "date": "2026-03-29",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "Very Poor interface. language change happens at will and not finding options to rectify it as well. The support team is filled with high level dumbos... Feeling disgusted using FANCODE ...",
+     "rating": 1,
+     "date": "2026-05-22",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T07_P3": [],
+   "T08_P0": [
+    {
+     "text": "The ads in it just jump out of nowhere and damn louder than the race. That's unacceptable. Still the same? c'mon guys it's louder af now the ads. Don't get me wrong the app is good but the ads mann.",
+     "rating": 1,
+     "date": "2025-07-26",
+     "store": "play",
+     "thumbs": 23
+    },
+    {
+     "text": "Too many ads while watching Race Replays. Skip a little bit, boom, there you go, 15 seconds unskippable ad, ffs. I have Unlimited Live Stream pass btw which is like the highest sport subscription they offer.",
+     "rating": 2,
+     "date": "2025-07-09",
+     "store": "play",
+     "thumbs": 19
+    },
+    {
+     "text": "Pathetic app for live streaming F1. After some time it just rewinds itself to at least 4 laps. Also, even if you have subscription it'll show ads in the middle of the race! 🤬🤬",
+     "rating": 1,
+     "date": "2025-07-06",
+     "store": "play",
+     "thumbs": 17
+    }
+   ],
+   "T08_P1": [
+    {
+     "text": "very poor experience.. ad shows running overs . please do not play ads in running overs you play once over is completed or wicket is gone.",
+     "rating": 5,
+     "date": "2025-09-10",
+     "store": "play",
+     "thumbs": 208
+    },
+    {
+     "text": "Very frequently advertisements came during the match time and it's create very awkward situation...",
+     "rating": 1,
+     "date": "2025-11-17",
+     "store": "play",
+     "thumbs": 28
+    },
+    {
+     "text": "You are paying for the subscription and still need to watch some stupid ads in between, that's exactly the case with fancode. Absolutely annoying experience, and let's not talk about the video quality, it's just mediocre at best.",
+     "rating": 1,
+     "date": "2025-08-30",
+     "store": "play",
+     "thumbs": 24
+    }
+   ],
+   "T08_P2": [
+    {
+     "text": "Ads before and in between highlights. Haven't seen an ad during live matches.",
+     "rating": 1,
+     "date": "2025-12-08",
+     "store": "play",
+     "thumbs": 18
+    },
+    {
+     "text": "Even after payment, 20 secs ads are shown . Lots of issues when watching a live sport . hangs , blurs etc . This app can't even be downloaded in my samsung tv too. Very bad 👎",
+     "rating": 1,
+     "date": "2026-05-03",
+     "store": "play",
+     "thumbs": 17
+    },
+    {
+     "text": "Subscribed to watch F1, the ads had no issues loading but the live stream race won't load. Tried restarting phone , restarting app & clearing cache. But it still didn't work. Waste of time and money!",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 16
+    }
+   ],
+   "T08_P3": [
+    {
+     "text": "worst experience. to many ads, I strongly recommend going with any other apps.",
+     "rating": 1,
+     "date": "2026-09-06",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "disgusting to see ads even after taking premium",
+     "rating": 1,
+     "date": "2026-09-20",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "Just an app that has 50% lag, 10% advertisements and then we might get to watch the sports we paid for.",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T09_P0": [
+    {
+     "text": "The crashes are just unbearable. App crashes so many times that you lose interest in watching the game. If you have an alternative, go with that, this isn't worth it.",
+     "rating": 2,
+     "date": "2025-06-15",
+     "store": "play",
+     "thumbs": 11
+    },
+    {
+     "text": "Worst service. the website does not work and the app is not working. Displaying nonsense as the app is not working with quotes like it will cheer me up. The whole live session is wasted.",
+     "rating": 1,
+     "date": "2025-06-28",
+     "store": "play",
+     "thumbs": 7
+    },
+    {
+     "text": "very slow browsing after updating not abble to seen live streaming after payment very bad experience",
+     "rating": 1,
+     "date": "2025-06-05",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T09_P1": [
+    {
+     "text": "Very good application for all cricket/other_sports related topics & queries,Also good for live and highlight cricket matches ... But needs a lots of bug fix for 5 star⭐ But full #support from my side",
+     "rating": 4,
+     "date": "2025-11-29",
+     "store": "play",
+     "thumbs": 6
+    },
+    {
+     "text": "not working asking to restart my mobile and even than it is not working. I purchased Laliga Pass just to watch Real Madrid and not able to do the same. Very bad experience",
+     "rating": 1,
+     "date": "2025-08-31",
+     "store": "play",
+     "thumbs": 5
+    },
+    {
+     "text": "i pay for live streaming of asia cup final but not working properly and app glitches so much.",
+     "rating": 1,
+     "date": "2025-09-29",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T09_P2": [
+    {
+     "text": "Even after payment, 20 secs ads are shown . Lots of issues when watching a live sport . hangs , blurs etc . This app can't even be downloaded in my samsung tv too. Very bad 👎",
+     "rating": 1,
+     "date": "2026-05-03",
+     "store": "play",
+     "thumbs": 17
+    },
+    {
+     "text": "Terrific phone app. But PLEASE fix the bug problem when i log in on my tv. keeps showing \"empty list\" and i have to reinstall all over again. This needs to work on other platforms too.",
+     "rating": 5,
+     "date": "2026-04-04",
+     "store": "play",
+     "thumbs": 17
+    },
+    {
+     "text": "There are just so many bugs I can't even cancel my subscription and I'm paying for nothing! I can't even watch the race I'm paying for!",
+     "rating": 1,
+     "date": "2026-05-02",
+     "store": "play",
+     "thumbs": 11
+    }
+   ],
+   "T09_P3": [
+    {
+     "text": "trash app, streaming on my tv is a pain, the whole stream stutters and lags, why make a trash app if you can't provide quality streaming experience..",
+     "rating": 1,
+     "date": "2026-08-28",
+     "store": "play",
+     "thumbs": 4
+    },
+    {
+     "text": "worst app every time login in this app totally bug this app don't use this app",
+     "rating": 1,
+     "date": "2026-09-12",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "App is very slow and in between program it's buffering maximum time. program details not showing.",
+     "rating": 1,
+     "date": "2026-09-18",
+     "store": "play",
+     "thumbs": 2
+    }
+   ],
+   "T10_P0": [],
+   "T10_P1": [
+    {
+     "text": "worst app....I made payment....but can't see match. don't cheat like this. hi viewer pay in some other app to watch matches.",
+     "rating": 1,
+     "date": "2025-09-19",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "worest ur application streaming games 80 percent fixing games and betting friendly games worest experience",
+     "rating": 1,
+     "date": "2025-11-18",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T10_P2": [
+    {
+     "text": "Too much bugs, After buying match pass Too much adds comming.. wroste paid aap ever in see, Don't download Go for other app 🙏",
+     "rating": 1,
+     "date": "2026-03-16",
+     "store": "play",
+     "thumbs": 3
+    },
+    {
+     "text": "The app lags more than any other app. Not a good experience.",
+     "rating": 1,
+     "date": "2026-02-23",
+     "store": "play",
+     "thumbs": 1
+    },
+    {
+     "text": "nice app in tha fancode is supar app in tha world bet games live video matches have more",
+     "rating": 5,
+     "date": "2026-08-02",
+     "store": "play",
+     "thumbs": 1
+    }
+   ],
+   "T10_P3": [
+    {
+     "text": "Streaming Quality is top notch. Better than any other app in India. They can improve their interface.",
+     "rating": 5,
+     "date": "2026-08-31",
+     "store": "play",
+     "thumbs": 2
+    },
+    {
+     "text": "don't host india's match i dont wanna buy subscription for every other app.",
+     "rating": 1,
+     "date": "2026-09-13",
+     "store": "play",
+     "thumbs": 0
+    }
+   ],
+   "T11_P0": [],
+   "T11_P1": [],
+   "T11_P2": [],
+   "T11_P3": [],
+   "T12_P0": [
+    {
+     "text": "worst streaming app you will ever see. i watch motogp in it. some parts of the videos are stuck and never come back.",
+     "rating": 1,
+     "date": "2025-06-08",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T12_P1": [
+    {
+     "text": "The ONLY best thing is now not available. Apart from everything else Player stats were very useful and now it has been removed. UNINSTALLING it now. Will wait until they bring back the player statistics section again.",
+     "rating": 1,
+     "date": "2025-09-09",
+     "store": "play",
+     "thumbs": 20
+    },
+    {
+     "text": "not working asking to restart my mobile and even than it is not working. I purchased Laliga Pass just to watch Real Madrid and not able to do the same. Very bad experience",
+     "rating": 1,
+     "date": "2025-08-31",
+     "store": "play",
+     "thumbs": 5
+    },
+    {
+     "text": "sound in live streaming matches stops after some time. I have to restart the streaming everytime when it happens.",
+     "rating": 1,
+     "date": "2025-09-21",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T12_P2": [
+    {
+     "text": "Nice experience overall.. but **instead of the Ai summary bring back the earlier option of Event Info** which used to show timing for the event",
+     "rating": 3,
+     "date": "2026-03-20",
+     "store": "play",
+     "thumbs": 4
+    }
+   ],
+   "T12_P3": []
+  }
+ },
+ "segment_signals": {
+  "Dream11": {
+   "S1_S2_money_leavers": {
+    "P0": 3.9,
+    "P1": 4.2,
+    "P2": 7.6,
+    "P3": 15.4
+   },
+   "S3_strategists": {
+    "P0": 1.9,
+    "P1": 1.2,
+    "P2": 2.0,
+    "P3": 1.0
+   },
+   "S4_league_players": {
+    "P0": 0.8,
+    "P1": 0.4,
+    "P2": 0.5,
+    "P3": 0.5
+   },
+   "S5_loungers": {
+    "P0": 0.1,
+    "P1": 0.2,
+    "P2": 4.5,
+    "P3": 0.0
+   },
+   "offshore_drift": {
+    "P0": 0.2,
+    "P1": 0.3,
+    "P2": 0.5,
+    "P3": 1.0
+   }
+  },
+  "FanCode": {
+   "S1_S2_money_leavers": {
+    "P0": 2.2,
+    "P1": 3.6,
+    "P2": 4.4,
+    "P3": 4.5
+   },
+   "S3_strategists": {
+    "P0": 0.3,
+    "P1": 0.2,
+    "P2": 0.2,
+    "P3": 0.0
+   },
+   "S4_league_players": {
+    "P0": 0.0,
+    "P1": 0.1,
+    "P2": 0.2,
+    "P3": 0.0
+   },
+   "S5_loungers": {
+    "P0": 3.2,
+    "P1": 3.7,
+    "P2": 7.4,
+    "P3": 4.2
+   },
+   "offshore_drift": {
+    "P0": 0.0,
+    "P1": 0.0,
+    "P2": 0.1,
+    "P3": 0.1
+   }
+  }
+ }
+}

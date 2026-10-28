@@ -1,0 +1,114 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S05_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S05_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S05_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S05_root .lyr{position:absolute;will-change:opacity,transform}
+    #S05_root .lyr img{display:block;width:100%;height:100%}
+    #S05_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    #S05_hero{position:absolute;inset:0;background:#FFFFFF;color:#111111;font-family:Inter,sans-serif}
+#S05_hero .h-chip{position:absolute;left:96px;top:64px;padding:10px 22px;background:#184898;color:#FFFFFF;font:700 30px Poppins;border:2px solid #111111;box-shadow:7px 7px 0 #FFC20E}
+#S05_hero .h-card{position:absolute;top:168px;width:536px;height:176px;border:2px solid #111111;box-shadow:8px 8px 0 #FFC20E;background:#FFFFFF;padding:18px 24px;box-sizing:border-box}
+#S05_hero .h-num{font:800 64px/1 Poppins;color:#184898;position:relative;display:inline-block}
+#S05_hero .h-red{color:#B91C1C}
+#S05_hero .h-lab{font:700 28px/1.25 Inter;margin-top:14px}
+#S05_hero .h-strike{position:absolute;left:-6px;right:-6px;top:46%;height:7px;background:#B91C1C;transform-origin:0 50%}
+#S05_hero .h-big{position:absolute;left:96px;top:392px;font:800 300px/1 Poppins;color:#B91C1C}
+#S05_hero .h-side{position:absolute;left:760px;top:430px}
+#S05_hero .h-s1{font:800 56px/1.1 Poppins;color:#B91C1C}
+#S05_hero .h-s2{font:700 40px/1.3 Inter;margin-top:14px}
+#S05_hero .h-s3{font:700 40px/1.3 Inter;color:#184898}
+#S05_hero .h-row{position:absolute;left:96px;height:52px;width:1700px}
+#S05_hero .h-rl{position:absolute;left:0;top:2px;font:700 36px Inter}
+#S05_hero .h-bar{position:absolute;left:180px;top:4px;height:44px;border:2px solid #111111;box-sizing:border-box;transform-origin:0 50%}
+#S05_hero .h-val{position:absolute;top:0;font:700 36px Poppins}
+#S05_hero .h-kill{position:absolute;left:1576px;top:750px;width:0;height:220px;border-left:5px dashed #B91C1C;transform-origin:50% 0}
+#S05_hero .h-killl{position:absolute;left:1596px;top:828px;font:700 30px Poppins;color:#B91C1C}
+#S05_hero .h-src{position:absolute;right:96px;bottom:40px;font:600 22px Inter;color:#184898}
+  </style>
+  <div id="S05_root" data-composition-id="S05" data-width="1920" data-height="1080">
+    <div id="S05_stage"><img class="bg" src="assets/slides/s2_skel.png" alt=""><div class="lyr" id="S05_p1_title" style="left:122px;top:314px;width:656px;height:52px"><img src="assets/crops/p1_title.png" alt=""></div><div class="lyr" id="S05_p1_root" style="left:134px;top:368px;width:632px;height:44px"><img src="assets/crops/p1_root.png" alt=""></div><div class="lyr" id="S05_p1_bus" style="left:230px;top:408px;width:440px;height:22px"><img src="assets/crops/p1_bus.png" alt=""></div><div class="lyr" id="S05_p1_n1" style="left:134px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n1.png" alt=""></div><div class="lyr" id="S05_p1_n2" style="left:348px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n2.png" alt=""></div><div class="lyr" id="S05_p1_n3" style="left:562px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n3.png" alt=""></div><div class="lyr" id="S05_p2_title" style="left:798px;top:314px;width:466px;height:52px"><img src="assets/crops/p2_title.png" alt=""></div><div class="lyr" id="S05_p2_table" style="left:810px;top:368px;width:442px;height:158px"><img src="assets/crops/p2_table.png" alt=""></div><div class="lyr" id="S05_p3_title" style="left:1284px;top:314px;width:570px;height:52px"><img src="assets/crops/p3_title.png" alt=""></div><div class="lyr" id="S05_p3_table" style="left:1296px;top:368px;width:546px;height:158px"><img src="assets/crops/p3_table.png" alt=""></div><div class="lyr" id="S05_p4_title" style="left:122px;top:558px;width:756px;height:52px"><img src="assets/crops/p4_title.png" alt=""></div><div class="lyr" id="S05_p4_table" style="left:134px;top:612px;width:732px;height:128px"><img src="assets/crops/p4_table.png" alt=""></div><div class="lyr" id="S05_p4_repay" style="left:134px;top:744px;width:732px;height:32px"><img src="assets/crops/p4_repay.png" alt=""></div><div class="lyr" id="S05_p5" style="left:893px;top:553px;width:417px;height:245px"><img src="assets/crops/p5.png" alt=""></div><div class="lyr" id="S05_p6_title" style="left:1318px;top:558px;width:536px;height:52px"><img src="assets/crops/p6_title.png" alt=""></div><div class="lyr" id="S05_p6_n1" style="left:1330px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n1.png" alt=""></div><div class="lyr" id="S05_p6_n2" style="left:1460px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n2.png" alt=""></div><div class="lyr" id="S05_p6_n3" style="left:1590px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n3.png" alt=""></div><div class="lyr" id="S05_p6_n4" style="left:1720px;top:614px;width:122px;height:64px"><img src="assets/crops/p6_n4.png" alt=""></div><div class="lyr" id="S05_p6_return" style="left:1330px;top:678px;width:512px;height:48px"><img src="assets/crops/p6_return.png" alt=""></div><div class="lyr" id="S05_p6_bullets" style="left:1330px;top:726px;width:512px;height:60px"><img src="assets/crops/p6_bullets.png" alt=""></div><div class="lyr" id="S05_p7_title" style="left:122px;top:802px;width:556px;height:52px"><img src="assets/crops/p7_title.png" alt=""></div><div class="lyr" id="S05_p7_chart" style="left:134px;top:856px;width:240px;height:170px"><img src="assets/crops/p7_chart.png" alt=""></div><div class="lyr" id="S05_p7_legend" style="left:384px;top:854px;width:288px;height:166px"><img src="assets/crops/p7_legend.png" alt=""></div><div class="lyr" id="S05_p8_title" style="left:698px;top:802px;width:596px;height:52px"><img src="assets/crops/p8_title.png" alt=""></div><div class="lyr" id="S05_p8_bars" style="left:710px;top:856px;width:572px;height:138px"><img src="assets/crops/p8_bars.png" alt=""></div><div class="lyr" id="S05_p8_strip" style="left:710px;top:994px;width:572px;height:32px"><img src="assets/crops/p8_strip.png" alt=""></div><div class="lyr" id="S05_p9_title" style="left:1314px;top:802px;width:540px;height:52px"><img src="assets/crops/p9_title.png" alt=""></div><div class="lyr" id="S05_p9_table" style="left:1326px;top:856px;width:516px;height:158px"><img src="assets/crops/p9_table.png" alt=""></div><div class="lyr" id="S05_p1_full" style="left:118px;top:310px;width:664px;height:236px"><img src="assets/crops/p1_full.png" alt=""></div><div class="lyr" id="S05_p2_full" style="left:794px;top:310px;width:474px;height:236px"><img src="assets/crops/p2_full.png" alt=""></div><div class="lyr" id="S05_p3_full" style="left:1280px;top:310px;width:578px;height:236px"><img src="assets/crops/p3_full.png" alt=""></div><div class="lyr" id="S05_p4_full" style="left:118px;top:554px;width:764px;height:236px"><img src="assets/crops/p4_full.png" alt=""></div><div class="lyr" id="S05_p6_full" style="left:1314px;top:554px;width:544px;height:236px"><img src="assets/crops/p6_full.png" alt=""></div><div class="lyr" id="S05_p7_full" style="left:118px;top:798px;width:564px;height:236px"><img src="assets/crops/p7_full.png" alt=""></div><div class="lyr" id="S05_p8_full" style="left:694px;top:798px;width:604px;height:236px"><img src="assets/crops/p8_full.png" alt=""></div><div class="lyr" id="S05_p9_full" style="left:1310px;top:798px;width:548px;height:236px"><img src="assets/crops/p9_full.png" alt=""></div></div>
+    <div id="S05_hero">
+  <div class="h-chip" id="S05_chip">THE BAR TO BEAT</div>
+  <div class="h-card" id="S05_c1" style="left:96px"><div class="h-num" id="S05_c1n">0.0 LAKH</div><div class="h-lab">member shops at full scale</div></div>
+  <div class="h-card" id="S05_c2" style="left:692px"><div class="h-num" id="S05_c2n">₹0.0 CRORE</div><div class="h-lab">a year, 1.63% of unit revenue</div></div>
+  <div class="h-card" id="S05_c3" style="left:1288px"><div class="h-num h-red">₹41.7 CRORE<span class="h-strike" id="S05_c3s"></span></div><div class="h-lab">what cash per tyre would cost</div></div>
+  <div class="h-big" id="S05_big">0.0</div>
+  <div class="h-side" id="S05_side"><div class="h-s1">EXTRA TYRES A SHOP A YEAR</div><div class="h-s2">pay for the whole programme,</div><div class="h-s3">one every 12 weeks</div></div>
+  <div class="h-row" id="S05_r0" style="top:770px"><div class="h-rl">Bear</div><div class="h-bar" id="S05_b0" style="width:1264.9px;background:#B91C1C"></div><div class="h-val" id="S05_v0" style="left:1314.9px;color:#FFFFFF">11.7</div></div><div class="h-row" id="S05_r1" style="top:836px"><div class="h-rl">Base</div><div class="h-bar" id="S05_b1" style="width:479.5px;background:#184898"></div><div class="h-val" id="S05_v1" style="left:675.5px;color:#184898">4.4</div></div><div class="h-row" id="S05_r2" style="top:902px"><div class="h-rl">Bull</div><div class="h-bar" id="S05_b2" style="width:241.8px;background:#111111"></div><div class="h-val" id="S05_v2" style="left:437.8px;color:#111111">2.2</div></div>
+  <div class="h-kill" id="S05_kill"></div><div class="h-killl" id="S05_killl">KILL LINE 12</div>
+  <div class="h-src">Model b1125880f5, base case; bear and bull from the same model</div>
+</div>
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S05_stage",{x:-2688.0,y:-1075.2,scale:2.4000},0);
+      tl.set("#S05_p2_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S05_p3_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S05_p4_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S05_p5",{opacity:0},0);
+      tl.set("#S05_p7_title",{opacity:0},0);
+      tl.set("#S05_p7_chart",{opacity:0},0);
+      tl.set("#S05_p7_legend",{opacity:0},0);
+      tl.set("#S05_p8_title",{opacity:0},0);
+      tl.set("#S05_p8_bars",{opacity:0},0);
+      tl.set("#S05_p8_strip",{opacity:0},0);
+      tl.set("#S05_p9_title",{opacity:0},0);
+      tl.set("#S05_p9_table",{opacity:0},0);
+      tl.set("#S05_p1_full",{opacity:0},0);
+      tl.set("#S05_p2_full",{opacity:0},0);
+      tl.set("#S05_p3_full",{opacity:0},0);
+      tl.set("#S05_p4_full",{opacity:0},0);
+      tl.set("#S05_p6_full",{opacity:0},0);
+      tl.set("#S05_p7_full",{opacity:0},0);
+      tl.set("#S05_p8_full",{opacity:0},0);
+      tl.set("#S05_p9_full",{opacity:0},0);
+      tl.set("#S05_chip",{opacity:0},0);
+      tl.set("#S05_c1",{opacity:0},0);
+      tl.set("#S05_c2",{opacity:0},0);
+      tl.set("#S05_c3",{opacity:0},0);
+      tl.set("#S05_big",{opacity:0},0);
+      tl.set("#S05_side",{opacity:0},0);
+      tl.set("#S05_kill",{opacity:0},0);
+      tl.set("#S05_killl",{opacity:0},0);
+      tl.set("#S05_r0",{opacity:0},0);
+      tl.set("#S05_r1",{opacity:0},0);
+      tl.set("#S05_r2",{opacity:0},0);
+      tl.set("#S05_c3s",{scaleX:0},0);
+      tl.to("#S05_stage",{x:-1682.4,y:-1080.0,scale:2.4000,duration:0.01,ease:"power2.inOut"},0.000);
+      tl.fromTo("#S05_chip",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.5,ease:"back.out(1.6)"},0.100);
+      tl.fromTo("#S05_c1",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.5,ease:"back.out(1.6)"},0.650);
+      (()=>{const o={v:0};tl.to(o,{v:1.2,duration:0.9,ease:"power2.out",onUpdate:()=>{const n=document.getElementById("S05_c1n");if(n)n.textContent=""+o.v.toFixed(1)+" LAKH";}},0.650);})();
+      tl.fromTo("#S05_c2",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.5,ease:"back.out(1.6)"},2.710);
+      (()=>{const o={v:0};tl.to(o,{v:22.0,duration:1.0,ease:"power2.out",onUpdate:()=>{const n=document.getElementById("S05_c2n");if(n)n.textContent="₹"+o.v.toFixed(1)+" CRORE";}},2.710);})();
+      tl.fromTo("#S05_c3",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.5,ease:"back.out(1.6)"},4.290);
+      tl.to("#S05_c3s",{scaleX:1,duration:0.5,ease:"power2.inOut"},4.790);
+      tl.fromTo("#S05_big",{opacity:0,y:10},{opacity:1,y:0,duration:0.5,ease:"power2.out"},5.930);
+      (()=>{const o={v:0};tl.to(o,{v:4.4,duration:1.3,ease:"power2.out",onUpdate:()=>{const n=document.getElementById("S05_big");if(n)n.textContent=""+o.v.toFixed(1)+"";}},5.930);})();
+      tl.fromTo("#S05_side",{opacity:0,y:10},{opacity:1,y:0,duration:0.5,ease:"power2.out"},6.530);
+      tl.set("#S05_r0",{opacity:1},10.550);
+      tl.fromTo("#S05_b0",{scaleX:0},{scaleX:1,duration:0.8,ease:"power2.out"},10.550);
+      tl.fromTo("#S05_v0",{opacity:0},{opacity:1,duration:0.3},11.150);
+      tl.set("#S05_r1",{opacity:1},10.730);
+      tl.fromTo("#S05_b1",{scaleX:0},{scaleX:1,duration:0.8,ease:"power2.out"},10.730);
+      tl.fromTo("#S05_v1",{opacity:0},{opacity:1,duration:0.3},11.330);
+      tl.set("#S05_r2",{opacity:1},10.910);
+      tl.fromTo("#S05_b2",{scaleX:0},{scaleX:1,duration:0.8,ease:"power2.out"},10.910);
+      tl.fromTo("#S05_v2",{opacity:0},{opacity:1,duration:0.3},11.510);
+      tl.set("#S05_kill",{opacity:1},13.750);
+      tl.fromTo("#S05_kill",{scaleY:0},{scaleY:1,duration:0.45,ease:"power2.out"},13.750);
+      tl.fromTo("#S05_killl",{opacity:0,x:-10},{opacity:1,x:0,duration:0.4},14.050);
+      tl.to("#S05_hero",{opacity:0,duration:0.6,ease:"power1.inOut"},14.748);
+      tl.fromTo("#S05_p5",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},14.748);
+      tl.to({}, { duration: 15.648 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S05"] = tl;
+    })();
+  </script>
+</template>

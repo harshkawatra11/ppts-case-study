@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Next Signal: Round 1 solution report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 10mm; }
+* { box-sizing: border-box; }
+body { font: 8.8pt/1.35 Inter, 'Segoe UI', sans-serif; color: #0B0B0C; margin: 0; }
+.header { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 2.5px solid #C8102E; padding-bottom: 3mm; margin-bottom: 4mm; }
+.header h1 { font: 800 20pt Poppins, sans-serif; margin: 0; letter-spacing: -0.01em; }
+.header .meta { text-align: right; font-size: 8pt; color: #3A3936; line-height: 1.5; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+h2 { font: 700 10.5pt Poppins, sans-serif; color: #C8102E; margin: 4mm 0 1.5mm; border-bottom: 0.6pt solid #0B0B0C; padding-bottom: 0.8mm; }
+p { margin: 0 0 2mm; text-align: left; }
+table { width: 100%; border-collapse: collapse; margin: 1mm 0 2mm; font-size: 8pt; }
+th { background: #0B0B0C; color: #fff; text-align: left; padding: 1mm 1.5mm; font-weight: 700; }
+td { padding: 1mm 1.5mm; border-bottom: 0.5pt solid #E2DFD9; vertical-align: top; }
+tr:nth-child(even) td { background: #F6F5F3; }
+.thesis { background: #0B0B0C; color: #fff; padding: 3mm; margin-bottom: 3mm; }
+.thesis .label { color: #FF3B4F; font: 700 7.5pt Poppins, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.thesis p { color: #fff; margin: 1mm 0 0; font-size: 9pt; }
+.stage-row { display: flex; gap: 1.5mm; margin: 1.5mm 0 3mm; }
+.stage { flex: 1; border: 0.75pt solid #0B0B0C; padding: 1.5mm; text-align: center; }
+.stage .n { font: 700 7.5pt Poppins, sans-serif; color: #C8102E; }
+.stage .t { font: 700 8pt Inter, sans-serif; margin-top: 0.5mm; }
+.flow { font-size: 8pt; }
+.flow li { margin-bottom: 1mm; }
+.foot { margin-top: 5mm; padding-top: 2mm; border-top: 0.5pt solid #E2DFD9; font-size: 7.3pt; color: #75716A; display: flex; justify-content: space-between; }
+ul, ol { margin: 0 0 2mm; padding-left: 4.5mm; }
+li { margin-bottom: 0.8mm; }
+.small { font-size: 7.6pt; color: #3A3936; }
+code { font-family: 'Courier New', monospace; font-size: 7.6pt; background: #F6F5F3; padding: 0 0.5mm; }
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>NEXT SIGNAL</h1>
+  <div class="meta">
+    Track D: Pharma and Healthcare &nbsp;|&nbsp; Team IdeaForge<br>
+    Harsh Kawatra (lead), Gursimran Kaur<br>
+    ATMOS 2026, BITS Pilani Hyderabad Campus
+  </div>
+</div>
+
+<div class="thesis">
+  <div class="label">The approach in one line</div>
+  <p>Next Signal computes before it reads, looks outside the company before it trusts the company, and spends most
+  of its effort trying to kill its own hypotheses. A discovery is whatever survives that effort.</p>
+</div>
+
+<div class="cols">
+<div>
+
+<h2>1. Why this is not a summariser</h2>
+<p>A system that only reads a company's own documents mostly restates what management already chose to emphasise.
+The brief's own worked example finds its story in a <b>computed</b> gap between narrative (volume-led premium
+growth) and arithmetic (price versus volume split, receivable days rising from 28 to 46). A summarising agent that
+does not compute this from raw disclosed numbers cannot reach that kind of finding, because the finding only exists
+after the calculation. Track D compounds this: the most informative evidence often sits outside the company
+entirely (USFDA inspection records, a manufacturing partner's regulatory status, peer segment numbers for the same
+quarter), which a single-corpus retrieval agent has no mechanism to go find or to notice contradicts the company's
+own framing.</p>
+<p>Our build inverts the usual order. A deterministic metric library (44 formulas) computes peer z-scores and
+statistical change-points across every disclosed period <i>before</i> any language model is asked to form an
+opinion. The model's only job is to explain an anomaly the arithmetic has already found, never to originate a
+number shown to the user.</p>
+
+<h2>2. Tools and stack</h2>
+<table>
+<tr><th>Layer</th><th>Choice</th><th>Why</th></tr>
+<tr><td>Research LLM</td><td>Sarvam <code>sarvam-105b</code>, JSON-schema structured output, Gemini fallback on 429/5xx</td><td>128K context, OpenAI-compatible tool calling, India-first provider</td></tr>
+<tr><td>Voice analyst</td><td>Sarvam <code>sarvam-105b-conversations</code> + <code>saaras:v3</code> STT + <code>bulbul:v3</code> TTS</td><td>Grounded only on the generated report; never invents a number</td></tr>
+<tr><td>Orchestration</td><td>Python FastAPI, async stage pipeline, SQLite run store, SSE event bus</td><td>Six named stages, each independently testable, no agent framework needed for a fixed pipeline</td></tr>
+<tr><td>Retrieval</td><td>BM25 over PDF pages (rank_bm25), quote-anchored extraction</td><td>Deterministic, auditable, no vector database or embedding drift</td></tr>
+<tr><td>Statistics</td><td>ruptures (PELT change-points), peer z-scores, event-study (market model, CAR)</td><td>The same methods real analysts use for channel checks and earnings-quality screens</td></tr>
+<tr><td>Data sources</td><td>NSE/BSE filings, openFDA, FDA warning letters and Import Alert 66-40, Orange Book, SEC EDGAR (for ADR issuers), GDELT, CRISIL/ICRA/CARE, NSE MCP, Angel One, Upstox</td><td>Public only; the exact chain the brief's evidence-trail diagram implies</td></tr>
+<tr><td>UI</td><td>Next.js 16, TypeScript, Tailwind v4, recharts, framer-motion</td><td>Click-through evidence drawer on every number</td></tr>
+<tr><td>Exports</td><td>Markdown, HTML-to-PDF (headless Chrome), XLSX (openpyxl), CSV bundle</td><td>Report and dashboard both required by the brief; we build both</td></tr>
+</table>
+
+<h2>3. Workflow: ticker to tested discovery</h2>
+<div class="stage-row">
+  <div class="stage"><div class="n">01</div><div class="t">Discover</div></div>
+  <div class="stage"><div class="n">02</div><div class="t">Connect</div></div>
+  <div class="stage"><div class="n">03</div><div class="t">Calculate</div></div>
+  <div class="stage"><div class="n">04</div><div class="t">Reason</div></div>
+  <div class="stage"><div class="n">05</div><div class="t">Challenge</div></div>
+  <div class="stage"><div class="n">06</div><div class="t">Prove</div></div>
+</div>
+<ol class="flow">
+<li><b>Discover.</b> Resolve the company (NSE index CSVs, live if needed), score candidate angles by
+<code>0.35&middot;data_availability + 0.40&middot;anomaly_signal + 0.25&middot;novelty_prior</code>, keep the top 4.</li>
+<li><b>Connect.</b> Fetch documents in parallel; BM25 ranks candidate pages per metric; an LLM extracts facts with a
+verbatim quote, verified character-for-character against the source page before it is trusted.</li>
+<li><b>Calculate.</b> 44 formulas (growth, mix, profitability, working capital, regulatory, hospital metrics),
+peer-relative z-scores, PELT change-point detection, and an event study against NIFTY 50.</li>
+<li><b>Reason.</b> An LLM proposes up to 6 hypotheses from the ranked anomalies, each with explicit predictions and
+disconfirmers; deterministic rival hypotheses (sector, FX, one-off, accounting) are generated automatically.</li>
+<li><b>Challenge.</b> Nine falsification tests (peer, FX, one-off, reclassification, seasonality, persistence,
+novelty, a disconfirming search, a point-in-time replay) plus an Analysis of Competing Hypotheses matrix. The
+strongest surviving rival becomes the stated Counterargument.</li>
+<li><b>Prove.</b> A deterministic strength score (0 to 10: independence, reliability, corroboration, survival,
+persistence, minus penalties) labels the discovery Strong, Moderate or Weak with its reasoning shown, builds the
+Falsification Condition from the hypothesis's own prediction, and writes the brief's eight required elements.</li>
+</ol>
+
+</div>
+<div>
+
+<h2>4. Track D, and generalisation without tuning</h2>
+<p>The universe is read live from NSE Indices CSVs at run time, never hard-coded: NIFTY 50 filtered to Healthcare
+(5 names today) plus the tie-break universe (Nifty Pharma and Nifty Healthcare minus those 5, roughly 19 further
+companies as of October 2026). A company routes to one of two sub-industry playbooks, pharma (10 angles: business-
+model shift, regulatory-before-mainstream, geographic mix, exclusivity cliffs, launch-masks-erosion, working
+capital, R&amp;D intensity, profit quality, partner dependence, cross-channel disclosure) or hospital (6 angles:
+announced-versus-commissioned beds, ARPOB decomposition, occupancy dilution, segment drag, regulatory price
+exposure, organic-versus-acquired growth), plus a generic fallback (6 angles) for any company outside those two. A
+company-name test asserts no symbol or company name appears anywhere in the engine's own logic, only in the
+universe loader's live data and the evaluation harness.</p>
+
+<h2>5. Triangulation and contradiction detection</h2>
+<p>Evidence is counted by independent <i>origin</i>, not by document: a press item that merely restates a company
+filing within three days collapses into that filing's origin rather than counting as a second source. Five
+contradiction types are checked automatically: a numeric mismatch between two sources for the same metric and
+period (primary-source precedence resolves it); a narrative-versus-number divergence (management's framing points
+one way, the computed trend points the other); a guidance-versus-actual miss; a cross-exchange mismatch (NSE versus
+SEC); and an aggregator-versus-primary disagreement. This last type is not theoretical: while building this system,
+two secondary sources gave materially different net-profit figures for the same company and quarter, and the
+primary filing (opened directly) confirmed one was simply wrong. The engine's rule, applied here by hand before it
+was automated, is to always trust the primary filing.</p>
+
+<h2>6. Self-falsification</h2>
+<p>Every hypothesis faces the same nine-test battery before it can become a discovery. A hypothesis that only
+explains a sector-wide move, or that disappears once a disclosed one-off is excluded, or that a rival explanation
+scores more consistently in the Analysis of Competing Hypotheses matrix, is downgraded or killed, and the kill
+reason is shown, not hidden. The Falsification Condition itself is built from the hypothesis's own first
+prediction: a named metric, a comparator, a threshold derived from the pre-change period or the peer median, and a
+dated next check against a named future filing. If nothing survives, the system says so plainly rather than forcing
+a weak claim.</p>
+
+<h2>7. Output: dashboard and report, both</h2>
+<p>A Next.js dashboard shows the discovery, a strength bar with the Moderate/Strong thresholds marked, a swimlane
+timeline with the change-point drawn on the plot, an Analysis of Competing Hypotheses heat grid, and an evidence
+drawer that opens the exact quote and source for any number clicked. The same run exports to Markdown, a styled PDF,
+an Excel workbook (one sheet per table), and a CSV bundle, so either required format (report or dashboard) is simply
+a button click from the other.</p>
+<p class="small">A compact illustration of the eight-element format, built from the engine's own schema and not yet
+a live run's output, is given in the appendix below.</p>
+
+<h2>8. Build plan and milestones</h2>
+<table>
+<tr><th>Date</th><th>Milestone</th><th>Status</th></tr>
+<tr><td>11 to 14 Oct</td><td>Research deliverable: 10 lanes, ~830 sources, company dossiers for all 5 NIFTY 50 names plus 19 tie-break companies</td><td>Done</td></tr>
+<tr><td>11 to 15 Oct</td><td>Engine core: schemas, HTTP/cache, universe loader, 44-metric library, change-point/event-study, Admiralty grading, independence counting, novelty scoring, 6 of 9 falsification tests, ACH matrix, strength scorer, LLM router with fallback, guards, full export chain (MD/HTML/PDF/XLSX/CSV, PDF verified against a real headless-Chrome render)</td><td>Done, 126 tests passing</td></tr>
+<tr><td>15 Oct</td><td>Dashboard: home, live-run page (SSE-driven stage rail and hypothesis board), report page (discovery hero, evidence drawer, ACH matrix, challenge tab, exports), eval and about pages</td><td>Done</td></tr>
+<tr><td>16 to 17 Oct</td><td>Pipeline wiring: Discover through Prove stages connected to real sources, voice analyst ported and grounded on the live report</td><td>In progress</td></tr>
+<tr><td>17 to 18 Oct</td><td>Evaluation harness across all 5 NIFTY 50 names plus the tie-break universe; time-travel and ablation runs</td><td>Scheduled</td></tr>
+<tr><td>19 Oct</td><td>Round 1 submission</td><td>This document</td></tr>
+<tr><td>20 to 24 Oct</td><td>Figma deck, rehearsal, hardening</td><td>Scheduled</td></tr>
+<tr><td>25 Oct</td><td>Finals: live run on a judge-chosen company</td><td>Scheduled</td></tr>
+</table>
+
+</div>
+</div>
+
+<div class="foot">
+  <span>Public data only. Not investment advice.</span>
+  <span>
+    <a href="https://github.com/harshkawatra11/next-signal" style="color:#1D4ED8;text-decoration:none;">GitHub &#8594;</a>
+    &nbsp;|&nbsp;
+    <a href="https://harshkawatra11.github.io/next-signal/" style="color:#1D4ED8;text-decoration:none;">Research and workbook &#8594;</a>
+  </span>
+  <span>Next Signal &middot; Team IdeaForge &middot; ATMOS 2026 Track D</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,412 @@
+{
+ "raise_cr": 1790,
+ "units": {
+  "pick": [
+   {
+    "y": "FY23",
+    "rev": 66,
+    "contrib": 15
+   },
+   {
+    "y": "FY24",
+    "rev": 68,
+    "contrib": 18
+   },
+   {
+    "y": "FY25",
+    "rev": 70,
+    "contrib": 21
+   },
+   {
+    "y": "FY26",
+    "rev": 72,
+    "contrib": 24
+   },
+   {
+    "y": "FY27",
+    "rev": 73,
+    "contrib": 25
+   },
+   {
+    "y": "FY28",
+    "rev": 74,
+    "contrib": 26
+   }
+  ],
+  "quick": [
+   {
+    "y": "FY23",
+    "rev": 78.0,
+    "contrib": 2.0
+   },
+   {
+    "y": "FY24",
+    "rev": 79.5,
+    "contrib": 6.5
+   },
+   {
+    "y": "FY25",
+    "rev": 81.0,
+    "contrib": 11.0
+   },
+   {
+    "y": "FY26",
+    "rev": 82.5,
+    "contrib": 14.5
+   },
+   {
+    "y": "FY27",
+    "rev": 84.0,
+    "contrib": 17.0
+   },
+   {
+    "y": "FY28",
+    "rev": 85.5,
+    "contrib": 18.5
+   }
+  ],
+  "b2b": [
+   {
+    "y": "FY23",
+    "rev": 52,
+    "contrib": 6
+   },
+   {
+    "y": "FY24",
+    "rev": 52,
+    "contrib": 7
+   },
+   {
+    "y": "FY25",
+    "rev": 53,
+    "contrib": 9
+   },
+   {
+    "y": "FY26",
+    "rev": 53,
+    "contrib": 9
+   },
+   {
+    "y": "FY27",
+    "rev": 54,
+    "contrib": 11
+   },
+   {
+    "y": "FY28",
+    "rev": 54,
+    "contrib": 11
+   }
+  ]
+ },
+ "bear": {
+  "rows": [
+   {
+    "y": "FY23",
+    "orders_k": 120,
+    "rev": 295,
+    "contrib": 23,
+    "fixed": 220,
+    "ebitda": -197,
+    "cash": 1573
+   },
+   {
+    "y": "FY24",
+    "orders_k": 176,
+    "rev": 443,
+    "contrib": 47,
+    "fixed": 230,
+    "ebitda": -183,
+    "cash": 1375
+   },
+   {
+    "y": "FY25",
+    "orders_k": 236,
+    "rev": 604,
+    "contrib": 87,
+    "fixed": 240,
+    "ebitda": -153,
+    "cash": 1207
+   },
+   {
+    "y": "FY26",
+    "orders_k": 289,
+    "rev": 745,
+    "contrib": 128,
+    "fixed": 250,
+    "ebitda": -122,
+    "cash": 1070
+   },
+   {
+    "y": "FY27",
+    "orders_k": 341,
+    "rev": 891,
+    "contrib": 173,
+    "fixed": 262,
+    "ebitda": -89,
+    "cash": 966
+   },
+   {
+    "y": "FY28",
+    "orders_k": 384,
+    "rev": 1012,
+    "contrib": 204,
+    "fixed": 275,
+    "ebitda": -71,
+    "cash": 880
+   }
+  ],
+  "breakeven": null,
+  "cash_fy27": 966,
+  "cash_fy28": 880,
+  "min_cash": 880,
+  "burn_to_fy27": 824
+ },
+ "base": {
+  "rows": [
+   {
+    "y": "FY23",
+    "orders_k": 160,
+    "rev": 394,
+    "contrib": 48,
+    "fixed": 220,
+    "ebitda": -172,
+    "cash": 1598
+   },
+   {
+    "y": "FY24",
+    "orders_k": 235,
+    "rev": 590,
+    "contrib": 88,
+    "fixed": 230,
+    "ebitda": -142,
+    "cash": 1441
+   },
+   {
+    "y": "FY25",
+    "orders_k": 315,
+    "rev": 805,
+    "contrib": 151,
+    "fixed": 240,
+    "ebitda": -89,
+    "cash": 1337
+   },
+   {
+    "y": "FY26",
+    "orders_k": 385,
+    "rev": 994,
+    "contrib": 213,
+    "fixed": 250,
+    "ebitda": -37,
+    "cash": 1285
+   },
+   {
+    "y": "FY27",
+    "orders_k": 455,
+    "rev": 1189,
+    "contrib": 280,
+    "fixed": 262,
+    "ebitda": 18,
+    "cash": 1288
+   },
+   {
+    "y": "FY28",
+    "orders_k": 512,
+    "rev": 1350,
+    "contrib": 328,
+    "fixed": 275,
+    "ebitda": 53,
+    "cash": 1327
+   }
+  ],
+  "breakeven": "FY27",
+  "cash_fy27": 1288,
+  "cash_fy28": 1327,
+  "min_cash": 1285,
+  "burn_to_fy27": 502
+ },
+ "bull": {
+  "rows": [
+   {
+    "y": "FY23",
+    "orders_k": 192,
+    "rev": 473,
+    "contrib": 71,
+    "fixed": 220,
+    "ebitda": -149,
+    "cash": 1622
+   },
+   {
+    "y": "FY24",
+    "orders_k": 282,
+    "rev": 708,
+    "contrib": 127,
+    "fixed": 230,
+    "ebitda": -103,
+    "cash": 1503
+   },
+   {
+    "y": "FY25",
+    "orders_k": 378,
+    "rev": 966,
+    "contrib": 209,
+    "fixed": 240,
+    "ebitda": -31,
+    "cash": 1457
+   },
+   {
+    "y": "FY26",
+    "orders_k": 462,
+    "rev": 1192,
+    "contrib": 289,
+    "fixed": 250,
+    "ebitda": 39,
+    "cash": 1481
+   },
+   {
+    "y": "FY27",
+    "orders_k": 546,
+    "rev": 1426,
+    "contrib": 376,
+    "fixed": 262,
+    "ebitda": 114,
+    "cash": 1580
+   },
+   {
+    "y": "FY28",
+    "orders_k": 614,
+    "rev": 1620,
+    "contrib": 439,
+    "fixed": 275,
+    "ebitda": 164,
+    "cash": 1729
+   }
+  ],
+  "breakeven": "FY26",
+  "cash_fy27": 1580,
+  "cash_fy28": 1729,
+  "min_cash": 1457,
+  "burn_to_fy27": 210
+ },
+ "bridge": {
+  "base": 226,
+  "ads": 299,
+  "people": 246,
+  "fleet": 317,
+  "stores_other": 713,
+  "war": 1575,
+  "war_pct": 87,
+  "fy23_loss": 1801
+ },
+ "fy23_loss_cut_pct": 90,
+ "fy27_mix_pct": {
+  "pick": 23,
+  "quick": 44,
+  "b2b": 33
+ },
+ "grid_fy27_ebitda": {
+  "0.75": {
+   "-3": -89,
+   "-1.5": -71,
+   "0": -52,
+   "1": -39,
+   "2": -27
+  },
+  "0.9": {
+   "-3": -55,
+   "-1.5": -32,
+   "0": -10,
+   "1": 5,
+   "2": 20
+  },
+  "1.0": {
+   "-3": -32,
+   "-1.5": -7,
+   "0": 18,
+   "1": 35,
+   "2": 51
+  },
+  "1.1": {
+   "-3": -9,
+   "-1.5": 19,
+   "0": 46,
+   "1": 64,
+   "2": 83
+  },
+  "1.2": {
+   "-3": 14,
+   "-1.5": 44,
+   "0": 74,
+   "1": 94,
+   "2": 114
+  }
+ },
+ "grid_min_cash": {
+  "0.75": {
+   "-3": 880,
+   "-1.5": 965,
+   "0": 1049,
+   "1": 1106,
+   "2": 1162
+  },
+  "0.9": {
+   "-3": 1012,
+   "-1.5": 1114,
+   "0": 1210,
+   "1": 1261,
+   "2": 1307
+  },
+  "1.0": {
+   "-3": 1101,
+   "-1.5": 1203,
+   "0": 1285,
+   "1": 1325,
+   "2": 1365
+  },
+  "1.1": {
+   "-3": 1179,
+   "-1.5": 1269,
+   "0": 1335,
+   "1": 1379,
+   "2": 1423
+  },
+  "1.2": {
+   "-3": 1240,
+   "-1.5": 1313,
+   "0": 1385,
+   "1": 1426,
+   "2": 1457
+  }
+ },
+ "hist": [
+  {
+   "fy": "FY19",
+   "rev": 0.77,
+   "loss": 169.0,
+   "spend_per_rupee": 225.0
+  },
+  {
+   "fy": "FY20",
+   "rev": 27.5,
+   "loss": 338.4,
+   "spend_per_rupee": 13.09
+  },
+  {
+   "fy": "FY21",
+   "rev": 45.8,
+   "loss": 225.7,
+   "spend_per_rupee": 5.75
+  },
+  {
+   "fy": "FY22",
+   "rev": 54.3,
+   "loss": 464.0,
+   "spend_per_rupee": 9.8
+  },
+  {
+   "fy": "FY23",
+   "rev": 226.6,
+   "loss": 1801.0,
+   "spend_per_rupee": 9.09
+  }
+ ]
+}

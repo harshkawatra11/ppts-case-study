@@ -1,0 +1,309 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .nav-ribbon {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      display: flex;
+      border: 2px solid #0A0A0A;
+      background: #EDEDED;
+    }
+    .ribbon-item {
+      padding: 6px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-right: 2px solid #0A0A0A;
+      color: #0A0A0A;
+      background: #E8B33C;
+    }
+    .ribbon-item.active {
+      background: #3A0E30;
+      color: #FFFFFF;
+    }
+    .ribbon-item:last-child {
+      border-right: none;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 36px;
+      right: 72px;
+      background: #3A0E30;
+      color: #FFF;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 6px 18px;
+      border: 2px solid #0A0A0A;
+    }
+
+    .section-chip {
+      position: absolute;
+      top: 86px;
+      left: 72px;
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .slide-headline {
+      position: absolute;
+      top: 130px;
+      left: 72px;
+      right: 72px;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0A0A0A;
+    }
+
+    /* Reach Funnel Stack */
+    .funnel-container {
+      position: absolute;
+      top: 205px;
+      left: 72px;
+      right: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .funnel-row {
+      display: flex;
+      align-items: center;
+      height: 38px;
+      border: 2px solid #0A0A0A;
+      background: #FFFFFF;
+      box-shadow: 3px 3px 0 #0A0A0A;
+    }
+    .funnel-label {
+      width: 480px;
+      padding-left: 16px;
+      font-size: 15px;
+      font-weight: 800;
+      color: #3A0E30;
+    }
+    .funnel-bar {
+      flex: 1;
+      height: 100%;
+      background: #E8D5E2;
+      border-left: 2px solid #0A0A0A;
+      display: flex;
+      align-items: center;
+      padding-left: 16px;
+      font-size: 16px;
+      font-weight: 800;
+      color: #0A0A0A;
+    }
+    .funnel-bar.du {
+      background: #E5399E;
+      color: #FFFFFF;
+    }
+
+    /* Main Lower Layout: Unit Cost Table & Roadmap */
+    .grid-container {
+      position: absolute;
+      top: 360px;
+      left: 72px;
+      right: 72px;
+      bottom: 50px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 32px;
+    }
+
+    .panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 22px;
+    }
+
+    .panel-header {
+      font-size: 19px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
+    }
+    th, td {
+      border: 1.5px solid #0A0A0A;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background: #EDEDED;
+      font-weight: 800;
+      color: #3A0E30;
+    }
+    .total-row {
+      background: #E8B33C;
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    /* Roadmap pills */
+    .roadmap-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .roadmap-card {
+      border: 2px solid #0A0A0A;
+      padding: 12px 16px;
+      background: #EDEDED;
+    }
+    .roadmap-card.now {
+      background: #E5399E;
+      color: #FFFFFF;
+    }
+    .roadmap-phase {
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .roadmap-body {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 16px;
+      left: 72px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="07-economics" data-width="1920" data-height="1080">
+    <div class="nav-ribbon">
+      <div class="ribbon-item">PROBLEM</div>
+      <div class="ribbon-item">ANALYSIS</div>
+      <div class="ribbon-item">SOLUTION</div>
+      <div class="ribbon-item">ARCHITECTURE</div>
+      <div class="ribbon-item active">IMPACT</div>
+    </div>
+    <div class="slide-num">06 / 07</div>
+
+    <div class="section-chip">EXPECTED IMPACT & UNIT ECONOMICS</div>
+
+    <div class="slide-headline" id="headline-07">
+      Pukaar starts with 34,014 DU women admitted in one round, with Tier A voice cost near Rs 39 per protected commute.
+    </div>
+
+    <!-- Funnel -->
+    <div class="funnel-container" id="funnel-box">
+      <div class="funnel-row">
+        <div class="funnel-label">Women in Indian higher education</div>
+        <div class="funnel-bar">2.24 Crore</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Women in Indian STEM higher education</div>
+        <div class="funnel-bar">44.9 Lakh (44% female STEM share)</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Delhi University Female Admissions (Target Cohort)</div>
+        <div class="funnel-bar du">34,014 Students</div>
+      </div>
+    </div>
+
+    <!-- Lower Grid -->
+    <div class="grid-container">
+      <!-- Unit Economics Table -->
+      <div class="panel" id="table-panel">
+        <div class="panel-header">Infrastructure Cost Breakdown (Tier A Pipeline)</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Rate / Min</th>
+              <th>20-Min Commute</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Streaming STT</td>
+              <td>$0.0160</td>
+              <td>$0.320</td>
+            </tr>
+            <tr>
+              <td>LLM Intent Tool</td>
+              <td>$0.0003</td>
+              <td>$0.005</td>
+            </tr>
+            <tr>
+              <td>Neural TTS</td>
+              <td>$0.0040</td>
+              <td>$0.080</td>
+            </tr>
+            <tr class="total-row">
+              <td>Total Protected Commute</td>
+              <td>~$0.020 / min</td>
+              <td>~Rs 39 ($0.405)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Roadmap -->
+      <div class="panel" id="roadmap-panel">
+        <div class="panel-header">Deployment Roadmap</div>
+        <div class="roadmap-list">
+          <div class="roadmap-card now">
+            <div class="roadmap-phase">NOW (Campus Pilot)</div>
+            <div class="roadmap-body">Delhi University campus deployment. Hinglish cover voice. Dual triggers live.</div>
+          </div>
+          <div class="roadmap-card">
+            <div class="roadmap-phase" style="color: #5C1A4B;">NEXT</div>
+            <div class="roadmap-body">Regional languages (Hindi, Punjabi, Bengali). Group contact fan-out. Battery-aware modes.</div>
+          </div>
+          <div class="roadmap-card">
+            <div class="roadmap-phase" style="color: #5C1A4B;">LATER</div>
+            <div class="roadmap-body">Rideshare and transport ops integration. Complete offline on-device synthesis.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-source">Source: AISHE 2023-24 | DU Admissions Reporting 2025 | Google Cloud & OpenAI Pricing</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#headline-07", { opacity: 0, y: 15, duration: 0.7, ease: "power2.out" }, 0.1);
+      tl.from(".funnel-row", { opacity: 0, x: -30, stagger: 0.15, duration: 0.6, ease: "power3.out" }, 0.4);
+      tl.from("#table-panel, #roadmap-panel", { opacity: 0, y: 30, stagger: 0.15, duration: 0.7, ease: "power3.out" }, 0.9);
+
+      tl.to({}, { duration: 12.24 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["07-economics"] = tl;
+    })();
+  </script>
+</template>

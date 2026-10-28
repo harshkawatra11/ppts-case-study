@@ -1,0 +1,225 @@
+{
+  "text": " 6 stages always in the same order. Discover, Connect, Calculate, Reason, Challenge and Prove. There are arithmetic runs before any language model sees the numbers.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.8,
+      "text": " 6 stages always in the same order. Discover, Connect, Calculate, Reason, Challenge and Prove.",
+      "tokens": [
+        50364,
+        1386,
+        10232,
+        1009,
+        294,
+        264,
+        912,
+        1668,
+        13,
+        40386,
+        11,
+        11653,
+        11,
+        3511,
+        2444,
+        473,
+        11,
+        39693,
+        11,
+        17517,
+        293,
+        1705,
+        303,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3186644554138184,
+      "compression_ratio": 1.2538461538461538,
+      "no_speech_prob": 0.04632072150707245,
+      "words": [
+        {
+          "word": " 6",
+          "start": 0.0,
+          "end": 1.16,
+          "probability": 0.529297411441803
+        },
+        {
+          "word": " stages",
+          "start": 1.16,
+          "end": 1.54,
+          "probability": 0.8585086464881897
+        },
+        {
+          "word": " always",
+          "start": 1.54,
+          "end": 2.16,
+          "probability": 0.43294110894203186
+        },
+        {
+          "word": " in",
+          "start": 2.16,
+          "end": 2.4,
+          "probability": 0.989000141620636
+        },
+        {
+          "word": " the",
+          "start": 2.4,
+          "end": 2.5,
+          "probability": 0.9950798749923706
+        },
+        {
+          "word": " same",
+          "start": 2.5,
+          "end": 2.68,
+          "probability": 0.9974931478500366
+        },
+        {
+          "word": " order.",
+          "start": 2.68,
+          "end": 3.0,
+          "probability": 0.9795134663581848
+        },
+        {
+          "word": " Discover,",
+          "start": 3.46,
+          "end": 3.78,
+          "probability": 0.9289346933364868
+        },
+        {
+          "word": " Connect,",
+          "start": 4.36,
+          "end": 4.58,
+          "probability": 0.42777544260025024
+        },
+        {
+          "word": " Calculate,",
+          "start": 5.28,
+          "end": 5.76,
+          "probability": 0.9588198264439901
+        },
+        {
+          "word": " Reason,",
+          "start": 6.16,
+          "end": 6.4,
+          "probability": 0.896560788154602
+        },
+        {
+          "word": " Challenge",
+          "start": 7.08,
+          "end": 7.36,
+          "probability": 0.9786233901977539
+        },
+        {
+          "word": " and",
+          "start": 7.36,
+          "end": 7.92,
+          "probability": 0.6312374472618103
+        },
+        {
+          "word": " Prove.",
+          "start": 7.92,
+          "end": 8.8,
+          "probability": 0.864240437746048
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 8.8,
+      "end": 12.32,
+      "text": " There are arithmetic runs before any language model sees the numbers.",
+      "tokens": [
+        50814,
+        821,
+        366,
+        42973,
+        6676,
+        949,
+        604,
+        2856,
+        2316,
+        8194,
+        264,
+        3547,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3186644554138184,
+      "compression_ratio": 1.2538461538461538,
+      "no_speech_prob": 0.04632072150707245,
+      "words": [
+        {
+          "word": " There",
+          "start": 8.8,
+          "end": 9.2,
+          "probability": 0.7920820713043213
+        },
+        {
+          "word": " are",
+          "start": 9.2,
+          "end": 9.3,
+          "probability": 0.9417541027069092
+        },
+        {
+          "word": " arithmetic",
+          "start": 9.3,
+          "end": 9.7,
+          "probability": 0.5476609468460083
+        },
+        {
+          "word": " runs",
+          "start": 9.7,
+          "end": 9.98,
+          "probability": 0.9654204845428467
+        },
+        {
+          "word": " before",
+          "start": 9.98,
+          "end": 10.5,
+          "probability": 0.9686145782470703
+        },
+        {
+          "word": " any",
+          "start": 10.5,
+          "end": 10.9,
+          "probability": 0.9959660768508911
+        },
+        {
+          "word": " language",
+          "start": 10.9,
+          "end": 11.22,
+          "probability": 0.9470479488372803
+        },
+        {
+          "word": " model",
+          "start": 11.22,
+          "end": 11.58,
+          "probability": 0.9461206793785095
+        },
+        {
+          "word": " sees",
+          "start": 11.58,
+          "end": 11.86,
+          "probability": 0.9807507991790771
+        },
+        {
+          "word": " the",
+          "start": 11.86,
+          "end": 12.06,
+          "probability": 0.9944663643836975
+        },
+        {
+          "word": " numbers.",
+          "start": 12.06,
+          "end": 12.32,
+          "probability": 0.9749590158462524
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

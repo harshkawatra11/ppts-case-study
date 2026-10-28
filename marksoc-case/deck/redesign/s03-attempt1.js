@@ -1,0 +1,20 @@
+const s=await resetBody('3:5','The profit pool sits in Superb phones and referrals; Fair earns ₹716 while marketing and channel costs erase ₹135.3 lakh a month','Source: case Exhibits 2 to 4 | team model 9b3628d94d, T2 to T6 | website return rates in grade table; channel-specific rates in channel economics');
+const a=box(s,64,310,882,336,'UNIT ECONOMICS: ₹1 OF REVENUE IS NOT ₹1 OF VALUE',{dark:R.navy});
+table(a,14,54,[210,146,146,146],['₹ / phone','Superb','Good','Fair'],[['Price','24,000','16,000','10,000'],['Trader + lab','18,600','12,600','8,200'],['Pack + payment','600','600','600'],['Claims + returns','147','276','484'],['Contribution',{t:'4,653',bg:C.tint,bold:true},{t:'2,524',bg:C.tint,bold:true},{t:'716',bg:R.ltred,bold:true}],['Margin','19.4%','15.8%','7.2%']],{rh:34,hh:35});
+// Mini profit-pool strip uses actual baseline grade mix, not a market-size claim.
+const side=addFrame(a,684,54,184,266,R.ltgold,C.ink,1.5,'PROFIT POOL');tx(side,10,8,164,'SHARE OF PHONE CONTRIBUTION',{display:true});
+[['Superb',82.6,R.navy],['Good',80.5,R.blue],['Fair',16.0,R.red]].forEach((r,i)=>{const yy=102+i*49;tx(side,10,yy-12,164,r[0],{style:'Bold'});addRect(side,10,yy+18,130*r[1]/82.6,15,r[2],C.ink,1);});
+tx(side,10,236,164,'₹ lakh / month',{size:22});
+const b=box(s,966,310,890,336,'CHANNEL PROFIT POOLS: REFERRALS LEAD, ADS LOSE',{dark:R.blue});
+bars(b,14,57,435,V.ch.map((r,i)=>({l:['Paid ads','MegaKart','Creators','Stores','Referrals'][i],v:V.ch_cam_n[i],t:r[2],c:i===4?R.green:undefined})),{lw:150,rh:43,min:-3,max:20,vw:64});
+table(b,470,54,[140,120,146],['Channel','₹ / order','True cost'],V.ch.map((r,i)=>[['Ads','MegaKart','Creators','Stores','Referrals'][i],r[3],r[5]]),{rh:40,hh:46});
+tint(b,14,282,862,40,'MegaKart’s ₹0 dashboard cost excludes ₹1,692 commission per order.',{size:22});
+const c=box(s,64,664,1000,368,'THE EBITDA BRIDGE: VALUE LEAKS AFTER THE PHONE IS SOLD');
+waterfall(c,14,52,972,241,[['Phones',179.2],['MegaKart',-33.8],['Channels',-99],['Coupons',-2.5],['Fixed',-58],['EBITDA',-14.1]],{min:-60,max:190});
+tint(c,14,302,972,52,'₹179.2 − ₹135.3 − ₹58.0 = −₹14.1 lakh EBITDA.',{fill:C.tint});
+const d=box(s,1084,664,772,368,'RETURN EXPOSURE: CHANNEL MIX CHANGES THE ANSWER');
+const heat=v=>({t:v,bg:parseFloat(v)>10?R.ltred:parseFloat(v)>7?R.ltgold:C.tint});
+table(d,14,51,[210,130,130,130,144],['Return %','Superb','Good','Fair','Blended'],V.retgrid.map(r=>[r[0],...r.slice(1).map(heat)]),{rh:31,hh:36});
+const by=254;addRect(d,14,by,744*11.7/22.2,26,R.red,C.ink,1.5);addRect(d,14+744*11.7/22.2,by,744*10.5/22.2,26,R.gold,C.ink,1.5);
+tx(d,14,by+34,744,'₹22.2 lakh = ₹11.7 claims + ₹10.5 returns / month',{style:'Bold'});tx(d,14,by+72,744,'9-day repairs; 38% need a second visit.');
+return stats(s);

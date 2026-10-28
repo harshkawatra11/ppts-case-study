@@ -1,0 +1,3516 @@
+{
+ "F": {
+  "company": "BeyondTech",
+  "founded_year": 2022,
+  "founder": "Harsh Agarwal",
+  "task": "GTM: deepen DTU penetration, launch at 3-4 Tier-1 colleges",
+  "slide_format": "8 to 12 slides excl. title/appendix",
+  "dtu_selections_at_a_glance": "40 selections across 14 organisations",
+  "dtu_selections_headline": "50+ selections",
+  "dtu_avg_package_lpa_lo": 13,
+  "dtu_avg_package_lpa_hi": 14,
+  "dtu_highest_package_lpa": 47,
+  "dtu_highest_recruiter": "Eternal",
+  "dtu_recruiters_b05": [
+   "Eternal",
+   "JP Morgan Chase",
+   "Bain",
+   "ZS",
+   "Everest",
+   "PwC"
+  ],
+  "nsut_recruiters_b06": [
+   "Eternal",
+   "ZS Associates",
+   "Bain and Company",
+   "Prism",
+   "L.E.K. Consulting"
+  ],
+  "thapar_bitmesra_recruiters_b06": [
+   "Bain and Company",
+   "ZS Associates",
+   "Deloitte"
+  ],
+  "program_name": "Non-Tech Placement Mastery Program",
+  "program_weeks": 11,
+  "program_phases": [
+   "Consulting foundations",
+   "Analytics mastery",
+   "Product strategy",
+   "Personalized prep"
+  ],
+  "positioning": "One course for every non-tech company visiting your campus",
+  "growth_engine": "word of mouth, community, founder-led mentorship",
+  "bottleneck_tam": "narrow audience; not every campus gets strong non-tech recruiters",
+  "bottleneck_channel": "word of mouth, WhatsApp, LinkedIn; no repeatable paid marketing, no ambassador flywheel",
+  "scoring_weights": {
+   "dtu_gtm": 0.3,
+   "college_selection": 0.25,
+   "pan_india_launch": 0.25,
+   "insight": 0.1,
+   "presentation": 0.1
+  },
+  "site_stats": {
+   "students_mentored": 300,
+   "students_placed": 250,
+   "companies": 20
+  },
+  "mentors_w09": [
+   "Harsh Agarwal (Founder)",
+   "Subham Mukhopadhyay (Associate, Bain & Co.)",
+   "Subrat Sarangi (Business Analyst, Amazon)",
+   "Akshit Goel (Product Manager, Google)"
+  ],
+  "testimonials_rA51": [
+   "Ayush Pratap Singh (Meesho)",
+   "Suhani Sharma (Bain & Company)",
+   "Ravi (OYO)",
+   "Soumya Raj (ExxonMobil)",
+   "Vidhi Balyan (ZS)"
+  ],
+  "next_batch_start": "15 Jan 2027",
+  "resources_pdfs": 8,
+  "company_linkedin_followers_approx": 3000,
+  "company_linkedin_employees": 14,
+  "ambassador_post1_reactions": 15,
+  "ambassador_post2_reactions": 9,
+  "foundersoffice_post_reactions": 269,
+  "dcg_case_comp_post_reactions": 49,
+  "dcg_case_comp_prize_pool_inr": 40000,
+  "topmate_bookings": 312,
+  "topmate_rating": 4.9,
+  "topmate_ratings_count": 14
+ },
+ "R": {
+  "dtu_ug_sanctioned_intake": 2529,
+  "dtu_ug_total_strength": 10431,
+  "dtu_cohort_2023_24": {
+   "graduated": 2412,
+   "placed": 1759,
+   "median_salary_inr": 1325000
+  },
+  "dtu_season2025_aggregator": {
+   "registered": 2487,
+   "placed": 1766,
+   "avg_package_lpa": 15.75,
+   "highest_package_lpa": 85,
+   "highest_recruiter": "Atlassian",
+   "companies": 350
+  },
+  "dtu_recruiters_solid": [
+   "Bain and Company",
+   "ZS Associates",
+   "Eternal (Zomato)",
+   "JP Morgan Chase",
+   "Everest Group",
+   "PwC",
+   "Deloitte"
+  ],
+  "dtu_recruiters_aggregator_only": [
+   "BCG",
+   "McKinsey",
+   "Fractal"
+  ],
+  "meta_cpl_inr_range": [
+   150,
+   600
+  ],
+  "linkedin_cpc_inr_range": [
+   150,
+   650
+  ],
+  "linkedin_cpl_edu_inr_range": [
+   850,
+   2500
+  ],
+  "influencer_nano_reel_inr": [
+   2000,
+   10000
+  ],
+  "influencer_micro_reel_inr": [
+   8000,
+   75000
+  ],
+  "gated_ebook_capture_rate_global": 0.009,
+  "landing_page_median_cvr": 0.066,
+  "coding_ninjas_ambassadors": 1000,
+  "coding_ninjas_term_months": 6,
+  "riseupp_payout_per_enrolment_inr": 5000,
+  "dcg_case_comp_prize_pool_inr": 40000,
+  "case_converge_180dc_prize_pool_inr": 6000,
+  "mnanalyse_iitg_prize_pool_inr": 200000,
+  "dtu_societies_combined_ig_followers": 16581
+ },
+ "A": {
+  "A01_fee_inr": {
+   "bear": 8000,
+   "base": 12000,
+   "bull": 18000
+  },
+  "A02_dtu_batch_note": "superseded by R['dtu_ug_sanctioned_intake'] (RB01, official); kept for the register only",
+  "A03_nontech_open_share": {
+   "bear": 0.2,
+   "base": 0.3,
+   "bull": 0.4
+  },
+  "A04_dtu_enrolments_12mo": {
+   "bear": 80,
+   "base": 110,
+   "bull": 140
+  },
+  "A05_referral_share": {
+   "bear": 0.9,
+   "base": 0.8,
+   "bull": 0.7
+  },
+  "A06_event_registrants": {
+   "bear": 80,
+   "base": 150,
+   "bull": 250
+  },
+  "A07_registrant_to_lead": {
+   "bear": 0.35,
+   "base": 0.5,
+   "bull": 0.65
+  },
+  "A08_lead_to_application": {
+   "bear": 0.08,
+   "base": 0.12,
+   "bull": 0.18
+  },
+  "A09_application_to_enrolment": {
+   "bear": 0.3,
+   "base": 0.45,
+   "bull": 0.6
+  },
+  "A10_mockdrive_participants": {
+   "bear": 100,
+   "base": 200,
+   "bull": 350
+  },
+  "A11_meta_cpl_inr": {
+   "bear": 600,
+   "base": 350,
+   "bull": 200
+  },
+  "A12_linkedin_cpl_inr": {
+   "bear": 1500,
+   "base": 900,
+   "bull": 500
+  },
+  "A13_paid_lead_to_application": {
+   "bear": 0.03,
+   "base": 0.06,
+   "bull": 0.1
+  },
+  "A14_ambassador_enrolments_per_season": {
+   "bear": 2,
+   "base": 4,
+   "bull": 7
+  },
+  "A15_ambassador_payout_per_enrolment_inr": {
+   "bear": 1500,
+   "base": 1000,
+   "bull": 750
+  },
+  "A16_referral_reward_per_enrolment_inr": {
+   "bear": 1500,
+   "base": 1000,
+   "bull": 500
+  },
+  "A17_founding_cohort_size": {
+   "bear": 12,
+   "base": 20,
+   "bull": 30
+  },
+  "A18_founding_cohort_discount": {
+   "bear": 0.5,
+   "base": 0.4,
+   "bull": 0.3
+  },
+  "A19_founding_cohort_selection_rate": {
+   "bear": 0.25,
+   "base": 0.4,
+   "bull": 0.55
+  },
+  "A20_season2_multiple": {
+   "bear": 1.5,
+   "base": 3.0,
+   "bull": 5.0
+  },
+  "A21_case_league_cost_inr": {
+   "bear": 60000,
+   "base": 45000,
+   "bull": 30000
+  },
+  "A22_founder_hours_per_enrolment_today": {
+   "bear": 3.0,
+   "base": 2.0,
+   "bull": 1.5
+  },
+  "A23_founder_hours_per_enrolment_after": {
+   "bear": 1.2,
+   "base": 0.8,
+   "bull": 0.5
+  },
+  "A24_gross_margin": {
+   "bear": 0.55,
+   "base": 0.65,
+   "bull": 0.75
+  },
+  "A25_influencer_cost_per_post_inr": {
+   "bear": 4000,
+   "base": 2500,
+   "bull": 1500
+  },
+  "A26_gated_capture_rate": {
+   "bear": 0.2,
+   "base": 0.35,
+   "bull": 0.5
+  },
+  "A27_organic_visitors_per_month": {
+   "bear": 300,
+   "base": 600,
+   "bull": 1200
+  },
+  "A28_second_year_share_after_plan": {
+   "bear": 0.1,
+   "base": 0.2,
+   "bull": 0.3
+  },
+  "A29_selection_rate_into_offer": {
+   "bear": 0.35,
+   "base": 0.45,
+   "bull": 0.6
+  },
+  "A30_upsell_revenue_per_student_inr": {
+   "bear": 0,
+   "base": 300,
+   "bull": 800
+  },
+  "A31_founder_hours_per_week": {
+   "bear": 15,
+   "base": 20,
+   "bull": 25
+  },
+  "A32_cohorts_per_year": {
+   "bear": 2,
+   "base": 3,
+   "bull": 4
+  },
+  "A33_inhouse_event_cash_cost_inr": {
+   "bear": 12000,
+   "base": 8000,
+   "bull": 5000
+  },
+  "A34_paid_reach_share_of_campus": {
+   "bear": 0.03,
+   "base": 0.05,
+   "bull": 0.08
+  }
+ },
+ "T1": {
+  "bear": {
+   "scenario": "bear",
+   "year_cohort": 2608,
+   "tam": 7823,
+   "sam": 1304,
+   "som": 120,
+   "nontech_share": 0.2,
+   "check_branches_sum": true
+  },
+  "base": {
+   "scenario": "base",
+   "year_cohort": 2608,
+   "tam": 7823,
+   "sam": 1956,
+   "som": 220,
+   "nontech_share": 0.3,
+   "check_branches_sum": true
+  },
+  "bull": {
+   "scenario": "bull",
+   "year_cohort": 2608,
+   "tam": 7823,
+   "sam": 2608,
+   "som": 392,
+   "nontech_share": 0.4,
+   "check_branches_sum": true
+  }
+ },
+ "T2": {
+  "bear": {
+   "scenario": "bear",
+   "enrolments_today": 80,
+   "sam": 1304,
+   "penetration_pct": 6.14,
+   "referral_share": 0.9,
+   "implied_selection_rate": 0.35,
+   "implied_selections": 28,
+   "fifty_plus_reachable": false
+  },
+  "base": {
+   "scenario": "base",
+   "enrolments_today": 110,
+   "sam": 1956,
+   "penetration_pct": 5.62,
+   "referral_share": 0.8,
+   "implied_selection_rate": 0.45,
+   "implied_selections": 50,
+   "fifty_plus_reachable": true
+  },
+  "bull": {
+   "scenario": "bull",
+   "enrolments_today": 140,
+   "sam": 2608,
+   "penetration_pct": 5.37,
+   "referral_share": 0.7,
+   "implied_selection_rate": 0.6,
+   "implied_selections": 84,
+   "fifty_plus_reachable": true
+  }
+ },
+ "T3": [
+  {
+   "ch": "C-ORG-1",
+   "name": "Society co-hosted case workshops",
+   "reach": 300,
+   "enrol": 8.1,
+   "cash": 16000,
+   "hours": 12,
+   "organic": true,
+   "scalable": false,
+   "cac": 1975.31,
+   "enrol_r": 8.1,
+   "cash_r": 16000,
+   "hours_r": 12
+  },
+  {
+   "ch": "C-ORG-2",
+   "name": "Department and branch representatives",
+   "reach": 480,
+   "enrol": 10.368,
+   "cash": 8000,
+   "hours": 16,
+   "organic": true,
+   "scalable": false,
+   "cac": 771.6,
+   "enrol_r": 10.4,
+   "cash_r": 8000,
+   "hours_r": 16
+  },
+  {
+   "ch": "C-ORG-3",
+   "name": "Mock placement drive",
+   "reach": 400,
+   "enrol": 10.8,
+   "cash": 16000,
+   "hours": 16,
+   "organic": true,
+   "scalable": false,
+   "cac": 1481.48,
+   "enrol_r": 10.8,
+   "cash_r": 16000,
+   "hours_r": 16
+  },
+  {
+   "ch": "C-ORG-4",
+   "name": "Gated resource library and sampler",
+   "reach": 1200,
+   "enrol": 15.875999999999998,
+   "cash": 2000,
+   "hours": 13.1752,
+   "organic": true,
+   "scalable": false,
+   "cac": 125.98,
+   "enrol_r": 15.9,
+   "cash_r": 2000,
+   "hours_r": 13.2
+  },
+  {
+   "ch": "C-ORG-5",
+   "name": "Structured referral with reward",
+   "reach": 330,
+   "enrol": 9.622800000000002,
+   "cash": 19245.600000000002,
+   "hours": 2.8868400000000003,
+   "organic": true,
+   "scalable": false,
+   "cac": 2000.0,
+   "enrol_r": 9.6,
+   "cash_r": 19246,
+   "hours_r": 2.9
+  },
+  {
+   "ch": "C-ORG-6",
+   "name": "Alumni story series on LinkedIn",
+   "reach": 5400,
+   "enrol": 5.832,
+   "cash": 5000,
+   "hours": 12,
+   "organic": true,
+   "scalable": false,
+   "cac": 857.34,
+   "enrol_r": 5.8,
+   "cash_r": 5000,
+   "hours_r": 12
+  },
+  {
+   "ch": "C-ORG-7",
+   "name": "Placement cell information session",
+   "reach": 200,
+   "enrol": 3.2399999999999998,
+   "cash": 8000,
+   "hours": 6,
+   "organic": true,
+   "scalable": false,
+   "cac": 2469.14,
+   "enrol_r": 3.2,
+   "cash_r": 8000,
+   "hours_r": 6
+  },
+  {
+   "ch": "C-PD-1",
+   "name": "Meta retargeting of warm audiences",
+   "reach": 1410,
+   "enrol": 76.14,
+   "cash": 296100.0,
+   "hours": 4,
+   "organic": false,
+   "scalable": true,
+   "cac": 3888.89,
+   "enrol_r": 76.1,
+   "cash_r": 296100,
+   "hours_r": 4
+  },
+  {
+   "ch": "C-PD-2",
+   "name": "Meta prospecting, campus geofence",
+   "reach": 522,
+   "enrol": 14.081850000000001,
+   "cash": 182542.50000000003,
+   "hours": 3,
+   "organic": false,
+   "scalable": true,
+   "cac": 12962.96,
+   "enrol_r": 14.1,
+   "cash_r": 182543,
+   "hours_r": 3
+  },
+  {
+   "ch": "C-PD-3",
+   "name": "LinkedIn school-targeted",
+   "reach": 313,
+   "enrol": 8.449110000000001,
+   "cash": 281637.0,
+   "hours": 3,
+   "organic": false,
+   "scalable": true,
+   "cac": 33333.33,
+   "enrol_r": 8.4,
+   "cash_r": 281637,
+   "hours_r": 3
+  },
+  {
+   "ch": "C-PD-4",
+   "name": "Campus micro-influencers and meme pages",
+   "reach": 40000,
+   "enrol": 32.4,
+   "cash": 10000,
+   "hours": 4,
+   "organic": false,
+   "scalable": false,
+   "cac": 308.64,
+   "enrol_r": 32.4,
+   "cash_r": 10000,
+   "hours_r": 4
+  }
+ ],
+ "T4": {
+  "scenario": "base",
+  "rows": [
+   {
+    "ch": "C-ORG-4",
+    "name": "Gated resource library and sampler",
+    "reach": 1200,
+    "enrol": 15.875999999999998,
+    "cash": 2000,
+    "hours": 13.1752,
+    "organic": true,
+    "scalable": false,
+    "cac": 125.98,
+    "enrol_r": 15.9,
+    "cash_r": 2000,
+    "hours_r": 13.2,
+    "funded_enrol": 15.875999999999998,
+    "funded_cash": 2000.0
+   },
+   {
+    "ch": "C-PD-4",
+    "name": "Campus micro-influencers and meme pages",
+    "reach": 40000,
+    "enrol": 32.4,
+    "cash": 10000,
+    "hours": 4,
+    "organic": false,
+    "scalable": false,
+    "cac": 308.64,
+    "enrol_r": 32.4,
+    "cash_r": 10000,
+    "hours_r": 4,
+    "funded_enrol": 32.4,
+    "funded_cash": 10000.0
+   },
+   {
+    "ch": "C-ORG-2",
+    "name": "Department and branch representatives",
+    "reach": 480,
+    "enrol": 10.368,
+    "cash": 8000,
+    "hours": 16,
+    "organic": true,
+    "scalable": false,
+    "cac": 771.6,
+    "enrol_r": 10.4,
+    "cash_r": 8000,
+    "hours_r": 16,
+    "funded_enrol": 10.368,
+    "funded_cash": 8000.000000000001
+   },
+   {
+    "ch": "C-ORG-6",
+    "name": "Alumni story series on LinkedIn",
+    "reach": 5400,
+    "enrol": 5.832,
+    "cash": 5000,
+    "hours": 12,
+    "organic": true,
+    "scalable": false,
+    "cac": 857.34,
+    "enrol_r": 5.8,
+    "cash_r": 5000,
+    "hours_r": 12,
+    "funded_enrol": 5.832,
+    "funded_cash": 5000.0
+   },
+   {
+    "ch": "C-ORG-3",
+    "name": "Mock placement drive",
+    "reach": 400,
+    "enrol": 10.8,
+    "cash": 16000,
+    "hours": 16,
+    "organic": true,
+    "scalable": false,
+    "cac": 1481.48,
+    "enrol_r": 10.8,
+    "cash_r": 16000,
+    "hours_r": 16,
+    "funded_enrol": 10.8,
+    "funded_cash": 15999.999999999998
+   },
+   {
+    "ch": "C-ORG-1",
+    "name": "Society co-hosted case workshops",
+    "reach": 300,
+    "enrol": 8.1,
+    "cash": 16000,
+    "hours": 12,
+    "organic": true,
+    "scalable": false,
+    "cac": 1975.31,
+    "enrol_r": 8.1,
+    "cash_r": 16000,
+    "hours_r": 12,
+    "funded_enrol": 8.1,
+    "funded_cash": 16000.0
+   },
+   {
+    "ch": "C-ORG-5",
+    "name": "Structured referral with reward",
+    "reach": 330,
+    "enrol": 9.622800000000002,
+    "cash": 19245.600000000002,
+    "hours": 2.8868400000000003,
+    "organic": true,
+    "scalable": false,
+    "cac": 2000.0,
+    "enrol_r": 9.6,
+    "cash_r": 19246,
+    "hours_r": 2.9,
+    "funded_enrol": 9.622800000000002,
+    "funded_cash": 19245.600000000002
+   },
+   {
+    "ch": "C-ORG-7",
+    "name": "Placement cell information session",
+    "reach": 200,
+    "enrol": 3.2399999999999998,
+    "cash": 8000,
+    "hours": 6,
+    "organic": true,
+    "scalable": false,
+    "cac": 2469.14,
+    "enrol_r": 3.2,
+    "cash_r": 8000,
+    "hours_r": 6,
+    "funded_enrol": 3.2399999999999998,
+    "funded_cash": 7999.999999999999
+   },
+   {
+    "ch": "C-PD-1",
+    "name": "Meta retargeting of warm audiences",
+    "reach": 1410,
+    "enrol": 76.14,
+    "cash": 296100.0,
+    "hours": 4,
+    "organic": false,
+    "scalable": true,
+    "cac": 3888.89,
+    "enrol_r": 76.1,
+    "cash_r": 296100,
+    "hours_r": 4,
+    "funded_enrol": 68.76120000000002,
+    "funded_cash": 267404.66666666674
+   },
+   {
+    "ch": "C-PD-2",
+    "name": "Meta prospecting, campus geofence",
+    "reach": 522,
+    "enrol": 14.081850000000001,
+    "cash": 182542.50000000003,
+    "hours": 3,
+    "organic": false,
+    "scalable": true,
+    "cac": 12962.96,
+    "enrol_r": 14.1,
+    "cash_r": 182543,
+    "hours_r": 3,
+    "funded_enrol": 0.0,
+    "funded_cash": 0.0
+   },
+   {
+    "ch": "C-PD-3",
+    "name": "LinkedIn school-targeted",
+    "reach": 313,
+    "enrol": 8.449110000000001,
+    "cash": 281637.0,
+    "hours": 3,
+    "organic": false,
+    "scalable": true,
+    "cac": 33333.33,
+    "enrol_r": 8.4,
+    "cash_r": 281637,
+    "hours_r": 3,
+    "funded_enrol": 0.0,
+    "funded_cash": 0.0
+   }
+  ],
+  "total_cash": 351650,
+  "organic_cash": 74246,
+  "paid_cash": 277405,
+  "organic_pct": 21.1,
+  "paid_pct": 78.9,
+  "total_enrol": 165.0,
+  "organic_enrol_pct": 38.7,
+  "check_split_sums_100": true
+ },
+ "T5": {
+  "rows": [
+   {
+    "month": "Oct26",
+    "spend": 28132,
+    "enrolments": 13.2
+   },
+   {
+    "month": "Nov26",
+    "spend": 31648,
+    "enrolments": 14.8
+   },
+   {
+    "month": "Dec26",
+    "spend": 14066,
+    "enrolments": 6.6
+   },
+   {
+    "month": "Jan27",
+    "spend": 49231,
+    "enrolments": 23.1
+   },
+   {
+    "month": "Feb27",
+    "spend": 35165,
+    "enrolments": 16.5
+   },
+   {
+    "month": "Mar27",
+    "spend": 24616,
+    "enrolments": 11.6
+   },
+   {
+    "month": "Apr27",
+    "spend": 21099,
+    "enrolments": 9.9
+   },
+   {
+    "month": "May27",
+    "spend": 17582,
+    "enrolments": 8.2
+   },
+   {
+    "month": "Jun27",
+    "spend": 24616,
+    "enrolments": 11.6
+   },
+   {
+    "month": "Jul27",
+    "spend": 42198,
+    "enrolments": 19.8
+   },
+   {
+    "month": "Aug27",
+    "spend": 45714,
+    "enrolments": 21.4
+   },
+   {
+    "month": "Sep27",
+    "spend": 17582,
+    "enrolments": 8.2
+   }
+  ],
+  "check_sums_to_t4": true
+ },
+ "T6": {
+  "bear": {
+   "scenario": "bear",
+   "enrolments": 120.0,
+   "revenue": 960000,
+   "spend": 1984811,
+   "blended_cac": 16540.09,
+   "payback_cohorts": 3.76,
+   "contribution": -1456811,
+   "organic_pct": 4.2,
+   "fee": 8000,
+   "margin": 0.55
+  },
+  "base": {
+   "scenario": "base",
+   "enrolments": 165.0,
+   "revenue": 1980000,
+   "spend": 351650,
+   "blended_cac": 2131.21,
+   "payback_cohorts": 0.27,
+   "contribution": 935350,
+   "organic_pct": 21.1,
+   "fee": 12000,
+   "margin": 0.65
+  },
+  "bull": {
+   "scenario": "bull",
+   "enrolments": 210.0,
+   "revenue": 3780000,
+   "spend": 26222,
+   "blended_cac": 124.87,
+   "payback_cohorts": 0.01,
+   "contribution": 2808778,
+   "organic_pct": 77.1,
+   "fee": 18000,
+   "margin": 0.75
+  }
+ },
+ "T7": {
+  "base_contribution": 935350,
+  "rows": [
+   {
+    "assumption": "A01_fee_inr",
+    "contribution_bear": 506350,
+    "contribution_base": 935350,
+    "contribution_bull": 1578850,
+    "swing": 1072500
+   },
+   {
+    "assumption": "A09_application_to_enrolment",
+    "contribution_bear": 620932,
+    "contribution_base": 935350,
+    "contribution_bull": 1089351,
+    "swing": 468419
+   },
+   {
+    "assumption": "A11_meta_cpl_inr",
+    "contribution_bear": 744346,
+    "contribution_base": 935350,
+    "contribution_bull": 1050752,
+    "swing": 306406
+   },
+   {
+    "assumption": "A08_lead_to_application",
+    "contribution_bear": 859011,
+    "contribution_base": 935350,
+    "contribution_bull": 1049858,
+    "swing": 190847
+   },
+   {
+    "assumption": "A26_gated_capture_rate",
+    "contribution_bear": 908890,
+    "contribution_base": 935350,
+    "contribution_bull": 961810,
+    "swing": 52920
+   },
+   {
+    "assumption": "A06_event_registrants",
+    "contribution_bear": 920650,
+    "contribution_base": 935350,
+    "contribution_bull": 956350,
+    "swing": 35700
+   },
+   {
+    "assumption": "A14_ambassador_enrolments_per_season",
+    "contribution_bear": 935350,
+    "contribution_base": 935350,
+    "contribution_bull": 935350,
+    "swing": 0
+   }
+  ]
+ },
+ "T8": {
+  "colleges": [
+   {
+    "college": "DTU",
+    "region": "Delhi NCR (calibration)",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 2412,
+    "raw": {
+     "C1": 10,
+     "C2": 14,
+     "C3": 2412,
+     "C4": 2,
+     "C5": "2 of 3 present (a,b)",
+     "C6": 6.5,
+     "C7": 4
+    },
+    "scores": {
+     "C1": 4,
+     "C2": 2,
+     "C3": 5,
+     "C4": 2,
+     "C5": 3,
+     "C6": 5,
+     "C7": 5
+    },
+    "fit": 3.65,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NSUT",
+    "region": "Delhi NCR (calibration)",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 1725,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 1725,
+     "C4": 1,
+     "C5": "1 of 3 present (b)",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 4,
+     "C4": 1,
+     "C5": 4,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 2.7,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "Thapar Institute of Engineering and Technology",
+    "region": "North (calibration)",
+    "geo": "North/Delhi",
+    "city": "Patiala",
+    "state": "Punjab",
+    "btech_graduating": 2500,
+    "raw": {
+     "C1": 3,
+     "C2": 3,
+     "C3": 2500,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 5,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 2.7,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "BIT Mesra",
+    "region": "East (calibration)",
+    "geo": "North/Delhi",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "btech_graduating": 900,
+    "raw": {
+     "C1": 3,
+     "C2": 4,
+     "C3": 900,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.3,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "BITS Pilani (Pilani campus)",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Pilani",
+    "state": "Rajasthan",
+    "btech_graduating": 800,
+    "raw": {
+     "C1": 5,
+     "C2": 25.0,
+     "C3": 800,
+     "C4": 2,
+     "C5": "1 of 3 present (b)",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 4,
+     "C3": 2,
+     "C4": 2,
+     "C5": 4,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 3.0,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 100.0,
+    "weight_sensitive": false
+   },
+   {
+    "college": "PEC Chandigarh",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "btech_graduating": 800,
+    "raw": {
+     "C1": 4,
+     "C2": 7,
+     "C3": 800,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.4,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 97.5,
+    "weight_sensitive": false
+   },
+   {
+    "college": "IIIT Delhi",
+    "region": "Delhi NCR",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 480,
+    "raw": {
+     "C1": 0,
+     "C2": 0,
+     "C3": 480,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 1,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.0,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": false,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "IGDTUW",
+    "region": "Delhi NCR",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 654,
+    "raw": {
+     "C1": 3,
+     "C2": 3,
+     "C3": 654,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.15,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NIT Kurukshetra",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Kurukshetra",
+    "state": "Haryana",
+    "btech_graduating": 787,
+    "raw": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 787,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.15,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "MNIT Jaipur",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "btech_graduating": 717,
+    "raw": {
+     "C1": 3,
+     "C2": 3,
+     "C3": 717,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.15,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "MNNIT Allahabad",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "btech_graduating": 844,
+    "raw": {
+     "C1": 2,
+     "C2": 2,
+     "C3": 844,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.95,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "IIIT Allahabad",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "btech_graduating": 428,
+    "raw": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 428,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 1,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.8,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 6,
+    "pass_f1": false,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NIT Jalandhar",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "btech_graduating": 1098,
+    "raw": {
+     "C1": 2,
+     "C2": 2,
+     "C3": 1098,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.3,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NIT Tiruchirappalli",
+    "region": "South",
+    "geo": "South",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "btech_graduating": 1029,
+    "raw": {
+     "C1": 4,
+     "C2": 7,
+     "C3": 1029,
+     "C4": 6,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 3,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.65,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 100.0,
+    "weight_sensitive": false
+   },
+   {
+    "college": "NIT Karnataka Surathkal",
+    "region": "South",
+    "geo": "South",
+    "city": "Surathkal (Mangalore)",
+    "state": "Karnataka",
+    "btech_graduating": 835,
+    "raw": {
+     "C1": 1,
+     "C2": 3,
+     "C3": 835,
+     "C4": 2,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 2,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.1,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NIT Warangal",
+    "region": "South",
+    "geo": "South",
+    "city": "Warangal",
+    "state": "Telangana",
+    "btech_graduating": 704,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 704,
+     "C4": 1,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.2,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   },
+   {
+    "college": "NIT Calicut",
+    "region": "South",
+    "geo": "South",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "btech_graduating": 858,
+    "raw": {
+     "C1": 2,
+     "C2": 3,
+     "C3": 858,
+     "C4": 1,
+     "C5": "1 of 3",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 4,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.85,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "IIIT Hyderabad",
+    "region": "South",
+    "geo": "South",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "btech_graduating": 177,
+    "raw": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 177,
+     "C4": 0,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 1,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.8,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": false,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "BITS Pilani Hyderabad campus",
+    "region": "South",
+    "geo": "South",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "btech_graduating": 2883,
+    "raw": {
+     "C1": 3,
+     "C2": 3,
+     "C3": 2883,
+     "C4": 2,
+     "C5": "partial (b)",
+     "C6": 7.0,
+     "C7": 1
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 5,
+     "C4": 2,
+     "C5": 5,
+     "C6": 5,
+     "C7": 2
+    },
+    "fit": 2.65,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "VIT Vellore",
+    "region": "South",
+    "geo": "South",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "btech_graduating": 5964,
+    "raw": {
+     "C1": 2,
+     "C2": 2,
+     "C3": 5964,
+     "C4": 1,
+     "C5": "none found",
+     "C6": 6.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 5,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.4,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "Manipal Institute of Technology",
+    "region": "South",
+    "geo": "South",
+    "city": "Manipal",
+    "state": "Karnataka",
+    "btech_graduating": 1755,
+    "raw": {
+     "C1": 1,
+     "C2": 33.0,
+     "C3": 1755,
+     "C4": 1,
+     "C5": "1 of 3",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 5,
+     "C3": 4,
+     "C4": 1,
+     "C5": 4,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.75,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "RV College of Engineering Bengaluru",
+    "region": "South",
+    "geo": "South",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "btech_graduating": 1087,
+    "raw": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 1087,
+     "C4": 0,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.1,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "BITS Pilani, Goa campus",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Zuarinagar, South Goa",
+    "state": "Goa",
+    "btech_graduating": 630,
+    "raw": {
+     "C1": 6,
+     "C2": 25.0,
+     "C3": 630,
+     "C4": 2,
+     "C5": "1 of 3 (partial a)",
+     "C6": 7.0,
+     "C7": 1
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 4,
+     "C3": 2,
+     "C4": 2,
+     "C5": 4,
+     "C6": 5,
+     "C7": 2
+    },
+    "fit": 2.8,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   },
+   {
+    "college": "VJTI Mumbai (Veermata Jijabai Technological Institute)",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "btech_graduating": 690,
+    "raw": {
+     "C1": 2,
+     "C2": 3,
+     "C3": 690,
+     "C4": 1,
+     "C5": "0 of 3",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.95,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "COEP Technological University, Pune",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "btech_graduating": 741,
+    "raw": {
+     "C1": 5,
+     "C2": 5,
+     "C3": 741,
+     "C4": 3,
+     "C5": "1 of 3 (partial a)",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 3,
+     "C5": 4,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.4,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 97.2,
+    "weight_sensitive": false
+   },
+   {
+    "college": "VNIT Nagpur (Visvesvaraya National Institute of Technology)",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "btech_graduating": 800,
+    "raw": {
+     "C1": 2,
+     "C2": 2,
+     "C3": 800,
+     "C4": 2,
+     "C5": "1 of 3 (a)",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 2,
+     "C5": 4,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.0,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NIT Rourkela (National Institute of Technology, Rourkela)",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Rourkela",
+    "state": "Odisha",
+    "btech_graduating": 901,
+    "raw": {
+     "C1": 2,
+     "C2": 2,
+     "C3": 901,
+     "C4": 3,
+     "C5": "1 of 3 (a)",
+     "C6": 7.0,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 3,
+     "C4": 3,
+     "C5": 4,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.5,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "Jadavpur University",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "btech_graduating": 868,
+    "raw": {
+     "C1": 1,
+     "C2": 2,
+     "C3": 868,
+     "C4": 1,
+     "C5": "0 of 3",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 1.95,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "IIT Delhi",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "btech_graduating": 1100,
+    "raw": {
+     "C1": 6,
+     "C2": 6,
+     "C3": 1100,
+     "C4": 0,
+     "C5": "0 of 3",
+     "C6": 11.0,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 1,
+     "C7": 3
+    },
+    "fit": 2.15,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": true,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   },
+   {
+    "college": "IIT Roorkee",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "btech_graduating": 1102,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 1102,
+     "C4": 2,
+     "C5": "1 of 3 (a)",
+     "C6": 11.0,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 2,
+     "C5": 4,
+     "C6": 1,
+     "C7": 3
+    },
+    "fit": 2.2,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 5.3,
+    "weight_sensitive": true
+   },
+   {
+    "college": "IIT (BHU) Varanasi",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "btech_graduating": 902,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 902,
+     "C4": 1,
+     "C5": "1 of 3 (a)",
+     "C6": 11.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 4,
+     "C6": 1,
+     "C7": 1
+    },
+    "fit": 1.85,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true
+   },
+   {
+    "college": "IIT Guwahati",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "Guwahati",
+    "state": "Assam",
+    "btech_graduating": 1008,
+    "raw": {
+     "C1": 5,
+     "C2": 5,
+     "C3": 1008,
+     "C4": 1,
+     "C5": "1 of 3 (a, strongest instance among all 10 colleges)",
+     "C6": 11.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 4,
+     "C6": 1,
+     "C7": 1
+    },
+    "fit": 1.85,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true
+   }
+  ],
+  "final4": [
+   {
+    "college": "BITS Pilani (Pilani campus)",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Pilani",
+    "state": "Rajasthan",
+    "btech_graduating": 800,
+    "raw": {
+     "C1": 5,
+     "C2": 25.0,
+     "C3": 800,
+     "C4": 2,
+     "C5": "1 of 3 present (b)",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 4,
+     "C3": 2,
+     "C4": 2,
+     "C5": 4,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 3.0,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 100.0,
+    "weight_sensitive": false
+   },
+   {
+    "college": "NIT Tiruchirappalli",
+    "region": "South",
+    "geo": "South",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "btech_graduating": 1029,
+    "raw": {
+     "C1": 4,
+     "C2": 7,
+     "C3": 1029,
+     "C4": 6,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 3,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.65,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 100.0,
+    "weight_sensitive": false
+   },
+   {
+    "college": "PEC Chandigarh",
+    "region": "North",
+    "geo": "North/Delhi",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "btech_graduating": 800,
+    "raw": {
+     "C1": 4,
+     "C2": 7,
+     "C3": 800,
+     "C4": 1,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.4,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 97.5,
+    "weight_sensitive": false
+   },
+   {
+    "college": "COEP Technological University, Pune",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "btech_graduating": 741,
+    "raw": {
+     "C1": 5,
+     "C2": 5,
+     "C3": 741,
+     "C4": 3,
+     "C5": "1 of 3 (partial a)",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 3,
+     "C5": 4,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.4,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "stability_pct": 97.2,
+    "weight_sensitive": false
+   }
+  ],
+  "reserve4": [
+   {
+    "college": "BITS Pilani, Goa campus",
+    "region": "West and East",
+    "geo": "West/East",
+    "city": "Zuarinagar, South Goa",
+    "state": "Goa",
+    "btech_graduating": 630,
+    "raw": {
+     "C1": 6,
+     "C2": 25.0,
+     "C3": 630,
+     "C4": 2,
+     "C5": "1 of 3 (partial a)",
+     "C6": 7.0,
+     "C7": 1
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 4,
+     "C3": 2,
+     "C4": 2,
+     "C5": 4,
+     "C6": 5,
+     "C7": 2
+    },
+    "fit": 2.8,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   },
+   {
+    "college": "NIT Warangal",
+    "region": "South",
+    "geo": "South",
+    "city": "Warangal",
+    "state": "Telangana",
+    "btech_graduating": 704,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 704,
+     "C4": 1,
+     "C5": "none found",
+     "C6": 7.0,
+     "C7": 0
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 2,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 1
+    },
+    "fit": 2.2,
+    "is_calibration": false,
+    "is_contrast": false,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   },
+   {
+    "college": "IIT Roorkee",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "btech_graduating": 1102,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 1102,
+     "C4": 2,
+     "C5": "1 of 3 (a)",
+     "C6": 11.0,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 2,
+     "C5": 4,
+     "C6": 1,
+     "C7": 3
+    },
+    "fit": 2.2,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": false,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 5.3,
+    "weight_sensitive": true
+   },
+   {
+    "college": "IIT Delhi",
+    "region": "Contrast set",
+    "geo": "North/Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "btech_graduating": 1100,
+    "raw": {
+     "C1": 6,
+     "C2": 6,
+     "C3": 1100,
+     "C4": 0,
+     "C5": "0 of 3",
+     "C6": 11.0,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 1,
+     "C7": 3
+    },
+    "fit": 2.15,
+    "is_calibration": false,
+    "is_contrast": true,
+    "within_300km_delhi": true,
+    "sourced_n": 7,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": true,
+    "pass_f4": true,
+    "screen_pass": true,
+    "f2_relaxed": true,
+    "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+    "stability_pct": 0.0,
+    "weight_sensitive": true
+   }
+  ],
+  "relaxed_f2": true,
+  "calibration_rows": [
+   {
+    "college": "DTU",
+    "region": "Delhi NCR (calibration)",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 2412,
+    "raw": {
+     "C1": 10,
+     "C2": 14,
+     "C3": 2412,
+     "C4": 2,
+     "C5": "2 of 3 present (a,b)",
+     "C6": 6.5,
+     "C7": 4
+    },
+    "scores": {
+     "C1": 4,
+     "C2": 2,
+     "C3": 5,
+     "C4": 2,
+     "C5": 3,
+     "C6": 5,
+     "C7": 5
+    },
+    "fit": 3.65,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": true,
+    "pass_f2_4": true,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "NSUT",
+    "region": "Delhi NCR (calibration)",
+    "geo": "North/Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "btech_graduating": 1725,
+    "raw": {
+     "C1": 4,
+     "C2": 4,
+     "C3": 1725,
+     "C4": 1,
+     "C5": "1 of 3 present (b)",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 2,
+     "C2": 1,
+     "C3": 4,
+     "C4": 1,
+     "C5": 4,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 2.7,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": true,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "Thapar Institute of Engineering and Technology",
+    "region": "North (calibration)",
+    "geo": "North/Delhi",
+    "city": "Patiala",
+    "state": "Punjab",
+    "btech_graduating": 2500,
+    "raw": {
+     "C1": 3,
+     "C2": 3,
+     "C3": 2500,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 3
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 5,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 4
+    },
+    "fit": 2.7,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   },
+   {
+    "college": "BIT Mesra",
+    "region": "East (calibration)",
+    "geo": "North/Delhi",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "btech_graduating": 900,
+    "raw": {
+     "C1": 3,
+     "C2": 4,
+     "C3": 900,
+     "C4": 0,
+     "C5": "0 of 3 present",
+     "C6": 6.5,
+     "C7": 2
+    },
+    "scores": {
+     "C1": 1,
+     "C2": 1,
+     "C3": 3,
+     "C4": 1,
+     "C5": 5,
+     "C6": 5,
+     "C7": 3
+    },
+    "fit": 2.3,
+    "is_calibration": true,
+    "is_contrast": false,
+    "within_300km_delhi": true,
+    "sourced_n": 6,
+    "pass_f1": true,
+    "pass_f2_5": false,
+    "pass_f2_4": false,
+    "pass_f3": false,
+    "pass_f4": true,
+    "screen_pass": false,
+    "f2_relaxed": true
+   }
+  ],
+  "median_fit": 2.15,
+  "calibration_ok": true,
+  "stability": {
+   "BITS Pilani (Pilani campus)": 100.0,
+   "BITS Pilani, Goa campus": 0.0,
+   "NIT Tiruchirappalli": 100.0,
+   "PEC Chandigarh": 97.5,
+   "COEP Technological University, Pune": 97.2,
+   "NIT Warangal": 0.0,
+   "IIT Roorkee": 5.3,
+   "IIT Delhi": 0.0,
+   "IIT (BHU) Varanasi": 0.0,
+   "IIT Guwahati": 0.0
+  }
+ },
+ "T9": {
+  "BITS Pilani (Pilani campus)": 100.0,
+  "BITS Pilani, Goa campus": 0.0,
+  "NIT Tiruchirappalli": 100.0,
+  "PEC Chandigarh": 97.5,
+  "COEP Technological University, Pune": 97.2,
+  "NIT Warangal": 0.0,
+  "IIT Roorkee": 5.3,
+  "IIT Delhi": 0.0,
+  "IIT (BHU) Varanasi": 0.0,
+  "IIT Guwahati": 0.0
+ },
+ "T10": {
+  "BITS Pilani (Pilani campus)": {
+   "bear": {
+    "scenario": "bear",
+    "founding_cohort": 12,
+    "fee_season1": 4000,
+    "fee_season2": 8000,
+    "cost_season1": 60000,
+    "revenue_season1": 48000,
+    "cash_season1": -12000,
+    "ambassadors": 2,
+    "ambassador_cost_season2": 6000,
+    "enrol_season2": 18.0,
+    "revenue_season2": 144000,
+    "cash_season2": 126000,
+    "breakeven": "Season 2"
+   },
+   "base": {
+    "scenario": "base",
+    "founding_cohort": 20,
+    "fee_season1": 7200,
+    "fee_season2": 12000,
+    "cost_season1": 45000,
+    "revenue_season1": 144000,
+    "cash_season1": 99000,
+    "ambassadors": 4,
+    "ambassador_cost_season2": 16000,
+    "enrol_season2": 60.0,
+    "revenue_season2": 720000,
+    "cash_season2": 803000,
+    "breakeven": "Season 1"
+   },
+   "bull": {
+    "scenario": "bull",
+    "founding_cohort": 30,
+    "fee_season1": 12600,
+    "fee_season2": 18000,
+    "cost_season1": 30000,
+    "revenue_season1": 378000,
+    "cash_season1": 348000,
+    "ambassadors": 8,
+    "ambassador_cost_season2": 42000,
+    "enrol_season2": 150.0,
+    "revenue_season2": 2700000,
+    "cash_season2": 3006000,
+    "breakeven": "Season 1"
+   }
+  },
+  "NIT Tiruchirappalli": {
+   "bear": {
+    "scenario": "bear",
+    "founding_cohort": 12,
+    "fee_season1": 4000,
+    "fee_season2": 8000,
+    "cost_season1": 60000,
+    "revenue_season1": 48000,
+    "cash_season1": -12000,
+    "ambassadors": 2,
+    "ambassador_cost_season2": 6000,
+    "enrol_season2": 18.0,
+    "revenue_season2": 144000,
+    "cash_season2": 126000,
+    "breakeven": "Season 2"
+   },
+   "base": {
+    "scenario": "base",
+    "founding_cohort": 20,
+    "fee_season1": 7200,
+    "fee_season2": 12000,
+    "cost_season1": 45000,
+    "revenue_season1": 144000,
+    "cash_season1": 99000,
+    "ambassadors": 4,
+    "ambassador_cost_season2": 16000,
+    "enrol_season2": 60.0,
+    "revenue_season2": 720000,
+    "cash_season2": 803000,
+    "breakeven": "Season 1"
+   },
+   "bull": {
+    "scenario": "bull",
+    "founding_cohort": 30,
+    "fee_season1": 12600,
+    "fee_season2": 18000,
+    "cost_season1": 30000,
+    "revenue_season1": 378000,
+    "cash_season1": 348000,
+    "ambassadors": 8,
+    "ambassador_cost_season2": 42000,
+    "enrol_season2": 150.0,
+    "revenue_season2": 2700000,
+    "cash_season2": 3006000,
+    "breakeven": "Season 1"
+   }
+  },
+  "PEC Chandigarh": {
+   "bear": {
+    "scenario": "bear",
+    "founding_cohort": 12,
+    "fee_season1": 4000,
+    "fee_season2": 8000,
+    "cost_season1": 60000,
+    "revenue_season1": 48000,
+    "cash_season1": -12000,
+    "ambassadors": 2,
+    "ambassador_cost_season2": 6000,
+    "enrol_season2": 18.0,
+    "revenue_season2": 144000,
+    "cash_season2": 126000,
+    "breakeven": "Season 2"
+   },
+   "base": {
+    "scenario": "base",
+    "founding_cohort": 20,
+    "fee_season1": 7200,
+    "fee_season2": 12000,
+    "cost_season1": 45000,
+    "revenue_season1": 144000,
+    "cash_season1": 99000,
+    "ambassadors": 4,
+    "ambassador_cost_season2": 16000,
+    "enrol_season2": 60.0,
+    "revenue_season2": 720000,
+    "cash_season2": 803000,
+    "breakeven": "Season 1"
+   },
+   "bull": {
+    "scenario": "bull",
+    "founding_cohort": 30,
+    "fee_season1": 12600,
+    "fee_season2": 18000,
+    "cost_season1": 30000,
+    "revenue_season1": 378000,
+    "cash_season1": 348000,
+    "ambassadors": 8,
+    "ambassador_cost_season2": 42000,
+    "enrol_season2": 150.0,
+    "revenue_season2": 2700000,
+    "cash_season2": 3006000,
+    "breakeven": "Season 1"
+   }
+  },
+  "COEP Technological University, Pune": {
+   "bear": {
+    "scenario": "bear",
+    "founding_cohort": 12,
+    "fee_season1": 4000,
+    "fee_season2": 8000,
+    "cost_season1": 60000,
+    "revenue_season1": 48000,
+    "cash_season1": -12000,
+    "ambassadors": 2,
+    "ambassador_cost_season2": 6000,
+    "enrol_season2": 18.0,
+    "revenue_season2": 144000,
+    "cash_season2": 126000,
+    "breakeven": "Season 2"
+   },
+   "base": {
+    "scenario": "base",
+    "founding_cohort": 20,
+    "fee_season1": 7200,
+    "fee_season2": 12000,
+    "cost_season1": 45000,
+    "revenue_season1": 144000,
+    "cash_season1": 99000,
+    "ambassadors": 4,
+    "ambassador_cost_season2": 16000,
+    "enrol_season2": 60.0,
+    "revenue_season2": 720000,
+    "cash_season2": 803000,
+    "breakeven": "Season 1"
+   },
+   "bull": {
+    "scenario": "bull",
+    "founding_cohort": 30,
+    "fee_season1": 12600,
+    "fee_season2": 18000,
+    "cost_season1": 30000,
+    "revenue_season1": 378000,
+    "cash_season1": 348000,
+    "ambassadors": 8,
+    "ambassador_cost_season2": 42000,
+    "enrol_season2": 150.0,
+    "revenue_season2": 2700000,
+    "cash_season2": 3006000,
+    "breakeven": "Season 1"
+   }
+  }
+ },
+ "T11": {
+  "hours_today": 220,
+  "hours_after_dtu": 132,
+  "hours_new_campuses": 64,
+  "hours_after_total": 196,
+  "capacity_annual": 1040,
+  "hours_freed_dtu": 88,
+  "fits_in_founder_week": true
+ },
+ "T12": {
+  "bear": {
+   "scenario": "bear",
+   "total_enrolments": 168.0,
+   "total_spend": 2224811,
+   "total_revenue": 1152000,
+   "total_contribution": -1591211,
+   "dtu_enrolments": 120.0,
+   "campus_enrolments": 48,
+   "check_equals_parts": true
+  },
+  "base": {
+   "scenario": "base",
+   "total_enrolments": 245.0,
+   "total_spend": 531650,
+   "total_revenue": 2556000,
+   "total_contribution": 1129750,
+   "dtu_enrolments": 165.0,
+   "campus_enrolments": 80,
+   "check_equals_parts": true
+  },
+  "bull": {
+   "scenario": "bull",
+   "total_enrolments": 330.0,
+   "total_spend": 146222,
+   "total_revenue": 5292000,
+   "total_contribution": 3822778,
+   "dtu_enrolments": 210.0,
+   "campus_enrolments": 120,
+   "check_equals_parts": true
+  }
+ },
+ "T13": {
+  "baseline": {
+   "leads": 0,
+   "applications": 0,
+   "enrolments": 110,
+   "cac": null,
+   "referral_share": 0.8,
+   "second_year_share": 0.0,
+   "founding_cohort_fill": 0.0,
+   "offers_per_campus": 0
+  },
+  "m3": {
+   "leads": 1465,
+   "applications": 176,
+   "enrolments": 41.2,
+   "cac": 2131.21,
+   "referral_share": 0.72,
+   "second_year_share": 0.1,
+   "founding_cohort_fill": 0.4,
+   "offers_per_campus": 0
+  },
+  "m6": {
+   "leads": 3222,
+   "applications": 387,
+   "enrolments": 90.8,
+   "cac": 2131.21,
+   "referral_share": 0.8,
+   "second_year_share": 0.16,
+   "founding_cohort_fill": 0.8,
+   "offers_per_campus": 4
+  },
+  "m12": {
+   "leads": 5859,
+   "applications": 703,
+   "enrolments": 165.0,
+   "cac": 2131.21,
+   "referral_share": 0.8,
+   "second_year_share": 0.2,
+   "founding_cohort_fill": 1.0,
+   "offers_per_campus": 8
+  }
+ },
+ "T14": {
+  "day30": {
+   "metric": "founding-cohort applications",
+   "stop_below": 6,
+   "scale_above": 14
+  },
+  "day60": {
+   "metric": "founding-cohort fill",
+   "stop_below": 10,
+   "scale_above": 12
+  },
+  "day90": {
+   "metric": "founding-cohort offers secured",
+   "stop_below": 2,
+   "scale_above": 7
+  }
+ },
+ "T15": [
+  {
+   "price_inr": 8000,
+   "breakeven_enrolments": 8.7
+  },
+  {
+   "price_inr": 12000,
+   "breakeven_enrolments": 5.8
+  },
+  {
+   "price_inr": 18000,
+   "breakeven_enrolments": 3.8
+  }
+ ],
+ "T16": [
+  {
+   "id": "A01_fee_inr",
+   "bear": 8000,
+   "base": 12000,
+   "bull": 18000,
+   "note": ""
+  },
+  {
+   "id": "A02_dtu_batch_note",
+   "bear": "",
+   "base": "superseded by R['dtu_ug_sanctioned_intake'] (RB01, official); kept for the register only",
+   "bull": "",
+   "note": "not a bear/base/bull assumption"
+  },
+  {
+   "id": "A03_nontech_open_share",
+   "bear": 0.2,
+   "base": 0.3,
+   "bull": 0.4,
+   "note": ""
+  },
+  {
+   "id": "A04_dtu_enrolments_12mo",
+   "bear": 80,
+   "base": 110,
+   "bull": 140,
+   "note": ""
+  },
+  {
+   "id": "A05_referral_share",
+   "bear": 0.9,
+   "base": 0.8,
+   "bull": 0.7,
+   "note": ""
+  },
+  {
+   "id": "A06_event_registrants",
+   "bear": 80,
+   "base": 150,
+   "bull": 250,
+   "note": ""
+  },
+  {
+   "id": "A07_registrant_to_lead",
+   "bear": 0.35,
+   "base": 0.5,
+   "bull": 0.65,
+   "note": ""
+  },
+  {
+   "id": "A08_lead_to_application",
+   "bear": 0.08,
+   "base": 0.12,
+   "bull": 0.18,
+   "note": ""
+  },
+  {
+   "id": "A09_application_to_enrolment",
+   "bear": 0.3,
+   "base": 0.45,
+   "bull": 0.6,
+   "note": ""
+  },
+  {
+   "id": "A10_mockdrive_participants",
+   "bear": 100,
+   "base": 200,
+   "bull": 350,
+   "note": ""
+  },
+  {
+   "id": "A11_meta_cpl_inr",
+   "bear": 600,
+   "base": 350,
+   "bull": 200,
+   "note": ""
+  },
+  {
+   "id": "A12_linkedin_cpl_inr",
+   "bear": 1500,
+   "base": 900,
+   "bull": 500,
+   "note": ""
+  },
+  {
+   "id": "A13_paid_lead_to_application",
+   "bear": 0.03,
+   "base": 0.06,
+   "bull": 0.1,
+   "note": ""
+  },
+  {
+   "id": "A14_ambassador_enrolments_per_season",
+   "bear": 2,
+   "base": 4,
+   "bull": 7,
+   "note": ""
+  },
+  {
+   "id": "A15_ambassador_payout_per_enrolment_inr",
+   "bear": 1500,
+   "base": 1000,
+   "bull": 750,
+   "note": ""
+  },
+  {
+   "id": "A16_referral_reward_per_enrolment_inr",
+   "bear": 1500,
+   "base": 1000,
+   "bull": 500,
+   "note": ""
+  },
+  {
+   "id": "A17_founding_cohort_size",
+   "bear": 12,
+   "base": 20,
+   "bull": 30,
+   "note": ""
+  },
+  {
+   "id": "A18_founding_cohort_discount",
+   "bear": 0.5,
+   "base": 0.4,
+   "bull": 0.3,
+   "note": ""
+  },
+  {
+   "id": "A19_founding_cohort_selection_rate",
+   "bear": 0.25,
+   "base": 0.4,
+   "bull": 0.55,
+   "note": ""
+  },
+  {
+   "id": "A20_season2_multiple",
+   "bear": 1.5,
+   "base": 3.0,
+   "bull": 5.0,
+   "note": ""
+  },
+  {
+   "id": "A21_case_league_cost_inr",
+   "bear": 60000,
+   "base": 45000,
+   "bull": 30000,
+   "note": ""
+  },
+  {
+   "id": "A22_founder_hours_per_enrolment_today",
+   "bear": 3.0,
+   "base": 2.0,
+   "bull": 1.5,
+   "note": ""
+  },
+  {
+   "id": "A23_founder_hours_per_enrolment_after",
+   "bear": 1.2,
+   "base": 0.8,
+   "bull": 0.5,
+   "note": ""
+  },
+  {
+   "id": "A24_gross_margin",
+   "bear": 0.55,
+   "base": 0.65,
+   "bull": 0.75,
+   "note": ""
+  },
+  {
+   "id": "A25_influencer_cost_per_post_inr",
+   "bear": 4000,
+   "base": 2500,
+   "bull": 1500,
+   "note": ""
+  },
+  {
+   "id": "A26_gated_capture_rate",
+   "bear": 0.2,
+   "base": 0.35,
+   "bull": 0.5,
+   "note": ""
+  },
+  {
+   "id": "A27_organic_visitors_per_month",
+   "bear": 300,
+   "base": 600,
+   "bull": 1200,
+   "note": ""
+  },
+  {
+   "id": "A28_second_year_share_after_plan",
+   "bear": 0.1,
+   "base": 0.2,
+   "bull": 0.3,
+   "note": ""
+  },
+  {
+   "id": "A29_selection_rate_into_offer",
+   "bear": 0.35,
+   "base": 0.45,
+   "bull": 0.6,
+   "note": ""
+  },
+  {
+   "id": "A30_upsell_revenue_per_student_inr",
+   "bear": 0,
+   "base": 300,
+   "bull": 800,
+   "note": ""
+  },
+  {
+   "id": "A31_founder_hours_per_week",
+   "bear": 15,
+   "base": 20,
+   "bull": 25,
+   "note": ""
+  },
+  {
+   "id": "A32_cohorts_per_year",
+   "bear": 2,
+   "base": 3,
+   "bull": 4,
+   "note": ""
+  },
+  {
+   "id": "A33_inhouse_event_cash_cost_inr",
+   "bear": 12000,
+   "base": 8000,
+   "bull": 5000,
+   "note": ""
+  },
+  {
+   "id": "A34_paid_reach_share_of_campus",
+   "bear": 0.03,
+   "base": 0.05,
+   "bull": 0.08,
+   "note": ""
+  }
+ ],
+ "checks": {
+  "t1_branches_sum": true,
+  "t4_budget_split_sums_100": true,
+  "t8_calibration_at_or_above_median": true,
+  "t5_calendar_sums_to_t4": true,
+  "picking_rule_ran": true,
+  "screen_relaxed_f2_per_4_6": true,
+  "t12_equals_t6_plus_t10": true
+ },
+ "final4": [
+  {
+   "college": "BITS Pilani (Pilani campus)",
+   "region": "North",
+   "geo": "North/Delhi",
+   "city": "Pilani",
+   "state": "Rajasthan",
+   "btech_graduating": 800,
+   "raw": {
+    "C1": 5,
+    "C2": 25.0,
+    "C3": 800,
+    "C4": 2,
+    "C5": "1 of 3 present (b)",
+    "C6": 6.5,
+    "C7": 3
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 4,
+    "C3": 2,
+    "C4": 2,
+    "C5": 4,
+    "C6": 5,
+    "C7": 4
+   },
+   "fit": 3.0,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": true,
+   "sourced_n": 6,
+   "pass_f1": true,
+   "pass_f2_5": true,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "stability_pct": 100.0,
+   "weight_sensitive": false
+  },
+  {
+   "college": "NIT Tiruchirappalli",
+   "region": "South",
+   "geo": "South",
+   "city": "Tiruchirappalli",
+   "state": "Tamil Nadu",
+   "btech_graduating": 1029,
+   "raw": {
+    "C1": 4,
+    "C2": 7,
+    "C3": 1029,
+    "C4": 6,
+    "C5": "none found",
+    "C6": 7.0,
+    "C7": 0
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 3,
+    "C4": 3,
+    "C5": 5,
+    "C6": 5,
+    "C7": 1
+   },
+   "fit": 2.65,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": false,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": false,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "stability_pct": 100.0,
+   "weight_sensitive": false
+  },
+  {
+   "college": "PEC Chandigarh",
+   "region": "North",
+   "geo": "North/Delhi",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "btech_graduating": 800,
+   "raw": {
+    "C1": 4,
+    "C2": 7,
+    "C3": 800,
+    "C4": 1,
+    "C5": "0 of 3 present",
+    "C6": 6.5,
+    "C7": 2
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 2,
+    "C4": 1,
+    "C5": 5,
+    "C6": 5,
+    "C7": 3
+   },
+   "fit": 2.4,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": true,
+   "sourced_n": 6,
+   "pass_f1": true,
+   "pass_f2_5": false,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "stability_pct": 97.5,
+   "weight_sensitive": false
+  },
+  {
+   "college": "COEP Technological University, Pune",
+   "region": "West and East",
+   "geo": "West/East",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "btech_graduating": 741,
+   "raw": {
+    "C1": 5,
+    "C2": 5,
+    "C3": 741,
+    "C4": 3,
+    "C5": "1 of 3 (partial a)",
+    "C6": 7.0,
+    "C7": 0
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 2,
+    "C4": 3,
+    "C5": 4,
+    "C6": 5,
+    "C7": 1
+   },
+   "fit": 2.4,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": false,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": true,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "stability_pct": 97.2,
+   "weight_sensitive": false
+  }
+ ],
+ "reserve4": [
+  {
+   "college": "BITS Pilani, Goa campus",
+   "region": "West and East",
+   "geo": "West/East",
+   "city": "Zuarinagar, South Goa",
+   "state": "Goa",
+   "btech_graduating": 630,
+   "raw": {
+    "C1": 6,
+    "C2": 25.0,
+    "C3": 630,
+    "C4": 2,
+    "C5": "1 of 3 (partial a)",
+    "C6": 7.0,
+    "C7": 1
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 4,
+    "C3": 2,
+    "C4": 2,
+    "C5": 4,
+    "C6": 5,
+    "C7": 2
+   },
+   "fit": 2.8,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": false,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": true,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+   "stability_pct": 0.0,
+   "weight_sensitive": true
+  },
+  {
+   "college": "NIT Warangal",
+   "region": "South",
+   "geo": "South",
+   "city": "Warangal",
+   "state": "Telangana",
+   "btech_graduating": 704,
+   "raw": {
+    "C1": 4,
+    "C2": 4,
+    "C3": 704,
+    "C4": 1,
+    "C5": "none found",
+    "C6": 7.0,
+    "C7": 0
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 2,
+    "C4": 1,
+    "C5": 5,
+    "C6": 5,
+    "C7": 1
+   },
+   "fit": 2.2,
+   "is_calibration": false,
+   "is_contrast": false,
+   "within_300km_delhi": false,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": false,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+   "stability_pct": 0.0,
+   "weight_sensitive": true
+  },
+  {
+   "college": "IIT Roorkee",
+   "region": "Contrast set",
+   "geo": "North/Delhi",
+   "city": "Roorkee",
+   "state": "Uttarakhand",
+   "btech_graduating": 1102,
+   "raw": {
+    "C1": 4,
+    "C2": 4,
+    "C3": 1102,
+    "C4": 2,
+    "C5": "1 of 3 (a)",
+    "C6": 11.0,
+    "C7": 2
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 3,
+    "C4": 2,
+    "C5": 4,
+    "C6": 1,
+    "C7": 3
+   },
+   "fit": 2.2,
+   "is_calibration": false,
+   "is_contrast": true,
+   "within_300km_delhi": false,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": false,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+   "stability_pct": 5.3,
+   "weight_sensitive": true
+  },
+  {
+   "college": "IIT Delhi",
+   "region": "Contrast set",
+   "geo": "North/Delhi",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "btech_graduating": 1100,
+   "raw": {
+    "C1": 6,
+    "C2": 6,
+    "C3": 1100,
+    "C4": 0,
+    "C5": "0 of 3",
+    "C6": 11.0,
+    "C7": 2
+   },
+   "scores": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 3,
+    "C4": 1,
+    "C5": 5,
+    "C6": 1,
+    "C7": 3
+   },
+   "fit": 2.15,
+   "is_calibration": false,
+   "is_contrast": true,
+   "within_300km_delhi": true,
+   "sourced_n": 7,
+   "pass_f1": true,
+   "pass_f2_5": true,
+   "pass_f2_4": true,
+   "pass_f3": true,
+   "pass_f4": true,
+   "screen_pass": true,
+   "f2_relaxed": true,
+   "promote_reason": "C1 rising from 2 to 5 would add 0.75 to Fit",
+   "stability_pct": 0.0,
+   "weight_sensitive": true
+  }
+ ],
+ "moneyshot": {
+  "dtu_budget_inr": 351650,
+  "organic_pct": 21.1,
+  "paid_pct": 78.9,
+  "cac_blended": 2131.21,
+  "enrolments_base": 165.0
+ },
+ "meta": {
+  "run": "2026-10-10T13:22:41",
+  "hash": "3a53e3745f"
+ }
+}

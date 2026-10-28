@@ -1,0 +1,108 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING 43EA5138
+
+Mohammed Aslam
+TRIAGED
+
+We have worked out who is responsible for answering you. Add your questions below to build the application.
+
+I want a copy of the FIR I filed at my local police station three weeks ago regarding a mobile phone theft, and to know what action has been taken so far.
+
+Will an RTI actually get you what you need?
+
+YES, PROCEED AS A RIGHT TO INFORMATION APPLICATION
+
+Right to Information application
+
+This reads as a straightforward request for a record held by a public authority. Proceed with jurisdiction triage and drafting.
+
+Limitation: No limitation period to file the original application; thirty days to appeal a refusal or non-response
+
+§ 2(f)
+Who is legally required to answer you
+State subject
+Police
+List II, Entry 2 (Police)
+
+Department of Revenue, Government of NCT of Delhi
+
+confidence 78%
+
+Government of NCT of Delhi
+
+The Public Information Officer, Department of Revenue, Government of NCT of Delhi, 5th Level, C-Wing, Delhi Secretariat, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Police" (List II, Entry 2 (Police)). For a specific khasra or mutation record, file with the Sub-Divisional Magistrate or Tehsildar of the concerned area, not the Secretariat directly, where the local office is known.
+
+Delhi Police
+
+confidence 52%
+
+Government of NCT of Delhi (administered through Ministry of Home Affairs)
+
+The Public Information Officer, Delhi Police Headquarters, MSO Building, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Police" (List II, Entry 2 (Police)). Delhi Police is administratively under the Ministry of Home Affairs, an exception to the usual state-police pattern; the CPIO structure still follows the police force, not the ministry.
+
+This is the office I will write to
+Your application
+
+No questions drafted yet.
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in Hindi, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+
+Add at least one question before generating a plain-language copy.
+
+Fee
+
+An applicant who holds a Below Poverty Line certificate pays no fee at all under the proviso to section 7(5), a central provision no state rule can override. Attach a copy of the BPL certificate in place of the fee.
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+
+Select an authority and add at least one question first.
+
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

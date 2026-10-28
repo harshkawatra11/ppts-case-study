@@ -1,0 +1,170 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      src: url("capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2") format("woff2");
+      font-weight: 900;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("capture/assets/fonts/68757d6cddeff913-s.0htwiiqufp3l9.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      container-type: size;
+      container-name: fr14;
+      overflow: hidden;
+      font-family: "Fraunces", Georgia, serif;
+    }
+
+    .fr14-bg {
+      position: absolute;
+      inset: 0;
+      background: #f2ead9;
+    }
+
+    .fr14-content {
+      position: absolute;
+      left: 50%;
+      top: 42%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 78cqw;
+    }
+
+    .fr14-wordmark {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 900;
+      font-size: 9.9cqw;
+      line-height: 0.98;
+      letter-spacing: -0.028em;
+      color: #241a10;
+      -webkit-text-stroke: 2.5px #93691f;
+      text-stroke: 2.5px #93691f;
+      text-align: center;
+      transform-origin: 50% 50%;
+      will-change: transform;
+      margin: 0;
+      padding: 0;
+    }
+
+    .fr14-tagline-wrap {
+      margin-top: 2.4cqw;
+      display: inline-flex;
+      align-items: baseline;
+      justify-content: center;
+      min-width: 62cqw;
+      max-width: 74cqw;
+    }
+
+    .fr14-tagline {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-weight: 500;
+      font-size: 2.35cqw;
+      letter-spacing: 0.02em;
+      color: #241a10;
+      white-space: pre;
+      text-align: center;
+    }
+
+    .fr14-caret {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-weight: 500;
+      font-size: 2.35cqw;
+      color: #241a10;
+      display: inline-block;
+      width: 0.6cqw;
+      margin-left: 0.15cqw;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="14-outro" data-width="1920" data-height="1080">
+    <div class="fr14-bg clip" data-start="0" data-duration="4.245" data-track-index="0"></div>
+
+    <div class="fr14-content">
+      <div class="fr14-wordmark" id="fr14-wordmark">Adhikaar</div>
+      <div class="fr14-tagline-wrap">
+        <span class="fr14-tagline" id="fr14-tagline"></span><span class="fr14-caret" id="fr14-caret">|</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-1.5s): cream ground clears to empty; "Adhikaar" wordmark
+      // spring-pops in from zero, centered, coral stroke — the video's one
+      // deliberately playful overshoot landing (sanctioned exception).
+      tl.fromTo(
+        "#fr14-wordmark",
+        { scale: 0, opacity: 0, rotation: -6 },
+        { scale: 1, opacity: 1, rotation: 0, duration: 0.6, ease: "back.out(1.6)" },
+        0.05
+      );
+
+      // Scene 2 (1.5-4.0s): as the VO speaks the three-part line, the tagline
+      // types in beneath the wordmark in three short per-word groups timed to
+      // the three phrases, with a blinking caret (discrete-text-sequence,
+      // smooth character-slice variation, cumulative across phases).
+      var tagline = document.getElementById("fr14-tagline");
+      var caret = document.getElementById("fr14-caret");
+
+      var phrase1 = "filed correctly";
+      var phrase2 = ", understood clearly";
+      var phrase3 = ", checked honestly.";
+
+      function typePhase(startAt, duration, prefix, addition) {
+        var state = { n: 0 };
+        tl.to(
+          state,
+          {
+            n: addition.length,
+            duration: duration,
+            ease: "none",
+            onUpdate: function () {
+              tagline.textContent = prefix + addition.substring(0, Math.floor(state.n));
+            },
+          },
+          startAt
+        );
+      }
+
+      typePhase(1.5, 0.6, "", phrase1); // 1.5 - 2.1s
+      typePhase(2.2, 0.7, phrase1, phrase2); // 2.2 - 2.9s
+      typePhase(3.0, 0.75, phrase1 + phrase2, phrase3); // 3.0 - 3.75s
+
+      // Caret: fades in with the first keystroke, blinks via a deterministic
+      // sin square wave through the type-on and the final held frame.
+      var blinkStart = 1.5;
+      var blinkDur = 4.245 - blinkStart;
+      var blink = { p: 0 };
+      tl.to(
+        blink,
+        {
+          p: Math.PI * 2 * 4.5,
+          duration: blinkDur,
+          ease: "none",
+          onUpdate: function () {
+            caret.style.opacity = Math.sin(blink.p) > 0 ? "1" : "0";
+          },
+        },
+        blinkStart
+      );
+
+      window.__timelines["14-outro"] = tl;
+    })();
+  </script>
+</template>

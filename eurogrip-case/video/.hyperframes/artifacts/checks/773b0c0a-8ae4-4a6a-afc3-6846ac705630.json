@@ -1,0 +1,3190 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 158,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S01_s1_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S01_s1_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S01_s1_verdict\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S01_s1_verdict",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S01_s1_team\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S01_s1_team",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S01_s1_prep\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S01_s1_prep",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S01_s1_mind\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S01_s1_mind",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S01.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_root\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_root",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_bus\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_bus",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_n1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_n1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_n2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_n2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_n3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_n3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p2_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p2_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p2_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p2_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p3_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p3_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p3_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p3_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p4_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p4_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p4_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p4_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p4_repay\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p4_repay",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p5\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p5",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_n1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_n1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_n2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_n2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_n3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_n3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_n4\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_n4",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_return\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_return",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_bullets\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_bullets",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p7_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p7_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p7_chart\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p7_chart",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p7_legend\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p8_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p8_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p8_bars\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p8_bars",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p8_strip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p8_strip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p9_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p9_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p9_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p9_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p1_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p1_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p2_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p2_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p3_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p3_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p4_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p4_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p6_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p6_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p7_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p7_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p8_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p8_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S02_p9_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S02_p9_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S02.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p3_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p3_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p3_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p3_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p4_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p4_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p4_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p4_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p4_repay\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p4_repay",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p5\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p5",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_n1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_n1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_n2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_n2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_n3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_n3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_n4\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_n4",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_return\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_return",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_bullets\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_bullets",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p7_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p7_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p7_chart\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p7_chart",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p7_legend\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p8_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p8_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p8_bars\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p8_bars",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p8_strip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p8_strip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p9_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p9_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p9_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p9_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p1_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p1_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p2_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p2_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p3_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p3_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p4_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p4_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p6_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p6_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p7_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p7_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p8_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p8_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S03_p9_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S03_p9_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S03.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p4_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p4_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p4_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p4_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p4_repay\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p4_repay",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p5\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p5",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_n1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_n1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_n2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_n2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_n3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_n3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_n4\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_n4",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_return\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_return",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_bullets\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_bullets",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p7_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p7_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p7_chart\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p7_chart",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p7_legend\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p8_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p8_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p8_bars\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p8_bars",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p8_strip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p8_strip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p9_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p9_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p9_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p9_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p1_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p1_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p2_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p2_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p3_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p3_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p4_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p4_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p6_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p6_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p7_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p7_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p8_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p8_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_p9_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_p9_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S04_o0\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S04_o0",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S04.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p5\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p5",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p7_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p7_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p7_chart\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p7_chart",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p7_legend\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p8_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p8_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p8_bars\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p8_bars",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p8_strip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p8_strip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p9_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p9_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p9_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p9_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p1_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p1_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p2_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p2_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p3_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p3_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p4_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p4_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p6_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p6_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p7_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p7_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p8_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p8_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_p9_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_p9_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_chip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_chip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_c1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_c1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_c2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_c2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_c3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_c3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_big\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_big",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_side\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_side",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_kill\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_kill",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_killl\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_killl",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_r0\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_r0",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_r1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_r1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S05_r2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S05_r2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S05.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#S06_p7_legend\" for clipPath between 0.67s and 0.77s.",
+        "selector": "#S06_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#S06_p7_legend\" for clipPath between 0.79s and 0.89s.",
+        "selector": "#S06_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#S06_p7_legend\" for clipPath between 0.91s and 1.01s.",
+        "selector": "#S06_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#S06_p7_legend\" for clipPath between 1.03s and 1.13s.",
+        "selector": "#S06_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p7_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p7_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p7_chart\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p7_chart",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p7_legend\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p7_legend",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p8_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p8_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p8_bars\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p8_bars",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p8_strip\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p8_strip",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p9_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p9_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p9_table\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p9_table",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p1_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p1_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p2_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p2_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p3_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p3_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p4_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p4_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p6_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p6_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p7_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p7_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p8_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p8_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S06_p9_full\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S06_p9_full",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S06.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a1\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a1",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a2\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a2",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a3\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a3",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a4\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a4",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a5\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a5",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S07_a6\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S07_a6",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S07.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S08_s4_title\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S08_s4_title",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S08.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S08_s4_therefore\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S08_s4_therefore",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S08.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S08_s4_team\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S08_s4_team",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S08.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S08_s4_links\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S08_s4_links",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S08.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#S08_s4_closing\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#S08_s4_closing",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\eurogrip-case\\video\\compositions\\frames\\S08.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      }
+    ],
+    "filesScanned": 9
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 8,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "Failed to decode downloaded font: data:font/ttf;base64,CgoKCgoKCgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwKICBsYW5nPSJlbiIKICAKICBkYXRhLWNvbG9yLW1vZGU9ImF1dG8iIGRhdGEtbGlnaHQtdGhlbWU9ImxpZ2h0IiBkYXRhLWRhcmstdGhlbWU9ImRhcmsiCiAgZGF0YS1hMTF5LWFuaW1hdGVkLWltYWdlcz0ic3lzdGVtIiBkYXRhLWExMXktbGluay11bmRlcmxpbmVzPSJ0cnVlIgogIAogID4KCgoKCiAgPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgPGxpbmsgcmVsPSJkbnMtcHJlZmV0Y2giIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmdpdGh1YmFzc2V0cy5jb20iPgogIDxsaW5rIHJlbD0iZG5zLXByZWZldGNoIiBocmVmPSJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbn...EuMDQyLS4wMThMNiAxMC45NGw2LjcyLTYuNzJhLjc1Ljc1IDAgMCAxIDEuMDYgMFoiPjwvcGF0aD4KPC9zdmc+CiAgICA8L2NsaXBib2FyZC1jb3B5PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKCgoKICAgIDwvZGl2PgogICAgPGRpdiBpZD0ianMtZ2xvYmFsLXNjcmVlbi1yZWFkZXItbm90aWNlIiBjbGFzcz0ic3Itb25seSBtdC1uMSIgYXJpYS1saXZlPSJwb2xpdGUiIGFyaWEtYXRvbWljPSJ0cnVlIiA+PC9kaXY+CiAgICA8ZGl2IGlkPSJqcy1nbG9iYWwtc2NyZWVuLXJlYWRlci1ub3RpY2UtYXNzZXJ0aXZlIiBjbGFzcz0ic3Itb25seSBtdC1uMSIgYXJpYS1saXZlPSJhc3NlcnRpdmUiIGFyaWEtYXRvbWljPSJ0cnVlIj48L2Rpdj4KICA8L2JvZHk+CjwvaHRtbD4KCg==",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1273
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "OTS parsing error: invalid sfntVersion: 168430090",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1273
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "Failed to decode downloaded font: data:font/ttf;base64,CgoKCgoKCgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwKICBsYW5nPSJlbiIKICAKICBkYXRhLWNvbG9yLW1vZGU9ImF1dG8iIGRhdGEtbGlnaHQtdGhlbWU9ImxpZ2h0IiBkYXRhLWRhcmstdGhlbWU9ImRhcmsiCiAgZGF0YS1hMTF5LWFuaW1hdGVkLWltYWdlcz0ic3lzdGVtIiBkYXRhLWExMXktbGluay11bmRlcmxpbmVzPSJ0cnVlIgogIAogID4KCgoKCiAgPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgPGxpbmsgcmVsPSJkbnMtcHJlZmV0Y2giIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmdpdGh1YmFzc2V0cy5jb20iPgogIDxsaW5rIHJlbD0iZG5zLXByZWZldGNoIiBocmVmPSJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbn...AxLjA0Mi0uMDE4TDYgMTAuOTRsNi43Mi02LjcyYS43NS43NSAwIDAgMSAxLjA2IDBaIj48L3BhdGg+Cjwvc3ZnPgogICAgPC9jbGlwYm9hcmQtY29weT4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCgoKCiAgICA8L2Rpdj4KICAgIDxkaXYgaWQ9ImpzLWdsb2JhbC1zY3JlZW4tcmVhZGVyLW5vdGljZSIgY2xhc3M9InNyLW9ubHkgbXQtbjEiIGFyaWEtbGl2ZT0icG9saXRlIiBhcmlhLWF0b21pYz0idHJ1ZSIgPjwvZGl2PgogICAgPGRpdiBpZD0ianMtZ2xvYmFsLXNjcmVlbi1yZWFkZXItbm90aWNlLWFzc2VydGl2ZSIgY2xhc3M9InNyLW9ubHkgbXQtbjEiIGFyaWEtbGl2ZT0iYXNzZXJ0aXZlIiBhcmlhLWF0b21pYz0idHJ1ZSI+PC9kaXY+CiAgPC9ib2R5Pgo8L2h0bWw+Cgo=",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1273
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "OTS parsing error: invalid sfntVersion: 168430090",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1273
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "Failed to decode downloaded font: data:font/ttf;base64,CgoKCgoKCgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwKICBsYW5nPSJlbiIKICAKICBkYXRhLWNvbG9yLW1vZGU9ImF1dG8iIGRhdGEtbGlnaHQtdGhlbWU9ImxpZ2h0IiBkYXRhLWRhcmstdGhlbWU9ImRhcmsiCiAgZGF0YS1hMTF5LWFuaW1hdGVkLWltYWdlcz0ic3lzdGVtIiBkYXRhLWExMXktbGluay11bmRlcmxpbmVzPSJ0cnVlIgogIAogID4KCgoKCiAgPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgPGxpbmsgcmVsPSJkbnMtcHJlZmV0Y2giIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmdpdGh1YmFzc2V0cy5jb20iPgogIDxsaW5rIHJlbD0iZG5zLXByZWZldGNoIiBocmVmPSJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbn...AxLjA0Mi0uMDE4TDYgMTAuOTRsNi43Mi02LjcyYS43NS43NSAwIDAgMSAxLjA2IDBaIj48L3BhdGg+Cjwvc3ZnPgogICAgPC9jbGlwYm9hcmQtY29weT4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCgoKCiAgICA8L2Rpdj4KICAgIDxkaXYgaWQ9ImpzLWdsb2JhbC1zY3JlZW4tcmVhZGVyLW5vdGljZSIgY2xhc3M9InNyLW9ubHkgbXQtbjEiIGFyaWEtbGl2ZT0icG9saXRlIiBhcmlhLWF0b21pYz0idHJ1ZSIgPjwvZGl2PgogICAgPGRpdiBpZD0ianMtZ2xvYmFsLXNjcmVlbi1yZWFkZXItbm90aWNlLWFzc2VydGl2ZSIgY2xhc3M9InNyLW9ubHkgbXQtbjEiIGFyaWEtbGl2ZT0iYXNzZXJ0aXZlIiBhcmlhLWF0b21pYz0idHJ1ZSI+PC9kaXY+CiAgPC9ib2R5Pgo8L2h0bWw+Cgo=",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1224
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "OTS parsing error: invalid sfntVersion: 168430090",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1224
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "Failed to decode downloaded font: data:font/ttf;base64,CgoKCgoKCgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwKICBsYW5nPSJlbiIKICAKICBkYXRhLWNvbG9yLW1vZGU9ImF1dG8iIGRhdGEtbGlnaHQtdGhlbWU9ImxpZ2h0IiBkYXRhLWRhcmstdGhlbWU9ImRhcmsiCiAgZGF0YS1hMTF5LWFuaW1hdGVkLWltYWdlcz0ic3lzdGVtIiBkYXRhLWExMXktbGluay11bmRlcmxpbmVzPSJ0cnVlIgogIAogID4KCgoKCiAgPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgPGxpbmsgcmVsPSJkbnMtcHJlZmV0Y2giIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmdpdGh1YmFzc2V0cy5jb20iPgogIDxsaW5rIHJlbD0iZG5zLXByZWZldGNoIiBocmVmPSJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbn...EuMDQyLS4wMThMNiAxMC45NGw2LjcyLTYuNzJhLjc1Ljc1IDAgMCAxIDEuMDYgMFoiPjwvcGF0aD4KPC9zdmc+CiAgICA8L2NsaXBib2FyZC1jb3B5PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKCgoKICAgIDwvZGl2PgogICAgPGRpdiBpZD0ianMtZ2xvYmFsLXNjcmVlbi1yZWFkZXItbm90aWNlIiBjbGFzcz0ic3Itb25seSBtdC1uMSIgYXJpYS1saXZlPSJwb2xpdGUiIGFyaWEtYXRvbWljPSJ0cnVlIiA+PC9kaXY+CiAgICA8ZGl2IGlkPSJqcy1nbG9iYWwtc2NyZWVuLXJlYWRlci1ub3RpY2UtYXNzZXJ0aXZlIiBjbGFzcz0ic3Itb25seSBtdC1uMSIgYXJpYS1saXZlPSJhc3NlcnRpdmUiIGFyaWEtYXRvbWljPSJ0cnVlIj48L2Rpdj4KICA8L2JvZHk+CjwvaHRtbD4KCg==",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1224
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "OTS parsing error: invalid sfntVersion: 168430090",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "111.740",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:61724/",
+        "line": 1224
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 6,
+    "findings": [
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 43.454,
+        "selector": "#S04_stage",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -2464.65,
+          "top": -528.74,
+          "right": 2113.98,
+          "bottom": 2046.74,
+          "width": 4578.62,
+          "height": 2575.48
+        },
+        "containerSelector": "#clip-S04 > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S04.html",
+        "bbox": {
+          "x": -2464.65,
+          "y": -528.74,
+          "width": 4578.62,
+          "height": 2575.48
+        },
+        "firstSeen": 43.454,
+        "lastSeen": 55.87,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          43.454,
+          55.87
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 68.286,
+        "selector": "#S05_stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -1682.4,
+          "top": -1080,
+          "right": 2925.6,
+          "bottom": 1512,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S05 > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 1682.4,
+          "right": 1005.6,
+          "top": 1080,
+          "bottom": 432
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S05.html",
+        "bbox": {
+          "x": -1682.4,
+          "y": -1080,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 68.286,
+        "lastSeen": 80.701,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          68.286,
+          80.701
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 68.286,
+        "selector": "#S05_stage",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -1682.4,
+          "top": -1080,
+          "right": 2925.6,
+          "bottom": 1512,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S05 > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S05.html",
+        "bbox": {
+          "x": -1682.4,
+          "y": -1080,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 68.286,
+        "lastSeen": 80.701,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          68.286,
+          80.701
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 18.623,
+        "selector": "#S02_stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -70.6,
+          "top": -96.5,
+          "right": 2784.63,
+          "bottom": 1509.57,
+          "width": 2855.23,
+          "height": 1606.07
+        },
+        "containerSelector": "#clip-S02 > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 70.6,
+          "right": 864.63,
+          "top": 96.5,
+          "bottom": 429.57
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S02.html",
+        "bbox": {
+          "x": -70.6,
+          "y": -96.5,
+          "width": 2855.23,
+          "height": 1606.07
+        },
+        "firstSeen": 18.623,
+        "lastSeen": 18.623,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.623
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 31.039,
+        "selector": "#S03_stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -2688,
+          "top": -487.2,
+          "right": 1920,
+          "bottom": 2104.8,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S03 > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 2688,
+          "top": 487.2,
+          "bottom": 1024.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S03.html",
+        "bbox": {
+          "x": -2688,
+          "y": -487.2,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 31.039,
+        "lastSeen": 31.039,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          31.039
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 31.039,
+        "selector": "#S03_stage",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -2688,
+          "top": -487.2,
+          "right": 1920,
+          "bottom": 2104.8,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S03 > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S03.html",
+        "bbox": {
+          "x": -2688,
+          "y": -487.2,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 31.039,
+        "lastSeen": 31.039,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          31.039
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 43.454,
+        "selector": "#S04_stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -2464.65,
+          "top": -528.74,
+          "right": 2113.98,
+          "bottom": 2046.74,
+          "width": 4578.62,
+          "height": 2575.48
+        },
+        "containerSelector": "#clip-S04 > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 2464.65,
+          "right": 193.98,
+          "top": 528.74,
+          "bottom": 966.74
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S04.html",
+        "bbox": {
+          "x": -2464.65,
+          "y": -528.74,
+          "width": 4578.62,
+          "height": 2575.48
+        },
+        "firstSeen": 43.454,
+        "lastSeen": 55.87,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          43.454,
+          55.87
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 93.117,
+        "selector": "#S06_stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -2688,
+          "top": -1512,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S06 > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 2688,
+          "top": 1512
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S06.html",
+        "bbox": {
+          "x": -2688,
+          "y": -1512,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 93.117,
+        "lastSeen": 93.117,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          93.117
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 93.117,
+        "selector": "#S06_stage",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -2688,
+          "top": -1512,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 4608,
+          "height": 2592
+        },
+        "containerSelector": "#clip-S06 > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/S06.html",
+        "bbox": {
+          "x": -2688,
+          "y": -1512,
+          "width": 4608,
+          "height": 2592
+        },
+        "firstSeen": 93.117,
+        "lastSeen": 93.117,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          93.117
+        ]
+      }
+    ],
+    "duration": 111.74,
+    "samples": [
+      6.208,
+      18.623,
+      31.039,
+      43.454,
+      55.87,
+      68.286,
+      80.701,
+      93.117,
+      105.532
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 9,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      6.208,
+      31.039,
+      55.87,
+      80.701,
+      105.532
+    ],
+    "checked": 0,
+    "passed": 0
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,108 @@
+<template>
+  <style>
+    @font-face {
+      font-family: 'Fraunces';
+      src: url('capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2') format('woff2');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    /* Root: style by #root, never a class — a class on the data-composition-id
+       element is dropped by the per-scene CSS scoper. */
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      font-family: 'Fraunces', Georgia, serif;
+    }
+
+    .st09-bg {
+      position: absolute;
+      inset: 0;
+      background: #1F1D1B;
+    }
+
+    .st09-stage {
+      position: absolute;
+      inset: 0;
+      bottom: 180px; /* caption keep-out: content stays within the top ~83% (<= 900px on 1080) */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .st09-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.2cqw;
+      max-width: 96cqw;
+    }
+
+    .st09-line {
+      margin: 0;
+      padding: 0;
+      color: #F2EAD9;
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 7.3cqw;
+      line-height: 1.02;
+      letter-spacing: -0.022em;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .st09-rule {
+      width: 26cqw;
+      height: 3px;
+      background: #93691F;
+      transform-origin: center center;
+    }
+  </style>
+
+  <div id="root" data-composition-id="09-section-title" data-width="1920" data-height="1080">
+    <div class="st09-bg clip" data-start="0" data-duration="1.984" data-track-index="0"></div>
+
+    <div class="st09-stage clip" data-start="0" data-duration="1.984" data-track-index="1">
+      <div class="st09-inner">
+        <h1 class="st09-line">How it&rsquo;s actually built.</h1>
+        <div class="st09-rule"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+
+    const st09Root = document.querySelector('[data-composition-id="09-section-title"]');
+    const st09Line = st09Root.querySelector('.st09-line');
+    const st09Rule = st09Root.querySelector('.st09-rule');
+
+    const st09Tl = gsap.timeline({ paused: true });
+
+    // Scene 1 (0.0-1.2s): navy-soft ground already set; the line slides up +
+    // crossfades in, centered — the blueprint's single restrained move.
+    st09Tl.fromTo(st09Line,
+      { y: 44, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.7, ease: 'power2.out' },
+      0.1
+    );
+
+    // Coral rule draws in beneath the line, landing the move by ~1.15s.
+    st09Tl.fromTo(st09Rule,
+      { scaleX: 0, opacity: 0 },
+      { scaleX: 1, opacity: 1, duration: 0.4, ease: 'power2.out' },
+      0.75
+    );
+
+    // Scene 2 (1.2-1.984s): held still — the breather beat before the denser
+    // Frames 10-13. No further motion; the timeline simply ends its window here.
+
+    window.__timelines['09-section-title'] = st09Tl;
+  </script>
+</template>

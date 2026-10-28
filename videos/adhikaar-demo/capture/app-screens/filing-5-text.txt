@@ -1,0 +1,117 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING 110D4953
+
+Arjun Nair
+DRAFTED
+
+Your application is drafted. Pick the office to write to, then download it.
+
+Why has my income tax refund for assessment year 2024-25 not been processed yet, it has been six months since I filed my return.
+
+The following fields were not provided and were not guessed: geography.state. Fill these in before filing.
+Will an RTI actually get you what you need?
+
+THIS IS REALLY A HYBRID MATTER
+
+RTI for the underlying record, and Consumer Disputes Redressal Commission, filed through the e-Daakhil portal for the relief itself
+
+This grievance mixes a records request with a substantive claim. This is a dispute about goods or services already paid for, not a request for a record held by a public authority. An RTI application will not produce a refund or a repair. File a consumer complaint instead. If a record is needed as evidence, for example a builder's sanctioned plan, an RTI to obtain that record and a consumer complaint to obtain relief are a normal combination, filed as two separate instruments. Draft the RTI for the record only; do not use it to seek the relief itself, since a Public Information Officer has no power to grant a refund, reinstatement or repair.
+
+Limitation: Two years from the date the cause of action arose, under section 69 of the Consumer Protection Act, 2019
+
+§ 2(f)
+Who is legally required to answer you
+Union subject
+Central taxation
+List I, Entry 82 (Income tax) / Entry 83 (Customs)
+
+Central Board of Direct Taxes
+
+confidence 78%
+
+Ministry of Finance, Department of Revenue
+
+The Central Public Information Officer, Central Board of Direct Taxes, North Block, New Delhi 110001
+
+Matched on subject matter "Central taxation" (List I, Entry 82 (Income tax) / Entry 83 (Customs)). An individual assessment or refund query is usually better addressed to the jurisdictional Assessing Officer's CPIO than to the Board.
+
+Central Board of Indirect Taxes and Customs
+
+confidence 52%
+
+Ministry of Finance, Department of Revenue
+
+The Central Public Information Officer, Central Board of Indirect Taxes and Customs, North Block, New Delhi 110001
+
+Matched on subject matter "Central taxation" (List I, Entry 82 (Income tax) / Entry 83 (Customs)). No specific coverage caveat recorded for this authority.
+
+Reserve Bank of India, Central Office
+
+confidence 35%
+
+Reserve Bank of India
+
+The Central Public Information Officer, Reserve Bank of India, Central Office, Shahid Bhagat Singh Marg, Mumbai 400001
+
+Matched on subject matter "Central taxation" (List I, Entry 82 (Income tax) / Entry 83 (Customs)). A dispute with your own bank account is addressed to that bank's own CPIO, not the Reserve Bank.
+
+This is the office I will write to
+Your application
+
+1.Please provide a certified copy of the file noting, order, or record that documents the reasons for has my income tax refund for assessment year 2024-25 not been processed yet.
+
+Remove
+
+Rewritten from: “Why has my income tax refund for assessment year 2024-25 not been processed yet”
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in English, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+Fee
+
+Rs. 10, payable via UPI, net banking, Indian Postal Order, demand draft, court fee stamp
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

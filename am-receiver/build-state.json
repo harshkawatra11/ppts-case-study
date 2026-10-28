@@ -1,0 +1,429 @@
+{
+  "url": "https://www.tinkercad.com/things/3zIJS9WIyUh/editel?returnTo=%2Fcircuits",
+  "refs": {
+    "D1": "id_1a17909fd29-23-91625092-de33-4827-a457-c332f3b0d323_5",
+    "carrier": "id_1a1790a5d9f-2a-6aafc684-c0f8-46ab-9680-56cc7b26b9f7_3",
+    "message": "id_1a1790c5433-31-f0d6cf29-8211-44eb-b73f-1cc698ff2055_3",
+    "Rmod": "id_1a1790db61a-38-9bbcc2a1-0ae0-4bfd-a0be-0b963c3729f1_5",
+    "Rbmod": "id_1a1790db82a-3f-f4665bee-fb27-4e3b-8809-3957f08bc858_5",
+    "Qmod": "id_1a1790e0c83-46-98c47e1c-8359-4f71-84ba-d8ceb440b1fa_5",
+    "Rdet": "id_1a1790e0eac-4e-42a8fe85-f665-4148-befe-6fd231a109a0_5",
+    "Cdet": "id_1a1790e10e2-55-21bb812c-66fd-4222-a24e-8fecc7d74460_5",
+    "Qamp": "id_1a1790e65e6-5c-5982d5d2-a00f-4111-b925-b6e1cde9ab25_5",
+    "Rc": "id_1a1790e6826-64-c3bb36ed-b54f-42cf-ae51-7c643a762a24_5",
+    "Re": "id_1a1790e6a35-6b-594d80c1-2f61-4972-b34f-7f94cd97421d_5",
+    "Rbias1": "id_1a1790e6c4c-72-5e1309ca-d370-490a-8069-4b91573ccb3f_5",
+    "Cin": "id_1a1790e85a1-80-9ba474b9-66bf-4149-99ec-4fc7a034f7ae_5",
+    "battery": "id_1a1790e8bd0-95-93693783-e92d-4482-811c-03388c133ec1_5",
+    "scopeDet": "id_1a1790e8d95-9c-46eb4760-4704-48f8-b16c-fc93bcd5b4c6_5",
+    "scopeAudio": "id_1a1790e8f53-a2-e3b54329-099c-4e26-9459-ab14315a5750_5",
+    "BB": "id_1a17912fcf0-4c0-a64dd804-b621-4837-8b71-daf56e367460_3",
+    "L1": "id_1a17b3bb85d-1512-c01b8a18-b81d-4831-a606-bfb67f03649a_5",
+    "Ctune": "id_1a17b3bbbe2-1519-a913879c-9a74-46b8-8608-844ddfe04028_5",
+    "Ctest": "id_1a17b48f99a-3211-a455f096-c7ea-4f5c-93ce-c0fcf68e773a_5",
+    "scopeRF": "id_1a17b497aca-326c-dc3428a5-731a-4342-ac1c-247f9083390b_5",
+    "Rsource": "id_1a17b516d0c-32cd-22a93534-7d3a-4dc1-9025-1503c3d8a5b1_5"
+  },
+  "graph": [
+    [
+      {
+        "pin": "carrier.Positive",
+        "error": 0
+      },
+      {
+        "pin": "Rbmod.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rbmod.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "Qmod.Base",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "message.Positive",
+        "error": 0
+      },
+      {
+        "pin": "Rmod.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Qamp.Emitter",
+        "error": 0
+      },
+      {
+        "pin": "Re.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Ctune.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.I3",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "D1.Anode",
+        "error": 0
+      },
+      {
+        "pin": "BB.J3",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "D1.Cathode",
+        "error": 0
+      },
+      {
+        "pin": "BB.F12",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Cdet.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.H12",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "scopeDet.Positive",
+        "error": 0
+      },
+      {
+        "pin": "BB.J12",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Cin.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.F20",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Qamp.Base",
+        "error": 0
+      },
+      {
+        "pin": "BB.H20",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Qamp.Collector",
+        "error": 0
+      },
+      {
+        "pin": "BB.F25",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rc.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.G25",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "scopeAudio.Negative",
+        "error": 0
+      },
+      {
+        "pin": "BB.H25",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "battery.Positive",
+        "error": 0
+      },
+      {
+        "pin": "BB.Z20",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "carrier.Negative",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "message.Negative",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Qmod.Emitter",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y3",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rdet.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y4",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Cdet.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y5",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "L1.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y6",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Ctune.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y7",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Re.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y8",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.G12",
+        "error": 0
+      },
+      {
+        "pin": "Rdet.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.I12",
+        "error": 0
+      },
+      {
+        "pin": "Cin.Terminal 1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.G20",
+        "error": 0
+      },
+      {
+        "pin": "Rbias1.Terminal 1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.Z22",
+        "error": 0
+      },
+      {
+        "pin": "Rbias1.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.Z23",
+        "error": 0
+      },
+      {
+        "pin": "scopeAudio.Positive",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.Y9",
+        "error": 0
+      },
+      {
+        "pin": "battery.Negative",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.Y10",
+        "error": 0
+      },
+      {
+        "pin": "scopeDet.Negative",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "BB.Z24",
+        "error": 0
+      },
+      {
+        "pin": "Rc.Terminal 2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Qmod.Collector",
+        "error": 0
+      },
+      {
+        "pin": "BB.F1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Ctest.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.H1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "scopeRF.Positive",
+        "error": 0
+      },
+      {
+        "pin": "BB.G3",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "scopeRF.Negative",
+        "error": 0
+      },
+      {
+        "pin": "BB.Y11",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "L1.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.H3",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rmod.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.G1",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Ctest.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.F2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rsource.Terminal 1",
+        "error": 0
+      },
+      {
+        "pin": "BB.G2",
+        "error": 0
+      }
+    ],
+    [
+      {
+        "pin": "Rsource.Terminal 2",
+        "error": 0
+      },
+      {
+        "pin": "BB.F3",
+        "error": 0
+      }
+    ]
+  ]
+}

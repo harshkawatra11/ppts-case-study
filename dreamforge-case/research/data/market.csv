@@ -1,0 +1,65 @@
+metric,value,unit,period,geography,source_sid,note
+e-commerce last-mile delivery market size,3.15,USD billion,2025,India,S002,Mordor Intelligence base year figure
+e-commerce last-mile delivery market size,3.66,USD billion,2026 estimate,India,S002,Mordor Intelligence
+e-commerce last-mile delivery market size,7.57,USD billion,2031 forecast,India,S002,Mordor Intelligence CAGR 15.63 percent for 2026-2031
+e-commerce logistics market size broader scope,19.54,USD billion,2025,India,S004,IMARC Group; scope covers warehousing and value-added services too
+e-commerce logistics market size broader scope,103.83,USD billion,2034 forecast,India,S004,IMARC Group CAGR 20.39 percent for 2026-2034
+e-commerce logistics market size broader scope lower estimate,6.65,USD billion,2025,India,S006,Ken Research; differs from S004 by about 3x; scope difference not stated
+e-commerce logistics market size broader scope lower estimate,12.15,USD billion,2032 forecast,India,S006,Ken Research CAGR 8.99 percent for 2025-2032
+express shipment volume,29,billion shipments,FY2030 forecast,India,S007,RedSeer; CAGR 19-23 percent; e-commerce over half of express shipments
+online shopper count forecast,345,million,2030 forecast,India,S007,RedSeer
+quick commerce market size,11,USD billion,as of 12 Jun 2026,India,S009,Zerodha Daily Brief; less than 2 percent of total grocery spend
+quick commerce GMV run rate conflicting higher estimate,30,USD billion,undated run-rate,India,S010,ZiroMarket [blog]; conflicts with S009; see conflict C-A1
+Blinkit dark store count,2243,stores,Q4 FY26 (quarter to Mar 2026),India,S009,across more than 200 cities
+Blinkit orders,274,million orders,Q4 FY26,India,S009,approximate
+Zepto dark store count,1139,stores,Q4 FY26,India,S009,across 66 cities
+Zepto orders,210,million orders,Q4 FY26,India,S009,approximate
+Swiggy Instamart orders,112.6,million orders,Q4 FY26,India,S009,approximate
+quick commerce order share Blinkit,46,percent,Q4 FY26,India,S009,by order count
+quick commerce order share Zepto,35,percent,Q4 FY26,India,S009,by order count
+quick commerce order share Instamart,19,percent,Q4 FY26,India,S009,by order count
+Blinkit gross order value,9421,INR crore,Q4 FY25 (quarter to Mar 2025),India,S011,up 134 percent year on year and 21 percent quarter on quarter
+Blinkit operating revenue,1709,INR crore,Q4 FY25,India,S011,up 122 percent year on year from 769 crore
+Blinkit adjusted EBITDA loss,178,INR crore,Q4 FY25,India,S011,up from 37 crore loss a year earlier; widened 381 percent
+Blinkit dark stores added in quarter,294,stores,Q4 FY25,India,S011,versus 216 added in Q3 FY25
+Blinkit net order value,9203,INR crore,Q1 FY26,India,S013,up 127 percent year on year
+Blinkit dark store count,1544,stores,Q1 FY26,India,S013,none
+Zepto FY25 revenue tracker A,11110,INR crore,FY25 (year to Mar 2025),India,S018,up 149 percent year on year from 4454 crore FY24; conflicts with S019; see conflict C-A2
+Zepto FY25 net loss,3367,INR crore,FY25,India,S018,approximate; most sources agree on this figure
+Zepto FY25 revenue tracker B,9669,INR crore,FY25,India,S019,up 129 percent year on year; conflicts with S018; see conflict C-A2
+Zepto dark store and warehouse count,1139,stores,as of 31 Mar 2026,India,S020,plus 75 warehouses
+Zepto annual transacting users,47.97,million,FY26 (year to Mar 2026),India,S020,none
+Zepto order volume CAGR,119.5,percent,FY24-FY26,India,S020,per filing summary
+Zepto orders per day per store,1325,orders,FY24,India,S020,rose to 2140 by Q4 FY26
+Shadowfax average quarterly unique transacting delivery partners,205864,partners,as of 30 Sep 2025,India,S021,none
+Shadowfax total income,2514.66,INR crore,FY25 (year to Mar 2025),India,S021,restated consolidated figure
+Shadowfax total income,1819.80,INR crore,six months to 30 Sep 2025,India,S021,restated consolidated figure
+Shadowfax four largest named clients combined revenue share,74,percent,unspecified period per prospectus,India,S022,Flipkart Meesho Zepto and Zomato combined
+Shadowfax listing day share price change,-9,percent,27 Jan 2026,India,S022,fell from 124 rupee offer price to 112.60
+Shadowfax largest client revenue share,48.91,percent,six months to 30 Sep 2025,India,S023,compare 59.52 percent FY23 figure same source; independently confirmed by S024 for the same metric
+Shadowfax largest client revenue share,59.52,percent,FY23,India,S023,none
+Shadowfax hyperlocal segment growth,82,percent,H1 FY26,India,S025,versus 55 percent growth in core e-commerce delivery business in the same period
+Meesho Valmo share of Meesho orders FY23,2,percent (less than),FY23,India,S029,rose to approximately 62 percent by quarter ended Jun 2025
+Meesho fulfilment cost per order,50.45,INR,FY23,India,S029,fell to about 37.70 rupees by quarter ended Jun 2025
+Meesho Q3 FY26 net loss,490.7,INR crore,Q3 FY26 (quarter to Dec 2025),India,S030,versus 37.4 crore loss a year earlier
+Meesho Q3 FY26 operating revenue,3517.6,INR crore,Q3 FY26,India,S030,up 31 percent year on year
+NITI Aayog gig workforce size,77,lakh workers,2020-21,India,S036,2.6 percent of non agricultural workforce; 1.5 percent of total workforce
+NITI Aayog gig workforce projection,2.35,crore workers,2029-30 projection,India,S036,6.7 percent of non agricultural workforce; 4.1 percent of total livelihood
+quick commerce per-order payout range lower bound,22,INR,2025,India,S037,fell from 34-42 rupee range in 2024; drop of up to 40 percent
+quick commerce per-order payout range upper bound,30,INR,2025,India,S037,none
+Blinkit delivery partner stated maximum monthly earning,50000,INR,2026,India,S038,platform-stated ceiling; vendor-reported [blog]
+Zepto delivery partner per-order base pay range low,25,INR,2026,India,S038,plus surge bonus 10-20 rupees; vendor-reported [blog]
+Zepto delivery partner per-order base pay range high,35,INR,2026,India,S038,vendor-reported [blog]
+Swiggy Instamart delivery partner per-order pay range low,15,INR,2026,India,S038,vendor-reported [blog]
+Swiggy Instamart delivery partner per-order pay range high,90,INR,2026,India,S038,vendor-reported [blog]
+tip typical amount low,15,INR per order,2026,India,S040,per industry executives
+tip typical amount high,25,INR per order,2026,India,S040,adds roughly 800 to 1000 rupees a month for most partners
+Delhi EV registrations,83512,vehicles,2024-25,Delhi,S041,none
+Delhi EV registrations,107000,vehicles (approximate),2025-26,Delhi,S041,a 29 percent rise; labelled approximately 1.07 lakh in source
+Delhi total vehicle registrations,850000,vehicles (approximate),2025-26,Delhi,S041,up 17.9 percent; EVs were 12.7 percent of total
+Delhi EV Policy 2026 two-wheeler purchase incentive,30000,INR (up to),2026-2030 policy window,Delhi,S042,none
+Delhi EV Policy 2026 charging point target,30000,charging points (more than),2026-2030 policy window,Delhi-NCR,S042,none
+Delhi dark store count,400,stores (approximate),as of Oct 2025,Delhi-NCR,S045,largest single-city market in India; 2.0 million square feet
+India dark store count,2525,stores (approximate),as of Oct 2025,India,S045,across more than 100 cities; 13 million square feet
+India dark store count projection,7500,stores (approximate),2030 forecast,India,S045,nearly three times the 2025 count
+Blinkit Delhi-NCR market share,40,percent,as of Q2 FY25 earnings call 22 Oct 2024,Delhi-NCR,S046,down from about 47 percent a couple of quarters earlier

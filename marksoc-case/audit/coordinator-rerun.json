@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28",
+  "original_model": "13/13 PASS",
+  "independent": "31/31 PASS",
+  "extensions": "13/13 PASS",
+  "original_files_checked": 40,
+  "original_files_changed": [],
+  "frozen_input_changes": [
+    "audit/independent-audit.json"
+  ],
+  "bytecode_removed": "Only disclosed generated dobaara_model.cpython-312.pyc removed"
+}

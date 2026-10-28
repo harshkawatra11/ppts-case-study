@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SUN Mobility</title>
+    <meta name="robots" content="index" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html;" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="robots" content="index, follow" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Sun Mobility">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="assets/images/favicon.png">
+
+    <!-- meta description -->
+    <meta name="description" content="" />
+    <!-- meta keywords -->
+    <meta name="keywords" content="Sun Mobility" />
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <!-- ********** css links ********** -->
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="assets/css/slick-theme.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link href="assets/css/slick-custom.css" rel="stylesheet" />
+
+    <!-- CSS Styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
+    <link href="assets/css/home.css" rel="stylesheet" />
+    <link href="assets/css/footer.css" rel="stylesheet" />
+    <link href="assets/css/button.css" rel="stylesheet" />
+    <link href="assets/css/coverage.css" rel="stylesheet" />
+    <link href="assets/css/gallery.css" rel="stylesheet" />
+    <link href="assets/css/popup.css" rel="stylesheet" />
+    <link href="assets/css/jvco.css" rel="stylesheet" />
+    <link href="assets/css/about.css" rel="stylesheet" />
+
+   
+
+    <style>
+      .mapboxgl-map {
+        width: 50%;
+        height: 350px;
+      }
+
+      .marker {
+        background-image: url("/assets/images/location-marker.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+
+      .mapboxgl-popup {
+        max-width: 200px;
+      }
+
+      .mapboxgl-popup-content {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /* .popup-containers {
+    position: fixed;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+} */
+
+/* .popups {
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+    width: 45%;
+    height: auto;
+} */
+
+/* .img-thumbnail {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+} */
+/* .close-btns {
+    position: absolute;
+    top: 10px;
+    right: 3px;
+    background-color: rgb(213, 209, 225);
+    color: rgb(29, 25, 25);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+/* .centered-btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+} */
+ .btn {
+  border-radius: 14px;
+ }
+
+    /* .main-content {
+      filter: blur(5px);
+    } */
+
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167083149-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167083149-1");
+    </script>
+  </head>
+
+  <!-- <div class="popup-containers" id="popup-containers">
+    <div class="popups">
+      <button class="close-btns" id="close-btns">&times;</button>
+      <img src="assets\images\jvco\newjvso.gif" alt="" class="img-thumbnail" style="mix-blend-mode: multiply">
+      <a href="indianoil" class="centered-btn">
+        <button type="button" class="btn btn-warning">click here to read more!</button>
+      </a>
+    </div>
+</div> -->
+  
+
+  <body id="directionInfo">
+    <div class="main-content" id="main-content">
+
+    <!-- Header -->
+    <nav
+      class="navbar nav-down navbar-default navbar-fixed-top common-header"
+      id="navbar"
+    >
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="" class="navbar-brand">
+          <img src="assets/images/header/logo.png" />
+        </a>
+      </div>
+      <div
+      class="collapse navbar-collapse header-menu"
+      id="bs-example-navbar-collapse-1"
+      >
+
+      <!-- <img src="assets/images/jvco/new icon.png" alt="Icon" width="50" height="30" style="margin-bottom: -100px;margin-right: 50px; margin-left: 450px;position: fixed;"> -->
+    
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="about">About<span></span></a>
+          </li>
+          <li><a href="technology">Technology</a></li>
+          <li><a href="coverage">Media</a></li>
+          <li><a href="career">Careers</a></li>
+          <!-- <li>
+            <a href="jvco.html">
+              IndianOil Partnership
+              <img src="assets/images/jvco/new icon.png" alt="Icon" width="60" height="40" style="vertical-align:middle; margin-right:5px; margin-left:10px;">
+            </a>
+          </li> -->
+          <!-- <li>
+            <a href="jvco.html" style="display: flex; flex-direction: column;margin-top: -35px;">
+              <div>
+              <img src="assets/images/jvco/new icon.png" alt="Icon" width="50" height="30" style="margin-bottom: 5px;margin-left: 100px;">
+            </div>
+              IndianOil Partnership
+            </a>
+          </li> -->
+          <li>
+            <a href="indianoil" >
+                    <!-- <img class="new_image" src="assets/images/jvco/new icon.png" alt="Icon" width="50" height="30" style="margin-bottom: 5px; margin-left: 100px; padding-top: 5px;"> -->
+                IndianOil Partnership
+            </a>
+        </li>
+          <!-- <li class="actived" id="new_icon_res">
+            <a href="indianoil" style="display: flex; flex-direction: column; margin-top: -35px;">
+                    <img class="new_image" src="assets/images/jvco/new icon.png" alt="Icon" width="50" height="30" style="margin-bottom: 5px; margin-left: 150px; padding-top: 5px; display: inline-block;">
+                <span>IndianOil Partnership</span>
+            </a>
+        </li> -->
+        
+
+          
+          <!-- <li><a href="franchisee.html">Become a franchisee partner</a></li> -->
+          <!-- Partner Portal hidden
+          <li>
+            <a href="https://smpl-partnerportal.azurewebsites.net" target="_blank"
+              >Partner Portal</a
+            >
+          </li>
+          -->
+
+    <!-- <a class="franchise-button" onclick="loadPopup()">Start Your Journey With Us!</a>
+    <div id="popup-container"></div> -->
+    
+    <!-- Include jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <!-- Include your popup.js -->
+    <!-- <script src="../websitev1/assets/js/popup.js"></script> -->
+
+          <!-- <li><a href="investorinformation.html">Investor information</a></li>
+          <li><a href="e-waste-management.html">E-Waste management</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Banner Section -->
+    <!-- <div class="banner-section">
+      <div class="banner-img">
+        <video  poster="assets/images/home/video_placeholder _1.png"
+          class="video1"
+          src="assets/video/video.mp4"
+          autoplay
+          loop
+          playsinline
+          muted
+          height="100%"
+          width="100%"
+        ></video>
+      </div>
+    </div> -->
+
+
+    <!-- Pay as you -->
+    <div class="pay-as-you common-pad-0 odd">
+      <div class="grid common-pad-1 padb0">
+        <div class="common-heading wow slideInUp" data-wow-duration="1s">
+          <h2>Energy as a Service</h2>
+          <p>
+            Our approach of separating battery from vehicle and offering it on a
+            âpay-as-you-goâ model enables EVs to be financially viable for the
+            first time. Swappable batteries address key EV adoption issues such
+            as - high upfront costs, range anxiety and long refueling time.
+          </p>
+        </div>
+        <div
+          class="home-video wow slideInUp"
+          data-toggle="modal"
+          data-target="#payModal"
+          data-wow-duration="1s"
+        >
+          <div class="home-video-img">
+            <img src="assets/images/home/video2.png" />
+            <div class="video-banner"></div>
+            <div class="video-banner-text">
+              <div class="watch-text">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 42.7 42.7"
+                  >
+                    <defs>
+                      <style>
+                        .a {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path
+                      class="a"
+                      d="M21.741-50A21.369,21.369,0,0,0,.391-28.65,21.369,21.369,0,0,0,21.741-7.3a21.369,21.369,0,0,0,21.35-21.35A21.369,21.369,0,0,0,21.741-50Zm6.877,22.429-10.068,6.7a1.3,1.3,0,0,1-2.023-1.079V-35.347a1.3,1.3,0,0,1,2.023-1.079l10.068,6.7A1.3,1.3,0,0,1,28.618-27.571Z"
+                      transform="translate(-0.391 50)"
+                    />
+                  </svg>
+                </span>
+                <label>WATCH THE VIDEO</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frontier section -->
+    <div class="frontier-section common-pad-0 odd">
+      <div class="grid1 common-pad-1">
+        <div class="common-heading wow slideInUp" data-wow-duration="1s">
+          <h2>Our Technology Stack</h2>
+          <p>
+            Innovative technologies that enable battery swapping solution for
+            shared mobility in a smarter way!
+          </p>
+        </div>
+        <div class="frontier-section-card">
+          <div class="row">
+            <div
+              class="col-md-3 col-sm-6 pad0 wow slideInUp"
+              data-wow-duration="1s"
+            >
+              <a href="/technology#battery">
+                <div class="frontier-card">
+                  <div class="frontier-img">
+                    <img src="/assets/images/home/1.png" />
+                  </div>
+                  <div class="frontier-text">
+                    <h2>Smart Batteries</h2>
+                    <ul>
+                      <li>
+                        <span>
+                          <!-- <img src="assets/images/home/front/b2.png" /> -->
+                          <img src="/assets/images/home/front/b2.png" />
+                        </span>
+                        <label>Swappable, Safe & Connected </label>
+                      </li>
+                      <li>
+                        <span>
+                          <!-- <img src="/assets/images/home/front/b1.png" /> -->
+                          <img src="/assets/images/home/front/b1.png" />
+                        </span>
+                        <label>Interoperable across 2, 3 and 4-wheelers </label>
+                      </li>
+                      <li>
+                        <span class="top">
+                          <img src="/assets/images/home/front/b3.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/b3.png" /> -->
+                        </span>
+                        <label>Lightweight and Robust Li-ion Batteries </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-md-3 col-sm-6 pad0 wow slideInUp"
+              data-wow-duration="1s"
+            >
+              <a href="/technology#interchange">
+                <div class="frontier-card">
+                  <div class="frontier-img">
+                    <img src="/assets/images/technology/interchange.png" />
+                    <!-- <img src="../websitev1/assets/images/technology/interchange.png" /> -->
+                  </div>
+                  <div class="frontier-text">
+                    <h2>Quick Interchange Stations</h2>
+                    <ul>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/c1.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/c1.png" /> -->
+                        </span>
+                        <label> Quick Swaps in Minutes </label>
+                      </li>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/c2.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/c2.png" /> -->
+                        </span>
+                        <label> Interoperable across 2, 3 and 4-wheelers </label>
+                      </li>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/c3.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/c3.png" /> -->
+                        </span>
+                        <label> Temperature Controlled with High Throughput </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-md-3 col-sm-6 pad0 wow slideInUp"
+              data-wow-duration="1s"
+            >
+              <a href="technology#smart">
+                <div class="frontier-card">
+                  <div class="frontier-img">
+                    <img src="/assets/images/home/2.png" />
+                  </div>
+                  <div class="frontier-text">
+                    <h2>Smart Network</h2>
+                    <ul>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/d1.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/d1.png" /> -->
+                        </span>
+                        <label> Single platform for Asset Monitoring </label>
+                      </li>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/d2.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/d2.png" /> -->
+                        </span>
+                        <label>Smart optimization of services & fleets</label>
+                      </li>
+                      <li>
+                        <span>
+                          <img src="/assets/images/home/front/d3.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/d3.png" /> -->
+                        </span>
+                        <label>Apps for Drivers, Fleet Managers, Infra Partners</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-md-3 col-sm-6 pad0 wow slideInUp"
+              data-wow-duration="1s"
+            >
+              <a href="technology#plug">
+                <div class="frontier-card">
+                  <div class="frontier-img">
+                    <img src="/assets/images/home/3.png" />
+                  </div>
+                  <div class="frontier-text">
+                    <h2>Plug-and-Play Battery Docks</h2>
+                    <ul>
+                      <li>
+                        <span class="top">
+                          <img src="/assets/images/home/front/a1.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/a1.png" /> -->
+                        </span>
+                        <label>Compatible across all OEMs </label>
+                      </li>
+                      <li>
+                        <span class="top">
+                          <img src="/assets/images/home/front/a2.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/a2.png" /> -->
+                        </span>
+                        <label>IP-rated for protection from the elements </label>
+                      </li>
+                      <li>
+                        <span class="top">
+                          <img src="/assets/images/home/front/a3.png" />
+                          <!-- <img src="../websitev1/assets/images/home/front/a3.png" /> -->
+                        </span>
+                        <label>Modular based on capacity requirements </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News section -->
+    <!-- <div class="news-section common-pad-0">
+      <div class="grid common-pad-1">
+        <div class="common-heading wow slideInUp" data-wow-duration="1s">
+          <h2>In the News</h2>
+        </div>
+        <div class="news-slider" id="news-data"></div>
+      </div>
+    </div> -->
+
+    <!-- Network section -->
+     <br>
+    <div class="network-section common-pad-0">
+      <div class="grid common-pad-1 padt0">
+        <div class="network-section-card">
+          <!-- <div class="network-section-text">
+            <div class="common-heading wow slideInUp" data-wow-duration="1s">
+              <h2>Our Battery Swapping Network</h2>
+              <ul>
+                <li>
+                  <label id="network-title"> </label>
+                </li>
+              </ul>
+              <a href="about#network-section-wrapper" class="green-btn">
+                VIEW ENTIRE NETWORK</a
+              >
+            </div>
+          </div> -->
+          <div class="network-section-text" id="network-section-wrapper">
+            <!-- dropdown -->
+            <div class="common-heading wow slideInUp" data-wow-duration="1s">
+              <h2>Our Battery Swapping Network</h2>
+              <ul>
+                <li>
+                  <label id="network-title"> </label>
+                </li>
+              </ul>
+              <div class="btn-group location">
+                <a
+                  class="btn dropdown-toggle custom-content"
+                  data-toggle="dropdown"
+                  href="#"
+                >
+                  <label style="margin-bottom: 10px;">Select City</label>
+                  <img src="assets/images/download.png" alt="Dropdown Arrow" class="dropdown-arrow" />
+                </a>
+                <ul class="dropdown-menu" id="dropdown-menu"></ul>
+              </div>
+              <!-- <div class="net-map-text">
+                <p>Explore our city-wise network of Quick Interchange Stations.</p>
+              </div> -->
+            </div>
+            <!-- mapbox plugin -->
+            <!-- <div id="map"></div> -->
+            <!-- <div class="network-section-image"> -->
+              <!-- <div class="network-section-img"> -->
+                <!-- </div> -->
+              <!-- </div> -->
+          </div>
+            <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <div style="text-align:center; margin-top: -50px;">
+      <a href="about#network-section-wrapper" class="green-btn">
+        VIEW ENTIRE NETWORK</a
+      >
+    </div> -->
+
+    <!-- Client section -->
+    <!-- <div class="client-section odd">
+      <div class="client-slider client-item">
+        <div class="client-text">
+          <p>
+            Global CleanTech 100, 2021 | SUN Mobility is the only Indian company
+            to make it to the #GlobalCleanTech100 List in recognition of its
+            efforts in developing cutting-edge solutions for clean mobility
+          </p>
+        </div>
+        <div class="client-text">
+          <p>
+            Entrepreneurship World Cup, 2019 | SUN Mobility finished in the top
+            5, out of 100,000 global participants
+          </p>
+        </div>
+        <div class="client-text">
+          <p>
+            APAC 25, 2019 | SUN Mobility was recognized as as one of the top 25
+            leading innovative companies in the APAC region, out of 13,000+
+            nominations
+          </p>
+        </div>
+        <div class="client-text">
+          <p>
+            CleanEquity Monaco, 2019 | Awarded to SUN Mobility for excellence in
+            the field of technology commercialization
+          </p>
+        </div>
+        <div class="client-text">
+          <p>
+            GABS Innovator Award, 2018 | Presented to Chetan Maini for his
+            contribution to innovation in the field of automobiles.
+          </p>
+        </div>
+        <div class="client-text">
+          <p>
+            Technology Excellence Award, 2018 | Presented to Chetan Maini for
+            his outstanding work in the field of EVs and technology.
+          </p>
+        </div>
+      </div>
+      <div class="client-logo clientBarContainer test">
+        <div class="client-logo-section logo0">
+          <span data-slick-index="0" class="clientBar"></span>
+          <label class="client-logo-img gray0">
+            <img src="assets/images/home/clients/cleantech.png" />
+            <div class="up0"></div>
+          </label>
+        </div>
+        <div class="client-logo-section logo1">
+          <span data-slick-index="1" class="clientBar"></span>
+          <label class="client-logo-img gray1">
+            <img src="assets/images/home/clients/world_cup.png" />
+            <div class="up1"></div>
+          </label>
+        </div>
+        <div class="client-logo-section logo2">
+          <span data-slick-index="2" class="clientBar"></span>
+          <label class="client-logo-img gray2">
+            <img src="assets/images/home/clients/apac.png" />
+            <div class="up2"></div>
+          </label>
+        </div>
+        <div class="client-logo-section logo3">
+          <span data-slick-index="3" class="clientBar"></span>
+          <label class="client-logo-img gray3">
+            <img src="assets/images/home/clients/clena_equity.png" />
+            <div class="up3"></div>
+          </label>
+        </div>
+        <div class="client-logo-section logo4">
+          <span data-slick-index="4" class="clientBar"></span>
+          <label class="client-logo-img gray4">
+            <img src="assets/images/home/clients/et_auto.png" />
+            <div class="up4"></div>
+          </label>
+        </div>
+        <div class="client-logo-section logo5">
+          <span data-slick-index="5" class="clientBar"></span>
+          <label class="client-logo-img gray5">
+            <img src="assets/images/home/clients/intel.png" />
+            <div class="up5"></div>
+          </label>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Future of mobility section -->
+    <div class="future-mobility common-padding">
+      <div class="common-heading inverse wow slideInUp" data-wow-duration="1s">
+        <h2>Paving the way towards the Future Of Mobility</h2>
+      </div>
+      <div id="counter-section" class="counter-section">
+        <div class="counter-card">
+          <label>Active Swap Stations</label>
+          <span style="margin-top: 25px;">2000+</span>
+        </div>
+        <div class="counter-card">
+          <label >Emission-free KMs covered Monthly</label>
+          <span>~2267 Million </span>
+        </div>
+        <div class="counter-card">
+          <label>CO2 Emissions saved so far</label>
+          <span style=" white-space: nowrap;margin-top: 25px;">~100K Metric Tonnes </span>
+        </div>
+      </div>
+
+      <div class="future-mobility-animation">
+        <div class="co2-section">
+          <span class="one">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="two">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="three">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="four">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="five">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="five1">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="six">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="seven">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+          <span class="eight">
+            <img src="assets/images/home/co2.svg" />
+          </span>
+        </div>
+        <div class="scotter-section">
+          <img class="bg" src="assets/images/home/animation_effect.png" />
+          <div class="scotter-img animon-img">
+            <img src="assets/images/home/bike.svg" />
+          </div>
+        </div>
+        </div>
+        <span style="font-size:10px; line-height:2; color: white; float: right;">* The operational run (in km) includes internal trials and field pilots run as well</span>
+      
+    </div>
+
+    <!-- Driver Experience section -->
+    <div class="driver-section common-padding">
+      <div class="common-heading wow slideInUp" data-wow-duration="1s">
+        <h2>The Driver Experience</h2>
+      </div>
+      <div
+        class="home-video video-dummy"
+        data-toggle="modal"
+        data-target="#customerModal"
+      >
+        <div class="home-video-img">
+          <img src="assets/images/home/video1.png" alt="home image" />
+          <div class="video-banner"></div>
+          <div class="video-banner-text">
+            <div class="video-content">
+              <p>
+                âBecause of SUN Mobilityâs battery swapping technology we are
+                now doing about 150Kms per day! This has helped our earnings a
+                lot.â
+              </p>
+              <h2>Deepu</h2>
+              <label>DRIVER, CHANDIGARH</label>
+            </div>
+            <div class="watch-text">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 42.7 42.7"
+                >
+                  <defs>
+                    <style>
+                      .a {
+                        fill: #fff;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="a"
+                    d="M21.741-50A21.369,21.369,0,0,0,.391-28.65,21.369,21.369,0,0,0,21.741-7.3a21.369,21.369,0,0,0,21.35-21.35A21.369,21.369,0,0,0,21.741-50Zm6.877,22.429-10.068,6.7a1.3,1.3,0,0,1-2.023-1.079V-35.347a1.3,1.3,0,0,1,2.023-1.079l10.068,6.7A1.3,1.3,0,0,1,28.618-27.571Z"
+                    transform="translate(-0.391 50)"
+                  />
+                </svg>
+              </span>
+              <label>WATCH THE VIDEO</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer">
+      <div class="fotter-logo">
+        <img src="assets/images/footer/logo-footer.png" />
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 pad0">
+          <div class="fotter-text" style="margin-top: 30px;">
+            <p style="color: #888;">
+              SUN Mobility is the leading provider of universal energy
+              infrastructure and services to accelerate mass electric vehicle
+              usage.
+            </p>
+          </div>
+          <div class="fotter-form" style="margin-top: 30px;">
+            <form id="subscribeForm" method="POST">
+              <ul>
+                <li>
+                  <h2>Get the latest updates</h2>
+                </li>
+                <!-- <li>
+                  <label>Your email address</label>
+                </li> -->
+                <li>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                  />
+                  <label class="subscribe-success hide"
+                    >Thank you for subscribing!</label
+                  >
+                </li>
+                <li>
+                  <button type="submit" class="white-btn">SUBSCRIBE</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <!-- <div class="copy-rights"> -->
+            <!-- <div class="col-md-3 col-sm-3 pad0"> -->
+              <div style="margin-top:25px;margin-left: 20px;">
+                <ul class="social-icons">
+                  <li>
+                    <div class="icon-container twitter">
+                    <a href="https://twitter.com/SUN_mobility?s=08" target="_blank">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 1200 1227"
+                      >
+                        <path
+                          fill="black"
+                          d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                        />
+                      </svg>
+                    </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-container">
+                    <a
+                      href="https://www.linkedin.com/company/sun_mobility"
+                      target="_blank"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="17"
+                        viewBox="0 0 18 17"
+                      >
+                        <path
+                          fill="black"
+                          d="M4.33966829,1.98317451 C4.33966829,3.08262923 3.50262829,3.96395139 2.1568944,3.96395139 L2.13182363,3.96395139 C0.836231274,3.96474987 0,3.0818302 0,1.98317451 C0,0.857352064 0.862919506,5.56739519e-07 2.18196516,5.56739519e-07 C3.50262829,-0.000797908064 4.31540627,0.857352064 4.33966829,1.98317451 Z M0.226445606,16.999201 L4.08572572,16.999201 L4.08572572,5.53083362 L0.226445606,5.53083362 L0.226445606,16.999201 Z M13.5576219,5.26236212 C11.5107154,5.26236212 10.5944194,6.37300314 10.0792557,7.15604501 L10.0792557,7.19280004 L10.0541849,7.19280004 C10.0638897,7.18161373 10.0727858,7.16882937 10.0792557,7.15604501 L10.0792557,5.53163264 L6.22078429,5.53163264 C6.27092582,6.60631766 6.22078429,17 6.22078429,17 L10.0792557,17 L10.0792557,10.5950371 C10.0792557,10.2498594 10.102709,9.911873 10.206227,9.6649751 C10.486049,8.98261004 11.1217142,8.26908311 12.1843911,8.26908311 C13.5826927,8.26908311 14.1415281,9.32299355 14.1415281,10.8635086 L14.1415281,17 L17.9999997,17 L17.9999997,10.4248453 C18.0008082,6.89955885 16.0954302,5.26236212 13.5576219,5.26236212 Z"
+                        />
+                      </svg>
+                    </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-container youtube">
+                    <a href="https://www.youtube.com/@SUNMobility" target="_blank">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="13"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          fill="black"
+                          d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                        />
+                      </svg>
+                    </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            <!-- </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col-md-2 col-sm-2 pad0">
+          <div class="fotter-link" style="margin-top: 30px;">
+            <ul>
+              <li style="margin-bottom: 30px;">
+                <a></a>
+              </li>
+              <!-- <li>
+                <a style="color: #888;">Our Solutions</a>
+              </li>
+              <br> -->
+              <li>
+                <a style="color: #888;" href="about"> About </a>
+              </li>
+              
+              <!-- <li>
+                <a href="technology.html"> Technology </a>
+              </li> -->
+              <li>
+                <a style="color: #888;" href="coverage"> Media </a>
+              </li>
+              <li>
+                <a style="color: #888;" href="indianoil"> IndianOil Partnership </a>
+              </li>
+              
+              <!-- <li><a href="career.html">Careers</a></li> -->
+              <!-- <li><a href="franchisee.html">Become a franchisee partner</a></li> -->
+              <!-- Partner Portal hidden
+              <li>
+                <a
+                  href="https://smpl-partnerportal.azurewebsites.net"
+                  target="_blank"
+                  style="color: #888;"
+                  >Partner Portal</a
+                >
+              </li>
+              -->
+           
+              <li><a  style="color: #888;" href="franchisee">Join Our Franchise Network</a></li>
+
+              <!-- <li><a href="investorinformation.html" >Investor information</a></li> -->
+              <li><a style="color: #888;" href="e-waste-management">E-Waste management</a></li>
+             
+              <li><a style="color: #888;" href="investorinformation">Investor information</a></li>
+              <li><a style="color: #888;" href="grievance">Grievance Redressal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 pad0">
+          
+          <div class="fotter-contact no-link">
+            <h4 style="color: white;margin-top: 30px;">Contact us:</h4>
+            <ul style="margin-top:20px">
+              <li>
+                <!-- <span><img src="assets/images/footer/email.svg" /></span> -->
+                
+                <!-- <label> Enquiries<br><a href="mailto:info@sunmobility.com" style="color: white">info@sunmobility.com</a></br></label> -->
+                <label> Enquiries</label>
+                <br>
+                <a href="mailto:info@sunmobility.com" style="color: #888;margin-left: 10px;">info@sunmobility.com</a>
+              </li>
+              <li>
+                <!-- <span><img src="assets/images/footer/email.svg" /></span> -->
+                <label> Partnerships</label>
+                <br>
+                <a href="mailto:partnerships@sunmobility.com" style="color: #888;margin-left: 10px;">partnerships@sunmobility.com</a>
+              </li>
+              <li>
+                <!-- <span><img src="assets/images/footer/email.svg" /></span> -->
+                <label> PR & Media</label>
+                <br>
+                <a href="mailto:media@sunmobility.com" style="color: #888;margin-left: 10px;">media@sunmobility.com </a>
+              </li>
+              <li>
+                <!-- <span><img src="assets/images/footer/email.svg" /></span> -->
+                <label> Complaints</label>
+                <br>
+                <a href="mailto:support@sunmobility.com" style="color: #888;margin-left: 10px;"> support@sunmobility.com</a>
+              </li>
+              <!-- <li>
+                <span><img src="assets/images/footer/phone.svg" /></span>
+                <label>+91 80430 26210</label>
+              </li> -->
+              <!-- <div>
+              <li class="address" style="margin-left:-10px;">
+                <div class="col-md-2 col-sm-2 pad0">
+                  <label>Name </label>
+                </div>
+                <div class="col-md-10 col-sm-10 pad0">
+                  <label style="font-weight: 100; line-height: 1.4;">: &nbsp;SUN MOBILITY PRIVATE LIMITED</label>
+                </div>
+                <div class="col-md-2 col-sm-2 pad0">
+                  <label>CIN </label>
+                </div>
+                <div class="col-md-10 col-sm-10 pad0">
+                  <label style="font-weight: 100; line-height: 1.4;">:  &nbsp;U35100KA2016PTC124376</label>
+                </div>
+                <div class="col-md-2 col-sm-2 pad0">
+                  <label>Reg. Office  </label>
+                </div>
+                <div class="col-md-10 col-sm-10 pad0">
+                  <label style="font-weight: 100; line-height: 1.4;">:    &nbsp;25, 1st Cross, 2nd Main Rd, Industrial &nbsp;&nbsp;Area 2, Phase 1, Doddanekkundi, &nbsp;&nbsp;Bengaluru, Karnataka 560048
+                  </label>
+                </div>
+                <a href="https://goo.gl/maps/XBe7rVqgEzvpxiKa7" target="_blank"
+                  >VIEW DIRECTIONS</a
+                >
+              </li>
+              </div> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 pad0">
+          <div class="fotter-contact no-link">
+            <ul style="margin-top:20px">
+          <li class="address" style="margin-left:-10px;">
+            <div class="col-md-2 col-sm-2 pad0">
+              <label>Name&nbsp;&nbsp;: </label>
+            </div>
+            <div class="col-md-10 col-sm-10 pad0">
+              <label style="font-weight: 100; line-height: 1.4;white-space: nowrap;margin-left: 15px;"> &nbsp;SUN MOBILITY PRIVATE LIMITED</label>
+            </div>
+            <div class="col-md-2 col-sm-2 pad0">
+              <label>CIN&nbsp;&nbsp;: </label>
+            </div>
+            <div class="col-md-10 col-sm-10 pad0">
+              <label style="font-weight: 100; line-height: 1.4;margin-left: 15px;">  &nbsp;U35100KA2016PTC124376</label>
+            </div>
+            <div class="col-md-2 col-sm-2 pad0">
+              <label>Office&nbsp;&nbsp;:  </label>
+            </div>
+            <div class="col-md-10 col-sm-10 pad0">
+              <label style="font-weight: 100; line-height: 1.4;margin-left: 20px;">25, 1st Cross, 2nd Main Road, Doddanekundi Industrial Area 2, Phase 1, Doddanekkundi, Bengaluru, Karnataka, 560048  &nbsp;
+              </label>
+            </div>
+            <div class="col-md-2 col-sm-2 pad0">
+              <label>TollFree&nbsp;:</label>
+            </div>
+            <div class="col-md-10 col-sm-10 pad0">
+              <label style="font-weight: 100; line-height: 1.4;margin-left: 15px;">  &nbsp;&nbsp;1800 309 5090</label>
+            </div>
+            <div class="col-md-10 col-sm-10 pad10 d-flex align-items-center justify-content-center">
+              <a href="https://goo.gl/maps/XBe7rVqgEzvpxiKa7" target="_blank" style="line-height: 1.4; display: flex; align-items: center;margin-left: 60px;margin-top: 10px;">
+                  <i class="material-icons" style="margin-right: 5px;">place</i>VIEW DIRECTIONS
+              </a>
+          </div>
+          <div class="col-md-10 col-sm-10 pad0">
+            <img src="assets/images/shoonya for website@3x-8.png" style="width: 300px; margin-top: 30px;" />
+          </div>
+          </li>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 col-sm-3 pad0">
+          <div class="fotter-form" style="margin-top: 30px;">
+            <form id="subscribeForm" method="POST">
+              <ul>
+                <li>
+                  <h2>Get the latest updates</h2>
+                </li> -->
+                <!-- <li>
+                  <label>Your email address</label>
+                </li> -->
+                <!-- <li>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                  />
+                  <label class="subscribe-success hide"
+                    >Thank you for subscribing!</label
+                  >
+                </li>
+                <li>
+                  <button type="submit" class="white-btn">SUBSCRIBE</button>
+                </li> -->
+              <!-- </ul>
+            </form>
+          </div>
+        </div> -->
+      </div>
+      <!-- <div class="green-button">
+        <a
+          href=""
+          data-toggle="modal"
+          data-target="#formModal"
+          class="green-btn"
+        >
+          Become a franchisee partner</a
+        >
+      </div> -->
+    </div>
+
+    <!-- copy rights section -->
+    <div class="copy-rights">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 pad0">
+          <div class="first">
+            <label>Â©SUN Mobility 2020.</label>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-9 pad0">
+          <div class="second" style="text-align: center;">
+            <ul>
+              <li>
+                <a href="terms">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="privacy"> Customer Privacy Policy</a>
+              </li>
+              <li style="margin-left: 20px;">
+                <a href="partnerprivacypolicy">Partner Privacy Policy</a>
+              </li>
+              <li style="margin-left: 20px;">
+                <a href="refundcancellationpolicy">Refund & Cancellation Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 col-sm-3 pad0">
+          <div class="third">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/sun_mobility"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="17"
+                    viewBox="0 0 18 17"
+                  >
+                    <path
+                      fill="#FFF"
+                      d="M4.33966829,1.98317451 C4.33966829,3.08262923 3.50262829,3.96395139 2.1568944,3.96395139 L2.13182363,3.96395139 C0.836231274,3.96474987 0,3.0818302 0,1.98317451 C0,0.857352064 0.862919506,5.56739519e-07 2.18196516,5.56739519e-07 C3.50262829,-0.000797908064 4.31540627,0.857352064 4.33966829,1.98317451 Z M0.226445606,16.999201 L4.08572572,16.999201 L4.08572572,5.53083362 L0.226445606,5.53083362 L0.226445606,16.999201 Z M13.5576219,5.26236212 C11.5107154,5.26236212 10.5944194,6.37300314 10.0792557,7.15604501 L10.0792557,7.19280004 L10.0541849,7.19280004 C10.0638897,7.18161373 10.0727858,7.16882937 10.0792557,7.15604501 L10.0792557,5.53163264 L6.22078429,5.53163264 C6.27092582,6.60631766 6.22078429,17 6.22078429,17 L10.0792557,17 L10.0792557,10.5950371 C10.0792557,10.2498594 10.102709,9.911873 10.206227,9.6649751 C10.486049,8.98261004 11.1217142,8.26908311 12.1843911,8.26908311 C13.5826927,8.26908311 14.1415281,9.32299355 14.1415281,10.8635086 L14.1415281,17 L17.9999997,17 L17.9999997,10.4248453 C18.0008082,6.89955885 16.0954302,5.26236212 13.5576219,5.26236212 Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/SUN_mobility?s=08" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15.583"
+                    height="12.75"
+                    viewBox="0 0 15.583 12.75"
+                  >
+                    <defs>
+                      <style>
+                        .t {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path
+                      class="t"
+                      d="M15.583,1.509a6.345,6.345,0,0,1-1.836.506A3.224,3.224,0,0,0,15.153.235a6.374,6.374,0,0,1-2.03.781,3.195,3.195,0,0,0-5.531,2.2,3.234,3.234,0,0,0,.083.734A9.056,9.056,0,0,1,1.085.589a3.237,3.237,0,0,0,.989,4.3,3.158,3.158,0,0,1-1.448-.4c0,.014,0,.027,0,.041A3.215,3.215,0,0,0,3.19,7.68a3.189,3.189,0,0,1-1.444.056A3.2,3.2,0,0,0,4.733,9.971,6.387,6.387,0,0,1,.762,11.349,6.4,6.4,0,0,1,0,11.3,9,9,0,0,0,4.9,12.75,9.067,9.067,0,0,0,14,3.592c0-.139,0-.278-.009-.416a6.508,6.508,0,0,0,1.6-1.666Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- video Modal -->
+    <div class="video-modal">
+      <div class="modal fade bgblur" id="payModal" role="dialog">
+        <div class="modal-dialog modal-center">
+          <div class="modal-content">
+            <div class="common-modal-body">
+              <iframe
+                src="https://www.youtube.com/embed/VD0zL5Eb6A4?showinfo=0&rel=0&autoplay=1&mute=1"
+                class="iframe-video"
+                allow="autoplay"
+                frameborder="0"
+                allowfullscreen
+                width="100%"
+                height="570px"
+              ></iframe>
+              <div class="modal-close-button">
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-modal">
+      <div class="modal fade bgblur" id="customerModal" role="dialog">
+        <div class="modal-dialog modal-center">
+          <div class="modal-content">
+            <div class="common-modal-body">
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLP-xeV5aQK3b52CwhUmtO8FQXSU1Edtrj&showinfo=0&rel=0&autoplay=1&mute=1"
+                class="iframe-video"
+                allow="autoplay"
+                frameborder="0"
+                allowfullscreen
+                width="100%"
+                height="570px"
+              ></iframe>
+              <div class="modal-close-button">
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-modal">
+      <div class="modal fade bgblur" id="formModal" role="dialog">
+        <div class="modal-dialog modal-center">
+          <div class="modal-content">
+            <div class="common-modal-body">
+              <div class="head">
+                <img src="assets/images/header/logo.png" />
+              </div>
+              <div class="modal-close-button">
+                <button type="button" class="close" data-dismiss="modal">
+                  <svg
+                    width="16px"
+                    height="16px"
+                    viewBox="0 0 16 16"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <title>Group 4</title>
+                    <g
+                      id="Careers"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <g
+                        id="Sun-mobility-Popup-1"
+                        transform="translate(-1257.000000, -100.000000)"
+                        fill="#515978"
+                        fill-rule="nonzero"
+                      >
+                        <g
+                          id="Group-4"
+                          transform="translate(1257.000000, 100.000000)"
+                        >
+                          <g id="close-24px">
+                            <polygon
+                              id="Path"
+                              points="15.6000009 1.57114294 14.0288579 0 7.80000043 6.22885749 1.57114294 0 0 1.57114294 6.22885749 7.80000043 0 14.0288579 1.57114294 15.6000009 7.80000043 9.37114337 14.0288579 15.6000009 15.6000009 14.0288579 9.37114337 7.80000043"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <form id="commentForm" method="POST">
+                <div class="head-text">
+                  <h2>Partnership Enquiry Form</h2>
+                </div>
+                <div class="form-input-section">
+                  <div class="form-input">
+                    <label>Name <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Enter Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label>Company Name <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="company"
+                      name="company"
+                      placeholder="Enter Company Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-input-section">
+                  <div class="form-input">
+                    <label>Email Address <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      placeholder="Enter Email"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label>Phone Number<span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="mobile"
+                      name="mobile"
+                      placeholder="Enter Phone Number"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="sub-head-text">
+                  <h2>Address Details</h2>
+                </div>
+                <div class="form-input-section">
+                  <div class="form-input">
+                    <label>Address Line 1 <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      placeholder="Enter Address"
+                      id="address"
+                      name="address"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label>Address Line 2 </label>
+                    <input
+                      type="text"
+                      placeholder="Enter Address 2"
+                      id="address"
+                      name="address"
+                    />
+                  </div>
+                </div>
+                <div class="form-input-section">
+                  <div class="form-input">
+                    <label>City of Operation <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="city"
+                      name="city"
+                      placeholder="Enter City"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label>Area Pin Code <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="pin"
+                      name="pin"
+                      placeholder="Pin Code"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="past-section">
+                  <div class="row">
+                    <div class="col-md-4 pad0">
+                      <div class="head-top">
+                        <p>Past experience in <span style="color: red">*</span></p>
+                      </div>
+                    </div>
+                    <div class="col-md-8 pad0">
+                      <div class="past-section-list">
+                        <div class="form-check">
+                          <input
+                            id="commer"
+                            name="exp"
+                            value="Commercial vehicle fleet operation"
+                            type="checkbox"
+                          />
+                          <label for="commer"
+                            >Commercial vehicle fleet operation</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            id="station"
+                            name="exp"
+                            value="Fuel station dealership"
+                            type="checkbox"
+                          />
+                          <label for="station">Fuel station dealership</label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            id="others"
+                            name="exp"
+                            value="Others"
+                            type="checkbox"
+                          />
+                          <label for="others">Others</label>
+                        </div>
+                      </div>
+                      <label for="exp" class="error"
+                        >This field is required</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="past-section">
+                  <div class="row">
+                    <div class="col-md-4 pad0">
+                      <div class="head-top">
+                        <p>Do you Own or Lease or Operate <span style="color: red">*</span></p>
+                      </div>
+                    </div>
+                    <div class="col-md-8 pad0">
+                      <div class="past-section-list">
+                        <div class="lease-section-list">
+                          <div class="form-check">
+                            <input
+                              id="land"
+                              name="prop"
+                              value="Land near main road"
+                              type="checkbox"
+                            />
+                            <label for="land">Land near main road</label>
+                          </div>
+
+                          <div class="form-check">
+                            <input
+                              id="space"
+                              name="prop"
+                              value="Sheltered premise with space for vehicle approach"
+                              type="checkbox"
+                            />
+                            <label for="space"
+                              >Sheltered premise with space for vehicle
+                              approach</label
+                            >
+                          </div>
+                          <div class="form-check">
+                            <input
+                              id="service"
+                              name="prop"
+                              value="Service Centre"
+                              type="checkbox"
+                            />
+                            <label for="service"> Service Centre</label>
+                          </div>
+                          <div class="form-check">
+                            <input
+                              id="shop"
+                              name="prop"
+                              value="Shopping Centre/Super market"
+                              type="checkbox"
+                            />
+                            <label for="shop"
+                              >Shopping Centre/Super market</label
+                            >
+                          </div>
+                        </div>
+                        <div class="lease-section-list">
+                          <div class="form-check">
+                            <input
+                              id="fuel"
+                              name="prop"
+                              value="Fuel station dealership"
+                              name="prop"
+                              type="checkbox"
+                            />
+                            <label for="fuel">Fuel station dealership</label>
+                          </div>
+                          <div class="form-check">
+                            <input
+                              id="vehicle"
+                              name="prop"
+                              value="Vehicle dealership"
+                              type="checkbox"
+                            />
+                            <label for="vehicle">Vehicle dealership</label>
+                          </div>
+                          <div class="form-check">
+                            <input
+                              id="business"
+                              name="prop"
+                              value="Spare parts(automobile) business"
+                              type="checkbox"
+                            />
+                            <label for="business"
+                              >Spare parts(automobile) business</label
+                            >
+                          </div>
+                          <div
+                            class="form-check"
+                            name="prop"
+                            value="ATM"
+                            type="checkbox"
+                          >
+                            <input id="atm" name="prop" type="checkbox" />
+                            <label for="atm">ATM</label>
+                          </div>
+                        </div>
+                      </div>
+                      <label for="prop" class="error"
+                        >This field is required</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="past-section">
+                  <div class="row">
+                    <div class="col-md-4 pad0">
+                      <div class="head-top">
+                        <p>
+                          Do you have a 3-phase power at the location (>25 kVA)? <span style="color: red">*</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8 pad0">
+                      <div class="past-section-last">
+                        <div class="form-check">
+                          <input
+                            id="1"
+                            type="radio"
+                            id="power_yes"
+                            name="power"
+                            value="Yes"
+                            required
+                          />
+                          <label for="1"> Yes </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            id="2"
+                            type="radio"
+                            id="power_no"
+                            value="No"
+                            name="power"
+                          />
+                          <label for="2"> No </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            id="3"
+                            type="radio"
+                            id="power_obtain"
+                            value="Can Obtain"
+                            name="power"
+                          />
+                          <label for="3"> Can obtain </label>
+                        </div>
+                        <label for="power" class="error"
+                          >This field is required</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-input-section">
+                  <div class="form-input">
+                    <label>What is the amount you are willing to invest? <span style="color: red">*</span></label>
+                    <input
+                      type="text"
+                      id="invest"
+                      name="invest"
+                      placeholder="Enter Amount (Lakhs)"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" class="green-btn" name="submit" id="formSubmit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+              <div class="form-success hide">
+                <div class="img">
+                  <svg
+                    width="150px"
+                    height="173px"
+                    viewBox="0 0 150 173"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <title>LKCMADS1080ppi</title>
+                    <g
+                      id="Careers"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <g
+                        id="Sun-mobility-Popup-1"
+                        transform="translate(-645.000000, -261.000000)"
+                        fill-rule="nonzero"
+                      >
+                        <g
+                          id="Group"
+                          transform="translate(433.000000, 263.000000)"
+                        >
+                          <g
+                            id="LKCMADS1080ppi"
+                            transform="translate(212.000000, 0.000000)"
+                          >
+                            <path
+                              d="M129.330005,21.8040009 L129.330005,21.8040009 C77.5108287,13.5965727 26.3000634,39.6894405 2.4810001,86.4360034 L2.4810001,86.4360034 C-1.99475979,95.218189 -0.306412403,105.883603 6.66300026,112.854004 L57.1920023,163.383006 C64.1624038,170.352419 74.8278177,172.040767 83.6100033,167.565007 L83.6100033,167.565007 C130.356566,143.745943 156.449434,92.5351781 148.242006,40.7160016 L148.242006,40.7160016 C146.69988,30.9810691 139.064938,23.3461265 129.330005,21.8040009 Z"
+                              id="Path"
+                              fill="#DFE8ED"
+                              opacity="0.5"
+                            ></path>
+                            <path
+                              d="M112.170004,117.798005 L112.170004,126.453005 C112.156794,130.570657 108.817675,133.903071 104.700004,133.908005 L12.0000005,133.908005 C7.88164863,133.904716 4.54156727,130.571342 4.53000018,126.453005 L4.53000018,7.6050003 C4.54156727,3.48666338 7.88164863,0.153289021 12.0000005,0.150000006 L89.7510036,0.150000006 L112.170004,22.5690009 L112.170004,51.402002"
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <polyline
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#DFE8ED"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              points="110.361004 22.8780009 89.4390036 22.8780009 89.4390036 1.95600008"
+                            ></polyline>
+                            <line
+                              x1="20.9730008"
+                              y1="65.8440026"
+                              x2="41.8170017"
+                              y2="65.8440026"
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></line>
+                            <line
+                              x1="20.9730008"
+                              y1="80.6280032"
+                              x2="56.1810022"
+                              y2="80.6280032"
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></line>
+                            <line
+                              x1="20.9730008"
+                              y1="95.4150038"
+                              x2="63.4650025"
+                              y2="95.4150038"
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></line>
+                            <line
+                              x1="20.9730008"
+                              y1="27.7230011"
+                              x2="35.5860014"
+                              y2="27.7230011"
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></line>
+                            <circle
+                              id="Oval"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#8ED92B"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              cx="101.985004"
+                              cy="85.0410034"
+                              r="28.5570011"
+                            ></circle>
+                            <polygon
+                              id="Path"
+                              stroke="#004166"
+                              stroke-width="2.70000011"
+                              fill="#FFFFFF"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              points="120.468005 76.200003 114.435005 70.1640028 96.9930039 87.6030035 89.7810036 80.3940032 83.5020033 86.6700034 96.7500038 99.918004"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="text">
+                  <p>
+                    Thank you for expressing interest in partnering with us. We
+                    will get in touch with you soon
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/home.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="./dynamic-content/home-data.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- ********** end of css links ********** -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script async src="assets/js/wow.min.js" ></script>
+
+    
+
+
+    <script>
+      $( document ).ready(function() {
+      new WOW().init()
+  });
+      // wow js
+      // new WOW().init();
+
+      $("#payModal").on("hide.bs.modal", function () {
+        $("iframe").attr("src", "");
+      });
+
+      $("#payModal").on("show.bs.modal", function () {
+        $("iframe").attr(
+          "src",
+          "https://www.youtube.com/embed/oJ2hxr64yqs?autoplay=1"
+        );
+      });
+
+      $("#customerModal").on("hide.bs.modal", function () {
+        $("iframe").attr("src", "");
+      });
+
+      $("#customerModal").on("show.bs.modal", function () {
+        $("iframe").attr(
+          "src",
+          "https://www.youtube.com/embed/videoseries?list=PLP-xeV5aQK3b52CwhUmtO8FQXSU1Edtrj&showinfo=0&rel=0&autoplay=1&mute=1"
+        );
+      });
+
+      // mapbox implementation
+      // $.getJSON(
+      //   "https://sm-smartconnect.azurewebsites.net/api/DistanceSwap/GetByZoneType?id=154",
+      //   function (data) {
+      //     var geojson = data.result.home;
+
+      //     mapboxgl.accessToken =
+      //       "pk.eyJ1IjoidmJhbGE5NCIsImEiOiJja2I2Njh6eXQwemdnMnJueXRvdDF1eWNsIn0.c8LDW0aoqR1nfZQ_qQD6QA";
+
+      //     var map = new mapboxgl.Map({
+      //       container: "map",
+      //       style: "mapbox://styles/mapbox/dark-v10",
+      //       center: [77.5946, 12.9716],
+      //       zoom: 3,
+      //     });
+
+      //     // disable map zoom when using scroll
+      //     map.scrollZoom.disable();
+      //     mapLoad = false;
+
+      //     // add markers to map
+      //     geojson.features.forEach(function (marker) {
+      //       // create a HTML element for each feature
+      //       var el = document.createElement("div");
+      //       el.className = "marker";
+
+      //       // make a marker for each feature and add it to the map
+      //       new mapboxgl.Marker(el)
+      //         .setLngLat(marker.geometry.coordinates)
+      //         .setPopup(
+      //           new mapboxgl.Popup({ offset: 25 }) // add popups
+      //             .setHTML("<h3>" + marker.properties.title + "</h3>")
+      //         )
+      //         .addTo(map);
+      //     });
+
+      //     // Add zoom and rotation controls to the map.
+      //     map.addControl(new mapboxgl.NavigationControl());
+      //   }
+      // );
+      $.getJSON(
+          "https://sm-smartconnect.azurewebsites.net/api/DistanceSwap/GetByZoneType?id=154",
+          function (data) {
+            var geojson = data.result.about;
+            var citiesjson = data.result.home;
+            var ul = document.getElementById("dropdown-menu");
+            citiesjson.features.forEach(function (element) {
+              var li = document.createElement("li");
+              li.appendChild(document.createTextNode(element.properties.title));
+              ul.appendChild(li);
+            });
+            mapboxgl.accessToken =
+              "pk.eyJ1IjoidmJhbGE5NCIsImEiOiJja2I2Njh6eXQwemdnMnJueXRvdDF1eWNsIn0.c8LDW0aoqR1nfZQ_qQD6QA";
+
+            var map = new mapboxgl.Map({
+              container: "map",
+              style: "mapbox://styles/mapbox/dark-v10",
+              center: [77.5946, 12.9716],
+              zoom: 3,
+            });
+
+            // disable map zoom when using scroll
+            map.scrollZoom.disable();
+            mapLoad = false;
+
+            $(".dropdown-menu li").on("click", function () {
+              var amrister = [74.8723, 31.634],
+                kozhikode = [75.7804, 11.2588],
+                chandigarh = [76.7794, 30.7333],
+                delhi = [77.1025, 28.7041],
+                vijayawada = [80.5973, 16.418],
+                ghaziabad = [77.4538, 28.6692],
+                gurugram = [77.0266, 28.4595],
+                selected_city = $(this).text();
+
+              citiesjson.features.forEach(function (element) {
+                if (element.properties.title == selected_city) {
+                  map.flyTo({
+                    center: element.geometry.coordinates,
+                    zoom: 10,
+                  });
+                }
+              });
+              $(this)
+                .parents(".btn-group")
+                .find(".dropdown-toggle label")
+                .html(selected_city);
+            });
+
+            // add markers to map
+            geojson.features.forEach(function (marker) {
+              // create a HTML element for each feature
+
+              if (
+                marker.properties.title == "SM Validation" ||
+                marker.properties.title == "Virya Mobility Bommasandra" ||
+                marker.properties.title == "SM Validation Test"
+              ) {
+                console.log("Stage ", marker.properties.title);
+              } else {
+                var el = document.createElement("div");
+                el.className = "marker";
+
+                // make a marker for each feature and add it to the map
+                new mapboxgl.Marker(el)
+                  .setLngLat(marker.geometry.coordinates)
+                  .setPopup(
+                    new mapboxgl.Popup({ offset: 25 }) // add popups
+                      .setHTML("<h3>" + marker.properties.title + "</h3>")
+                  )
+                  .addTo(map);
+              }
+            });
+
+            // Add zoom and rotation controls to the map.
+            map.addControl(new mapboxgl.NavigationControl());
+          }
+        );
+
+
+//       document.addEventListener('DOMContentLoaded', () => {
+//     document.getElementById('popup-container').style.display = 'block';
+//     document.getElementById('main-content').style.display = 'none';
+
+//     const closePopupButton = document.getElementById('close-btn');
+//     closePopupButton.addEventListener('click', () => {
+//         document.getElementById('popup-container').style.display = 'none';
+//           document.getElementById('main-content').style.display = 'block';
+//     });
+// });
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     var mainContent = document.querySelector('.main-content');
+//     var popupContainer = document.getElementById('popup-containers');
+//     var closeBtn = document.getElementById('close-btns');
+
+//     function showPopup() {
+//         mainContent.style.filter = 'blur(5px)';
+//         popupContainer.style.display = 'flex';
+//     }
+
+//     function hidePopup() {
+//         mainContent.style.filter = 'none';
+//         popupContainer.style.display = 'none';
+//     }
+
+//     showPopup();
+
+//     closeBtn.addEventListener('click', hidePopup);
+// });
+
+
+    </script>
+    </div>
+  </body>
+</html>

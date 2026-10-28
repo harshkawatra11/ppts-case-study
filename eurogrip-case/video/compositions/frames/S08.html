@@ -1,0 +1,44 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S08_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S08_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S08_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S08_root .lyr{position:absolute;will-change:opacity,transform}
+    #S08_root .lyr img{display:block;width:100%;height:100%}
+    #S08_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    
+  </style>
+  <div id="S08_root" data-composition-id="S08" data-width="1920" data-height="1080">
+    <div id="S08_stage"><img class="bg" src="assets/slides/s4_skel.png" alt=""><div class="lyr" id="S08_s4_title" style="left:480px;top:166px;width:960px;height:180px"><img src="assets/crops/s4_title.png" alt=""></div><div class="lyr" id="S08_s4_therefore" style="left:256px;top:366px;width:1416px;height:164px"><img src="assets/crops/s4_therefore.png" alt=""></div><div class="lyr" id="S08_s4_team" style="left:400px;top:548px;width:1120px;height:168px"><img src="assets/crops/s4_team.png" alt=""></div><div class="lyr" id="S08_s4_links" style="left:400px;top:722px;width:1140px;height:112px"><img src="assets/crops/s4_links.png" alt=""></div><div class="lyr" id="S08_s4_closing" style="left:250px;top:900px;width:1420px;height:42px"><img src="assets/crops/s4_closing.png" alt=""></div><div class="ovl" id="S08_o4" style="left:403px;top:721px;width:1114px;height:102px;border-color:#1D4ED8;background:#1D4ED829"></div></div>
+    
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S08_stage",{x:0.0,y:0.0,scale:1.0000},0);
+      tl.set("#S08_s4_title",{opacity:0},0);
+      tl.set("#S08_s4_therefore",{opacity:0},0);
+      tl.set("#S08_s4_team",{opacity:0},0);
+      tl.set("#S08_s4_links",{opacity:0},0);
+      tl.set("#S08_s4_closing",{opacity:0},0);
+      tl.fromTo("#S08_stage",{opacity:0},{opacity:1,duration:0.45,ease:"power1.out"},0);
+      tl.fromTo("#S08_s4_title",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},0.100);
+      tl.set("#S08_s4_therefore",{opacity:1},1.570);
+      tl.fromTo("#S08_s4_therefore",{clipPath:"inset(0px 100% 0px 0px)"},{clipPath:"inset(0px 0% 0px 0px)",duration:1.0,ease:"power2.inOut"},1.570);
+      tl.fromTo("#S08_s4_team",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},2.770);
+      tl.fromTo("#S08_s4_links",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},5.090);
+      tl.set("#S08_o4",{opacity:0},0);
+      tl.to("#S08_o4",{opacity:1,duration:0.2},5.390);
+      tl.to("#S08_o4",{opacity:0,duration:0.45},6.990);
+      tl.fromTo("#S08_s4_closing",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},5.890);
+      tl.to({}, { duration: 7.932 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S08"] = tl;
+    })();
+  </script>
+</template>

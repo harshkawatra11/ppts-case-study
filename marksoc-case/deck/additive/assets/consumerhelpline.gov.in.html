@@ -1,0 +1,4411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | National Consumer Helpline</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://consumerhelpline.gov.in/public/assets/favicon-32x32.png">
+
+    <!-- Meta Tags for Accessibility -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Official site of National Consumer Helpline. Get assistance with consumer grievances and complaints.">
+
+    <meta name="keywords"
+          content="consumer helpline, grievance, complaints, India, national consumer">
+
+    <meta name="author"
+          content="Department of Consumer Affairs, India">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <meta property="og:title"
+          content="National Consumer Helpline">
+
+    <meta property="og:description"
+          content="Resolve consumer complaints quickly and effectively with the National Consumer Helpline.">
+
+    <meta property="og:image"
+          content="https://consumerhelpline.gov.in/public/assets/share-image.png">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:url"
+          content="https://consumerhelpline.gov.in/">
+
+    <!-- Bootstrap -->
+    <link href="https://consumerhelpline.gov.in/public/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Existing CSS -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="https://consumerhelpline.gov.in/public/css/style.css">
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="https://consumerhelpline.gov.in/public/css/videos.css">
+
+    <link rel="stylesheet"
+          href="https://consumerhelpline.gov.in/public/css/accessibility.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://consumerhelpline.gov.in/public/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-TKh3m3r2jPfDFz4u4Xx7NwA+V7ZVrYOY+FtKXpoGkp1eOCqPOj6FbYc0whkB8E7X9UOz5E+vD+gUVDmZIk+zZg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
+
+    <!-- =========================================================
+         WCAG 2.1 / 2.2 ACCESSIBILITY FIXES
+         Reflow / Text Spacing / Contrast / Focus
+         ========================================================= -->
+    <style id="wcag-reflow-fixes">
+
+        /* ---------------------------------------------------------
+           Basic reflow
+           --------------------------------------------------------- */
+        html {
+            font-size: 100%;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        body,
+        main,
+        section,
+        .container,
+        .container-fluid,
+        .row,
+        [class*="col-"],
+        .card,
+        .card-body {
+            min-width: 0;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a,
+        button,
+        .btn,
+        span {
+            overflow-wrap: anywhere;
+            word-break: normal;
+        }
+
+
+        /* ---------------------------------------------------------
+           WCAG Text Spacing
+           Prevent clipping / truncation
+           --------------------------------------------------------- */
+        .carousel-caption,
+        .carousel-caption__title,
+        .carousel-caption__text,
+        .carousel-caption__actions,
+        .carousel-caption__card,
+        .carousel-caption__card-title,
+        .carousel-caption-button,
+        .success-story__card,
+        .success-story__item,
+        .success-story__item-card,
+        .success-story__item-card .card-body,
+        .success-story__item-card p,
+        .success-story__view-link,
+        .connect-card,
+        .connect-card-inner,
+        .card-grievance-lodging,
+        .card-grievance-lodging .card-body,
+        .whatsapp-contact__left,
+        .whatsapp-contact__left-heading,
+        .feedback-action-column {
+            height: auto !important;
+            max-height: none !important;
+            white-space: normal !important;
+            text-overflow: clip !important;
+        }
+
+        .carousel-caption__title,
+        .carousel-caption__text,
+        .carousel-caption__card-title,
+        .success-story__item-card p,
+        .success-story__view-link,
+        .connect-card h3,
+        .connect-card p,
+        .card-grievance-lodging .card-body,
+        .whatsapp-contact__left-heading,
+        #feedback-section .btn {
+            overflow: visible !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           Images
+           --------------------------------------------------------- */
+        .carousel-item--image,
+        .features__jagriti-img,
+        .features__img,
+        .connect-section img,
+        .success-story-section img,
+        .empowering-consumers__icon,
+        .Grievance-Lodging-card img,
+        .whatsapp-contact img,
+        #feedback-section img,
+        footer img {
+            max-width: 100% !important;
+            height: auto !important;
+            object-fit: contain !important;
+        }
+
+        .banner-container {
+            position: relative;
+            overflow: visible !important;
+            height: auto !important;
+            max-height: none !important;
+        }
+
+        .carousel-item--image {
+            width: 100% !important;
+            max-height: none !important;
+            object-fit: contain !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           Buttons
+           --------------------------------------------------------- */
+        .carousel-caption-button,
+        #feedback-section .btn,
+        .whatsapp-contact__button {
+            min-height: 44px;
+            width: auto;
+            max-width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            flex-wrap: wrap;
+            white-space: normal !important;
+            line-height: 1.5 !important;
+            padding: .65rem 1rem !important;
+            overflow: visible !important;
+        }
+
+        .carousel-caption-button .btn-icon,
+        #feedback-section .btn-icon {
+            flex: 0 0 auto;
+            max-width: 1.5rem !important;
+            height: auto !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           Success Story contrast
+           --------------------------------------------------------- */
+        .success-story__view-link,
+        .success-story__link {
+            color: #004E98 !important;
+            text-decoration: underline;
+            text-decoration-thickness: .08em;
+            text-underline-offset: .15em;
+        }
+
+        .success-story__view-link:hover,
+        .success-story__view-link:focus,
+        .success-story__link:hover,
+        .success-story__link:focus {
+            color: #003D7A !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           WhatsApp contrast
+           --------------------------------------------------------- */
+        .whatsapp-contact {
+            background-color: #005A4E !important;
+        }
+
+        #whatsapp-contact-heading,
+        .whatsapp-contact__left-heading,
+        .whatsapp-contact__left-heading strong {
+            color: #FFFFFF !important;
+        }
+
+        .whatsapp-contact-main,
+        .whatsapp-contact__left {
+            min-width: 0;
+        }
+
+
+        /* ---------------------------------------------------------
+           Feedback section
+           --------------------------------------------------------- */
+        .feedback-image-column {
+            margin-top: 0 !important;
+        }
+
+        .feedback-action-column {
+            padding-top: 1rem !important;
+            padding-left: calc(var(--bs-gutter-x, 1.5rem) * .5) !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           Video section
+           --------------------------------------------------------- */
+        #nch-videos-podcasts {
+            clear: both;
+            position: relative;
+            z-index: 0;
+            height: auto !important;
+            overflow: visible !important;
+        }
+
+        #nch-videos-podcasts .ratio,
+        #nch-videos-podcasts video {
+            max-width: 100% !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           WCAG 1.4.11 Non-text Contrast
+           Visible keyboard focus
+           --------------------------------------------------------- */
+        .btn:focus,
+        .btn:focus-visible,
+        a:focus,
+        a:focus-visible,
+        button:focus,
+        button:focus-visible,
+        [role="button"]:focus,
+        [role="button"]:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 3px !important;
+            box-shadow: none !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           WhatsApp dark background
+           --------------------------------------------------------- */
+        .whatsapp-contact__button:focus,
+        .whatsapp-contact__button:focus-visible {
+            outline: 3px solid #FFFFFF !important;
+            outline-offset: 4px !important;
+            box-shadow: none !important;
+        }
+
+
+        /* ---------------------------------------------------------
+           200% zoom / responsive reflow
+           --------------------------------------------------------- */
+        @media (max-width: 767.98px) {
+
+            .banner,
+            .carousel,
+            .carousel-inner,
+            .carousel-item {
+                height: auto !important;
+                min-height: 0 !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+
+
+            /* Hero content moves below image */
+            .carousel-caption {
+                position: static !important;
+                inset: auto !important;
+                transform: none !important;
+                width: 100% !important;
+                max-width: none !important;
+                margin: 0 !important;
+                padding: 1rem !important;
+                background: #075985 !important;
+                color: #FFFFFF !important;
+                text-align: center !important;
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                overflow: visible !important;
+            }
+
+            .carousel-caption__title,
+            .carousel-caption__text {
+                position: static !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                line-height: 1.5 !important;
+            }
+
+
+            /* Grievance actions */
+            .carousel-caption__actions {
+                display: grid !important;
+                grid-template-columns: minmax(0, 1fr) !important;
+                gap: 1rem !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 1rem 0 0 !important;
+                padding: 0 !important;
+                position: static !important;
+            }
+
+            .carousel-caption__card {
+                width: 100% !important;
+                min-width: 0 !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: .75rem !important;
+                position: static !important;
+            }
+
+            .carousel-caption-button {
+                width: 100% !important;
+            }
+
+
+            /* NCH graphics */
+            .features__jagriti-img,
+            .features__img {
+                width: auto !important;
+                max-width: 100% !important;
+            }
+
+
+            /* Success stories */
+            .success-story-section,
+            .success-story-section .container,
+            .success-story-section .row,
+            .success-story__heading,
+            .success-story__card,
+            .success-story__list,
+            .success-story__item,
+            .success-story__item-card {
+                height: auto !important;
+                min-height: 0 !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+
+            .success-story-section .offset-lg-1 {
+                margin-left: 0 !important;
+            }
+
+            .success-story__heading,
+            .success-story-section .col-lg-6,
+            .success-story-section .col-md-8 {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex: 0 0 100% !important;
+            }
+
+            .success-story__list,
+            .scroll-container {
+                display: block !important;
+                position: static !important;
+                transform: none !important;
+                animation: none !important;
+                overflow: visible !important;
+            }
+
+            .success-story__item {
+                display: block !important;
+                position: static !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                transform: none !important;
+                animation: none !important;
+                margin: 0 0 1rem !important;
+            }
+
+            .success-story__item-card .row {
+                display: block !important;
+            }
+
+            .success-story__item-card .col-4,
+            .success-story__item-card .col-8,
+            .success-story__item-card .col-md-4,
+            .success-story__item-card .col-md-8 {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex: 0 0 100% !important;
+            }
+
+            .success-story__item-card img {
+                display: block;
+                width: min(100%, 22rem) !important;
+                margin: 0 auto;
+            }
+
+            .success-story__item-card .card-body {
+                padding: 1rem !important;
+            }
+
+
+            /* Videos */
+            #nch-videos-podcasts .col-lg-8,
+            #nch-videos-podcasts .col-lg-4 {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex: 0 0 100% !important;
+            }
+
+            #nch-videos-podcasts .video-thumb {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+
+            /* Connect / grievance cards */
+            .connect-section li,
+            #grievance-lodging .Grievance-Lodging-card {
+                min-width: 0;
+            }
+
+            .connect-card,
+            .connect-card-inner,
+            .card-grievance-lodging {
+                width: 100% !important;
+                max-width: 100% !important;
+                overflow: visible !important;
+            }
+
+            .card-grievance-lodging .card-body > span {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                gap: .5rem !important;
+                align-items: center !important;
+            }
+
+            .card-grievance-lodging svg {
+                flex: 0 0 24px;
+            }
+
+
+            /* WhatsApp contact */
+            .whatsapp-contact-main,
+            .whatsapp-contact__left {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+            }
+
+            .whatsapp-contact__left-heading {
+                width: 100% !important;
+                margin-top: .75rem !important;
+                line-height: 1.5 !important;
+            }
+
+
+            /* Feedback */
+            .feedback-image-column,
+            .feedback-action-column {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex: 0 0 100% !important;
+                margin: 0 !important;
+                padding: .75rem !important;
+                align-items: stretch !important;
+            }
+
+            #feedback-section .btn {
+                width: 100% !important;
+            }
+
+
+            /*
+             * Reserve bottom space for fixed widgets.
+             * This prevents fixed elements from masking page content.
+             */
+            body {
+                padding-bottom: 5rem;
+            }
+
+
+            /*
+             * Common chatbot launchers.
+             * These selectors are intentionally limited to common
+             * chatbot containers.
+             */
+            #jagriti-bot,
+            .jagriti-bot,
+            .jagriti-chatbot,
+            #chatbot,
+            .chatbot,
+            .chatbot-launcher,
+            .chatbot-widget,
+            .floating-chatbot {
+                right: .5rem !important;
+                bottom: .5rem !important;
+                max-width: 3.5rem !important;
+                max-height: 3.5rem !important;
+            }
+        }
+
+
+        /* ---------------------------------------------------------
+           400% zoom
+           --------------------------------------------------------- */
+        @media (max-width: 400px) {
+
+            .container,
+            .container-fluid {
+                width: 100% !important;
+                max-width: 100% !important;
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+
+            .row {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            [class*="col-"] {
+                max-width: 100% !important;
+            }
+
+            .carousel-caption {
+                padding: 1rem .75rem !important;
+            }
+
+            .carousel-caption__title {
+                font-size: 1.75rem !important;
+            }
+
+            .carousel-caption__text {
+                font-size: 1.125rem !important;
+            }
+
+            .success-story__title,
+            #video-heading,
+            #connect-heading,
+            #empowering-heading,
+            #grievance-heading,
+            #whatsapp-contact-heading {
+                max-width: 100% !important;
+                white-space: normal !important;
+                line-height: 1.5 !important;
+            }
+
+            #nch-videos-podcasts .row.g-3 > .col-6 {
+                width: 100% !important;
+                max-width: 100% !important;
+                flex: 0 0 100% !important;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    
+    <script src="https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"></script>
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header class="header">
+
+    <div class="header__top bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                     <div class="col-md-4 header__top--left"
+                     role="navigation"
+                     aria-label="Accessibility controls">
+
+                    
+                    <button
+                        class="header__link resize-btn"
+                        id="decrease"
+                        type="button"
+                        aria-label="Decrease font size"
+                        title="Decrease font size">
+
+                        <span aria-hidden="true">A -</span>
+
+                    </button>
+
+                    <span aria-hidden="true"> | </span>
+
+
+                    
+                    <button
+                        class="header__link resize-btn"
+                        id="reset"
+                        type="button"
+                        aria-label="Default font size"
+                        title="Default font size">
+
+                        <span aria-hidden="true">A</span>
+
+                    </button>
+
+                    <span aria-hidden="true"> | </span>
+
+
+                    
+                    <button
+                        class="header__link resize-btn"
+                        id="increase"
+                        type="button"
+                        aria-label="Increase font size"
+                        title="Increase font size">
+
+                        <span aria-hidden="true">A +</span>
+
+                    </button>
+
+                    <span aria-hidden="true"> | </span>
+
+
+                    
+                    <a href="https://consumerhelpline.gov.in/public/screenreader"
+                       class="header__link">
+
+                        Screen Reader
+
+                    </a>
+
+                    <span aria-hidden="true"> | </span>
+
+
+                    
+                    <a href="#main-content"
+                       class="header__link">
+
+                        Skip to main content
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-2 header__top--right language-selector-wrapper">
+
+                    <span
+                        id="language-selector-label"
+                        class="language-selector-label">
+
+                        Language Selector
+
+                    </span>
+
+                    <div
+                        class="bhashini-plugin-container"
+                        aria-labelledby="language-selector-label">
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 header__top--right text-end">
+
+                    <a
+                        href="https://consumerhelpline.gov.in/officiallogin/"
+                        class="header__link">
+
+                        <i class="fa fa-user"
+                           aria-hidden="true"></i>
+
+                        Official login
+
+                    </a>
+
+                    <span aria-hidden="true"> | </span>
+
+
+                    <a
+                        href="https://consumerhelpline.gov.in/user/"
+                        class="header__link">
+
+                        <i class="fa fa-user"
+                           aria-hidden="true"></i>
+
+                        Consumer login
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <nav
+        class="navbar navbar-expand-lg"
+        aria-label="Primary navigation">
+
+        <div class="container">
+
+
+            <div class="site-header-logo">
+
+                <img
+                    src="https://consumerhelpline.gov.in/public/assets/emblem-gold.png"
+                    alt="Government of India Emblem"
+                    width="65"
+                    height="90">
+
+
+                <div class="site-title">
+
+                    <p class="govt-text">
+                        Government of India
+                    </p>
+
+
+                               <p class="dept-text">
+                        Department of Consumer Affairs
+                    </p>
+
+
+                    <p class="portal-text">
+                        National Consumer Helpline (NCH) 2.0
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span
+                    class="navbar-toggler-icon"
+                    aria-hidden="true">
+                </span>
+
+            </button>
+
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarScroll">
+
+                <ul
+                    class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll align-items-center">
+
+
+                    
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="https://consumerhelpline.gov.in/public"
+                            aria-label="Home">
+
+                            <img
+                                src="https://consumerhelpline.gov.in/public/assets/home.png"
+                                alt=""
+                                aria-hidden="true">
+
+                        </a>
+
+                    </li>
+
+
+                    
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="/public/about">
+
+                            About Us
+
+                        </a>
+
+                    </li>
+
+
+                          <li class="nav-item dropdown">
+
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="convergencePartnersDropdown"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-controls="convergencePartnersMenu"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            Convergence Partners
+
+                        </a>
+
+
+                        <ul
+                            id="convergencePartnersMenu"
+                            class="dropdown-menu"
+                            role="menu"
+                            aria-labelledby="convergencePartnersDropdown">
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://consumerhelpline.gov.in/public/convergenceprogram">
+
+                                    What is Convergence Program ?
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://consumerhelpline.gov.in/public/convergenc-step-one">
+
+                                    Convergence Partner Registration
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="/public/convergencepartners">
+
+                                    Convergence Partners List
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="/public/knowledgebase">
+
+                            Knowledge Base
+
+                        </a>
+
+                    </li>
+
+
+                  
+
+                    <li class="nav-item dropdown">
+
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="importantLinksDropdown"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-controls="importantLinksMenu"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            Important Links
+
+                        </a>
+
+
+                        <ul
+                            id="importantLinksMenu"
+                            class="dropdown-menu important-links-menu"
+                            role="menu"
+                            aria-labelledby="importantLinksDropdown">
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://consumeraffairs.gov.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    Department of Consumer Affairs (Official Website)
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="http://ncdrc.nic.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    National Consumer Disputes Redressal Commission (NCDRC)
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="http://ncdrc.nic.in/statelist.html"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    State Consumer Commission
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="http://ncdrc.nic.in/districtlist.html"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    District Consumer Commission
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="http://e-jagriti.gov.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    e-Jagriti
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://www.bis.gov.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    Bureau of Indian Standards (BIS)
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://nth.gov.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    National Test House (NTH)
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+
+                            <li role="none">
+
+                                <a
+                                    class="dropdown-item"
+                                    role="menuitem"
+                                    href="https://cybercrime.gov.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    Cyber Crime
+
+                                    <span class="visually-hidden">
+                                        opens in a new tab
+                                    </span>
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="/public/contact">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+
+                    
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="https://consumerhelpline.gov.in/public/sitemap">
+
+                            Site Map
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- Scheduled Maintenance Announcement
+<div class="nch-announcement" role="region"
+     aria-label="Scheduled maintenance announcement">
+
+    <div class="announcement-label">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+        Announcement
+    </div>
+
+    <div class="announcement-marquee">
+        <div class="announcement-text">
+            <strong>Important Notice:</strong>
+            National Consumer Helpline portal will be temporarily unavailable
+            on <strong> 24 October 2026, from
+            8:00 PM to 11:00 PM</strong>
+            due to scheduled maintenance.
+            We regret the inconvenience caused.
+        </div>
+    </div>
+
+</div>  -->
+<div
+    id="font-size-status"
+    class="visually-hidden"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true">
+</div>
+<nav
+    class="float-wrapper"
+    aria-label="Contact options">
+
+    <div class="whats-float">
+
+        <a
+            href="https://api.whatsapp.com/send/?phone=918800001915&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            tabindex="0"
+            title="Contact NCH on WhatsApp, opens in a new tab"
+            aria-label="Contact NCH on WhatsApp at 8800001915, opens in a new tab">
+
+            <i
+                class="fa fa-whatsapp"
+                aria-hidden="true">
+            </i>
+
+
+            <span>
+                WhatsApp<br>
+                +918800001915
+            </span>
+
+        </a>
+
+    </div>
+
+    <div class="call-float">
+
+        <a
+            href="tel:1915"
+            tabindex="0"
+            title="Call National Consumer Helpline toll free number 1915"
+            aria-label="Call National Consumer Helpline toll free number 1915, available 8 AM to 8 PM">
+
+            <i
+                class="fa fa-phone"
+                aria-hidden="true">
+            </i>
+
+
+            <span>
+                Toll Free<br>
+                1915<br>
+
+                <small>
+                    (8AM to 8PM)
+                </small>
+
+            </span>
+
+        </a>
+
+    </div>
+
+</nav>
+
+
+<script
+    id="gs-sdk"
+    src="https://web-widget.gupshup.io/v3/demo/static/js/sdk.js"
+    appId="6c04f366-6caf-4dda-a100-ea912b7c2377"
+    ref="ar">
+</script>
+
+<style>
+/* NCH Maintenance Announcement */
+
+.nch-announcement {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #fff3cd;
+    border-top: 1px solid #ffe69c;
+    border-bottom: 1px solid #ffe69c;
+    overflow: hidden;
+    min-height: 44px;
+}
+
+.announcement-label {
+    background: #b42318;
+    color: #ffffff;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.announcement-label i {
+    margin-right: 6px;
+}
+
+.announcement-marquee {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.announcement-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #842029;
+    animation: nch-marquee 22s linear infinite;
+}
+
+@keyframes  nch-marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Pause on hover or keyboard focus */
+.announcement-marquee:hover .announcement-text,
+.announcement-marquee:focus-within .announcement-text {
+    animation-play-state: paused;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    .announcement-label {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .announcement-text {
+        font-size: 13px;
+        animation-duration: 18s;
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .announcement-text {
+        animation: none;
+        padding-left: 10px;
+        white-space: normal;
+    }
+}
+    .language-selector-wrapper {
+        position: relative;
+        min-width: 0;
+    }
+
+    .language-selector-label {
+        display: inline-block;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #212529;
+        margin-right: 0.35rem;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .bhashini-plugin-container {
+        display: inline-block;
+        max-width: 100%;
+        min-width: 0;
+        vertical-align: middle;
+    }
+
+
+    .important-links-menu {
+        max-width: min(24rem, 90vw);
+        min-width: 18rem;
+    }
+
+    .dropdown-menu[role="menu"] {
+        max-width: min(24rem, calc(100vw - 2rem));
+    }
+
+    .dropdown-menu[role="menu"] .dropdown-item,
+    .important-links-menu .dropdown-item {
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+        line-height: 1.35 !important;
+    }
+
+    a:focus,
+    button:focus,
+    select:focus,
+    input:focus,
+    textarea:focus,
+    [tabindex]:focus,
+    [role="button"]:focus,
+    [role="menuitem"]:focus,
+    a:focus-visible,
+    button:focus-visible,
+    select:focus-visible,
+    input:focus-visible,
+    textarea:focus-visible,
+    [tabindex]:focus-visible,
+    [role="button"]:focus-visible,
+    [role="menuitem"]:focus-visible {
+
+        outline: 3px solid #000000 !important;
+        outline-offset: 3px !important;
+        box-shadow: none !important;
+
+    }
+
+    .resize-btn:focus-visible,
+    .header__link:focus-visible {
+
+        outline: 3px solid #000000 !important;
+        outline-offset: 3px !important;
+        position: relative;
+        z-index: 10001;
+
+    }
+
+
+    .float-wrapper {
+
+        position: fixed !important;
+
+        right: 0 !important;
+
+        top: 32% !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: flex-end !important;
+
+        gap: 1rem !important;
+
+        z-index: 9999 !important;
+
+        max-width: 100vw !important;
+
+        pointer-events: none !important;
+
+    }
+
+    .whats-float,
+    .call-float {
+
+        position: relative !important;
+
+        width: 10.625rem !important;
+
+        height: 3.6rem !important;
+
+        overflow: hidden !important;
+
+        border-radius: 10px 0 0 10px !important;
+
+        transform: translate(6.75rem, 0) !important;
+
+        transition: all 0.5s ease-in-out !important;
+
+        color: #ffffff !important;
+
+        border: none !important;
+
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12) !important;
+
+        flex-shrink: 0 !important;
+
+        pointer-events: auto !important;
+
+    }
+
+
+    .whats-float {
+
+        background-color: #25d366 !important;
+
+    }
+
+
+    .call-float {
+
+        background-color: #007bff !important;
+
+    }
+
+    .whats-float:hover,
+    .whats-float:focus-within {
+
+        transform: translate(0, 0) !important;
+
+        background-color: #1da851 !important;
+
+    }
+
+
+    .call-float:hover,
+    .call-float:focus-within {
+
+        transform: translate(0, 0) !important;
+
+        background-color: #0069d9 !important;
+
+    }
+
+
+    .whats-float a,
+    .call-float a {
+
+        display: block !important;
+
+        width: 100% !important;
+
+        height: 100% !important;
+
+        text-decoration: none !important;
+
+        color: #ffffff !important;
+
+        position: relative !important;
+
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        border: 0 !important;
+
+        background: transparent !important;
+
+    }
+
+
+    .whats-float a:focus-visible,
+    .call-float a:focus-visible {
+
+        outline: 4px solid #000000 !important;
+
+        outline-offset: -4px !important;
+
+        border-radius: 10px 0 0 10px !important;
+
+        z-index: 10001 !important;
+
+    }
+
+    .whats-float i,
+    .call-float i {
+
+        position: absolute !important;
+
+        left: 0.6rem !important;
+
+        top: 50% !important;
+
+        transform: translateY(-50%) !important;
+
+        font-size: 1.5rem !important;
+
+        width: 1.5rem !important;
+
+        text-align: center !important;
+
+        color: #ffffff !important;
+
+        z-index: 2 !important;
+
+        line-height: 1 !important;
+
+    }
+
+    .whats-float a span,
+    .call-float a span {
+
+        position: absolute !important;
+
+        color: #ffffff !important;
+
+        font-size: 0.9375rem !important;
+
+        font-weight: bolder !important;
+
+        line-height: 1.1rem !important;
+
+        padding-left: 32% !important;
+
+        padding-top: 0.5rem !important;
+
+        padding-bottom: 0.625rem !important;
+
+        top: 0 !important;
+
+        left: 0 !important;
+
+        width: 100% !important;
+
+        height: 100% !important;
+
+        box-sizing: border-box !important;
+
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        justify-content: center !important;
+
+        overflow-wrap: anywhere !important;
+
+    }
+
+
+    .whats-float a span small,
+    .call-float a span small {
+
+        font-size: 0.65rem !important;
+
+        font-weight: 400 !important;
+
+        opacity: 0.9 !important;
+
+        display: block !important;
+
+        margin-top: 0.05rem !important;
+
+        color: #ffffff !important;
+
+    }
+
+
+    .gupshup-focus-visible {
+
+        outline: 4px solid #000000 !important;
+
+        outline-offset: 4px !important;
+
+        border-radius: 50% !important;
+
+        box-shadow: 0 0 0 6px #ffffff !important;
+
+    }
+
+    #widget-open.tc-widget,
+    .tc-widget.widget-type.circular-widget {
+        max-width: 3.5rem !important;
+        max-height: 3.5rem !important;
+    }
+
+
+
+    @media (max-width: 767.98px) {
+
+        .navbar-nav .dropdown-menu {
+
+            position: static !important;
+
+        }
+
+        .language-selector-wrapper {
+
+            margin-top: 0.25rem;
+
+            margin-bottom: 0.25rem;
+
+            text-align: left;
+
+        }
+
+
+        .language-selector-label {
+
+            display: block;
+
+            margin-bottom: 0.25rem;
+
+        }
+
+
+        .important-links-menu {
+
+            width: min(100%, calc(100vw - 2rem)) !important;
+
+            max-width: calc(100vw - 2rem) !important;
+
+            min-width: 0 !important;
+
+        }
+
+
+        .important-links-menu .dropdown-item {
+
+            white-space: normal !important;
+
+            overflow-wrap: anywhere !important;
+
+            max-width: 100% !important;
+
+        }
+
+
+        .float-wrapper {
+
+            top: auto !important;
+
+            bottom: 1rem !important;
+
+            gap: 0.6rem !important;
+
+        }
+
+
+        .important-links-menu {
+
+            width: calc(100vw - 2rem) !important;
+
+            max-width: calc(100vw - 2rem) !important;
+
+        }
+
+
+        .important-links-menu .dropdown-item {
+
+            display: block !important;
+
+            width: 100% !important;
+
+            max-width: 100% !important;
+
+            white-space: normal !important;
+
+            overflow-wrap: anywhere !important;
+
+            word-break: normal !important;
+
+        }
+
+    }
+
+
+    @media (max-width: 480px) {
+
+        .float-wrapper {
+
+            top: auto !important;
+
+            bottom: 1rem !important;
+
+            gap: 0.8rem !important;
+
+        }
+
+        #widget-open.tc-widget,
+        .tc-widget.widget-type.circular-widget {
+            right: auto !important;
+            left: 1rem !important;
+            bottom: 1rem !important;
+            z-index: 9998 !important;
+        }
+
+
+        .whats-float,
+        .call-float {
+
+            width: min(9rem, calc(100vw - 5rem)) !important;
+
+            height: 2.8rem !important;
+
+            transform: none !important;
+
+        }
+
+
+        .whats-float i,
+        .call-float i {
+
+            font-size: 1.2rem !important;
+
+            width: 1.2rem !important;
+
+            left: 0.4rem !important;
+
+        }
+
+
+        .whats-float a span,
+        .call-float a span {
+
+            font-size: 0.75rem !important;
+
+            padding-top: 0.3rem !important;
+
+            padding-bottom: 0.4rem !important;
+
+            padding-left: 28% !important;
+
+            line-height: 0.9rem !important;
+
+        }
+
+
+        .whats-float a span small,
+        .call-float a span small {
+
+            font-size: 0.55rem !important;
+
+        }
+
+    }
+
+
+    @media (max-width: 360px) {
+
+        .float-wrapper {
+
+            top: auto !important;
+
+            bottom: 0.75rem !important;
+
+            gap: 0.6rem !important;
+
+        }
+
+
+        .whats-float,
+        .call-float {
+
+            width: min(7.5rem, calc(100vw - 5rem)) !important;
+
+            height: 2.2rem !important;
+
+            transform: none !important;
+
+            border-radius: 8px 0 0 8px !important;
+
+        }
+
+
+        .whats-float i,
+        .call-float i {
+
+            font-size: 1rem !important;
+
+            width: 1rem !important;
+
+            left: 0.3rem !important;
+
+        }
+
+
+        .whats-float a span,
+        .call-float a span {
+
+            font-size: 0.65rem !important;
+
+            padding-top: 0.2rem !important;
+
+            padding-bottom: 0.3rem !important;
+
+            padding-left: 24% !important;
+
+            line-height: 0.8rem !important;
+
+        }
+
+
+        .whats-float a span small,
+        .call-float a span small {
+
+            font-size: 0.45rem !important;
+
+        }
+
+
+        .whats-float a:focus-visible,
+        .call-float a:focus-visible {
+
+            outline-offset: -3px !important;
+
+        }
+
+    }
+
+
+    @media (prefers-reduced-motion: reduce) {
+
+        .whats-float,
+        .call-float {
+
+            transition: none !important;
+
+        }
+
+    }
+
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+
+    const fontStatus = document.getElementById("font-size-status");
+
+    const decreaseBtn = document.getElementById("decrease");
+
+    const resetBtn = document.getElementById("reset");
+
+    const increaseBtn = document.getElementById("increase");
+
+
+    function announceFontChange(message) {
+
+        if (!fontStatus) {
+            return;
+        }
+        fontStatus.textContent = "";
+
+        window.setTimeout(function () {
+
+            fontStatus.textContent = message;
+
+        }, 50);
+
+    }
+
+
+    if (decreaseBtn) {
+
+        decreaseBtn.addEventListener("click", function () {
+
+            announceFontChange(
+                "Font size decreased."
+            );
+
+        });
+
+    }
+
+
+    if (resetBtn) {
+
+        resetBtn.addEventListener("click", function () {
+
+            announceFontChange(
+                "Font size reset to default."
+            );
+
+        });
+
+    }
+
+
+    if (increaseBtn) {
+
+        increaseBtn.addEventListener("click", function () {
+
+            announceFontChange(
+                "Font size increased."
+            );
+
+        });
+
+    }
+
+
+
+    function fixLanguageSelector() {
+
+        const container =
+            document.querySelector(
+                ".bhashini-plugin-container"
+            );
+
+        if (!container) {
+            return;
+        }
+
+
+        /*
+         * Find common interactive elements created by
+         * translation widgets.
+         */
+        const controls =
+            container.querySelectorAll(
+                "select, button, input, [role='button'], [tabindex]"
+            );
+
+
+        controls.forEach(function (control, index) {
+            if (
+                !control.getAttribute("aria-label") ||
+                control.getAttribute("aria-label")
+                    .toLowerCase()
+                    .includes("translator")
+            ) 
+
+        });
+
+    }
+
+    fixLanguageSelector();
+
+
+    const languageContainer =
+        document.querySelector(
+            ".bhashini-plugin-container"
+        );
+
+
+    if (languageContainer) {
+
+        const observer =
+            new MutationObserver(function () {
+
+                fixLanguageSelector();
+
+            });
+
+
+        observer.observe(
+            languageContainer,
+            {
+                childList: true,
+                subtree: true
+            }
+        );
+
+    }
+
+
+    function findJagritiWidget() {
+
+        const widget =
+            document.querySelector(
+                '#widget-open, .tc-widget.widget-type.circular-widget, iframe[src*="gupshup"], iframe[src*="web-widget"], iframe[title*="Gupshup"]'
+            );
+
+
+        if (!widget) {
+
+            return false;
+
+        }
+
+
+        widget.setAttribute(
+            "role",
+            "button"
+        );
+
+        widget.setAttribute(
+            "aria-label",
+            "Jagriti-chat bot"
+        );
+
+        widget.setAttribute(
+            "title",
+            "Jagriti-chat bot"
+        );
+
+        widget.setAttribute(
+            "tabindex",
+            "0"
+        );
+        widget.addEventListener(
+            "focus",
+            function () {
+
+                widget.classList.add(
+                    "gupshup-focus-visible"
+                );
+
+            }
+        );
+
+
+        widget.addEventListener(
+            "blur",
+            function () {
+
+                widget.classList.remove(
+                    "gupshup-focus-visible"
+                );
+
+            }
+        );
+
+
+        /*
+         * Keyboard activation
+         */
+        widget.addEventListener(
+            "keydown",
+            function (event) {
+
+                if (
+                    event.key === "Enter" ||
+                    event.key === " "
+                ) {
+
+                    event.preventDefault();
+
+                    try {
+
+                        widget.click();
+
+                    } catch (error) {
+
+                        console.warn(
+                            "Jagriti widget keyboard activation unavailable."
+                        );
+
+                    }
+
+                }
+
+            }
+        );
+
+
+        return true;
+
+    }
+
+
+    /*
+     * Gupshup loads asynchronously.
+     * Retry until the widget is available.
+     */
+
+    let jagritiAttempts = 0;
+
+    const jagritiRetry =
+        setInterval(function () {
+
+            jagritiAttempts++;
+
+            if (findJagritiWidget()) {
+
+                clearInterval(jagritiRetry);
+
+            }
+
+
+            /*
+             * Avoid endless polling.
+             */
+            if (jagritiAttempts >= 40) {
+
+                clearInterval(jagritiRetry);
+
+            }
+
+        }, 500);
+
+
+});
+
+</script>
+
+
+    
+    <main id="main-content" tabindex="-1">
+
+
+        <!-- =====================================================
+             HERO / BANNER
+             ===================================================== -->
+        <div class="banner">
+
+            <div id="carouselExampleControls"
+                 class="carousel slide"
+                 data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <div class="banner-container">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/home-banner.png"
+                                 alt="Jago Grahak Jago campaign banner promoting consumer grievance redressal services"
+                                 class="d-block w-100 carousel-item--image">
+
+                        </div>
+
+
+                        <!-- Caption -->
+                        <div class="carousel-caption"
+                             aria-label="Slide Information">
+
+                            <h1 class="carousel-caption__title"
+                                style="color: #FFFFFF; font-size: clamp(1.5rem, 4vw, 3rem); word-wrap: break-word; overflow-wrap: break-word; line-height: 1.4; display: block; visibility: visible; opacity: 1; min-height: auto; margin-bottom: 10px; font-weight: bold;">
+
+                                Your Grievances, Our Redressal
+
+                            </h1>
+
+
+                            <p class="carousel-caption__text"
+                               style="color: #FFFFFF; font-size: clamp(1rem, 2vw, 1.5rem); word-wrap: break-word; overflow-wrap: break-word; display: block; visibility: visible; opacity: 1;">
+
+                                We are here to solve your grievances
+
+                            </p>
+
+
+                            <!-- Grievance Actions -->
+                            <div class="carousel-caption__actions"
+                                 role="group"
+                                 aria-label="Grievance Actions">
+
+
+                                <!-- Register -->
+                                <div class="carousel-caption__card">
+
+                                    <h2 class="carousel-caption__card-title">
+                                        Register Grievance
+                                    </h2>
+
+                                    <a class="btn btn-primary carousel-caption-button"
+                                       href="https://consumerhelpline.gov.in/user/index.php"
+                                       aria-label="Register a grievance">
+
+                                        <img src="https://consumerhelpline.gov.in/public/assets/register.svg"
+                                             alt=""
+                                             class="btn-icon"
+                                             aria-hidden="true">
+
+                                        Register
+
+                                    </a>
+
+                                </div>
+
+
+                                <!-- Track -->
+                                <div class="carousel-caption__card">
+
+                                    <h2 class="carousel-caption__card-title">
+                                        Track Your Grievance
+                                    </h2>
+
+                                    <a class="btn btn-primary carousel-caption-button"
+                                       href="https://consumerhelpline.gov.in/user/track-complaint.php"
+                                       aria-label="Track your grievance">
+
+                                        <img src="https://consumerhelpline.gov.in/public/assets/track.svg"
+                                             alt=""
+                                             class="btn-icon"
+                                             aria-hidden="true">
+
+                                        Track Now
+
+                                    </a>
+
+                                </div>
+
+
+                                <!-- Upload -->
+                                <div class="carousel-caption__card">
+
+                                    <h2 class="carousel-caption__card-title">
+                                        Upload Documents
+                                    </h2>
+
+                                    <a class="btn btn-primary carousel-caption-button"
+                                       href="https://consumerhelpline.gov.in/user/upload-docs.php"
+                                       aria-label="Upload documents for grievance">
+
+                                        <img src="https://consumerhelpline.gov.in/public/assets/upload.svg"
+                                             alt=""
+                                             class="btn-icon"
+                                             aria-hidden="true">
+
+                                        Upload
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             NCH INGRAM
+             ===================================================== -->
+        <div class="features py-5">
+
+            <div class="container feature-sec-padding">
+
+                <div class="row align-items-center">
+
+
+                    <!-- Jagriti / NCH INGRAM -->
+                    <div class="col-md-6">
+
+                        <div class="nch-ingram-content">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/Jagriti-image.png"
+                                 class="img-fluid features__jagriti-img"
+                                 alt=""
+                                 aria-hidden="true"
+                                 role="presentation">
+
+
+                            <div class="nch-ingram-text mt-3">
+
+                                <h2 id="features-heading"
+                                    class="nch-ingram-title">
+
+                                    NCH INGRAM
+
+                                </h2>
+
+                                <p class="nch-ingram-subtitle">
+                                    Integrated Grievance Redressal Mechanism
+                                </p>
+
+                                <p class="nch-ingram-whatsapp">
+                                    Integrated with WhatsApp
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Platform links -->
+                    <div class="col-md-6 features__items">
+
+
+                        <!-- Web Portal -->
+                        <div class="features__item text-center mb-3">
+
+                            <a href="https://consumerhelpline.gov.in/user/signup.php"
+                               class="features-link d-inline-block"
+                               aria-label="Register grievance through Web Portal">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/icon01.png"
+                                     alt="Web Portal for complaint registration"
+                                     class="features__img">
+
+                            </a>
+
+                        </div>
+
+
+                        <!-- SMS and Call -->
+                        <div class="features__item d-flex justify-content-between mb-3"
+                             role="group"
+                             aria-label="SMS and Call Center">
+
+
+                            <!-- SMS -->
+                            <div class="text-center">
+
+                                <a href="sms:+918800001915"
+                                   class="d-inline-block"
+                                   aria-label="Send SMS to 8800001915 for consumer grievance support">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/icon02.png"
+                                         alt="Send SMS for complaint"
+                                         class="features__img">
+
+                                </a>
+
+                            </div>
+
+
+                            <!-- Call -->
+                            <div class="text-center">
+
+                                <a href="tel:+918800001915"
+                                   class="d-inline-block"
+                                   aria-label="Call the National Consumer Helpline at 8800001915">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/icon03.png"
+                                         alt="Call consumer helpline"
+                                         class="features__img">
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Mobile Apps -->
+                        <div class="features__item d-flex justify-content-between"
+                             role="group"
+                             aria-label="Mobile Apps">
+
+
+                            <!-- UMANG -->
+                            <div class="text-center">
+
+                                <a href="https://play.google.com/store/apps/details?id=in.gov.umang.negd.g2c&hl=en"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="d-inline-block"
+                                   aria-label="Download UMANG App from Google Play">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/icon04.png"
+                                         alt="UMANG mobile application"
+                                         class="features__img">
+
+                                </a>
+
+                            </div>
+
+
+                            <!-- NCH App -->
+                            <div class="text-center">
+
+                                <a href="https://play.google.com/store/apps/details?id=mount.talent.mtcdev02.udaan"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="d-inline-block"
+                                   aria-label="Download NCH App from Google Play">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/icon05.png"
+                                         alt="National Consumer Helpline mobile app"
+                                         class="features__img">
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <style>
+
+            /* WCAG 1.4.5 */
+            .nch-ingram-content {
+                width: 100%;
+                max-width: 32rem;
+                margin-inline: auto;
+                text-align: center;
+            }
+
+            .nch-ingram-content .features__jagriti-img {
+                display: block;
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                margin-inline: auto;
+            }
+
+            .nch-ingram-text {
+                width: 100%;
+            }
+
+            .nch-ingram-title {
+                margin: 0 0 .75rem;
+                font-size: clamp(2rem, 4vw, 3.5rem);
+                line-height: 1.2;
+                font-weight: 700;
+                overflow-wrap: anywhere;
+            }
+
+            .nch-ingram-subtitle,
+            .nch-ingram-whatsapp {
+                margin: 0 0 .75rem;
+                font-size: clamp(1rem, 2vw, 1.35rem);
+                line-height: 1.5;
+                overflow-wrap: anywhere;
+            }
+
+            .features a:focus,
+            .features a:focus-visible {
+                outline: 3px solid #000;
+                outline-offset: 4px;
+            }
+
+        </style>
+
+
+
+        <!-- =====================================================
+             CONNECT WITH US
+             ===================================================== -->
+        <div id="section--connect"
+             class="connect-section py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2 id="connect-heading"
+                        class="fw-bold connect-title">
+
+                        Connect With Us
+
+                    </h2>
+
+                    <p class="connect-subtitle">
+                        Choose your preferred platform to reach National Consumer Helpline
+                    </p>
+
+                </div>
+
+
+                <ul class="row g-4 justify-content-center list-unstyled"
+                    role="list"
+                    aria-label="National Consumer Helpline contact platforms">
+
+
+                    <!-- WhatsApp -->
+                    <li class="col-12 col-sm-6 col-lg-4"
+                        role="listitem">
+
+                        <div class="connect-card">
+
+                            <div class="connect-card-inner h-100 text-center">
+
+                                <div class="icon-wrapper">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/whatsapp.png"
+                                         alt="WhatsApp QR Code">
+
+                                </div>
+
+                                <h3 class="connect-card__title mt-4 fw-semibold">
+                                    <a href="https://api.whatsapp.com/send/?phone=918800001915&text&type=phone_number&app_absent=0"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="connect-card__link">
+                                        WhatsApp Web
+                                    </a>
+                                </h3>
+
+                                <p class="small mt-2">
+                                    Instant chat support for consumer grievances
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                    <!-- NCH App -->
+                    <li class="col-12 col-sm-6 col-lg-4"
+                        role="listitem">
+
+                        <div class="connect-card">
+
+                            <div class="connect-card-inner h-100 text-center">
+
+                                <div class="icon-wrapper">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/nchapp.png"
+                                         alt="NCH Mobile App QR Code">
+
+                                </div>
+
+                                <h3 class="connect-card__title mt-4 fw-semibold">
+                                    <a href="https://play.google.com/store/apps/details?id=mount.talent.mtcdev02.udaan"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="connect-card__link">
+                                        NCH Mobile App
+                                    </a>
+                                </h3>
+
+                                <p class="small mt-2">
+                                    Register complaints and track status easily
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                    <!-- UMANG -->
+                    <li class="col-12 col-sm-6 col-lg-4"
+                        role="listitem">
+
+                        <div class="connect-card">
+
+                            <div class="connect-card-inner h-100 text-center">
+
+                                <div class="icon-wrapper">
+
+                                    <img src="https://consumerhelpline.gov.in/public/assets/umang.png"
+                                         alt="UMANG App QR Code">
+
+                                </div>
+
+                                <h3 class="connect-card__title mt-4 fw-semibold">
+                                    <a href="https://consumerhelpline.gov.in/apps/umang/"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="connect-card__link">
+                                        UMANG App
+                                    </a>
+                                </h3>
+
+                                <p class="small mt-2">
+                                    Access services via unified government platform
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             SUCCESS STORIES
+             ===================================================== -->
+        <div id="success-story"
+             class="success-story-section">
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <!-- Heading -->
+                    <div class="col-lg-4 col-md-4 success-story__heading">
+
+                        <h2 id="success-story-heading"
+                            class="success-story__title">
+
+                            NCH Success Stories
+
+                        </h2>
+
+                        <a href="https://consumerhelpline.gov.in/public/successstories"
+                           class="success-story__link"
+                           aria-label="View all consumer success stories">
+
+                            View all Stories
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Success Story Cards -->
+                    <div class="col-lg-6 col-md-8 offset-lg-1">
+
+                        <div class="card success-story__card">
+
+                            <ul class="list-unstyled success-story__list mb-0 scroll-container">
+
+                                
+                                    <li class="success-story__item active">
+
+                                        <article class="card success-story__item-card">
+
+                                            <div class="row g-0 align-items-start">
+
+                                                <div class="col-md-4 col-4">
+
+                                                    <img src="./assets/success-story-img.png"
+                                                         class="img-fluid rounded-start"
+                                                         alt=""
+                                                         aria-hidden="true">
+
+                                                </div>
+
+
+                                                <div class="col-md-8 col-8">
+
+                                                    <div class="card-body">
+
+                                                        <p>
+                                                            Excellent! Good.
+                                                        </p>
+
+                                                        <a href="https://consumerhelpline.gov.in/public/successstorydetails/177"
+                                                           target="_blank"
+                                                           rel="noopener noreferrer"
+                                                           class="success-story__view-link"
+                                                           aria-label="View Story #2753015">
+
+                                                            View Story #2753015
+
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </article>
+
+                                    </li>
+
+                                
+                                    <li class="success-story__item active">
+
+                                        <article class="card success-story__item-card">
+
+                                            <div class="row g-0 align-items-start">
+
+                                                <div class="col-md-4 col-4">
+
+                                                    <img src="./assets/success-story-img.png"
+                                                         class="img-fluid rounded-start"
+                                                         alt=""
+                                                         aria-hidden="true">
+
+                                                </div>
+
+
+                                                <div class="col-md-8 col-8">
+
+                                                    <div class="card-body">
+
+                                                        <p>
+                                                            Jeweler refunded the excess amount that he charged unfairly. I want to close the case/complaint.
+                                                        </p>
+
+                                                        <a href="https://consumerhelpline.gov.in/public/successstorydetails/62"
+                                                           target="_blank"
+                                                           rel="noopener noreferrer"
+                                                           class="success-story__view-link"
+                                                           aria-label="View Story #2047569">
+
+                                                            View Story #2047569
+
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </article>
+
+                                    </li>
+
+                                
+                                    <li class="success-story__item active">
+
+                                        <article class="card success-story__item-card">
+
+                                            <div class="row g-0 align-items-start">
+
+                                                <div class="col-md-4 col-4">
+
+                                                    <img src="./assets/success-story-img.png"
+                                                         class="img-fluid rounded-start"
+                                                         alt=""
+                                                         aria-hidden="true">
+
+                                                </div>
+
+
+                                                <div class="col-md-8 col-8">
+
+                                                    <div class="card-body">
+
+                                                        <p>
+                                                            Satisfied with Consumer helpline.
+                                                        </p>
+
+                                                        <a href="https://consumerhelpline.gov.in/public/successstorydetails/53"
+                                                           target="_blank"
+                                                           rel="noopener noreferrer"
+                                                           class="success-story__view-link"
+                                                           aria-label="View Story #1995852">
+
+                                                            View Story #1995852
+
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </article>
+
+                                    </li>
+
+                                
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             NCH VIDEOS AND PODCASTS
+             ===================================================== -->
+        <div id="nch-videos-podcasts"
+             class="ctmpadding-60">
+
+            <div class="container">
+
+                <h2 id="video-heading"
+                    class="text-center fw-bold mb-4">
+
+                    NCH Videos and Podcasts
+
+                </h2>
+
+
+                <div class="row">
+
+
+                    <!-- Main Video -->
+                    <div class="col-lg-8 mb-4">
+
+                        <div class="ratio ratio-16x9">
+
+                            <video id="mainVideo"
+                                   controls
+                                   preload="metadata"
+                                   title="Main video player for National Consumer Helpline videos and podcasts"
+                                   aria-describedby="video-heading">
+
+                                <source src="https://consumerhelpline.gov.in/public/assets/videos/podcast.mp4"
+                                        type="video/mp4">
+
+                                Your browser does not support the video tag.
+
+                            </video>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Video Thumbnails -->
+                    <div class="col-lg-4">
+
+                        <div class="row g-3">
+
+
+                            <!-- Thumbnail 1 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/ss.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/nch-ss-1.mp4"
+                                     alt="Play NCH Success Story 1 video"
+                                     title="Play NCH Success Story 1 video"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+
+                            <!-- Thumbnail 2 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/ss.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/nch-ss-2.mp4"
+                                     alt="Play NCH Success Story 2 video"
+                                     title="Play NCH Success Story 2 video"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+
+                            <!-- Thumbnail 3 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/sunil-grover.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/SUNIl-GROVER.mp4"
+                                     alt="Play awareness video featuring Sunil Grover"
+                                     title="Play awareness video featuring Sunil Grover"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+
+                            <!-- Thumbnail 4 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/nch-edhakil.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/nch-edhakil.mp4"
+                                     alt="Play NCH e-Dakhil platform awareness video"
+                                     title="Play NCH e-Dakhil platform awareness video"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+
+                            <!-- Thumbnail 5 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/manish-paul.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/MANISH-PAUL.mp4"
+                                     alt="Play awareness video featuring Manish Paul"
+                                     title="Play awareness video featuring Manish Paul"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+
+                            <!-- Thumbnail 6 -->
+                            <div class="col-6">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/ss.png"
+                                     class="img-fluid img-thumbnail video-thumb"
+                                     data-video="https://consumerhelpline.gov.in/public/assets/videos/nch-ss-3.mp4"
+                                     alt="Play NCH Success Story 3 video"
+                                     title="Play NCH Success Story 3 video"
+                                     role="button"
+                                     tabindex="0">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             EMPOWERING CONSUMERS
+             ===================================================== -->
+        <div id="section--empowering-consumers"
+             class="empowering-consumers-padding">
+
+            <div class="container">
+
+                <h2 id="empowering-heading"
+                    class="text-center fw-bold pb-4">
+
+                    NCH 2.0 – Empowering Consumers
+
+                </h2>
+
+
+                <ul class="row justify-content-center list-unstyled"
+                    role="list"
+                    aria-label="NCH empowerment features">
+
+
+                    <li class="col-6 col-md-3 text-center empowering-consumers__detail"
+                        role="listitem">
+
+                        <img src="https://consumerhelpline.gov.in/public/assets/language.png"
+                             alt=""
+                             aria-hidden="true"
+                             role="presentation"
+                             class="empowering-consumers__icon">
+
+                        <p class="empowering-consumers__text">
+                            17 Languages
+                        </p>
+
+                    </li>
+
+
+                    <li class="col-6 col-md-3 text-center empowering-consumers__detail"
+                        role="listitem">
+
+                        <img src="https://consumerhelpline.gov.in/public/assets/channels.png"
+                             alt=""
+                             aria-hidden="true"
+                             role="presentation"
+                             class="empowering-consumers__icon">
+
+                        <p class="empowering-consumers__text">
+                            Omni Channels
+                        </p>
+
+                    </li>
+
+
+                    <li class="col-6 col-md-3 text-center empowering-consumers__detail"
+                        role="listitem">
+
+                        <img src="https://consumerhelpline.gov.in/public/assets/partner.png"
+                             alt=""
+                             aria-hidden="true"
+                             role="presentation"
+                             class="empowering-consumers__icon">
+
+                        <p class="empowering-consumers__text">
+                            Convergence Partner
+                        </p>
+
+                    </li>
+
+
+                    <li class="col-6 col-md-3 text-center empowering-consumers__detail"
+                        role="listitem">
+
+                        <img src="https://consumerhelpline.gov.in/public/assets/call.png"
+                             alt=""
+                             aria-hidden="true"
+                             role="presentation"
+                             class="empowering-consumers__icon">
+
+                        <p class="empowering-consumers__text">
+                            Call Back Facility
+                        </p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             GRIEVANCE LODGING
+             ===================================================== -->
+        <div id="grievance-lodging"
+             class="ctmpadding-60">
+
+            <div class="container">
+
+                <h2 id="grievance-heading"
+                    class="text-center fw-bold pb-4">
+
+                    Multiple ways to lodge grievances
+
+                </h2>
+
+
+                <ul class="row row-cols-1 row-cols-md-4 g-4 justify-content-between list-unstyled mb-0">
+
+
+                    <!-- CARD 1 -->
+                    <li class="col Grievance-Lodging-card">
+
+                        <a href="https://consumerhelpline.gov.in/user/signup.php"
+                           class="card card-grievance-lodging h-100"
+                           aria-label="Lodge grievance through Online Portal">
+
+                            <div class="text-center">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/documents-1.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     role="presentation"
+                                     class="card-img-top">
+
+                            </div>
+
+
+                            <div class="card-body">
+
+                                <span class="d-flex justify-content-between align-items-center">
+
+                                    Through Online Portal
+
+                                    <svg aria-hidden="true"
+                                         width="24"
+                                         height="24">
+
+                                        <line x1="5"
+                                              y1="12"
+                                              x2="19"
+                                              y2="12"></line>
+
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+
+                                    </svg>
+
+                                </span>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- CARD 2 -->
+                    <li class="col Grievance-Lodging-card">
+
+                        <a href="https://play.google.com/store/apps/details?id=mount.talent.mtcdev02.udaan"
+                           class="card card-grievance-lodging h-100"
+                           aria-label="Lodge grievance through NCH App">
+
+                            <div class="d-flex justify-content-center align-items-center"
+                                 aria-hidden="true">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/android.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     class="card-img-top"
+                                     role="presentation">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/apple.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     class="card-img-top">
+
+                            </div>
+
+
+                            <div class="card-body">
+
+                                <span class="d-flex justify-content-between align-items-center">
+
+                                    Through NCH App
+
+                                    <svg aria-hidden="true"
+                                         width="24"
+                                         height="24">
+
+                                        <line x1="5"
+                                              y1="12"
+                                              x2="19"
+                                              y2="12"></line>
+
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+
+                                    </svg>
+
+                                </span>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- CARD 3 -->
+                    <li class="col Grievance-Lodging-card">
+
+                        <a href="https://play.google.com/store/apps/details?id=in.gov.umang.negd.g2c&hl=en"
+                           class="card card-grievance-lodging h-100"
+                           aria-label="Lodge grievance through UMANG App">
+
+                            <div class="d-flex justify-content-center align-items-center"
+                                 aria-hidden="true">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/android.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     class="card-img-top">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/apple.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     class="card-img-top">
+
+                            </div>
+
+
+                            <div class="card-body">
+
+                                <span class="d-flex justify-content-between align-items-center">
+
+                                    Through UMANG App
+
+                                    <svg aria-hidden="true"
+                                         width="24"
+                                         height="24">
+
+                                        <line x1="5"
+                                              y1="12"
+                                              x2="19"
+                                              y2="12"></line>
+
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+
+                                    </svg>
+
+                                </span>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- CARD 4 -->
+                    <li class="col Grievance-Lodging-card">
+
+                        <a href="https://api.whatsapp.com/send/?phone=918800001915"
+                           class="card card-grievance-lodging h-100"
+                           aria-label="Lodge grievance through WhatsApp">
+
+                            <div class="text-center">
+
+                                <img src="https://consumerhelpline.gov.in/public/assets/whatsapp.svg"
+                                     alt=""
+                                     aria-hidden="true"
+                                     class="card-img-top"
+                                     role="presentation">
+
+                            </div>
+
+
+                            <div class="card-body">
+
+                                <span class="d-flex justify-content-between align-items-center">
+
+                                    Through WhatsApp
+
+                                    <svg aria-hidden="true"
+                                         width="24"
+                                         height="24">
+
+                                        <line x1="5"
+                                              y1="12"
+                                              x2="19"
+                                              y2="12"></line>
+
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+
+                                    </svg>
+
+                                </span>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             WHATSAPP CONTACT
+             ===================================================== -->
+        <div id="whatsapp-contact"
+             class="whatsapp-contact pt-5 pb-5">
+
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center whatsapp-contact-main">
+
+
+                <!-- WhatsApp Info -->
+                <div class="whatsapp-contact__left d-flex align-items-center"
+                     role="group"
+                     aria-label="National Consumer Helpline Contact Information">
+
+                    <img src="https://consumerhelpline.gov.in/public/assets/whatsapp-icon.svg"
+                         class="whatsapp-contact__icon me-3"
+                         alt="WhatsApp logo">
+
+                    <h2 id="whatsapp-contact-heading"
+                        class="m-0 text-white whatsapp-contact__left-heading fs-4">
+
+                        National Consumer Helpline,<br>
+
+                        <strong>
+                            Department of Consumer Affairs, GOI
+                        </strong>
+
+                    </h2>
+
+                </div>
+
+
+                <!-- CTA -->
+                <div class="mt-4 mt-md-0">
+
+                    <a class="btn btn-light whatsapp-contact__button"
+                       href="https://api.whatsapp.com/send/?phone=918800001915&text&type=phone_number&app_absent=0"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Start WhatsApp chat with National Consumer Helpline">
+
+                        Chat Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FEEDBACK
+             ===================================================== -->
+        <div id="feedback-section"
+             class="empowering-consumers-padding mt-5">
+
+            <div class="container">
+
+                <h2 id="feedback-heading"
+                    class="visually-hidden">
+
+                    Provide Feedback to National Consumer Helpline
+
+                </h2>
+
+
+                <div class="row align-items-center">
+
+
+                    <div class="col-md-9 feedback-image-column">
+
+                        <img src="https://consumerhelpline.gov.in/public/assets/leave-fb.png"
+                             alt=""
+                             aria-hidden="true"
+                             role="presentation"
+                             width="450"
+                             class="img-fluid">
+
+                    </div>
+
+
+                    <div class="col-md-3 d-flex flex-column align-items-start justify-content-center feedback-action-column">
+
+                        <a class="btn btn-primary carousel-caption-button"
+                           href="https://consumerhelpline.gov.in/public/feedback"
+                           aria-label="Click here to leave a feedback">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/register.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="btn-icon me-2"
+                                 role="presentation">
+
+                            Click Here
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+    
+    <script src="https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"></script>
+
+<footer id="footer"
+        class="footerPadding mt-5">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- =====================================================
+                 LOGINS
+                 ===================================================== -->
+            <div class="col-md-4 footer__section">
+
+                <h2 class="footer__title"
+                    id="footer-logins-heading">
+                    Logins
+                </h2>
+
+                <ul class="list-unstyled footer__list"
+                    aria-labelledby="footer-logins-heading">
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/user/"
+                           class="footer__link">
+                            Consumer Login
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/company/index.php"
+                           class="footer__link">
+                            Company Login
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/regulators/"
+                           class="footer__link">
+                            Regulators Login
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =====================================================
+                 OTHER
+                 ===================================================== -->
+            <div class="col-md-4 footer__section">
+
+                <h2 class="footer__title"
+                    id="footer-other-heading">
+                    Other
+                </h2>
+
+                <ul class="list-unstyled footer__list"
+                    aria-labelledby="footer-other-heading">
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/user/track-complaint.php"
+                           class="footer__link">
+                            Track Grievance
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/user/upload-docs.php"
+                           class="footer__link">
+                            Upload Docs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://consumerhelpline.gov.in/public/feedback"
+                           class="footer__link">
+                            Leave a Feedback
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =====================================================
+                 IMPORTANT LINKS
+                 ===================================================== -->
+            <div class="col-md-4 footer__section">
+
+                <h2 class="footer__title"
+                    id="footer-links-heading">
+                    Important Links
+                </h2>
+
+
+                <ul class="list-unstyled footer__list"
+                    aria-labelledby="footer-links-heading">
+
+                    <li>
+
+                        <a href="https://consumerhelpline.gov.in/public/convergenc-step-one"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__link"
+                           aria-label="Convergence Partner, opens in a new tab">
+
+                            Convergence Partner
+
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="14"
+                                 height="14"
+                                 viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="2"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 aria-hidden="true"
+                                 class="ms-1"
+                                 focusable="false">
+
+                                <path d="M18 3h3v3"></path>
+
+                                <path d="M11 13L21 3"></path>
+
+                                <path d="M21 14v7H3V3h7"></path>
+
+                            </svg>
+
+                            <br>
+
+                            <small>
+                                To Register as a convergence Partner with NCH.
+                            </small>
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="https://consumerhelpline.gov.in/public/sitemap"
+                           class="footer__link">
+
+                            Site Map
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="https://consumerhelpline.gov.in/public/privacypolicy"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__link"
+                           aria-label="Privacy Policy, opens in a new tab">
+
+                            Privacy Policy
+
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="14"
+                                 height="14"
+                                 viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="2"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 aria-hidden="true"
+                                 class="ms-1"
+                                 focusable="false">
+
+                                <path d="M18 3h3v3"></path>
+
+                                <path d="M11 13L21 3"></path>
+
+                                <path d="M21 14v7H3V3h7"></path>
+
+                            </svg>
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="https://consumerhelpline.gov.in/public/disclaimer"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__link"
+                           aria-label="Disclaimer, opens in a new tab">
+
+                            Disclaimer
+
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="14"
+                                 height="14"
+                                 viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="2"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 aria-hidden="true"
+                                 class="ms-1"
+                                 focusable="false">
+
+                                <path d="M18 3h3v3"></path>
+
+                                <path d="M11 13L21 3"></path>
+
+                                <path d="M21 14v7H3V3h7"></path>
+
+                            </svg>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BOTTOM FOOTER
+         ========================================================= -->
+    <div class="container">
+
+        <div class="footer__bottom border-top pt-3 mt-3">
+
+
+            <!-- Copyright -->
+            <p class="footer__copyright mb-0">
+                &copy; 2016–2026 Copyright Department of Consumer Affairs
+            </p>
+
+
+            <!-- =================================================
+                 SOCIAL MEDIA
+
+                 WCAG FIX:
+                 Visually grouped links are now represented as
+                 a native unordered list.
+                 ================================================= -->
+            <nav class="footer__social-navigation"
+                 aria-label="Social media links">
+
+                <ul class="footer__social-icons"
+                    aria-label="Social media">
+
+                    <!-- Twitter -->
+                    <li>
+
+                        <a href="https://twitter.com/consaff"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__social-link"
+                           aria-label="Twitter, opens in a new tab">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/logo-twitter.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="footer__icon">
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- Facebook -->
+                    <li>
+
+                        <a href="https://www.facebook.com/ConsumerAdvocacy/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__social-link"
+                           aria-label="Facebook, opens in a new tab">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/logo-facebook.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="footer__icon">
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- Instagram -->
+                    <li>
+
+                        <a href="https://www.instagram.com/consumeraffairs_goi/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__social-link"
+                           aria-label="Instagram, opens in a new tab">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/logo-instagram.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="footer__icon">
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- YouTube -->
+                    <li>
+
+                        <a href="https://www.youtube.com/channel/UCTyQpXH6_4xVR1CUyuPkm0Q"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer__social-link"
+                           aria-label="YouTube, opens in a new tab">
+
+                            <img src="https://consumerhelpline.gov.in/public/assets/youtube-svgrepo-com.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="footer__icon">
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<style>
+
+/* ============================================================
+   GLOBAL FOOTER FIXES
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+ * Do NOT force overflow-x:hidden on html/body.
+ *
+ * WCAG 1.4.10 Reflow testing should be able to detect
+ * actual horizontal overflow instead of having it hidden.
+ */
+.footerPadding {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============================================================
+   FOOTER SECTIONS
+   ============================================================ */
+
+.footer__section {
+    margin-bottom: 20px;
+    min-width: 0;
+}
+
+
+.footer__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+    /*
+     * Allow heading to wrap at high zoom.
+     */
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+
+.footer__list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.footer__list li {
+    margin-bottom: 10px;
+    min-width: 0;
+}
+
+
+.footer__link {
+    display: inline-block;
+
+    text-decoration: none;
+
+    max-width: 100%;
+
+    /*
+     * Reflow / 400% zoom support.
+     */
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    line-height: 1.4;
+}
+
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   FOOTER LINK FOCUS
+   WCAG 2.4.7 / 2.4.11
+   ============================================================ */
+
+.footer__link:focus-visible {
+
+    outline: 3px solid #000000 !important;
+
+    outline-offset: 3px !important;
+
+    text-decoration: underline;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+
+/* ============================================================
+   BOTTOM FOOTER
+   ============================================================ */
+
+.footer__bottom {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    width: 100%;
+
+    max-width: 100%;
+
+    min-width: 0;
+}
+
+
+.footer__copyright {
+
+    margin: 0;
+
+    max-width: 100%;
+
+    overflow-wrap: anywhere;
+
+    word-break: normal;
+}
+
+
+.footer__visitors {
+
+    white-space: normal;
+
+    word-break: normal;
+
+    overflow-wrap: anywhere;
+}
+
+
+/* ============================================================
+   SOCIAL MEDIA NAVIGATION
+   ============================================================ */
+
+.footer__social-navigation {
+
+    display: block;
+
+    max-width: 100%;
+
+    min-width: 0;
+}
+
+
+/*
+ * IMPORTANT:
+ * ul is now the actual semantic list.
+ *
+ * list-unstyled removes the browser bullets while preserving
+ * native <ul>/<li> accessibility semantics.
+ */
+.footer__social-icons {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    max-width: 100%;
+
+    min-width: 0;
+}
+
+
+/*
+ * Native list item.
+ */
+.footer__social-icons > li {
+
+    display: block;
+
+    margin: 0;
+
+    padding: 0;
+
+    flex: 0 0 auto;
+}
+
+
+/* ============================================================
+   SOCIAL MEDIA LINKS
+   ============================================================ */
+
+.footer__social-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 44px;
+
+    min-height: 44px;
+
+    width: 44px;
+
+    height: 44px;
+
+    flex-shrink: 0;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+
+/* ============================================================
+   SOCIAL LINK FOCUS
+   ============================================================ */
+
+.footer__social-link:focus-visible {
+
+    outline: 3px solid #000000 !important;
+
+    outline-offset: 3px !important;
+
+    border-radius: 4px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+
+/* ============================================================
+   SOCIAL ICON
+   ============================================================ */
+
+.footer__icon {
+
+    width: 24px;
+
+    height: 24px;
+
+    object-fit: contain;
+
+    display: block;
+
+    max-width: 100%;
+
+    flex-shrink: 0;
+}
+
+
+/* ============================================================
+   IMAGE FIXES
+   ============================================================ */
+
+.footerPadding img {
+
+    max-width: 100%;
+
+    height: auto;
+}
+
+
+.contact-graphic,
+.contact-us-graphic,
+.main-banner img {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* ============================================================
+   WHATSAPP FLOAT ICON
+   ============================================================ */
+
+.whatsapp-float,
+.whatsapp-icon {
+
+    position: fixed;
+
+    right: 15px;
+
+    bottom: 15px;
+
+    z-index: 9999;
+
+    width: 56px;
+
+    height: 56px;
+}
+
+
+.whatsapp-float img,
+.whatsapp-icon img {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+}
+
+
+/* ============================================================
+   WHATSAPP FOCUS
+   ============================================================ */
+
+.whatsapp-float a:focus-visible,
+.whatsapp-icon a:focus-visible {
+
+    outline: 3px solid #000000 !important;
+
+    outline-offset: 3px !important;
+
+}
+
+
+/* ============================================================
+   TABLET
+   ============================================================ */
+
+@media (max-width: 992px) {
+
+    .footer__bottom {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+
+    .footer__social-navigation {
+
+        width: 100%;
+
+    }
+
+
+    .footer__social-icons {
+
+        width: 100%;
+
+        justify-content: flex-start;
+
+    }
+
+}
+
+
+/* ============================================================
+   MOBILE / 400% ZOOM
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+    /*
+     * Keep existing responsive appearance.
+     */
+    .footer__section {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        min-width: 0;
+
+    }
+
+
+    .footer__bottom {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        width: 100%;
+
+    }
+
+
+    .footer__copyright {
+
+        width: 100%;
+
+        max-width: 100%;
+
+    }
+
+
+    .footer__social-navigation {
+
+        width: 100%;
+
+        max-width: 100%;
+
+    }
+
+
+    .footer__social-icons {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        justify-content: flex-start;
+
+        flex-wrap: wrap;
+
+    }
+
+
+    /*
+     * Floating WhatsApp remains accessible without
+     * covering the footer content excessively.
+     */
+    .whatsapp-float,
+    .whatsapp-icon {
+
+        width: 48px;
+
+        height: 48px;
+
+        right: 10px;
+
+        bottom: 10px;
+
+    }
+
+}
+
+
+/* ============================================================
+   VERY SMALL VIEW / EXTREME ZOOM
+   ============================================================ */
+
+@media (max-width: 320px) {
+
+    .footer__title {
+
+        font-size: 1rem;
+
+    }
+
+
+    .footer__link {
+
+        max-width: 100%;
+
+        overflow-wrap: anywhere;
+
+    }
+
+
+    .footer__social-icons {
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+
+    }
+
+
+    .footer__social-link {
+
+        min-width: 44px;
+
+        min-height: 44px;
+
+        width: 44px;
+
+        height: 44px;
+
+    }
+
+}
+
+
+/* ============================================================
+   REDUCED MOTION
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .footer__link,
+    .footer__social-link {
+
+        transition: none !important;
+
+    }
+
+}
+
+</style>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+         ========================================================= -->
+
+    <script src="https://consumerhelpline.gov.in/public/js/jquery.min.js"></script>
+
+    <script src="https://consumerhelpline.gov.in/public/js/custom.js"></script>
+
+
+    <!-- Video keyboard / click support -->
+    <script>
+
+        document.querySelectorAll(".video-thumb").forEach(function (thumb) {
+
+            thumb.addEventListener("click", function () {
+
+                const videoSrc = this.getAttribute("data-video");
+                const player = document.getElementById("mainVideo");
+
+                if (!player || !videoSrc) {
+                    return;
+                }
+
+                player.src = videoSrc;
+
+                /*
+                 * Play is attempted after an explicit user action,
+                 * therefore browser autoplay restrictions are respected.
+                 */
+                const playPromise = player.play();
+
+                if (playPromise !== undefined) {
+
+                    playPromise.catch(function () {
+                        /*
+                         * Ignore autoplay rejection.
+                         * The video source is still changed and
+                         * the user can use the native controls.
+                         */
+                    });
+
+                }
+
+            });
+
+
+            /*
+             * Keyboard accessibility:
+             * Enter and Space activate the video thumbnail.
+             */
+            thumb.addEventListener("keydown", function (e) {
+
+                if (e.key === "Enter" || e.key === " ") {
+
+                    e.preventDefault();
+
+                    this.click();
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+
+    <!-- Final focus indicator -->
+    <style>
+
+        /*
+         * WCAG 2.1 - 1.4.11 Non-text Contrast
+         * WCAG 2.4.7 / 2.4.11 Focus Visible
+         *
+         * Black focus ring provides strong contrast on
+         * normal light backgrounds.
+         */
+        .carousel-caption-button:focus,
+        .carousel-caption-button:focus-visible,
+        #feedback-section .btn:focus,
+        #feedback-section .btn:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 3px !important;
+            box-shadow: none !important;
+        }
+
+
+        /*
+         * White focus ring on dark WhatsApp section.
+         */
+        .whatsapp-contact__button:focus,
+        .whatsapp-contact__button:focus-visible {
+            outline: 3px solid #FFFFFF !important;
+            outline-offset: 4px !important;
+            box-shadow: none !important;
+        }
+
+
+        /*
+         * Video thumbnails need a visible keyboard indicator.
+         */
+        .video-thumb:focus,
+        .video-thumb:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 4px !important;
+            box-shadow: none !important;
+        }
+
+
+        /*
+         * NCH platform links.
+         */
+        .features a:focus,
+        .features a:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 4px !important;
+            box-shadow: none !important;
+        }
+
+
+        /*
+         * Success story links.
+         */
+        .success-story__link:focus,
+        .success-story__link:focus-visible,
+        .success-story__view-link:focus,
+        .success-story__view-link:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 3px !important;
+            box-shadow: none !important;
+        }
+
+
+        /*
+         * Grievance / Connect cards.
+         */
+        .connect-card__link:focus,
+        .connect-card__link:focus-visible,
+        .card-grievance-lodging:focus,
+        .card-grievance-lodging:focus-visible {
+            outline: 3px solid #000000 !important;
+            outline-offset: 3px !important;
+            box-shadow: none !important;
+        }
+
+    </style>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{ const s = await figma.getNodeByIdAsync("S1"); s.children.slice().forEach(c => c.remove()); s.fills = [{ type: "SOLID", color: C.primaryDeep }]; const D = V.cover;
+addChip(s, 64, 56, 870, 56, "CASE FOR CHANGE | BUSINESS CRISIS CASE | LSR ECONOMICS", C.accent, C.ink, 22);
+nm(TL(s, 64, 110, 96, "PROJECT SETU", { family: "Poppins", style: "ExtraBold", color: C.white, maxW: 870 }), "TITLE");
+nm(T(s, 64, 264, 870, 26, "Emergency board review of a services firm whose labour edge has been priced out by AI", { family: "Poppins", style: "Bold", color: C.accent }), "SUBTITLE");
+const v = layered(s, 64, 348, 870, 300, C.white, "CARD: thesis");
+addChip(v, 24, 20, 300, 44, "OUR RECOMMENDATION", C.primary, C.white, 22);
+T(v, 24, 78, 822, 28, D.thesis, { family: "Poppins", style: "Bold", color: C.primary });
+T(v, 24, 168, 822, 22, D.body);
+nm(TL(s, 64, 672, 26, V.team.name, { color: C.accent }), "TEAM LABEL");
+teamTable(s, 64, 718, [250, 460, 160]);
+const LX = 968, HX = 1262, RX = 1576, LW = 250, HW = 270, RW = 280, NH = 104, LY = [250, 480, 710], RY = [170, 380, 590, 800];
+addChip(s, LX, 100, LW, 48, "TODAY", C.white, C.ink, 22); addChip(s, RX, 100, RW, 48, "MONTH 12", C.accent, C.ink, 22);
+LY.forEach(y => addWireH(s, LX + LW, HX, y + NH / 2, C.accent, 3)); RY.forEach(y => addWireH(s, HX + HW, RX, y + NH / 2, C.accent, 3));
+D.left.forEach((q, i) => mapNode(s, LX, LY[i], LW, NH, i + 1, q[0], q[1]));
+D.right.forEach((q, i) => mapNode(s, RX, RY[i], RW, NH, i + 4, q[0], q[1], { badge: C.good, titleColor: C.good }));
+const hub = layered(s, HX, 170, HW, 734, C.accent, "CARD: hub", C.white);
+TB(hub, 8, 16, HW - 16, 60, 40, "SETU", { family: "Poppins", style: "ExtraBold", align: "CENTER" });
+TB(hub, 8, 76, HW - 16, 40, 22, "the bridge", { family: "Inter", style: "Bold", align: "CENTER" });
+badgeList(hub, 14, 150, HW - 28, ["Stop the bleed", "Price by complexity", "AI engine on clean files", "People to the hard files", "Build AI data services", "Hold a reserve for people"], { d: 36, pitch: 94, bg: C.primaryDeep, style: "Bold" });
+const src = addText(s, "Inter", "Semi Bold", 14, C.accent, D.source, 64, 1046, 1792, 20, "RIGHT", undefined, true); src.name = "SOURCE";
+results.push({ slide: s.id, total: s.findAll(() => true).length, top: s.children.length }); }

@@ -1,0 +1,1 @@
+const s=await figma.getNodeByIdAsync("2:8"); return s.findAll(n=>n.name.startsWith("PHOTO: ")).map(n=>({id:n.id,name:n.name,w:n.width,h:n.height}));

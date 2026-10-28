@@ -1,0 +1,838 @@
+{
+ "changed": [
+  {
+   "file": "appendix-D.md",
+   "line": 51
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 7
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 12
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 13
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 25
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 33
+  },
+  {
+   "file": "appendix-E.md",
+   "line": 35
+  },
+  {
+   "file": "part-A.md",
+   "line": 3
+  },
+  {
+   "file": "part-A.md",
+   "line": 62
+  },
+  {
+   "file": "part-A.md",
+   "line": 63
+  },
+  {
+   "file": "part-A.md",
+   "line": 96
+  },
+  {
+   "file": "part-A.md",
+   "line": 110
+  },
+  {
+   "file": "part-A.md",
+   "line": 148
+  },
+  {
+   "file": "part-A.md",
+   "line": 149
+  },
+  {
+   "file": "part-A.md",
+   "line": 170
+  },
+  {
+   "file": "part-A.md",
+   "line": 184
+  },
+  {
+   "file": "part-A.md",
+   "line": 195
+  },
+  {
+   "file": "part-A.md",
+   "line": 197
+  },
+  {
+   "file": "part-A.md",
+   "line": 201
+  },
+  {
+   "file": "part-A.md",
+   "line": 211
+  },
+  {
+   "file": "part-A.md",
+   "line": 213
+  },
+  {
+   "file": "part-A.md",
+   "line": 233
+  },
+  {
+   "file": "part-A.md",
+   "line": 253
+  },
+  {
+   "file": "part-A.md",
+   "line": 255
+  },
+  {
+   "file": "part-A.md",
+   "line": 350
+  },
+  {
+   "file": "part-B.md",
+   "line": 3
+  },
+  {
+   "file": "part-B.md",
+   "line": 11
+  },
+  {
+   "file": "part-B.md",
+   "line": 16
+  },
+  {
+   "file": "part-B.md",
+   "line": 18
+  },
+  {
+   "file": "part-B.md",
+   "line": 20
+  },
+  {
+   "file": "part-B.md",
+   "line": 73
+  },
+  {
+   "file": "part-B.md",
+   "line": 82
+  },
+  {
+   "file": "part-B.md",
+   "line": 111
+  },
+  {
+   "file": "part-B.md",
+   "line": 116
+  },
+  {
+   "file": "part-B.md",
+   "line": 118
+  },
+  {
+   "file": "part-B.md",
+   "line": 123
+  },
+  {
+   "file": "part-B.md",
+   "line": 147
+  },
+  {
+   "file": "part-B.md",
+   "line": 151
+  },
+  {
+   "file": "part-B.md",
+   "line": 155
+  },
+  {
+   "file": "part-B.md",
+   "line": 170
+  },
+  {
+   "file": "part-B.md",
+   "line": 183
+  },
+  {
+   "file": "part-B.md",
+   "line": 185
+  },
+  {
+   "file": "part-B.md",
+   "line": 187
+  },
+  {
+   "file": "part-B.md",
+   "line": 195
+  },
+  {
+   "file": "part-B.md",
+   "line": 201
+  },
+  {
+   "file": "part-B.md",
+   "line": 207
+  },
+  {
+   "file": "part-B.md",
+   "line": 209
+  },
+  {
+   "file": "part-B.md",
+   "line": 295
+  },
+  {
+   "file": "part-B.md",
+   "line": 309
+  },
+  {
+   "file": "part-B.md",
+   "line": 341
+  },
+  {
+   "file": "part-B.md",
+   "line": 358
+  },
+  {
+   "file": "part-B.md",
+   "line": 360
+  },
+  {
+   "file": "part-B.md",
+   "line": 386
+  },
+  {
+   "file": "part-B.md",
+   "line": 390
+  },
+  {
+   "file": "part-B.md",
+   "line": 404
+  },
+  {
+   "file": "part-B.md",
+   "line": 405
+  },
+  {
+   "file": "part-B.md",
+   "line": 411
+  },
+  {
+   "file": "part-C.md",
+   "line": 279
+  },
+  {
+   "file": "part-C.md",
+   "line": 296
+  },
+  {
+   "file": "part-D.md",
+   "line": 95
+  },
+  {
+   "file": "part-D.md",
+   "line": 179
+  },
+  {
+   "file": "part-D.md",
+   "line": 181
+  },
+  {
+   "file": "part-D.md",
+   "line": 183
+  },
+  {
+   "file": "part-D.md",
+   "line": 190
+  },
+  {
+   "file": "part-D.md",
+   "line": 284
+  },
+  {
+   "file": "part-D.md",
+   "line": 286
+  },
+  {
+   "file": "part-D.md",
+   "line": 288
+  },
+  {
+   "file": "part-D.md",
+   "line": 295
+  },
+  {
+   "file": "part-D.md",
+   "line": 305
+  },
+  {
+   "file": "part-D.md",
+   "line": 330
+  },
+  {
+   "file": "part-D.md",
+   "line": 332
+  },
+  {
+   "file": "part-D.md",
+   "line": 345
+  },
+  {
+   "file": "part-D.md",
+   "line": 347
+  },
+  {
+   "file": "part-D.md",
+   "line": 349
+  },
+  {
+   "file": "part-D.md",
+   "line": 356
+  },
+  {
+   "file": "part-D.md",
+   "line": 360
+  },
+  {
+   "file": "part-D.md",
+   "line": 362
+  },
+  {
+   "file": "part-D.md",
+   "line": 364
+  },
+  {
+   "file": "part-D.md",
+   "line": 370
+  },
+  {
+   "file": "part-D.md",
+   "line": 374
+  },
+  {
+   "file": "part-D.md",
+   "line": 382
+  },
+  {
+   "file": "part-E.md",
+   "line": 1
+  },
+  {
+   "file": "part-E.md",
+   "line": 3
+  },
+  {
+   "file": "part-E.md",
+   "line": 7
+  },
+  {
+   "file": "part-E.md",
+   "line": 21
+  },
+  {
+   "file": "part-E.md",
+   "line": 25
+  },
+  {
+   "file": "part-E.md",
+   "line": 55
+  },
+  {
+   "file": "part-E.md",
+   "line": 69
+  },
+  {
+   "file": "part-E.md",
+   "line": 83
+  },
+  {
+   "file": "part-E.md",
+   "line": 97
+  },
+  {
+   "file": "part-E.md",
+   "line": 119
+  },
+  {
+   "file": "part-E.md",
+   "line": 122
+  },
+  {
+   "file": "part-E.md",
+   "line": 126
+  },
+  {
+   "file": "part-E.md",
+   "line": 128
+  },
+  {
+   "file": "part-E.md",
+   "line": 130
+  },
+  {
+   "file": "part-E.md",
+   "line": 138
+  },
+  {
+   "file": "part-E.md",
+   "line": 139
+  },
+  {
+   "file": "part-E.md",
+   "line": 142
+  },
+  {
+   "file": "part-E.md",
+   "line": 144
+  },
+  {
+   "file": "part-E.md",
+   "line": 150
+  },
+  {
+   "file": "part-E.md",
+   "line": 151
+  },
+  {
+   "file": "part-E.md",
+   "line": 154
+  },
+  {
+   "file": "part-E.md",
+   "line": 170
+  },
+  {
+   "file": "part-E.md",
+   "line": 182
+  },
+  {
+   "file": "part-E.md",
+   "line": 194
+  },
+  {
+   "file": "part-E.md",
+   "line": 206
+  },
+  {
+   "file": "part-E.md",
+   "line": 219
+  },
+  {
+   "file": "part-E.md",
+   "line": 235
+  },
+  {
+   "file": "part-E.md",
+   "line": 239
+  },
+  {
+   "file": "part-E.md",
+   "line": 240
+  },
+  {
+   "file": "part-E.md",
+   "line": 242
+  },
+  {
+   "file": "part-E.md",
+   "line": 246
+  },
+  {
+   "file": "part-E.md",
+   "line": 250
+  },
+  {
+   "file": "part-E.md",
+   "line": 263
+  },
+  {
+   "file": "part-E.md",
+   "line": 269
+  },
+  {
+   "file": "part-E.md",
+   "line": 273
+  },
+  {
+   "file": "part-E.md",
+   "line": 282
+  },
+  {
+   "file": "part-E.md",
+   "line": 315
+  },
+  {
+   "file": "part-E.md",
+   "line": 316
+  },
+  {
+   "file": "part-E.md",
+   "line": 322
+  },
+  {
+   "file": "part-E.md",
+   "line": 330
+  },
+  {
+   "file": "part-E.md",
+   "line": 339
+  },
+  {
+   "file": "part-E.md",
+   "line": 345
+  },
+  {
+   "file": "part-E.md",
+   "line": 347
+  },
+  {
+   "file": "part-E.md",
+   "line": 355
+  },
+  {
+   "file": "part-E.md",
+   "line": 367
+  },
+  {
+   "file": "part-E.md",
+   "line": 441
+  },
+  {
+   "file": "part-E.md",
+   "line": 499
+  },
+  {
+   "file": "part-F.md",
+   "line": 3
+  },
+  {
+   "file": "part-F.md",
+   "line": 14
+  },
+  {
+   "file": "part-F.md",
+   "line": 63
+  },
+  {
+   "file": "part-F.md",
+   "line": 65
+  },
+  {
+   "file": "part-F.md",
+   "line": 75
+  },
+  {
+   "file": "part-F.md",
+   "line": 76
+  },
+  {
+   "file": "part-F.md",
+   "line": 114
+  },
+  {
+   "file": "part-F.md",
+   "line": 116
+  },
+  {
+   "file": "part-F.md",
+   "line": 122
+  },
+  {
+   "file": "part-F.md",
+   "line": 153
+  },
+  {
+   "file": "part-F.md",
+   "line": 155
+  },
+  {
+   "file": "part-F.md",
+   "line": 171
+  },
+  {
+   "file": "part-F.md",
+   "line": 174
+  },
+  {
+   "file": "part-F.md",
+   "line": 176
+  },
+  {
+   "file": "part-F.md",
+   "line": 186
+  },
+  {
+   "file": "part-F.md",
+   "line": 212
+  },
+  {
+   "file": "part-F.md",
+   "line": 224
+  },
+  {
+   "file": "part-F.md",
+   "line": 228
+  },
+  {
+   "file": "part-F.md",
+   "line": 240
+  },
+  {
+   "file": "part-F.md",
+   "line": 259
+  },
+  {
+   "file": "part-F.md",
+   "line": 282
+  },
+  {
+   "file": "part-F.md",
+   "line": 290
+  },
+  {
+   "file": "part-F.md",
+   "line": 337
+  },
+  {
+   "file": "part-F.md",
+   "line": 345
+  },
+  {
+   "file": "part-F.md",
+   "line": 346
+  },
+  {
+   "file": "part-F.md",
+   "line": 351
+  },
+  {
+   "file": "part-F.md",
+   "line": 354
+  },
+  {
+   "file": "part-F.md",
+   "line": 373
+  },
+  {
+   "file": "part-F.md",
+   "line": 374
+  },
+  {
+   "file": "part-F.md",
+   "line": 378
+  },
+  {
+   "file": "part-F.md",
+   "line": 386
+  },
+  {
+   "file": "part-F.md",
+   "line": 387
+  },
+  {
+   "file": "part-F.md",
+   "line": 402
+  },
+  {
+   "file": "part-F.md",
+   "line": 404
+  },
+  {
+   "file": "part-F.md",
+   "line": 413
+  },
+  {
+   "file": "part-F.md",
+   "line": 425
+  },
+  {
+   "file": "part-F.md",
+   "line": 429
+  },
+  {
+   "file": "part-F.md",
+   "line": 431
+  },
+  {
+   "file": "part-G.md",
+   "line": 3
+  },
+  {
+   "file": "part-G.md",
+   "line": 24
+  },
+  {
+   "file": "part-G.md",
+   "line": 55
+  },
+  {
+   "file": "part-G.md",
+   "line": 86
+  },
+  {
+   "file": "part-G.md",
+   "line": 92
+  },
+  {
+   "file": "part-G.md",
+   "line": 120
+  },
+  {
+   "file": "part-G.md",
+   "line": 122
+  },
+  {
+   "file": "part-G.md",
+   "line": 124
+  },
+  {
+   "file": "part-G.md",
+   "line": 156
+  },
+  {
+   "file": "part-G.md",
+   "line": 221
+  },
+  {
+   "file": "part-G.md",
+   "line": 223
+  },
+  {
+   "file": "part-G.md",
+   "line": 227
+  },
+  {
+   "file": "part-G.md",
+   "line": 271
+  },
+  {
+   "file": "part-G.md",
+   "line": 273
+  },
+  {
+   "file": "part-G.md",
+   "line": 287
+  },
+  {
+   "file": "part-G.md",
+   "line": 293
+  },
+  {
+   "file": "part-G.md",
+   "line": 295
+  },
+  {
+   "file": "part-G.md",
+   "line": 301
+  },
+  {
+   "file": "part-G.md",
+   "line": 303
+  },
+  {
+   "file": "part-G.md",
+   "line": 393
+  },
+  {
+   "file": "part-G.md",
+   "line": 395
+  },
+  {
+   "file": "part-G.md",
+   "line": 412
+  }
+ ],
+ "left": [
+  {
+   "file": "part-A.md",
+   "text": "as written, B as written, C as written, reset only, B with the operational improvemen"
+  },
+  {
+   "file": "part-A.md",
+   "text": "'s own data, which is why the operating-reset lever on overheads in section 18 is siz"
+  },
+  {
+   "file": "part-D.md",
+   "text": ".39 Cr `[M]`, against −₹8.14 Cr with no reset `[M]`. That improvement comes almost en"
+  },
+  {
+   "file": "part-D.md",
+   "text": "the largest revenue figure of the three reset comparisons, because grocery retail is "
+  },
+  {
+   "file": "part-D.md",
+   "text": "All figures `[M]`. Even with the full reset layered on, Proposal B's run-rate at mo"
+  },
+  {
+   "file": "part-D.md",
+   "text": ".92 Cr `[M]`, against −₹7.58 Cr with no reset `[M]`. The 24-month revenue advantage a"
+  },
+  {
+   "file": "part-D.md",
+   "text": "largest EBITDA improvement of the three reset comparisons, reflecting Proposal C's hi"
+  },
+  {
+   "file": "part-D.md",
+   "text": " that gap: with the identical six-lever reset applied uniformly, Proposal C actually "
+  },
+  {
+   "file": "part-D.md",
+   "text": "al A rebuilt is the strongest; the same-reset comparison says Proposal C is a genuine"
+  },
+  {
+   "file": "part-E.md",
+   "text": " on the third box (section 17.6); not a reset lever, carried in the rebuilt Proposal "
+  },
+  {
+   "file": "part-E.md",
+   "text": " rebuilt Proposal A (section 17), not a reset lever |"
+  },
+  {
+   "file": "part-E.md",
+   "text": "ebuilt Proposal A (section 17.6), not a reset lever |"
+  },
+  {
+   "file": "part-E.md",
+   "text": "tages (retention and referral) carry no reset-specific lever at all; both are the reb"
+  },
+  {
+   "file": "part-E.md",
+   "text": "clining share even without a deliberate reset, which is insight 3 from this plan's ar"
+  },
+  {
+   "file": "part-E.md",
+   "text": "| Use of the ₹15 Cr | ₹ Cr | Is this a reset lever |"
+  },
+  {
+   "file": "part-F.md",
+   "text": "ide the core the rebuilt Proposal A and reset path; two are specific to the staged re"
+  },
+  {
+   "file": "part-F.md",
+   "text": "verheads (after the lease and headcount reset) + the rebuilt Proposal A running cost"
+  },
+  {
+   "file": "part-F.md",
+   "text": "uns the core the rebuilt Proposal A-and-reset path from month 1, checks a two-part ga"
+  },
+  {
+   "file": "part-G.md",
+   "text": "ion | Each feeds one specific operating-reset lever (sections 18 and 24) |"
+  },
+  {
+   "file": "part-G.md",
+   "text": "scenario-specific levers, the operating-reset cuts to marketing and overheads, the re"
+  }
+ ]
+}

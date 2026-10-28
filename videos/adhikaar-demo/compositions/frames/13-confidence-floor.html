@@ -1,0 +1,191 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: block;
+      src: url('capture/assets/fonts/54fc36028e2bb174-s.p.1h6pn64pmfi2q.woff2') format("woff2");
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      font-style: normal;
+      font-weight: 500;
+      font-display: block;
+      src: url('capture/assets/fonts/effe91970fc4db64-s.p.28xcb7557rbh2.woff2') format("woff2");
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      container-type: size;
+      font-family: "Fraunces", Georgia, serif;
+      color: #241a10;
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+    }
+
+    .cf-13-ground {
+      background: #f2ead9;
+    }
+
+    .cf-13-kicker {
+      position: absolute;
+      top: 4.2cqw;
+      left: 4.2cqw;
+      display: flex;
+      align-items: center;
+      gap: 0.6cqw;
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-size: 1.46cqw;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #241a10;
+      opacity: 0;
+    }
+
+    .cf-13-kicker .cf-13-spike {
+      color: #8a631d;
+    }
+
+    .cf-13-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10.4cqw;
+    }
+
+    .cf-13-line {
+      max-width: 78cqw;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      color: #241a10;
+    }
+
+    /* Scene 1 — display tier (4-6 words) */
+    #cf-13-scene1 .cf-13-line {
+      font-size: 7.3cqw;
+      line-height: 1.02;
+    }
+
+    #cf-13-scene1 .cf-13-word {
+      display: inline-block;
+      will-change: transform, filter, opacity;
+    }
+
+    /* Scene 2 — headline tier (7+ words), hard-cut in place */
+    #cf-13-scene2 {
+      opacity: 0;
+    }
+
+    #cf-13-scene2 .cf-13-line {
+      font-size: 6.2cqw;
+      line-height: 1.04;
+      letter-spacing: -0.018em;
+    }
+
+    #cf-13-scene2 .cf-13-coral {
+      color: #8a631d;
+    }
+
+    .cf-13-rule {
+      position: absolute;
+      left: 50%;
+      bottom: 15.5cqw;
+      width: 5.2cqw;
+      height: 1px;
+      background: #241a10;
+      opacity: 0.2;
+      transform: translateX(-50%) scaleX(0);
+      transform-origin: center;
+    }
+  </style>
+
+  <div id="root" data-composition-id="13-confidence-floor" data-width="1920" data-height="1080">
+    <div class="clip cf-13-ground" data-start="0" data-duration="8.469" data-track-index="0"></div>
+
+    <div class="clip" data-start="0" data-duration="8.469" data-track-index="1">
+      <div class="cf-13-kicker" id="cf-13-kicker">
+        <span class="cf-13-spike">&#10033;</span>
+        <span>Search mechanics</span>
+      </div>
+    </div>
+
+    <div class="clip" data-start="0" data-duration="8.469" data-track-index="2">
+      <div class="cf-13-rule" id="cf-13-rule"></div>
+
+      <div class="cf-13-stage">
+        <div class="cf-13-line" id="cf-13-scene1">
+          <span class="cf-13-word">A</span>
+          <span class="cf-13-word">lexical</span>
+          <span class="cf-13-word">search</span>
+          <span class="cf-13-word">engine</span>
+          <span class="cf-13-word">&mdash;</span>
+          <span class="cf-13-word">built</span>
+          <span class="cf-13-word">ourselves.</span>
+        </div>
+
+        <div class="cf-13-line" id="cf-13-scene2">
+          Below a confidence floor, it says so
+          <span class="cf-13-coral">instead of guessing.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+
+    document.fonts.ready.then(() => {
+      const tl = gsap.timeline({ paused: true });
+
+      const words = gsap.utils.toArray("#cf-13-scene1 .cf-13-word");
+
+      // Scene 1 — per-word staggered fade + blur reveal (kinetic-beat-slam family:
+      // distinct onset per token on one shared grid, blur-off resolving sharp).
+      words.forEach((w, i) => {
+        tl.fromTo(
+          w,
+          { opacity: 0, y: 16, filter: "blur(10px)" },
+          { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.4, ease: "power2.out" },
+          0.05 + i * 0.08,
+        );
+      });
+
+      // Kicker chrome fades in early, holds the whole frame.
+      tl.fromTo(
+        "#cf-13-kicker",
+        { opacity: 0, y: -8 },
+        { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" },
+        0.1,
+      );
+
+      // Small accent rule draws under the stage once scene 1 has landed.
+      tl.fromTo(
+        "#cf-13-rule",
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.5, ease: "power2.out" },
+        1.0,
+      );
+
+      // Hold scene 1 to 2.0s, then hard cut (instant swap, no fade/slide) to
+      // scene 2 per the packet's explicit "hard cut" instruction.
+      tl.set("#cf-13-scene1", { opacity: 0 }, 2.0);
+      tl.set("#cf-13-scene2", { opacity: 1 }, 2.0);
+
+      // Scene 2 holds static (deliberate stillness) through the crossfade
+      // handoff into the next frame — no exit tween authored here.
+
+      window.__timelines["13-confidence-floor"] = tl;
+      window.__hfForceTimelineRebind && window.__hfForceTimelineRebind();
+    });
+  </script>
+</template>

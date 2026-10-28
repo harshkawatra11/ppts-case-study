@@ -1,0 +1,166 @@
+{
+  "created": "2026-10-28",
+  "originalFigma": "KZO1f42mxT6YHTwCofkcLs",
+  "files": {
+    "case/01-case.md": {
+      "bytes": 20741,
+      "sha256": "d20f618c73f1794303bd795d7d27c5c261d557830282491d07660823c4130315"
+    },
+    "model/dobaara_model.py": {
+      "bytes": 51975,
+      "sha256": "119c4b2457d4d9251d584addfc935382443677dc821f6988db71a7cebbf1961b"
+    },
+    "model/model_outputs.json": {
+      "bytes": 67235,
+      "sha256": "8ee6cc603aac7382173ad9bb10e2898e5040f942ec7032dd3d820d78bb10cc70"
+    },
+    "model/model_tables.md": {
+      "bytes": 24402,
+      "sha256": "e1621ecb0d8a11d42371abfd18104094c7799955597415d2eb920f6bf46c6f92"
+    },
+    "deck/preamble.js": {
+      "bytes": 36081,
+      "sha256": "183920927e6571007762dd98bf7090b300d1e0071540989e19558eb378cd9040"
+    },
+    "deck/slide-ids.json": {
+      "bytes": 165,
+      "sha256": "a0b9b74c0aa077f3f9618ca4f88ced38230318bfc82c0dc4f4ecce6c4bb22276"
+    },
+    "deck/original-draft/TeamIdeaForge_ProjectDobaara_Original_Claude_Draft.pdf": {
+      "bytes": 10090684,
+      "sha256": "f9901d0b2f7a463d68132bed09ff5457dad3b29d9c184f98b80bf4ff02a4ef08"
+    },
+    "deck/build/slide_01_1.js": {
+      "bytes": 46910,
+      "sha256": "0a2e44b628163e27154e44d77760b40b94943049517dfdec2fce4444ea380fb3"
+    },
+    "deck/build/slide_01_2.js": {
+      "bytes": 47658,
+      "sha256": "b3591418a0818578ac3425382bbaa1c45a899007ba79445eab7bdefe35415997"
+    },
+    "deck/build/slide_02_1.js": {
+      "bytes": 46692,
+      "sha256": "aca847efde164c8a554991fe8e1835cf655d0b2fe6ddd3eb2b6a19a8006fbb93"
+    },
+    "deck/build/slide_02_2.js": {
+      "bytes": 47406,
+      "sha256": "36534083de35604af9b17ef6293e3bde67382431db374e2768fe59d4247288f0"
+    },
+    "deck/build/slide_02_3.js": {
+      "bytes": 47031,
+      "sha256": "297ed07579c1702e26cbe0f7aac858b32df8d600b8fb6c7dba01536f4e948376"
+    },
+    "deck/build/slide_03_1.js": {
+      "bytes": 47154,
+      "sha256": "5dcd92f435129d2413ea292f86e95e165c3559cfbedde7c9cfb0ac319cfbaea3"
+    },
+    "deck/build/slide_03_2.js": {
+      "bytes": 46661,
+      "sha256": "1a35e785884135d6e70cd95b85ec3800eee07558974bbd7be249e94fcb99da6d"
+    },
+    "deck/build/slide_03_3.js": {
+      "bytes": 47352,
+      "sha256": "2ed823d3498898306cf2df3c7246bc95b9d82daaf8172d40edcced0360264053"
+    },
+    "deck/build/slide_04_1.js": {
+      "bytes": 46732,
+      "sha256": "abb7de6ab1c816e9dcb646f244cb7ec961f876aeb304502b53fabbaf02b6f8c8"
+    },
+    "deck/build/slide_04_2.js": {
+      "bytes": 47259,
+      "sha256": "54e78e21401d1718b3b6b5874e1e0cb77dd38c4b5835e63b2e489efa4479c457"
+    },
+    "deck/build/slide_04_3.js": {
+      "bytes": 47257,
+      "sha256": "fa8bfaa6ac460732f25a141534ff9637b867c267d96d1a66d2847cc85efdc6dd"
+    },
+    "deck/build/slide_05_1.js": {
+      "bytes": 47502,
+      "sha256": "6d9b9fe44c272cb4488fc658de38cd094ba1441d6a0c408756a15cdc4489c420"
+    },
+    "deck/build/slide_05_2.js": {
+      "bytes": 46454,
+      "sha256": "50be830ce88bbed380f7544b18ca47c39fe595e5e79efb905dd959b4fc1b8b10"
+    },
+    "deck/build/slide_05_3.js": {
+      "bytes": 47770,
+      "sha256": "c05059979a23d09e3261bdf5ce3e607b6da70c74090f55497b4436394ca777b8"
+    },
+    "deck/build/slide_06_1.js": {
+      "bytes": 47801,
+      "sha256": "e795fb2ec9b8c9d39a50d573ec44d663b2e4fee5d3b08dabb47ade15869a44bb"
+    },
+    "deck/build/slide_06_2.js": {
+      "bytes": 48080,
+      "sha256": "b9ec79ca913f24014f5a32f74c758357d8d9316387e39c68098373d9885d2959"
+    },
+    "deck/build/slide_06_3.js": {
+      "bytes": 46971,
+      "sha256": "21339d918c50abc76e7fff9a92c2422787991a2be94f81ebe7e56908a49a40d4"
+    },
+    "deck/build/slide_07_1.js": {
+      "bytes": 46878,
+      "sha256": "6676b89a43dc0849dfc10a46043c0c1a9e0de51f4c17072272f07ebff733d100"
+    },
+    "deck/build/slide_07_2.js": {
+      "bytes": 46835,
+      "sha256": "c64d627aeef5b4f135d0bd29cbca3d0500d28b0758981167d81010150cac40c8"
+    },
+    "deck/build/slide_07_3.js": {
+      "bytes": 46485,
+      "sha256": "8a49badae4984b215cb5d862f3287ef052b67ef752eb96edfbb24af5f5578c4b"
+    },
+    "deck/build/slide_08_1.js": {
+      "bytes": 47096,
+      "sha256": "be1a758d023a359d34d7994634b97267806d9a137db09f728ba48042a269ed34"
+    },
+    "deck/build/slide_08_2.js": {
+      "bytes": 47603,
+      "sha256": "cdca6a0017dc633c67b7877b42d2bb2c4ee5ccdb9ba6d34adae95bb8a98e5934"
+    },
+    "deck/build/slide_08_3.js": {
+      "bytes": 46277,
+      "sha256": "9a2d29458abefbe7d4a680d75e00d48b7d2b3bd32b7d0273b7b378ed5f0b40cb"
+    },
+    "deck/build/slide_09_1.js": {
+      "bytes": 47314,
+      "sha256": "ae5b9688368e357a266941c3adbd57b0d6f2e62fe8ceaf4fe4e4dcb3346a2cb4"
+    },
+    "deck/build/slide_09_2.js": {
+      "bytes": 46995,
+      "sha256": "1ab8b950088d8481237c7dc48bd5f0c28e58d77bf282839a837461b030eb5914"
+    },
+    "deck/build/slide_09_3.js": {
+      "bytes": 46429,
+      "sha256": "9d8d2f96b673d226aefd642dddf9247c0921de2ef6e893a929cff24bff1be87b"
+    },
+    "deck/build/slide_10_1.js": {
+      "bytes": 47975,
+      "sha256": "e213db7ca63f7f3ee47814d39c8bbcc845846436a1ac32216b0d1f974038056c"
+    },
+    "deck/build/slide_10_2.js": {
+      "bytes": 47437,
+      "sha256": "b698815ad770d33f479c6101532e83756edb66aed8d7fe21d060d603067570e0"
+    },
+    "deck/build/slide_11_1.js": {
+      "bytes": 48048,
+      "sha256": "b4fddee5f51934acf15f1187dacdfcf065fd0ef7c42dacf7e98f7594e76c04b9"
+    },
+    "deck/build/slide_11_2.js": {
+      "bytes": 47441,
+      "sha256": "0fdfd5f19279b70b46ba8a06ee0c65c5d0031c7734b96fb5ba7f739c44ba82d2"
+    },
+    "deck/build/slide_12.js": {
+      "bytes": 47028,
+      "sha256": "3f98671ad2572874ec8f32a29b1cc2992febdde12046136145a1096db52cb5ea"
+    },
+    "6adca1651d1c0_project_dobaara_case_by_marksoc_dtu.pdf": {
+      "bytes": 249818,
+      "sha256": "afa69e7c77ad082d0dcaf51d4e01c4bb7f7096b86d80e1d54c922d76be7a1f8d"
+    },
+    "Project_DOBAARA_FAQ.pdf": {
+      "bytes": 33585,
+      "sha256": "13f660b036f2f3cc7debdedc9c2d290303c90590339925201862cf4d5d71786b"
+    }
+  }
+}

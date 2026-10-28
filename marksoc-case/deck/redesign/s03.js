@@ -1,0 +1,22 @@
+const s=await resetBody('3:5','Superb earns 6.5× Fair’s contribution, but channel costs turn ₹179.2 lakh of phone profit into a ₹14.1 lakh monthly loss','Source: case Exhibits 2 to 4 | team model 9b3628d94d, T2 to T6 | unit chart uses website returns; channel table uses its own return rates | all company totals ₹ lakh');
+label(s,64,310,1100,'A  THE COST STACK LEAVES VERY DIFFERENT PROFIT POOLS');
+const cl=[R.navy,R.blue,C.tint,R.red,{r:.933,g:.498,b:.549},R.green];
+tx(s,64,354,130,'₹ / phone',{style:'Bold'});tx(s,914,354,125,'Price',{style:'Bold',align:'RIGHT'});tx(s,1050,354,114,'Margin',{style:'Bold',align:'RIGHT'});
+[['Superb','S',24000,'19.4%'],['Good','G',16000,'15.8%'],['Fair','F',10000,'7.2%']].forEach((r,i)=>{const yy=401+i*56;tx(s,64,yy+4,140,r[0],{display:true,color:i===2?R.red:R.navy});let x=218;V.stack[r[1]].forEach((v,j)=>{const w=640*v/24000;addRect(s,x,yy,Math.max(.6,w),34,cl[j],C.ink,j===3||j===4?.5:1.5);if(j===5){const str='₹'+v.toLocaleString('en-IN');if(w>100)tx(s,x+3,yy+3,w-6,str,{style:'Bold',align:'CENTER',color:C.white});else tx(s,x+w+8,yy+3,125,str,{style:'Bold',color:R.green});}x+=w;});tx(s,914,yy+4,125,r[2].toLocaleString('en-IN'),{align:'RIGHT',style:'Bold'});tx(s,1050,yy+4,114,r[3],{align:'RIGHT',style:'Bold'});});
+[['Trader',0],['Lab',1],['Pack / pay',2],['Claims',3],['Returns',4],['Contribution',5]].forEach((r,i)=>{const xx=64+[0,190,330,550,710,900][i];addRect(s,xx,580,17,17,cl[r[1]],C.ink,1);tx(s,xx+25,575,i===5?220:180,r[0],{style:'Bold'});});
+tint(s,64,612,1100,34,'Claims + returns per phone: Superb ₹147; Good ₹276; Fair ₹484.',{fill:R.ltgold});
+label(s,1190,310,666,'B  REFERRALS LEAD; ADS LOSE');
+const t=table(s,1190,354,[218,252,196],['Channel','After mkt, ₹ lakh','₹ / order'],V.ch.map((r,i)=>[['Paid ads','MegaKart','Creators','Stores','Referrals'][i],r[2],r[3]]),{hh:48,rh:44});
+for(let i=0;i<5;i++){const cell=t.children[3+(i*3)+1];if(cell){const val=V.ch_cam_n[i],zero=30,span=190;addRect(cell,zero,36,1,6,C.ink);addRect(cell,val>=0?zero:zero-20,36,Math.abs(val)/20*span,5,val<0?R.red:(i===4?R.green:R.blue),C.ink,.5);}}
+addDashedRow(s,64,654,1792,C.ink,10,7,1.5);
+const a=box(s,64,674,896,358,'C  FROM PHONE CONTRIBUTION TO EBITDA');
+waterfall(a,14,46,868,220,[['Phones',179.2],['Fee',-33.8],['Spend',-99],['Coupons',-2.5],['Fixed',-58],['EBITDA',-14.1]],{min:-60,max:190});
+table(a,14,280,[289,289,290],['Phone contribution','After marketing','EBITDA'],[['₹179.2 lakh','₹43.9 lakh','−₹14.1 lakh']],{hh:36,rh:32});
+const b=box(s,984,674,560,358,'D  CHANNEL RETURN HEAT MAP');
+const heat=v=>({t:v,bg:parseFloat(v)>10?R.ltred:parseFloat(v)>7?R.ltgold:C.tint});
+table(b,14,53,[180,86,86,86,94],['Returns %','S','G','F','Blend'],V.retgrid.map((r,i)=>[['Paid ads','MegaKart','Creators','Stores','Referrals'][i],...r.slice(1).map(heat)]),{hh:40,rh:36});
+tx(b,14,286,532,'S Superb; G Good; F Fair',{style:'Bold'});tx(b,14,319,532,'Creators 1.5× website; stores 0.5×.');
+const c=box(s,1568,674,288,358,'E  COST OF DOUBT');
+donutR(c,144,154,170,[{v:11.7,c:R.red},{v:10.5,c:R.gold}],'22.2','₹ lakh');
+addRect(c,14,257,16,16,R.red,C.ink,1);tx(c,39,251,235,'Claims: ₹11.7 lakh',{style:'Bold'});addRect(c,14,294,16,16,R.gold,C.ink,1);tx(c,39,288,235,'Returns: ₹10.5 lakh',{style:'Bold'});tx(c,14,324,260,'1.6× the EBITDA loss',{style:'Bold',color:R.red});
+return stats(s);

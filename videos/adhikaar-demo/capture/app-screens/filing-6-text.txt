@@ -1,0 +1,98 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING 029D60DE
+
+Kavita Joshi
+TRIAGED
+
+We have worked out who is responsible for answering you. Add your questions below to build the application.
+
+I want a copy of my original Aadhaar enrolment form and the history of correction requests I have submitted to UIDAI for my date of birth.
+
+Will an RTI actually get you what you need?
+
+YES, PROCEED AS A RIGHT TO INFORMATION APPLICATION
+
+Right to Information application
+
+This reads as a straightforward request for a record held by a public authority. Proceed with jurisdiction triage and drafting.
+
+Limitation: No limitation period to file the original application; thirty days to appeal a refusal or non-response
+
+§ 2(f)
+Who is legally required to answer you
+Union subject
+Aadhaar
+Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016
+
+Unique Identification Authority of India
+
+confidence 78%
+
+Ministry of Electronics and Information Technology
+
+The Central Public Information Officer, Unique Identification Authority of India, Bangla Sahib Road, Behind Kali Mandir, New Delhi 110001
+
+Matched on subject matter "Aadhaar" (Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016). No specific coverage caveat recorded for this authority.
+
+This is the office I will write to
+Your application
+
+No questions drafted yet.
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in English, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+
+Add at least one question before generating a plain-language copy.
+
+Fee
+
+Rs. 10, payable via UPI, net banking, Indian Postal Order, demand draft, court fee stamp
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+
+Select an authority and add at least one question first.
+
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

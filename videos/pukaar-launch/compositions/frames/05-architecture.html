@@ -1,0 +1,349 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .nav-ribbon {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      display: flex;
+      border: 2px solid #0A0A0A;
+      background: #EDEDED;
+    }
+    .ribbon-item {
+      padding: 6px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-right: 2px solid #0A0A0A;
+      color: #0A0A0A;
+      background: #E8B33C;
+    }
+    .ribbon-item.active {
+      background: #3A0E30;
+      color: #FFFFFF;
+    }
+    .ribbon-item:last-child {
+      border-right: none;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 36px;
+      right: 72px;
+      background: #3A0E30;
+      color: #FFF;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 6px 18px;
+      border: 2px solid #0A0A0A;
+    }
+
+    .section-chip {
+      position: absolute;
+      top: 86px;
+      left: 72px;
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .slide-headline {
+      position: absolute;
+      top: 130px;
+      left: 72px;
+      right: 72px;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0A0A0A;
+    }
+
+    /* Signal Path Horizontal Strip */
+    .pipeline-container {
+      position: absolute;
+      top: 195px;
+      left: 72px;
+      right: 72px;
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 16px 20px;
+    }
+    .pipeline-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .pipeline-steps {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .step-box {
+      flex: 1;
+      background: #EDEDED;
+      border: 2px solid #0A0A0A;
+      padding: 10px;
+      text-align: center;
+    }
+    .step-box.active {
+      background: #E8B33C;
+    }
+    .step-box.alert {
+      background: #E5399E;
+      color: #FFF;
+    }
+    .step-name {
+      font-size: 15px;
+      font-weight: 800;
+    }
+    .step-sub {
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .step-arrow {
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    /* Main Lower Layout: Latency Budget & Dual Path */
+    .lower-grid {
+      position: absolute;
+      top: 365px;
+      left: 72px;
+      right: 72px;
+      bottom: 50px;
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 32px;
+    }
+
+    .panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 24px;
+    }
+
+    .panel-header {
+      font-size: 20px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 16px;
+    }
+
+    /* Latency Budget Bar */
+    .latency-bar-stacked {
+      display: flex;
+      height: 48px;
+      border: 2px solid #0A0A0A;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .lat-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 800;
+      border-right: 1.5px solid #0A0A0A;
+    }
+    .lat-seg:last-child {
+      border-right: none;
+    }
+    .lat-mic { width: 10%; background: #EDEDED; }
+    .lat-stt { width: 18%; background: #3A0E30; color: #FFF; }
+    .lat-llm { width: 32%; background: #E5399E; color: #FFF; }
+    .lat-tts { width: 25%; background: #E8D5E2; color: #3A0E30; }
+    .lat-play { width: 15%; background: #E8B33C; }
+
+    .latency-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 14px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    /* Dual Path Box */
+    .dual-box {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .path-card {
+      border: 2px solid #0A0A0A;
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #EDEDED;
+    }
+    .path-card.offline {
+      background: #E8B33C;
+      font-weight: 800;
+    }
+    .path-title {
+      font-size: 16px;
+      font-weight: 800;
+    }
+    .path-desc {
+      font-size: 14px;
+      font-weight: 600;
+      color: #5C1A4B;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 16px;
+      left: 72px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="05-architecture" data-width="1920" data-height="1080">
+    <div class="nav-ribbon">
+      <div class="ribbon-item">PROBLEM</div>
+      <div class="ribbon-item">ANALYSIS</div>
+      <div class="ribbon-item">SOLUTION</div>
+      <div class="ribbon-item active">ARCHITECTURE</div>
+      <div class="ribbon-item">IMPACT</div>
+    </div>
+    <div class="slide-num">05 / 07</div>
+
+    <div class="section-chip">TECHNICAL ARCHITECTURE</div>
+
+    <div class="slide-headline" id="headline-05">
+      Two independent trigger paths keep the alarm alive even when the voice relay fails.
+    </div>
+
+    <!-- Pipeline -->
+    <div class="pipeline-container" id="pipe-box">
+      <div class="pipeline-title">
+        <span>FULL-DUPLEX REALTIME SIGNAL PATH</span>
+        <span style="color: #E5399E;">Alarm branches at LLM and does not wait for speech playback</span>
+      </div>
+      <div class="pipeline-steps">
+        <div class="step-box">
+          <div class="step-name">PWA Client</div>
+          <div class="step-sub">Next.js PWA</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-box active">
+          <div class="step-name">Voice Relay</div>
+          <div class="step-sub">Cloud Run</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-box">
+          <div class="step-name">Streaming STT</div>
+          <div class="step-sub">Partials</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-box alert">
+          <div class="step-name">LLM Persona</div>
+          <div class="step-sub">raise_alarm tool</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-box">
+          <div class="step-name">TTS Audio</div>
+          <div class="step-sub">Cloud Audio</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-box active">
+          <div class="step-name">Dispatcher</div>
+          <div class="step-sub">FCM / SMS / WA</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lower Grid -->
+    <div class="lower-grid">
+      <!-- Latency Budget -->
+      <div class="panel" id="lat-box">
+        <div class="panel-header">End-to-End Latency Budget to First Word (~1.2s Target)</div>
+        <div class="latency-bar-stacked">
+          <div class="lat-seg lat-mic">Mic 120ms</div>
+          <div class="lat-seg lat-stt">STT 220ms</div>
+          <div class="lat-seg lat-llm">LLM 380ms</div>
+          <div class="lat-seg lat-tts">TTS 300ms</div>
+          <div class="lat-seg lat-play">Play 180ms</div>
+        </div>
+        <div class="latency-labels">
+          <span>Capture</span>
+          <span>Transcription</span>
+          <span>Intent Analysis</span>
+          <span>Synthesis</span>
+          <span>Audio Output</span>
+        </div>
+        <div style="margin-top: 22px; font-size: 15px; font-weight: 600; line-height: 1.4;">
+          Zero roundtrip stalling: Duress extraction executes in parallel with conversational audio generation.
+        </div>
+      </div>
+
+      <!-- Dual Path Fallback -->
+      <div class="panel" id="dual-panel">
+        <div class="panel-header">Two Independent Alarm Paths</div>
+        <div class="dual-box">
+          <div class="path-card">
+            <div>
+              <div class="path-title">Path 1: Cloud LLM Tool Call</div>
+              <div class="path-desc">Deep semantic intent recognition</div>
+            </div>
+            <div style="font-weight: 800; color: #3A0E30;">Primary</div>
+          </div>
+
+          <div class="path-card offline">
+            <div>
+              <div class="path-title">Path 2: Local On-Device Regex</div>
+              <div class="path-desc">Zero network dependency fallback</div>
+            </div>
+            <div style="font-weight: 900; color: #E5399E;">Offline Resilient</div>
+          </div>
+        </div>
+        <div style="font-size: 14px; font-weight: 700; color: #3A0E30; margin-top: 18px;">
+          Path 2 still fires independently even if cellular connection or cloud relay drops completely.
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-source">Source: Vercel, Google Cloud & OpenAI Specs | DPDP Act 2023 | Pukaar Architecture</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#headline-05", { opacity: 0, y: 15, duration: 0.7, ease: "power2.out" }, 0.1);
+      tl.from("#pipe-box", { opacity: 0, y: 20, duration: 0.6, ease: "power3.out" }, 0.4);
+      tl.from(".step-box", { scale: 0.9, stagger: 0.1, duration: 0.4, ease: "back.out(1.5)" }, 0.8);
+      tl.from("#lat-box, #dual-panel", { opacity: 0, y: 30, stagger: 0.15, duration: 0.7, ease: "power3.out" }, 1.3);
+
+      tl.to({}, { duration: 16.32 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["05-architecture"] = tl;
+    })();
+  </script>
+</template>

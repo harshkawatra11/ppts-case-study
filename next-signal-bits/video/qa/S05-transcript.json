@@ -1,0 +1,389 @@
+{
+  "text": " Reason proposes what changed. Challenge spends more time trying to kill that idea than defending it against 9 separate tests. What survives gets a strength score, not a guess. Strong, moderate or weak. And then the reasoning is shown.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.3,
+      "text": " Reason proposes what changed.",
+      "tokens": [
+        50364,
+        39693,
+        2365,
+        4201,
+        437,
+        3105,
+        13,
+        50520
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " Reason",
+          "start": 0.0,
+          "end": 1.04,
+          "probability": 0.7306988835334778
+        },
+        {
+          "word": " proposes",
+          "start": 1.04,
+          "end": 1.56,
+          "probability": 0.9210428595542908
+        },
+        {
+          "word": " what",
+          "start": 1.56,
+          "end": 1.8,
+          "probability": 0.9869912266731262
+        },
+        {
+          "word": " changed.",
+          "start": 1.8,
+          "end": 2.3,
+          "probability": 0.9727274775505066
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.9,
+      "end": 7.3,
+      "text": " Challenge spends more time trying to kill that idea than defending it against 9 separate",
+      "tokens": [
+        50520,
+        17517,
+        25620,
+        544,
+        565,
+        1382,
+        281,
+        1961,
+        300,
+        1558,
+        813,
+        21377,
+        309,
+        1970,
+        1722,
+        4994,
+        50732
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " Challenge",
+          "start": 2.9,
+          "end": 3.14,
+          "probability": 0.9215564727783203
+        },
+        {
+          "word": " spends",
+          "start": 3.14,
+          "end": 3.48,
+          "probability": 0.92792147397995
+        },
+        {
+          "word": " more",
+          "start": 3.48,
+          "end": 3.78,
+          "probability": 0.9954504370689392
+        },
+        {
+          "word": " time",
+          "start": 3.78,
+          "end": 4.04,
+          "probability": 0.9984275102615356
+        },
+        {
+          "word": " trying",
+          "start": 4.04,
+          "end": 4.32,
+          "probability": 0.9857711791992188
+        },
+        {
+          "word": " to",
+          "start": 4.32,
+          "end": 4.5,
+          "probability": 0.9964262843132019
+        },
+        {
+          "word": " kill",
+          "start": 4.5,
+          "end": 4.72,
+          "probability": 0.9870267510414124
+        },
+        {
+          "word": " that",
+          "start": 4.72,
+          "end": 4.94,
+          "probability": 0.9664968848228455
+        },
+        {
+          "word": " idea",
+          "start": 4.94,
+          "end": 5.2,
+          "probability": 0.988564133644104
+        },
+        {
+          "word": " than",
+          "start": 5.2,
+          "end": 5.38,
+          "probability": 0.5530615448951721
+        },
+        {
+          "word": " defending",
+          "start": 5.38,
+          "end": 5.84,
+          "probability": 0.972350537776947
+        },
+        {
+          "word": " it",
+          "start": 5.84,
+          "end": 6.06,
+          "probability": 0.9655466079711914
+        },
+        {
+          "word": " against",
+          "start": 6.06,
+          "end": 6.42,
+          "probability": 0.9942237734794617
+        },
+        {
+          "word": " 9",
+          "start": 6.42,
+          "end": 6.8,
+          "probability": 0.6812725067138672
+        },
+        {
+          "word": " separate",
+          "start": 6.8,
+          "end": 7.3,
+          "probability": 0.9890882968902588
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.3,
+      "end": 7.7,
+      "text": " tests.",
+      "tokens": [
+        50732,
+        6921,
+        13,
+        50794
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " tests.",
+          "start": 7.3,
+          "end": 7.7,
+          "probability": 0.9660546183586121
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.32,
+      "end": 10.9,
+      "text": " What survives gets a strength score, not a guess.",
+      "tokens": [
+        50794,
+        708,
+        46231,
+        2170,
+        257,
+        3800,
+        6175,
+        11,
+        406,
+        257,
+        2041,
+        13,
+        50930
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " What",
+          "start": 8.32,
+          "end": 8.58,
+          "probability": 0.935556948184967
+        },
+        {
+          "word": " survives",
+          "start": 8.58,
+          "end": 8.98,
+          "probability": 0.7449015974998474
+        },
+        {
+          "word": " gets",
+          "start": 8.98,
+          "end": 9.26,
+          "probability": 0.9481788873672485
+        },
+        {
+          "word": " a",
+          "start": 9.26,
+          "end": 9.46,
+          "probability": 0.9319462776184082
+        },
+        {
+          "word": " strength",
+          "start": 9.46,
+          "end": 9.7,
+          "probability": 0.6925882697105408
+        },
+        {
+          "word": " score,",
+          "start": 9.7,
+          "end": 10.08,
+          "probability": 0.9711721539497375
+        },
+        {
+          "word": " not",
+          "start": 10.42,
+          "end": 10.56,
+          "probability": 0.9789998531341553
+        },
+        {
+          "word": " a",
+          "start": 10.56,
+          "end": 10.7,
+          "probability": 0.9830893278121948
+        },
+        {
+          "word": " guess.",
+          "start": 10.7,
+          "end": 10.9,
+          "probability": 0.9491504430770874
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.36,
+      "end": 12.98,
+      "text": " Strong, moderate or weak.",
+      "tokens": [
+        50930,
+        22792,
+        11,
+        18174,
+        420,
+        5336,
+        13,
+        51048
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " Strong,",
+          "start": 11.36,
+          "end": 11.62,
+          "probability": 0.9701325297355652
+        },
+        {
+          "word": " moderate",
+          "start": 12.04,
+          "end": 12.34,
+          "probability": 0.989525318145752
+        },
+        {
+          "word": " or",
+          "start": 12.34,
+          "end": 12.74,
+          "probability": 0.6753559708595276
+        },
+        {
+          "word": " weak.",
+          "start": 12.74,
+          "end": 12.98,
+          "probability": 0.9994118213653564
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.6,
+      "end": 14.76,
+      "text": " And then the reasoning is shown.",
+      "tokens": [
+        51048,
+        400,
+        550,
+        264,
+        21577,
+        307,
+        4898,
+        13,
+        51108
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35782124201456705,
+      "compression_ratio": 1.4355828220858895,
+      "no_speech_prob": 0.02694324031472206,
+      "words": [
+        {
+          "word": " And",
+          "start": 13.6,
+          "end": 13.7,
+          "probability": 0.9566618204116821
+        },
+        {
+          "word": " then",
+          "start": 13.7,
+          "end": 13.82,
+          "probability": 0.8688982725143433
+        },
+        {
+          "word": " the",
+          "start": 13.82,
+          "end": 13.94,
+          "probability": 0.9512845873832703
+        },
+        {
+          "word": " reasoning",
+          "start": 13.94,
+          "end": 14.24,
+          "probability": 0.9603874683380127
+        },
+        {
+          "word": " is",
+          "start": 14.24,
+          "end": 14.46,
+          "probability": 0.9935641884803772
+        },
+        {
+          "word": " shown.",
+          "start": 14.46,
+          "end": 14.76,
+          "probability": 0.982364296913147
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

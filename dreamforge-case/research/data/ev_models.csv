@@ -1,0 +1,14 @@
+model,maker,segment,battery_kwh,range_km_claimed,top_speed,price_rs,cargo_rating,source_sid
+Okinawa iPraise+ (point charging),Okinawa,electric scooter,3.3 gross / 3.0 net,139 km certified / 111 km adjusted real world,not stated,147600,not stated,S276
+Okinawa iPraise+ (battery swapping; no battery),Okinawa,electric scooter,3.3 gross / 3.0 net,139 km certified / 111 km adjusted real world,not stated,112786,not stated,S276
+Ather 450X,Ather Energy,electric scooter,2.9 gross / 2.6 net,116 km certified / 93 km adjusted real world,not stated,171415,not stated,S276
+Honda Activa 6G (petrol reference),Honda,petrol scooter,not applicable,60 kmpl certified / 48 kmpl adjusted real world,not stated,67843,not stated,S276
+Kinetic DX+,Kinetic,electric scooter,3.1 LFP,132 km IDC claimed / 105 to 110 km real world,not stated,127650,not stated,S257
+Ather Rizta S,Ather Energy,electric scooter,2.9,123 km claimed / 105 km true range,80 km/h,109999 to 121499 (aggregator range; see Conflicts C-D3),not stated,S258
+Ola S1 X Gen 3,Ola Electric,electric scooter,4,242 km claimed,123 km/h,79999 to 109999,not stated,S260
+TVS iQube S,TVS Motor,electric scooter,3.5,145 km claimed,78 km/h,135727 to 156420,not stated,S260
+TVS iQube 3.1,TVS Motor,electric scooter,3.1,not stated,not stated,110000 (Bengaluru effective),not stated,S261
+Simple One (single battery),Simple Energy,electric scooter,not stated (single pack),236 km claimed / 203 km real world Eco mode,not stated,109000,not stated,S262
+Simple One (two battery),Simple Energy,electric scooter,6.4,300+ km claimed,not stated,145000,not stated,S262
+Ola S1 Pro (top variant),Ola Electric,electric scooter,5.2,242 km claimed IDC / 150 to 180 km real world,not stated,125000 to 175000,not stated,S263
+Bajaj Chetak,Bajaj Auto,electric scooter,not stated,113 to 153 km claimed IDC,not stated,91399 to 134000,not stated,S263

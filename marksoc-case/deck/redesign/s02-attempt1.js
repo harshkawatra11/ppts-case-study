@@ -1,0 +1,16 @@
+const s=await resetBody('3:4','Fund the proof and the lab together: ₹58.0 lakh puts March EBITDA at +₹5.6 lakh, while a price push deepens the loss','Source: case Exhibits 1 to 6 | team model 9b3628d94d, T7 to T19 | January setup; February and March live | Q1 incremental result −₹0.5 lakh');
+const a=addLayeredCard(s,64,310,502,716,R.gold,R.navy,6,2,'CARD: investment mandate');
+label(a,22,14,458,'THE INVESTMENT MANDATE',C.accent);
+tx(a,22,62,458,'Build a provable promise before buying more demand',{display:true,size:32,color:C.white});
+const steps=[['JANUARY','₹40.0 lakh','B1 report ₹15 lakh; B2 battery and warranty ₹25 lakh'],['1 FEBRUARY','₹9.0 lakh','Open the third shift; put proof before price on every listing'],['MARCH','₹9.0 lakh','Keep the shift; reach 8,328 phones and +₹5.6 lakh EBITDA']];
+steps.forEach((r,i)=>{const yy=180+139*i;addEllipse(a,23,yy+4,38,38,C.accent,C.ink,2);tx(a,23,yy+8,38,String(i+1),{display:true,align:'CENTER',color:R.navy});if(i<2)addRect(a,41,yy+43,2,94,C.accent);label(a,78,yy,398,r[0],C.accent);tx(a,78,yy+35,398,r[1],{display:true,size:28,color:C.white});tx(a,78,yy+74,398,r[2],{color:C.white});});
+tx(a,22,607,458,'CAPITAL DISCIPLINE',{display:true,color:C.accent});addRect(a,22,648,458,25,C.tint,C.ink,1.5);addRect(a,22,648,458*58/80,25,C.accent,C.ink,1.5);tx(a,22,683,458,'₹58.0 lakh deployed; ₹22.0 lakh held',{color:C.white,style:'Bold'});
+const b=box(s,590,310,764,424,'THREE REASONS THIS PLAN EARNS THE MONEY',{dark:R.blue});
+[['01','ECONOMICS','₹22.2 lakh','claims and returns cost more than the ₹14.1 lakh monthly loss'],['02','CUSTOMER','44% vs 22%','battery assurance attracts twice the response to a 5% price cut'],['03','CAPACITY','7,200 / 7,200','all sellable lab output is sold; extra orders need a third shift']].forEach((r,i)=>{const yy=58+116*i;addRect(b,14,yy,56,92,i===1?R.gold:C.tint,C.ink,1.5);tx(b,16,yy+25,52,r[0],{display:true,size:28,align:'CENTER',color:R.navy});label(b,88,yy,650,r[1]);tx(b,88,yy+34,220,r[2],{display:true,size:29,color:i===0?R.red:R.navy});tx(b,320,yy+34,416,r[3]);if(i<2)addDashedRow(b,88,yy+103,650,C.ink,8,6,1);});
+const c=box(s,1378,310,478,716,'FOUR TESTS, ONE CAVEAT',{dark:R.navy});
+[['Growth money','58.0 / 80.0 lakh','₹22.0 lakh reserve'],['March EBITDA','+₹5.6 lakh','Board minimum: ₹0'],['March returns','4.5%','Board maximum: 6.0%'],['Every claim true','3 claims supported','Battery, warranty, IMEI + data']].forEach((r,i)=>{const yy=58+i*110;addRect(c,14,yy,7,94,R.green,C.ink,1);label(c,34,yy,425,r[0]);tx(c,34,yy+32,425,r[1],{display:true,size:28,color:R.green});tx(c,34,yy+69,425,r[2]);});
+tint(c,14,512,450,94,'Q1 ends ₹0.5 lakh below doing nothing because January carries all ₹40 lakh of setup.',{fill:R.ltred});
+label(c,14,624,450,'MANAGE THE DOWNSIDE');tx(c,14,660,450,'At <1,838 orders a week, intervene before March.');
+const d=box(s,590,754,764,272,'WHAT THE BOARD IS ACTUALLY CHOOSING');
+table(d,14,50,[182,268,286],['Decision','Approve','Defer / refuse'],[['Customer','Family buyers; Good','Fair price seekers'],['Channels','Report, stores, referrals','More performance spend'],['Options','B1 + B2 + Feb shift','A, B3; C until April'],['Risk response','Weekly trigger reviews','Wait for monthly P&L']],{rh:43,hh:36});
+return stats(s);

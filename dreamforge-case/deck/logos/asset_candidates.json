@@ -1,0 +1,180 @@
+{
+  "Amazon": {
+    "url": "https://www.amazon.in/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\" content=\"https://m.media-amazon.com/images/I/51HCHFclmmL.jpg\" xmlns:og=\"http://opengraphprotocol.org/schema/\">",
+      "<img src=\"https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png\" style=\"display:none\" alt=\"\">",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF933,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF1244,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"Powermax | leader\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF933,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF1244,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"RTB\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_FMavif_SF1065,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_FMavif_SF1420,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_SF1420,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21AnyQ6QABL._AIweblab1431263,T1_SF1420,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"Souled store Bewakoof\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF933,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF1244,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"Kurta\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_FMavif_SF1065,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_FMavif_SF1420,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_SF1420,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_SF1065,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21fp4wBA3QL._AIweblab1431263,T1_SF1420,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"Shark Ninja | Agaro\" class=\"a-amazon-image _single-video-card_style_logo__2ZQ-N _single-video-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_FMavif_SF513,117_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_FMavif_SF684,156_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_SF513,117_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_SF684,156_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_SF513,117_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_SF513,117_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21vYdHlPx+L._AIweblab1431263,T1_SF684,156_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"Top brands\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>",
+      "<source type=\"image/avif\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF933,132_QL54_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_FMavif_SF1244,176_QL54_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<source type=\"image/jpg\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\"/>",
+      "<img loading=\"eager\" src=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo\" srcset=\"https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF933,132_QL80_._FMpng_.png?aicid=homepage-card-logo 1.5x,\n              https://m.media-amazon.com/images/I/21xR0WDeOlL._AIweblab1431263,T1_SF1244,176_QL80_._FMpng_.png?aicid=homepage-card-logo 2x\" alt=\"RTB\" class=\"a-amazon-image _single-creative-card_style_logo__2ZQ-N _single-creative-card_style_logoRectangle__1VJwu\"/>"
+    ]
+  },
+  "Zypp Electric": {
+    "url": "https://zypp.app/",
+    "status": 200,
+    "tags": []
+  },
+  "Yulu": {
+    "url": "https://www.yulu.bike/",
+    "status": 200,
+    "tags": []
+  },
+  "Battery Smart": {
+    "url": "https://www.batterysmart.in/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\" content=\"https://www.batterysmart.in/preview.jpeg\"/>",
+      "<img alt=\"BatterySmart\" loading=\"lazy\" width=\"1082\" height=\"180\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=1200&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=3840&amp;q=75 2x\" src=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=3840&amp;q=75\"/>",
+      "<img alt=\"BatterySmart\" loading=\"lazy\" width=\"1082\" height=\"180\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=1200&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=3840&amp;q=75 2x\" src=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9f0b8870.webp&amp;w=3840&amp;q=75\"/>"
+    ]
+  },
+  "Sun Mobility": {
+    "url": "https://www.sunmobility.com/",
+    "status": 200,
+    "tags": [
+      "<img src=\"assets/images/header/logo.png\" />",
+      "<img src=\"assets/images/footer/logo-footer.png\" />",
+      "<img src=\"assets/images/header/logo.png\" />"
+    ]
+  },
+  "Tata Power": {
+    "url": "https://www.tatapower.com/",
+    "status": 406,
+    "tags": []
+  },
+  "Delhi Govt": {
+    "url": "https://delhi.gov.in/",
+    "status": 200,
+    "tags": [
+      "<img src=\"https://delhi.gov.in/themes/delhi_gov/images/screenreader.png\" alt=\"logo\">",
+      "<img id=\"logo\" src=\"/sites/default/files/emblem-dark.png\" rel=\"home\" alt=\"Home\" title=\"Home\"/>",
+      "<img src=\"/sites/default/files/sub-logos/india-flag-1.jpg\" alt=\"India Flag\">",
+      "<img src=\"/sites/default/files/sub-logos/cyber_dost.png\" alt=\"Cyber Dost\">",
+      "<img src=\"/sites/default/files/sub-logos/logo_0.png\" alt=\"Digital India\">"
+    ]
+  },
+  "MHI": {
+    "url": "https://heavyindustries.gov.in/hi",
+    "status": 200,
+    "tags": [
+      "<img src=\"/themes/mhi/images/logo.png\" alt=\"Emblem of India\">",
+      "<img alt=\"STQC Certificate\" src=\"/sites/default/files/2025-01/stqc_logo.png\">"
+    ]
+  },
+  "Ather": {
+    "url": "https://www.atherenergy.com/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\" content=\"https://media.atherenergy.com/450%20Apex%20-%20%20-%20Product%20card.png\" data-next-head=\"\"/>"
+    ]
+  },
+  "TVS Motor": {
+    "url": "https://www.tvsmotor.com/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\" content=\"https://www.tvsmotor.com/-/media/Feature/Hero-Banner/April-2022/Website-Banner-Desktop-1366-x-600-Pix--1.jpg\" />",
+      "<img src=\"/-/media/Feature/Header/TVSLogo-hr.svg\" alt=\"\" class=\"logo-image\" loading=\"eager\" />",
+      "<source media=\"(min-width: 768px)\" srcset=\"/-/media/Apache-310/without-logo/Corporate-Website_Corporate-landing-page-Deskstop-RTR310-1366X600.webp\">",
+      "<img src=\"/-/media/Apache-310/without-logo/Corporate-Website_Corporate-landing-page-Mobile-RTR310-375X586.webp\" class=\"heroImg\" alt=\"TVS\" loading=\"eager\" width=\"1200\" height=\"800\" fetchpriority=\"high\" decoding=\"async\" />",
+      "<source media=\"(min-width: 768px)\" srcset=\"/-/media/Apache-310/without-logo/Corporate-Website_Corporate-landing-page-Deskstop-RR310-1366X600.webp\">",
+      "<img src=\"/-/media/Apache-310/without-logo/Corporate-Website_Corporate-landing-page-Mobile-RR310-375X586.webp\" class=\"heroImg\" alt=\"TVS\" loading=\"eager\" width=\"1200\" height=\"800\" fetchpriority=\"high\" decoding=\"async\" />",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/Apache-RTX-logo.webp\" alt=\"Apache RTX\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Apache-RR-310.svg\" alt=\"Apache RR 310\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Apache-RTR-310.svg\" alt=\"Apache RTR 310\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Apache-RTR.svg\" alt=\"TVS Apache RTR Series\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Ronin.svg\" alt=\"TVS Ronin\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Raider.svg\" alt=\"TVS Raider\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/commuter-app/Radeon/Logo/logo-radeon--Orange-New.webp\" alt=\"New Radeon\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Radeon.svg\" alt=\"Radeon\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Sport.svg\" alt=\"TVS Sport\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/Ntorq-150-logo-black.webp\" alt=\"TVS Ntorq 150\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Ntorq-125.svg\" alt=\"TVS Ntorq 125\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Jupiter.svg\" alt=\"TVS Jupiter\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-Zest-110.svg\" alt=\"TVS Zest 110\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-IQube.svg\" alt=\"TVS iQube\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-X.svg\" alt=\"TVS X\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/EV/TVS-Orbiter-Logo.webp\" alt=\"TVS Orbiter\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-XL-100.svg\" alt=\"TVS XL100\"\r\n                                                                         class=\"img-fluid\">",
+      "<img src=\"/-/media/Feature/Navbar/New-Product-images/Logo/TVS-King.svg\" alt=\"TVS King Deluxe\"\r\n                                                                         class=\"img-fluid\">"
+    ]
+  },
+  "Bajaj Auto": {
+    "error": "HTTPSConnectionPool(host='www.bajajauto.com', port=443): Read timed out. (read timeout=25)"
+  },
+  "Hero Vida": {
+    "url": "https://www.vidaworld.com/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\"/>"
+    ]
+  },
+  "Kinetic Green": {
+    "url": "https://kineticgreen.com/",
+    "status": 200,
+    "tags": []
+  },
+  "IEEE DTU": {
+    "url": "https://www.ieeedtu.in/",
+    "status": 200,
+    "tags": [
+      "<meta property=\"og:image\" content=\"https://www.ieeedtu.in/images/logo.png\" data-next-head=\"\"/>",
+      "<meta name=\"twitter:image\" content=\"https://www.ieeedtu.in/images/logo.png\" data-next-head=\"\"/>",
+      "<img src=\"/loader/ieee-dtu-logo.svg\" alt=\"logo\" class=\"Loader_logo__7AXhx\"/>",
+      "<img src=\"/images/logo.png\" alt=\"IEEE DTU Logo\" class=\"h-12 w-auto object-contain transition-all duration-300 scale-105 opacity-90 group-hover:opacity-100\"/>",
+      "<img src=\"/aboutPage/aboutChapterSection/CS_IEEE.png\" alt=\"IEEE Computer Society Logo\" class=\"max-h-full max-w-full object-contain filter drop-shadow-md transition-transform duration-500 group-hover:scale-105\"/>",
+      "<img src=\"/aboutPage/aboutChapterSection/PES_IEEE.png\" alt=\"IEEE PES Logo\" class=\"max-h-full max-w-full object-contain filter drop-shadow-md transition-transform duration-500 group-hover:scale-105\"/>",
+      "<img src=\"/aboutPage/aboutChapterSection/WIE_IEEE.png\" alt=\"IEEE WIE Logo\" class=\"max-h-full max-w-full object-contain filter drop-shadow-md transition-transform duration-500 group-hover:scale-105\"/>",
+      "<img src=\"/aboutPage/aboutChapterSection/CASS_IEEE.png\" alt=\"IEEE CASS Logo\" class=\"max-h-full max-w-full object-contain filter drop-shadow-md transition-transform duration-500 group-hover:scale-105\"/>",
+      "<img src=\"/images/logo.png\" alt=\"IEEE DTU Logo\" class=\"h-10 w-auto object-contain\"/>"
+    ]
+  },
+  "Dream Forge": {
+    "url": "https://www.startupgrantsindia.com/competitions/dream-forge-30",
+    "status": 200,
+    "tags": [
+      "<meta name=\"description\" content=\"Results and updates for Dream Forge 3.0. Applications closed 9 October 2026, prize pool was \u20b98,000. Dream Forge 3.0 is a case study challenge organised by IEEE\"/>",
+      "<meta name=\"keywords\" content=\"Dream Forge 3.0, startup competitions india, case_competition, Delhi startup competition\"/>",
+      "<meta property=\"og:title\" content=\"Dream Forge 3.0 (2026): Results &amp; Updates | Startup Grants India\"/>",
+      "<meta property=\"og:description\" content=\"Results and updates for Dream Forge 3.0. Applications closed 9 October 2026, prize pool was \u20b98,000. Dream Forge 3.0 is a case study challenge organised by IEEE\"/>",
+      "<meta property=\"og:url\" content=\"https://www.startupgrantsindia.com/competitions/dream-forge-30\"/>",
+      "<meta property=\"og:image\" content=\"https://www.startupgrantsindia.com/competitions/dream-forge-30/opengraph-image\"/>",
+      "<meta property=\"og:image:width\" content=\"1200\"/>",
+      "<meta property=\"og:image:height\" content=\"630\"/>",
+      "<meta property=\"og:image:alt\" content=\"Dream Forge 3.0 (2026): Results &amp; Updates | Startup Grants India\"/>",
+      "<meta name=\"twitter:title\" content=\"Dream Forge 3.0 (2026): Results &amp; Updates | Startup Grants India\"/>",
+      "<meta name=\"twitter:description\" content=\"Results and updates for Dream Forge 3.0. Applications closed 9 October 2026, prize pool was \u20b98,000. Dream Forge 3.0 is a case study challenge organised by IEEE\"/>",
+      "<meta name=\"twitter:image\" content=\"https://www.startupgrantsindia.com/competitions/dream-forge-30/opengraph-image\"/>",
+      "<img alt=\"Dream Forge 3.0\" decoding=\"async\" data-nimg=\"fill\" class=\"object-cover\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcSet=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=3840&amp;q=75 3840w\" src=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Flambda-pdfs%2Fopportunity-bannerImages%2F1789397929.png&amp;w=3840&amp;q=75\"/>",
+      "<img alt=\"Dream Forge 3.0\" loading=\"lazy\" width=\"48\" height=\"48\" decoding=\"async\" data-nimg=\"1\" class=\"rounded-md object-contain shrink-0\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=96&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=96&amp;q=75\"/>",
+      "<img alt=\"Dream Forge 3.0\" loading=\"lazy\" width=\"48\" height=\"48\" decoding=\"async\" data-nimg=\"1\" class=\"rounded-md object-contain shrink-0\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=96&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fd8it4huxumps7.cloudfront.net%2Fuploads%2Fimages%2F150x150%2FuploadedManual-6aa8d0e033c50_images.png&amp;w=96&amp;q=75\"/>",
+      "<img alt=\"\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"object-contain p-[1px]\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"20px\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=3840&amp;q=75 3840w\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=3840&amp;q=75\"/>",
+      "<img alt=\"\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"object-contain p-[1px]\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"20px\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=3840&amp;q=75 3840w\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freloop-ai-video-startup-perk.png&amp;w=3840&amp;q=75\"/>",
+      "<img alt=\"Notion\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fsoftware-credit-logos%2Fnotion.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fsoftware-credit-logos%2Fnotion.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fsoftware-credit-logos%2Fnotion.png&amp;w=64&amp;q=75\"/>",
+      "<img alt=\"AWS\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2Fimages%2Faws-credits%2Faws-logo.png&amp;w=32&amp;q=75&amp;dpl=3ed46d9e4c1bc190a925598a7e8bdbb4f05f93c6 1x, /_next/image?url=%2Fimages%2Faws-credits%2Faws-logo.png&amp;w=64&amp;q=75&amp;dpl=3ed46d9e4c1bc190a925598a7e8bdbb4f05f93c6 2x\" src=\"/_next/image?url=%2Fimages%2Faws-credits%2Faws-logo.png&amp;w=64&amp;q=75&amp;dpl=3ed46d9e4c1bc190a925598a7e8bdbb4f05f93c6\"/>",
+      "<img alt=\"Higgsfield\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhiggsfield.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhiggsfield.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhiggsfield.png&amp;w=64&amp;q=75\"/>",
+      "<img alt=\"Replit\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freplit.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freplit.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Freplit.png&amp;w=64&amp;q=75\"/>",
+      "<img alt=\"Manus\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fmanus2.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fmanus2.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fmanus2.png&amp;w=64&amp;q=75\"/>",
+      "<img alt=\"Hostinger\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhostinger.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhostinger.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fhostinger.png&amp;w=64&amp;q=75\"/>",
+      "<img alt=\"Bolt\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-7 object-contain\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fbolt-new.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fbolt-new.png&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Fizyqqegyhlwvdisutyhl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fprovider-logos%2Fcredits%2Fbolt-new.png&amp;w=64&amp;q=75\"/>"
+    ]
+  }
+}

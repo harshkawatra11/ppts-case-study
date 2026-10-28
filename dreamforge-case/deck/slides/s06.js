@@ -1,0 +1,23 @@
+{ const s = await figma.getNodeByIdAsync("S6");
+skelBT(s,-1,"A / 1","ANNEXURE",300,V.h5,V.src[5],{labels:RIBAP});
+const a1=panel(s,64,312,884,350,"A1 CALCULATIONS, ₹ LAKH");
+wrapTable(a1,16,56,[90,150,160,150],["Qtr","Revenue","Contrib.","Cash"],V.qtr,{headerH:32,rowH:32,name:"quarters"});
+callout(a1,582,56,286,144,"Bought EV: ","₹"+V.own_c+" capital + ₹"+V.own_h+" hub − ₹"+V.own_r+" resale + ₹3,000 running = ₹"+V.own_all+" a month");
+callout(a1,582,204,286,144,"EMI: ","₹1,10,000 at 11% over 36 months is ₹"+V.emi+" a month, above the ₹"+V.lease+" lease");
+const a2=panel(s,972,312,884,350,"A2 ASSUMPTIONS, BEAR TO BULL");
+wrapTable(a2,16,56,[70,380,124,124,124],["ID","Assumption","Bear","Base","Bull"],V.assum,{headerH:32,rowH:30,name:"assumptions",colors:[C.ink,C.ink,C.alert,C.primaryDeep,C.good]});
+fine(a2,16,330,852,"Bear is the value least favourable to the recommendation. Case facts are never varied.");
+const a3=panel(s,64,678,884,352,"A3 SENSITIVITY AND SCENARIOS");
+TL(a3,16,56,22,"NPV over 48 months, ₹ Cr, base "+V.tor_base.toFixed(2),{family:"Inter",style:"Bold",maxW:440});
+const TX=tornado(a3,16,92,410,V.tor.map(r=>({label:r[0],lo:r[1],hi:r[2]})),V.tor_base,{labelW:230,rowH:30,min:3.8,max:7.8});
+TL(a3,0,306,22,V.tor[0][1].toFixed(2),{family:"Inter",style:"Bold",centerAt:TX(V.tor[0][1])});
+TL(a3,0,306,22,V.tor_base.toFixed(2),{family:"Inter",style:"Bold",color:C.primaryDeep,centerAt:TX(V.tor_base)});
+TL(a3,0,306,22,V.tor[0][2].toFixed(2),{family:"Inter",style:"Bold",rightAt:426});
+wrapTable(a3,442,56,[184,81,84,77],["Metric","Bear","Base","Bull"],V.scen,{headerH:32,rowH:34,name:"scenarios"});
+T(a3,472,266,396,22,"Switch points: lease ₹"+V.sw_lease+" a month; subsidy ₹"+V.sw_sub+" a bike; contract volume "+V.sw_cvol+".",{family:"Inter",style:"Bold",color:C.primaryDeep});
+const a4=panel(s,972,678,884,352,"A4 EMISSIONS AND SOURCES");
+wrapTable(a4,16,56,[224,108,136],["Measure","Today","Month 24"],[["t CO2 a year",String(V.em.today_t),String(V.em.m24_t)],["g CO2 per delivery",String(V.em.today_g),String(V.em.m24_g)],["Deliveries a month",V.dels0,V.dels24]],{headerH:32,rowH:32,name:"emissions"});
+callout(a4,16,194,460,140,"Method: ","a petrol bike emits "+V.em.petrol_kg+" kg CO2 a month (litres × 2.31 kg); an EV "+V.em.ev_kg+" kg (kWh × 0.727 kg, CEA grid factor).");
+TL(a4,492,56,22,"Sources",{color:C.primary});
+V.biblio.forEach((b,i)=>{ const t=addText(a4,"Inter","Semi Bold",16,C.ink,(i+1)+". "+b,492,90+i*21,376,20,"LEFT","CENTER",false); t.name="BIBLIO"; });
+results.push({slide:s.id,total:s.findAll(()=>true).length,top:s.children.length}); }

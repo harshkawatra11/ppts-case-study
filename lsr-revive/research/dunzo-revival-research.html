@@ -1,0 +1,2445 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Dunzo Revival: Research Deliverable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 22mm 18mm 22mm 18mm;
+  @bottom-left { content: "Dunzo Revival  |  Team IdeaForge"; font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #0F7A4D; }
+  @bottom-right { content: counter(page); font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #0A0A0A; } }
+@page :first { margin: 0; @bottom-left { content: none } @bottom-right { content: none } }
+:root { --p:#0F7A4D; --pd:#0A5233; --a:#F5C518; --tint:#CFEEDB; --ink:#0A0A0A; --grey:#F4F5F4; --line:#D5D9D6; }
+* { box-sizing: border-box; }
+body { font: 9.6pt/1.5 Inter, 'Segoe UI', Calibri, sans-serif; color: var(--ink); margin: 0; }
+.cover { height: 297mm; background: var(--pd); color: #fff; padding: 30mm 22mm; position: relative; page-break-after: always; }
+.cover .bar { position:absolute; left:0; top:0; bottom:0; width:10mm; background: var(--a); }
+.cover .kicker { font: 700 10pt Poppins,'Segoe UI',sans-serif; letter-spacing: .18em; color: var(--a); text-transform: uppercase; margin-top: 30mm; }
+.cover h1 { font: 800 40pt/1.05 Poppins,'Segoe UI',sans-serif; margin: 8mm 0 6mm; border: 0; padding: 0; color:#fff; }
+.cover .sub { font: 600 15pt/1.35 Poppins,'Segoe UI',sans-serif; color: var(--tint); max-width: 150mm; }
+.cover .meta { position:absolute; left:22mm; right:22mm; bottom:26mm; border-top: 2px solid var(--a); padding-top: 6mm; font-size: 10pt; color:#fff; }
+.cover .meta b { color: var(--a); }
+.tocpage { page-break-after: always; }
+.tocpage h2.tt { font: 800 20pt Poppins,'Segoe UI',sans-serif; color: var(--pd); border-bottom: 3px solid var(--a); padding-bottom: 3mm; margin: 0 0 8mm; }
+.tocpage ol { list-style: none; padding: 0; margin: 0; columns: 1; }
+.tocpage li { padding: 1.5mm 0; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 9.6pt; }
+.tocpage a { color: var(--ink); text-decoration: none; }
+h1,h2,h3,h4 { font-family: Poppins,'Segoe UI',sans-serif; color: var(--pd); line-height: 1.2; }
+h2 { font-size: 16pt; font-weight: 800; margin: 12mm 0 4mm; padding: 0 0 2.5mm; border-bottom: 3px solid var(--a); page-break-after: avoid; }
+h2::before { content: ""; display:inline-block; width: 4mm; height: 4mm; background: var(--p); margin-right: 3mm; vertical-align: 1px; }
+h3 { font-size: 11.6pt; font-weight: 700; margin: 7mm 0 2mm; color: var(--p); page-break-after: avoid; }
+h4 { font-size: 10pt; font-weight: 700; margin: 5mm 0 1mm; page-break-after: avoid; }
+p { margin: 0 0 3mm; text-align: left; }
+strong { font-weight: 700; }
+ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+li { margin-bottom: 1mm; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 6mm 0; }
+blockquote { margin: 4mm 0; padding: 3mm 5mm; background: var(--tint); border-left: 1.5mm solid var(--p); }
+blockquote p:last-child { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 8.3pt; line-height: 1.35; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: var(--pd); color: #fff; text-align: left; font: 700 8pt Poppins,'Segoe UI',sans-serif; padding: 2mm 2.2mm; border: 1px solid var(--pd); }
+td { padding: 1.7mm 2.2mm; border: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+tbody tr:nth-child(even) td { background: var(--grey); }
+td:first-child { font-weight: 600; min-width: 15mm; }
+a { color: var(--p); text-decoration: none; }
+.tag { font: 600 7pt Inter,'Segoe UI',sans-serif; color: var(--pd); background: var(--tint); border-radius: 2px; padding: 0 1.3mm; white-space: nowrap; }
+.code { font: 500 8pt Consolas,'Courier New',monospace; background: var(--grey); border: 1px solid var(--line); padding: 0 1mm; border-radius: 2px; }
+</style></head><body><section class="cover"><div class="bar"></div>
+<div class="kicker">LSR Samagam&#39;26  |  Revive the Failed &#39;26  |  Round 1 research deliverable</div>
+<h1>Dunzo Revival</h1>
+<div class="sub">Why Dunzo failed and how it could have survived as itself</div>
+<div class="meta"><b>Team IdeaForge</b><br>Harsh Kawatra, Delhi Technological University (Team Leader)<br>Gursimran Kaur, GGSIPU<br>Dayita Arora, Ramjas College, University of Delhi<br><br>LSR Samagam&#x27;26, Revive the Failed &#x27;26, Round 1, September 2026</div></section>
+<section class="tocpage"><h2 class="tt">Contents</h2><ol><li><a href="#0-document-control">0. Document control</a></li><li><a href="#1-brief-coverage-matrix">1. Brief coverage matrix</a></li><li><a href="#2-the-answer-in-one-page">2. The answer in one page</a></li><li><a href="#3-the-business-a-city-errand-network-that-customers-turned-into-a-verb">3. The business: a city errand network that customers turned into a verb</a></li><li><a href="#4-the-market-quick-commerce-arrived-with-bigger-wallets-and-a-different-cost-model">4. The market: quick commerce arrived with bigger wallets and a different cost model</a></li><li><a href="#5-the-failure-context-eighteen-months-from-launch-to-retreat">5. The failure context: eighteen months from launch to retreat</a></li><li><a href="#6-financial-autopsy-87-of-the-fy23-loss-paid-for-the-dark-store-war">6. Financial autopsy: 87% of the FY23 loss paid for the dark-store war</a></li><li><a href="#7-root-causes-three-decisions-not-bad-luck">7. Root causes: three decisions, not bad luck</a></li><li><a href="#8-critical-decisions-that-accelerated-the-decline">8. Critical decisions that accelerated the decline</a></li><li><a href="#9-failed-assumptions">9. Failed assumptions</a></li><li><a href="#10-the-unavoidable-problem">10. The unavoidable problem</a></li><li><a href="#11-missed-opportunities-that-were-realistic-at-the-time">11. Missed opportunities that were realistic at the time</a></li><li><a href="#12-the-point-of-intervention-january-to-april-2022">12. The point of intervention: January to April 2022</a></li><li><a href="#13-the-revival-thesis-keep-the-promise-drop-the-asset">13. The revival thesis: keep the promise, drop the asset</a></li><li><a href="#14-the-revival-model">14. The revival model</a></li><li><a href="#15-revival-outcome-what-dunzo-would-look-like-in-fy27">15. Revival outcome: what Dunzo would look like in FY27</a></li><li><a href="#16-initial-roadmap-and-gates">16. Initial roadmap and gates</a></li><li><a href="#17-feasibility-why-this-could-have-worked-with-what-dunzo-had">17. Feasibility: why this could have worked with what Dunzo had</a></li><li><a href="#18-risks-and-mitigations">18. Risks and mitigations</a></li><li><a href="#19-boundary-compliance-check">19. Boundary compliance check</a></li><li><a href="#20-slide-blueprint">20. Slide blueprint</a></li><li><a href="#21-anticipated-judge-questions">21. Anticipated judge questions</a></li><li><a href="#appendix-a-bibliography">Appendix A: Bibliography</a></li><li><a href="#appendix-b-model-tables">Appendix B: Model tables</a></li><li><a href="#appendix-c-glossary">Appendix C: Glossary</a></li><li><a href="#appendix-d-data-conflicts-and-resolutions">Appendix D: Data conflicts and resolutions</a></li></ol></section>
+<h2 id="0-document-control">0. Document control</h2>
+<p><strong>Purpose.</strong> This document is the research backbone for Team IdeaForge's Round 1 submission to LSR Samagam'26, Revive the Failed '26. It carries the evidence, the model and the argument behind a 3-slide case deck on Dunzo, so every number, timeline entry and claim on a slide traces to a filing, a press report or a disclosed assumption. The brief asks teams to diagnose why a named business failed and propose a revival that keeps &quot;same business, same core identity, same problem, different responses&quot; [B §BD1]. This document lets that test be checked line by line.</p>
+<p><strong>Source hierarchy.</strong> Where two sources disagree, this document resolves the conflict by rank. First, the brief governs scope: what counts as in-bounds analysis and what is explicitly excluded [B §SG6]. Second, Registrar-of-Companies filings as reported by Entrackr govern every financial figure, since RoC filings are the only primary-adjacent record and other outlets sometimes quote restated or standalone numbers. Third, contemporaneous press coverage (TechCrunch, Inc42, Reliance's own release, Forbes India, Rest of World and others) governs dated events, funding rounds and operational milestones. The conflicts this hierarchy resolved, and how, sit in Appendix D.</p>
+<p><strong>Tag legend.</strong> Every number in this document carries a tag showing where it came from.</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[B §x]</td>
+<td>A requirement or boundary condition drawn directly from the brief</td>
+</tr>
+<tr>
+<td>[F##]</td>
+<td>A company or financial fact from the fact base (company, funding, RoC financials)</td>
+</tr>
+<tr>
+<td>[M##]</td>
+<td>A market or competitor fact from the fact base</td>
+</tr>
+<tr>
+<td>[S##]</td>
+<td>A citation to a specific numbered source in the bibliography</td>
+</tr>
+<tr>
+<td>[A##]</td>
+<td>A disclosed modelling assumption, not a reported fact</td>
+</tr>
+<tr>
+<td>[Model]</td>
+<td>An output computed by the revival model, not observed anywhere</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Model version.</strong> All model numbers here come from <span class="code">dunzo_revival_model.py</span>, run on 25 Sep 2026. The reference run printed a FY23 loss bridge of ₹226 Cr base, +₹299 Cr ads, +₹246 Cr people, +₹317 Cr fleet and +₹713 Cr stores and other, summing to the reported ₹1,801 Cr FY23 loss, with the increase over the FY21 base equal to ₹1,575 Cr, or 87% [Model]. The base case shows FY23 EBITDA of −₹172 Cr rising to +₹18 Cr in FY27, with ₹1,288 Cr of the January 2022 round still in cash [Model]. Bear, bull and sensitivity grids appear in §14 and Appendix B. A rerun should reproduce these figures exactly; a mismatch means the model has drifted, and the fix is to rerun it, not adjust the prose.</p>
+<p><strong>FY24 note.</strong> Dunzo never filed FY24 financials in the sources reviewed for this document. Wherever a reader might expect a FY24 actual (revenue, loss, cash), this document says plainly that FY24 was not reported, rather than estimating or interpolating one [F12].</p>
+<hr />
+<h2 id="1-brief-coverage-matrix">1. Brief coverage matrix</h2>
+<p>The table below maps every scored item in the brief to where this document and the deck answer it. &quot;Doc §&quot; points to the section of this research document that carries the full analysis; &quot;Slide and panel&quot; points to the panel on the 3-slide deck where the judge sees it.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>One-line answer</th>
+<th>Doc §</th>
+<th>Slide and panel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ES1</td>
+<td>The Business</td>
+<td>Bengaluru errand app, commission-only, that became a verb: &quot;Dunzo it&quot; [F01, F02]</td>
+<td>§3</td>
+<td>Slide 2, THE BUSINESS</td>
+</tr>
+<tr>
+<td>ES2</td>
+<td>The Market</td>
+<td>Urban households and 20,000+ SMBs [F24], against Blinkit, Instamart, Zepto and BB Now [M05]</td>
+<td>§4</td>
+<td>Slide 2, THE MARKET</td>
+</tr>
+<tr>
+<td>ES3</td>
+<td>The Failure Context</td>
+<td>Swapped commission model for owned dark stores from Jun 2021, then poured the Jan 2022 raise into 120 of them [F13, F07, F19]</td>
+<td>§5</td>
+<td>Slide 2, THE FAILURE CONTEXT</td>
+</tr>
+<tr>
+<td>ES4</td>
+<td>The Revival Thesis</td>
+<td>Keep the errand network, serve it from partners' shelves, fund it with D4B, win four cities before fifteen</td>
+<td>§2</td>
+<td>Slide 2, THE REVIVAL THESIS</td>
+</tr>
+<tr>
+<td>WF1</td>
+<td>Root Cause(s)</td>
+<td>Three causes: owned stores, reach before density, one revenue engine [RC1 to RC3]</td>
+<td>§7</td>
+<td>Slide 3, ROOT CAUSES + moneyshot</td>
+</tr>
+<tr>
+<td>WF2</td>
+<td>Critical Decisions</td>
+<td>Six decisions, Jun 2021 to 2023, logged against the alternative available at the time</td>
+<td>§8</td>
+<td>Slide 3, CRITICAL DECISIONS</td>
+</tr>
+<tr>
+<td>WF3</td>
+<td>Failed Assumptions</td>
+<td>Seven assumptions that did not hold, spanning customers, capital, unit economics, Reliance</td>
+<td>§9</td>
+<td>Slide 3, FAILED ASSUMPTIONS</td>
+</tr>
+<tr>
+<td>WF4</td>
+<td>The Unavoidable Problem</td>
+<td>Quick commerce reached Dunzo's customers with deeper pockets on a cost base Dunzo could not fund</td>
+<td>§10</td>
+<td>Slide 3, THE UNAVOIDABLE PROBLEM</td>
+</tr>
+<tr>
+<td>WF5</td>
+<td>Missed Opportunities</td>
+<td>Reliance's stores as shelves, D4B as a second engine, Bengaluru density, early ONDC, batching, the 2020 lesson</td>
+<td>§11</td>
+<td>Slide 3, MISSED OPPORTUNITIES</td>
+</tr>
+<tr>
+<td>WF6</td>
+<td>Point of Intervention</td>
+<td>Jan to Apr 2022: round just landed, only about 75 stores existed, still reversible [F07, F20]</td>
+<td>§12</td>
+<td>Slide 3, POINT OF INTERVENTION</td>
+</tr>
+<tr>
+<td>RV1</td>
+<td>The Strategic Intervention</td>
+<td>Partner-shelf fulfilment, D4B as engine two, density in four cities</td>
+<td>§13</td>
+<td>Slide 4, THE STRATEGIC INTERVENTION</td>
+</tr>
+<tr>
+<td>RV2</td>
+<td>Problem-Solution Fit</td>
+<td>Each root cause maps to one fix with one proof point</td>
+<td>§13</td>
+<td>Slide 4, PROBLEM-SOLUTION FIT</td>
+</tr>
+<tr>
+<td>RV3</td>
+<td>Continuity</td>
+<td>Brand, fleet, pick-drop product and local-store marketplace stay; only who holds stock changes</td>
+<td>§13</td>
+<td>Slide 4, CONTINUITY</td>
+</tr>
+<tr>
+<td>RV4</td>
+<td>Adaptation</td>
+<td>Responses to rival speed claims, funding winter, rider cost, anchor-client risk</td>
+<td>§13</td>
+<td>Slide 4, ADAPTATION</td>
+</tr>
+<tr>
+<td>RV5</td>
+<td>Revival Outcome</td>
+<td>FY27 EBITDA +₹18 Cr, ₹1,288 Cr of cash left, base case [Model]</td>
+<td>§15</td>
+<td>Slide 4, REVIVAL OUTCOME</td>
+</tr>
+<tr>
+<td>RV6</td>
+<td>Initial Roadmap</td>
+<td>Three phases, 0 to 6, 6 to 18, 18 to 36 months, with named gates</td>
+<td>§16</td>
+<td>Slide 4, INITIAL ROADMAP</td>
+</tr>
+<tr>
+<td>RV7</td>
+<td>Feasibility</td>
+<td>₹1,790 Cr in the bank, a working fleet, a live Reliance relationship, Porter's proof the model turns a profit [M13]</td>
+<td>§17</td>
+<td>Slide 4, FEASIBILITY</td>
+</tr>
+<tr>
+<td>BD1</td>
+<td>Boundary (same business, identity, problem)</td>
+<td>Thesis changes who owns the shelf, not what Dunzo does, who it serves, or the cost problem it must solve</td>
+<td>§19</td>
+<td>Slides 2 to 4, throughout</td>
+</tr>
+<tr>
+<td>SG4</td>
+<td>Adherence to the problem statement</td>
+<td>Every panel is built from a brief item; nothing argues outside the ES/WF/RV list</td>
+<td>This §1</td>
+<td>All core slides</td>
+</tr>
+<tr>
+<td>SG6</td>
+<td>No legal matters as an influencing factor</td>
+<td>Vendor disputes, NCLT proceedings, insolvency and salary-payment disputes excluded throughout</td>
+<td>§0</td>
+<td>n/a by design</td>
+</tr>
+<tr>
+<td>SG9</td>
+<td>Sources clearly cited</td>
+<td>Every quantitative claim carries a tag; the deck repeats a source line on every slide</td>
+<td>Appendix A</td>
+<td>Slide 5, SOURCES</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-the-answer-in-one-page">2. The answer in one page</h2>
+<p><strong>Revival thesis, one line.</strong> Keep Dunzo the city's asset-light errand network: serve the speed promise from partners' shelves instead of owned dark stores, fill idle riders with Dunzo for Business, and win four dense cities before a fifteenth.</p>
+<p><strong>Three root causes.</strong> Dunzo's decline traces to three decisions, not misfortune. First, it abandoned the commission-only, asset-light model that had carried it since 2015 and built its own dark-store network from June 2021, moving cost per completed task from about ₹30 in the partner-store model to about ₹80 with owned stores [F23]. Second, it chased reach before density, running 120 owned dark stores across 15 cities at its June 2022 peak [F19, S20] when a store needed roughly 1,200 to 1,250 orders a day at a mature metro to break even [M04], a volume most stores never reached before the cuts began [F28]. Third, it ran on one revenue engine with one dominant client: B2C traffic was over 90% of revenue as late as October 2022 [F25], while Dunzo for Business generated only ₹2.3 Cr in FY22 [F24] and later leaned on JioMart for over 40% of that smaller business, a client that then cut its rates and halved D4B's margin [F27].</p>
+<p><strong>The moneyshot.</strong> Of the ₹1,801 Cr FY23 net loss, ₹1,575 Cr, or 87%, is the increase over the FY21 pre-dark-store base of ₹226 Cr [Model]. That increase breaks into four lines: ads +₹299 Cr, people +₹246 Cr, delivery fleet +₹317 Cr, and the residual, mostly dark stores and inventory net of the extra revenue they brought in, +₹713 Cr [Model]. Nearly nine of every ten rupees Dunzo lost in FY23 above its FY21 run rate paid for the dark-store war, not for running errands.</p>
+<p><strong>Point of intervention.</strong> The decision was still reversible between January and April 2022. Dunzo had just closed a $240M round, Reliance Retail putting in $200M for 25.8% [F07], the deal naming Dunzo Reliance's hyperlocal logistics partner and JioMart's last-mile partner [F08], with only about 75 of a planned 200 dark stores built [F20, F16]. The capital was still largely unspent and the store count small enough to redirect. By 2023 the capital was gone and the option closed.</p>
+<p><strong>Revival outcome.</strong> Under the base case, redirecting the same January 2022 capital into partner-shelf fulfilment and B2B instead of owned stores produces a FY23 EBITDA of −₹172 Cr against the actual FY23 loss of ₹1,801 Cr, roughly a 90% reduction [Model]. EBITDA turns positive in FY27 at +₹18 Cr, with ₹1,288 Cr of the round still in cash [Model]. The bull case breaks even a year earlier, in FY26 [Model]. Even the bear case, at 0.75 times base volume and ₹3 lower contribution per order, never breaks even by FY28 but still holds ₹880 Cr of cash, well short of the actual fate: cash down to ₹216 Cr by March 2023 [F12] and the app offline in January 2025 [F34].</p>
+<p><strong>Why it passes the boundary test.</strong> The revival keeps the same business (on-demand delivery and errands within a city), the same core identity (&quot;Dunzo it,&quot; anything from any store, one fleet, one app), and the same underlying problem (a customer wants speed without Dunzo owning the shelf it delivers from). Only the response changes: instead of becoming a grocer that owns inventory, Dunzo stays a logistics and marketplace layer that borrows other people's shelves, the model it had already proven before June 2021 [F09, F10]. Nothing removes the central problem or replaces the business with something unrelated, so it satisfies the brief's own test: same business, same core identity, same problem, different responses [B §BD1].</p>
+<hr />
+<h2 id="3-the-business-a-city-errand-network-that-customers-turned-into-a-verb">3. The business: a city errand network that customers turned into a verb</h2>
+<p><strong>Founding story.</strong> Dunzo began in 2014 as a WhatsApp-based errand group in Bengaluru, founded by Kabeer Biswas, Ankur Agarwal, Dalvir Suri and Mukund Jha, launched as a formal service in January 2015 and as an app in February 2016 [F01]. Its original pitch was blunt: &quot;a self-completing to-do list,&quot; with a minimum order value of ₹45 and no free delivery in its early years [F02]. Growth was fast: by February 2018 it was handling about 100,000 to 120,000 tasks a month and roughly ₹1 Cr in monthly revenue, repeat purchases had risen from 3 to 5 a month over the prior year, and average delivery time had fallen from 75 to 45 minutes [F03]. That trajectory drew Google's first-ever direct investment in an Indian startup, a $12.3M round in December 2017 [F04, S64].</p>
+<p><strong>Value proposition.</strong> Dunzo's promise never changed in its founding years: &quot;Dunzo it,&quot; meaning any errand, from any store, picked up and dropped inside a city, in roughly 25 minutes as of 2019 <span class="tag">S05</span>. The company held no stock. It matched a customer's request to whatever local store, restaurant or pharmacy could fulfil it, and moved the item with its own riders.</p>
+<p><strong>Business model.</strong> For most of its life, Dunzo earned money two ways, both commission-style, neither requiring it to hold inventory. In FY20, merchant commission made up 53.2% of operating revenue (₹14.6 Cr) and delivery/rider fees made up 45.2% (₹12.4 Cr), with ads and other sources contributing 1.6% (₹0.43 Cr) [F09]. By FY21 the tilt toward pure commission was near total: 96% of revenue came from commission (merchant fees ₹23.2 Cr, rider fees ₹20.8 Cr), the company carried no inventory, and over 90% of users arrived organically [F10]. Gross merchandise value rose from ₹360 Cr in FY20 to ₹590 Cr in FY21 [F11], real demand riding on a genuinely asset-light structure.</p>
+<p><strong>Funding timeline.</strong> Dunzo's capital-raising history tracks its growing ambitions and eventual overreach.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Round</th>
+<th>Amount</th>
+<th>Investors and terms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dec 2017</td>
+<td>Early round</td>
+<td>$12.3M</td>
+<td>Google's first direct investment in an Indian startup [F04]</td>
+</tr>
+<tr>
+<td>Oct 2019</td>
+<td>Series D</td>
+<td>$45M</td>
+<td>Valuation about $200M; 2M orders a month across 8 cities [F05]</td>
+</tr>
+<tr>
+<td>Jan 2021</td>
+<td>Series E</td>
+<td>$40M</td>
+<td>Total raised to date $121M [F06]</td>
+</tr>
+<tr>
+<td>Jan 2022</td>
+<td>Reliance-led round</td>
+<td>$240M</td>
+<td>Reliance Retail put in $200M for 25.8%; post-money about $775M; deal named Dunzo logistics partner for Reliance stores and last-mile partner for JioMart [F07, F08]</td>
+</tr>
+</tbody>
+</table>
+<p>Across its life Dunzo is reported to have raised over $450M in total, sources placing the figure between about $450M and $500M [F08].</p>
+<p><strong>Operating metrics over time.</strong> Scale kept climbing past the funding rounds above. By February 2018 the company was processing roughly 100,000 to 120,000 tasks a month [F03]; by October 2019, 2 million orders a month across 8 cities [F05]. By June 2022, its operational peak, it processed 8.3 million orders a month overall, 5.5 million from Dunzo Daily, its dark-store grocery service, against a monthly cash burn of ₹176 Cr [F18]. That month it ran 120 owned dark stores across 8 of the 15 cities it served [F19].</p>
+<p><strong>Dunzo for Business.</strong> Alongside the consumer app, Dunzo ran a B2B logistics arm, Dunzo for Business (D4B), since 2018. By October 2022 it served about 20,000 SMBs and brands across 8 cities [F24], and by August 2022 it was one of the first logistics providers on the government's Open Network for Digital Commerce (ONDC), with 75,000 riders and 20,000 merchants on the network [F26]. By July 2023, D4B completed about 30,000 orders a day across 7 cities for clients including McDonald's, Licious and Theobroma, and had grown to roughly a third of company revenue, though JioMart alone made up over 40% of that book [F24].</p>
+<p><strong>Identity statement.</strong> Strip away the dark-store detour and Dunzo's fundamental identity was, and remained through 2022, anything from any store in your city, by one trusted fleet. That is the identity a revival thesis has to preserve to pass the brief's boundary test, and it is the identity the company's own commission-based FY20 and FY21 numbers show it was built on before June 2021 [F09, F10].</p>
+<hr />
+<h2 id="4-the-market-quick-commerce-arrived-with-bigger-wallets-and-a-different-cost-model">4. The market: quick commerce arrived with bigger wallets and a different cost model</h2>
+<p><strong>Target customers.</strong> Dunzo served two customer groups that never fundamentally changed: busy urban households across 7 to 15 cities wanting errands run fast, and SMBs and brands needing last-mile delivery, the latter served through D4B and numbering about 20,000 accounts by October 2022 [F24].</p>
+<p><strong>Quick commerce GMV series.</strong> The category Dunzo entered grew explosively and kept growing after Dunzo left it. Quick commerce GMV moved from about $0.3B in CY21 to $1.6B in CY22 to $3B in CY23 [M01]. By 2025 it had crossed $10B, about 15% of India's e-commerce GMV [M02], and by the January 2026 run-rate the category was moving roughly ₹11,000 Cr a month across 7.8 million orders a day, AOV ₹460, spread over 6,280 dark stores nationally, or about 1,255 orders a day per store [M03].</p>
+<p><strong>Competitor table.</strong> The field Dunzo was competing against by 2022 ran on very different capital structures depending on whether a competitor owned its shelves or borrowed them.</p>
+<table>
+<thead>
+<tr>
+<th>Player</th>
+<th>Model</th>
+<th>Dark stores (2022)</th>
+<th>Capital raised</th>
+<th>Key metric</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blinkit</td>
+<td>Owned dark stores</td>
+<td>383 (Sep 2022) [M06]</td>
+<td>Acquired by Zomato, about ₹4,447 Cr / $568M (Jun 2022) [M07]</td>
+<td>First contribution-positive quarter Q2FY24, +1.3% of GOV [M11]</td>
+</tr>
+<tr>
+<td>Instamart</td>
+<td>Owned dark stores</td>
+<td>301 (Mar 2022) [M06]</td>
+<td>Swiggy committed $700M (Dec 2021) [M07]</td>
+<td>AOV ₹375 to ₹450 [M10]</td>
+</tr>
+<tr>
+<td>Zepto</td>
+<td>Owned dark stores</td>
+<td>About 220 (Apr 2022 freeze) [M06]</td>
+<td>$360M in 8 months to May 2022; $1.85B by Nov 2024 [M07]</td>
+<td>AOV ₹275 to ₹450 [M10]</td>
+</tr>
+<tr>
+<td>BB Now</td>
+<td>Owned dark stores</td>
+<td>Not disclosed</td>
+<td>Not disclosed</td>
+<td>8% of CY22 GMV, JM Financial estimate [M05]</td>
+</tr>
+<tr>
+<td>Swiggy Genie</td>
+<td>Asset-light pick-up-drop, no owned stores</td>
+<td>n/a</td>
+<td>Part of Swiggy's capital base</td>
+<td>Paused 2022 to protect Instamart riders; suspended May 2025 [M16]</td>
+</tr>
+<tr>
+<td>Porter</td>
+<td>Asset-light intracity marketplace</td>
+<td>None owned</td>
+<td>Not disclosed</td>
+<td>FY25 revenue ₹4,306 Cr, profit ₹55.2 Cr, vs FY24 loss ₹95.7 Cr [M13]</td>
+</tr>
+<tr>
+<td>Shadowfax</td>
+<td>Asset-light hyperlocal logistics</td>
+<td>None owned</td>
+<td>Not disclosed</td>
+<td>Revenue ₹255 Cr (FY23) to ₹513 Cr (FY25), FY25 PAT ₹6.4 Cr [M14]</td>
+</tr>
+<tr>
+<td>Dunzo</td>
+<td>Owned dark stores from Jun 2021 (previously asset-light)</td>
+<td>120 (Jun 2022 peak) [M06]</td>
+<td>$240M (Jan 2022) [F07]</td>
+<td>FY23 loss ₹1,801 Cr on ₹226.6 Cr revenue [F12]</td>
+</tr>
+</tbody>
+</table>
+<p>The pattern here is the argument in miniature: every asset-light player (Swiggy Genie, Porter, Shadowfax) either survived on thin but positive margins or paused deliberately to protect its economics, while every dark-store owner (Blinkit, Instamart, Zepto, and Dunzo once it copied them) needed hundreds of millions of dollars simply to stay in the race.</p>
+<p><strong>Dark-store economics.</strong> The unit economics behind that capital intensity show in Blinkit's 3QFY24 disclosure: revenue per order ₹115 (18.2% of GMV) against a cost of ₹100 (last mile ₹44, dark store ₹22, mid mile ₹19, other ₹13, discount ₹2), leaving a contribution of only ₹15, or 2.4% of GMV [M08]. Each dark store required capex of roughly ₹8M to ₹9M (about $100,000) to open, monthly operating cost of about ₹9.1 lakh at 1,400 orders a day, and rider pay of about ₹58 per delivery [M09]. Against that base, a store needed roughly 1,200 to 1,250 orders a day at a mature metro location to break even [M04], a bar Dunzo's network, spread across 15 cities instead of concentrated, was not positioned to clear.</p>
+<p><strong>Capital intensity and funding winter.</strong> The three quick-commerce leaders backed their networks with war chests Dunzo could not match: Swiggy committed $700M to Instamart (Dec 2021) [M07], Zomato paid roughly $568M to acquire Blinkit outright (Jun 2022) [M07], and Zepto raised $360M in 8 months to May 2022, then $1.85B in total by Nov 2024 [M07]. Dunzo's entire war chest was the $240M raised in January 2022 [F07]. The capital environment then turned against everyone funding losses with fresh equity: India VC funding fell from $25.7B in 2022 to $9.6B in 2023 [M12], a roughly 63% contraction in a single year, right as Dunzo needed a second act of capital.</p>
+<p><strong>Porter's Five Forces, Indian hyperlocal delivery, 2021 to 2023.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Force</th>
+<th>Rating</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Competitive rivalry</td>
+<td>High</td>
+<td>Three well-funded rivals expanded stores at once (Blinkit 383, Instamart 301, Zepto about 220 by 2022 [M06]) while Dunzo spent roughly ₹40 Cr on one IPL campaign to keep pace [F21]</td>
+</tr>
+<tr>
+<td>Threat of new entrants</td>
+<td>Medium</td>
+<td>Dark-store capex of ₹8M to ₹9M per store [M09] is a real barrier, but the 2021 to 2022 funding boom (India VC at $25.7B [M12]) let Zepto enter and scale in months; the barrier rose once the winter set in</td>
+</tr>
+<tr>
+<td>Bargaining power of buyers</td>
+<td>High</td>
+<td>Customers multi-homed across apps at little switching cost, shown by comparable download volumes for Blinkit, Zepto and Dunzo through 2023 [M19] and AOVs that moved with whichever app discounted most [M10]</td>
+</tr>
+<tr>
+<td>Bargaining power of suppliers</td>
+<td>Medium</td>
+<td>Gig riders were interchangeable across platforms at similar pay (about ₹58 per delivery at Blinkit [M09]), but once Dunzo became its own retailer it also inherited procurement and stocking risk it never carried under the commission model [F09, F10]</td>
+</tr>
+<tr>
+<td>Threat of substitutes</td>
+<td>Medium</td>
+<td>Kirana visits and pick-up-drop rivals like Porter and Swiggy Genie offered cheaper alternatives for errands that did not need 10 to 20-minute delivery, pulling volume from the grocery use case [F37, M16]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dunzo's position.</strong> At the June 2022 peak, Dunzo's 120 dark stores sat well below Blinkit's 383 and Instamart's 301, roughly in line with a diminished Zepto after its own store freeze [M06]. App downloads told a similar story: from 1 Jan to 22 Nov 2023, Blinkit drew over 14 million downloads and Zepto over 11 million, against 3.4 million for Dunzo [M19], evidence Dunzo was losing the awareness race in the category it entered late and under-capitalised.</p>
+<p><strong>Note on the market-share conflict.</strong> JM Financial's CY22 GMV estimate placed Dunzo and other smaller players at a combined 1% of category GMV [M05], a figure that sits awkwardly against Dunzo's own June 2022 data showing 5.5 million Dunzo Daily orders in a single month [F18]. Since the two cannot be reconciled and neither source discloses its methodology, this document follows the resolution in Appendix D: no market-share percentage for Dunzo is asserted anywhere. Dark-store counts and order volumes are used instead, since both are independently sourced and consistent.</p>
+<hr />
+<h2 id="5-the-failure-context-eighteen-months-from-launch-to-retreat">5. The failure context: eighteen months from launch to retreat</h2>
+<p><strong>Full dated timeline.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17 to 18 Jun 2021</td>
+<td>Dunzo Daily launches in Indiranagar, Bengaluru: first owned dark store, 20-minute target, 1,500 to 2,000 SKUs, plan for 250 stores [F13]</td>
+</tr>
+<tr>
+<td>Aug 2021</td>
+<td>Dunzo Daily rebrands around a 19-minute promise; marketing head states intent to reposition Dunzo as a grocery delivery service [F13, F14]</td>
+</tr>
+<tr>
+<td>Jan 2022</td>
+<td>$240M round closes; Reliance Retail contributes $200M for 25.8%, post-money about $775M; deal names Dunzo hyperlocal logistics partner for Reliance stores, last-mile partner for JioMart [F07, F08]</td>
+</tr>
+<tr>
+<td>Apr 2022</td>
+<td>Targets set: 200+ dark stores, 30,000+ riders, 2 lakh orders a day by June, plus a plan to raise $250M to $300M more; founder separately claims the top 20 stores are profitable and Bengaluru has been EBITDA-positive for 12 to 15 months, a company claim, not audited [F15, F16]</td>
+</tr>
+<tr>
+<td>Jun 2022</td>
+<td>Monthly burn hits ₹176 Cr; Dunzo Daily loses ₹230 per order in H1 2022 (incl. one-time IPL spend); 8.3M orders a month total, 5.5M from Dunzo Daily [F18]</td>
+</tr>
+<tr>
+<td>Jun 2022</td>
+<td>Peak footprint: 120 owned dark stores across 8 of 15 cities served [F19]</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>Stores grow from about 75 toward a planned 200; an estimated ₹1,200 Cr to ₹1,500 Cr spent for the year [F20]</td>
+</tr>
+<tr>
+<td>May 2022</td>
+<td>IPL campaign costs about ₹40 Cr, including a QR-code ad in the final [F21]</td>
+</tr>
+<tr>
+<td>Aug 2022</td>
+<td>Customers pushed toward 60-minute, batched delivery, saving ₹8 to ₹10 per order [F22]</td>
+</tr>
+<tr>
+<td>Nov 2022 onward</td>
+<td>Dark-store closures begin; stores under 1,000 orders a day shut; over half closed by Jul 2023, about 70% by Nov 2023 [F28]</td>
+</tr>
+<tr>
+<td>Jul 2023</td>
+<td>JioMart cuts last-mile rates paid to D4B; gross margin falls 50 to 75% [F27]</td>
+</tr>
+<tr>
+<td>Aug 2023</td>
+<td>Dunzo Daily shuts in every city except Bengaluru [F29]</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>Fundraising stalls: $75M convertible notes announced, about $45M received; $80M to $100M Series G stalls on a Reliance markdown dispute; rights issue floated at about $200M valuation, well below the $775M peak [F30]</td>
+</tr>
+<tr>
+<td>Nov 2023</td>
+<td>Company states &quot;business burn is now neutral,&quot; B2B growing over 128% [F32]</td>
+</tr>
+<tr>
+<td>Feb 2024</td>
+<td>Over $100M spent on dark stores in total; company targets free-cash-flow breakeven for Mar 2024; Flipkart weighs an acquisition [F33]</td>
+</tr>
+<tr>
+<td>Jan 2025</td>
+<td>Reliance declines to fund or buy; app and website go offline 13 January as co-founder joins Flipkart Minutes [F34]</td>
+</tr>
+<tr>
+<td>Aug 2025</td>
+<td>Reliance formally writes off ₹1,645 Cr, its full $200M investment [F35]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The turning point.</strong> The timeline has a clear hinge. The June 2021 launch of Dunzo Daily was a pilot, one dark store in one neighbourhood, still reversible on its own. The January 2022 capital injection converted that pilot into a company-wide strategy: with $240M in the bank and Reliance's retail network newly in the picture, the company set targets within months (200+ stores, 30,000+ riders, 2 lakh orders a day by June 2022) that only made sense if the dark-store model was now the primary growth engine, not an experiment [F15]. That is the moment the capital structure, headcount and marketing calendar (the ₹40 Cr IPL campaign) got built around owning shelves rather than borrowing them [F21].</p>
+<p><strong>Why FY22 to FY23 is the critical window.</strong> The financial consequences show up with a one-year lag, which is why FY22 to FY23 decides the outcome. FY22 net loss reached ₹464 Cr, already more than double FY21's ₹225.7 Cr [F12], but FY23 absorbed the full weight of a nationwide dark-store network running below breakeven volume: net loss jumped to ₹1,801 Cr on revenue of only ₹226.6 Cr [F12]. By the time closures began in November 2022, the capital that funded the stores was largely already spent, so the closures that followed, over half by July 2023 and about 70% by November 2023 [F28], were a retreat rather than a correction made while options still existed.</p>
+<hr />
+<h2 id="6-financial-autopsy-87-of-the-fy23-loss-paid-for-the-dark-store-war">6. Financial autopsy: 87% of the FY23 loss paid for the dark-store war</h2>
+<p><strong>The five-year financial record.</strong> Dunzo's RoC-reported financials, in ₹ Cr, show a company that was tightening its spend-to-revenue ratio for two straight years before the dark-store pivot reversed that trend entirely.</p>
+<table>
+<thead>
+<tr>
+<th>FY</th>
+<th>Operating revenue</th>
+<th>Total expenses</th>
+<th>Net loss</th>
+<th>₹ spent per ₹1 earned</th>
+<th>Employee cost</th>
+<th>Delivery cost</th>
+<th>Ad spend</th>
+<th>Other key items</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY19</td>
+<td>0.77</td>
+<td>172.45</td>
+<td>169.0</td>
+<td>225.00</td>
+<td>42.34</td>
+<td>62.3 (ops)</td>
+<td>26.5</td>
+<td></td>
+</tr>
+<tr>
+<td>FY20</td>
+<td>27.5</td>
+<td>359.5</td>
+<td>338.4</td>
+<td>13.09</td>
+<td>73.44</td>
+<td>116.4</td>
+<td>77.1</td>
+<td>IT cost 28.4</td>
+</tr>
+<tr>
+<td>FY21</td>
+<td>45.8</td>
+<td>263.6</td>
+<td>225.7</td>
+<td>5.75</td>
+<td>91.6</td>
+<td>50.2</td>
+<td>11.03</td>
+<td>IT cost 43.22</td>
+</tr>
+<tr>
+<td>FY22</td>
+<td>54.3</td>
+<td>531.7</td>
+<td>464.0</td>
+<td>9.80</td>
+<td>138.3</td>
+<td>134.0</td>
+<td>64.4</td>
+<td>IT cost 52.0</td>
+</tr>
+<tr>
+<td>FY23</td>
+<td>226.6</td>
+<td>2,054.4</td>
+<td>1,801.0</td>
+<td>9.09</td>
+<td>338.0</td>
+<td>367.4</td>
+<td>309.7</td>
+<td>Procurement 174.4; closing cash 216.0</td>
+</tr>
+</tbody>
+</table>
+<p>[F12]</p>
+<p>Read across the &quot;₹ spent per ₹1 earned&quot; column and the shape of the company's history is unmistakable. That figure fell from ₹225 in FY19 to ₹13.09 in FY20 to ₹5.75 in FY21, the trajectory of a commission-based business getting steadily more efficient as it scaled [F12]. It then reversed and climbed to ₹9.80 in FY22 and ₹9.09 in FY23, even as revenue grew, because the dark-store network added cost faster than revenue [F12]. FY24 was never reported, so no comparable figure exists for the year after the retreat began [F12].</p>
+<p><strong>Burn and unit losses.</strong> Monthly cash burn peaked at ₹176 Cr in June 2022 [F18], a rate that would have exhausted the entire $240M January 2022 round in roughly ten months unchecked. At the order level, Dunzo Daily lost ₹230 per order in H1 2022, a figure that includes one-time IPL spend but still shows a business losing money on every grocery delivery at scale [F19]. Cost per completed task under the dark-store model ran about ₹80, against roughly ₹30 under the earlier partner-store model, a near-tripling of unit cost for largely the same job of getting something delivered quickly [F23].</p>
+<p><strong>The loss bridge.</strong> The clearest way to see where the money actually went is to compare FY23 line items against the FY21 base, the last full year before the dark-store network existed at scale. That comparison, computed by the revival model using the method disclosed as assumption A12 (each FY23 line minus its FY21 equivalent, with the residual assigned to dark stores, inventory and other costs net of the extra revenue they generated), produces the following bridge.</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Calculation</th>
+<th>₹ Cr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY21 base loss</td>
+<td>Reported FY21 net loss</td>
+<td>226</td>
+</tr>
+<tr>
+<td>Ads</td>
+<td>FY23 ads (309.7) minus FY21 ads (11.03)</td>
+<td>+299</td>
+</tr>
+<tr>
+<td>People</td>
+<td>FY23 employee cost (338.0) minus FY21 (91.6)</td>
+<td>+246</td>
+</tr>
+<tr>
+<td>Delivery fleet</td>
+<td>FY23 delivery cost (367.4) minus FY21 (50.2)</td>
+<td>+317</td>
+</tr>
+<tr>
+<td>Dark stores, inventory and other, net of extra revenue</td>
+<td>Residual needed to reach the FY23 total</td>
+<td>+713</td>
+</tr>
+<tr>
+<td>FY23 loss</td>
+<td>Sum of the above</td>
+<td>1,801</td>
+</tr>
+</tbody>
+</table>
+<p>[Model, method A12, using F10 and F12]</p>
+<p>Summed, the increase above the FY21 base comes to ₹1,575 Cr, 87% of the full ₹1,801 Cr FY23 loss [Model]. In plain terms, if Dunzo had held its FY21 cost structure and scaled revenue at the rate it actually achieved, its FY23 loss would have run in the low hundreds of crores, not close to two thousand. The overwhelming majority of the loss growth between FY21 and FY23 traces to the dark-store build-out and the marketing, people and delivery infrastructure it demanded, not to the underlying errand-and-delivery business Dunzo had been improving for years before.</p>
+<p><strong>What the bridge does and does not claim.</strong> The bridge decomposes reported numbers; it is not a counterfactual by itself. It shows where the FY23 loss came from, not what would have happened had the money been spent differently, a question the revival model answers separately in §14 and §15. Nor are the four lines independent: ad spend, people cost and fleet cost scaled together because all served the same dark-store expansion, so the ₹713 Cr &quot;stores and other&quot; residual likely understates the true cost of the pivot rather than double-counts it.</p>
+<p><strong>The reported-history pattern, in words.</strong> Dunzo's revenue and loss lines tell two stories depending on which side of June 2021 they sit on. From FY19 to FY21, revenue rose ₹0.77 Cr to ₹45.8 Cr, roughly 59-fold, while the loss grew far more slowly and the spend-per-rupee ratio fell every year, the signature of a marketplace finding its operating leverage [F12]. From FY21 to FY23, revenue rose again, to ₹226.6 Cr, but the loss grew faster still, to ₹1,801 Cr, so the two lines diverge sharply rather than converge. That divergence is the dark-store thesis failing in real time: more revenue no longer meant getting closer to breakeven, it meant fixed and semi-fixed costs growing even faster than the demand they were built to capture.</p>
+<h2 id="7-root-causes-three-decisions-not-bad-luck">7. Root causes: three decisions, not bad luck</h2>
+<p>Dunzo's decline is often described as a company that &quot;lost to Blinkit and Zepto.&quot; That framing treats the outcome as competitive bad luck. The fact base does not support it. Dunzo had four years of asset-light operating history before the dark-store era began, and the financial deterioration tracks almost exactly with the three years it spent building and running owned inventory. The root causes are decisions, not misfortune, and they are MECE: a capital-allocation choice, a sequencing choice, and a revenue-concentration choice.</p>
+<p><strong>Issue tree.</strong> Rendered as text, the diagnostic tree that produced the three root causes reads:</p>
+<pre><code>Why did Dunzo run out of cash before quick commerce matured?
+├── 1. It could not fund its cost base
+│   ├── 1.1 Owned dark stores cost ₹80 per task vs ₹30 at partner stores [F23]
+│   └── 1.2 Dunzo Daily lost ₹230 per order in H1 2022 [F18]
+│       =&gt; RC1: Model switch to capital-heavy owned dark stores
+├── 2. It spent faster than any single market could absorb
+│   ├── 2.1 15 cities and 120 dark stores at the June 2022 peak [F19]
+│   └── 2.2 Stores below 1,000 orders a day were later shut [F28]
+│       =&gt; RC2: Reach chased before density
+└── 3. It had no second engine to lean on when B2C margins broke
+    ├── 3.1 B2C was over 90% of revenue to Oct 2022 [F25]
+    └── 3.2 B2B revenue was ₹2.3 Cr in FY22, then JioMart-dependent [F24]
+        =&gt; RC3: One revenue engine, one anchor client
+</code></pre>
+<p><strong>5 Whys chain.</strong> Starting from the observable failure (the app went offline in January 2025 [F34]) and working backward to the root:</p>
+<ol>
+<li>Why did Dunzo shut down in January 2025? Because Reliance declined to fund or buy the company after years of losses [F34].</li>
+<li>Why did Reliance decline? Because the FY23 loss of ₹1,801 Cr against ₹226.6 Cr of revenue [F12] made the business un-investable on its existing trajectory, and Reliance had already written off its full $200M stake by mid 2025 [F35].</li>
+<li>Why was the loss ₹1,801 Cr? Because 87% of it, ₹1,575 Cr, was spend that did not exist in FY21: extra ads, people, delivery fleet and dark-store cost, all incurred above the FY21 base of ₹226 Cr [Model].</li>
+<li>Why was that spend incurred? Because Dunzo replaced its commission-only, partner-store model with owned dark stores carrying inventory, rent, staffing and a dedicated fleet, at a cost of ₹80 per task against ₹30 in the earlier model [F23].</li>
+<li>Why did Dunzo make that switch? Because it treated &quot;anything from any store&quot; as inferior to a proprietary 19-to-20-minute grocery promise [F13, F15], and it had just raised $240M with an investor whose retail footprint made rapid store-building look immediately fundable [F07].</li>
+</ol>
+<p>The chain bottoms out at RC1: the decision to become a dark-store operator, not the decision to compete in quick commerce at all.</p>
+<p><strong>Fishbone (5 Ms adapted for a services business: Strategy, Capital, Operations, Market, Organisation).</strong></p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Causes found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strategy</td>
+<td>Repositioned from &quot;pick-up and drop&quot; to &quot;grocery delivery&quot; [F14]; treated the 10-vs-20-minute gap as immaterial while rivals built around it [F17]; pursued 15 cities and 200+ stores simultaneously instead of sequencing [F15]</td>
+</tr>
+<tr>
+<td>Capital</td>
+<td>$240M raised Jan 2022, largely directed into store build-out and fleet [F07]; over $100M eventually sunk into dark stores [F33]; India-wide VC funding fell from $25.7B to $9.6B between 2022 and 2023, closing the window to raise again [M12]</td>
+</tr>
+<tr>
+<td>Operations</td>
+<td>Cost per task ₹80 with dark stores vs ₹30 at partner stores [F23]; monthly burn reached ₹176 Cr by June 2022 [F18]; stores below roughly 1,200 orders a day never cleared the metro breakeven line [M04]</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Blinkit, Instamart and Zepto each carried more dark stores and larger war chests by mid 2022 (383, 301 and about 220 respectively, against Dunzo's 120) [M06]; Swiggy alone committed $700M to Instamart [M07]</td>
+</tr>
+<tr>
+<td>Organisation</td>
+<td>Rider and store staff were diverted to JioMart delivery work, straining resources and blurring mandates [Q03]; B2B, the one diversified revenue line, stayed a minority function until 2022 [F25]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Symptoms vs root causes.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Symptom (what observers noticed)</th>
+<th>Root cause it traces to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23 loss of ₹1,801 Cr, ₹9.09 spent per ₹1 earned [F12]</td>
+<td>RC1: owned dark stores at ₹80 per task</td>
+</tr>
+<tr>
+<td>Dark stores shut across NCR and Hyderabad from Nov 2022 [F28]</td>
+<td>RC2: 120 stores across 15 cities, many below breakeven density</td>
+</tr>
+<tr>
+<td>JioMart cut D4B rates in mid 2023, halving gross margin [F27]</td>
+<td>RC3: B2B was one client-concentrated line, not a true second engine</td>
+</tr>
+<tr>
+<td>App went offline Jan 2025 [F34]</td>
+<td>All three, compounding: a cost base no single funding round could carry</td>
+</tr>
+</tbody>
+</table>
+<p><strong>RC1: Model switch.</strong> Dunzo abandoned its asset-light marketplace for capital-heavy owned dark stores. Cost per task ran ₹80 with dark stores against ₹30 in the earlier partner-store model [F23]; Dunzo Daily lost ₹230 per order in H1 2022 even after excluding routine spend [F18]; over $100M eventually went into dark-store build-out [F33].</p>
+<p><strong>RC2: Reach before density.</strong> Dunzo carried 15 cities and 120 dark stores at its peak [F19], while the mature-metro breakeven benchmark sits at about 1,200 to 1,250 orders a day per store [M04]. Stores that never cleared that bar were the ones shut first, from November 2022 onward [F28].</p>
+<p><strong>RC3: One revenue engine and one anchor client.</strong> B2C, chiefly Dunzo Daily and pick-up-and-drop, was over 90% of revenue through October 2022 [F25]. B2B (Dunzo for Business) generated only ₹2.3 Cr in FY22 [F24], and once it scaled, JioMart alone came to represent 30 to 40% of it and used that weight to cut rates [F24, F27].</p>
+<h2 id="8-critical-decisions-that-accelerated-the-decline">8. Critical decisions that accelerated the decline</h2>
+<p>The root causes describe a pattern. The decision log below fixes the pattern to specific, dated calls, each of which had a visible alternative on the table at the time. This is what separates &quot;the market changed&quot; from &quot;the company chose.&quot;</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Decision</th>
+<th>Alternative available at the time</th>
+<th>Consequence</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jun 2021</td>
+<td>Launch Dunzo Daily as an owned dark-store service, targeting 250 stores</td>
+<td>Extend the existing partner-store fulfilment model to a faster SLA without owning inventory</td>
+<td>Cost per task rose to ₹80 from ₹30; capex and rent entered the P&amp;L for the first time</td>
+<td>F13, F23</td>
+</tr>
+<tr>
+<td>Aug 2021</td>
+<td>Reposition the brand from &quot;pick-up and drop&quot; to &quot;grocery delivery&quot;</td>
+<td>Keep the multi-category &quot;Dunzo it&quot; identity and add grocery as one more errand type</td>
+<td>Narrowed the brand around a category Blinkit and Zepto were purpose-built to win</td>
+<td>F14</td>
+</tr>
+<tr>
+<td>Jan 2022</td>
+<td>Direct the $240M Reliance-anchored round into store build-out and fleet expansion</td>
+<td>Direct the same round into partner-store SLAs on Reliance's existing retail footprint, which the deal already granted access to</td>
+<td>Locked in the capital-heavy path just as the funding window for a second round began closing</td>
+<td>F07, M12</td>
+</tr>
+<tr>
+<td>Apr 2022</td>
+<td>Commit publicly to 200+ dark stores, 30,000+ riders and 2 lakh orders a day by June, spread across 15 cities</td>
+<td>Hold the roughly 75 stores already open [F20], deepen Bengaluru (already claimed EBITDA-positive for 12 to 15 months [F16]), and expand city by city</td>
+<td>Fixed costs and rider headcount scaled ahead of any city reaching density; many of the new stores were later among those shut</td>
+<td>F15, F16, F20</td>
+</tr>
+<tr>
+<td>May 2022</td>
+<td>Spend about ₹40 Cr on an IPL marketing campaign, including a QR-code ad in the final</td>
+<td>Redirect equivalent spend to rider retention or store-level unit economics, where the H1 2022 loss per order was already ₹230</td>
+<td>Marketing spend rose without a matching improvement in per-order economics</td>
+<td>F18, F21</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>Let Dunzo for Business grow increasingly dependent on JioMart as its largest client</td>
+<td>Cap any single client's share of B2B volume while D4B was scaling from its FY22 base of ₹2.3 Cr</td>
+<td>JioMart's later rate cuts halved D4B gross margin, removing the one revenue line management would later call the recovery path</td>
+<td>F24, F27</td>
+</tr>
+<tr>
+<td>Nov 2022 onward</td>
+<td>Begin shutting dark stores and cutting headcount only after 2022's ₹1,200 to ₹1,500 Cr had already been spent</td>
+<td>Apply the same store-density and cost discipline in early-to-mid 2022, before the spend, not after</td>
+<td>Cuts arrived too late to prevent the FY23 loss; over half the stores were shut by mid 2023 and about 70% by November 2023</td>
+<td>F20, F28</td>
+</tr>
+</tbody>
+</table>
+<p>Two things stand out across the log. First, every alternative column names something Dunzo already had access to at the time, not a hypothetical: Reliance's stores existed the day the round closed, Bengaluru's claimed profitability existed before the 15-city push, and the B2B base existed before JioMart became its largest client. Second, the corrective decisions (store closures, headcount cuts) arrived in the same sequence as the original mistakes, but roughly 12 to 18 months later, after most of the ₹1,575 Cr in incremental FY23 loss had already been committed [Model].</p>
+<h2 id="9-failed-assumptions">9. Failed assumptions</h2>
+<p>Seven assumptions, spanning the categories the brief names (customers, market, technology, competition, operations), turned out to be wrong. Each is stated as management appears to have held it, with what actually happened and the evidence.</p>
+<table>
+<thead>
+<tr>
+<th>Assumption</th>
+<th>Category</th>
+<th>What happened</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The gap between 10-minute and 20-minute delivery does not matter to customers</td>
+<td>Customers</td>
+<td>Rivals built their entire proposition around the faster promise and out-spent Dunzo doing it; Dunzo's own founder said in January 2022 he did not &quot;understand the difference between 10 and 20&quot; minutes</td>
+<td>F17</td>
+</tr>
+<tr>
+<td>Venture capital would keep flowing at 2021-to-2022 levels to fund the store build-out</td>
+<td>Market</td>
+<td>India-wide VC funding fell from $25.7B in 2022 to $9.6B in 2023, and Dunzo's own Series G stalled when Reliance would not accept a valuation markdown</td>
+<td>M12, F30</td>
+</tr>
+<tr>
+<td>Dark stores would pay back once AOV reached about ₹400</td>
+<td>Operations</td>
+<td>Dunzo Daily's AOV was about ₹400 by April 2022, yet H1 2022 losses ran ₹230 per order, and the mature-metro breakeven of about 1,200 to 1,250 orders a day per store was rarely hit outside the top-performing locations</td>
+<td>F16, F18, M04</td>
+</tr>
+<tr>
+<td>Grocery, not multi-category errands, was the bigger prize and worth repositioning the brand around</td>
+<td>Market</td>
+<td>The August 2021 repositioning moved Dunzo directly into the category Blinkit and Zepto were purpose-built for, where they already carried more dark stores and larger war chests by mid 2022</td>
+<td>F14, M06</td>
+</tr>
+<tr>
+<td>Reliance would remain a patient, long-term backer regardless of the burn rate</td>
+<td>Competition and capital</td>
+<td>Reliance declined a fresh round in 2023 unless Dunzo accepted a valuation markdown of up to 50%, declined to fund or buy the company in January 2025, and wrote off its full $200M investment by August 2025</td>
+<td>F30, F35</td>
+</tr>
+<tr>
+<td>Rivals would not be able to sustain outspending Dunzo indefinitely</td>
+<td>Competition</td>
+<td>Swiggy alone committed $700M to Instamart, Zomato paid about $568M for Blinkit, and Zepto raised $360M in eight months and $1.85B cumulatively by late 2024, each dwarfing Dunzo's $240M round</td>
+<td>M07</td>
+</tr>
+<tr>
+<td>B2B (Dunzo for Business) could wait while the company focused on B2C dark stores</td>
+<td>Operations and technology</td>
+<td>B2B stayed under ₹2.3 Cr of revenue in FY22 while B2C absorbed the bulk of capital; by the time B2B scaled to about 30,000 orders a day in mid 2023, JioMart's outsized share let it force a rate cut that halved D4B gross margin</td>
+<td>F24, F25, F27</td>
+</tr>
+</tbody>
+</table>
+<p>Two features of this list matter for the argument that follows. First, none of the seven assumptions was unreasonable to hold in isolation in 2021; each looked plausible against contemporaneous benchmarks (an AOV of ₹400, a founder who had run the business profitably in earlier years, a marquee new investor). Second, every one of them was falsifiable with information Dunzo already had internally by mid 2022: order-level losses, city-by-city density, and B2B's early growth curve. The failure was not in the assumptions being wrong; it was in not testing them before committing the round to a plan built on all seven at once.</p>
+<h2 id="10-the-unavoidable-problem">10. The unavoidable problem</h2>
+<p>Strip away everything Dunzo chose to do about it, and one problem remains that no strategic response could make disappear: quick commerce reached Dunzo's own customers, in Dunzo's own cities, backed by competitors with deeper pockets, faster promised delivery times and purpose-built inventory. From late 2021 onward, a Bengaluru or Mumbai household that once opened Dunzo for a forgotten grocery item had Blinkit, Instamart and Zepto offering the same item in 10 to 20 minutes, with dark-store networks two to three times the size of Dunzo's and war chests an order of magnitude larger [M06, M07]. That is the unavoidable problem: <strong>Dunzo had to answer &quot;why order from us?&quot; with a cost base it could actually fund.</strong></p>
+<p>This is not the same statement as &quot;Dunzo had to build dark stores,&quot; and the distinction matters for the boundary test the brief sets (BD1): teams may not eliminate the central problem, replace the business with an unrelated model, or assume the challenge away. The unavoidable problem, correctly stated, is about the customer question and the funding constraint, not about any one operating model. A revival thesis that ignores the competitive pressure, or that assumes Dunzo could have simply continued as it was in 2019 without a faster-delivery response, would be assuming the problem away. Equally, a thesis that pretends the funding constraint did not exist, by assuming unlimited follow-on capital, fails the same test from the other direction.</p>
+<p>What the unavoidable problem actually demanded was a way to close the speed gap without owning the capital-heavy end of the fulfilment chain: some means of putting inventory closer to the customer, at faster promised times than the 2019-era 25-to-45-minute pick-up-and-drop baseline [F03], without carrying the ₹80-per-task cost of an owned store network [F23]. Dunzo had exactly one asset that let it attempt this without inventing a new business: its merchant and rider network, plus, after January 2022, direct commercial access to Reliance's retail footprint [F07]. The problem could not be assumed away. It could only be answered with a cheaper way to be fast, and that is the gap the revival thesis in later sections is built to close.</p>
+<h2 id="11-missed-opportunities-that-were-realistic-at-the-time">11. Missed opportunities that were realistic at the time</h2>
+<p>Six opportunities existed in the same 2021-to-2023 window in which Dunzo built and then dismantled its dark-store network. Each is evaluated on what it was, the evidence that it existed at the time (not with hindsight), why it was realistic given Dunzo's actual resources, and what it would have changed.</p>
+<p><strong>1. Reliance's stores as shelves.</strong> The January 2022 deal named Dunzo as hyperlocal logistics partner for Reliance's stores and last-mile partner for JioMart merchants [F07]. That relationship existed the day the round closed, not years later. It was realistic because it required no new capex, only a fulfilment agreement layered onto stores that already existed; Reliance itself later proved the model out, launching JioMart Quick's 30-minute delivery from its own store network in 2024 [M17]. Using it in 2022 instead of building 120 parallel dark stores would have removed the single largest driver of the FY23 loss bridge, the ₹713 Cr &quot;dark stores, inventory and other&quot; line [Model].</p>
+<p><strong>2. Dunzo for Business as a second engine.</strong> D4B already had about 20,000 SMB and brand accounts across 8 cities by October 2022 [F24] and reached roughly 30,000 orders a day across 7 cities by July 2023, serving named clients like McDonald's, Licious and Theobroma [F24]. It was realistic because it reused the same rider fleet that B2C already employed, filling idle hours rather than requiring new headcount; comparable asset-light logistics players, Porter and Shadowfax, later proved the category could be profitable, with Porter posting a ₹55.2 Cr FY25 profit on ₹4,306 Cr of revenue and Shadowfax's hyperlocal revenue growing from ₹255 Cr to ₹513 Cr between FY23 and FY25 [M13, M14]. Scaling D4B earlier, with a cap on any single client's share, would have diversified revenue away from a B2C line that needed subsidized dark-store economics to compete.</p>
+<p><strong>3. Bengaluru density before geographic reach.</strong> The founder himself said in April 2022 that the top 20 stores were starting to show profitability and that Bengaluru had been EBITDA-positive for 12 to 15 months [F16], a period that predates the April 2022 decision to push into 15 cities at once. That evidence existed inside the company before the expansion decision was made. Deepening the one city with proven unit economics, rather than replicating an unproven model in 14 more, was realistic precisely because it required no new experiment, only patience.</p>
+<p><strong>4. An early ONDC logistics seat.</strong> D4B became one of the first logistics providers on the Open Network for Digital Commerce in August 2022, at a scale of 75,000 riders and 20,000 merchants [F26]. ONDC access was realistic because it was a government-backed, low-cost distribution channel that plugged directly into Dunzo's existing rider network rather than requiring new infrastructure. Taken up earlier and more aggressively, it would have added merchant and order volume without proportional capex.</p>
+<p><strong>5. Batching and slower delivery tiers.</strong> By August 2022, Dunzo was already pushing customers toward 60-minute and batched delivery to save ₹8 to ₹10 per order [F22]. That this saving was available and already in use for cost control shows it was realistic well before 2022; deploying batching and tiered delivery speeds as the default operating posture, rather than a late-stage cost patch, would have protected per-order economics without abandoning the delivery promise.</p>
+<p><strong>6. The lean lesson from the 2020 lockdown.</strong> During the April 2020 lockdown, Dunzo's AOV rose from ₹220 to ₹480, its loss per delivery fell from ₹142 to ₹30, and weekly orders per user rose from 2.1 to 2.8 [F36], all without a single new dark store. That episode is direct, internal evidence that demand concentration and higher basket sizes, not owned inventory, were what actually improved Dunzo's unit economics. It was realistic to draw that lesson forward into 2021 to 2022 planning, since it was Dunzo's own operating history, not an external benchmark.</p>
+<p>Taken together, these six opportunities describe a single alternative path: use partner and Reliance shelves instead of owned stores, lean harder on B2B and ONDC to diversify revenue, concentrate rather than spread geographically, and price delivery speed in tiers rather than subsidizing a uniform fast promise. None of the six required capital Dunzo did not have or a business Dunzo was not already running.</p>
+<h2 id="12-the-point-of-intervention-january-to-april-2022">12. The point of intervention: January to April 2022</h2>
+<p>Of every juncture in Dunzo's five-year decline, January to April 2022 is the one where a different decision was both available and still fully reversible. The decision-tree fork below sets out, in text, what actually happened against what the revival path would have done from the same starting point.</p>
+<pre><code>January 2022: $240M round closes (₹1,790 Cr at the RBI reference rate) [F07]
+Reliance names Dunzo hyperlocal partner for its stores and JioMart merchants [F08]
+About 75 owned dark stores already open; the internal plan calls for 200 [F20, F21]
+│
+├── ACTUAL BRANCH (what Dunzo did)
+│   ├── Apr 2022: commit publicly to 200+ stores, 30,000+ riders, 15 cities [F15]
+│   ├── May 2022 to mid 2023: spend ₹1,200 to 1,500 Cr on stores, fleet, marketing [F20]
+│   ├── FY23: ₹1,801 Cr loss, cash falls to ₹216 Cr by Mar 2023 [F12]
+│   └── Jan 2025: app and website go offline [F34]
+│
+└── REVIVAL BRANCH (what the intervention would do)
+    ├── Freeze owned stores at about 75; route incremental Dunzo Daily volume through
+    │   Reliance and partner-store shelves [F07]
+    ├── Redirect capital toward Dunzo for Business and 4-city density (Bengaluru,
+    │   Hyderabad, Pune, Chennai) [F16, F24]
+    ├── FY23 EBITDA of about −₹172 Cr, roughly 90% smaller than the actual loss [Model]
+    └── FY27: EBITDA turns positive (+₹18 Cr, base case), with ₹1,288 Cr of the
+        round still in cash [Model]
+</code></pre>
+<p><strong>Why not June 2021.</strong> That is when Dunzo Daily launched as a small first dark store in Indiranagar, targeting a 20-minute delivery window [F13]. At that point the model was still a single-store pilot: the capital exposure was minimal, and there was no evidence yet, positive or negative, about unit economics at scale. It was a legitimate experiment to run, and reversing course before running it at all would have foreclosed useful information. The problem was never the pilot; it was what came after it.</p>
+<p><strong>Why not sometime in 2023.</strong> By then the capital was gone. Over $150M had been spent in the preceding 18 months [F31], the company was already negotiating a rights issue at roughly a $200M valuation against a $775M peak [F30, S07 conflict resolved at §4.4], and Reliance was already refusing to fund further rounds without a markdown [F30]. Any intervention in 2023 would have been a rescue attempt on a depleted balance sheet, not a redirection of an intact one. The Morning Context's February 2023 assessment captured this directly: Dunzo &quot;has to show a path to profit, dropping its dark store model&quot; [Q05], but by then the model change could only shrink an already-large loss, not prevent one.</p>
+<p><strong>The reversibility test.</strong> January to April 2022 passes a simple test that neither June 2021 nor 2023 does: the capital was on the balance sheet, uncommitted to the dark-store build-out, and the alternative infrastructure (Reliance's stores, the existing partner network, the nascent B2B book) was already contractually or operationally available. A decision made in this four-month window did not require new fundraising, new partnerships, or new technology; it required only a different allocation of money and management attention that Dunzo already had in hand.</p>
+<p><strong>Resources on hand at the fork.</strong> The company entered this window with $240M in fresh capital [F07], a named commercial relationship with Reliance covering both its retail stores and JioMart merchants [F08], and roughly 75 dark stores already open against an unexecuted plan for 200 [F20, F21]. Every one of those resources could support the revival branch exactly as it stood; none of them needed to be replaced, only redirected.</p>
+<h2 id="13-the-revival-thesis-keep-the-promise-drop-the-asset">13. The revival thesis: keep the promise, drop the asset</h2>
+<h3 id="13-1-the-strategic-intervention-in-three-moves">13.1 The strategic intervention, in three moves</h3>
+<p>The contrarian answer to &quot;how could Dunzo have survived quick commerce&quot; is neither to raise more capital and build dark stores faster, nor to exit quick commerce and shrink back to a small errand app. Both fail the brief's boundary test: the first ignores that the capital gap against Blinkit, Instamart and Zepto's war chests was structural and would only widen [M07]; the second removes the central problem instead of answering it. The thesis argued here is narrower: keep the promise Dunzo made to customers, &quot;Dunzo it, anything from any store, fast,&quot; and change only the asset used to deliver that promise.</p>
+<p>Three moves make up the intervention, timed from the January to April 2022 point of intervention set out in section 12:</p>
+<ol>
+<li><strong>Partner shelves instead of owned dark stores.</strong> Freeze the owned dark-store build at roughly 75 stores instead of scaling to the planned 200 [F20, F15], and run Dunzo Daily from Reliance's retail stores and existing local partner stores. The January 2022 deal already named Dunzo as last-mile and hyperlocal logistics partner for Reliance's store network and JioMart merchants [F07, S08], inventory and real estate Dunzo did not have to buy or lease. Cost per task on the partner-store model ran near ₹30, against ₹80 with owned dark stores [F23, S36], a gap that alone explains most of the fleet and store cost lines in the FY23 bridge (section 6).</li>
+<li><strong>Dunzo for Business as a second engine.</strong> D4B already had about 20,000 SMB and brand accounts across 8 cities by October 2022 and roughly 30,000 orders a day across 7 cities by July 2023 [F24]. Under the revival thesis it is not a side project competing for capital with Dunzo Daily, but a deliberately scaled use of the same fleet's idle rider hours, turning one cost base into two revenue streams.</li>
+<li><strong>Four cities before fifteen.</strong> Instead of 15 cities and 120 dark stores at the peak [F19, S20], the revival concentrates on four dense metros, Bengaluru, Hyderabad, Pune and Chennai, before adding a fifth. Bengaluru alone was claimed EBITDA-positive for 12 to 15 months by April 2022 [F16] and was roughly 40% of Dunzo's order volume as far back as 2019 <span class="tag">S04</span>. Density is what later market data confirmed matters: mature breakeven is about 1,200 to 1,250 orders a day per store [M04], a bar Dunzo's under-1,000-order stores never reliably cleared before being shut [F28].</li>
+</ol>
+<p>None of these moves invents a new business. They reallocate the ₹1,790 Cr round actually raised <span class="tag">A01</span> toward the parts of the business already working, and away from owned real estate and inventory, the part the cost data shows was the loss driver.</p>
+<h3 id="13-2-problem-solution-fit-matrix">13.2 Problem-solution fit matrix</h3>
+<table>
+<thead>
+<tr>
+<th>Root cause (section 7)</th>
+<th>Intervention</th>
+<th>Metric that proves the fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RC1: Model switch to capital-heavy owned dark stores</td>
+<td>Partner shelves (Reliance stores, local merchants) replace new owned stores</td>
+<td>Cost per task falls from ₹80 to about ₹30 [F23, S36]</td>
+</tr>
+<tr>
+<td>RC2: Reach before density (15 cities, 120 stores)</td>
+<td>Four-city density gates before expansion</td>
+<td>Orders per rider-hour and per-city contribution tracked at each gate (section 16)</td>
+</tr>
+<tr>
+<td>RC3: One revenue engine, one anchor client</td>
+<td>D4B scaled deliberately as engine two, no client above 25% of B2B revenue</td>
+<td>B2B share of total orders reaches 33% by FY27 [Model, A07], up from B2B's roughly one-third-of-revenue share by 2023 [F24]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-3-continuity-test">13.3 Continuity test</h3>
+<p>The brief's boundary asks &quot;same business, same core identity, same problem, different responses.&quot; The table below shows what the thesis keeps unchanged against what it changes.</p>
+<table>
+<thead>
+<tr>
+<th>Keeps</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The &quot;Dunzo it&quot; brand and its verb-like place in the customer's vocabulary [F02, S42]</td>
+<td>Who holds the stock: partners and Reliance stores instead of Dunzo-owned inventory</td>
+</tr>
+<tr>
+<td>Pick-up-and-drop, the original 2015 service [F01, F02]</td>
+<td>No new dark stores are built beyond the roughly 75 already open in early 2022</td>
+</tr>
+<tr>
+<td>One rider fleet and one consumer app serving every order type</td>
+<td>Footprint goes from 15 planned cities to 4 dense ones first</td>
+</tr>
+<tr>
+<td>The local-store marketplace model that predates Dunzo Daily [Q01]</td>
+<td>B2B rises from a minor line to about a third of total daily orders</td>
+</tr>
+</tbody>
+</table>
+<p>Every row on the left is untouched. The problem, quick commerce arriving with deeper-pocketed rivals and a cost structure Dunzo could not match, is not assumed away; it is answered with a cheaper cost structure built on the same fleet and the same brand promise.</p>
+<h3 id="13-4-adaptation-table">13.4 Adaptation table</h3>
+<p>The brief asks how the business would respond to the same market, technological, operational, labour and competitive challenges that contributed to its failure, not to a different set of challenges.</p>
+<table>
+<thead>
+<tr>
+<th>Challenge type</th>
+<th>What happened</th>
+<th>Revival response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Market</td>
+<td>Rivals promised 10-minute delivery and treated speed as the only axis of competition [F17, S18]</td>
+<td>Compete on breadth (&quot;anything from any store&quot;) inside a realistic 30-minute window rather than chasing 10-minute delivery Dunzo could not fund</td>
+</tr>
+<tr>
+<td>Technological/operational</td>
+<td>Owned dark stores required new inventory systems, warehousing and SKU management that Dunzo had not run before [F13]</td>
+<td>Partner-shelf integration reuses the existing pick-up-and-drop routing and app, avoiding a new operating stack</td>
+</tr>
+<tr>
+<td>Labour</td>
+<td>Rider costs scaled with store count and city count simultaneously [F19]</td>
+<td>One fleet serves pick-drop, partner-shelf and B2B orders, raising utilisation per rider instead of adding headcount per city</td>
+</tr>
+<tr>
+<td>Competitive</td>
+<td>JioMart came to depend on Dunzo for over 40% of B2B volume and then cut rates [F24, F27]</td>
+<td>No single B2B client is allowed above 25% of B2B revenue, so a single counterparty's repricing cannot swing the P&amp;L the way JioMart's did</td>
+</tr>
+<tr>
+<td>Capital/funding</td>
+<td>India's VC funding fell from $25.7B (2022) to $9.6B (2023) [M12], and Dunzo's own follow-on round stalled over valuation [F30]</td>
+<td>Burn is held near ₹16 Cr a month rather than the actual ₹176 Cr a month peak [F18], so the ₹1,790 Cr round funds the company to FY27 breakeven without a forced follow-on</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-5-frameworks">13.5 Frameworks</h3>
+<p><strong>Porter's generic strategy.</strong> Dunzo's actual FY22 posture tried to be a cost leader against better-capitalised rivals on a channel (owned dark stores) it could not fund, while also matching the grocery-repositioning of Blinkit and Zepto [F14]. That combination is &quot;stuck in the middle.&quot; The revival thesis moves Dunzo to a <strong>focus-differentiation</strong> strategy: a defined segment (urban households and SMBs wanting any errand or purchase fulfilled fast, not just 10-minute grocery) served through a differentiated asset, a marketplace of partner shelves plus one multi-purpose fleet, that rivals structurally committed to owned dark stores cannot cheaply copy.</p>
+<p><strong>Value chain, before and after.</strong> In the actual path, Dunzo inserted itself into the retail value chain as an owner: it bought inventory, leased and staffed dark stores, and bore working-capital and shrinkage risk on top of its last-mile role. That is where the ₹713 Cr &quot;stores and other&quot; line in the FY23 bridge originates (section 6). In the revival path, Dunzo stays a pure last-mile and discovery layer: partners and Reliance stores hold inventory and absorb retail risk, and Dunzo's position narrows back to matching, routing and delivering, plus the D4B logistics layer for merchants. The revival removes an entire value-chain stage rather than trying to operate it more cheaply.</p>
+<p><strong>VRIO of Dunzo's assets.</strong> Four assets pass a VRIO screen. The brand-as-verb recognition built since 2015 [F02, Q06] is valuable and rare among Indian hyperlocal players, though under-exploited by the company itself. The rider fleet and routing technology is valuable and reasonably rare in a fragmented last-mile market, though imitable given enough capital (Porter and Shadowfax built comparable fleets [M13, M14]). The merchant graph built through D4B, roughly 20,000 SMB and brand accounts [F24], is valuable and moderately rare, since most quick-commerce rivals sell only to consumers. Bengaluru density, claimed EBITDA-positive for 12 to 15 months [F16], is valuable and city-specific rare, though not permanently defensible without continued investment. None of these four required owning dark stores.</p>
+<p><strong>Hamilton Helmer's 7 Powers, applied as counter-positioning.</strong> Counter-positioning is the power most directly available to Dunzo against dark-store-native rivals: a superior model incumbents cannot cheaply adopt without damaging their own economics. Blinkit, Instamart and Zepto built their entire narrative around owned, ultra-dense dark-store networks delivering in 10 minutes [M06, M09]; abandoning that to chase a broader errand-and-B2B mix would mean conceding the speed metric their brands compete on. Dunzo's revival path does not require out-investing the leaders in dark stores; it requires being good at something they are structurally reluctant to pursue.</p>
+<p><strong>Ansoff matrix.</strong> The revival thesis is market penetration in the four-city set combined with related product development on the existing fleet (scaling D4B), not diversification into a new market. This matters for the boundary: penetration and same-fleet product development retain &quot;the same business, same core identity,&quot; where diversification into an unrelated line would not.</p>
+<h3 id="13-6-third-party-validation">13.6 Third-party validation</h3>
+<p>The thesis is corroborated, not invented, by four independent facts already in the fact base. Dunzo's own early investor Sandipan Chattopadhyay said of the dark-store pivot, &quot;Some of the elements of what we started off with … was to empower the local stores. A dark store is the antithesis of that&quot; [Q01, S35]. The Ken separately observed that Dunzo had effectively been &quot;banking on partner stores to 'Dunzo it!'&quot; even as it built owned inventory in parallel [Q06, S42]. Reliance itself validated the partner-shelf model two years too late: JioMart Quick launched 30-minute delivery from Reliance's own existing stores in 2024 [M17, S53], the exact mechanism the revival thesis proposes for 2022. And Porter, an asset-light intra-city logistics player operating on a materially similar principle of using other people's vehicles and routes rather than owning fixed retail assets, turned a ₹55.2 Cr profit on ₹4,306 Cr of FY25 revenue [M13], demonstrating that an asset-light logistics model at Dunzo's rough scale was commercially viable in the Indian market during the exact years Dunzo was losing money on owned stores.</p>
+<hr />
+<h2 id="14-the-revival-model">14. The revival model</h2>
+<h3 id="14-1-methodology">14.1 Methodology</h3>
+<p>The revival model (<span class="code">model/dunzo_revival_model.py</span>) is a counterfactual cash and EBITDA projection that starts from the ₹1,790 Cr the January 2022 round actually raised ($240M at ₹74.6 per $ <span class="tag">A01, F07</span>) and tracks only that pool of cash forward from FY23; FY22 is left exactly as reported [F12]. Three demand streams, pick-up-and-drop, partner-shelf &quot;quick&quot; orders and Dunzo for Business, are each given a daily order volume path and a per-order unit economics path (revenue and contribution after rider pay, other variable costs and discounting), disclosed as assumptions A03 to A07. Fixed costs and capex are set independently as A09 and A10. Three scenarios, bear, base and bull, apply a symmetric stress to volume and per-order contribution (A11). The model computes revenue, contribution, EBITDA and cumulative cash for FY23 through FY28 under each scenario, and separately reconstructs the FY23 loss bridge (T1) from reported FY21 and FY23 line items.</p>
+<h3 id="14-2-unit-economics-by-stream">14.2 Unit economics by stream</h3>
+<table>
+<thead>
+<tr>
+<th>Stream</th>
+<th>FY23</th>
+<th>FY24</th>
+<th>FY25</th>
+<th>FY26</th>
+<th>FY27</th>
+<th>FY28</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pick-up-and-drop (revenue / contribution, ₹)</td>
+<td>66 / 15</td>
+<td>68 / 18</td>
+<td>70 / 21</td>
+<td>72 / 24</td>
+<td>73 / 25</td>
+<td>74 / 26</td>
+</tr>
+<tr>
+<td>Partner-shelf quick (revenue / contribution, ₹)</td>
+<td>78.0 / 2.0</td>
+<td>79.5 / 6.5</td>
+<td>81.0 / 11.0</td>
+<td>82.5 / 14.5</td>
+<td>84.0 / 17.0</td>
+<td>85.5 / 18.5</td>
+</tr>
+<tr>
+<td>Dunzo for Business (revenue / contribution, ₹)</td>
+<td>52 / 6</td>
+<td>52 / 7</td>
+<td>53 / 9</td>
+<td>53 / 9</td>
+<td>54 / 11</td>
+<td>54 / 11</td>
+</tr>
+</tbody>
+</table>
+<p>Pick-up-and-drop is anchored to the actual ₹79 list price for a 2.5 km errand <span class="tag">S23</span>, with rider pay near Blinkit's own reported ₹44 last-mile cost per order [M08]. Partner-shelf economics are anchored to Dunzo Daily's own reported AOV of about ₹400 [F16], rising toward the ₹450 to ₹635 AOV range across Blinkit, Instamart and Zepto [M10], with a 15% commission plus a ₹15 fee, reflecting the ₹30-versus-₹80 partner-store cost advantage [F23]. Dunzo for Business economics assume the margin compression JioMart's rate cuts caused historically [F27] persists, offset partly by the utilisation gains Porter and Shadowfax realized on shared fleets [M13, M14].</p>
+<h3 id="14-3-volume-path-and-fixed-costs">14.3 Volume path and fixed costs</h3>
+<p>Daily order volume in the base case rises from 160,000 in FY23 to 512,000 in FY28 (A06), anchored to Dunzo's actual 8.3 million orders a month (about 277,000 a day) in June 2022 [F18] and D4B's roughly 30,000 orders a day by mid-2023 [F24]. Fixed costs rise from ₹220 Cr in FY23 to ₹275 Cr in FY28 (A09), consistent with Dunzo's FY21 non-delivery cost base of about ₹213 Cr [F10] and FY22 people cost of ₹138 Cr [F12]. Capex is set at ₹20 Cr in FY23 and ₹15 Cr a year afterward (A10), since no new owned dark stores are built, avoiding the ₹8 lakh to ₹9 lakh per-store capex the market data shows dark stores require [M09].</p>
+<h3 id="14-4-scenario-tables">14.4 Scenario tables</h3>
+<p><strong>T2 base case (₹ Cr; orders in thousands a day)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>160</td>
+<td>394</td>
+<td>48</td>
+<td>220</td>
+<td>−172</td>
+<td>1,598</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>235</td>
+<td>590</td>
+<td>88</td>
+<td>230</td>
+<td>−142</td>
+<td>1,441</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>315</td>
+<td>805</td>
+<td>151</td>
+<td>240</td>
+<td>−89</td>
+<td>1,337</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>385</td>
+<td>994</td>
+<td>213</td>
+<td>250</td>
+<td>−37</td>
+<td>1,285</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>455</td>
+<td>1,189</td>
+<td>280</td>
+<td>262</td>
+<td>+18</td>
+<td>1,288</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>512</td>
+<td>1,350</td>
+<td>328</td>
+<td>275</td>
+<td>+53</td>
+<td>1,327</td>
+</tr>
+</tbody>
+</table>
+<p>Base case breaks even in FY27, with ₹1,288 Cr of the round still in cash at that point [Model].</p>
+<p><strong>T2 bear case (₹ Cr; orders in thousands a day)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>120</td>
+<td>295</td>
+<td>23</td>
+<td>220</td>
+<td>−197</td>
+<td>1,573</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>176</td>
+<td>443</td>
+<td>47</td>
+<td>230</td>
+<td>−183</td>
+<td>1,375</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>236</td>
+<td>604</td>
+<td>87</td>
+<td>240</td>
+<td>−153</td>
+<td>1,207</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>289</td>
+<td>745</td>
+<td>128</td>
+<td>250</td>
+<td>−122</td>
+<td>1,070</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>341</td>
+<td>891</td>
+<td>173</td>
+<td>262</td>
+<td>−89</td>
+<td>966</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>384</td>
+<td>1,012</td>
+<td>204</td>
+<td>275</td>
+<td>−71</td>
+<td>880</td>
+</tr>
+</tbody>
+</table>
+<p>The bear case does not reach breakeven by FY28, but still holds ₹880 Cr of the round in cash at that point [Model], meaning the company would remain solvent under the model's worst disclosed stress even without a follow-on raise.</p>
+<p><strong>T2 bull case (₹ Cr; orders in thousands a day)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>192</td>
+<td>473</td>
+<td>71</td>
+<td>220</td>
+<td>−149</td>
+<td>1,622</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>282</td>
+<td>708</td>
+<td>127</td>
+<td>230</td>
+<td>−103</td>
+<td>1,503</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>378</td>
+<td>966</td>
+<td>209</td>
+<td>240</td>
+<td>−31</td>
+<td>1,457</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>462</td>
+<td>1,192</td>
+<td>289</td>
+<td>250</td>
+<td>+39</td>
+<td>1,481</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>546</td>
+<td>1,426</td>
+<td>376</td>
+<td>262</td>
+<td>+114</td>
+<td>1,580</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>614</td>
+<td>1,620</td>
+<td>439</td>
+<td>275</td>
+<td>+164</td>
+<td>1,729</td>
+</tr>
+</tbody>
+</table>
+<p>Bull case breaks even a year earlier, in FY26 [Model].</p>
+<h3 id="14-5-sensitivity-grids">14.5 Sensitivity grids</h3>
+<p><strong>T4: FY27 EBITDA sensitivity (₹ Cr; rows are the volume factor applied to base-case demand, columns are a per-order contribution shift in ₹)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Volume</th>
+<th>−3</th>
+<th>−1.5</th>
+<th>0</th>
+<th>+1</th>
+<th>+2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.75</td>
+<td>−89</td>
+<td>−71</td>
+<td>−52</td>
+<td>−39</td>
+<td>−27</td>
+</tr>
+<tr>
+<td>0.9</td>
+<td>−55</td>
+<td>−32</td>
+<td>−10</td>
+<td>5</td>
+<td>20</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>−32</td>
+<td>−7</td>
+<td>18</td>
+<td>35</td>
+<td>51</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>−9</td>
+<td>19</td>
+<td>46</td>
+<td>64</td>
+<td>83</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>14</td>
+<td>44</td>
+<td>74</td>
+<td>94</td>
+<td>114</td>
+</tr>
+</tbody>
+</table>
+<p><strong>T5: Lowest cash balance across FY23 to FY28, same grid layout (₹ Cr)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Volume</th>
+<th>−3</th>
+<th>−1.5</th>
+<th>0</th>
+<th>+1</th>
+<th>+2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.75</td>
+<td>880</td>
+<td>965</td>
+<td>1,049</td>
+<td>1,106</td>
+<td>1,162</td>
+</tr>
+<tr>
+<td>0.9</td>
+<td>1,012</td>
+<td>1,114</td>
+<td>1,210</td>
+<td>1,261</td>
+<td>1,307</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1,101</td>
+<td>1,203</td>
+<td>1,285</td>
+<td>1,325</td>
+<td>1,365</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1,179</td>
+<td>1,269</td>
+<td>1,335</td>
+<td>1,379</td>
+<td>1,423</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>1,240</td>
+<td>1,313</td>
+<td>1,385</td>
+<td>1,426</td>
+<td>1,457</td>
+</tr>
+</tbody>
+</table>
+<p>Even at the grid's single worst cell, 0.75x volume and a ₹3 per-order contribution hit, the lowest cash balance the model produces across all six years is ₹880 Cr, never negative. There is no combination inside this disclosed grid where the revival path runs out of the January 2022 round's cash.</p>
+<h3 id="14-6-comparison-with-the-actual-path">14.6 Comparison with the actual path</h3>
+<p>The revival model's own FY23 EBITDA of −₹172 Cr, set against the actual reported FY23 net loss of ₹1,801 Cr [F12], is a cut of about 90% [Model]. In the actual history, Dunzo's cash fell to ₹216 Cr by March 2023 [F12], barely a year after the ₹1,790 Cr round closed, and the app and website went offline in January 2025 [F34]. In the revival model's base case, ₹1,598 Cr remains in FY23 alone, roughly seven times the actual closing cash figure, and the company is still solvent through FY28 in every scenario the model tests.</p>
+<h3 id="14-7-honest-limits">14.7 Honest limits</h3>
+<ul>
+<li>This is a counterfactual. It shows that the revival path was fundable, not that it was certain.</li>
+<li>It tracks only the January 2022 round's cash; FY22 is left as reported.</li>
+<li>Unit economics are assumptions anchored to the cited benchmarks.</li>
+<li>FY24 actuals were never reported.</li>
+<li>The model does not claim Dunzo would have beaten Blinkit or Zepto, only that it would have survived as itself.</li>
+</ul>
+<hr />
+<h2 id="15-revival-outcome-what-dunzo-would-look-like-in-fy27">15. Revival outcome: what Dunzo would look like in FY27</h2>
+<p>Under the base case, by FY27 Dunzo would be running roughly 455,000 orders a day [Model], with a demand mix of 23% pick-up-and-drop, 44% partner-shelf quick orders and 33% Dunzo for Business [Model, A07]. This is a materially more diversified revenue base than the actual company ever achieved; B2C alone was over 90% of revenue as late as October 2022 [F25]. EBITDA in the base case turns positive at +₹18 Cr in FY27, the first profitable year in the company's history by this model's measure, with ₹1,288 Cr of the original ₹1,790 Cr round still sitting in cash [Model]. Operating in four dense cities rather than fifteen thin ones, the company would carry a fixed-cost base of about ₹262 Cr in FY27 [Model], not far above the actual FY22 spend level, while running roughly five times the daily order volume Dunzo actually processed in mid-2022 [F18].</p>
+<p>Under the bull scenario, where volume runs 20% above base and per-order contribution improves by ₹2, breakeven arrives a full year earlier, in FY26, with ₹1,481 Cr of cash remaining that year and ₹1,580 Cr by FY27 [Model]. Under the bear scenario, where volume runs 25% below base and per-order contribution is ₹3 worse, the company does not reach EBITDA breakeven at all within the model's FY23 to FY28 window, but it is still solvent, holding ₹880 Cr of cash in FY28 [Model], almost exactly half of what was originally raised and more than four times the ₹216 Cr the actual company had left by March 2023 [F12].</p>
+<p>What this outcome would not be is a top-three quick-commerce player. It would not match Blinkit's or Zepto's dark-store density, their sub-15-minute average delivery times, or their multi-billion-dollar GMV run rates [M02, M03]. The revival thesis does not claim Dunzo wins the 10-minute grocery war; it claims Dunzo survives, profitably, as the asset-light errand-and-marketplace network it was always meant to be, at a scale several multiples larger than its actual peak, funded entirely by the capital it had actually raised.</p>
+<hr />
+<h2 id="16-initial-roadmap-and-gates">16. Initial roadmap and gates</h2>
+<p>The roadmap runs in three phases from the January to April 2022 point of intervention, each with named owners, actions and gates before the next phase is funded.</p>
+<p><strong>Phase 1, months 0 to 6 (roughly January to June 2022).</strong> Owner: CEO and COO. Actions: freeze the owned dark-store build at the roughly 75 stores already open instead of the planned 200 [F20]; onboard Reliance stores and local merchants as partner-shelf fulfilment points, using the January 2022 deal's designation of Dunzo as Reliance's last-mile partner [F07, S08]; hold marketing well below the ₹40 Cr single-campaign level the actual IPL push consumed [F21, S35]. Gate to phase 2: at least 20 partner-shelf locations live in Bengaluru with cost per task at or below ₹40.</p>
+<p><strong>Phase 2, months 6 to 18 (roughly mid-2022 to mid-2023).</strong> Owner: COO and Head of Dunzo for Business. Actions: exit the 11 cities outside the four-city density set; scale D4B deliberately to SMBs and brands using the ONDC logistics seat secured in August 2022 [F26]; introduce batching and delivery-window tiers of the kind already saving ₹8 to ₹10 per order historically [F22]. Gate to phase 3: orders per rider-hour rising each quarter in all four cities; B2B contribution positive with no single client above 25% of B2B revenue, preventing the JioMart concentration risk that hit the actual business [F27].</p>
+<p><strong>Phase 3, months 18 to 36 (roughly late 2023 to 2025, mapping to FY26 and FY27 in the model).</strong> Owner: CFO. Actions: hold fixed costs on the A09 path (₹250 Cr to ₹262 Cr); scale partner-shelf and B2B volume toward 455,000 orders a day; monitor the FY27 EBITDA sensitivity grid (T4) quarterly against actuals. Gate: sustained positive EBITDA (the FY27 target of +₹18 Cr) for two consecutive quarters before entering additional cities.</p>
+<p>Each phase's KPIs, orders per rider-hour, contribution per order, B2B share of volume, client concentration, are the same metrics the model's assumption register (A03 to A12) is built from, so the roadmap and the model check the same numbers.</p>
+<hr />
+<h2 id="17-feasibility-why-this-could-have-worked-with-what-dunzo-had">17. Feasibility: why this could have worked with what Dunzo had</h2>
+<h3 id="17-1-resources-actually-on-hand">17.1 Resources actually on hand</h3>
+<p>At the point of intervention, Dunzo had ₹1,790 Cr of freshly raised, unspent capital [F07, A01]; a functioning multi-city rider fleet; roughly 20,000 SMB and brand accounts already using D4B [F24]; a named strategic relationship with Reliance Retail covering last-mile delivery for Reliance stores and JioMart merchants [F07, S08]; and a Bengaluru operation its founder described as EBITDA-positive for 12 to 15 months by April 2022 [F16]. None of this needed building from scratch; the revival thesis deploys what the company already had differently, not capabilities it did not possess.</p>
+<h3 id="17-2-capability-fit-table">17.2 Capability fit table</h3>
+<table>
+<thead>
+<tr>
+<th>Required capability</th>
+<th>Did Dunzo have it?</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Multi-city last-mile rider network</td>
+<td>Yes, already operating at scale</td>
+<td>8.3 million orders a month across the network by June 2022 [F18]</td>
+</tr>
+<tr>
+<td>Merchant and partner-store relationships</td>
+<td>Yes, both through legacy pick-up-and-drop and the new Reliance deal</td>
+<td>Reliance named Dunzo as its logistics and last-mile partner <span class="tag">S08</span>; D4B already had 20,000 merchant accounts [F24]</td>
+</tr>
+<tr>
+<td>B2B sales and account management</td>
+<td>Yes, an existing function, under-scaled</td>
+<td>D4B generated ₹2.3 Cr in FY22 and grew to roughly 30,000 orders a day by mid-2023 without dedicated priority [F24]</td>
+</tr>
+<tr>
+<td>City-level density discipline</td>
+<td>Partially; demonstrated in Bengaluru, not applied elsewhere</td>
+<td>Bengaluru EBITDA-positive claim [F16] vs. stores under 1,000 orders a day shut elsewhere [F28]</td>
+</tr>
+<tr>
+<td>Capital discipline at a ₹16 Cr-a-month burn rate</td>
+<td>Not demonstrated in the actual history, but arithmetically available</td>
+<td>Actual peak burn was ₹176 Cr a month [F18]; the model's FY23 fixed-cost base of ₹220 Cr implies a materially lower monthly run rate</td>
+</tr>
+<tr>
+<td>Batching and delivery-tier flexibility</td>
+<td>Yes, partially deployed too late</td>
+<td>60-minute and batched delivery options were already saving ₹8 to ₹10 per order by August 2022 [F22]</td>
+</tr>
+</tbody>
+</table>
+<p>Every capability the revival thesis depends on already existed inside Dunzo in some form by early 2022. The intervention is a reallocation of emphasis and capital across existing capabilities, not the acquisition of new ones, which is itself a feasibility argument: a turnaround that requires no new capability set is more executable than one that does.</p>
+<h3 id="17-3-competitive-response">17.3 Competitive response</h3>
+<p>If Dunzo had pursued this path, Blinkit, Instamart and Zepto would very likely have kept competing on 10-minute dark-store grocery delivery, since that is the model their capital structures, narratives and fleets were built around [M06, M09]. The revival thesis does not contest that ground; it concedes 10-minute grocery to the three leaders and competes instead on breadth (any errand, any store), multi-store baskets, and B2B logistics, categories where none of the three had a comparable offering. This is the counter-positioning argument from section 13.5 in competitive terms: rivals cannot cheaply chase Dunzo here without diluting the speed-first positioning their own growth depended on.</p>
+<p><strong>The Swiggy Genie counter-case.</strong> A skeptic could point to Swiggy Genie, Swiggy's own pick-up-and-drop errand service, as evidence that this space does not work: Swiggy paused Genie in 2022 specifically to protect rider supply for Instamart, and suspended it again in May 2025 [M16]. This does not undermine the revival thesis; it clarifies why Dunzo differs. For Swiggy, Genie was a side line subordinate to Instamart, its real quick-commerce bet, so when rider supply was scarce Genie was sacrificed. For Dunzo, errands were never a side line; they were the founding product and core identity since 2015 [F01, F02]. The revival thesis does not run pick-up-and-drop alongside a separate, more important dark-store business competing for the same riders; it makes pick-up-and-drop, partner-shelf orders and B2B three complementary uses of one fleet, none subordinate to an owned-inventory business needing a different kind of capital. Genie is evidence against running errands as an appendage to a dark-store strategy, not against running errands as the strategy itself.</p>
+<hr />
+<h2 id="18-risks-and-mitigations">18. Risks and mitigations</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Risk</th>
+<th>Probability</th>
+<th>Impact</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Partner-store SLA failures (stockouts, slow fulfilment, inconsistent quality) damage the speed promise</td>
+<td>Medium</td>
+<td>High</td>
+<td>City-level density gates (section 16) require partner-store performance monitoring before further rollout; contracts specify minimum SLA and stock-availability terms before onboarding</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Conflict with Reliance over exclusivity, pricing or control, given Reliance holds 25.8% and is also a fulfilment partner [F07]</td>
+<td>Medium</td>
+<td>High</td>
+<td>Keep partner-shelf sourcing multi-party (Reliance plus independent local merchants) rather than single-sourced to Reliance, so no one partner can dictate terms</td>
+</tr>
+<tr>
+<td>3</td>
+<td>B2B price pressure from a dominant client, repeating the JioMart pattern [F27]</td>
+<td>High</td>
+<td>Medium</td>
+<td>Hard cap of 25% of B2B revenue from any single client (A07), enforced at the account-management level, not just as a target</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Rider supply shortfall as volume scales across pick-drop, quick and B2B simultaneously</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Cross-utilise the single fleet across all three streams (the same mechanism that differentiates the model from Swiggy Genie, section 17.3), smoothing demand peaks across streams</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Rivals add their own pick-up-and-drop or partner-shelf offering once Dunzo demonstrates it works</td>
+<td>Low to medium</td>
+<td>Medium</td>
+<td>Brand-as-verb recognition and merchant-graph depth (VRIO analysis, section 13.5) are not instantly replicable even if the model is copied</td>
+</tr>
+<tr>
+<td>6</td>
+<td>The bear-case scenario materialises and additional funding is still eventually needed</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Bear case still leaves ₹880 Cr in cash by FY28 with no breakeven [Model], giving several years of runway to raise on a smaller, better-evidenced basis than the actual 2023 fundraising attempt, which stalled over valuation [F30]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Brand dilution from being associated with lower-margin partner-store fulfilment rather than Dunzo's own curated dark-store experience</td>
+<td>Low</td>
+<td>Low to medium</td>
+<td>Partner-store integration is presented to customers as an extension of &quot;any store in your city,&quot; consistent with the original errand-app promise, not a downgrade from it</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Execution slip: the four-city density discipline is abandoned under investor pressure to show top-line growth, repeating RC2</td>
+<td>Medium</td>
+<td>High</td>
+<td>Roadmap gates (section 16) tie phase funding explicitly to density metrics, not just revenue growth, so city expansion cannot proceed without a demonstrated per-city profitability floor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="19-boundary-compliance-check">19. Boundary compliance check</h2>
+<p>The brief's test is explicit: &quot;Same business. Same core identity. Same problem. Different responses.&quot; The table below checks the revival thesis against each clause.</p>
+<table>
+<thead>
+<tr>
+<th>Brief requirement</th>
+<th>How the thesis complies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Same business (no replacement with an unrelated model)</td>
+<td>Dunzo remains a hyperlocal delivery and errand company; every revenue stream (pick-up-and-drop, partner-shelf quick delivery, B2B logistics) is a form of delivery the actual company already operated or piloted [F01, F13, F24]</td>
+</tr>
+<tr>
+<td>Same core identity</td>
+<td>The &quot;Dunzo it&quot; brand promise, &quot;any errand, any store, fast,&quot; is preserved word for word; only the fulfilment mechanism (partner shelves instead of owned stores) changes</td>
+</tr>
+<tr>
+<td>Same problem (not eliminated or assumed away)</td>
+<td>Quick commerce's cost and speed pressure is not wished away. The thesis explicitly concedes 10-minute grocery to better-capitalised rivals (section 17.3) and competes on a different, fundable axis rather than pretending the competitive threat did not exist</td>
+</tr>
+<tr>
+<td>Different responses, not a different problem</td>
+<td>The three interventions (partner shelves, D4B as engine two, four-city density) are new decisions applied to the same market conditions Dunzo actually faced in 2022, using the same capital Dunzo actually had</td>
+</tr>
+<tr>
+<td>No central-problem removal</td>
+<td>Capital scarcity relative to rivals, the actual root of the failure, is not removed; the model works within the same ₹1,790 Cr Dunzo actually raised and no more <span class="tag">A01</span></td>
+</tr>
+<tr>
+<td>Legal matters excluded</td>
+<td>Vendor lawsuits, NCLT proceedings, insolvency filings and salary-dispute details are not used anywhere in the diagnosis or the revival argument, per the brief's own instruction [SG6, BD1]</td>
+</tr>
+<tr>
+<td>Sources clearly cited</td>
+<td>Every quantitative claim in this document carries an [F##], [M##], [S##], [A##] or [Model] tag traceable to the source register (section 3) or the model code (section 6)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="20-slide-blueprint">20. Slide blueprint</h2>
+<table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Panel</th>
+<th>Backed by (doc section)</th>
+<th>Key sources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cover</td>
+<td>Title and subtitle</td>
+<td>Section 13.1 (thesis statement)</td>
+<td>F01, S08</td>
+</tr>
+<tr>
+<td>Cover</td>
+<td>Verdict card</td>
+<td>Section 2 (moneyshot), section 15</td>
+<td>Model, F12</td>
+</tr>
+<tr>
+<td>Cover</td>
+<td>Five numbers card</td>
+<td>Section 3, section 4.1</td>
+<td>F01, F04, F07, F19, F12, F34, F35</td>
+</tr>
+<tr>
+<td>Cover</td>
+<td>Team table</td>
+<td>Front matter</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Executive Summary</td>
+<td>The Business</td>
+<td>Section 3 (business, value proposition, revenue mix)</td>
+<td>F01, F02, F09, F10</td>
+</tr>
+<tr>
+<td>Executive Summary</td>
+<td>The Market</td>
+<td>Section 4 (competitor dark-store table, war chests)</td>
+<td>M06, M07</td>
+</tr>
+<tr>
+<td>Executive Summary</td>
+<td>The Failure Context</td>
+<td>Section 5 (dated timeline)</td>
+<td>F13 to F35</td>
+</tr>
+<tr>
+<td>Executive Summary</td>
+<td>The Revival Thesis card</td>
+<td>Section 2, section 13.1</td>
+<td>Model</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Root Causes issue tree</td>
+<td>Section 7 (RC1 to RC3)</td>
+<td>S36, S20, F25</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Moneyshot loss bridge (waterfall)</td>
+<td>Section 6 (financial autopsy), section 6 model T1</td>
+<td>F12, Model</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Critical Decisions</td>
+<td>Section 8 (decision log)</td>
+<td>F14, F07, F15, F21, F24</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Failed Assumptions</td>
+<td>Section 9</td>
+<td>F17, M12, F16, F18, M04</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>The Unavoidable Problem</td>
+<td>Section 10</td>
+<td>F18</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Missed Opportunities</td>
+<td>Section 11</td>
+<td>F07, M17, F24, F16, F26</td>
+</tr>
+<tr>
+<td>Why Did It Fail?</td>
+<td>Point of Intervention</td>
+<td>Section 12</td>
+<td>F07, F20</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>The Strategic Intervention</td>
+<td>Section 13.1</td>
+<td>F07, F23, F16</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>Problem-Solution Fit</td>
+<td>Section 13.2</td>
+<td>S36, F16, F24</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>Revival Outcome (line chart)</td>
+<td>Section 14.4, section 15</td>
+<td>Model</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>Continuity / Adaptation</td>
+<td>Section 13.3, 13.4</td>
+<td>F27, F18</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>Initial Roadmap</td>
+<td>Section 16</td>
+<td>F20, F26, F22</td>
+</tr>
+<tr>
+<td>Revival Thesis</td>
+<td>Feasibility</td>
+<td>Section 17</td>
+<td>F16, S53, M13</td>
+</tr>
+<tr>
+<td>Appendix</td>
+<td>Model table, assumptions, sources</td>
+<td>Section 14, section 6 assumption register</td>
+<td>Model, A01 to A12</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="21-anticipated-judge-questions">21. Anticipated judge questions</h2>
+<p><strong>1. If serving Dunzo Daily from Reliance's shelves and freezing dark stores was so obviously cheaper, why did Dunzo's actual leadership not do it?</strong>
+The January 2022 round arrived with a growth narrative, Dunzo's own April 2022 targets of 200-plus dark stores and 30,000-plus riders [F15], that treated owned inventory as the story investors wanted. The ₹30-versus-₹80 cost gap between partner and owned stores [F23] only became visible in aggregate cost data after the scaling decision was already made; it is hindsight, not foresight.</p>
+<p><strong>2. Reliance had its own commercial incentives. Would it really have supported a partner-shelf model for Dunzo instead of building its own quick-commerce arm?</strong>
+The January 2022 deal already named Dunzo as Reliance's last-mile partner for its stores and JioMart merchants [F07, S08], so the relationship the thesis relies on was contractual, not hypothetical. Reliance's later behavior, cutting D4B rates once JioMart depended on Dunzo for over 40% of B2B volume [F27], shows it would still act in its own interest; the thesis mitigates this by capping any single client at 25% of B2B revenue.</p>
+<p><strong>3. Is four cities enough scale to matter in a market this capital-intensive?</strong>
+Four dense cities running 455,000 orders a day by FY27 [Model] is roughly five times Dunzo's actual mid-2022 volume of about 277,000 orders a day across fifteen cities [F18]. Mature breakeven requires roughly 1,200 to 1,250 orders a day per store [M04], a bar four cities run at genuine density clear more reliably than fifteen run thin, which is exactly what caused Dunzo's actual closures [F28].</p>
+<p><strong>4. How is &quot;keep Dunzo the errand network&quot; different from admitting Dunzo could not win quick commerce and should have quietly given up?</strong>
+It is a repositioning that produces a profitable, growing company by FY27 with 455,000 orders a day and 33% of volume in B2B [Model], not a retreat toward the 2019 scale of about 2 million orders a month [F05]. The revival path grows Dunzo well beyond its historical peak, just not inside the specific 10-minute grocery category the leaders chose to fight over.</p>
+<p><strong>5. The model shows FY23 EBITDA of −₹172 Cr, still a loss. Why should that be considered a success?</strong>
+A −₹172 Cr FY23 EBITDA against the actual reported FY23 net loss of ₹1,801 Cr is a reduction of about 90% [Model, F12], and it is the last loss-making year in the base case; EBITDA turns positive at +₹18 Cr in FY27 [Model]. A turnaround succeeds on a credible, fully funded path to breakeven, not zero losses in year one, which the actual company never had.</p>
+<p><strong>6. The bear case never reaches breakeven by FY28. Doesn't that undermine the whole thesis?</strong>
+No, because the standard held here is solvency and optionality, not profitability under every scenario. Even in the bear case, ₹880 Cr of the original round remains in cash at FY28 [Model], roughly four times the ₹216 Cr the actual company had left by March 2023 [F12], leaving years to adjust or raise from strength rather than crisis.</p>
+<p><strong>7. Are the unit economics assumptions (A03 to A07) realistic, or reverse-engineered to produce a good outcome?</strong>
+Each is anchored to a reported benchmark: pick-drop pricing to the actual ₹79 list price for a 2.5 km errand <span class="tag">S23</span>, partner-shelf AOV to Dunzo Daily's own ₹400 figure [F16], and rider costs to Blinkit's disclosed ₹44 last-mile cost per order [M08]. No year assumes contribution margins outside the range Blinkit, Porter and Shadowfax actually reported over the same period [M08, M13, M14].</p>
+<p><strong>8. Why does the model not include a scenario where a rival simply undercuts the partner-shelf model on price?</strong>
+The sensitivity grid (T4, T5) already stresses contribution down by ₹3 and volume down by 25% simultaneously, and the lowest cash balance across all twenty-five cells is still ₹880 Cr [Model], which already captures aggressive price competition. A dedicated price-war scenario was kept out of the base disclosure to avoid a fourth speculative case beyond bear, base and bull.</p>
+<p><strong>9. Doesn't relying on Reliance's stores just trade one form of dependency for another?</strong>
+It swaps balance-sheet dependency (owned inventory and real estate) for a commercial dependency that is explicitly mitigated: no single client, Reliance included, exceeds 25% of B2B revenue, and partner sourcing stays multi-party across Reliance stores and independent merchants (risk 2, section 18). This is materially smaller and more diversifiable than owning 120 stores outright.</p>
+<p><strong>10. If Bengaluru was already EBITDA-positive by April 2022, why didn't that alone save the company?</strong>
+Bengaluru's positive contribution was a founder claim [F16], not an audited figure, and it applied to only the top 20 stores in one city while the company simultaneously funded expansion into 14 other cities and 100 more stores [F19, F20]. The four-city density strategy deliberately replicates the Bengaluru pattern in three more cities instead of diluting it across fifteen.</p>
+<p><strong>11. How does the thesis address the labour and rider-supply challenges that also affected Swiggy Genie?</strong>
+By keeping errands, partner-shelf delivery and B2B on one shared fleet, rather than treating errands as a side service subordinate to a separate dark-store priority the way Swiggy treated Genie relative to Instamart [M16]. Because errand delivery is the core business, rider allocation favors it during periods of tight supply instead of sacrificing it.</p>
+<p><strong>12. Isn't ₹1,790 Cr small next to Zepto's $1.85 billion raised by November 2024?</strong>
+Yes, but the thesis does not claim Dunzo would out-capitalize Zepto; it claims ₹1,790 Cr suffices to fund an asset-light model to profitability, which the model shows across all three scenarios [Model]. Dark-store competition required Zepto-scale capital because owned inventory is capital-intensive; the partner-shelf model exists precisely to avoid competing at that scale.</p>
+<p><strong>13. The actual company shut most dark stores by 2023 anyway. Doesn't that mean the market reached the same conclusion, just too late?</strong>
+Largely yes, which supports the thesis: stores under 1,000 orders a day were shut from November 2022, about 70% had closed by November 2023 [F28], and Dunzo Daily left every city except Bengaluru by August 2023 [F29]. The thesis argues this correction should have happened in January to April 2022, before roughly ₹1,200 Cr to ₹1,500 Cr was spent in 2022 building the stores later shut [F20].</p>
+<p><strong>14. How does the model treat the fact that FY24 actuals were never reported?</strong>
+It uses none; all FY23 through FY28 figures are counterfactual projections from the disclosed assumption register (A01 to A12), and section 14.7 states this limit explicitly rather than substituting an estimate for the missing filing.</p>
+<p><strong>15. What would make you conclude this revival path would not have worked?</strong>
+If Reliance had refused the last-mile terms already named in the January 2022 deal <span class="tag">S08</span>, or partner-store SLA quality had been unworkable at scale, both risks disclosed in section 18, the cost advantage the thesis depends on would not have materialized and Dunzo would have faced a worse bear case than the model shows. The thesis claims the path was fundable and executable with the resources Dunzo actually had, not that execution risk was zero.</p>
+<hr />
+<h2 id="appendix-a-bibliography">Appendix A: Bibliography</h2>
+<p>Sources cited in this document, in the order first referenced during research. Full URLs given for verification.</p>
+<ul>
+<li><strong>S01</strong> Wikipedia, &quot;Dunzo&quot; <a href="https://en.wikipedia.org/wiki/Dunzo">https://en.wikipedia.org/wiki/Dunzo</a></li>
+<li><strong>S02</strong> Scroll (2 Jul 2018) &quot;As Bengaluru turns into a living nightmare, this app has become an irreplaceable part of it&quot; <a href="https://scroll.in/magazine/883059/as-bengaluru-turns-into-a-living-nightmare-this-app-has-become-an-irreplaceable-part-of-it">https://scroll.in/magazine/883059/as-bengaluru-turns-into-a-living-nightmare-this-app-has-become-an-irreplaceable-part-of-it</a></li>
+<li><strong>S03</strong> Forbes India (22 Feb 2018) &quot;Dunzo: Google's chosen one&quot; <a href="https://www.forbesindia.com/article/startups/dunzo-googles-chosen-one/49499/1">https://www.forbesindia.com/article/startups/dunzo-googles-chosen-one/49499/1</a></li>
+<li><strong>S04</strong> Franchise India (28 Jun 2019) &quot;Delivery startup Dunzo now expands to Mumbai&quot; <a href="https://www.franchiseindia.com/insights/en/article/delivery-startup-dunzo-now-expands-to-mumbai.53064">https://www.franchiseindia.com/insights/en/article/delivery-startup-dunzo-now-expands-to-mumbai.53064</a></li>
+<li><strong>S05</strong> TechCrunch (4 Oct 2019) &quot;Google-backed Dunzo raises $45M…&quot; <a href="https://techcrunch.com/2019/10/04/dunzo-hyperlocal-ecommerce-delivery/">https://techcrunch.com/2019/10/04/dunzo-hyperlocal-ecommerce-delivery/</a></li>
+<li><strong>S06</strong> TechCrunch (19 Jan 2021) &quot;Google backs India's Dunzo in $40 million funding round&quot; <a href="https://techcrunch.com/2021/01/19/google-backs-indias-dunzo-in-40-million-funding-round/">https://techcrunch.com/2021/01/19/google-backs-indias-dunzo-in-40-million-funding-round/</a></li>
+<li><strong>S07</strong> TechCrunch (6 Jan 2022) &quot;Reliance Retail backs Dunzo in $240 million funding&quot; <a href="https://techcrunch.com/2022/01/06/reliance-retail-backs-dunzo-in-240-million-funding/">https://techcrunch.com/2022/01/06/reliance-retail-backs-dunzo-in-240-million-funding/</a></li>
+<li><strong>S08</strong> Reliance Retail Ventures media release (6 Jan 2022) <a href="https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06012022.pdf">https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06012022.pdf</a></li>
+<li><strong>S09</strong> Entrackr (Jan 2021) &quot;Dunzo revenues rise 35X in FY20, losses balloon to Rs 338.4 Cr&quot; <a href="https://entrackr.com/2021/01/dunzo-revenues-rise-35x-in-fy20-losses-balloon-to-rs-338-4-cr/">https://entrackr.com/2021/01/dunzo-revenues-rise-35x-in-fy20-losses-balloon-to-rs-338-4-cr/</a></li>
+<li><strong>S10</strong> Entrackr (Sep 2021) &quot;Dunzo revenue jumps 66% to Rs 46 Cr in FY21…&quot; <a href="https://entrackr.com/2021/09/dunzo-revenue-jumps-66-to-rs-46-cr-in-fy21-outstanding-losses-balloon-to-rs-768-cr/">https://entrackr.com/2021/09/dunzo-revenue-jumps-66-to-rs-46-cr-in-fy21-outstanding-losses-balloon-to-rs-768-cr/</a></li>
+<li><strong>S11</strong> Entrackr (2 Nov 2022) &quot;Dunzo's losses widen to Rs 464 Cr in FY22 while revenue doubles&quot; <a href="https://entrackr.com/2022/11/dunzos-losses-widen-to-rs-464-cr-in-fy22-while-revenue-doubles/">https://entrackr.com/2022/11/dunzos-losses-widen-to-rs-464-cr-in-fy22-while-revenue-doubles/</a></li>
+<li><strong>S12</strong> Entrackr (6 Nov 2023) &quot;Dunzo posts Rs 1,800 Cr loss, Rs 226 Cr revenue in FY23&quot; <a href="https://entrackr.com/2023/11/dunzo-posts-rs-1800-cr-loss-rs-226-cr-revenue-in-fy23/">https://entrackr.com/2023/11/dunzo-posts-rs-1800-cr-loss-rs-226-cr-revenue-in-fy23/</a></li>
+<li><strong>S13</strong> Entrackr (30 Oct 2019) &quot;Dunzo spent Rs 225 to earn Re 1 in FY19&quot; <a href="https://entrackr.com/2019/10/dunzo-spent-rs-225-to-earn-re-1-in-fy19/">https://entrackr.com/2019/10/dunzo-spent-rs-225-to-earn-re-1-in-fy19/</a></li>
+<li><strong>S14</strong> Inc42 (18 Jun 2021) &quot;Dunzo Launches Dark Stores Service 'Dunzo Daily' In Bengaluru&quot; <a href="https://inc42.com/buzz/dunzo-launches-dark-stores-service-dunzo-daily-in-bengaluru/">https://inc42.com/buzz/dunzo-launches-dark-stores-service-dunzo-daily-in-bengaluru/</a></li>
+<li><strong>S15</strong> afaqs (19 Aug 2021) &quot;Dunzo is known for being a pick up and drop delivery service…&quot; <a href="https://www.afaqs.com/news/mktg/dunzo-is-known-for-being-a-pick-up-and-drop-delivery-service-want-to-reposition-the-brand-as-a-grocery-delivery-service-sai-ganesh-on-dunzo-daily">https://www.afaqs.com/news/mktg/dunzo-is-known-for-being-a-pick-up-and-drop-delivery-service-want-to-reposition-the-brand-as-a-grocery-delivery-service-sai-ganesh-on-dunzo-daily</a></li>
+<li><strong>S16</strong> Inc42 (7 Apr 2022) &quot;Dunzo Daily Makes Mumbai Entry…&quot; <a href="https://inc42.com/buzz/dunzo-daily-makes-mumbai-entry-plans-to-expand-to-delhi-ncr-hyderabad-by-month-end/">https://inc42.com/buzz/dunzo-daily-makes-mumbai-entry-plans-to-expand-to-delhi-ncr-hyderabad-by-month-end/</a></li>
+<li><strong>S17</strong> Inc42 (23 Apr 2022) &quot;Our top 20 stores are starting to show profitability: Dunzo's Kabeer Biswas&quot; <a href="https://inc42.com/buzz/our-top-20-stores-are-starting-to-show-profitability-dunzos-kabeer-biswas/">https://inc42.com/buzz/our-top-20-stores-are-starting-to-show-profitability-dunzos-kabeer-biswas/</a></li>
+<li><strong>S18</strong> Forbes India (19 Jan 2022) &quot;I don't understand the difference between 10 and 20 minutes&quot; <a href="https://www.forbesindia.com/article/startups/quick-commerce-i-dont-understand-the-difference-between-10-and-20-minutes-dunzos-kabeer-biswas/73035/1">https://www.forbesindia.com/article/startups/quick-commerce-i-dont-understand-the-difference-between-10-and-20-minutes-dunzos-kabeer-biswas/73035/1</a></li>
+<li><strong>S19</strong> Entrackr (19 Aug 2022) &quot;With high one-time expenses, Dunzo Daily lost Rs 230 per order in H1 2022&quot; <a href="https://entrackr.com/2022/08/with-high-one-time-expenses-dunzo-daily-lost-rs-230-per-order-in-h1-2022/">https://entrackr.com/2022/08/with-high-one-time-expenses-dunzo-daily-lost-rs-230-per-order-in-h1-2022/</a></li>
+<li><strong>S20</strong> Entrackr (11 Nov 2022) &quot;Exclusive: Dunzo to shut down some dark stores in NCR and Hyderabad&quot; <a href="https://entrackr.com/2022/11/exclusive-dunzo-to-shut-down-some-dark-stores-in-ncr-and-hyderabad/">https://entrackr.com/2022/11/exclusive-dunzo-to-shut-down-some-dark-stores-in-ncr-and-hyderabad/</a></li>
+<li><strong>S21</strong> Entrackr (14 Jul 2023) &quot;Dunzo looks for an olive branch amid cost-cutting measures&quot; <a href="https://entrackr.com/2023/07/dunzo-looks-for-an-olive-branch-amid-cost-cutting-measures/">https://entrackr.com/2023/07/dunzo-looks-for-an-olive-branch-amid-cost-cutting-measures/</a></li>
+<li><strong>S22</strong> Inc42 (6 Oct 2023) &quot;The Dunzo Breakdown&quot; <a href="https://inc42.com/features/the-dunzo-breakdown/">https://inc42.com/features/the-dunzo-breakdown/</a></li>
+<li><strong>S23</strong> Inc42 (9 Nov 2023) &quot;Dunzo's Quick Commerce Folly&quot; <a href="https://inc42.com/features/dunzos-quick-commerce-folly/">https://inc42.com/features/dunzos-quick-commerce-folly/</a></li>
+<li><strong>S24</strong> Inc42 (13 Jul 2023) &quot;How Dunzo Lost The 'It' Factor&quot; <a href="https://inc42.com/features/how-dunzo-lost-the-it-factor-quick-commerce-hyperlocal/">https://inc42.com/features/how-dunzo-lost-the-it-factor-quick-commerce-hyperlocal/</a></li>
+<li><strong>S25</strong> Inc42 (18 Jul 2023) &quot;Dunzo looking to Reliance for $20 Mn lifeline&quot; <a href="https://inc42.com/buzz/dunzo-looking-reliance-20-mn-lifeline/">https://inc42.com/buzz/dunzo-looking-reliance-20-mn-lifeline/</a></li>
+<li><strong>S26</strong> Inc42 (22 Aug 2023) &quot;Disagreement Over Valuation Markdown Halts Dunzo Fundraising Plans&quot; <a href="https://inc42.com/buzz/disagreement-valuation-markdown-halts-dunzo-fundraising-plans/">https://inc42.com/buzz/disagreement-valuation-markdown-halts-dunzo-fundraising-plans/</a></li>
+<li><strong>S27</strong> Inc42 (7 Nov 2023) on FY23 audit and the company's &quot;business burn is now neutral&quot; statement <a href="https://inc42.com/buzz/deloitte-flags-dunzos-mounting-liabilities-raises-doubt-on-ability-to-continue-as-a-going-concern/">https://inc42.com/buzz/deloitte-flags-dunzos-mounting-liabilities-raises-doubt-on-ability-to-continue-as-a-going-concern/</a></li>
+<li><strong>S28</strong> TechCrunch (20 Feb 2024) &quot;Flipkart has weighed acquiring Reliance-backed instant delivery startup Dunzo&quot; <a href="https://techcrunch.com/2024/02/20/flipkart-dunzo/">https://techcrunch.com/2024/02/20/flipkart-dunzo/</a></li>
+<li><strong>S29</strong> TechCrunch (30 Aug 2023) &quot;Dunzo, backed by Reliance and Google…&quot; <a href="https://techcrunch.com/2023/08/30/dunzo-backed-by-reliance-and-google-delays-employee-salaries-again">https://techcrunch.com/2023/08/30/dunzo-backed-by-reliance-and-google-delays-employee-salaries-again</a></li>
+<li><strong>S30</strong> Inc42 (19 Jan 2025) &quot;How Dunzo Lost Its Edge&quot; <a href="https://inc42.com/features/dunzo-kabeer-biswas-downfall-reliance/">https://inc42.com/features/dunzo-kabeer-biswas-downfall-reliance/</a></li>
+<li><strong>S31</strong> Inc42 (4 Jan 2025) on Reliance declining to fund or buy Dunzo <a href="https://inc42.com/buzz/reliance-retail-dunzo-write-off-kabeer-biswas/">https://inc42.com/buzz/reliance-retail-dunzo-write-off-kabeer-biswas/</a></li>
+<li><strong>S32</strong> TechCrunch (8 Jan 2025) &quot;Flipkart hires Dunzo's co-founder to lead quick commerce push&quot; <a href="https://techcrunch.com/2025/01/08/flipkart-taps-dunzo-founder-to-lead-quick-commerce-push/">https://techcrunch.com/2025/01/08/flipkart-taps-dunzo-founder-to-lead-quick-commerce-push/</a></li>
+<li><strong>S33</strong> Business Today (15 Jan 2025) &quot;Dunzo goes offline after cofounder Kabeer Biswas joins Flipkart&quot; <a href="https://www.businesstoday.in/technology/news/story/dunzo-goes-offline-after-cofounder-kabeer-biswas-joins-flipkart-460763-2025-01-15">https://www.businesstoday.in/technology/news/story/dunzo-goes-offline-after-cofounder-kabeer-biswas-joins-flipkart-460763-2025-01-15</a></li>
+<li><strong>S34</strong> Entrackr (7 Aug 2025) &quot;Reliance officially writes off $200 Mn investment in Dunzo&quot; <a href="https://entrackr.com/news/reliance-officially-writes-off-200-mn-investment-in-dunzo-9637264">https://entrackr.com/news/reliance-officially-writes-off-200-mn-investment-in-dunzo-9637264</a></li>
+<li><strong>S35</strong> Rest of World (20 Mar 2025) &quot;Screaming customers, unpaid workers: Inside the chaotic demise of … Dunzo&quot; <a href="https://restofworld.org/2025/dunzo-shutdown-india-quick-commerce/">https://restofworld.org/2025/dunzo-shutdown-india-quick-commerce/</a></li>
+<li><strong>S36</strong> Finshots (16 Nov 2023) &quot;What's going on at Dunzo?&quot; <a href="https://finshots.in/archive/whats-going-on-at-dunzo/">https://finshots.in/archive/whats-going-on-at-dunzo/</a></li>
+<li><strong>S37</strong> Inc42 (28 Apr 2020) Dunzo's lockdown growth story <a href="https://inc42.com/infocus/covid19-tech-impact/33-higher-weekly-orders-2x-surge-in-ticket-size-dunzos-lockdown-growth-story/">https://inc42.com/infocus/covid19-tech-impact/33-higher-weekly-orders-2x-surge-in-ticket-size-dunzos-lockdown-growth-story/</a></li>
+<li><strong>S38</strong> IIFL (Aug 2022) &quot;To cut costs, Dunzo encouraging users to choose the 60-minute delivery option&quot; <a href="https://www.indiainfoline.com/news/markets/to-cut-costs-dunzo-encouraging-users-to-choose-the-60-minute-delivery-option">https://www.indiainfoline.com/news/markets/to-cut-costs-dunzo-encouraging-users-to-choose-the-60-minute-delivery-option</a></li>
+<li><strong>S39</strong> Inc42 (Aug 2022) &quot;Dunzo's B2B logistics arm joins ONDC…&quot; <a href="https://inc42.com/buzz/dunzos-b2b-logistics-arm-joins-ondc-to-offer-last-mile-services/">https://inc42.com/buzz/dunzos-b2b-logistics-arm-joins-ondc-to-offer-last-mile-services/</a></li>
+<li><strong>S40</strong> YourStory (Oct 2022) Dunzo for Business [snip] <a href="https://yourstory.com/2022/10/dunzo-for-business-b2b-vertical-mid-last-mile-logistics-smb-brands">https://yourstory.com/2022/10/dunzo-for-business-b2b-vertical-mid-last-mile-logistics-smb-brands</a></li>
+<li><strong>S41</strong> The Morning Context (10 Feb 2023) &quot;Dunzo to shut most dark stores…&quot; [snip] <a href="https://themorningcontext.com/internet/dunzo-to-shut-most-dark-stores-scale-down-grocery-business">https://themorningcontext.com/internet/dunzo-to-shut-most-dark-stores-scale-down-grocery-business</a></li>
+<li><strong>S42</strong> The Ken (26 Sep 2023) &quot;Dunzo fans made it a verb. Then it became just another delivery firm&quot; [snip] <a href="https://the-ken.com/story/dunzo-fans-made-it-a-verb-then-it-became-just-another-delivery-firm/">https://the-ken.com/story/dunzo-fans-made-it-a-verb-then-it-became-just-another-delivery-firm/</a></li>
+<li><strong>S43</strong> JM Financial (29 Feb 2024) &quot;Deep-Dive: Quick Commerce&quot; <a href="https://www.jmfl.com/Common/getFile/3278">https://www.jmfl.com/Common/getFile/3278</a></li>
+<li><strong>S44</strong> Redseer (7 Mar 2024) &quot;Unveiling India's Q-Commerce Revolution&quot; <a href="https://redseer.com/articles/unveiling-indias-q-commerce-revolution/">https://redseer.com/articles/unveiling-indias-q-commerce-revolution/</a></li>
+<li><strong>S45</strong> Redseer (20 Jan 2026) &quot;The Dark Store Blind Spot&quot; <a href="https://redseer.com/articles/the-dark-store-blind-spot-the-part-of-quick-commerce-growth-that-the-topline-doesnt-show/">https://redseer.com/articles/the-dark-store-blind-spot-the-part-of-quick-commerce-growth-that-the-topline-doesnt-show/</a></li>
+<li><strong>S46</strong> Redseer (12 Feb 2026) &quot;Quick Commerce Finds Its New Normal&quot; <a href="https://redseer.com/articles/quick-commerce-finds-its-new-normal-with-scale-mix-and-momentum/">https://redseer.com/articles/quick-commerce-finds-its-new-normal-with-scale-mix-and-momentum/</a></li>
+<li><strong>S47</strong> Entrackr (Jun 2022) &quot;Zomato acquires Blinkit in $568 Mn all stock deal&quot; <a href="https://entrackr.com/2022/06/zomato-acquires-blinkit-in-568-mn-all-stock-deal/">https://entrackr.com/2022/06/zomato-acquires-blinkit-in-568-mn-all-stock-deal/</a></li>
+<li><strong>S48</strong> Entrackr (22 Nov 2024) &quot;Zepto raises $350 Mn…&quot; <a href="https://entrackr.com/news/zepto-raises-350-mn-surpasses-135-bn-in-funding-for-2024-7599303">https://entrackr.com/news/zepto-raises-350-mn-surpasses-135-bn-in-funding-for-2024-7599303</a></li>
+<li><strong>S49</strong> TechCrunch (2 Dec 2021) &quot;Swiggy to invest $700 million in express delivery service Instamart&quot; <a href="https://techcrunch.com/2021/12/02/swiggy-to-invest-700-million-in-express-delivery-service-instamart">https://techcrunch.com/2021/12/02/swiggy-to-invest-700-million-in-express-delivery-service-instamart</a></li>
+<li><strong>S50</strong> Bain &amp; Company, India Venture Capital Report 2024 <a href="https://www.bain.com/insights/india-venture-capital-report-2024/">https://www.bain.com/insights/india-venture-capital-report-2024/</a></li>
+<li><strong>S51</strong> Inc42 (2025) &quot;Porter Turns Profitable In FY25…&quot; <a href="https://inc42.com/buzz/porter-turns-profitable-in-fy25-revenue-crosses-inr-4000-cr-mark/">https://inc42.com/buzz/porter-turns-profitable-in-fy25-revenue-crosses-inr-4000-cr-mark/</a></li>
+<li><strong>S52</strong> Inc42 (2026) &quot;Why Quick Commerce Is Central To Shadowfax's Post-IPO Vision&quot; <a href="https://inc42.com/features/why-quick-commerce-is-central-to-shadowfaxs-post-ipo-vision/">https://inc42.com/features/why-quick-commerce-is-central-to-shadowfaxs-post-ipo-vision/</a></li>
+<li><strong>S53</strong> Business Standard (29 May 2024) JioMart 30-minute grocery delivery [snip] <a href="https://www.business-standard.com/companies/news/reliance-retail-s-jiomart-to-deliver-groceries-in-30-mins-from-next-month-124052901651_1.html">https://www.business-standard.com/companies/news/reliance-retail-s-jiomart-to-deliver-groceries-in-30-mins-from-next-month-124052901651_1.html</a></li>
+<li><strong>S54</strong> Inc42 (May 2025) &quot;Swiggy Suspends Delivery Service Genie&quot; <a href="https://inc42.com/buzz/exclusive-swiggy-suspends-delivery-service-genie/">https://inc42.com/buzz/exclusive-swiggy-suspends-delivery-service-genie/</a></li>
+<li><strong>S55</strong> Inc42 (26 Dec 2023) &quot;India's Quick Commerce Race: Blinkit On Top After 2023…&quot; <a href="https://inc42.com/features/indias-quick-commerce-race-blinkit-on-top-after-2023-can-rivals-catch-up/">https://inc42.com/features/indias-quick-commerce-race-blinkit-on-top-after-2023-can-rivals-catch-up/</a></li>
+<li><strong>S56</strong> Inc42 (Nov 2023) &quot;Blinkit Turns Contribution Positive…&quot; <a href="https://inc42.com/buzz/zomato-q2-blinkit-turns-contribution-positive-for-first-time-since-acquisition/">https://inc42.com/buzz/zomato-q2-blinkit-turns-contribution-positive-for-first-time-since-acquisition/</a></li>
+<li><strong>S57</strong> Outlook Business (2024) &quot;Zepto FY24 Results…&quot; <a href="https://www.outlookbusiness.com/start-up/news/zepto-fy24-results-revenue-doubles-to-rs-4454-crore-loss-shrinks-to-rs-12486-crore">https://www.outlookbusiness.com/start-up/news/zepto-fy24-results-revenue-doubles-to-rs-4454-crore-loss-shrinks-to-rs-12486-crore</a></li>
+<li><strong>S58</strong> Business Today (3 Mar 2022) &quot;India's quick commerce industry to grow 15x…: RedSeer&quot; <a href="https://www.businesstoday.in/latest/economy/story/indias-quick-commerce-industry-to-grow-15x-reach-55-bn-by-2025-redseer-324643-2022-03-03">https://www.businesstoday.in/latest/economy/story/indias-quick-commerce-industry-to-grow-15x-reach-55-bn-by-2025-redseer-324643-2022-03-03</a></li>
+<li><strong>S59</strong> The Morning Context (16 Jul 2021) &quot;BigBasket is one of Dunzo's quiet dark stores&quot; [snip] <a href="https://themorningcontext.com/internet/bigbasket-and-dunzos-quiet-dark-stores">https://themorningcontext.com/internet/bigbasket-and-dunzos-quiet-dark-stores</a></li>
+<li><strong>S60</strong> Inc42 (28 May 2021) &quot;Dunzo Expects To Clock $200 Mn GMV Run-Rate In FY22&quot; <a href="https://inc42.com/buzz/dunzo-expects-to-clock-200-mn-gmv-run-rate-in-fy22/">https://inc42.com/buzz/dunzo-expects-to-clock-200-mn-gmv-run-rate-in-fy22/</a></li>
+<li><strong>S61</strong> TechCrunch (30 Mar 2023) &quot;Reliance-backed Dunzo nears fresh funding of $50 million&quot; <a href="https://techcrunch.com/2023/03/30/reliance-backed-dunzo-nears-fresh-funding-of-50-million">https://techcrunch.com/2023/03/30/reliance-backed-dunzo-nears-fresh-funding-of-50-million</a></li>
+<li><strong>S62</strong> Entrackr (6 Apr 2023) &quot;Reliance-backed Dunzo lays off 30% of workforce&quot; <a href="https://entrackr.com/2023/04/reliance-backed-dunzo-lays-off-30-of-workforce/">https://entrackr.com/2023/04/reliance-backed-dunzo-lays-off-30-of-workforce/</a></li>
+<li><strong>S63</strong> Inc42 (4 Oct 2023) &quot;Cash-Strapped Dunzo Might See Valuation Drop To $200 Mn…&quot; <a href="https://inc42.com/buzz/cash-strapped-dunzo-valuation-drop-200-mn-35-mn-rights-issue/">https://inc42.com/buzz/cash-strapped-dunzo-valuation-drop-200-mn-35-mn-rights-issue/</a></li>
+<li><strong>S64</strong> Business Today (Dec 2017) &quot;Google invests Rs 65 crore in hyper local app Dunzo…&quot; <a href="https://www.businesstoday.in/technology/internet/google-first-direct-investment-indian-startup-bangaluru-dunzo-12-million-usd/story/265379.html">https://www.businesstoday.in/technology/internet/google-first-direct-investment-indian-startup-bangaluru-dunzo-12-million-usd/story/265379.html</a></li>
+<li><strong>S65</strong> Inc42 (May 2024) &quot;Blinkit Takes Off&quot; <a href="https://inc42.com/features/blinkit-growth-year-fy24-zomato-quick-commerce/">https://inc42.com/features/blinkit-growth-year-fy24-zomato-quick-commerce/</a></li>
+<li><strong>S66</strong> HDFC Securities (12 May 2025) Swiggy Q4FY25 note <a href="https://www.hdfcsec.com/hsl.docs/Swiggy%20-%20Q4FY25%20-%20HSIE-202505120614504022063.pdf">https://www.hdfcsec.com/hsl.docs/Swiggy - Q4FY25 - HSIE-202505120614504022063.pdf</a></li>
+<li><strong>S67</strong> Entrackr (15 Jul 2025) &quot;Porter turns profitable with over Rs 4,000 Cr revenue in FY25&quot; <a href="https://entrackr.com/exclusive/exclusive-porter-turns-profitable-with-over-rs-4000-cr-revenue-in-fy25-9496810">https://entrackr.com/exclusive/exclusive-porter-turns-profitable-with-over-rs-4000-cr-revenue-in-fy25-9496810</a></li>
+<li><strong>S68</strong> Inc42 (6 Jun 2025) Porter's 10-year grind <a href="https://inc42.com/startups/porter-intracity-last-mile-delivery-pan-india-logistics-quick-commerce/">https://inc42.com/startups/porter-intracity-last-mile-delivery-pan-india-logistics-quick-commerce/</a></li>
+<li><strong>S69</strong> Logistics Insider (28 Mar 2025) on Redseer express-parcel report <a href="https://www.logisticsinsider.in/redseer-report-express-parcel-market-to-grow-at-19-23-cagr-till-2030/">https://www.logisticsinsider.in/redseer-report-express-parcel-market-to-grow-at-19-23-cagr-till-2030/</a></li>
+<li><strong>S70</strong> Sanghi, Balodi &amp; Gupta (SAGE, 2023) &quot;…Dunzo v/s Blinkit&quot; <a href="https://journals.sagepub.com/doi/full/10.1177/20438869231151449">https://journals.sagepub.com/doi/full/10.1177/20438869231151449</a></li>
+<li><strong>S71</strong> Forbes India (14 Mar 2019) &quot;Swiggy vs Dunzo: A battle for hyperlocal 2.0&quot; <a href="https://www.forbesindia.com/article/startups/swiggy-vs-dunzo-a-battle-for-hyperlocal-2.0/52789/1">https://www.forbesindia.com/article/startups/swiggy-vs-dunzo-a-battle-for-hyperlocal-2.0/52789/1</a></li>
+<li><strong>S72</strong> The Quint (22 Apr 2023) quick-commerce economics explainer <a href="https://www.thequint.com/explainers/quick-commerce-economics-explained-blinkit-zepto-dunzo-swiggy-10-minute-delivery">https://www.thequint.com/explainers/quick-commerce-economics-explained-blinkit-zepto-dunzo-swiggy-10-minute-delivery</a></li>
+<li><strong>S73</strong> Entrackr (Dec 2019) &quot;Exclusive: Dunzo suspends ops in parts of Bengaluru, Mumbai, NCR&quot; <a href="https://entrackr.com/2019/12/exclusive-dunzo-suspends-ops-bengaluru-mumbai-ncr/">https://entrackr.com/2019/12/exclusive-dunzo-suspends-ops-bengaluru-mumbai-ncr/</a></li>
+<li><strong>S74</strong> afaqs (May 2022) Dunzo's QR-code ad in the IPL final <a href="https://www.afaqs.com/news/advertising/dunzo-delivers-a-qr-code-based-ad-during-the-ipl-finals-seemingly-inspired-by-coinbases-super-bowl-spot-in-2022">https://www.afaqs.com/news/advertising/dunzo-delivers-a-qr-code-based-ad-during-the-ipl-finals-seemingly-inspired-by-coinbases-super-bowl-spot-in-2022</a></li>
+<li><strong>S75</strong> Wikipedia, &quot;Zepto (company)&quot; (funding rounds) <a href="https://en.wikipedia.org/wiki/Zepto_(company)">https://en.wikipedia.org/wiki/Zepto_(company)</a></li>
+<li><strong>S76</strong> Swiggy DRHP via Motilal Oswal initiation (Nov 2024) (Instamart GOV and stores) <a href="https://images.assettype.com/bloombergquint/2024-11-19/vqdtx7vp/Motilal_Oswal_Swiggy_Initiating_Coverage_Note.pdf">https://images.assettype.com/bloombergquint/2024-11-19/vqdtx7vp/Motilal_Oswal_Swiggy_Initiating_Coverage_Note.pdf</a></li>
+</ul>
+<h2 id="appendix-b-model-tables">Appendix B: Model tables</h2>
+<h3 id="t1-fy23-loss-bridge-rs-cr">T1 FY23 loss bridge (Rs Cr)</h3>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Rs Cr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY21 base loss</td>
+<td>226</td>
+</tr>
+<tr>
+<td>Ads above FY21</td>
+<td>299</td>
+</tr>
+<tr>
+<td>People above FY21</td>
+<td>246</td>
+</tr>
+<tr>
+<td>Delivery fleet above FY21</td>
+<td>317</td>
+</tr>
+<tr>
+<td>Dark stores, inventory, other (net)</td>
+<td>713</td>
+</tr>
+<tr>
+<td>FY23 loss</td>
+<td>1,801</td>
+</tr>
+</tbody>
+</table>
+<p>War share of FY23 loss: 1,575 Cr (87%)</p>
+<h3 id="t2-bear-case-rs-cr-orders-in-thousands-a-day">T2 bear case (Rs Cr; orders in thousands a day)</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>120</td>
+<td>295</td>
+<td>23</td>
+<td>220</td>
+<td>−197</td>
+<td>1,573</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>176</td>
+<td>443</td>
+<td>47</td>
+<td>230</td>
+<td>−183</td>
+<td>1,375</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>236</td>
+<td>604</td>
+<td>87</td>
+<td>240</td>
+<td>−153</td>
+<td>1,207</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>289</td>
+<td>745</td>
+<td>128</td>
+<td>250</td>
+<td>−122</td>
+<td>1,070</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>341</td>
+<td>891</td>
+<td>173</td>
+<td>262</td>
+<td>−89</td>
+<td>966</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>384</td>
+<td>1,012</td>
+<td>204</td>
+<td>275</td>
+<td>−71</td>
+<td>880</td>
+</tr>
+</tbody>
+</table>
+<p>Breakeven: after FY28; cash FY27 966; cash FY28 880</p>
+<h3 id="t2-base-case-rs-cr-orders-in-thousands-a-day">T2 base case (Rs Cr; orders in thousands a day)</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>160</td>
+<td>394</td>
+<td>48</td>
+<td>220</td>
+<td>−172</td>
+<td>1,598</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>235</td>
+<td>590</td>
+<td>88</td>
+<td>230</td>
+<td>−142</td>
+<td>1,441</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>315</td>
+<td>805</td>
+<td>151</td>
+<td>240</td>
+<td>−89</td>
+<td>1,337</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>385</td>
+<td>994</td>
+<td>213</td>
+<td>250</td>
+<td>−37</td>
+<td>1,285</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>455</td>
+<td>1,189</td>
+<td>280</td>
+<td>262</td>
+<td>18</td>
+<td>1,288</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>512</td>
+<td>1,350</td>
+<td>328</td>
+<td>275</td>
+<td>53</td>
+<td>1,327</td>
+</tr>
+</tbody>
+</table>
+<p>Breakeven: FY27; cash FY27 1,288; cash FY28 1,327</p>
+<h3 id="t2-bull-case-rs-cr-orders-in-thousands-a-day">T2 bull case (Rs Cr; orders in thousands a day)</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Orders/day</th>
+<th>Revenue</th>
+<th>Contribution</th>
+<th>Fixed</th>
+<th>EBITDA</th>
+<th>Cash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY23</td>
+<td>192</td>
+<td>473</td>
+<td>71</td>
+<td>220</td>
+<td>−149</td>
+<td>1,622</td>
+</tr>
+<tr>
+<td>FY24</td>
+<td>282</td>
+<td>708</td>
+<td>127</td>
+<td>230</td>
+<td>−103</td>
+<td>1,503</td>
+</tr>
+<tr>
+<td>FY25</td>
+<td>378</td>
+<td>966</td>
+<td>209</td>
+<td>240</td>
+<td>−31</td>
+<td>1,457</td>
+</tr>
+<tr>
+<td>FY26</td>
+<td>462</td>
+<td>1,192</td>
+<td>289</td>
+<td>250</td>
+<td>39</td>
+<td>1,481</td>
+</tr>
+<tr>
+<td>FY27</td>
+<td>546</td>
+<td>1,426</td>
+<td>376</td>
+<td>262</td>
+<td>114</td>
+<td>1,580</td>
+</tr>
+<tr>
+<td>FY28</td>
+<td>614</td>
+<td>1,620</td>
+<td>439</td>
+<td>275</td>
+<td>164</td>
+<td>1,729</td>
+</tr>
+</tbody>
+</table>
+<p>Breakeven: FY26; cash FY27 1,580; cash FY28 1,729</p>
+<h3 id="t3-unit-economics-by-stream-rs-per-order-revenue-contribution">T3 Unit economics by stream (Rs per order: revenue / contribution)</h3>
+<table>
+<thead>
+<tr>
+<th>Stream</th>
+<th>FY23</th>
+<th>FY24</th>
+<th>FY25</th>
+<th>FY26</th>
+<th>FY27</th>
+<th>FY28</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pick</td>
+<td>66 / 15</td>
+<td>68 / 18</td>
+<td>70 / 21</td>
+<td>72 / 24</td>
+<td>73 / 25</td>
+<td>74 / 26</td>
+</tr>
+<tr>
+<td>quick</td>
+<td>78.0 / 2.0</td>
+<td>79.5 / 6.5</td>
+<td>81.0 / 11.0</td>
+<td>82.5 / 14.5</td>
+<td>84.0 / 17.0</td>
+<td>85.5 / 18.5</td>
+</tr>
+<tr>
+<td>b2b</td>
+<td>52 / 6</td>
+<td>52 / 7</td>
+<td>53 / 9</td>
+<td>53 / 9</td>
+<td>54 / 11</td>
+<td>54 / 11</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t4-fy27-ebitda-sensitivity-rows-volume-factor-columns-contribution-change-rs-order">T4 FY27 EBITDA sensitivity (rows: volume factor; columns: contribution change Rs/order)</h3>
+<table>
+<thead>
+<tr>
+<th>Volume</th>
+<th>−3</th>
+<th>−1.5</th>
+<th>0</th>
+<th>+1</th>
+<th>+2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.75</td>
+<td>−89</td>
+<td>−71</td>
+<td>−52</td>
+<td>−39</td>
+<td>−27</td>
+</tr>
+<tr>
+<td>0.9</td>
+<td>−55</td>
+<td>−32</td>
+<td>−10</td>
+<td>5</td>
+<td>20</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>−32</td>
+<td>−7</td>
+<td>18</td>
+<td>35</td>
+<td>51</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>−9</td>
+<td>19</td>
+<td>46</td>
+<td>64</td>
+<td>83</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>14</td>
+<td>44</td>
+<td>74</td>
+<td>94</td>
+<td>114</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t5-lowest-cash-balance-fy23-to-fy28-same-grid">T5 Lowest cash balance FY23 to FY28 (same grid)</h3>
+<table>
+<thead>
+<tr>
+<th>Volume</th>
+<th>−3</th>
+<th>−1.5</th>
+<th>0</th>
+<th>+1</th>
+<th>+2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.75</td>
+<td>880</td>
+<td>965</td>
+<td>1,049</td>
+<td>1,106</td>
+<td>1,162</td>
+</tr>
+<tr>
+<td>0.9</td>
+<td>1,012</td>
+<td>1,114</td>
+<td>1,210</td>
+<td>1,261</td>
+<td>1,307</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1,101</td>
+<td>1,203</td>
+<td>1,285</td>
+<td>1,325</td>
+<td>1,365</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1,179</td>
+<td>1,269</td>
+<td>1,335</td>
+<td>1,379</td>
+<td>1,423</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>1,240</td>
+<td>1,313</td>
+<td>1,385</td>
+<td>1,426</td>
+<td>1,457</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t6-reported-history-rs-cr">T6 Reported history (Rs Cr)</h3>
+<table>
+<thead>
+<tr>
+<th>FY</th>
+<th>Revenue</th>
+<th>Net loss</th>
+<th>Spent per Rs 1 earned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY19</td>
+<td>0.77</td>
+<td>169.0</td>
+<td>225.0</td>
+</tr>
+<tr>
+<td>FY20</td>
+<td>27.5</td>
+<td>338.4</td>
+<td>13.09</td>
+</tr>
+<tr>
+<td>FY21</td>
+<td>45.8</td>
+<td>225.7</td>
+<td>5.75</td>
+</tr>
+<tr>
+<td>FY22</td>
+<td>54.3</td>
+<td>464.0</td>
+<td>9.8</td>
+</tr>
+<tr>
+<td>FY23</td>
+<td>226.6</td>
+<td>1,801.0</td>
+<td>9.09</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-c-glossary">Appendix C: Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QC</td>
+<td>Quick commerce: 10 to 30 minute delivery of groceries and daily essentials from dark stores</td>
+</tr>
+<tr>
+<td>Dark store</td>
+<td>A small warehouse, closed to walk-in customers, used only to fulfil online orders</td>
+</tr>
+<tr>
+<td>Partner shelf</td>
+<td>An existing retail store (not owned by the delivery company) used to fulfil orders on a revenue-share or commission basis</td>
+</tr>
+<tr>
+<td>AOV</td>
+<td>Average order value: the average rupee value of one order</td>
+</tr>
+<tr>
+<td>GMV</td>
+<td>Gross merchandise value: the total value of goods sold through a platform before deductions</td>
+</tr>
+<tr>
+<td>GOV</td>
+<td>Gross order value: GMV measured per order, used interchangeably with GMV in quick commerce reporting</td>
+</tr>
+<tr>
+<td>Contribution margin</td>
+<td>Revenue per order minus the variable costs (rider pay, packaging, discounts) directly tied to that order</td>
+</tr>
+<tr>
+<td>Contribution (₹ per order)</td>
+<td>Contribution margin expressed in rupees per order, before fixed costs</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>Earnings before interest, tax, depreciation and amortisation: operating profit before financing and non-cash charges</td>
+</tr>
+<tr>
+<td>Burn (burn rate)</td>
+<td>The rate at which a company spends cash, usually stated per month</td>
+</tr>
+<tr>
+<td>D4B</td>
+<td>Dunzo for Business, Dunzo's B2B logistics and last-mile delivery arm, later called Dunzo Merchant Services</td>
+</tr>
+<tr>
+<td>ONDC</td>
+<td>Open Network for Digital Commerce, an Indian government-backed open protocol for e-commerce and logistics</td>
+</tr>
+<tr>
+<td>CAC</td>
+<td>Customer acquisition cost: the marketing and incentive spend needed to acquire one paying customer</td>
+</tr>
+<tr>
+<td>Take rate</td>
+<td>The share of a transaction's value that a platform keeps as commission or fee</td>
+</tr>
+<tr>
+<td>RoC</td>
+<td>Registrar of Companies: the Indian regulator with whom private companies file annual financial statements</td>
+</tr>
+<tr>
+<td>FY</td>
+<td>Financial year. In India, FY23 runs from 1 April 2022 to 31 March 2023 unless stated otherwise</td>
+</tr>
+<tr>
+<td>Series (funding round)</td>
+<td>A named stage of startup fundraising (Series A, B, C and so on), each usually at a higher valuation</td>
+</tr>
+<tr>
+<td>Valuation</td>
+<td>The implied worth of a company, usually set by the price paid per share in its most recent funding round</td>
+</tr>
+<tr>
+<td>Down round</td>
+<td>A funding round priced at a lower valuation than the company's previous round</td>
+</tr>
+<tr>
+<td>Convertible note</td>
+<td>A short-term loan that converts into equity at a future funding round, often at a discount</td>
+</tr>
+<tr>
+<td>Dark-store breakeven</td>
+<td>The order volume at which a dark store's revenue covers its own operating costs</td>
+</tr>
+<tr>
+<td>Last-mile delivery</td>
+<td>The final leg of a delivery, from a local hub or store to the customer's door</td>
+</tr>
+<tr>
+<td>Mid-mile</td>
+<td>The delivery leg between a central warehouse and a local dark store or hub</td>
+</tr>
+<tr>
+<td>SKU</td>
+<td>Stock-keeping unit: one distinct product or item variant carried in inventory</td>
+</tr>
+<tr>
+<td>Hyperlocal</td>
+<td>Delivery or commerce scoped to a small radius within a single city or neighbourhood</td>
+</tr>
+<tr>
+<td>MSME</td>
+<td>Micro, small and medium enterprise, the Indian government's classification for small businesses</td>
+</tr>
+<tr>
+<td>IPO</td>
+<td>Initial public offering: a company's first sale of shares to public investors</td>
+</tr>
+<tr>
+<td>PAT</td>
+<td>Profit after tax: net profit remaining after all expenses and taxes</td>
+</tr>
+<tr>
+<td>Bridge financing</td>
+<td>Short-term funding raised to cover a company until its next major funding round</td>
+</tr>
+<tr>
+<td>Anchor client</td>
+<td>A single large client whose orders make up a disproportionate share of a business line's revenue</td>
+</tr>
+<tr>
+<td>Client concentration</td>
+<td>The share of revenue or orders coming from a company's largest few clients</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-d-data-conflicts-and-resolutions">Appendix D: Data conflicts and resolutions</h2>
+<p>Several figures in the public record about Dunzo and the quick-commerce market conflict across
+sources. Each conflict below is resolved with a stated rule, so every number used in the main
+document is traceable to one chosen source.</p>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Conflict</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FY20 loss</td>
+<td>₹338.4 Cr (Entrackr) vs ₹228.4 Cr (Inc42)</td>
+<td>Use Entrackr: it quotes the RoC filing directly</td>
+</tr>
+<tr>
+<td>FY21 revenue</td>
+<td>₹45.8 Cr (Entrackr FY21) vs ₹25.1 Cr (Inc42, later restatement)</td>
+<td>Use ₹45.8 Cr; the Inc42 figure is likely a later reclassification, not a correction</td>
+</tr>
+<tr>
+<td>FY23 revenue</td>
+<td>₹226.6 Cr consolidated vs ₹206.5 Cr standalone</td>
+<td>Use ₹226.6 Cr consolidated, consistent with the reported FY23 loss figure</td>
+</tr>
+<tr>
+<td>Peak valuation</td>
+<td>About $775M (TechCrunch, Inc42) vs $744M to $800M in other reports</td>
+<td>Use &quot;about $775M&quot; throughout</td>
+</tr>
+<tr>
+<td>Dunzo Daily launch</td>
+<td>June 2021 (Inc42, 20-minute promise) vs August 2021 (19-minute rebrand)</td>
+<td>Launch dated June 2021; the 19-minute branding is a separate, later repositioning in August 2021</td>
+</tr>
+<tr>
+<td>Peak-era market share</td>
+<td>JM Financial's CY22 estimate puts Dunzo and others at about 1% of category GMV, while Dunzo's own June 2022 order data (5.5M Dunzo Daily orders that month) implies a materially larger share</td>
+<td>The document does not state a single Dunzo market-share percentage. Dark-store counts and order volumes are shown instead, and this conflict is disclosed rather than resolved by picking one number</td>
+</tr>
+<tr>
+<td>Total funding raised</td>
+<td>Reported between about $450M and $500M across sources</td>
+<td>Use &quot;over $450M&quot; as the conservative, source-supported floor</td>
+</tr>
+<tr>
+<td>&quot;80%+ Bengaluru market share&quot; claim</td>
+<td>Appears only in a single low-authority blog post, with no primary source</td>
+<td>Not used anywhere in this document</td>
+</tr>
+</tbody>
+</table>
+</body></html>

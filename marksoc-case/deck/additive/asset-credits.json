@@ -1,0 +1,119 @@
+{
+  "prepared_at": "2026-10-28",
+  "assets": [
+    {
+      "id": "marksoc-dtu",
+      "file": "marksoc-case/deck/additive/assets/marksoc-dtu.png",
+      "institution": "MarKSoc DTU",
+      "creator": "MarKSoc DTU (identity mark; individual designer unspecified)",
+      "source": {
+        "pdf": "marksoc-case/6adca1651d1c0_project_dobaara_case_by_marksoc_dtu.pdf",
+        "page": 1,
+        "page_index": 0,
+        "content_bbox_pt": [
+          200.25,
+          116.25,
+          395.25,
+          263.25
+        ],
+        "render_bbox_pt": [
+          198.25,
+          114.25,
+          397.25,
+          265.25
+        ],
+        "scale": 4,
+        "method": "Visible PDF region rendered with PyMuPDF on white background; no raw image extraction"
+      },
+      "access_date": "2026-10-28",
+      "dimensions_px": [
+        796,
+        604
+      ],
+      "licence_status": "Official identity mark in supplied case PDF; no open licence identified. Used for organisational identification; no endorsement implied."
+    },
+    {
+      "id": "cracknontech",
+      "file": "marksoc-case/deck/additive/assets/cracknontech.png",
+      "institution": "CrackNontech",
+      "creator": "CrackNontech (identity mark; individual designer unspecified)",
+      "source": {
+        "pdf": "marksoc-case/6adca1651d1c0_project_dobaara_case_by_marksoc_dtu.pdf",
+        "page": 1,
+        "page_index": 0,
+        "content_bbox_pt": [
+          248.25,
+          648.75,
+          347.25,
+          717
+        ],
+        "render_bbox_pt": [
+          246.25,
+          646.75,
+          349.25,
+          719
+        ],
+        "scale": 4,
+        "method": "Visible PDF region rendered with PyMuPDF on white background; no raw image extraction"
+      },
+      "access_date": "2026-10-28",
+      "dimensions_px": [
+        412,
+        289
+      ],
+      "licence_status": "Official identity mark in supplied case PDF; no open licence identified. Used for organisational identification; no endorsement implied."
+    },
+    {
+      "id": "dtu",
+      "file": "marksoc-case/deck/additive/assets/dtu.png",
+      "institution": "Delhi Technological University",
+      "creator": "Delhi Technological University (identity mark; individual designer unspecified)",
+      "source_url": "https://dsw.dtu.ac.in/Assets/Images/logo.png",
+      "official_context_url": "https://dsw.dtu.ac.in/",
+      "resolved_url": "https://dsw.dtu.ac.in/Assets/Images/logo.png",
+      "response_content_type": "image/png",
+      "access_date": "2026-10-28",
+      "dimensions_px": [
+        300,
+        299
+      ],
+      "byte_count": 91527,
+      "licence_status": "Official institutional identity mark from DTU website; no open licence identified. Used for organisational identification; no endorsement implied."
+    },
+    {
+      "id": "sanchar-saathi",
+      "source_url": "https://sancharsaathi.gov.in/images/sancharsaathi-logo.png?version=1.0",
+      "publisher": "Department of Telecommunications",
+      "file": "assets/sanchar-saathi.png",
+      "access_date": "2026-10-28",
+      "use": "Organisation identification in a case study; no endorsement or partnership represented"
+    },
+    {
+      "id": "nch",
+      "source_url": "https://play.google.com/store/apps/details?id=mount.talent.mtcdev02.udaan&hl=en",
+      "publisher": "Department of Consumer Affairs",
+      "file": "assets/nch.png",
+      "note": "Original app icon linked by the official NCH portal",
+      "access_date": "2026-10-28",
+      "use": "Organisation identification in a case study; no endorsement or partnership represented"
+    },
+    {
+      "id": "counterpoint",
+      "source_url": "https://counterpointresearch.com/logo.svg",
+      "publisher": "Counterpoint Research",
+      "file": "assets/counterpoint.png",
+      "note": "Official SVG rasterised for fitted logo placement",
+      "access_date": "2026-10-28",
+      "use": "Organisation identification in a case study; no endorsement or partnership represented"
+    },
+    {
+      "id": "gsma",
+      "source_url": "https://www.gsma.com/newsroom/wp-content/uploads/GSMA-Logo-Red-RGB-2022-e1738535408237.png",
+      "publisher": "GSMA",
+      "file": "assets/gsma.png",
+      "access_date": "2026-10-28",
+      "use": "Organisation identification in a case study; no endorsement or partnership represented"
+    }
+  ],
+  "photography": "None; deck uses labelled native illustrations."
+}

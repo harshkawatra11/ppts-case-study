@@ -1,0 +1,207 @@
+<template>
+<div id="root" data-composition-id="03-product-intro" data-width="1920" data-height="1080">
+<style>
+  #root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: #F2EAD9;
+    font-family: sans-serif; /* no text is rendered in this frame; declared only as an inert fallback */
+  }
+
+  #root .prodintro03-login-clip,
+  #root .prodintro03-filings-clip,
+  #root .prodintro03-cursor-clip {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 1080px;
+  }
+
+  /* --- Scene 1: login page, full-bleed --- */
+  #root .prodintro03-login-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  #root .prodintro03-login-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    display: block;
+  }
+
+  /* --- Scene 2: my-filings table strip, cropped to hide nav/footer --- */
+  #root .prodintro03-filings-wrap {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    width: 1920px;
+    height: 650px;
+    overflow: hidden;
+    z-index: 2;
+    border-top: 2px solid #241A10;
+    border-bottom: 2px solid #241A10;
+  }
+  #root .prodintro03-filings-img {
+    position: absolute;
+    top: -37px;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    display: block;
+  }
+  #root .prodintro03-row-mask {
+    position: absolute;
+    left: 0;
+    width: 1920px;
+    background: #F2EAD9;
+    transform-origin: left center;
+  }
+
+  /* --- Cursor + click ripple --- */
+  #root .prodintro03-cursor-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+  }
+  #root .prodintro03-cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    pointer-events: none;
+  }
+  #root .prodintro03-ripple {
+    position: absolute;
+    left: 953px;
+    top: 352px;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 2.5px solid #93691F;
+    pointer-events: none;
+  }
+</style>
+
+<div class="clip prodintro03-login-clip" data-start="0" data-duration="4.267" data-track-index="0">
+  <div class="prodintro03-login-wrap">
+    <img class="prodintro03-login-img" src="assets/login-page.png" alt="">
+  </div>
+</div>
+
+<div class="clip prodintro03-filings-clip" data-start="0" data-duration="4.267" data-track-index="1">
+  <div class="prodintro03-filings-wrap">
+    <img class="prodintro03-filings-img" src="assets/my-filings-list.png" alt="">
+    <div class="prodintro03-row-mask" data-row="1" style="top:41px;height:120px;"></div>
+    <div class="prodintro03-row-mask" data-row="2" style="top:161px;height:109px;"></div>
+    <div class="prodintro03-row-mask" data-row="3" style="top:270px;height:101px;"></div>
+    <div class="prodintro03-row-mask" data-row="4" style="top:371px;height:105px;"></div>
+    <div class="prodintro03-row-mask" data-row="5" style="top:476px;height:107px;"></div>
+  </div>
+</div>
+
+<div class="clip prodintro03-cursor-clip" data-start="0" data-duration="4.267" data-track-index="2">
+  <div class="prodintro03-cursor-layer">
+    <div class="prodintro03-cursor">
+      <svg width="44" height="44" viewBox="0 0 24 24">
+        <path d="M4 2 L4 20 L9 15.5 L12.5 22 L15.5 20.5 L12 14 L18 14 Z" fill="#93691F" stroke="#241A10" stroke-width="1.2" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="prodintro03-ripple" data-ring="1"></div>
+    <div class="prodintro03-ripple" data-ring="2"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.querySelector('[data-composition-id="03-product-intro"]');
+  var q = function (sel) { return root.querySelector(sel); };
+  var qa = function (sel) { return root.querySelectorAll(sel); };
+
+  var loginWrap = q('.prodintro03-login-wrap');
+  var filingsWrap = q('.prodintro03-filings-wrap');
+  var cursor = q('.prodintro03-cursor');
+  var ripples = qa('.prodintro03-ripple');
+  var rowMasks = qa('.prodintro03-row-mask');
+
+  var tl = gsap.timeline({ paused: true });
+
+  // ---- initial states (all set at t=0, no CSS transform authored anywhere) ----
+  gsap.set(cursor, { opacity: 0, scale: 0.8, x: 1640, y: 770 });
+  gsap.set(ripples, { scale: 0, opacity: 0 });
+  gsap.set(filingsWrap, { y: 230, opacity: 0.15, filter: 'blur(18px)' });
+  gsap.set(rowMasks, { scaleX: 1 });
+
+  // ================= Scene 1 (0.0-2.5s): login page, cursor lands + clicks =================
+
+  // cursor spawns in
+  tl.to(cursor, { opacity: 1, scale: 1, duration: 0.15, ease: 'power2.out' }, 0);
+
+  // cursor moves to "Enter as a demo citizen"
+  tl.to(cursor, { x: 953, y: 352, duration: 0.6, ease: 'back.out(1.3)' }, 0.15);
+
+  // click: cursor depresses then springs back
+  var CLICK_AT = 0.85;
+  tl.to(cursor, { scale: 0.85, duration: 0.08, ease: 'power2.in', yoyo: true, repeat: 1 }, CLICK_AT);
+
+  // ripple burst from the click point
+  var RIPPLE_AT = CLICK_AT + 0.05;
+  tl.set(ripples, { opacity: 1 }, RIPPLE_AT);
+  tl.to(ripples, {
+    scale: 4,
+    opacity: 0,
+    duration: 0.6,
+    ease: 'power2.out',
+    stagger: 0.08,
+    immediateRender: false
+  }, RIPPLE_AT);
+
+  // hold on the resolved login state briefly before the seam
+  // cursor + login fade together as the cut-the-curve exit begins
+  tl.to(cursor, { opacity: 0, duration: 0.2, ease: 'power1.in' }, 2.2);
+
+  // ================= Seam: cut-the-curve, login -> my-filings strip =================
+  var CUT_AT = 2.5;
+
+  // outgoing (login): accelerates upward, blurs, fades early in its travel
+  tl.to(loginWrap, { y: -230, filter: 'blur(18px)', duration: 0.3, ease: 'power4.in' }, 2.2);
+  tl.to(loginWrap, { opacity: 0, duration: 0.09, ease: 'power1.in' }, 2.2);
+
+  // hard cut: lock both sides to their cut-frame values
+  tl.set(loginWrap, { opacity: 0 }, CUT_AT);
+  tl.set(filingsWrap, { y: 230, opacity: 0.15, filter: 'blur(18px)' }, CUT_AT);
+
+  // incoming (my-filings strip): continues the same upward motion, decelerating into place
+  tl.to(filingsWrap, { y: 0, opacity: 1, filter: 'blur(0px)', duration: 0.35, ease: 'power4.out' }, CUT_AT);
+
+  // ================= Scene 2 (2.5-4.267s): rows populate top-to-bottom =================
+  var ROW_START = 2.85;
+  var ROW_STAGGER = 0.12;
+  var ROW_DUR = 0.25;
+
+  rowMasks.forEach(function (mask, i) {
+    tl.to(mask, {
+      scaleX: 0,
+      duration: ROW_DUR,
+      ease: 'power2.out'
+    }, ROW_START + i * ROW_STAGGER);
+  });
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines['03-product-intro'] = tl;
+})();
+</script>
+</div>
+</template>

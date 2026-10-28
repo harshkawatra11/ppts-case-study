@@ -1,0 +1,3531 @@
+{
+ "meta": {
+  "version": "dobaara-model v1",
+  "hash": "9b3628d94d",
+  "run_at": "2026-10-27T13:10:48"
+ },
+ "checks": {
+  "website orders = funnel orders": true,
+  "orders today = lab sellable": true,
+  "channel fixed spend = ₹99 lakh": true,
+  "dashboard figures reproduce": true,
+  "monthly EBITDA x 12 within ₹1 lakh of LTM": true,
+  "revenue x 12 within ₹1 crore of LTM": true,
+  "grade mixes sum to 100%": true,
+  "84 plans screened": true,
+  "5 plans pass every test": true,
+  "recommended plan passes all four tests": true,
+  "bridge adds up": true,
+  "decision table EBITDA = CAM − 58 − growth money": true,
+  "march break-even uplift below plan uplift": true
+ },
+ "A": [
+  {
+   "id": "A01",
+   "text": "Lever A's ₹10 lakh of extra performance ads is counted once, as growth money in the month spent, and is not added again to the performance-ads fixed spend",
+   "basis": "C-E6H3 says count each growth item once"
+  },
+  {
+   "id": "A02",
+   "text": "Each channel's fixed spend (₹99 lakh in all) stays as today in every plan and every month",
+   "basis": "No lever in Exhibit 6 changes it"
+  },
+  {
+   "id": "A03",
+   "text": "Commission, coupons and every per-phone cost apply only to delivered orders; an order that cannot be delivered earns and costs nothing",
+   "basis": "C-E6H4: undelivered orders are lost"
+  },
+  {
+   "id": "A04",
+   "text": "Rationing includes trade in orders: Superb first, pro rata across all channels, then all orders pro rata to the lab limit",
+   "basis": "C-E6H4 read literally"
+  },
+  {
+   "id": "A05",
+   "text": "Return-rate cuts from B1 and B2 multiply each channel's own rate, including the website rate that trade in buyers pay",
+   "basis": "C-E6H2: multiply effects on return rates"
+  },
+  {
+   "id": "A06",
+   "text": "The 15% trade in failure rate applies equally to each arriving grade",
+   "basis": "C-E6TI2 gives one rate"
+  },
+  {
+   "id": "A07",
+   "text": "30% of all trade ins, failed or passed, also buy a Tikau phone",
+   "basis": "C-E6TI4: 30% of people who trade in"
+  },
+  {
+   "id": "A08",
+   "text": "From February the Superb rule (85% or more) is applied to Tikau's own lab reading; with no failure rate in the case, no Superb phone changes grade",
+   "basis": "C-E5a, C-E6B1; no data on Superb readings"
+  },
+  {
+   "id": "A09",
+   "text": "January is today's month in every plan, so doing nothing earns today's result in each of the three months",
+   "basis": "C-E6H1 and FAQ 15"
+  },
+  {
+   "id": "A10",
+   "text": "A third shift adds 1,800 sellable phones, so the limit becomes 9,000; its ₹9 lakh is growth money in each month it runs",
+   "basis": "C-E6SH, C-E6H3"
+  },
+  {
+   "id": "A11",
+   "text": "B2's 4% price rise raises MegaKart's 12% commission on those phones, because the commission is a share of the selling price",
+   "basis": "C-E3N2"
+  },
+  {
+   "id": "A12",
+   "text": "The ₹120 report cost and the B2 battery costs apply to trade in buyers' phones too",
+   "basis": "C-E6H2: cost changes apply to every phone sold"
+  },
+  {
+   "id": "A13",
+   "text": "Weekly figures use 4.33 weeks a month",
+   "basis": "Team convention"
+  },
+  {
+   "id": "A14",
+   "text": "The November spot check (22 of 200 Good phones below 80%) applies to all Good phones sold, so about 351 a month carry an untrue battery claim today",
+   "basis": "C-E4c, an indicative scale-up only"
+  },
+  {
+   "id": "A15",
+   "text": "In April Tikau has new growth money for the next quarter and the trade in ramp restarts at 1,000, then 1,800, then 800 more a month to 4,000",
+   "basis": "C-E6TI1 pattern; April is outside the board tests"
+  },
+  {
+   "id": "A16",
+   "text": "Stress tests move only what Tikau does not control (the order rise, the return cut, battery shares, claim rates) 25% worse or better; prices and the ₹120 report cost are Tikau's decisions and stay as printed; the plan uses the printed values",
+   "basis": "Team convention for Q5 trigger levels"
+  },
+  {
+   "id": "A17",
+   "text": "Revenue in the reconciliation is gross selling price before commission; the case's ₹139 crore is read as that figure",
+   "basis": "C-CO3"
+  },
+  {
+   "id": "A18",
+   "text": "Month figures are averages of August to October 2026 and stand for November 2026 to January 2027 as well",
+   "basis": "C-E3 title, C-E6H1"
+  },
+  {
+   "id": "A19",
+   "text": "Store, creator and MegaKart return multipliers stay as today when B1 and B2 apply",
+   "basis": "C-E3 notes"
+  },
+  {
+   "id": "A20",
+   "text": "Trade in savings count only for traded phones that pass the check; a failed traded phone is sold as parts at cost, like a failed lab phone",
+   "basis": "C-E6TI2, C-E4a"
+  }
+ ],
+ "T2": {
+  "S": {
+   "price": 24000,
+   "buy": 17800,
+   "lab": 800,
+   "pack": 600,
+   "warranty": 75.0,
+   "returns": 72.0,
+   "contrib": 4653.0
+  },
+  "G": {
+   "price": 16000,
+   "buy": 11600,
+   "lab": 1000,
+   "pack": 600,
+   "warranty": 150.0,
+   "returns": 126.00000000000001,
+   "contrib": 2524.0
+  },
+  "F": {
+   "price": 10000,
+   "buy": 7000,
+   "lab": 1200,
+   "pack": 600,
+   "warranty": 250.0,
+   "returns": 234.0,
+   "contrib": 716.0
+  }
+ },
+ "T3": {
+  "S": {
+   "0.5": 4689.0,
+   "1.0": 4653.0,
+   "1.5": 4617.0
+  },
+  "G": {
+   "0.5": 2587.0,
+   "1.0": 2524.0,
+   "1.5": 2461.0
+  },
+  "F": {
+   "0.5": 833.0,
+   "1.0": 716.0,
+   "1.5": 599.0
+  }
+ },
+ "T4": {
+  "ads": {
+   "name": "Performance ads",
+   "orders": 2600,
+   "S": 0.2,
+   "G": 0.4,
+   "F": 0.4,
+   "gross": 57.8916,
+   "comm": 0.0,
+   "fixed": 60.0,
+   "coupons": 0.0,
+   "contrib_before": 57.8916,
+   "cam": -2.108400000000003,
+   "cam_per": -81.09230769230781,
+   "dash": 2308,
+   "true_cost": 2307.6923076923076,
+   "ret_rate": 0.08800000000000001,
+   "returns": 228.8,
+   "wc": 182.0
+  },
+  "mk": {
+   "name": "MegaKart",
+   "orders": 2000,
+   "S": 0.1,
+   "G": 0.45,
+   "F": 0.45,
+   "gross": 4.626,
+   "comm": 33.84,
+   "fixed": 0.0,
+   "coupons": 0.0,
+   "contrib_before": 38.466,
+   "cam": 4.626,
+   "cam_per": 231.30000000000004,
+   "dash": 0,
+   "true_cost": 1692.0000000000002,
+   "ret_rate": 0.094,
+   "returns": 188.0,
+   "wc": 150.0
+  },
+  "cr": {
+   "name": "Creators",
+   "orders": 900,
+   "S": 0.4,
+   "G": 0.5,
+   "F": 0.1,
+   "gross": 28.2348,
+   "comm": 0.0,
+   "fixed": 18.0,
+   "coupons": 0.0,
+   "contrib_before": 28.2348,
+   "cam": 10.2348,
+   "cam_per": 1137.2,
+   "dash": 2000,
+   "true_cost": 2000.0,
+   "ret_rate": 0.096,
+   "returns": 86.4,
+   "wc": 46.8
+  },
+  "st": {
+   "name": "Stores",
+   "orders": 1000,
+   "S": 0.45,
+   "G": 0.45,
+   "F": 0.1,
+   "gross": 33.575,
+   "comm": 0.0,
+   "fixed": 21.0,
+   "coupons": 0.0,
+   "contrib_before": 33.575,
+   "cam": 12.575000000000003,
+   "cam_per": 1257.5000000000002,
+   "dash": 2100,
+   "true_cost": 2100.0,
+   "ret_rate": 0.03125,
+   "returns": 31.25,
+   "wc": 50.5
+  },
+  "rf": {
+   "name": "Referrals",
+   "orders": 700,
+   "S": 0.35,
+   "G": 0.5,
+   "F": 0.15,
+   "gross": 20.98565,
+   "comm": 0.0,
+   "fixed": 0.0,
+   "coupons": 2.45,
+   "contrib_before": 20.98565,
+   "cam": 18.53565,
+   "cam_per": 2647.95,
+   "dash": 350,
+   "true_cost": 350.00000000000006,
+   "ret_rate": 0.0685,
+   "returns": 47.95,
+   "wc": 38.85
+  }
+ },
+ "T5": {
+  "cam": 43.86305,
+  "fixed": 58.0,
+  "ebitda": -14.136949999999999,
+  "ltm": -169.64339999999999,
+  "ltm_case": -170.0,
+  "rev_month": 1159.9,
+  "rev_ltm_cr": 139.18800000000002,
+  "rev_case": 139.0,
+  "sold": 7200.0,
+  "rets": 582.4000000000001,
+  "rr": 0.0808888888888889,
+  "claims_n": 468.15,
+  "claims_cost": 11.70375,
+  "ret_cost": 10.483200000000002,
+  "grade_sold": {
+   "S": 1775.0,
+   "G": 3190.0,
+   "F": 2235.0
+  },
+  "comm_total": 33.84,
+  "fixed_ch": 99.0,
+  "coupons": 2.45,
+  "gross_total": 179.15305,
+  "grade_contrib": {
+   "S": 82.59075,
+   "G": 80.5156,
+   "F": 16.0026
+  },
+  "trust_tax": 22.186950000000003
+ },
+ "funnel": [
+  {
+   "step": "Visited the website",
+   "n": 960000,
+   "conv": 1.0
+  },
+  {
+   "step": "Opened a product page",
+   "n": 310000,
+   "conv": 0.3229166666666667
+  },
+  {
+   "step": "Added a phone to cart",
+   "n": 26000,
+   "conv": 0.08387096774193549
+  },
+  {
+   "step": "Placed an order",
+   "n": 4200,
+   "conv": 0.16153846153846155
+  }
+ ],
+ "web_orders": 4200,
+ "cap": {
+  "tested": 8000,
+  "fail": 0.1,
+  "sellable": 7200,
+  "sold": 7200.0,
+  "util": 1.0,
+  "superb": 1775.0,
+  "superb_cap": 2000,
+  "superb_head": 225.0,
+  "spot": 0.11,
+  "bad_month": 350.9,
+  "repair_days": 9,
+  "second": 0.38
+ },
+ "T11": {
+  "Today": {
+   "S": 4653.0,
+   "G": 2524.0,
+   "F": 716.0
+  },
+  "A": {
+   "S": 4653.0,
+   "G": 2524.0,
+   "F": 416.0
+  },
+  "B1": {
+   "S": 4554.6,
+   "G": 2441.8,
+   "F": 666.2
+  },
+  "B2": {
+   "S": 5602.4,
+   "G": 2789.2,
+   "F": 227.79999999999998
+  },
+  "B1 + B2": {
+   "S": 5499.68,
+   "G": 2699.44,
+   "F": 163.96
+  },
+  "A + B1 + B2": {
+   "S": 5499.68,
+   "G": 2699.44,
+   "F": -136.04
+  }
+ },
+ "nothing": {
+  "e": {
+   "Jan": -14.136949999999999,
+   "Feb": -14.136949999999999,
+   "Mar": -14.136949999999999
+  },
+  "q1": -42.410849999999996
+ },
+ "plans": [
+  {
+   "label": "Do nothing",
+   "levers": [],
+   "shift": null,
+   "gm": {
+    "Jan": 0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -14.136949999999999,
+    "Mar": -14.136949999999999
+   },
+   "q1": -42.410849999999996,
+   "d": 0.0,
+   "rr": 0.0808888888888889,
+   "sold": 7200.0,
+   "demand": 7200.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "Do nothing + shift from Feb",
+   "levers": [],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 18.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -23.13695,
+    "Mar": -23.13695
+   },
+   "q1": -60.410849999999996,
+   "d": -18.0,
+   "rr": 0.0808888888888889,
+   "sold": 7200.0,
+   "demand": 7200.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "Do nothing + shift from Mar",
+   "levers": [],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 9.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -14.136949999999999,
+    "Mar": -23.13695
+   },
+   "q1": -51.410849999999996,
+   "d": -9.0,
+   "rr": 0.0808888888888889,
+   "sold": 7200.0,
+   "demand": 7200.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A",
+   "levers": [
+    "A"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 20.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -55.73301894736843,
+    "Mar": -55.73301894736843
+   },
+   "q1": -125.60298789473686,
+   "d": -83.19213789473686,
+   "rr": 0.08868947368421055,
+   "sold": 7200.0,
+   "demand": 9500.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + shift from Feb",
+   "levers": [
+    "A"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 38.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -36.91627368421055,
+    "Mar": -36.91627368421055
+   },
+   "q1": -87.9694973684211,
+   "d": -45.558647368421106,
+   "rr": 0.08868947368421054,
+   "sold": 9000.0,
+   "demand": 9500.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + shift from Mar",
+   "levers": [
+    "A"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 29.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -55.73301894736843,
+    "Mar": -36.91627368421055
+   },
+   "q1": -106.78624263157897,
+   "d": -64.37539263157898,
+   "rr": 0.08868947368421054,
+   "sold": 9000.0,
+   "demand": 9500.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B1",
+   "levers": [
+    "B1"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 15.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -19.631989999999995,
+    "Mar": -19.631989999999995
+   },
+   "q1": -68.40092999999999,
+   "d": -25.990079999999992,
+   "rr": 0.05662222222222223,
+   "sold": 7200.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + shift from Feb",
+   "levers": [
+    "B1"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 33.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -17.64254919999999,
+    "Mar": -17.64254919999999
+   },
+   "q1": -64.42204839999998,
+   "d": -22.011198399999984,
+   "rr": 0.05662222222222222,
+   "sold": 7776.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + shift from Mar",
+   "levers": [
+    "B1"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 24.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -19.631989999999995,
+    "Mar": -17.64254919999999
+   },
+   "q1": -66.41148919999998,
+   "d": -24.00063919999998,
+   "rr": 0.05662222222222222,
+   "sold": 7776.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B2",
+   "levers": [
+    "B2"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 25.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -0.6669100000000086,
+    "Mar": -0.6669100000000086
+   },
+   "q1": -40.470770000000016,
+   "d": 1.9400799999999805,
+   "rr": 0.06471111111111112,
+   "sold": 7200.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + shift from Feb",
+   "levers": [
+    "B2"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 43.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": 2.839737200000002,
+    "Mar": 2.839737200000002
+   },
+   "q1": -33.457475599999995,
+   "d": 8.953374400000001,
+   "rr": 0.06471111111111112,
+   "sold": 7776.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + shift from Mar",
+   "levers": [
+    "B2"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 34.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -0.6669100000000086,
+    "Mar": 2.839737200000002
+   },
+   "q1": -36.964122800000005,
+   "d": 5.446727199999991,
+   "rr": 0.06471111111111112,
+   "sold": 7776.0,
+   "demand": 7776.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "C",
+   "levers": [
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 35.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -9.003247999999985,
+    "Mar": -4.930137674418617
+   },
+   "q1": -63.0703356744186,
+   "d": -20.659485674418605,
+   "rr": 0.07971059431524548,
+   "sold": 7200.000000000001,
+   "demand": 7740.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "C + shift from Feb",
+   "levers": [
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 53.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -12.025349999999996,
+    "Mar": -3.1360700000000037
+   },
+   "q1": -64.29837,
+   "d": -21.88752000000001,
+   "rr": 0.07971059431524548,
+   "sold": 7740.0,
+   "demand": 7740.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "C + shift from Mar",
+   "levers": [
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 44.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -9.003247999999985,
+    "Mar": -3.1360700000000037
+   },
+   "q1": -61.27626799999999,
+   "d": -18.86541799999999,
+   "rr": 0.07971059431524548,
+   "sold": 7740.0,
+   "demand": 7740.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1",
+   "levers": [
+    "A",
+    "B1"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 35.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -60.924772210526314,
+    "Mar": -60.924772210526314
+   },
+   "q1": -150.9864944210526,
+   "d": -108.57564442105262,
+   "rr": 0.06208263157894736,
+   "sold": 7200.0,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + shift from Feb",
+   "levers": [
+    "A",
+    "B1"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 53.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -43.405965263157896,
+    "Mar": -43.405965263157896
+   },
+   "q1": -115.94888052631579,
+   "d": -73.5380305263158,
+   "rr": 0.062082631578947396,
+   "sold": 8999.999999999998,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + shift from Mar",
+   "levers": [
+    "A",
+    "B1"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 44.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -60.924772210526314,
+    "Mar": -43.405965263157896
+   },
+   "q1": -133.4676874736842,
+   "d": -91.05683747368421,
+   "rr": 0.062082631578947396,
+   "sold": 8999.999999999998,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2",
+   "levers": [
+    "A",
+    "B2"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 45.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -50.433038315789496,
+    "Mar": -50.433038315789496
+   },
+   "q1": -140.003026631579,
+   "d": -97.592176631579,
+   "rr": 0.07095157894736843,
+   "sold": 7200.0,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + shift from Feb",
+   "levers": [
+    "A",
+    "B2"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 63.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -30.29129789473687,
+    "Mar": -30.29129789473687
+   },
+   "q1": -99.71954578947374,
+   "d": -57.308695789473745,
+   "rr": 0.07095157894736843,
+   "sold": 8999.999999999998,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + shift from Mar",
+   "levers": [
+    "A",
+    "B2"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 54.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -50.433038315789496,
+    "Mar": -30.29129789473687
+   },
+   "q1": -119.86128621052637,
+   "d": -77.45043621052638,
+   "rr": 0.07095157894736843,
+   "sold": 8999.999999999998,
+   "demand": 10260.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + C",
+   "levers": [
+    "A",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 55.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -49.84055510204081,
+    "Mar": -45.18532844621514
+   },
+   "q1": -144.16283354825595,
+   "d": -101.75198354825595,
+   "rr": 0.08736155378486056,
+   "sold": 7200.0,
+   "demand": 10040.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + C + shift from Feb",
+   "levers": [
+    "A",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 73.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -30.682493877551018,
+    "Mar": -25.76890055776893
+   },
+   "q1": -105.58834443531995,
+   "d": -63.17749443531996,
+   "rr": 0.08736155378486056,
+   "sold": 9000.0,
+   "demand": 10040.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + C + shift from Mar",
+   "levers": [
+    "A",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 35.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 64.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -49.84055510204081,
+    "Mar": -25.76890055776893
+   },
+   "q1": -124.74640565980974,
+   "d": -82.33555565980974,
+   "rr": 0.08736155378486056,
+   "sold": 9000.0,
+   "demand": 10040.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2",
+   "levers": [
+    "B1",
+    "B2"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 40.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -8.633341875124408,
+    "Mar": -8.633341875124408
+   },
+   "q1": -71.40363375024882,
+   "d": -28.99278375024882,
+   "rr": 0.0454960366285265,
+   "sold": 7199.999999999999,
+   "demand": 8398.080000000002,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + shift from Feb",
+   "levers": [
+    "B1",
+    "B2"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 58.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": 5.60499808329017,
+    "Mar": 5.60499808329017
+   },
+   "q1": -42.92695383341966,
+   "d": -0.5161038334196633,
+   "rr": 0.0454960366285265,
+   "sold": 8327.720000000001,
+   "demand": 8398.080000000002,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true
+  },
+  {
+   "label": "B1 + B2 + shift from Mar",
+   "levers": [
+    "B1",
+    "B2"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 49.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -8.633341875124408,
+    "Mar": 5.60499808329017
+   },
+   "q1": -57.16529379183424,
+   "d": -14.754443791834241,
+   "rr": 0.0454960366285265,
+   "sold": 8327.720000000001,
+   "demand": 8398.080000000002,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true
+  },
+  {
+   "label": "B1 + B3",
+   "levers": [
+    "B1",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 45.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -32.988518276685866,
+    "Mar": -32.988518276685866
+   },
+   "q1": -95.11398655337173,
+   "d": -52.703136553371735,
+   "rr": 0.05650663062930099,
+   "sold": 7199.999999999999,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B3 + shift from Feb",
+   "levers": [
+    "B1",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 63.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -25.485731609602148,
+    "Mar": -25.485731609602148
+   },
+   "q1": -80.1084132192043,
+   "d": -37.6975632192043,
+   "rr": 0.056506630629300975,
+   "sold": 8054.750000000001,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B3 + shift from Mar",
+   "levers": [
+    "B1",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 54.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -32.988518276685866,
+    "Mar": -25.485731609602148
+   },
+   "q1": -87.611199886288,
+   "d": -45.20034988628801,
+   "rr": 0.056506630629300975,
+   "sold": 8054.750000000001,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + C",
+   "levers": [
+    "B1",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 50.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -14.56593747399701,
+    "Mar": -10.541087792207776
+   },
+   "q1": -89.24397526620479,
+   "d": -46.83312526620479,
+   "rr": 0.055854545454545455,
+   "sold": 7199.999999999999,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + C + shift from Feb",
+   "levers": [
+    "B1",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 68.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -6.78726919999999,
+    "Mar": 1.8969548000000032
+   },
+   "q1": -69.02726439999998,
+   "d": -26.616414399999982,
+   "rr": 0.055854545454545455,
+   "sold": 8316.0,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true
+  },
+  {
+   "label": "B1 + C + shift from Mar",
+   "levers": [
+    "B1",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 59.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -14.56593747399701,
+    "Mar": 1.8969548000000032
+   },
+   "q1": -76.805932673997,
+   "d": -34.39508267399701,
+   "rr": 0.055854545454545455,
+   "sold": 8316.0,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true
+  },
+  {
+   "label": "B2 + B3",
+   "levers": [
+    "B2",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 55.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -13.800435056690034,
+    "Mar": -13.800435056690034
+   },
+   "q1": -66.73782011338007,
+   "d": -24.32697011338007,
+   "rr": 0.06457900643348685,
+   "sold": 7199.999999999999,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + B3 + shift from Feb",
+   "levers": [
+    "B2",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 73.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -4.0197297601214075,
+    "Mar": -4.0197297601214075
+   },
+   "q1": -47.176409520242814,
+   "d": -4.765559520242817,
+   "rr": 0.06457900643348685,
+   "sold": 8054.750000000001,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + B3 + shift from Mar",
+   "levers": [
+    "B2",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 64.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -13.800435056690034,
+    "Mar": -4.0197297601214075
+   },
+   "q1": -56.95711481681144,
+   "d": -14.546264816811444,
+   "rr": 0.06457900643348685,
+   "sold": 8054.750000000001,
+   "demand": 8056.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + C",
+   "levers": [
+    "B2",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 60.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": 5.162941931649343,
+    "Mar": 9.759153246753243
+   },
+   "q1": -59.21485482159741,
+   "d": -16.804004821597417,
+   "rr": 0.06383376623376624,
+   "sold": 7199.999999999999,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + C + shift from Feb",
+   "levers": [
+    "B2",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 78.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": 15.341957199999996,
+    "Mar": 25.343733200000003
+   },
+   "q1": -33.4512596,
+   "d": 8.959590399999996,
+   "rr": 0.06383376623376624,
+   "sold": 8316.0,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + C + shift from Mar",
+   "levers": [
+    "B2",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 69.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": 5.162941931649343,
+    "Mar": 25.343733200000003
+   },
+   "q1": -43.630274868350654,
+   "d": -1.2194248683506572,
+   "rr": 0.06383376623376624,
+   "sold": 8316.0,
+   "demand": 8316.0,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2",
+   "levers": [
+    "A",
+    "B1",
+    "B2"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 60.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -58.423088555863195,
+    "Mar": -58.423088555863195
+   },
+   "q1": -170.9831271117264,
+   "d": -128.5722771117264,
+   "rr": 0.0498885174905612,
+   "sold": 7199.999999999999,
+   "demand": 11080.800000000003,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B2"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 78.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -40.278860694829,
+    "Mar": -40.278860694829
+   },
+   "q1": -134.694671389658,
+   "d": -92.283821389658,
+   "rr": 0.049888517490561196,
+   "sold": 8999.999999999998,
+   "demand": 11080.800000000003,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B2"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 69.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -58.423088555863195,
+    "Mar": -40.278860694829
+   },
+   "q1": -152.83889925069218,
+   "d": -110.42804925069218,
+   "rr": 0.049888517490561196,
+   "sold": 8999.999999999998,
+   "demand": 11080.800000000003,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3",
+   "levers": [
+    "A",
+    "B1",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 65.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -74.55560663407819,
+    "Mar": -74.55560663407819
+   },
+   "q1": -178.24816326815636,
+   "d": -135.83731326815638,
+   "rr": 0.06201693308127293,
+   "sold": 7199.999999999999,
+   "demand": 10611.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3 + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 83.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -56.69450829259777,
+    "Mar": -56.69450829259777
+   },
+   "q1": -142.52596658519553,
+   "d": -100.11511658519554,
+   "rr": 0.06201693308127292,
+   "sold": 8999.999999999998,
+   "demand": 10611.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3 + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 15.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 74.0,
+   "e": {
+    "Jan": -29.13695,
+    "Feb": -74.55560663407819,
+    "Mar": -56.69450829259777
+   },
+   "q1": -160.38706492667595,
+   "d": -117.97621492667595,
+   "rr": 0.06201693308127292,
+   "sold": 8999.999999999998,
+   "demand": 10611.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + C",
+   "levers": [
+    "A",
+    "B1",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 70.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -55.15783663636365,
+    "Mar": -50.593877600000006
+   },
+   "q1": -169.88866423636364,
+   "d": -127.47781423636364,
+   "rr": 0.0612185,
+   "sold": 7200.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 88.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -37.329095795454535,
+    "Mar": -32.52958699999999
+   },
+   "q1": -133.99563279545453,
+   "d": -91.58478279545453,
+   "rr": 0.0612185,
+   "sold": 9000.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 79.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -55.15783663636365,
+    "Mar": -32.52958699999999
+   },
+   "q1": -151.82437363636365,
+   "d": -109.41352363636365,
+   "rr": 0.0612185,
+   "sold": 9000.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3",
+   "levers": [
+    "A",
+    "B2",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 75.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -63.94048814195427,
+    "Mar": -63.94048814195427
+   },
+   "q1": -167.01792628390854,
+   "d": -124.60707628390854,
+   "rr": 0.07087649495002621,
+   "sold": 7199.999999999999,
+   "demand": 10611.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3 + shift from Feb",
+   "levers": [
+    "A",
+    "B2",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 93.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -43.42561017744286,
+    "Mar": -43.42561017744286
+   },
+   "q1": -125.98817035488572,
+   "d": -83.57732035488573,
+   "rr": 0.07087649495002621,
+   "sold": 8999.999999999998,
+   "demand": 10611.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3 + shift from Mar",
+   "levers": [
+    "A",
+    "B2",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 25.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 84.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": -63.94048814195427,
+    "Mar": -43.42561017744286
+   },
+   "q1": -146.50304831939712,
+   "d": -104.09219831939713,
+   "rr": 0.07087649495002621,
+   "sold": 8999.999999999998,
+   "demand": 10611.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + C",
+   "levers": [
+    "A",
+    "B2",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 80.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -43.84124972727275,
+    "Mar": -38.65040240000002
+   },
+   "q1": -156.62860212727276,
+   "d": -114.21775212727276,
+   "rr": 0.06996400000000001,
+   "sold": 7200.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B2",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 98.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -23.183362159090926,
+    "Mar": -17.600243000000006
+   },
+   "q1": -114.92055515909092,
+   "d": -72.50970515909093,
+   "rr": 0.069964,
+   "sold": 9000.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B2",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 89.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -43.84124972727275,
+    "Mar": -17.600243000000006
+   },
+   "q1": -135.57844272727277,
+   "d": -93.16759272727278,
+   "rr": 0.069964,
+   "sold": 9000.0,
+   "demand": 10800.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3",
+   "levers": [
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 70.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -23.999650859173187,
+    "Mar": -23.999650859173187
+   },
+   "q1": -102.13625171834637,
+   "d": -59.725401718346376,
+   "rr": 0.04564331175296425,
+   "sold": 7199.999999999998,
+   "demand": 8701.344000000003,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3 + shift from Feb",
+   "levers": [
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 88.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -5.473024811262647,
+    "Mar": -5.473024811262647
+   },
+   "q1": -65.08299962252529,
+   "d": -22.672149622525296,
+   "rr": 0.04564331175296424,
+   "sold": 8539.130000000003,
+   "demand": 8701.344000000003,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3 + shift from Mar",
+   "levers": [
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 79.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -23.999650859173187,
+    "Mar": -5.473024811262647
+   },
+   "q1": -83.60962567043583,
+   "d": -41.198775670435836,
+   "rr": 0.04564331175296424,
+   "sold": 8539.130000000003,
+   "demand": 8701.344000000003,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + C",
+   "levers": [
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 0,
+    "Mar": 0
+   },
+   "gm_tot": 75.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -1.0723729392417667,
+    "Mar": 3.4449004311261433
+   },
+   "q1": -86.76442250811562,
+   "d": -44.35357250811562,
+   "rr": 0.04472637989366845,
+   "sold": 7199.999999999998,
+   "demand": 8938.080000000002,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true
+  },
+  {
+   "label": "B1 + B2 + C + shift from Feb",
+   "levers": [
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 9.0,
+    "Mar": 9.0
+   },
+   "gm_tot": 93.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": 21.42900925120003,
+    "Mar": 31.209140451200042
+   },
+   "q1": -36.49880029759993,
+   "d": 5.912049702400068,
+   "rr": 0.044726379893668435,
+   "sold": 8938.080000000002,
+   "demand": 8938.080000000002,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + C + shift from Mar",
+   "levers": [
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 0,
+    "Mar": 9.0
+   },
+   "gm_tot": 84.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -1.0723729392417667,
+    "Mar": 31.209140451200042
+   },
+   "q1": -59.00018248804172,
+   "d": -16.589332488041727,
+   "rr": 0.044726379893668435,
+   "sold": 8938.080000000002,
+   "demand": 8938.080000000002,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B3 + C",
+   "levers": [
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 80.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -27.959550252728313,
+    "Mar": -23.99271291457285
+   },
+   "q1": -116.08921316730115,
+   "d": -73.67836316730116,
+   "rr": 0.055764321608040186,
+   "sold": 7200.0,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B3 + C + shift from Feb",
+   "levers": [
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 98.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -14.544421459999995,
+    "Mar": -5.860197459999981
+   },
+   "q1": -84.54156891999997,
+   "d": -42.13071891999998,
+   "rr": 0.055764321608040186,
+   "sold": 8596.800000000001,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B3 + C + shift from Mar",
+   "levers": [
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 89.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -27.959550252728313,
+    "Mar": -5.860197459999981
+   },
+   "q1": -97.9566977127283,
+   "d": -55.5458477127283,
+   "rr": 0.055764321608040186,
+   "sold": 8596.800000000001,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + B3 + C",
+   "levers": [
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 90.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -8.027754686961515,
+    "Mar": -3.5138831658291565
+   },
+   "q1": -85.67858785279067,
+   "d": -43.267737852790674,
+   "rr": 0.06373065326633168,
+   "sold": 7200.0,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + B3 + C + shift from Feb",
+   "levers": [
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 108.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": 8.58974926000002,
+    "Mar": 18.591525260000026
+   },
+   "q1": -46.955675479999954,
+   "d": -4.5448254799999575,
+   "rr": 0.06373065326633166,
+   "sold": 8596.800000000001,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B2 + B3 + C + shift from Mar",
+   "levers": [
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 99.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -8.027754686961515,
+    "Mar": 18.591525260000026
+   },
+   "q1": -63.57317942696149,
+   "d": -21.16232942696149,
+   "rr": 0.06373065326633166,
+   "sold": 8596.800000000001,
+   "demand": 8596.800000000001,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 90.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -73.55837815648428,
+    "Mar": -73.55837815648428
+   },
+   "q1": -201.25370631296857,
+   "d": -158.8428563129686,
+   "rr": 0.05000770037683999,
+   "sold": 7200.000000000001,
+   "demand": 11459.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3 + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 108.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -55.44797269560537,
+    "Mar": -55.44797269560537
+   },
+   "q1": -165.03289539121073,
+   "d": -122.62204539121073,
+   "rr": 0.05000770037684001,
+   "sold": 9000.0,
+   "demand": 11459.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3 + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 40.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 99.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -73.55837815648428,
+    "Mar": -55.44797269560537
+   },
+   "q1": -183.14330085208965,
+   "d": -140.73245085208964,
+   "rr": 0.05000770037684001,
+   "sold": 9000.0,
+   "demand": 11459.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + C",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 10.0,
+    "Mar": 10.0
+   },
+   "gm_tot": 95.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -49.891796574609884,
+    "Mar": -44.82414370855021
+   },
+   "q1": -183.8528902831601,
+   "d": -141.4420402831601,
+   "rr": 0.049023628252788096,
+   "sold": 7200.0,
+   "demand": 11620.800000000003,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 19.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 113.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -30.74654571826236,
+    "Mar": -25.317419635687756
+   },
+   "q1": -145.2009153539501,
+   "d": -102.79006535395011,
+   "rr": 0.0490236282527881,
+   "sold": 8999.999999999998,
+   "demand": 11620.800000000003,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 10.0,
+    "Mar": 19.0
+   },
+   "gm_tot": 104.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -49.891796574609884,
+    "Mar": -25.317419635687756
+   },
+   "q1": -164.34616621029764,
+   "d": -121.93531621029764,
+   "rr": 0.0490236282527881,
+   "sold": 8999.999999999998,
+   "demand": 11620.800000000003,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3 + C",
+   "levers": [
+    "A",
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 100.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -68.46633728017596,
+    "Mar": -63.968441530266325
+   },
+   "q1": -196.5717288104423,
+   "d": -154.16087881044228,
+   "rr": 0.06111542372881355,
+   "sold": 7200.0,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 118.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -50.21472160021994,
+    "Mar": -45.49779191283291
+   },
+   "q1": -159.84946351305285,
+   "d": -117.43861351305286,
+   "rr": 0.06111542372881355,
+   "sold": 9000.000000000002,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B3 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 50.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 109.0,
+   "e": {
+    "Jan": -64.13695,
+    "Feb": -68.46633728017596,
+    "Mar": -45.49779191283291
+   },
+   "q1": -178.10107919300887,
+   "d": -135.69022919300886,
+   "rr": 0.06111542372881355,
+   "sold": 9000.000000000002,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3 + C",
+   "levers": [
+    "A",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 110.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -56.92830802089635,
+    "Mar": -51.82802258595642
+   },
+   "q1": -182.89328060685278,
+   "d": -140.4824306068528,
+   "rr": 0.0698461985472155,
+   "sold": 7200.0,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 128.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -35.792185026120436,
+    "Mar": -30.32226823244551
+   },
+   "q1": -140.25140325856594,
+   "d": -97.84055325856595,
+   "rr": 0.0698461985472155,
+   "sold": 9000.000000000002,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B2 + B3 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 60.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 119.0,
+   "e": {
+    "Jan": -74.13695,
+    "Feb": -56.92830802089635,
+    "Mar": -30.32226823244551
+   },
+   "q1": -161.38752625334186,
+   "d": -118.97667625334186,
+   "rr": 0.0698461985472155,
+   "sold": 9000.000000000002,
+   "demand": 11151.0,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3 + C",
+   "levers": [
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 15.0,
+    "Mar": 15.0
+   },
+   "gm_tot": 105.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -14.907799270983126,
+    "Mar": -9.818967918100242
+   },
+   "q1": -113.86371718908336,
+   "d": -71.45286718908336,
+   "rr": 0.04465246073298428,
+   "sold": 7200.000000000001,
+   "demand": 9241.344000000003,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3 + C + shift from Feb",
+   "levers": [
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 24.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 123.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": 13.68527638781839,
+    "Mar": 19.689050102374722
+   },
+   "q1": -55.762623509806886,
+   "d": -13.35177350980689,
+   "rr": 0.04465246073298429,
+   "sold": 9000.0,
+   "demand": 9241.344000000003,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "B1 + B2 + B3 + C + shift from Mar",
+   "levers": [
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 15.0,
+    "Mar": 24.0
+   },
+   "gm_tot": 114.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -14.907799270983126,
+    "Mar": 19.689050102374722
+   },
+   "q1": -84.3556991686084,
+   "d": -41.9448491686084,
+   "rr": 0.04465246073298429,
+   "sold": 9000.0,
+   "demand": 9241.344000000003,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3 + C",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": null,
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 25.0,
+    "Mar": 25.0
+   },
+   "gm_tot": 125.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -64.04445488811157,
+    "Mar": -57.991777774385724
+   },
+   "q1": -211.1731826624973,
+   "d": -168.76233266249733,
+   "rr": 0.04893932787327873,
+   "sold": 7200.0,
+   "demand": 11999.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3 + C + shift from Feb",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Feb",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 34.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 143.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -44.68736861013945,
+    "Mar": -38.02696221798216
+   },
+   "q1": -171.85128082812162,
+   "d": -129.44043082812163,
+   "rr": 0.04893932787327872,
+   "sold": 9000.000000000004,
+   "demand": 11999.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  },
+  {
+   "label": "A + B1 + B2 + B3 + C + shift from Mar",
+   "levers": [
+    "A",
+    "B1",
+    "B2",
+    "B3",
+    "C"
+   ],
+   "shift": "Mar",
+   "gm": {
+    "Jan": 75.0,
+    "Feb": 25.0,
+    "Mar": 34.0
+   },
+   "gm_tot": 134.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -64.04445488811157,
+    "Mar": -38.02696221798216
+   },
+   "q1": -191.20836710609373,
+   "d": -148.79751710609372,
+   "rr": 0.04893932787327872,
+   "sold": 9000.000000000004,
+   "demand": 11999.880000000001,
+   "tests": {
+    "t1": false,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false
+  }
+ ],
+ "feasible": [
+  "B1 + B2 + shift from Feb",
+  "B1 + B2 + shift from Mar",
+  "B1 + C + shift from Feb",
+  "B1 + C + shift from Mar",
+  "B1 + B2 + C"
+ ],
+ "T14": [
+  {
+   "name": "Do nothing",
+   "label": "Do nothing",
+   "gm": 0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -14.136949999999999,
+    "Mar": -14.136949999999999
+   },
+   "q1": -42.410849999999996,
+   "d": 0.0,
+   "rr": 0.0808888888888889,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false,
+   "sold": 7200.0,
+   "demand": 7200.0
+  },
+  {
+   "name": "Rohan: price push",
+   "label": "A",
+   "gm": 20.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -55.73301894736843,
+    "Mar": -55.73301894736843
+   },
+   "q1": -125.60298789473686,
+   "d": -83.19213789473686,
+   "rr": 0.08868947368421055,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false,
+   "sold": 7200.0,
+   "demand": 9500.0
+  },
+  {
+   "name": "Rohan with a third shift",
+   "label": "A + shift from Feb",
+   "gm": 38.0,
+   "e": {
+    "Jan": -14.136949999999999,
+    "Feb": -36.91627368421055,
+    "Mar": -36.91627368421055
+   },
+   "q1": -87.9694973684211,
+   "d": -45.558647368421106,
+   "rr": 0.08868947368421054,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false,
+   "sold": 9000.0,
+   "demand": 9500.0
+  },
+  {
+   "name": "Kabir: certify and warranty",
+   "label": "B1 + B2",
+   "gm": 40.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -8.633341875124408,
+    "Mar": -8.633341875124408
+   },
+   "q1": -71.40363375024882,
+   "d": -28.99278375024882,
+   "rr": 0.0454960366285265,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false,
+   "sold": 7199.999999999999,
+   "demand": 8398.080000000002
+  },
+  {
+   "name": "Store managers: trade in",
+   "label": "C",
+   "gm": 35.0,
+   "e": {
+    "Jan": -49.13695,
+    "Feb": -9.003247999999985,
+    "Mar": -4.930137674418617
+   },
+   "q1": -63.0703356744186,
+   "d": -20.659485674418605,
+   "rr": 0.07971059431524548,
+   "tests": {
+    "t1": true,
+    "t2": false,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false,
+   "sold": 7200.000000000001,
+   "demand": 7740.0
+  },
+  {
+   "name": "Battery promise without the report",
+   "label": "B2 + shift from Feb",
+   "gm": 43.0,
+   "e": {
+    "Jan": -39.13695,
+    "Feb": 2.839737200000002,
+    "Mar": 2.839737200000002
+   },
+   "q1": -33.457475599999995,
+   "d": 8.953374400000001,
+   "rr": 0.06471111111111112,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": false,
+    "t4": false
+   },
+   "ok": false,
+   "sold": 7776.0,
+   "demand": 7776.0
+  },
+  {
+   "name": "Everything that fits on paper",
+   "label": "B1 + B2 + C + shift from Feb",
+   "gm": 93.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": 21.42900925120003,
+    "Mar": 31.209140451200042
+   },
+   "q1": -36.49880029759993,
+   "d": 5.912049702400068,
+   "rr": 0.044726379893668435,
+   "tests": {
+    "t1": false,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": false,
+   "sold": 8938.080000000002,
+   "demand": 8938.080000000002
+  },
+  {
+   "name": "Trade in instead of the shift",
+   "label": "B1 + B2 + C",
+   "gm": 75.0,
+   "e": {
+    "Jan": -89.13695,
+    "Feb": -1.0723729392417667,
+    "Mar": 3.4449004311261433
+   },
+   "q1": -86.76442250811562,
+   "d": -44.35357250811562,
+   "rr": 0.04472637989366845,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true,
+   "sold": 7199.999999999998,
+   "demand": 8938.080000000002
+  },
+  {
+   "name": "Our plan",
+   "label": "B1 + B2 + shift from Feb",
+   "gm": 58.0,
+   "e": {
+    "Jan": -54.13695,
+    "Feb": 5.60499808329017,
+    "Mar": 5.60499808329017
+   },
+   "q1": -42.92695383341966,
+   "d": -0.5161038334196633,
+   "rr": 0.0454960366285265,
+   "tests": {
+    "t1": true,
+    "t2": true,
+    "t3": true,
+    "t4": true
+   },
+   "ok": true,
+   "sold": 8327.720000000001,
+   "demand": 8398.080000000002
+  }
+ ],
+ "T15": {
+  "Jan": {
+   "options": "None live; ₹40 lakh of B1 and B2 setup paid",
+   "sold": 7200.0,
+   "cam": 43.86305,
+   "gm": 40.0,
+   "ebitda": -54.13695,
+   "rr": 0.0808888888888889
+  },
+  "Feb": {
+   "options": "B1, B2, third shift",
+   "sold": 8327.720000000001,
+   "cam": 72.60499808329017,
+   "gm": 9.0,
+   "ebitda": 5.60499808329017,
+   "rr": 0.0454960366285265
+  },
+  "Mar": {
+   "options": "B1, B2, third shift",
+   "sold": 8327.720000000001,
+   "cam": 72.60499808329017,
+   "gm": 9.0,
+   "ebitda": 5.60499808329017,
+   "rr": 0.0454960366285265
+  }
+ },
+ "rec": {
+  "label": "B1 + B2 + shift from Feb",
+  "gm": {
+   "Jan": 40.0,
+   "Feb": 9.0,
+   "Mar": 9.0
+  },
+  "gm_tot": 58.0,
+  "e": {
+   "Jan": -54.13695,
+   "Feb": 5.60499808329017,
+   "Mar": 5.60499808329017
+  },
+  "q1": -42.92695383341966,
+  "d": -0.5161038334196633,
+  "rr": {
+   "Jan": 0.0808888888888889,
+   "Feb": 0.0454960366285265,
+   "Mar": 0.0454960366285265
+  },
+  "sold": {
+   "Jan": 7200.0,
+   "Feb": 8327.720000000001,
+   "Mar": 8327.720000000001
+  },
+  "demand": {
+   "Jan": 7200.0,
+   "Feb": 8398.080000000002,
+   "Mar": 8398.080000000002
+  },
+  "grade_sold": {
+   "Jan": {
+    "S": 1775.0,
+    "G": 3190.0,
+    "F": 2235.0
+   },
+   "Feb": {
+    "S": 2000.0,
+    "G": 3720.8160000000007,
+    "F": 2606.9040000000005
+   },
+   "Mar": {
+    "S": 2000.0,
+    "G": 3720.8160000000007,
+    "F": 2606.9040000000005
+   }
+  },
+  "fS": 0.9660155721710233,
+  "demS": 2070.36,
+  "web": {
+   "S": 5499.68,
+   "G": 2699.44,
+   "F": 163.96
+  }
+ },
+ "bridge": {
+  "start": -14.136949999999999,
+  "steps": [
+   [
+    "More phones sold",
+    20.75959037408451
+   ],
+   [
+    "Superb and Good prices up 4%",
+    41.94740108619716
+   ],
+   [
+    "New batteries (B2)",
+    -29.481926399999978
+   ],
+   [
+    "Tikau Report, ₹120 a phone",
+    -9.993263999999996
+   ],
+   [
+    "Warranty claim rates",
+    0.15172600000001069
+   ],
+   [
+    "Fewer returns",
+    5.358421023008447
+   ]
+  ],
+  "shift": -9.0,
+  "end": 5.604998083290155,
+  "plan_cam": 72.60499808329017
+ },
+ "chm": {
+  "ads": {
+   "q": 3012.027492957747,
+   "cam": 6.958122687098609,
+   "per": 231.01126079914627,
+   "rr": 0.04946395057501673
+  },
+  "mk": {
+   "q": 2324.872112676057,
+   "cam": 2.1439987515492995,
+   "per": 92.22007265945643,
+   "rr": 0.052743119354982534
+  },
+  "cr": {
+   "q": 1035.4898028169014,
+   "cam": 18.31376673451267,
+   "per": 1768.6090857382367,
+   "rr": 0.05403782714463112
+  },
+  "st": {
+   "q": 1148.5622535211269,
+   "cam": 21.609584934760576,
+   "per": 1881.4465535945008,
+   "rr": 0.01759784215219714
+  },
+  "rf": {
+   "q": 806.768338028169,
+   "cam": 23.57952497536902,
+   "per": 2922.7132330205204,
+   "rr": 0.038552122221168536
+  }
+ },
+ "sens": {
+  "be_mult": 1.105126429858844,
+  "be_orders": 7956.910294983676,
+  "be_gbat": 0.55063894810413,
+  "be_fbat": 0.9687574074117306,
+  "rr_mult_6": 0.7385258692826979,
+  "rr_mult_55": 0.6769820468424731,
+  "base_e": 5.60499808329017
+ },
+ "tornado": [
+  {
+   "name": "Good battery swaps",
+   "bear": 1.8841820832901703,
+   "bull": 9.325814083290169,
+   "swing": 7.4416319999999985
+  },
+  {
+   "name": "Fair battery swaps",
+   "bear": 1.9553324832901637,
+   "bull": 9.254663683290161,
+   "swing": 7.2993311999999975
+  },
+  {
+   "name": "Claim rates after B2",
+   "bear": 2.2433085832901583,
+   "bull": 8.966687583290152,
+   "swing": 6.723378999999994
+  },
+  {
+   "name": "Order rise",
+   "bear": 2.774897568800043,
+   "bull": 8.195688021690188,
+   "swing": 5.420790452890145
+  },
+  {
+   "name": "Return cut",
+   "bear": 4.402397910512661,
+   "bull": 6.716261534084538,
+   "swing": 2.3138636235718764
+  }
+ ],
+ "scenarios": {
+  "Bear": {
+   "e": {
+    "Jan": -54.13695,
+    "Feb": -8.743579403799991,
+    "Mar": -8.743579403799991
+   },
+   "q1": -71.62410880759998,
+   "d": -29.213258807599985,
+   "rr": 0.053285555555555544,
+   "sold": 8089.920000000002,
+   "ok": false
+  },
+  "Base": {
+   "e": {
+    "Jan": -54.13695,
+    "Feb": 5.60499808329017,
+    "Mar": 5.60499808329017
+   },
+   "q1": -42.92695383341966,
+   "d": -0.5161038334196633,
+   "rr": 0.0454960366285265,
+   "sold": 8327.720000000001,
+   "ok": true
+  },
+  "Bull": {
+   "e": {
+    "Jan": -54.13695,
+    "Feb": 20.458352639084524,
+    "Mar": 20.458352639084524
+   },
+   "q1": -13.220244721830952,
+   "d": 29.190605278169045,
+   "rr": 0.03825552976321895,
+   "sold": 8564.250000000002,
+   "ok": true
+  }
+ },
+ "april": [
+  {
+   "name": "Keep the plan",
+   "tin": 0,
+   "cam": 72.60499808329017,
+   "ebitda": 5.60499808329017,
+   "sold": 8327.720000000001,
+   "demand": 8398.080000000002,
+   "rr": 0.0454960366285265
+  },
+  {
+   "name": "Add B3 trust campaign",
+   "tin": 0,
+   "cam": 76.52697518873735,
+   "ebitda": -5.473024811262647,
+   "sold": 8539.130000000003,
+   "demand": 8701.344000000003,
+   "rr": 0.04564331175296424
+  },
+  {
+   "name": "Add A price push",
+   "tin": 0,
+   "cam": 36.721139305171,
+   "ebitda": -40.278860694829,
+   "sold": 8999.999999999998,
+   "demand": 11080.800000000003,
+   "rr": 0.049888517490561196
+  },
+  {
+   "name": "Add C trade in, month 1",
+   "tin": 1000,
+   "cam": 88.42900925120003,
+   "ebitda": 21.42900925120003,
+   "sold": 8698.080000000002,
+   "demand": 8698.080000000002,
+   "rr": 0.04497157552011478
+  },
+  {
+   "name": "Add C trade in, month 2",
+   "tin": 1800,
+   "cam": 98.20914045120004,
+   "ebitda": 31.209140451200042,
+   "sold": 8938.080000000002,
+   "demand": 8938.080000000002,
+   "rr": 0.044726379893668435
+  },
+  {
+   "name": "Add C trade in, month 3",
+   "tin": 2600,
+   "cam": 104.20149472203337,
+   "ebitda": 37.201494722033374,
+   "sold": 9000.000000000002,
+   "demand": 9178.080000000002,
+   "rr": 0.0444940076355839
+  },
+  {
+   "name": "Add C trade in, month 4",
+   "tin": 3400,
+   "cam": 108.83003687579637,
+   "ebitda": 41.83003687579637,
+   "sold": 9000.0,
+   "demand": 9418.080000000002,
+   "rr": 0.04427347841598287
+  },
+  {
+   "name": "Add C trade in, month 5",
+   "tin": 4000,
+   "cam": 112.26840184336866,
+   "ebitda": 45.268401843368665,
+   "sold": 9000.0,
+   "demand": 9598.080000000002,
+   "rr": 0.04411531906381276
+  }
+ ]
+}

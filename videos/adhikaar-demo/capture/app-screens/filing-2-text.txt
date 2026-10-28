@@ -1,0 +1,88 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING DC0E8C41
+
+Fatima Sheikh
+TRIAGED
+
+We have worked out who is responsible for answering you. Add your questions below to build the application.
+
+I bought a washing machine online for Rs 38,000 that arrived defective, and the seller is refusing to refund me despite the product being under warranty.
+
+Will an RTI actually get you what you need?
+
+THIS IS REALLY A CONSUMER MATTER
+
+Consumer Disputes Redressal Commission, filed through the e-Daakhil portal
+
+This is a dispute about goods or services already paid for, not a request for a record held by a public authority. An RTI application will not produce a refund or a repair. File a consumer complaint instead. If a record is needed as evidence, for example a builder's sanctioned plan, an RTI to obtain that record and a consumer complaint to obtain relief are a normal combination, filed as two separate instruments.
+
+Limitation: Two years from the date the cause of action arose, under section 69 of the Consumer Protection Act, 2019
+
+Pecuniary jurisdiction: District Commission. Price paid of roughly ₹38,000 is at or below ₹50 lakh, placing this within the District Consumer Disputes Redressal Commission's jurisdiction.
+
+Who is legally required to answer you
+Unclassified subject
+Not confidently classified
+The subject matter of this grievance could not be matched against the covered Seventh Schedule categories. Do not select an authority automatically. Ask the operator to identify the subject by hand before drafting. See the rule
+No authority in this directory matches. This filing is out of coverage; we will not guess an address.
+Your application
+
+No questions drafted yet.
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in English, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+
+Add at least one question before generating a plain-language copy.
+
+Fee
+
+Rs. 10, payable via UPI, net banking, Indian Postal Order, demand draft, court fee stamp
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+
+Select an authority and add at least one question first.
+
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

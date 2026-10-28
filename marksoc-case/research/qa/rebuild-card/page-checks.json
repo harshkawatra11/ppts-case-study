@@ -1,0 +1,29 @@
+{
+  "pdf": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\marksoc-case\\rebuild-card.pdf",
+  "pages": 2,
+  "searchable": true,
+  "blank_candidates": [],
+  "outside_page_count": 0,
+  "replacement_glyphs": 0,
+  "page_records": [
+    {
+      "page": 1,
+      "width": 594.9599609375,
+      "height": 841.9199829101562,
+      "text_characters": 2371,
+      "links": 0,
+      "outside_page": [],
+      "replacement_glyph": 0
+    },
+    {
+      "page": 2,
+      "width": 594.9599609375,
+      "height": 841.9199829101562,
+      "text_characters": 2313,
+      "links": 0,
+      "outside_page": [],
+      "replacement_glyph": 0
+    }
+  ],
+  "human_review_required": true
+}

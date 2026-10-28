@@ -1,0 +1,353 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Top Ribbon */
+    .nav-ribbon {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      display: flex;
+      gap: 0;
+      border: 2px solid #0A0A0A;
+      background: #EDEDED;
+    }
+    .ribbon-item {
+      padding: 6px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-right: 2px solid #0A0A0A;
+      color: #0A0A0A;
+      background: #E8B33C;
+    }
+    .ribbon-item.active {
+      background: #3A0E30;
+      color: #FFFFFF;
+    }
+    .ribbon-item:last-child {
+      border-right: none;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 36px;
+      right: 72px;
+      background: #3A0E30;
+      color: #FFF;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 6px 18px;
+      border: 2px solid #0A0A0A;
+    }
+
+    .section-chip {
+      position: absolute;
+      top: 86px;
+      left: 72px;
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .slide-headline {
+      position: absolute;
+      top: 132px;
+      left: 72px;
+      right: 72px;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0A0A0A;
+    }
+
+    /* 3 KPI Cards */
+    .kpi-row {
+      position: absolute;
+      top: 220px;
+      left: 72px;
+      right: 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+    }
+    .kpi-box {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 20px 24px;
+    }
+    .kpi-num {
+      font-size: 52px;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 8px;
+      color: #E5399E;
+    }
+    .kpi-num.plum {
+      color: #3A0E30;
+    }
+    .kpi-label {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #0A0A0A;
+    }
+
+    /* Main Content Grid */
+    .content-grid {
+      position: absolute;
+      top: 380px;
+      left: 72px;
+      right: 72px;
+      bottom: 55px;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 32px;
+    }
+
+    .panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 24px;
+      position: relative;
+    }
+
+    .panel-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 16px;
+    }
+
+    /* Bar chart */
+    .bars-container {
+      display: flex;
+      align-items: flex-end;
+      gap: 20px;
+      height: 180px;
+      margin-top: 10px;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #0A0A0A;
+    }
+    .bar-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      justify-content: flex-end;
+    }
+    .bar-value {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #3A0E30;
+    }
+    .bar-fill {
+      width: 100%;
+      background: #3A0E30;
+      border: 2px solid #0A0A0A;
+    }
+    .bar-fill.delhi {
+      background: #E5399E;
+    }
+    .bar-fill.national {
+      background: #E8B33C;
+    }
+    .bar-name {
+      margin-top: 8px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    /* Right Panel: Offender & Decision flow */
+    .offender-bar-container {
+      margin-top: 12px;
+    }
+    .offender-bar {
+      height: 44px;
+      width: 100%;
+      display: flex;
+      border: 2px solid #0A0A0A;
+    }
+    .offender-known {
+      background: #E5399E;
+      color: #FFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 800;
+      width: 95.6%;
+      border-right: 2px solid #0A0A0A;
+    }
+    .offender-stranger {
+      background: #FFFFFF;
+      color: #0A0A0A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      width: 4.4%;
+    }
+    .offender-caption {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 8px;
+      color: #5C1A4B;
+      line-height: 1.35;
+    }
+
+    .resettlement-box {
+      margin-top: 18px;
+      padding: 14px;
+      background: #EDEDED;
+      border: 2px solid #0A0A0A;
+    }
+    .resettlement-title {
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .resettlement-stats {
+      display: flex;
+      gap: 18px;
+    }
+    .resettlement-stat {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .resettlement-stat span {
+      font-weight: 900;
+      color: #E5399E;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 16px;
+      left: 72px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="02-economic-toll" data-width="1920" data-height="1080">
+    <div class="nav-ribbon">
+      <div class="ribbon-item active">PROBLEM</div>
+      <div class="ribbon-item">ANALYSIS</div>
+      <div class="ribbon-item">SOLUTION</div>
+      <div class="ribbon-item">ARCHITECTURE</div>
+      <div class="ribbon-item">IMPACT</div>
+    </div>
+    <div class="slide-num">02 / 07</div>
+
+    <div class="section-chip">PROBLEM STATEMENT</div>
+
+    <div class="slide-headline" id="headline-02">
+      56% of Indian women are harassed on their commute. 52% then decline the job or the college seat that required it.
+    </div>
+
+    <div class="kpi-row">
+      <div class="kpi-box" id="kpi-1">
+        <div class="kpi-num">51</div>
+        <div class="kpi-label">FIRs for crimes against women registered every hour, nationally</div>
+      </div>
+      <div class="kpi-box" id="kpi-2">
+        <div class="kpi-num plum">56%</div>
+        <div class="kpi-label">of women report sexual harassment while commuting</div>
+      </div>
+      <div class="kpi-box" id="kpi-3">
+        <div class="kpi-num">52%</div>
+        <div class="kpi-label">declined an education or work opportunity over commute safety</div>
+      </div>
+    </div>
+
+    <div class="content-grid">
+      <!-- Left Panel: Crime Rate Bars -->
+      <div class="panel" id="panel-left">
+        <div class="panel-title">Crimes against women per lakh female population (Delhi: 2.2x National Rate)</div>
+        <div class="bars-container">
+          <div class="bar-col">
+            <div class="bar-value">144.4</div>
+            <div class="bar-fill delhi" style="height: 100%;"></div>
+            <div class="bar-name">Delhi</div>
+          </div>
+          <div class="bar-col">
+            <div class="bar-value">118.7</div>
+            <div class="bar-fill" style="height: 82%;"></div>
+            <div class="bar-name">Haryana</div>
+          </div>
+          <div class="bar-col">
+            <div class="bar-value">117.6</div>
+            <div class="bar-fill" style="height: 81%;"></div>
+            <div class="bar-name">Telangana</div>
+          </div>
+          <div class="bar-col">
+            <div class="bar-value">66.4</div>
+            <div class="bar-fill national" style="height: 46%;"></div>
+            <div class="bar-name">All India</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel: Offender & Resettlement -->
+      <div class="panel" id="panel-right">
+        <div class="panel-title">Who the accused actually is (26,808 of 28,046 cases)</div>
+        <div class="offender-bar-container">
+          <div class="offender-bar">
+            <div class="offender-known">Known to her: 95.6%</div>
+            <div class="offender-stranger">4.4%</div>
+          </div>
+          <div class="offender-caption">The danger is usually someone she cannot visibly alarm without making things worse.</div>
+        </div>
+
+        <div class="resettlement-box">
+          <div class="resettlement-title">Periphery Resettlement Impact (Delhi Study):</div>
+          <div class="resettlement-stats">
+            <div class="resettlement-stat">Male employment: <span>+5%</span></div>
+            <div class="resettlement-stat">Female employment: <span>-27%</span></div>
+          </div>
+          <div style="font-size: 13px; margin-top: 6px; color: #5C1A4B; font-weight: 600;">
+            Her travel time tripled. Route safety decided whether she kept working.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-source">Source: NCRB 2025 | NCRB 2020 | NFHS-5, 2019-21 | ORF 2021 | World Bank IEConnect | ILO 2017</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#headline-02", { opacity: 0, y: 15, duration: 0.7, ease: "power2.out" }, 0.1);
+      tl.from("#kpi-1, #kpi-2, #kpi-3", { opacity: 0, y: 25, stagger: 0.15, duration: 0.6, ease: "power3.out" }, 0.4);
+      tl.from("#panel-left, #panel-right", { opacity: 0, scale: 0.96, duration: 0.7, stagger: 0.2, ease: "power3.out" }, 0.8);
+      tl.from(".bar-fill", { scaleY: 0, transformOrigin: "bottom center", duration: 1.0, stagger: 0.1, ease: "power3.out" }, 1.2);
+
+      tl.to({}, { duration: 11.84 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["02-economic-toll"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,57 @@
+{
+  "started": "2026-10-28",
+  "phase": "Complete: enriched deck and supporting research handover",
+  "researchFirst": false,
+  "sonnetAvailable": false,
+  "workerModel": "inherited Codex model",
+  "originalProtected": true,
+  "researchDelivered": true,
+  "deckStarted": true,
+  "inputFreeze": "DOBAARA-inputs-v1.1",
+  "completed": [
+    "Original preservation40filechecksums",
+    "111case/FAQ IDs covered",
+    "Independent31checks and13extensionchecks",
+    "T22-T29",
+    "Eight evidence lanes243rows77sources67primary",
+    "Two-page rebuild card rendered and bothpages visually inspected",
+    "Research 158-page PDF, HTML and Markdown accepted",
+    "Native 14-slide enriched Figma deck completed",
+    "Official logos placed with clean backgrounds",
+    "Section titles 30 pt and final density pass",
+    "Native PDF14pages1920x1080",
+    "All14slides visually reviewed",
+    "Original40files verified unchanged"
+  ],
+  "pending": [],
+  "partsCompleted": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "Appendix C",
+    "Appendix D"
+  ],
+  "activeWriters": {},
+  "latestCorrections": [
+    "Family/flagship tie at27 when size or margin doubled",
+    "B1+B2+C without shift Q1total−86.8, delta−44.4",
+    "April ramp-aware incremental recoveryMay~1.75months",
+    "Card ad contribution prose corrected to−₹210,840"
+  ],
+  "researchTools": [
+    "freeze_evidence.py",
+    "assemble_research.py",
+    "render_research.py",
+    "inspect_pdf.py"
+  ],
+  "pdfMarkerCompleted": true,
+  "figmaMutations": 0,
+  "replayPrefixHash": "2131d102a4",
+  "replayPrefixChars": 45059,
+  "sequenceOverride": "User28October2026: deck and logos first ASAP; include every planned improvement.",
+  "enrichedFigma": "viBAXiMyRZoVBndv7wELRM",
+  "deckDelivered": true
+}

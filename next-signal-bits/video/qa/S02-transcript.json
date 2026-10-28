@@ -1,0 +1,131 @@
+{
+  "text": " Give it any nifty 50 farmer or health care company. We give it some love.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.76,
+      "text": " Give it any nifty 50 farmer or health care company. We give it some love.",
+      "tokens": [
+        50364,
+        5303,
+        309,
+        604,
+        297,
+        37177,
+        2625,
+        17891,
+        420,
+        1585,
+        1127,
+        2237,
+        13,
+        492,
+        976,
+        309,
+        512,
+        959,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5778020222981771,
+      "compression_ratio": 0.9864864864864865,
+      "no_speech_prob": 0.08909228444099426,
+      "words": [
+        {
+          "word": " Give",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.7543325424194336
+        },
+        {
+          "word": " it",
+          "start": 0.62,
+          "end": 0.78,
+          "probability": 0.974448025226593
+        },
+        {
+          "word": " any",
+          "start": 0.78,
+          "end": 1.02,
+          "probability": 0.9852993488311768
+        },
+        {
+          "word": " nifty",
+          "start": 1.02,
+          "end": 1.32,
+          "probability": 0.7505050003528595
+        },
+        {
+          "word": " 50",
+          "start": 1.32,
+          "end": 1.62,
+          "probability": 0.3995456099510193
+        },
+        {
+          "word": " farmer",
+          "start": 1.62,
+          "end": 2.02,
+          "probability": 0.2708413898944855
+        },
+        {
+          "word": " or",
+          "start": 2.02,
+          "end": 2.36,
+          "probability": 0.931617796421051
+        },
+        {
+          "word": " health",
+          "start": 2.36,
+          "end": 2.66,
+          "probability": 0.6361433863639832
+        },
+        {
+          "word": " care",
+          "start": 2.66,
+          "end": 2.84,
+          "probability": 0.9932292699813843
+        },
+        {
+          "word": " company.",
+          "start": 2.84,
+          "end": 3.16,
+          "probability": 0.9664574265480042
+        },
+        {
+          "word": " We",
+          "start": 3.62,
+          "end": 3.9,
+          "probability": 0.9440942406654358
+        },
+        {
+          "word": " give",
+          "start": 3.9,
+          "end": 4.3,
+          "probability": 0.8811454772949219
+        },
+        {
+          "word": " it",
+          "start": 4.3,
+          "end": 4.44,
+          "probability": 0.9892736077308655
+        },
+        {
+          "word": " some",
+          "start": 4.44,
+          "end": 4.58,
+          "probability": 0.1389959752559662
+        },
+        {
+          "word": " love.",
+          "start": 4.58,
+          "end": 4.76,
+          "probability": 0.3890785276889801
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

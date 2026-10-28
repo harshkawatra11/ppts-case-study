@@ -1,0 +1,794 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+pages 29
+---page 12 ---
+Volume 2: Energy 
+1.12 
+2006 IPCC Guidelines for National Greenhouse Gas Inventories 
+TABLE 1.1 
+DEFINITIONS OF FUEL TYPES USED IN THE 2006 IPCC GUIDELINES 
+English Description 
+Comments 
+LIQUID (Crude oil and petroleum products) 
+Crude Oil 
+Crude oil is a mineral oil consisting of a mixture of hydrocarbons of natural origin, being 
+yellow to black in colour, of variable density and viscosity. It also includes lease condensate 
+(separator liquids) which are recovered from gaseous hydrocarbons in lease separation 
+facilities. 
+Orimulsion 
+A tar-like substance that occurs naturally in Venezuela. It can be burned directly or refined 
+into light petroleum products. 
+Natural Gas Liquids 
+(NGLs) 
+NGLs are the liquid or liquefied hydrocarbons produced in the manufacture, purification and 
+stabilisation of natural gas. These are those portions of natural gas which are recovered as 
+liquids in separators, field facilities, or gas processing plants. NGLs include but are not limited 
+to ethane, propane, butane, pentane, natural gasoline and condensate. They may also include 
+small quantities of non-hydrocarbons. 
+Motor 
+Gasoline 
+This is light hydrocarbon oil for use in internal combustion engines such as motor vehicles, 
+excluding aircraft. Motor gasoline is distilled between 35?C and 215?C and is used as a fuel for 
+land based spark ignition engines. Motor gasoline may include additives, oxygenates and 
+octane enhancers, including lead compounds such as TEL (Tetraethyl lead) and TML 
+(Tetramethyl lead).  
+Aviation 
+Gasoline 
+Aviation gasoline is motor spirit prepared especially for aviation piston engines, with an 
+octane number suited to the engine, a freezing point of -60?C, and a distillation range usually 
+within the limits of 30?C and 180?C. 
+Gasoline 
+Jet Gasoline 
+This includes all light hydrocarbon oils for use in aviation turbine power units. They distil 
+between 100?C and 250?C. It is obtained by blending kerosenes and gasoline or naphthas in 
+such a way that the aromatic content does not exceed 25 percent in volume, and the vapour 
+pressure is between 13.7 kPa and 20.6 kPa. Additives can be included to improve fuel stability 
+and combustibility. 
+Jet Kerosene 
+This is medium distillate used for aviation turbine power units. It has the same distillation 
+characteristics and flash point as kerosene (between 150?C and 300?C but not generally above 
+250?C). In addition, it has particular specifications (such as freezing point) which are 
+established by the International Air Transport Association (IATA). 
+Other Kerosene 
+Kerosene comprises refined petroleum distillate intermediate in volatility between gasoline 
+and gas/diesel oil. It is a medium oil distilling between 150?C and 300?C. 
+Shale Oil 
+A mineral oil extracted from oil shale. 
+Gas/Diesel Oil 
+Gas/diesel oil includes heavy gas oils. Gas oils are obtained from the lowest fraction from 
+atmospheric distillation of crude oil, while heavy gas oils are obtained by vacuum 
+redistillation of the residual from atmospheric distillation. Gas/diesel oil distils between 180?C 
+and 380?C. Several grades are available depending on uses: diesel oil for diesel compression 
+ignition (cars, trucks, marine, etc.), light heating oil for industrial and commercial uses, and 
+other gas oil including heavy gas oils which distil between 380?C and 540?C and are used as 
+petrochemical feedstocks. 
+Residual Fuel Oil 
+This heading defines oils that make up the distillation residue. It comprises all residual fuel 
+oils, including those obtained by blending. Its kinematic viscosity is above 0.1cm2 (10 cSt) at 
+80?C. The flash point is always above 50?C and the density is always more than 0.90 kg/l. 
+Liquefied Petroleum 
+Gases 
+These are the light hydrocarbons fraction of the paraffin series, derived from refinery 
+processes, crude oil stabilisation plants and natural gas processing plants comprising propane 
+(C3H8) and butane (C4H10) or a combination of the two. They are normally liquefied under 
+pressure for transportation and storage. 
+ 
+
+---page 18 ---
+Volume 2: Energy 
+1.18 
+2006 IPCC Guidelines for National Greenhouse Gas Inventories 
+TABLE 1.2 
+DEFAULT NET CALORIFIC VALUES (NCVs) AND LOWER AND UPPER LIMITS OF THE 95% CONFIDENCE INTERVALS 1  
+Fuel type English description 
+Net calorific 
+value (TJ/Gg) 
+Lower 
+Upper 
+Crude Oil 
+42.3 
+40.1 
+44.8 
+Orimulsion 
+27.5 
+27.5 
+28.3 
+Natural Gas Liquids 
+44.2 
+40.9 
+46.9 
+Motor Gasoline 
+44.3 
+42.5 
+44.8 
+Aviation Gasoline 
+44.3 
+42.5 
+44.8 
+Gasoline 
+Jet Gasoline 
+44.3 
+42.5 
+44.8 
+Jet Kerosene 
+44.1 
+42.0 
+45.0 
+Other Kerosene 
+43.8 
+42.4 
+45.2 
+Shale Oil 
+38.1 
+32.1 
+45.2 
+Gas/Diesel Oil 
+43.0 
+41.4 
+43.3 
+Residual Fuel Oil 
+40.4 
+39.8 
+41.7 
+Liquefied Petroleum Gases 
+47.3 
+44.8 
+52.2 
+Ethane 
+46.4 
+44.9 
+48.8 
+Naphtha 
+44.5 
+41.8 
+46.5 
+Bitumen 
+40.2 
+33.5 
+41.2 
+Lubricants 
+40.2 
+33.5 
+42.3 
+Petroleum Coke 
+32.5 
+29.7 
+41.9 
+Refinery Feedstocks 
+43.0 
+36.3 
+46.4 
+Refinery Gas 2 
+49.5 
+47.5 
+50.6 
+Paraffin Waxes 
+40.2 
+33.7 
+48.2 
+White Spirit and SBP 
+40.2 
+33.7 
+48.2 
+Other Oil 
+Other Petroleum Products 
+40.2 
+33.7 
+48.2 
+Anthracite 
+26.7 
+21.6 
+32.2 
+Coking Coal 
+28.2 
+24.0 
+31.0 
+Other Bituminous Coal 
+25.8 
+19.9 
+30.5 
+Sub-Bituminous Coal 
+18.9 
+11.5 
+26.0 
+Lignite 
+11.9 
+5.50 
+21.6 
+Oil Shale and Tar Sands 
+8.9 
+7.1 
+11.1 
+Brown Coal Briquettes 
+20.7 
+15.1 
+32.0 
+Patent Fuel 
+20.7 
+15.1 
+32.0 
+Coke Oven Coke and Lignite Coke 
+28.2 
+25.1 
+30.2 
+Coke 
+Gas Coke 
+28.2 
+25.1 
+30.2 
+Coal Tar 3 
+28.0 
+14.1 
+55.0 
+Gas Works Gas 4 
+38.7 
+19.6 
+77.0 
+Coke Oven Gas 5 
+38.7 
+19.6 
+77.0 
+Blast Furnace Gas 6 
+2.47 
+1.20 
+5.00 
+Derived 
+Gases 
+Oxygen Steel Furnace Gas 7 
+7.06 
+3.80 
+15.0 
+Natural Gas 
+48.0 
+46.5 
+50.4 
+Municipal Wastes (non-biomass fraction)  
+10 
+7 
+18 
+Industrial Wastes 
+NA 
+NA 
+NA  
+Waste Oil ? 
+40.2 
+20.3 
+80.0 
+Peat 
+9.76 
+7.80 
+12.5 
+ 
+ 
+
+---page 21 ---
+ 
+Chapter 1: Introduction 
+2006 IPCC Guidelines for National Greenhouse Gas Inventories 
+1.21 
+TABLE 1.3  
+DEFAULT VALUES OF CARBON CONTENT 
+Fuel type English description 
+Default carbon 
+content 1 
+(kg/GJ) 
+Lower 
+Upper 
+Crude Oil 
+20.0 
+19.4 
+20.6 
+Orimulsion 
+21.0 
+18.9 
+23.3 
+Natural Gas Liquids 
+17.5 
+15.9 
+19.2 
+Motor Gasoline 
+18.9 
+18.4 
+19.9 
+Aviation Gasoline 
+19.1 
+18.4 
+19.9 
+Jet Gasoline 
+19.1 
+18.4 
+19.9 
+Jet Kerosene 
+19.5 
+19 
+20.3 
+Other Kerosene 
+19.6 
+19.3 
+20.1 
+Shale Oil 
+20.0 
+18.5 
+21.6 
+Gas/Diesel Oil 
+20.2 
+19.8 
+20.4 
+Residual Fuel Oil 
+21.1 
+20.6 
+21.5 
+Liquefied Petroleum Gases 
+17.2 
+16.8 
+17.9 
+Ethane 
+16.8 
+15.4 
+18.7 
+Naphtha 
+20.0 
+18.9 
+20.8 
+Bitumen 
+22.0 
+19.9 
+24.5 
+Lubricants 
+20.0 
+19.6 
+20.5 
+Petroleum Coke 
+26.6 
+22.6 
+31.3 
+Refinery Feedstocks 
+20.0 
+18.8 
+20.9 
+Refinery Gas 2 
+15.7 
+13.3 
+19.0 
+Paraffin Waxes 
+20.0 
+19.7 
+20.3 
+White Spirit & SBP 
+20.0 
+19.7 
+20.3 
+Other Petroleum Products 
+20.0 
+19.7 
+20.3 
+Anthracite 
+26.8 
+25.8 
+27.5 
+Coking Coal 
+25.8 
+23.8 
+27.6 
+Other Bituminous Coal 
+25.8 
+24.4 
+27.2 
+Sub-Bituminous Coal 
+26.2 
+25.3 
+27.3 
+Lignite 
+27.6 
+24.8 
+31.3 
+Oil Shale and Tar Sands 
+29.1 
+24.6 
+34 
+Brown Coal Briquettes 
+26.6 
+23.8 
+29.6 
+Patent Fuel 
+26.6 
+23.8 
+29.6 
+Coke Oven Coke and Lignite Coke 
+29.2 
+26.1 
+32.4 
+Gas Coke 
+29.2 
+26.1 
+32.4 
+Coal Tar 3 
+22.0 
+18.6 
+26.0 
+Gas Works Gas 4 
+12.1 
+10.3 
+15.0 
+Coke Oven Gas 5 
+12.1 
+10.3 
+15.0 
+Blast Furnace Gas 6 
+70.8 
+59.7 
+84.0 
+Oxygen Steel Furnace Gas 7 
+49.6 
+39.5 
+55.0 
+Natural Gas 
+15.3 
+14.8 
+15.9 
+
+---page 23 ---
+ 
+Chapter 1: Introduction 
+2006 IPCC Guidelines for National Greenhouse Gas Inventories 
+1.23 
+TABLE 1.4 
+DEFAULT CO2 EMISSION FACTORS FOR COMBUSTION 1 
+Effective CO2 emission factor 
+(kg/TJ) 2 
+Fuel type English description 
+Default carbon 
+content 
+(kg/GJ) 
+Default 
+carbon 
+oxidation 
+factor 
+Default 
+value 3 
+95% confidence interval 
+ 
+A 
+B 
+C=A*B*44/ 
+12*1000 
+Lower 
+Upper 
+Crude Oil 
+20.0 
+1 
+73 300 
+71 100 
+75 500 
+Orimulsion 
+21.0 
+1 
+77 000 
+69 300 
+85 400 
+Natural Gas Liquids 
+17.5 
+1 
+64 200 
+58 300 
+70 400 
+Motor Gasoline 
+18.9 
+1 
+69 300 
+67 500 
+73 000 
+Aviation Gasoline 
+19.1 
+1 
+70 000 
+67 500 
+73 000 
+Gasoline 
+Jet Gasoline 
+19.1 
+1 
+70 000 
+67 500 
+73 000 
+Jet Kerosene 
+19.5 
+1 
+71 500 
+69 700 
+74 400 
+Other Kerosene 
+19.6 
+1 
+71 900 
+70 800 
+73 700 
+Shale Oil 
+20.0 
+1 
+73 300 
+67 800 
+79 200 
+Gas/Diesel Oil 
+20.2 
+1 
+74 100 
+72 600 
+74 800 
+Residual Fuel Oil 
+21.1 
+1 
+77 400 
+75 500 
+78 800 
+Liquefied Petroleum Gases 
+17.2 
+1 
+63 100 
+61 600 
+65 600 
+Ethane 
+16.8 
+1 
+61 600 
+56 500 
+68 600 
+Naphtha 
+20.0 
+1 
+73 300 
+69 300 
+76 300 
+Bitumen 
+22.0 
+1 
+80 700 
+73 000 
+89 900 
+Lubricants 
+20.0 
+1 
+73 300 
+71 900 
+75 200 
+Petroleum Coke 
+26.6 
+1 
+97 500 
+82 900 
+115 000 
+Refinery Feedstocks 
+20.0 
+1 
+73 300 
+68 900 
+76 600 
+Refinery Gas 
+15.7 
+1 
+57 600 
+48 200 
+69 000 
+Paraffin Waxes 
+20.0 
+1 
+73 300 
+72 200 
+74 400 
+Other Oil 
+White Spirit & SBP 
+20.0 
+1 
+73 300 
+72 200 
+74 400 
+Other Petroleum Products 
+20.0 
+1 
+73 300 
+72 200 
+74 400 
+Anthracite 
+26.8 
+1 
+98 300 
+94 600 
+101 000 
+Coking Coal 
+25.8 
+1 
+94 600 
+87 300 
+101 000 
+Other Bituminous Coal 
+25.8 
+1 
+94 600 
+89 500 
+99 700 
+Sub-Bituminous Coal 
+26.2 
+1 
+96 100 
+92 800 
+100 000 
+Lignite 
+27.6 
+1 
+101 000 
+90 900 
+115 000 
+Oil Shale and Tar Sands 
+29.1 
+1 
+107 000 
+90 200 
+125 000 
+Brown Coal Briquettes 
+26.6 
+1 
+97 500 
+87 300 
+109 000 
+Patent Fuel 
+26.6 
+1 
+97 500 
+87 300 
+109 000 
+Coke oven coke and lignite Coke 
+29.2 
+1 
+107 000 
+95 700 
+119 000 
+Coke 
+Gas Coke 
+29.2 
+1 
+107 000 
+95 700 
+119 000 
+Coal Tar 
+22.0 
+1 
+80 700 
+68 200 
+95 300 
+Gas Works Gas 
+12.1 
+1 
+44 400 
+37 300 
+54 100 
+Coke Oven Gas 
+12.1 
+1 
+44 400 
+37 300 
+54 100 
+Blast Furnace Gas 4 
+70.8 
+1 
+260 000 
+219 000 
+308 000 
+Derived Gases 
+Oxygen Steel Furnace Gas 5 
+49.6 
+1 
+182 000 
+145 000 
+202 000 
+ 
+
+---page 26 ---
+Volume 2: Energy 
+1.26 
+2006 IPCC Guidelines for National Greenhouse Gas Inventories 
+Figure 1.3 
+Some typical examples of probability distribution functions (PDFs) for the 
+effective CO2 emission factors for the combustion of fuels.  
+Gaseous 
+Natural Gas
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+35 000
+45 000
+55 000
+65 000
+75 000
+Emission factor (kg/TJ)
+Frequency (%)
+ 
+Landfill Gas
+0%
+1%
+2%
+3%
+4%
+5%
+6%
+7%
+8%
+9%
+30 000
+40 000
+50 000
+60 000
+70 000
+Emission factor (kg/TJ)
+Frequency (%)
+Liquid 
+Motor Gasoline
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+45 000
+55 000
+65 000
+75 000
+85 000
+Emission factor (kg/TJ)
+Frequency (%)
+ 
+Gas/Diesel Oil
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+45 000
+55 000
+65 000
+75 000
+85 000
+Emission factor (kg/TJ)
+Frequency (%)
+ 
+Jet Kerosene
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+45 000
+55 000
+65 000
+75 000
+85 000
+Emission factor (kg/TJ)
+Frequency (%)
+ 
+Residual Fuel Oil
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+55 000
+65 000
+75 000
+85 000
+95 000
+Emission factor (kg/TJ)
+Frequency (%)
+

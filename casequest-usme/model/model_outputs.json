@@ -1,0 +1,334 @@
+{
+  "version": "1.0.0",
+  "input_sha256": "e34fc07310685b14b9e0d036e683b14742bc66967371dd0480e3edaacdfe7880",
+  "evidence_freeze": "2026-10-28",
+  "representative_lane": "Illustrative eligible 250 g textile accessory, Delhi to US, postal",
+  "quote": {
+    "inr": 638,
+    "date": "2026-10-28",
+    "source_id": "R2-03",
+    "url": "https://www.indiapost.gov.in/calculate-postage?ACK=0&COD=0&POD=false&REG=0&fromPincode=110001&height=5&product=parcel&tab=international&toCountry=US&weight=250&width=5",
+    "qualification": "Delhi to US 250 g International Tracked Packet; check merchandise eligibility, dimensions, date and destination"
+  },
+  "scenarios": {
+    "downside": {
+      "baseline": {
+        "expected_contribution_inr": -507.55,
+        "monthly_contribution_inr": -2537.73,
+        "delivered_contribution_inr": -28.67,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.82,
+            "contribution": -28.666666666666515
+          },
+          "reimported": {
+            "prob": 0.11199999999999999,
+            "contribution": -2978.6666666666665
+          },
+          "overseas_resale": {
+            "prob": 0.024,
+            "contribution": -1448.6666666666665
+          },
+          "refund_no_return": {
+            "prob": 0.024,
+            "contribution": -2628.6666666666665
+          },
+          "lost": {
+            "prob": 0.02,
+            "contribution": -2628.6666666666665
+          }
+        },
+        "costs": {
+          "product": 1100,
+          "packaging": 100,
+          "freight": 638,
+          "platform": 390.0,
+          "payment_fx": 104.0,
+          "seller_destination": 180,
+          "compliance": 116.67,
+          "service": 0,
+          "collection": 0
+        }
+      },
+      "proposed": {
+        "expected_contribution_inr": -562.55,
+        "monthly_contribution_inr": -3312.73,
+        "delivered_contribution_inr": -83.67,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.82,
+            "contribution": -83.66666666666652
+          },
+          "reimported": {
+            "prob": 0.11199999999999999,
+            "contribution": -3033.6666666666665
+          },
+          "overseas_resale": {
+            "prob": 0.024,
+            "contribution": -1503.6666666666665
+          },
+          "refund_no_return": {
+            "prob": 0.024,
+            "contribution": -2683.6666666666665
+          },
+          "lost": {
+            "prob": 0.02,
+            "contribution": -2683.6666666666665
+          }
+        },
+        "costs": {
+          "product": 1100,
+          "packaging": 100,
+          "freight": 638,
+          "platform": 390.0,
+          "payment_fx": 104.0,
+          "seller_destination": 180,
+          "compliance": 81.67,
+          "service": 50,
+          "collection": 40
+        }
+      },
+      "delta_per_order_inr": -55.0,
+      "delta_monthly_inr": -775.0
+    },
+    "base": {
+      "baseline": {
+        "expected_contribution_inr": 460.5,
+        "monthly_contribution_inr": 4605.0,
+        "delivered_contribution_inr": 752.0,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.89,
+            "contribution": 752.0
+          },
+          "reimported": {
+            "prob": 0.05500000000000001,
+            "contribution": -2448.0
+          },
+          "overseas_resale": {
+            "prob": 0.025,
+            "contribution": -268.0
+          },
+          "refund_no_return": {
+            "prob": 0.020000000000000004,
+            "contribution": -2248.0
+          },
+          "lost": {
+            "prob": 0.01,
+            "contribution": -2248.0
+          }
+        },
+        "costs": {
+          "product": 1000,
+          "packaging": 80,
+          "freight": 638,
+          "platform": 360.0,
+          "payment_fx": 90.0,
+          "seller_destination": 0,
+          "compliance": 80.0,
+          "service": 0,
+          "collection": 0
+        }
+      },
+      "proposed": {
+        "expected_contribution_inr": 570.35,
+        "monthly_contribution_inr": 5403.5,
+        "delivered_contribution_inr": 835.7,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.9,
+            "contribution": 835.6999999999998
+          },
+          "reimported": {
+            "prob": 0.0495,
+            "contribution": -2364.3
+          },
+          "overseas_resale": {
+            "prob": 0.0225,
+            "contribution": -184.30000000000018
+          },
+          "refund_no_return": {
+            "prob": 0.018,
+            "contribution": -2164.3
+          },
+          "lost": {
+            "prob": 0.01,
+            "contribution": -2164.3
+          }
+        },
+        "costs": {
+          "product": 1000,
+          "packaging": 80,
+          "freight": 542.3,
+          "platform": 360.0,
+          "payment_fx": 90.0,
+          "seller_destination": 0,
+          "compliance": 40.0,
+          "service": 30,
+          "collection": 22
+        }
+      },
+      "delta_per_order_inr": 109.85,
+      "delta_monthly_inr": 798.5
+    },
+    "upside": {
+      "baseline": {
+        "expected_contribution_inr": 1074.37,
+        "monthly_contribution_inr": 17189.87,
+        "delivered_contribution_inr": 1258.67,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.9249999999999999,
+            "contribution": 1258.6666666666665
+          },
+          "reimported": {
+            "prob": 0.028000000000000004,
+            "contribution": -2216.3333333333335
+          },
+          "overseas_resale": {
+            "prob": 0.028000000000000004,
+            "contribution": 458.6666666666665
+          },
+          "refund_no_return": {
+            "prob": 0.014000000000000002,
+            "contribution": -2141.3333333333335
+          },
+          "lost": {
+            "prob": 0.005,
+            "contribution": -2141.3333333333335
+          }
+        },
+        "costs": {
+          "product": 950,
+          "packaging": 70,
+          "freight": 638,
+          "platform": 340.0,
+          "payment_fx": 85.0,
+          "seller_destination": 0,
+          "compliance": 58.33,
+          "service": 0,
+          "collection": 0
+        }
+      },
+      "proposed": {
+        "expected_contribution_inr": 1275.0,
+        "monthly_contribution_inr": 20200.0,
+        "delivered_contribution_inr": 1411.5,
+        "outcomes": {
+          "delivered": {
+            "prob": 0.945,
+            "contribution": 1411.5
+          },
+          "reimported": {
+            "prob": 0.020000000000000004,
+            "contribution": -2063.5
+          },
+          "overseas_resale": {
+            "prob": 0.020000000000000004,
+            "contribution": 611.5
+          },
+          "refund_no_return": {
+            "prob": 0.010000000000000002,
+            "contribution": -1988.5
+          },
+          "lost": {
+            "prob": 0.005,
+            "contribution": -1988.5
+          }
+        },
+        "costs": {
+          "product": 950,
+          "packaging": 70,
+          "freight": 478.5,
+          "platform": 340.0,
+          "payment_fx": 85.0,
+          "seller_destination": 0,
+          "compliance": 25.0,
+          "service": 25,
+          "collection": 15
+        }
+      },
+      "delta_per_order_inr": 200.63,
+      "delta_monthly_inr": 3010.13
+    }
+  },
+  "pilot_budget_inr": 9600000,
+  "pilot_budget_lakh": 96.0,
+  "pilot_months": [
+    {
+      "month": 1,
+      "active_early_sellers": 0,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 0.0
+    },
+    {
+      "month": 2,
+      "active_early_sellers": 0,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 0.0
+    },
+    {
+      "month": 3,
+      "active_early_sellers": 51,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 56023.5
+    },
+    {
+      "month": 4,
+      "active_early_sellers": 103,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 113145.5
+    },
+    {
+      "month": 5,
+      "active_early_sellers": 154,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 169169.0
+    },
+    {
+      "month": 6,
+      "active_early_sellers": 206,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 226291.0
+    },
+    {
+      "month": 7,
+      "active_early_sellers": 257,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 282314.5
+    },
+    {
+      "month": 8,
+      "active_early_sellers": 309,
+      "retained_early_sellers": 0,
+      "incremental_seller_contribution_inr": 339436.5
+    },
+    {
+      "month": 9,
+      "active_early_sellers": 360,
+      "retained_early_sellers": 234,
+      "incremental_seller_contribution_inr": 395460.0
+    },
+    {
+      "month": 10,
+      "active_early_sellers": 360,
+      "retained_early_sellers": 234,
+      "incremental_seller_contribution_inr": 395460.0
+    },
+    {
+      "month": 11,
+      "active_early_sellers": 360,
+      "retained_early_sellers": 234,
+      "incremental_seller_contribution_inr": 395460.0
+    },
+    {
+      "month": 12,
+      "active_early_sellers": 360,
+      "retained_early_sellers": 234,
+      "incremental_seller_contribution_inr": 395460.0
+    }
+  ],
+  "pooling_net_saving_inr_per_order": 43.7,
+  "pilot_cost_per_retained_early_exporter_inr": 41025.64,
+  "assumption_status": "illustrative; no verified cohort freight discount, return rate, sale price or programme budget"
+}

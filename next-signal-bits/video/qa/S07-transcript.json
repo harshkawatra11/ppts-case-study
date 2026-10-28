@@ -1,0 +1,276 @@
+{
+  "text": " The same run can be exported as a dashboard, a research paper, an Excel workbook or a CSV bundle. Because a discovery that cannot be checked by someone else is not a discovery.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.82,
+      "text": " The same run can be exported as a dashboard, a research paper, an Excel workbook or a CSV bundle.",
+      "tokens": [
+        50364,
+        440,
+        912,
+        1190,
+        393,
+        312,
+        42055,
+        382,
+        257,
+        18342,
+        11,
+        257,
+        2132,
+        3035,
+        11,
+        364,
+        19060,
+        589,
+        2939,
+        420,
+        257,
+        48814,
+        24438,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21803913560024527,
+      "compression_ratio": 1.3643410852713178,
+      "no_speech_prob": 0.019440922886133194,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.96,
+          "probability": 0.7411673069000244
+        },
+        {
+          "word": " same",
+          "start": 0.96,
+          "end": 1.22,
+          "probability": 0.995542585849762
+        },
+        {
+          "word": " run",
+          "start": 1.22,
+          "end": 1.4,
+          "probability": 0.9668712615966797
+        },
+        {
+          "word": " can",
+          "start": 1.4,
+          "end": 1.7,
+          "probability": 0.9879119992256165
+        },
+        {
+          "word": " be",
+          "start": 1.7,
+          "end": 1.88,
+          "probability": 0.9961912631988525
+        },
+        {
+          "word": " exported",
+          "start": 1.88,
+          "end": 2.3,
+          "probability": 0.9785463213920593
+        },
+        {
+          "word": " as",
+          "start": 2.3,
+          "end": 2.62,
+          "probability": 0.9827808141708374
+        },
+        {
+          "word": " a",
+          "start": 2.62,
+          "end": 2.74,
+          "probability": 0.9351181387901306
+        },
+        {
+          "word": " dashboard,",
+          "start": 2.74,
+          "end": 3.2,
+          "probability": 0.9707313776016235
+        },
+        {
+          "word": " a",
+          "start": 3.56,
+          "end": 3.62,
+          "probability": 0.9615582227706909
+        },
+        {
+          "word": " research",
+          "start": 3.62,
+          "end": 3.88,
+          "probability": 0.8615360856056213
+        },
+        {
+          "word": " paper,",
+          "start": 3.88,
+          "end": 4.36,
+          "probability": 0.9936344623565674
+        },
+        {
+          "word": " an",
+          "start": 4.76,
+          "end": 4.8,
+          "probability": 0.9211891293525696
+        },
+        {
+          "word": " Excel",
+          "start": 4.8,
+          "end": 5.02,
+          "probability": 0.7268981337547302
+        },
+        {
+          "word": " workbook",
+          "start": 5.02,
+          "end": 5.52,
+          "probability": 0.8839195966720581
+        },
+        {
+          "word": " or",
+          "start": 5.52,
+          "end": 5.98,
+          "probability": 0.7589204907417297
+        },
+        {
+          "word": " a",
+          "start": 5.98,
+          "end": 6.12,
+          "probability": 0.9405693411827087
+        },
+        {
+          "word": " CSV",
+          "start": 6.12,
+          "end": 6.44,
+          "probability": 0.8637648820877075
+        },
+        {
+          "word": " bundle.",
+          "start": 6.44,
+          "end": 6.82,
+          "probability": 0.9690530896186829
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.34,
+      "end": 11.02,
+      "text": " Because a discovery that cannot be checked by someone else is not a discovery.",
+      "tokens": [
+        50714,
+        1436,
+        257,
+        12114,
+        300,
+        2644,
+        312,
+        10033,
+        538,
+        1580,
+        1646,
+        307,
+        406,
+        257,
+        12114,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21803913560024527,
+      "compression_ratio": 1.3643410852713178,
+      "no_speech_prob": 0.019440922886133194,
+      "words": [
+        {
+          "word": " Because",
+          "start": 7.34,
+          "end": 7.64,
+          "probability": 0.932998776435852
+        },
+        {
+          "word": " a",
+          "start": 7.64,
+          "end": 7.8,
+          "probability": 0.8089210987091064
+        },
+        {
+          "word": " discovery",
+          "start": 7.8,
+          "end": 8.22,
+          "probability": 0.9460358619689941
+        },
+        {
+          "word": " that",
+          "start": 8.22,
+          "end": 8.42,
+          "probability": 0.9738290309906006
+        },
+        {
+          "word": " cannot",
+          "start": 8.42,
+          "end": 8.7,
+          "probability": 0.9336453080177307
+        },
+        {
+          "word": " be",
+          "start": 8.7,
+          "end": 8.92,
+          "probability": 0.9987466335296631
+        },
+        {
+          "word": " checked",
+          "start": 8.92,
+          "end": 9.14,
+          "probability": 0.9659271836280823
+        },
+        {
+          "word": " by",
+          "start": 9.14,
+          "end": 9.34,
+          "probability": 0.985988199710846
+        },
+        {
+          "word": " someone",
+          "start": 9.34,
+          "end": 9.68,
+          "probability": 0.9883208870887756
+        },
+        {
+          "word": " else",
+          "start": 9.68,
+          "end": 10.0,
+          "probability": 0.857308030128479
+        },
+        {
+          "word": " is",
+          "start": 10.0,
+          "end": 10.22,
+          "probability": 0.9427279233932495
+        },
+        {
+          "word": " not",
+          "start": 10.22,
+          "end": 10.48,
+          "probability": 0.9552403092384338
+        },
+        {
+          "word": " a",
+          "start": 10.48,
+          "end": 10.68,
+          "probability": 0.9985501170158386
+        },
+        {
+          "word": " discovery.",
+          "start": 10.68,
+          "end": 11.02,
+          "probability": 0.983259916305542
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

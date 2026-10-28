@@ -1,0 +1,31 @@
+{
+  "scraped_at": "2026-09-29T13:52:30.426324",
+  "cutoff": "2025-06-01T00:00:00",
+  "apps": {
+    "Dream11": {
+      "play_id": "com.dream11.fantasy.cricket.football.kabaddi",
+      "play_title": "Dream11",
+      "play_dev": "Sporta Technologies Private Limited",
+      "ios_id": "1077286074",
+      "ios_title": "Dream11: Watch. Play. Compete",
+      "ios_dev": "SPORTA TECHNOLOGIES PRIVATE LIMITED",
+      "play_score": 4.3664393,
+      "play_ratings": 4114395,
+      "play_reviews": 484692,
+      "play_installs": "100,000,000+",
+      "play_updated": "1789135938"
+    },
+    "FanCode": {
+      "play_id": "com.dream11sportsguru",
+      "play_title": "FanCode - Watch Live Sports",
+      "play_dev": "Sporta Technologies Private Limited",
+      "ios_id": null,
+      "play_score": 4.131842,
+      "play_ratings": 635284,
+      "play_reviews": 98249,
+      "play_installs": "50,000,000+"
+    }
+  },
+  "n_total": 42759,
+  "note": "Dream11 rows from run 2 (pinned id, cap 100000); FanCode rows from run 1 (same pinned id, cap 20000). Dream11 iOS RSS returned 100 reviews."
+}

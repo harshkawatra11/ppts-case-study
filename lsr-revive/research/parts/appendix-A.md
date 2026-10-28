@@ -1,0 +1,80 @@
+## Appendix A: Bibliography
+
+Sources cited in this document, in the order first referenced during research. Full URLs given for verification.
+
+- **S01** Wikipedia, "Dunzo" <https://en.wikipedia.org/wiki/Dunzo>
+- **S02** Scroll (2 Jul 2018) "As Bengaluru turns into a living nightmare, this app has become an irreplaceable part of it" <https://scroll.in/magazine/883059/as-bengaluru-turns-into-a-living-nightmare-this-app-has-become-an-irreplaceable-part-of-it>
+- **S03** Forbes India (22 Feb 2018) "Dunzo: Google's chosen one" <https://www.forbesindia.com/article/startups/dunzo-googles-chosen-one/49499/1>
+- **S04** Franchise India (28 Jun 2019) "Delivery startup Dunzo now expands to Mumbai" <https://www.franchiseindia.com/insights/en/article/delivery-startup-dunzo-now-expands-to-mumbai.53064>
+- **S05** TechCrunch (4 Oct 2019) "Google-backed Dunzo raises $45M…" <https://techcrunch.com/2019/10/04/dunzo-hyperlocal-ecommerce-delivery/>
+- **S06** TechCrunch (19 Jan 2021) "Google backs India's Dunzo in $40 million funding round" <https://techcrunch.com/2021/01/19/google-backs-indias-dunzo-in-40-million-funding-round/>
+- **S07** TechCrunch (6 Jan 2022) "Reliance Retail backs Dunzo in $240 million funding" <https://techcrunch.com/2022/01/06/reliance-retail-backs-dunzo-in-240-million-funding/>
+- **S08** Reliance Retail Ventures media release (6 Jan 2022) <https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06012022.pdf>
+- **S09** Entrackr (Jan 2021) "Dunzo revenues rise 35X in FY20, losses balloon to Rs 338.4 Cr" <https://entrackr.com/2021/01/dunzo-revenues-rise-35x-in-fy20-losses-balloon-to-rs-338-4-cr/>
+- **S10** Entrackr (Sep 2021) "Dunzo revenue jumps 66% to Rs 46 Cr in FY21…" <https://entrackr.com/2021/09/dunzo-revenue-jumps-66-to-rs-46-cr-in-fy21-outstanding-losses-balloon-to-rs-768-cr/>
+- **S11** Entrackr (2 Nov 2022) "Dunzo's losses widen to Rs 464 Cr in FY22 while revenue doubles" <https://entrackr.com/2022/11/dunzos-losses-widen-to-rs-464-cr-in-fy22-while-revenue-doubles/>
+- **S12** Entrackr (6 Nov 2023) "Dunzo posts Rs 1,800 Cr loss, Rs 226 Cr revenue in FY23" <https://entrackr.com/2023/11/dunzo-posts-rs-1800-cr-loss-rs-226-cr-revenue-in-fy23/>
+- **S13** Entrackr (30 Oct 2019) "Dunzo spent Rs 225 to earn Re 1 in FY19" <https://entrackr.com/2019/10/dunzo-spent-rs-225-to-earn-re-1-in-fy19/>
+- **S14** Inc42 (18 Jun 2021) "Dunzo Launches Dark Stores Service 'Dunzo Daily' In Bengaluru" <https://inc42.com/buzz/dunzo-launches-dark-stores-service-dunzo-daily-in-bengaluru/>
+- **S15** afaqs (19 Aug 2021) "Dunzo is known for being a pick up and drop delivery service…" <https://www.afaqs.com/news/mktg/dunzo-is-known-for-being-a-pick-up-and-drop-delivery-service-want-to-reposition-the-brand-as-a-grocery-delivery-service-sai-ganesh-on-dunzo-daily>
+- **S16** Inc42 (7 Apr 2022) "Dunzo Daily Makes Mumbai Entry…" <https://inc42.com/buzz/dunzo-daily-makes-mumbai-entry-plans-to-expand-to-delhi-ncr-hyderabad-by-month-end/>
+- **S17** Inc42 (23 Apr 2022) "Our top 20 stores are starting to show profitability: Dunzo's Kabeer Biswas" <https://inc42.com/buzz/our-top-20-stores-are-starting-to-show-profitability-dunzos-kabeer-biswas/>
+- **S18** Forbes India (19 Jan 2022) "I don't understand the difference between 10 and 20 minutes" <https://www.forbesindia.com/article/startups/quick-commerce-i-dont-understand-the-difference-between-10-and-20-minutes-dunzos-kabeer-biswas/73035/1>
+- **S19** Entrackr (19 Aug 2022) "With high one-time expenses, Dunzo Daily lost Rs 230 per order in H1 2022" <https://entrackr.com/2022/08/with-high-one-time-expenses-dunzo-daily-lost-rs-230-per-order-in-h1-2022/>
+- **S20** Entrackr (11 Nov 2022) "Exclusive: Dunzo to shut down some dark stores in NCR and Hyderabad" <https://entrackr.com/2022/11/exclusive-dunzo-to-shut-down-some-dark-stores-in-ncr-and-hyderabad/>
+- **S21** Entrackr (14 Jul 2023) "Dunzo looks for an olive branch amid cost-cutting measures" <https://entrackr.com/2023/07/dunzo-looks-for-an-olive-branch-amid-cost-cutting-measures/>
+- **S22** Inc42 (6 Oct 2023) "The Dunzo Breakdown" <https://inc42.com/features/the-dunzo-breakdown/>
+- **S23** Inc42 (9 Nov 2023) "Dunzo's Quick Commerce Folly" <https://inc42.com/features/dunzos-quick-commerce-folly/>
+- **S24** Inc42 (13 Jul 2023) "How Dunzo Lost The 'It' Factor" <https://inc42.com/features/how-dunzo-lost-the-it-factor-quick-commerce-hyperlocal/>
+- **S25** Inc42 (18 Jul 2023) "Dunzo looking to Reliance for $20 Mn lifeline" <https://inc42.com/buzz/dunzo-looking-reliance-20-mn-lifeline/>
+- **S26** Inc42 (22 Aug 2023) "Disagreement Over Valuation Markdown Halts Dunzo Fundraising Plans" <https://inc42.com/buzz/disagreement-valuation-markdown-halts-dunzo-fundraising-plans/>
+- **S27** Inc42 (7 Nov 2023) on FY23 audit and the company's "business burn is now neutral" statement <https://inc42.com/buzz/deloitte-flags-dunzos-mounting-liabilities-raises-doubt-on-ability-to-continue-as-a-going-concern/>
+- **S28** TechCrunch (20 Feb 2024) "Flipkart has weighed acquiring Reliance-backed instant delivery startup Dunzo" <https://techcrunch.com/2024/02/20/flipkart-dunzo/>
+- **S29** TechCrunch (30 Aug 2023) "Dunzo, backed by Reliance and Google…" <https://techcrunch.com/2023/08/30/dunzo-backed-by-reliance-and-google-delays-employee-salaries-again>
+- **S30** Inc42 (19 Jan 2025) "How Dunzo Lost Its Edge" <https://inc42.com/features/dunzo-kabeer-biswas-downfall-reliance/>
+- **S31** Inc42 (4 Jan 2025) on Reliance declining to fund or buy Dunzo <https://inc42.com/buzz/reliance-retail-dunzo-write-off-kabeer-biswas/>
+- **S32** TechCrunch (8 Jan 2025) "Flipkart hires Dunzo's co-founder to lead quick commerce push" <https://techcrunch.com/2025/01/08/flipkart-taps-dunzo-founder-to-lead-quick-commerce-push/>
+- **S33** Business Today (15 Jan 2025) "Dunzo goes offline after cofounder Kabeer Biswas joins Flipkart" <https://www.businesstoday.in/technology/news/story/dunzo-goes-offline-after-cofounder-kabeer-biswas-joins-flipkart-460763-2025-01-15>
+- **S34** Entrackr (7 Aug 2025) "Reliance officially writes off $200 Mn investment in Dunzo" <https://entrackr.com/news/reliance-officially-writes-off-200-mn-investment-in-dunzo-9637264>
+- **S35** Rest of World (20 Mar 2025) "Screaming customers, unpaid workers: Inside the chaotic demise of … Dunzo" <https://restofworld.org/2025/dunzo-shutdown-india-quick-commerce/>
+- **S36** Finshots (16 Nov 2023) "What's going on at Dunzo?" <https://finshots.in/archive/whats-going-on-at-dunzo/>
+- **S37** Inc42 (28 Apr 2020) Dunzo's lockdown growth story <https://inc42.com/infocus/covid19-tech-impact/33-higher-weekly-orders-2x-surge-in-ticket-size-dunzos-lockdown-growth-story/>
+- **S38** IIFL (Aug 2022) "To cut costs, Dunzo encouraging users to choose the 60-minute delivery option" <https://www.indiainfoline.com/news/markets/to-cut-costs-dunzo-encouraging-users-to-choose-the-60-minute-delivery-option>
+- **S39** Inc42 (Aug 2022) "Dunzo's B2B logistics arm joins ONDC…" <https://inc42.com/buzz/dunzos-b2b-logistics-arm-joins-ondc-to-offer-last-mile-services/>
+- **S40** YourStory (Oct 2022) Dunzo for Business [snip] <https://yourstory.com/2022/10/dunzo-for-business-b2b-vertical-mid-last-mile-logistics-smb-brands>
+- **S41** The Morning Context (10 Feb 2023) "Dunzo to shut most dark stores…" [snip] <https://themorningcontext.com/internet/dunzo-to-shut-most-dark-stores-scale-down-grocery-business>
+- **S42** The Ken (26 Sep 2023) "Dunzo fans made it a verb. Then it became just another delivery firm" [snip] <https://the-ken.com/story/dunzo-fans-made-it-a-verb-then-it-became-just-another-delivery-firm/>
+- **S43** JM Financial (29 Feb 2024) "Deep-Dive: Quick Commerce" <https://www.jmfl.com/Common/getFile/3278>
+- **S44** Redseer (7 Mar 2024) "Unveiling India's Q-Commerce Revolution" <https://redseer.com/articles/unveiling-indias-q-commerce-revolution/>
+- **S45** Redseer (20 Jan 2026) "The Dark Store Blind Spot" <https://redseer.com/articles/the-dark-store-blind-spot-the-part-of-quick-commerce-growth-that-the-topline-doesnt-show/>
+- **S46** Redseer (12 Feb 2026) "Quick Commerce Finds Its New Normal" <https://redseer.com/articles/quick-commerce-finds-its-new-normal-with-scale-mix-and-momentum/>
+- **S47** Entrackr (Jun 2022) "Zomato acquires Blinkit in $568 Mn all stock deal" <https://entrackr.com/2022/06/zomato-acquires-blinkit-in-568-mn-all-stock-deal/>
+- **S48** Entrackr (22 Nov 2024) "Zepto raises $350 Mn…" <https://entrackr.com/news/zepto-raises-350-mn-surpasses-135-bn-in-funding-for-2024-7599303>
+- **S49** TechCrunch (2 Dec 2021) "Swiggy to invest $700 million in express delivery service Instamart" <https://techcrunch.com/2021/12/02/swiggy-to-invest-700-million-in-express-delivery-service-instamart>
+- **S50** Bain & Company, India Venture Capital Report 2024 <https://www.bain.com/insights/india-venture-capital-report-2024/>
+- **S51** Inc42 (2025) "Porter Turns Profitable In FY25…" <https://inc42.com/buzz/porter-turns-profitable-in-fy25-revenue-crosses-inr-4000-cr-mark/>
+- **S52** Inc42 (2026) "Why Quick Commerce Is Central To Shadowfax's Post-IPO Vision" <https://inc42.com/features/why-quick-commerce-is-central-to-shadowfaxs-post-ipo-vision/>
+- **S53** Business Standard (29 May 2024) JioMart 30-minute grocery delivery [snip] <https://www.business-standard.com/companies/news/reliance-retail-s-jiomart-to-deliver-groceries-in-30-mins-from-next-month-124052901651_1.html>
+- **S54** Inc42 (May 2025) "Swiggy Suspends Delivery Service Genie" <https://inc42.com/buzz/exclusive-swiggy-suspends-delivery-service-genie/>
+- **S55** Inc42 (26 Dec 2023) "India's Quick Commerce Race: Blinkit On Top After 2023…" <https://inc42.com/features/indias-quick-commerce-race-blinkit-on-top-after-2023-can-rivals-catch-up/>
+- **S56** Inc42 (Nov 2023) "Blinkit Turns Contribution Positive…" <https://inc42.com/buzz/zomato-q2-blinkit-turns-contribution-positive-for-first-time-since-acquisition/>
+- **S57** Outlook Business (2024) "Zepto FY24 Results…" <https://www.outlookbusiness.com/start-up/news/zepto-fy24-results-revenue-doubles-to-rs-4454-crore-loss-shrinks-to-rs-12486-crore>
+- **S58** Business Today (3 Mar 2022) "India's quick commerce industry to grow 15x…: RedSeer" <https://www.businesstoday.in/latest/economy/story/indias-quick-commerce-industry-to-grow-15x-reach-55-bn-by-2025-redseer-324643-2022-03-03>
+- **S59** The Morning Context (16 Jul 2021) "BigBasket is one of Dunzo's quiet dark stores" [snip] <https://themorningcontext.com/internet/bigbasket-and-dunzos-quiet-dark-stores>
+- **S60** Inc42 (28 May 2021) "Dunzo Expects To Clock $200 Mn GMV Run-Rate In FY22" <https://inc42.com/buzz/dunzo-expects-to-clock-200-mn-gmv-run-rate-in-fy22/>
+- **S61** TechCrunch (30 Mar 2023) "Reliance-backed Dunzo nears fresh funding of $50 million" <https://techcrunch.com/2023/03/30/reliance-backed-dunzo-nears-fresh-funding-of-50-million>
+- **S62** Entrackr (6 Apr 2023) "Reliance-backed Dunzo lays off 30% of workforce" <https://entrackr.com/2023/04/reliance-backed-dunzo-lays-off-30-of-workforce/>
+- **S63** Inc42 (4 Oct 2023) "Cash-Strapped Dunzo Might See Valuation Drop To $200 Mn…" <https://inc42.com/buzz/cash-strapped-dunzo-valuation-drop-200-mn-35-mn-rights-issue/>
+- **S64** Business Today (Dec 2017) "Google invests Rs 65 crore in hyper local app Dunzo…" <https://www.businesstoday.in/technology/internet/google-first-direct-investment-indian-startup-bangaluru-dunzo-12-million-usd/story/265379.html>
+- **S65** Inc42 (May 2024) "Blinkit Takes Off" <https://inc42.com/features/blinkit-growth-year-fy24-zomato-quick-commerce/>
+- **S66** HDFC Securities (12 May 2025) Swiggy Q4FY25 note <https://www.hdfcsec.com/hsl.docs/Swiggy%20-%20Q4FY25%20-%20HSIE-202505120614504022063.pdf>
+- **S67** Entrackr (15 Jul 2025) "Porter turns profitable with over Rs 4,000 Cr revenue in FY25" <https://entrackr.com/exclusive/exclusive-porter-turns-profitable-with-over-rs-4000-cr-revenue-in-fy25-9496810>
+- **S68** Inc42 (6 Jun 2025) Porter's 10-year grind <https://inc42.com/startups/porter-intracity-last-mile-delivery-pan-india-logistics-quick-commerce/>
+- **S69** Logistics Insider (28 Mar 2025) on Redseer express-parcel report <https://www.logisticsinsider.in/redseer-report-express-parcel-market-to-grow-at-19-23-cagr-till-2030/>
+- **S70** Sanghi, Balodi & Gupta (SAGE, 2023) "…Dunzo v/s Blinkit" <https://journals.sagepub.com/doi/full/10.1177/20438869231151449>
+- **S71** Forbes India (14 Mar 2019) "Swiggy vs Dunzo: A battle for hyperlocal 2.0" <https://www.forbesindia.com/article/startups/swiggy-vs-dunzo-a-battle-for-hyperlocal-2.0/52789/1>
+- **S72** The Quint (22 Apr 2023) quick-commerce economics explainer <https://www.thequint.com/explainers/quick-commerce-economics-explained-blinkit-zepto-dunzo-swiggy-10-minute-delivery>
+- **S73** Entrackr (Dec 2019) "Exclusive: Dunzo suspends ops in parts of Bengaluru, Mumbai, NCR" <https://entrackr.com/2019/12/exclusive-dunzo-suspends-ops-bengaluru-mumbai-ncr/>
+- **S74** afaqs (May 2022) Dunzo's QR-code ad in the IPL final <https://www.afaqs.com/news/advertising/dunzo-delivers-a-qr-code-based-ad-during-the-ipl-finals-seemingly-inspired-by-coinbases-super-bowl-spot-in-2022>
+- **S75** Wikipedia, "Zepto (company)" (funding rounds) <https://en.wikipedia.org/wiki/Zepto_(company)>
+- **S76** Swiggy DRHP via Motilal Oswal initiation (Nov 2024) (Instamart GOV and stores) <https://images.assettype.com/bloombergquint/2024-11-19/vqdtx7vp/Motilal_Oswal_Swiggy_Initiating_Coverage_Note.pdf>

@@ -1,0 +1,156 @@
+<template data-composition-id="02-thesis">
+  <style>
+    @font-face {
+      font-family: 'Fraunces';
+      src: url('capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2') format('woff2');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      container-type: size;
+      font-family: 'Fraunces', Georgia, serif;
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+    }
+
+    .thesis-bg {
+      position: absolute;
+      inset: 0;
+      background: #F2EAD9;
+    }
+
+    .thesis-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12.2cqw;
+    }
+
+    .thesis-stack {
+      display: grid;
+      width: 100%;
+    }
+
+    .thesis-line {
+      grid-area: 1 / 1;
+      max-width: 78cqw;
+      margin: 0 auto;
+      text-align: center;
+      color: #241A10;
+    }
+
+    #thesis-line-1 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: center;
+      column-gap: 0.24em;
+      row-gap: 0.06em;
+      font-weight: 400;
+      font-size: 140px;
+      line-height: 1.02;
+      letter-spacing: -0.022em;
+      opacity: 1;
+    }
+
+    #thesis-line-1 .thesis-word {
+      display: inline-block;
+      opacity: 0;
+      will-change: transform, filter, opacity;
+    }
+
+    #thesis-line-2 {
+      font-weight: 400;
+      font-size: 88px;
+      line-height: 1.06;
+      letter-spacing: -0.018em;
+      opacity: 0;
+    }
+
+    #thesis-line-2 .thesis-coral {
+      color: #93691F;
+      font-weight: 600;
+    }
+  </style>
+
+  <div id="root" data-composition-id="02-thesis" data-width="1920" data-height="1080">
+    <div class="thesis-bg clip" data-start="0" data-duration="5.568" data-track-index="0"></div>
+
+    <div class="thesis-stage">
+      <div class="thesis-stack" id="thesis-stack">
+        <div class="thesis-line" id="thesis-line-1">
+          <span class="thesis-word">You</span>
+          <span class="thesis-word">don&rsquo;t</span>
+          <span class="thesis-word">have</span>
+          <span class="thesis-word">a</span>
+          <span class="thesis-word">records</span>
+          <span class="thesis-word">problem.</span>
+        </div>
+        <div class="thesis-line" id="thesis-line-2">
+          You have a <span class="thesis-coral">government problem</span> &mdash; and it was never one question.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      var words1 = Array.prototype.slice.call(
+        document.querySelectorAll('#thesis-line-1 .thesis-word')
+      );
+
+      // Scene 1 (0.0-2.0s): per-word staggered reveal, centered on bare cream —
+      // distinct fromTo entrance per kinetic-beat-slam, hero visible well before t=0.5s.
+      words1.forEach(function (w, i) {
+        tl.fromTo(
+          w,
+          { opacity: 0, y: 26, filter: 'blur(10px)' },
+          { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.45, ease: 'power3.out' },
+          i * 0.09
+        );
+      });
+
+      // Line 2 stays hidden until the cut.
+      tl.set('#thesis-line-2', { opacity: 0 }, 0);
+
+      // Hard cut at 2.0s (discrete-text-sequence: instant whole-line state swap,
+      // no fade/roll/blur transition on the swap itself).
+      tl.set('#thesis-line-1', { opacity: 0 }, 2.0);
+      tl.set('#thesis-line-2', { opacity: 1 }, 2.0);
+
+      // Scene 2 (2.0s -> end) holds to the cut: final beat lands and holds,
+      // a low-amplitude settle breath keeps the back half of the shot alive
+      // (finale-hold pattern; floor-based repeat so it never overshoots duration).
+      var holdStart = 2.0;
+      var cycle = 1.6;
+      var holdDur = 5.568 - holdStart;
+      tl.to(
+        '#thesis-stack',
+        {
+          scale: 1.012,
+          duration: cycle / 2,
+          ease: 'sine.inOut',
+          yoyo: true,
+          repeat: Math.max(0, Math.floor(holdDur / cycle) - 1),
+        },
+        holdStart
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['02-thesis'] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,292 @@
+<template data-composition-id="12-deterministic-core">
+  <style>
+    @font-face {
+      font-family: 'Fraunces';
+      src: url('capture/assets/fonts/54fc36028e2bb174-s.p.1h6pn64pmfi2q.woff2') format('woff2');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    @font-face {
+      font-family: 'IBM Plex Mono';
+      src: url('capture/assets/fonts/effe91970fc4db64-s.p.28xcb7557rbh2.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      container-type: size;
+      font-family: 'Fraunces', Georgia, serif;
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+    }
+
+    .fr12-bg {
+      position: absolute;
+      inset: 0;
+      background: #F2EAD9;
+    }
+
+    .fr12-stage {
+      position: absolute;
+      inset: 0;
+      display: grid;
+    }
+
+    /* ---------- Scene 1: the three words ---------- */
+
+    #fr12-s1 {
+      grid-area: 1 / 1;
+      width: 1920px;
+      height: 1080px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .fr12-s1-line {
+      font-weight: 400;
+      font-size: 92px;
+      line-height: 1.1;
+      letter-spacing: -0.018em;
+      color: #241A10;
+      text-align: center;
+      opacity: 0;
+      will-change: transform, filter, opacity;
+    }
+
+    /* ---------- Scene 2: the count-up ---------- */
+
+    #fr12-s2 {
+      grid-area: 1 / 1;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 28px;
+      opacity: 0;
+    }
+
+    .fr12-s2-numwrap {
+      display: flex;
+      align-items: baseline;
+    }
+
+    #fr12-counter {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 0.95;
+      letter-spacing: -0.025em;
+      color: #93691F;
+      font-variant-numeric: tabular-nums;
+      display: inline-block;
+      transform-origin: center center;
+    }
+
+    #fr12-suffix {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 0.95;
+      color: #93691F;
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+
+    #fr12-s2-label {
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
+      font-weight: 500;
+      font-size: 30px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #241A10;
+      max-width: 260px;
+      line-height: 1.4;
+      align-self: center;
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+
+    /* ---------- Scene 3: the finale ---------- */
+
+    #fr12-s3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      opacity: 0;
+    }
+
+    #fr12-s3-line1 {
+      font-weight: 400;
+      font-size: 88px;
+      line-height: 1.06;
+      letter-spacing: -0.018em;
+      color: #241A10;
+      text-align: center;
+      will-change: transform, filter, opacity;
+    }
+
+    #fr12-s3-line2 {
+      font-weight: 400;
+      font-size: 134px;
+      line-height: 1.02;
+      letter-spacing: -0.022em;
+      color: #93691F;
+      text-align: center;
+      will-change: transform, opacity;
+    }
+  </style>
+
+  <div id="root" data-composition-id="12-deterministic-core" data-width="1920" data-height="1080">
+    <div class="fr12-bg clip" data-start="0" data-duration="12.757" data-track-index="0"></div>
+
+    <div class="fr12-stage">
+      <div id="fr12-s1">
+        <div class="fr12-s1-line" id="fr12-s1-l1">Jurisdiction.</div>
+        <div class="fr12-s1-line" id="fr12-s1-l2">Legal soundness.</div>
+        <div class="fr12-s1-line" id="fr12-s1-l3">Deadlines.</div>
+      </div>
+
+      <div id="fr12-s2">
+        <div class="fr12-s2-numwrap">
+          <span id="fr12-counter">0</span><span id="fr12-suffix">+</span>
+        </div>
+        <div id="fr12-s2-label">automated tests</div>
+      </div>
+
+      <div id="fr12-s3">
+        <div id="fr12-s3-line1">The model proposes.</div>
+        <div id="fr12-s3-line2">The code decides.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      // ===== Scene 1 (0.0-2.2s): "Jurisdiction." / "Legal soundness." / "Deadlines." =====
+      // Per-word (per-phrase) staggered reveal, distinct entrance axis per line
+      // (kinetic-beat-slam mechanics), centered stack, hero visible well before t=0.5s.
+
+      tl.fromTo(
+        '#fr12-s1-l1',
+        { opacity: 0, scale: 1.4, filter: 'blur(14px)' },
+        { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.45, ease: 'power4.out' },
+        0
+      );
+
+      tl.fromTo(
+        '#fr12-s1-l2',
+        { opacity: 0, x: -200 },
+        { opacity: 1, x: 0, duration: 0.45, ease: 'expo.out' },
+        0.75
+      );
+
+      tl.fromTo(
+        '#fr12-s1-l3',
+        { opacity: 0, y: 80, rotation: 5 },
+        { opacity: 1, y: 0, rotation: 0, duration: 0.5, ease: 'circ.out' },
+        1.5
+      );
+
+      // Scene 1 -> Scene 2 handoff: a within-scene cut (z-scale + blur + opacity),
+      // never a banned "exit" -- this is a mid-shot swap into the next beat.
+      tl.to(
+        '#fr12-s1',
+        { opacity: 0, scale: 0.9, filter: 'blur(10px)', duration: 0.45, ease: 'power2.in' },
+        2.3
+      );
+
+      // ===== Scene 2 (3.0-5.5s): "160+" counts up 0->160 in coral, "automated tests" =====
+      // counting-dynamic-scale: value proxy + transform scale share the same ease/duration.
+
+      tl.set('#fr12-s2', { opacity: 1 }, 2.85);
+
+      var counterEl = document.getElementById('fr12-counter');
+      var counterState = { value: 0 };
+      var COUNT_START_SIZE = 130;
+      var COUNT_END_SIZE = 280;
+      var COUNT_START_SCALE = COUNT_START_SIZE / COUNT_END_SIZE;
+      var COUNT_DUR = 1.8;
+      var COUNT_AT = 3.0;
+
+      tl.to(
+        counterState,
+        {
+          value: 160,
+          duration: COUNT_DUR,
+          ease: 'power3.out',
+          onUpdate: function () {
+            counterEl.textContent = Math.round(counterState.value).toLocaleString();
+          },
+        },
+        COUNT_AT
+      );
+
+      tl.fromTo(
+        counterEl,
+        { scale: COUNT_START_SCALE },
+        { scale: 1, duration: COUNT_DUR, ease: 'power3.out' },
+        COUNT_AT
+      );
+
+      // Suffix "+" slides in only after the count lands.
+      tl.fromTo(
+        '#fr12-suffix',
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.4, ease: 'back.out(1.6)' },
+        COUNT_AT + COUNT_DUR
+      );
+
+      // Label settles in early, well before the count peaks.
+      tl.fromTo(
+        '#fr12-s2-label',
+        { opacity: 0, x: 24 },
+        { opacity: 1, x: 0, duration: 0.55, ease: 'power2.out' },
+        3.3
+      );
+
+      // ===== Scene 3 (5.5-8.0s...end): hard cut to the two-part finale, then a genuine =====
+      // still hold to the close -- the technical half's climax. No exit tween: this frame
+      // ends on a settled, static read.
+
+      tl.set('#fr12-s2', { opacity: 0 }, 5.5);
+      tl.set('#fr12-s3', { opacity: 1 }, 5.5);
+
+      tl.fromTo(
+        '#fr12-s3-line1',
+        { opacity: 0, scale: 1.3, filter: 'blur(12px)' },
+        { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.5, ease: 'power4.out' },
+        5.5
+      );
+
+      tl.fromTo(
+        '#fr12-s3-line2',
+        { opacity: 0, y: 70, rotation: -4 },
+        { opacity: 1, y: 0, rotation: 0, duration: 0.55, ease: 'circ.out' },
+        5.9
+      );
+
+      // Landed by ~6.45s; the remaining ~6.3s of the 12.757s duration is a real,
+      // undisturbed still hold on "The model proposes. / The code decides." -- no
+      // breathing loop, no further motion. The hold IS the beat.
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['12-deterministic-core'] = tl;
+    })();
+  </script>
+</template>

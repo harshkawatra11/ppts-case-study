@@ -1,0 +1,35 @@
+Dream11 play en 27805
+Dream11 play hi 1343
+Dream11 ios 100
+FanCode play en 57
+FanCode play hi 0
+FanCode ios 0
+TOTAL 29305
+{
+  "Dream11": {
+    "play_id": "com.dream11.fantasy.cricket.football.kabaddi",
+    "play_title": "Dream11",
+    "play_dev": "Sporta Technologies Private Limited",
+    "ios_id": "1077286074",
+    "ios_title": "Dream11: Watch. Play. Compete",
+    "ios_dev": "SPORTA TECHNOLOGIES PRIVATE LIMITED",
+    "play_score": 4.3664393,
+    "play_ratings": 4114395,
+    "play_reviews": 484692,
+    "play_installs": "100,000,000+",
+    "play_updated": "1789135938"
+  },
+  "FanCode": {
+    "play_id": "com.fancode.tv",
+    "play_title": "FanCode - Watch Live Sports",
+    "play_dev": "Sporta Technologies Private Limited",
+    "ios_id": "1406379831",
+    "ios_title": "FanCode: LIVE Cricket & Scores",
+    "ios_dev": "SPORTA TECHNOLOGIES PRIVATE LIMITED",
+    "play_score": 3.3861387,
+    "play_ratings": 622,
+    "play_reviews": 90,
+    "play_installs": "1,000,000+",
+    "play_updated": "1789477879"
+  }
+}

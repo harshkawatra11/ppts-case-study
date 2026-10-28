@@ -1,0 +1,24 @@
+channel,unit,cost_low_inr,cost_high_inr,metric,source_sid,date
+digital_meta_cpc,per click,2,18,India median Meta/Instagram CPC range (USD 0.025 to USD 0.209; Jul 2025 to Jul 2026; converted at approx 87 INR/USD; vendor-reported),S424,17 Oct 2026
+digital_youtube_cpm,per 1000 impressions,40,250,India YouTube CPM range by content niche (vendor-reported),S425,17 Oct 2026
+digital_whatsapp_marketing,per delivered message,0.7846,0.8631,WhatsApp Business API India marketing-template rate before and after 1 Jan 2026 hike excl GST (vendor-reported),S445,17 Oct 2026
+digital_whatsapp_utility,per delivered message,0.115,0.115,WhatsApp Business API India utility/authentication-template rate excl GST (vendor-reported),S445,17 Oct 2026
+ooh_hoarding_medium_mumbai,per month,40000,120000,20x10 ft medium hoarding Mumbai high-traffic junction (Andheri/Bandra/Worli) excl printing and GST (vendor-reported),S427,17 Oct 2026
+ooh_hoarding_small,per month,7000,18000,Small hoarding Mumbai/Delhi secondary residential area (vendor-reported),S428,17 Oct 2026
+ooh_hoarding_prime,per month,200000,600000,Prime billboard Bandra Mumbai or Connaught Place Delhi (vendor-reported),S429,17 Oct 2026
+radio_fm_gold_delhi,per 10 second spot,1200,1800,AIR FM Gold Delhi prime-time 10-second spot (vendor-reported),S431,17 Oct 2026
+radio_base_rate_govt,per 10 second spot,52,74,Government gross base rate for private FM ads before and after increase,S430,17 Oct 2026
+cinema_miraj_video,per screen per week,8000,22000,Miraj cinema video ad; regular week to blockbuster-week rate (vendor-reported),S434,17 Oct 2026
+cinema_miraj_slide,per screen per week,3000,6000,Miraj cinema slide ad regular week (vendor-reported),S434,17 Oct 2026
+retail_led_signboard,per sq ft installed,350,900,LED sign board Delhi NCR indicative installed rate (vendor-reported),S440,17 Oct 2026
+retail_glow_signboard,per sq ft installed,250,550,Glow backlit sign board indicative installed rate (vendor-reported),S440,17 Oct 2026
+onground_activation_popup,per single-city event,300000,800000,Single-city pop-up brand activation in a metro mall (vendor-reported),S441,17 Oct 2026
+trackday_bic_motorcycle,per one-hour session,3000,3000,Buddh International Circuit open track day motorcycle session (dated 2013; historical floor only),S443,17 Oct 2026
+trackday_mmrt_halfday,per half-day session,2500,4000,Madras Motor Race Track MMRT half-day open track day; members to bring-your-own-car (vendor-reported),S444,17 Oct 2026
+ipl_sponsorship_bcci_gemini,3-year league sponsorship total,2700000000,2700000000,BCCI sponsorship deal with Google Gemini ahead of IPL 2026,S435,17 Oct 2026
+ipl_sponsorship_apollo_jersey,national cricket team jersey rights total,5790000000,5790000000,Apollo Tyres jersey sponsorship replacing Dream11 after real-money-gaming ban,S435,17 Oct 2026
+ipl_sponsorship_csk_eurogrip,3-season team principal sponsorship total,1000000000,1000000000,TVS Eurogrip CSK principal-partner sponsorship IPL 2022 to 2024 (unofficial trade-press figure),S446,17 Oct 2026
+ipl_sponsorship_rcb_qatar,3-year team title sponsorship total,750000000,750000000,Prior Qatar Airways RCB title sponsorship before Nothing (2026),S439,17 Oct 2026
+influencer_micro_campaign,per campaign/post micro-influencer 10K-100K followers,2500,80000,Indian micro-influencer campaign rate range across Kofluence/upGrowth/Dazzlerr (vendor-reported),S454,17 Oct 2026
+influencer_nano_reel,per Instagram Reel post nano-influencer 1K-10K followers,500,5000,Indian nano-influencer Reel post rate (vendor-reported),S454,17 Oct 2026
+apollo_adspend_standalone,annual standalone advertising and publicity spend,3324000000,3799000000,Apollo Tyres FY24 to FY25 standalone ad and publicity spend,S452,17 Oct 2026

@@ -1,0 +1,1188 @@
+{
+ "base": {
+  "registered_m": 300,
+  "preban_season_active_m": 100.0,
+  "mau_mid26_m": 50.0,
+  "dau_sep25_m": 10.0,
+  "mau_oct26_m": 35.0,
+  "wtb_oct26_m": 5.0,
+  "retained_m": 29.5,
+  "new_arrivals_m": 20.5,
+  "share_mau_of_registered": 16.7,
+  "share_wtb_of_registered": 1.67,
+  "seg_retained_m": {
+   "S1": 3.5,
+   "S2": 0.25,
+   "S3": 8.0,
+   "S4": 5.25,
+   "S5": 12.5
+  },
+  "seg_preban_m": {
+   "S1": 35.0,
+   "S2": 5.0,
+   "S3": 20.0,
+   "S4": 15.0,
+   "S5": 25.0
+  }
+ },
+ "segments": {
+  "rows": [
+   {
+    "id": "S1",
+    "name": "Jackpot Hunters",
+    "preban_m": 35.0,
+    "stay_pct": 10,
+    "now_m": 3.5,
+    "now_share_pct": 7.0,
+    "left_m": 31.5
+   },
+   {
+    "id": "S2",
+    "name": "Grinders",
+    "preban_m": 5.0,
+    "stay_pct": 5,
+    "now_m": 0.2,
+    "now_share_pct": 0.5,
+    "left_m": 4.8
+   },
+   {
+    "id": "S3",
+    "name": "Cricket Brains",
+    "preban_m": 20.0,
+    "stay_pct": 40,
+    "now_m": 8.0,
+    "now_share_pct": 16.0,
+    "left_m": 12.0
+   },
+   {
+    "id": "S4",
+    "name": "League Captains",
+    "preban_m": 15.0,
+    "stay_pct": 35,
+    "now_m": 5.2,
+    "now_share_pct": 10.5,
+    "left_m": 9.8
+   },
+   {
+    "id": "S5",
+    "name": "Match-day Loungers",
+    "preban_m": 25.0,
+    "stay_pct": 50,
+    "now_m": 33.0,
+    "now_share_pct": 66.0,
+    "left_m": 12.5
+   }
+  ],
+  "core_now_m": 13.2,
+  "total_now_m": 50.0,
+  "left_m": 70.6,
+  "left_s1s2_share": 51.4
+ },
+ "options": {
+  "criteria": [
+   "Fan pull without prizes",
+   "Differentiation vs apps fans already open",
+   "Fit with Dream11 assets",
+   "Legal safety",
+   "Revenue within 12 months",
+   "Executable by the post-split team"
+  ],
+  "weights": [
+   0.25,
+   0.2,
+   0.15,
+   0.15,
+   0.15,
+   0.1
+  ],
+  "options": {
+   "A": {
+    "name": "As declared: AI-first, global, multi-sport platform",
+    "scores": [
+     2,
+     2,
+     3,
+     5,
+     2,
+     2
+    ],
+    "weighted": 2.6
+   },
+   "B": {
+    "name": "Fold Dream11 into FanCode",
+    "scores": [
+     2,
+     3,
+     2,
+     5,
+     3,
+     3
+    ],
+    "weighted": 2.9
+   },
+   "C": {
+    "name": "Creator media network (watch-alongs first)",
+    "scores": [
+     3,
+     1,
+     2,
+     5,
+     3,
+     3
+    ],
+    "weighted": 2.75
+   },
+   "D": {
+    "name": "Sharpen: India's free cricket skill league",
+    "scores": [
+     4,
+     5,
+     5,
+     5,
+     3,
+     4
+    ],
+    "weighted": 4.35
+   },
+   "E": {
+    "name": "Wait for the court, return to paid fantasy",
+    "scores": [
+     5,
+     4,
+     5,
+     1,
+     2,
+     2
+    ],
+    "weighted": 3.45
+   }
+  },
+  "rank": [
+   "D",
+   "E",
+   "B",
+   "C",
+   "A"
+  ]
+ },
+ "rice": [
+  {
+   "feature": "Lineup-lock nudges",
+   "reach": 9.0,
+   "impact": 1,
+   "confidence": 0.9,
+   "effort": 3,
+   "score": 27.0,
+   "cut": false
+  },
+  {
+   "feature": "Dream Rating v1",
+   "reach": 8.0,
+   "impact": 3,
+   "confidence": 0.8,
+   "effort": 10,
+   "score": 19.2,
+   "cut": false
+  },
+  {
+   "feature": "Leagues v2",
+   "reach": 6.0,
+   "impact": 3,
+   "confidence": 0.8,
+   "effort": 8,
+   "score": 18.0,
+   "cut": false
+  },
+  {
+   "feature": "Shareable rating cards",
+   "reach": 6.0,
+   "impact": 1,
+   "confidence": 0.8,
+   "effort": 3,
+   "score": 16.0,
+   "cut": false
+  },
+  {
+   "feature": "Match-day digest",
+   "reach": 7.0,
+   "impact": 1,
+   "confidence": 0.7,
+   "effort": 5,
+   "score": 9.8,
+   "cut": false
+  },
+  {
+   "feature": "AI Scout at lineup lock",
+   "reach": 6.0,
+   "impact": 2,
+   "confidence": 0.6,
+   "effort": 9,
+   "score": 8.0,
+   "cut": false
+  },
+  {
+   "feature": "Creator-hosted leagues",
+   "reach": 4.0,
+   "impact": 2,
+   "confidence": 0.6,
+   "effort": 6,
+   "score": 8.0,
+   "cut": false
+  },
+  {
+   "feature": "Live Calls",
+   "reach": 5.0,
+   "impact": 2,
+   "confidence": 0.6,
+   "effort": 12,
+   "score": 5.0,
+   "cut": false
+  },
+  {
+   "feature": "AI Coach review",
+   "reach": 4.0,
+   "impact": 2,
+   "confidence": 0.5,
+   "effort": 8,
+   "score": 5.0,
+   "cut": false
+  },
+  {
+   "feature": "Session XI for Tests",
+   "reach": 2.5,
+   "impact": 2,
+   "confidence": 0.6,
+   "effort": 6,
+   "score": 5.0,
+   "cut": false
+  },
+  {
+   "feature": "FanCode play-along overlay",
+   "reach": 2.0,
+   "impact": 2,
+   "confidence": 0.5,
+   "effort": 10,
+   "score": 2.0,
+   "cut": false
+  },
+  {
+   "feature": "Dream11 Pro",
+   "reach": 1.5,
+   "impact": 1,
+   "confidence": 0.6,
+   "effort": 6,
+   "score": 1.5,
+   "cut": false
+  },
+  {
+   "feature": "Social feed and video",
+   "reach": 5.0,
+   "impact": 0.5,
+   "confidence": 0.3,
+   "effort": 24,
+   "score": 0.3,
+   "cut": true
+  },
+  {
+   "feature": "Own live streaming",
+   "reach": 3.0,
+   "impact": 1,
+   "confidence": 0.3,
+   "effort": 40,
+   "score": 0.2,
+   "cut": true
+  },
+  {
+   "feature": "Non-cricket fantasy",
+   "reach": 1.5,
+   "impact": 0.5,
+   "confidence": 0.4,
+   "effort": 20,
+   "score": 0.2,
+   "cut": true
+  },
+  {
+   "feature": "Global launch",
+   "reach": 1.0,
+   "impact": 1,
+   "confidence": 0.2,
+   "effort": 36,
+   "score": 0.1,
+   "cut": true
+  }
+ ],
+ "revenue": {
+  "bear": {
+   "rows": [
+    {
+     "month": "Oct'26",
+     "nsm_m": 3.5,
+     "mau_m": 35.0,
+     "ads": 5.46,
+     "sponsorship": 1.25,
+     "pro": 0.0,
+     "gifting": 0.03,
+     "fancode": 0.02,
+     "total": 6.75
+    },
+    {
+     "month": "Nov'26",
+     "nsm_m": 3.59,
+     "mau_m": 35.3,
+     "ads": 5.54,
+     "sponsorship": 0.0,
+     "pro": 0.0,
+     "gifting": 0.03,
+     "fancode": 0.02,
+     "total": 5.59
+    },
+    {
+     "month": "Dec'26",
+     "nsm_m": 3.85,
+     "mau_m": 36.2,
+     "ads": 5.79,
+     "sponsorship": 1.25,
+     "pro": 0.0,
+     "gifting": 0.03,
+     "fancode": 0.02,
+     "total": 7.09
+    },
+    {
+     "month": "Jan'27",
+     "nsm_m": 4.11,
+     "mau_m": 37.1,
+     "ads": 6.04,
+     "sponsorship": 3.67,
+     "pro": 0.0,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 9.76
+    },
+    {
+     "month": "Feb'27",
+     "nsm_m": 4.38,
+     "mau_m": 38.1,
+     "ads": 6.29,
+     "sponsorship": 3.67,
+     "pro": 0.0,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 10.02
+    },
+    {
+     "month": "Mar'27",
+     "nsm_m": 5.77,
+     "mau_m": 43.0,
+     "ads": 11.03,
+     "sponsorship": 6.44,
+     "pro": 0.1,
+     "gifting": 0.05,
+     "fancode": 0.03,
+     "total": 17.64
+    },
+    {
+     "month": "Apr'27",
+     "nsm_m": 6.65,
+     "mau_m": 46.0,
+     "ads": 13.85,
+     "sponsorship": 8.48,
+     "pro": 0.13,
+     "gifting": 0.06,
+     "fancode": 0.03,
+     "total": 22.55
+    },
+    {
+     "month": "May'27",
+     "nsm_m": 5.95,
+     "mau_m": 43.6,
+     "ads": 10.28,
+     "sponsorship": 5.08,
+     "pro": 0.13,
+     "gifting": 0.05,
+     "fancode": 0.03,
+     "total": 15.56
+    },
+    {
+     "month": "Jun'27",
+     "nsm_m": 4.55,
+     "mau_m": 38.7,
+     "ads": 6.46,
+     "sponsorship": 1.67,
+     "pro": 0.11,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 8.3
+    },
+    {
+     "month": "Jul'27",
+     "nsm_m": 4.73,
+     "mau_m": 39.3,
+     "ads": 6.63,
+     "sponsorship": 1.67,
+     "pro": 0.13,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 8.49
+    },
+    {
+     "month": "Aug'27",
+     "nsm_m": 4.99,
+     "mau_m": 40.2,
+     "ads": 6.88,
+     "sponsorship": 1.67,
+     "pro": 0.15,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 8.76
+    },
+    {
+     "month": "Sep'27",
+     "nsm_m": 5.25,
+     "mau_m": 41.1,
+     "ads": 7.13,
+     "sponsorship": 1.67,
+     "pro": 0.17,
+     "gifting": 0.05,
+     "fancode": 0.02,
+     "total": 9.04
+    }
+   ],
+   "total": {
+    "ads": 91.4,
+    "sponsorship": 36.5,
+    "pro": 0.9,
+    "gifting": 0.5,
+    "fancode": 0.3,
+    "total": 129.6
+   },
+   "arpwp_rs": 271.4
+  },
+  "base": {
+   "rows": [
+    {
+     "month": "Oct'26",
+     "nsm_m": 5.0,
+     "mau_m": 35.0,
+     "ads": 8.54,
+     "sponsorship": 2.5,
+     "pro": 0.0,
+     "gifting": 0.04,
+     "fancode": 0.02,
+     "total": 11.1
+    },
+    {
+     "month": "Nov'26",
+     "nsm_m": 5.25,
+     "mau_m": 35.6,
+     "ads": 8.82,
+     "sponsorship": 0.0,
+     "pro": 0.0,
+     "gifting": 0.05,
+     "fancode": 0.02,
+     "total": 8.89
+    },
+    {
+     "month": "Dec'26",
+     "nsm_m": 6.0,
+     "mau_m": 37.5,
+     "ads": 9.68,
+     "sponsorship": 2.5,
+     "pro": 0.0,
+     "gifting": 0.05,
+     "fancode": 0.03,
+     "total": 12.26
+    },
+    {
+     "month": "Jan'27",
+     "nsm_m": 6.75,
+     "mau_m": 39.3,
+     "ads": 10.54,
+     "sponsorship": 7.33,
+     "pro": 0.0,
+     "gifting": 0.06,
+     "fancode": 0.03,
+     "total": 17.96
+    },
+    {
+     "month": "Feb'27",
+     "nsm_m": 7.5,
+     "mau_m": 41.1,
+     "ads": 11.39,
+     "sponsorship": 7.33,
+     "pro": 0.0,
+     "gifting": 0.07,
+     "fancode": 0.03,
+     "total": 18.83
+    },
+    {
+     "month": "Mar'27",
+     "nsm_m": 11.5,
+     "mau_m": 50.9,
+     "ads": 23.08,
+     "sponsorship": 11.29,
+     "pro": 0.38,
+     "gifting": 0.1,
+     "fancode": 0.05,
+     "total": 34.91
+    },
+    {
+     "month": "Apr'27",
+     "nsm_m": 14.0,
+     "mau_m": 57.0,
+     "ads": 30.81,
+     "sponsorship": 14.7,
+     "pro": 0.54,
+     "gifting": 0.13,
+     "fancode": 0.06,
+     "total": 46.24
+    },
+    {
+     "month": "May'27",
+     "nsm_m": 12.0,
+     "mau_m": 52.1,
+     "ads": 21.81,
+     "sponsorship": 9.02,
+     "pro": 0.53,
+     "gifting": 0.11,
+     "fancode": 0.05,
+     "total": 31.51
+    },
+    {
+     "month": "Jun'27",
+     "nsm_m": 8.0,
+     "mau_m": 42.4,
+     "ads": 11.97,
+     "sponsorship": 3.33,
+     "pro": 0.4,
+     "gifting": 0.07,
+     "fancode": 0.04,
+     "total": 15.8
+    },
+    {
+     "month": "Jul'27",
+     "nsm_m": 8.5,
+     "mau_m": 43.6,
+     "ads": 12.54,
+     "sponsorship": 3.33,
+     "pro": 0.47,
+     "gifting": 0.08,
+     "fancode": 0.04,
+     "total": 16.45
+    },
+    {
+     "month": "Aug'27",
+     "nsm_m": 9.25,
+     "mau_m": 45.4,
+     "ads": 13.4,
+     "sponsorship": 3.33,
+     "pro": 0.56,
+     "gifting": 0.08,
+     "fancode": 0.04,
+     "total": 17.41
+    },
+    {
+     "month": "Sep'27",
+     "nsm_m": 10.0,
+     "mau_m": 47.2,
+     "ads": 14.25,
+     "sponsorship": 3.33,
+     "pro": 0.66,
+     "gifting": 0.09,
+     "fancode": 0.04,
+     "total": 18.38
+    }
+   ],
+   "total": {
+    "ads": 176.8,
+    "sponsorship": 68.0,
+    "pro": 3.5,
+    "gifting": 0.9,
+    "fancode": 0.5,
+    "total": 249.7
+   },
+   "arpwp_rs": 288.8
+  },
+  "bull": {
+   "rows": [
+    {
+     "month": "Oct'26",
+     "nsm_m": 6.5,
+     "mau_m": 35.0,
+     "ads": 12.25,
+     "sponsorship": 3.75,
+     "pro": 0.0,
+     "gifting": 0.06,
+     "fancode": 0.03,
+     "total": 16.08
+    },
+    {
+     "month": "Nov'26",
+     "nsm_m": 7.02,
+     "mau_m": 36.0,
+     "ads": 12.94,
+     "sponsorship": 0.0,
+     "pro": 0.0,
+     "gifting": 0.06,
+     "fancode": 0.03,
+     "total": 13.04
+    },
+    {
+     "month": "Dec'26",
+     "nsm_m": 8.58,
+     "mau_m": 38.9,
+     "ads": 15.04,
+     "sponsorship": 3.75,
+     "pro": 0.0,
+     "gifting": 0.08,
+     "fancode": 0.04,
+     "total": 18.9
+    },
+    {
+     "month": "Jan'27",
+     "nsm_m": 10.14,
+     "mau_m": 41.9,
+     "ads": 17.13,
+     "sponsorship": 11.0,
+     "pro": 0.0,
+     "gifting": 0.09,
+     "fancode": 0.05,
+     "total": 28.27
+    },
+    {
+     "month": "Feb'27",
+     "nsm_m": 11.7,
+     "mau_m": 44.8,
+     "ads": 19.23,
+     "sponsorship": 11.0,
+     "pro": 0.0,
+     "gifting": 0.11,
+     "fancode": 0.05,
+     "total": 30.38
+    },
+    {
+     "month": "Mar'27",
+     "nsm_m": 20.02,
+     "mau_m": 60.5,
+     "ads": 43.94,
+     "sponsorship": 17.73,
+     "pro": 0.99,
+     "gifting": 0.18,
+     "fancode": 0.09,
+     "total": 62.92
+    },
+    {
+     "month": "Apr'27",
+     "nsm_m": 25.22,
+     "mau_m": 70.3,
+     "ads": 61.16,
+     "sponsorship": 23.18,
+     "pro": 1.46,
+     "gifting": 0.23,
+     "fancode": 0.11,
+     "total": 86.14
+    },
+    {
+     "month": "May'27",
+     "nsm_m": 21.06,
+     "mau_m": 62.4,
+     "ads": 41.91,
+     "sponsorship": 14.09,
+     "pro": 1.39,
+     "gifting": 0.19,
+     "fancode": 0.09,
+     "total": 57.67
+    },
+    {
+     "month": "Jun'27",
+     "nsm_m": 12.74,
+     "mau_m": 46.8,
+     "ads": 20.62,
+     "sponsorship": 5.0,
+     "pro": 0.95,
+     "gifting": 0.11,
+     "fancode": 0.06,
+     "total": 26.74
+    },
+    {
+     "month": "Jul'27",
+     "nsm_m": 13.78,
+     "mau_m": 48.7,
+     "ads": 22.02,
+     "sponsorship": 5.0,
+     "pro": 1.14,
+     "gifting": 0.12,
+     "fancode": 0.06,
+     "total": 28.34
+    },
+    {
+     "month": "Aug'27",
+     "nsm_m": 15.34,
+     "mau_m": 51.7,
+     "ads": 24.11,
+     "sponsorship": 5.0,
+     "pro": 1.39,
+     "gifting": 0.14,
+     "fancode": 0.07,
+     "total": 30.71
+    },
+    {
+     "month": "Sep'27",
+     "nsm_m": 16.9,
+     "mau_m": 54.6,
+     "ads": 26.21,
+     "sponsorship": 5.0,
+     "pro": 1.67,
+     "gifting": 0.15,
+     "fancode": 0.08,
+     "total": 33.11
+    }
+   ],
+   "total": {
+    "ads": 316.6,
+    "sponsorship": 104.5,
+    "pro": 9.0,
+    "gifting": 1.5,
+    "fancode": 0.8,
+    "total": 432.3
+   },
+   "arpwp_rs": 307.0
+  }
+ },
+ "costs": {
+  "lines": {
+   "people": 96,
+   "tech_data": 45,
+   "creators_content": 25,
+   "marketing": 50,
+   "g_and_a": 20
+  },
+  "total": 236,
+  "share_of_fy25_expenses": 3.3
+ },
+ "unit_econ": {
+  "S3": {
+   "name": "Cricket Brains",
+   "ads_rs": 170.8,
+   "pro_rs": 11.9,
+   "total_rs": 182.7
+  },
+  "S4": {
+   "name": "League Captains",
+   "ads_rs": 149.5,
+   "pro_rs": 7.9,
+   "total_rs": 157.4
+  },
+  "S5": {
+   "name": "Match-day Loungers",
+   "ads_rs": 34.2,
+   "pro_rs": 0.8,
+   "total_rs": 35.0
+  },
+  "multiple_S3_vs_S5": 5.2,
+  "multiple_S4_vs_S5": 4.5
+ },
+ "sensitivity": {
+  "wtb0": [
+   3.0,
+   4.0,
+   5.0,
+   6.0,
+   7.0
+  ],
+  "ecpm_rs": [
+   82,
+   96,
+   110,
+   124,
+   138
+  ],
+  "grid": [
+   [
+    172.9,
+    189.9,
+    206.9,
+    223.9,
+    240.9
+   ],
+   [
+    189.2,
+    208.8,
+    228.3,
+    247.9,
+    267.4
+   ],
+   [
+    205.6,
+    227.7,
+    249.7,
+    271.9,
+    294.0
+   ],
+   [
+    221.9,
+    246.5,
+    271.2,
+    295.9,
+    320.5
+   ],
+   [
+    238.2,
+    265.4,
+    292.6,
+    319.8,
+    347.0
+   ]
+  ]
+ },
+ "metrics": {
+  "nsm": {
+   "name": "Weekly Team-Builders (WTB)",
+   "baseline_m": 5.0,
+   "m3_m": 6.0,
+   "m6_m": 7.5,
+   "ipl_peak_m": 14.0,
+   "m12_m": 10.0,
+   "m6_multiple": 1.5,
+   "m12_multiple": 2.0
+  },
+  "supporting": [
+   {
+    "id": "M1",
+    "name": "Match-to-match return rate",
+    "baseline": "35% (A31)",
+    "m6": "45%",
+    "m12": "50%"
+   },
+   {
+    "id": "M2",
+    "name": "League share of weekly players",
+    "baseline": "20% (A32)",
+    "m6": "35%",
+    "m12": "45%"
+   },
+   {
+    "id": "M3",
+    "name": "Live Calls reach (5+ calls a match-day)",
+    "baseline": "0% (new)",
+    "m6": "25%",
+    "m12": "35%"
+   },
+   {
+    "id": "M4",
+    "name": "Revenue per weekly player (trailing, annualised)",
+    "baseline": "n/a",
+    "m6": "Rs 300",
+    "m12": "Rs 290"
+   }
+  ],
+  "kill": {
+   "by": "15 Jan 2027",
+   "cohort": "fans with 3+ rated matches since Rating v1 launch (15 Oct 2026)",
+   "t1": "match-to-match return rate below 40%",
+   "t2": "league members return less than 1.3x as often as solo players",
+   "action": "stop rating and league spend; move to option C (creator media) or fold play features into FanCode (option B)"
+  }
+ },
+ "stress": {
+  "bear": {
+   "deposit_ratio": 0.7,
+   "net_pre2023": 12.71,
+   "gst28": 19.6,
+   "net28": -4.6,
+   "gst40": 28.0,
+   "net40": -13.0,
+   "drop28_pct": 136.2,
+   "drop40_pct": 202.3,
+   "prize_pool_to_hold_margin_28": 67.7,
+   "prize_pool_to_hold_margin_40": 59.3
+  },
+  "base": {
+   "deposit_ratio": 0.5,
+   "net_pre2023": 12.71,
+   "gst28": 14.0,
+   "net28": 1.0,
+   "gst40": 20.0,
+   "net40": -5.0,
+   "drop28_pct": 92.1,
+   "drop40_pct": 139.3,
+   "prize_pool_to_hold_margin_28": 73.3,
+   "prize_pool_to_hold_margin_40": 67.3
+  },
+  "bull": {
+   "deposit_ratio": 0.35,
+   "net_pre2023": 12.71,
+   "gst28": 9.8,
+   "net28": 5.2,
+   "gst40": 14.0,
+   "net40": 1.0,
+   "drop28_pct": 59.1,
+   "drop40_pct": 92.1,
+   "prize_pool_to_hold_margin_28": 77.5,
+   "prize_pool_to_hold_margin_40": 73.3
+  },
+  "fy25": {
+   "revenue": 6759,
+   "expenses": 7122.6,
+   "gap": -363.6,
+   "ad_spend": 3913,
+   "exceptional": 575,
+   "gst_notice": 28000
+  }
+ },
+ "risks": [
+  {
+   "risk": "Rating feels meaningless without money",
+   "p": 3,
+   "i": 5,
+   "score": 15,
+   "rag": "R",
+   "mitigation": "90-day kill signal; tiers tied to public status and creator leagues",
+   "owner": "Head of Product",
+   "trigger": "M1 below 40% by Jan 2027"
+  },
+  {
+   "risk": "Casual fans find Live Calls intrusive",
+   "p": 3,
+   "i": 3,
+   "score": 9,
+   "rag": "A",
+   "mitigation": "Calls opt-in, one per over, quiet mode",
+   "owner": "Design lead",
+   "trigger": "Opt-out above 30%"
+  },
+  {
+   "risk": "Advertisers pay sports CPMs only in IPL",
+   "p": 4,
+   "i": 3,
+   "score": 12,
+   "rag": "A",
+   "mitigation": "Title partner signed before IPL; series packages",
+   "owner": "Head of Revenue",
+   "trigger": "Non-IPL eCPM below Rs 90"
+  },
+  {
+   "risk": "FanCode and Dream11 still overlap",
+   "p": 3,
+   "i": 3,
+   "score": 9,
+   "rag": "A",
+   "mitigation": "Written job split; Dream11 streaming sunset in 90 days",
+   "owner": "Both CEOs",
+   "trigger": "Overlap share above 20%"
+  },
+  {
+   "risk": "Regulator reads a mechanic as a stake",
+   "p": 2,
+   "i": 5,
+   "score": 10,
+   "rag": "A",
+   "mitigation": "Legal test on every feature; no prizes, no redeemable currency",
+   "owner": "Legal counsel",
+   "trigger": "Any notice from the Authority"
+  },
+  {
+   "risk": "Under-18 users join via friends' invites",
+   "p": 3,
+   "i": 4,
+   "score": 12,
+   "rag": "A",
+   "mitigation": "Age gate plus DPDP verifiable consent; no personalised ads to minors",
+   "owner": "Trust and safety",
+   "trigger": "Monthly block-rate audit"
+  },
+  {
+   "risk": "Offshore betting apps target lapsed players",
+   "p": 4,
+   "i": 3,
+   "score": 12,
+   "rag": "A",
+   "mitigation": "No money-adjacent copy; report surrogate ads; responsible-play links",
+   "owner": "Trust and safety",
+   "trigger": "T10 review share rising"
+  },
+  {
+   "risk": "Key talent leaves after the split",
+   "p": 3,
+   "i": 4,
+   "score": 12,
+   "rag": "A",
+   "mitigation": "Focused roadmap; retention grants tied to loop milestones",
+   "owner": "CEO",
+   "trigger": "Attrition above 20% annualised"
+  },
+  {
+   "risk": "Court restores paid fantasy and rivals return",
+   "p": 2,
+   "i": 3,
+   "score": 6,
+   "rag": "G",
+   "mitigation": "Decision rule in the stress test; stay free in Dream11",
+   "owner": "CEO and board",
+   "trigger": "Final judgment"
+  }
+ ],
+ "case": {
+  "lost_revenue_cr": 6421,
+  "fy25_rev": 6759
+ },
+ "moneyshot": {
+  "rev12_base": 249.7,
+  "rev12_bear": 129.6,
+  "rev12_bull": 432.3,
+  "cost12": 236,
+  "gap12_base": 13.7,
+  "arpwp_base": 288.8,
+  "share_of_fy25": 3.7
+ },
+ "meta": {
+  "F": {
+   "rev": {
+    "FY23": 6384,
+    "FY24": 7934,
+    "FY25": 6759
+   },
+   "pat": {
+    "FY23": 188,
+    "FY24": 1295,
+    "FY25": -479
+   },
+   "paid_share": 0.95,
+   "dau_sep25_m": 10.0,
+   "age_18_35": 0.7,
+   "watchalong_fans_m": 30.0,
+   "users_feb26_m": 250,
+   "users_aug26_m": 300,
+   "bcci_deal_usd_m": 44,
+   "staff": 700,
+   "staff_left": 0.15,
+   "gst_case": 0.28
+  },
+  "R": {
+   "gst_statute": 0.4,
+   "gst_pre2023_on_fee": 0.18,
+   "offshore_share": 0.3333333333333333,
+   "fy25_expenses_cr": 7122.6,
+   "fy25_ad_spend_cr": 3913,
+   "fy25_exceptional_cr": 575,
+   "gst_notice_cr": 28000
+  },
+  "A": {
+   "A01_preban_season_active_m": 100.0,
+   "A02_seg_share": {
+    "S1": 0.35,
+    "S2": 0.05,
+    "S3": 0.2,
+    "S4": 0.15,
+    "S5": 0.25
+   },
+   "A03_seg_stay": {
+    "S1": 0.1,
+    "S2": 0.05,
+    "S3": 0.4,
+    "S4": 0.35,
+    "S5": 0.5
+   },
+   "A04_prize_removal_drop": 0.3,
+   "A05_wtb0_m": {
+    "bear": 3.5,
+    "base": 5.0,
+    "bull": 6.5
+   },
+   "A06_nsm_curve": [
+    1.0,
+    1.05,
+    1.2,
+    1.35,
+    1.5,
+    2.3,
+    2.8,
+    2.4,
+    1.6,
+    1.7,
+    1.85,
+    2.0
+   ],
+   "A07_curve_k": {
+    "bear": 0.5,
+    "base": 1.0,
+    "bull": 1.6
+   },
+   "A08_mau_elasticity": 0.35,
+   "A09_core_sessions_wk": 3.0,
+   "A10_imps_per_core_session": 9,
+   "A11_casual_sessions_mo": 3,
+   "A12_imps_per_casual_session": 5,
+   "A13_fill": 0.75,
+   "A14_ecpm": {
+    "regular": 110,
+    "ipl": 180
+   },
+   "A15_ecpm_k": {
+    "bear": 0.75,
+    "base": 1.0,
+    "bull": 1.25
+   },
+   "A16_sponsor": {
+    "title_rating_season": {
+     "bear": 15,
+     "base": 30,
+     "bull": 45
+    },
+    "ipl_partners_n": {
+     "bear": 3,
+     "base": 5,
+     "bull": 8
+    },
+    "ipl_partner_cr": 5.0,
+    "series_partners_n": {
+     "bear": 2,
+     "base": 4,
+     "bull": 6
+    },
+    "series_partner_cr": 2.5,
+    "wpl_partner_cr": {
+     "bear": 1.5,
+     "base": 3.0,
+     "bull": 4.5
+    }
+   },
+   "A17_pro_price_mo": 49,
+   "A18_pro_arppu_mo": 33,
+   "A19_pro_conv_start": {
+    "bear": 0.005,
+    "base": 0.01,
+    "bull": 0.015
+   },
+   "A20_pro_conv_end": {
+    "bear": 0.01,
+    "base": 0.02,
+    "bull": 0.03
+   },
+   "A21_gift_payer_share": 0.005,
+   "A22_gift_spend_mo": 60,
+   "A23_gift_take": 0.3,
+   "A24_fancode_ref_share": 0.003,
+   "A25_fancode_pass_rs": 99,
+   "A26_fancode_rev_share": 0.15,
+   "A27_cost_cr": {
+    "people": 96,
+    "tech_data": 45,
+    "creators_content": 25,
+    "marketing": 50,
+    "g_and_a": 20
+   },
+   "A28_rake": 0.15,
+   "A29_deposit_ratio": {
+    "bear": 0.7,
+    "base": 0.5,
+    "bull": 0.35
+   },
+   "A30_prize_pool": 0.85,
+   "A31_m1_baseline": 0.35,
+   "A32_m2_baseline": 0.2,
+   "A33_mau_mid26_m": 50.0
+  },
+  "run": "2026-09-29T19:17:39",
+  "hash": "9861e27587"
+ }
+}

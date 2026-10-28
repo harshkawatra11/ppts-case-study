@@ -1,0 +1,9 @@
+tariff,category,rs_per_kwh,period,source_sid
+DERC EV charging energy charge,low tension (residential),4.50,FY 2019-20,S267
+DERC EV charging energy charge,high tension (public charging; reported in ₹ per kVAh not confirmed identical to kWh),4.00,FY 2019-20,S267
+ICCT point charging blended rate used in TCO model,residential overnight plus public charging and fast charging blend,13.70,2021 study baseline,S276
+ICCT battery swapping rate used in TCO model,battery swap station price per kWh,34.00,2021 study baseline,S276
+ICCT battery swapping rate (sensitivity case),battery swap station price per kWh lower case,20.00,2021 study sensitivity,S276
+MERC Tata Power Mumbai EV charging tariff (context only; not Delhi),high tension,8.24,FY 2025-26,S288
+MERC Tata Power Mumbai EV charging tariff (context only; not Delhi),low tension,8.07,FY 2025-26,S288
+MERC Tata Power Mumbai EV charging tariff (context only; not Delhi),high tension,7.72,FY 2029-30,S288

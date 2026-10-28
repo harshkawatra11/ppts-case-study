@@ -1,0 +1,146 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING 35340701
+
+Ananya Iyer
+FIRST APPEAL DRAFTED
+
+Your first appeal is ready. Review it below and send it to the appellate authority.
+
+I applied for renewal of my passport four months ago at the Regional Passport Office and have received no update since the police verification stage. I want to know the current status and the reason for the delay.
+
+The following fields were not provided and were not guessed: geography.state. Fill these in before filing.
+
+FIRST APPEAL DUE (DEEMED REFUSAL)
+
+Under Section 19(1), due 2026-09-06.
+
+9
+
+Will an RTI actually get you what you need?
+
+YES, PROCEED AS A RIGHT TO INFORMATION APPLICATION
+
+Right to Information application
+
+This reads as a straightforward request for a record held by a public authority. Proceed with jurisdiction triage and drafting.
+
+Limitation: No limitation period to file the original application; thirty days to appeal a refusal or non-response
+
+§ 2(f)
+Who is legally required to answer you
+State subject
+Police
+List II, Entry 2 (Police)
+
+Department of Revenue, Government of NCT of Delhi
+
+confidence 78%
+
+Government of NCT of Delhi
+
+The Public Information Officer, Department of Revenue, Government of NCT of Delhi, 5th Level, C-Wing, Delhi Secretariat, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Police" (List II, Entry 2 (Police)). For a specific khasra or mutation record, file with the Sub-Divisional Magistrate or Tehsildar of the concerned area, not the Secretariat directly, where the local office is known.
+
+Delhi Police
+
+confidence 52%
+
+Government of NCT of Delhi (administered through Ministry of Home Affairs)
+
+The Public Information Officer, Delhi Police Headquarters, MSO Building, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Police" (List II, Entry 2 (Police)). Delhi Police is administratively under the Ministry of Home Affairs, an exception to the usual state-police pattern; the CPIO structure still follows the police force, not the ministry.
+
+This is the office I will write to
+Your application
+
+1.Please provide the current status of my passport renewal application, the date of completion of police verification, and the reason for any delay beyond the standard processing time.
+
+Remove
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in English, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+Fee
+
+Rs. 10, payable via court fee stamp, demand draft, online via rtionline.delhi.gov.in
+
+Your deadline
+
+Response due (30 days)
+
+Section 7(1), due 2026-08-07
+
+MISSED
+
+First appeal due (deemed refusal)
+
+Section 19(1), due 2026-09-06
+
+9 DAY(S) LEFT
+Show me what happens if they miss the deadline
+Drafted appeal and notes
+Auto-drafted first appeal (2026-08-29)
+
+FIRST APPEAL UNDER SECTION 19(1) OF THE RIGHT TO INFORMATION ACT, 2005
+
+To,
+The Appellate Authority, Delhi Police Headquarters, I.P. Estate, New Delhi 110002
+
+Date: 2026-08-29
+
+Subject: First appeal against deemed refusal under section 7(2)
+
+Sir or Madam,
+
+I filed an application under section 6(1) of the Right to Information Act, 2005 on 2026-07-08, addressed to the Public Information Officer, seeking the information set out below. No decision was communicated within the period specified in section 7(1), which expired on 2026-08-07. Under section 7(2) of the Act, the Public Information Officer is deemed to have refused the request.
+
+Particulars of information originally sought:
+1. Please provide the current status of my passport renewal application, the date of completion of police verification, and the reason for any delay beyond the standard processing time.
+
+As the statutory time limit was not met, I submit that, under section 7(6) of the Act, this information must now be provided to me free of charge, notwithstanding any fee otherwise prescribed.
+
+I request that this appeal be disposed of within the time limit prescribed under section 19(6) of the Act, and that the Public Information Officer be directed to furnish the information sought without further delay and without any fee.
+
+Yours faithfully,
+Ananya Iyer
+
+---
+This appeal was drafted automatically by Adhikaar on the date the statutory response deadline lapsed, citing sections 7(2), 19(1) and 7(6) of the Right to Information Act, 2005. It is a draft for human review before filing, not legal advice.
+Download
+Download your application
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

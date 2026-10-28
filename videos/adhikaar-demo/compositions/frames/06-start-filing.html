@@ -1,0 +1,177 @@
+<template>
+  <style>
+    @font-face {
+      font-family: 'Fraunces f06sf';
+      src: url('capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2') format('woff2');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root[data-composition-id="06-start-filing"] {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+    }
+
+    #root[data-composition-id="06-start-filing"] * {
+      box-sizing: border-box;
+    }
+
+    .f06sf-bg {
+      position: absolute;
+      inset: 0;
+      background: #F2EAD9;
+    }
+
+    .f06sf-wrap {
+      position: absolute;
+      inset: 0;
+    }
+
+    .f06sf-shot {
+      position: absolute;
+      left: 360px;
+      top: 90px;
+      width: 1200px;
+      height: 767px;
+      transform-origin: 50% 40%;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(36,26,16,0.08), 0 4px 16px rgba(36,26,16,0.04);
+    }
+
+    .f06sf-shot-img {
+      position: absolute;
+      left: -1000px;
+      top: -200px;
+      width: 3200px;
+      height: 1800px;
+      max-width: none;
+      display: block;
+    }
+
+    /* covers the baked-in example text with a flat field matching the
+       real textarea's own fill, so the live typed reveal draws on top */
+    .f06sf-mask {
+      position: absolute;
+      left: 90px;
+      top: 307px;
+      width: 1017px;
+      height: 266px;
+      background: #F2EAD9;
+    }
+
+    .f06sf-typed {
+      position: absolute;
+      left: 125px;
+      top: 338px;
+      width: 940px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .f06sf-typed-text {
+      font-family: 'Fraunces f06sf', Georgia, serif;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 1.45;
+      letter-spacing: -0.005em;
+      color: #241A10;
+      white-space: pre-wrap;
+    }
+
+    .f06sf-caret {
+      display: inline-block;
+      width: 14px;
+      height: 34px;
+      margin-left: 3px;
+      background: #93691F;
+      flex: 0 0 auto;
+      transform: translateY(2px);
+    }
+  </style>
+
+  <div id="root" data-composition-id="06-start-filing" data-width="1920" data-height="1080">
+    <div class="f06sf-bg clip" data-start="0" data-duration="4.096" data-track-index="0"></div>
+
+    <div class="f06sf-wrap clip" data-start="0" data-duration="4.096" data-track-index="1">
+      <div class="f06sf-shot" id="f06sf-shot">
+        <img
+          class="f06sf-shot-img"
+          src="capture/screenshots/start-filing-guided-interview.png"
+          alt=""
+        />
+        <div class="f06sf-mask"></div>
+        <div class="f06sf-typed">
+          <span class="f06sf-typed-text" id="f06sf-typed-text-el"></span
+          ><span class="f06sf-caret" id="f06sf-caret-el"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-1.5s): headline + subhead settle in — the captured
+      // guided-interview surface (kicker, headline, subhead, toolbar,
+      // empty box, Continue button) arrives as one Centered-template beat.
+      // Hero visible well before t=0.5s.
+      tl.fromTo(
+        '#f06sf-shot',
+        { opacity: 0, y: 26, scale: 0.965 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.42, ease: 'power3.out' },
+        0
+      );
+
+      // Scene 2 (1.5-4.096s): the real typed example — "My municipal
+      // corporation has not responded to my request for road repair
+      // records in my ward for the past six months." — reveals into the
+      // (masked-blank) textarea in sync with the VO's cadence, smooth
+      // character-slice typewriter (discrete-text-sequence's smooth
+      // variation) with a timeline-driven blinking caret
+      // (context-sensitive-cursor), holding on the filled box + Continue
+      // button through the end of the shot.
+      var fullText = 'My municipal corporation has not responded to my request for road repair records in my ward for the past six months.';
+      var textEl = document.getElementById('f06sf-typed-text-el');
+      var caretEl = document.getElementById('f06sf-caret-el');
+
+      var typeDriver = { v: 0 };
+      tl.to(
+        typeDriver,
+        {
+          v: fullText.length,
+          duration: 2.1,
+          ease: 'power1.inOut',
+          onUpdate: function () {
+            textEl.textContent = fullText.substring(0, Math.floor(typeDriver.v));
+          },
+        },
+        1.5
+      );
+
+      // Deterministic sin square-wave blink across the whole shot —
+      // 5 whole cycles over 4.096s keeps the sweep landing clean at the
+      // final frame under seek.
+      var blink = { p: 0 };
+      tl.to(
+        blink,
+        {
+          p: Math.PI * 2 * 5,
+          duration: 4.096,
+          ease: 'none',
+          onUpdate: function () {
+            caretEl.style.opacity = Math.sin(blink.p) > 0 ? '1' : '0';
+          },
+        },
+        0
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['06-start-filing'] = tl;
+    })();
+  </script>
+</template>

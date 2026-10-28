@@ -1,0 +1,133 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      src: url("capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F2EAD9;
+      font-family: "Fraunces", Georgia, serif;
+    }
+
+    .j04-shot {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #F2EAD9;
+    }
+
+    .j04-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: 50% 44%;
+      will-change: transform, filter, opacity;
+    }
+
+    .j04-vignette {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(242, 234, 217, 0.8), rgba(242, 234, 217, 0) 24%, rgba(242, 234, 217, 0) 76%, rgba(242, 234, 217, 0.76)),
+        linear-gradient(180deg, rgba(242, 234, 217, 0.86), rgba(242, 234, 217, 0) 28%, rgba(242, 234, 217, 0) 74%, rgba(242, 234, 217, 0.82));
+      pointer-events: none;
+    }
+
+    .j04-focus {
+      position: absolute;
+      left: 368px;
+      top: 318px;
+      width: 1184px;
+      height: 464px;
+      border: 3px solid #93691F;
+      border-radius: 12px;
+      box-shadow: 0 18px 70px rgba(36, 26, 16, 0.18);
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+
+    .j04-marker {
+      position: absolute;
+      left: 464px;
+      top: 520px;
+      width: 624px;
+      height: 18px;
+      background: rgba(147, 105, 31, 0.32);
+      border-radius: 999px;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+    }
+
+    .j04-card {
+      position: absolute;
+      right: 150px;
+      bottom: 106px;
+      width: 520px;
+      padding: 30px 34px 32px;
+      border: 1px solid rgba(36, 26, 16, 0.18);
+      border-radius: 8px;
+      background: rgba(242, 234, 217, 0.96);
+      color: #241A10;
+      box-shadow: 0 18px 60px rgba(36, 26, 16, 0.16);
+      opacity: 0;
+    }
+
+    .j04-label {
+      font: 600 20px/1.2 "IBM Plex Mono", monospace;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93691F;
+      margin-bottom: 16px;
+    }
+
+    .j04-title {
+      font-size: 42px;
+      line-height: 1.08;
+      font-weight: 420;
+      margin-bottom: 14px;
+    }
+
+    .j04-copy {
+      font-size: 24px;
+      line-height: 1.36;
+      color: rgba(36, 26, 16, 0.78);
+    }
+  </style>
+
+  <div id="root" data-composition-id="04-jurisdiction" data-width="1920" data-height="1080">
+    <div class="clip j04-shot" data-start="0" data-duration="9.877" data-track-index="0">
+      <img class="j04-img" id="j04-img" src="assets/filing-jurisdiction-mismatch-caught.png" alt="" />
+      <div class="j04-vignette" id="j04-vignette"></div>
+      <div class="j04-focus" id="j04-focus"></div>
+      <div class="j04-marker" id="j04-marker"></div>
+      <div class="j04-card" id="j04-card">
+        <div class="j04-label">caught before filing</div>
+        <div class="j04-title">State matter, Central office</div>
+        <div class="j04-copy">The app stops the wrong send and points to the authority that can actually answer.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      tl.fromTo("#j04-img", { scale: 1.06, y: 70, filter: "blur(2px)", opacity: 0.86 }, { scale: 1.13, y: -82, filter: "blur(0px)", opacity: 1, duration: 3.0, ease: "power3.inOut" }, 0);
+      tl.fromTo("#j04-focus", { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.45, ease: "power3.out" }, 2.45);
+      tl.to("#j04-marker", { scaleX: 1, duration: 0.55, ease: "power2.out" }, 3.45);
+      tl.fromTo("#j04-card", { opacity: 0, y: 36, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power3.out" }, 5.0);
+      tl.to("#j04-focus", { boxShadow: "0 20px 86px rgba(147,105,31,0.26)", duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 1 }, 6.1);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["04-jurisdiction"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,10 @@
+{
+  "moneyshot_delta_inr": 109.85,
+  "baseline_inr": 460.5,
+  "proposed_inr": 570.35,
+  "downside_delta_inr": -55.0,
+  "upside_delta_inr": 200.63,
+  "budget_lakh": 96.0,
+  "budget_inr": 9600000,
+  "assumption_status": "illustrative; no verified cohort freight discount, return rate, sale price or programme budget"
+}

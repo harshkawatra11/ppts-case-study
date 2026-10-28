@@ -1,0 +1,45 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S07_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S07_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S07_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S07_root .lyr{position:absolute;will-change:opacity,transform}
+    #S07_root .lyr img{display:block;width:100%;height:100%}
+    #S07_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    
+  </style>
+  <div id="S07_root" data-composition-id="S07" data-width="1920" data-height="1080">
+    <div id="S07_stage"><img class="bg" src="assets/slides/s3_skel.png" alt=""><div class="lyr" id="S07_a1" style="left:66px;top:314px;width:596px;height:350px"><img src="assets/crops/a1.png" alt=""></div><div class="lyr" id="S07_a2" style="left:682px;top:314px;width:556px;height:350px"><img src="assets/crops/a2.png" alt=""></div><div class="lyr" id="S07_a3" style="left:1258px;top:314px;width:596px;height:350px"><img src="assets/crops/a3.png" alt=""></div><div class="lyr" id="S07_a4" style="left:66px;top:680px;width:596px;height:350px"><img src="assets/crops/a4.png" alt=""></div><div class="lyr" id="S07_a5" style="left:682px;top:680px;width:556px;height:350px"><img src="assets/crops/a5.png" alt=""></div><div class="lyr" id="S07_a6" style="left:1258px;top:680px;width:596px;height:350px"><img src="assets/crops/a6.png" alt=""></div><div class="ovl" id="S07_o6" style="left:61px;top:675px;width:606px;height:360px;border-color:#184898;background:#18489829"></div></div>
+    
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S07_stage",{x:0.0,y:0.0,scale:1.0000},0);
+      tl.set("#S07_a1",{opacity:0},0);
+      tl.set("#S07_a2",{opacity:0},0);
+      tl.set("#S07_a3",{opacity:0},0);
+      tl.set("#S07_a4",{opacity:0},0);
+      tl.set("#S07_a5",{opacity:0},0);
+      tl.set("#S07_a6",{opacity:0},0);
+      tl.fromTo("#S07_stage",{opacity:0},{opacity:1,duration:0.45,ease:"power1.out"},0);
+      tl.fromTo("#S07_a1",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},0.250);
+      tl.fromTo("#S07_a2",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},0.550);
+      tl.fromTo("#S07_a3",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},0.850);
+      tl.fromTo("#S07_a4",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},1.150);
+      tl.fromTo("#S07_a5",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},1.450);
+      tl.fromTo("#S07_a6",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},1.750);
+      tl.set("#S07_o6",{opacity:0},0);
+      tl.to("#S07_o6",{opacity:1,duration:0.2},2.470);
+      tl.to("#S07_o6",{opacity:0,duration:0.45},3.870);
+      tl.to({}, { duration: 6.033 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S07"] = tl;
+    })();
+  </script>
+</template>

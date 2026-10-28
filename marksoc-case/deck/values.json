@@ -1,0 +1,1717 @@
+{
+ "hash": "9b3628d94d",
+ "c_S": "₹4,653",
+ "c_G": "₹2,524",
+ "c_F": "₹716",
+ "c_S_n": 4653,
+ "c_G_n": 2524,
+ "c_F_n": 716,
+ "cp_S": "₹5,500",
+ "cp_G": "₹2,699",
+ "cp_F": "₹164",
+ "cp_S_n": 5500,
+ "cp_G_n": 2699,
+ "cp_F_n": 164,
+ "stack": {
+  "S": [
+   17800,
+   800,
+   600,
+   75,
+   72,
+   4653
+  ],
+  "G": [
+   11600,
+   1000,
+   600,
+   150,
+   126,
+   2524
+  ],
+  "F": [
+   7000,
+   1200,
+   600,
+   250,
+   234,
+   716
+  ]
+ },
+ "ch": [
+  [
+   "Performance ads",
+   "2,600",
+   "−2.1",
+   "−₹81",
+   "₹2,308",
+   "₹2,308",
+   "8.8%"
+  ],
+  [
+   "MegaKart",
+   "2,000",
+   "4.6",
+   "₹231",
+   "₹0",
+   "₹1,692",
+   "9.4%"
+  ],
+  [
+   "Creators",
+   "900",
+   "10.2",
+   "₹1,137",
+   "₹2,000",
+   "₹2,000",
+   "9.6%"
+  ],
+  [
+   "Stores",
+   "1,000",
+   "12.6",
+   "₹1,258",
+   "₹2,100",
+   "₹2,100",
+   "3.1%"
+  ],
+  [
+   "Referrals",
+   "700",
+   "18.5",
+   "₹2,648",
+   "₹350",
+   "₹350",
+   "6.9%"
+  ]
+ ],
+ "ch_cam_n": [
+  -2.11,
+  4.63,
+  10.23,
+  12.58,
+  18.54
+ ],
+ "ch_per_n": [
+  -81,
+  231,
+  1137,
+  1258,
+  2648
+ ],
+ "ch_dash_n": [
+  2308,
+  0,
+  2000,
+  2100,
+  350
+ ],
+ "ch_true_n": [
+  2308,
+  1692,
+  2000,
+  2100,
+  350
+ ],
+ "ch_names": [
+  "Performance ads",
+  "MegaKart",
+  "Creators",
+  "Stores",
+  "Referrals"
+ ],
+ "ch_rr_n": [
+  8.8,
+  9.4,
+  9.6,
+  3.1,
+  6.9
+ ],
+ "mk_comm_per": "₹1,692",
+ "cam0": "43.9",
+ "e0": "−14.1",
+ "e0_n": -14.14,
+ "fixed": "58.0",
+ "ltm": "−169.6",
+ "rr0": "8.1%",
+ "rr0_n": 8.09,
+ "rets0": "582",
+ "claims0": "468",
+ "claims_cost": "11.7",
+ "ret_cost": "10.5",
+ "trust_tax": "22.2",
+ "rev_cr": "139.2",
+ "gs0": {
+  "S": "1,775",
+  "G": "3,190",
+  "F": "2,235"
+ },
+ "gs0_n": {
+  "S": 1775,
+  "G": 3190,
+  "F": 2235
+ },
+ "gc0": {
+  "S": "82.6",
+  "G": "80.5",
+  "F": "16.0"
+ },
+ "gc0_n": {
+  "S": 82.6,
+  "G": 80.5,
+  "F": 16.0
+ },
+ "funnel": [
+  [
+   "Visited the website",
+   "9,60,000",
+   ""
+  ],
+  [
+   "Opened a product page",
+   "3,10,000",
+   "32.3%"
+  ],
+  [
+   "Added a phone to cart",
+   "26,000",
+   "8.4%"
+  ],
+  [
+   "Placed an order",
+   "4,200",
+   "16.2%"
+  ]
+ ],
+ "funnel_n": [
+  960000,
+  310000,
+  26000,
+  4200
+ ],
+ "v2o": "0.44%",
+ "pdp2cart": "8.4%",
+ "cart2order": "16.2%",
+ "pdp_leave": "91.6%",
+ "util0": "100%",
+ "superb0": "1,775",
+ "superb_head": "225",
+ "superb_used": "89%",
+ "spot_pct": "11%",
+ "spot_month": "351",
+ "reasons": [
+  [
+   "Worried the battery will not last",
+   46
+  ],
+  [
+   "Cannot tell the real condition from photos",
+   41
+  ],
+  [
+   "6 month warranty is too short",
+   31
+  ],
+  [
+   "Wanted to see the phone in person",
+   28
+  ],
+  [
+   "Price not low enough compared with a local shop",
+   24
+  ],
+  [
+   "Phone might be stolen or locked",
+   22
+  ],
+  [
+   "Worried about the previous owner's data",
+   12
+  ]
+ ],
+ "offers": [
+  [
+   "Battery health guaranteed at 85% or more",
+   44
+  ],
+  [
+   "12 month warranty",
+   39
+  ],
+  [
+   "A condition report with real photos, a battery reading and an IMEI check",
+   36
+  ],
+  [
+   "Take my old phone as part payment",
+   31
+  ],
+  [
+   "A price 5% lower",
+   22
+  ]
+ ],
+ "segs": [
+  [
+   "Flagship on a budget",
+   34,
+   "Superb"
+  ],
+  [
+   "Value seekers",
+   29,
+   "Fair"
+  ],
+  [
+   "Family buyers",
+   21,
+   "Good"
+  ],
+  [
+   "Upgraders",
+   16,
+   "Superb and Good"
+  ]
+ ],
+ "gm_tot": "58.0",
+ "gm_left": "22.0",
+ "gm": {
+  "Jan": "40.0",
+  "Feb": "9.0",
+  "Mar": "9.0"
+ },
+ "e": {
+  "Jan": "−54.1",
+  "Feb": "5.6",
+  "Mar": "5.6"
+ },
+ "e_n": {
+  "Jan": -54.14,
+  "Feb": 5.6,
+  "Mar": 5.6
+ },
+ "cam": {
+  "Jan": "43.9",
+  "Feb": "72.6",
+  "Mar": "72.6"
+ },
+ "sold": {
+  "Jan": "7,200",
+  "Feb": "8,328",
+  "Mar": "8,328"
+ },
+ "sold_n": {
+  "Jan": 7200,
+  "Feb": 8328,
+  "Mar": 8328
+ },
+ "rr": {
+  "Jan": "8.1%",
+  "Feb": "4.5%",
+  "Mar": "4.5%"
+ },
+ "rr_n": {
+  "Jan": 8.09,
+  "Feb": 4.55,
+  "Mar": 4.55
+ },
+ "rr_mar2": "4.55%",
+ "q1": "−42.9",
+ "q1_0": "−42.4",
+ "dq1": "−0.5",
+ "swing": "+19.7",
+ "swing_yr": "236.9",
+ "demand_mar": "8,398",
+ "lost_S": "70",
+ "gsm": {
+  "S": "2,000",
+  "G": "3,721",
+  "F": "2,607"
+ },
+ "util_mar": "93%",
+ "uplift": "16.6%",
+ "bridge": [
+  [
+   "Do nothing",
+   -14.1
+  ],
+  [
+   "More phones",
+   20.8
+  ],
+  [
+   "Prices up 4%",
+   41.9
+  ],
+  [
+   "New batteries",
+   -29.5
+  ],
+  [
+   "Report ₹120",
+   -10.0
+  ],
+  [
+   "Claim rates",
+   0.2
+  ],
+  [
+   "Fewer returns",
+   5.4
+  ],
+  [
+   "Third shift",
+   -9.0
+  ],
+  [
+   "Our March",
+   5.6
+  ]
+ ],
+ "a_short": [
+  [
+   "A01",
+   "Lever A's ₹10 lakh counts once, as growth money, not in ads' fixed spend"
+  ],
+  [
+   "A02",
+   "Every channel's fixed spend stays as today in every plan and month"
+  ],
+  [
+   "A03",
+   "Commission, coupons and per-phone costs apply to delivered orders only"
+  ],
+  [
+   "A04",
+   "Rationing covers trade in orders too: Superb first, then all orders pro rata"
+  ],
+  [
+   "A05",
+   "Return cuts from B1 and B2 multiply each channel's own return rate"
+  ],
+  [
+   "A06",
+   "The 15% trade in failure rate applies equally to every grade"
+  ],
+  [
+   "A07",
+   "30% of all trade ins, failed or passed, also buy a Tikau phone"
+  ],
+  [
+   "A08",
+   "From February Superb is graded on Tikau's reading; none changes grade"
+  ],
+  [
+   "A09",
+   "January is today in every plan; doing nothing repeats today three times"
+  ],
+  [
+   "A10",
+   "A third shift adds 1,800 sellable phones for ₹9 lakh of growth money a month"
+  ],
+  [
+   "A11",
+   "B2's 4% price rise also raises MegaKart's 12% commission"
+  ],
+  [
+   "A12",
+   "The ₹120 report and B2 battery costs apply to trade in buyers' phones too"
+  ],
+  [
+   "A13",
+   "Weekly figures use 4.33 weeks a month"
+  ],
+  [
+   "A14",
+   "The spot check rate (22 of 200) applies to every Good phone sold"
+  ],
+  [
+   "A15",
+   "April brings new growth money; trade in ramps 1,000, 1,800, then +800 a month"
+  ],
+  [
+   "A16",
+   "Stress tests move only what Tikau does not control, 25% worse or better"
+  ],
+  [
+   "A17",
+   "The case's ₹139 crore is read as selling price before commission"
+  ],
+  [
+   "A18",
+   "August to October averages stand for November to January"
+  ],
+  [
+   "A19",
+   "Store, creator and MegaKart return multipliers hold under B1 and B2"
+  ],
+  [
+   "A20",
+   "Only traded phones that pass save 8%; failed ones go for parts at cost"
+  ]
+ ],
+ "be_up": "10.5%",
+ "be_orders": "7,957",
+ "be_week": "1,838",
+ "plan_week": "1,923",
+ "be_gbat": "55%",
+ "be_fbat": "97%",
+ "rr_mult_6": "74%",
+ "tor": [
+  [
+   "Good battery swaps",
+   1.9,
+   9.3
+  ],
+  [
+   "Fair battery swaps",
+   2.0,
+   9.3
+  ],
+  [
+   "Claim rates after B2",
+   2.2,
+   9.0
+  ],
+  [
+   "Order rise",
+   2.8,
+   8.2
+  ],
+  [
+   "Return cut",
+   4.4,
+   6.7
+  ]
+ ],
+ "scen": {
+  "Bear": {
+   "feb": "−8.7",
+   "mar": "−8.7",
+   "d": "−29.2",
+   "rr": "5.3%",
+   "ok": "Fail"
+  },
+  "Base": {
+   "feb": "5.6",
+   "mar": "5.6",
+   "d": "−0.5",
+   "rr": "4.5%",
+   "ok": "Pass"
+  },
+  "Bull": {
+   "feb": "20.5",
+   "mar": "20.5",
+   "d": "+29.2",
+   "rr": "3.8%",
+   "ok": "Pass"
+  }
+ },
+ "t14": [
+  [
+   "Do nothing",
+   "Do nothing",
+   "0.0",
+   "−14.1",
+   "0.0",
+   "8.1%",
+   [
+    true,
+    false,
+    false,
+    false
+   ]
+  ],
+  [
+   "Rohan: price push",
+   "A",
+   "20.0",
+   "−55.7",
+   "−83.2",
+   "8.9%",
+   [
+    true,
+    false,
+    false,
+    false
+   ]
+  ],
+  [
+   "Rohan with a third shift",
+   "A + shift from Feb",
+   "38.0",
+   "−36.9",
+   "−45.6",
+   "8.9%",
+   [
+    true,
+    false,
+    false,
+    false
+   ]
+  ],
+  [
+   "Kabir: certify and warranty",
+   "B1 + B2",
+   "40.0",
+   "−8.6",
+   "−29.0",
+   "4.5%",
+   [
+    true,
+    false,
+    true,
+    true
+   ]
+  ],
+  [
+   "Store managers: trade in",
+   "C",
+   "35.0",
+   "−4.9",
+   "−20.7",
+   "8.0%",
+   [
+    true,
+    false,
+    false,
+    false
+   ]
+  ],
+  [
+   "Battery promise without the report",
+   "B2 + shift from Feb",
+   "43.0",
+   "2.8",
+   "+9.0",
+   "6.5%",
+   [
+    true,
+    true,
+    false,
+    false
+   ]
+  ],
+  [
+   "Everything that fits on paper",
+   "B1 + B2 + C + shift from Feb",
+   "93.0",
+   "31.2",
+   "+5.9",
+   "4.5%",
+   [
+    false,
+    true,
+    true,
+    true
+   ]
+  ],
+  [
+   "Trade in instead of the shift",
+   "B1 + B2 + C",
+   "75.0",
+   "3.4",
+   "−44.4",
+   "4.5%",
+   [
+    true,
+    true,
+    true,
+    true
+   ]
+  ],
+  [
+   "Our plan",
+   "B1 + B2 + shift from Feb",
+   "58.0",
+   "5.6",
+   "−0.5",
+   "4.5%",
+   [
+    true,
+    true,
+    true,
+    true
+   ]
+  ]
+ ],
+ "n_plans": "84",
+ "n_ok": "5",
+ "feas": [
+  [
+   "B1 + B2 + shift from Feb",
+   "58.0",
+   "5.6",
+   "−0.5",
+   "4.5%"
+  ],
+  [
+   "B1 + B2 + shift from Mar",
+   "49.0",
+   "5.6",
+   "−14.8",
+   "4.5%"
+  ],
+  [
+   "B1 + C + shift from Feb",
+   "68.0",
+   "1.9",
+   "−26.6",
+   "5.6%"
+  ],
+  [
+   "B1 + C + shift from Mar",
+   "59.0",
+   "1.9",
+   "−34.4",
+   "5.6%"
+  ],
+  [
+   "B1 + B2 + C",
+   "75.0",
+   "3.4",
+   "−44.4",
+   "4.5%"
+  ]
+ ],
+ "scatter": [
+  [
+   -14.1,
+   0,
+   0
+  ],
+  [
+   -23.1,
+   18,
+   0
+  ],
+  [
+   -23.1,
+   9,
+   0
+  ],
+  [
+   -55.7,
+   20,
+   0
+  ],
+  [
+   -36.9,
+   38,
+   0
+  ],
+  [
+   -36.9,
+   29,
+   0
+  ],
+  [
+   -19.6,
+   15,
+   0
+  ],
+  [
+   -17.6,
+   33,
+   0
+  ],
+  [
+   -17.6,
+   24,
+   0
+  ],
+  [
+   -0.7,
+   25,
+   0
+  ],
+  [
+   2.8,
+   43,
+   0
+  ],
+  [
+   2.8,
+   34,
+   0
+  ],
+  [
+   -4.9,
+   35,
+   0
+  ],
+  [
+   -3.1,
+   53,
+   0
+  ],
+  [
+   -3.1,
+   44,
+   0
+  ],
+  [
+   -60.9,
+   35,
+   0
+  ],
+  [
+   -43.4,
+   53,
+   0
+  ],
+  [
+   -43.4,
+   44,
+   0
+  ],
+  [
+   -50.4,
+   45,
+   0
+  ],
+  [
+   -30.3,
+   63,
+   0
+  ],
+  [
+   -30.3,
+   54,
+   0
+  ],
+  [
+   -45.2,
+   55,
+   0
+  ],
+  [
+   -25.8,
+   73,
+   0
+  ],
+  [
+   -25.8,
+   64,
+   0
+  ],
+  [
+   -8.6,
+   40,
+   0
+  ],
+  [
+   5.6,
+   58,
+   1
+  ],
+  [
+   5.6,
+   49,
+   1
+  ],
+  [
+   -33.0,
+   45,
+   0
+  ],
+  [
+   -25.5,
+   63,
+   0
+  ],
+  [
+   -25.5,
+   54,
+   0
+  ],
+  [
+   -10.5,
+   50,
+   0
+  ],
+  [
+   1.9,
+   68,
+   1
+  ],
+  [
+   1.9,
+   59,
+   1
+  ],
+  [
+   -13.8,
+   55,
+   0
+  ],
+  [
+   -4.0,
+   73,
+   0
+  ],
+  [
+   -4.0,
+   64,
+   0
+  ],
+  [
+   9.8,
+   60,
+   0
+  ],
+  [
+   25.3,
+   78,
+   0
+  ],
+  [
+   25.3,
+   69,
+   0
+  ],
+  [
+   -58.4,
+   60,
+   0
+  ],
+  [
+   -40.3,
+   78,
+   0
+  ],
+  [
+   -40.3,
+   69,
+   0
+  ],
+  [
+   -74.6,
+   65,
+   0
+  ],
+  [
+   -56.7,
+   83,
+   0
+  ],
+  [
+   -56.7,
+   74,
+   0
+  ],
+  [
+   -50.6,
+   70,
+   0
+  ],
+  [
+   -32.5,
+   88,
+   0
+  ],
+  [
+   -32.5,
+   79,
+   0
+  ],
+  [
+   -63.9,
+   75,
+   0
+  ],
+  [
+   -43.4,
+   93,
+   0
+  ],
+  [
+   -43.4,
+   84,
+   0
+  ],
+  [
+   -38.7,
+   80,
+   0
+  ],
+  [
+   -17.6,
+   98,
+   0
+  ],
+  [
+   -17.6,
+   89,
+   0
+  ],
+  [
+   -24.0,
+   70,
+   0
+  ],
+  [
+   -5.5,
+   88,
+   0
+  ],
+  [
+   -5.5,
+   79,
+   0
+  ],
+  [
+   3.4,
+   75,
+   1
+  ],
+  [
+   31.2,
+   93,
+   0
+  ],
+  [
+   31.2,
+   84,
+   0
+  ],
+  [
+   -24.0,
+   80,
+   0
+  ],
+  [
+   -5.9,
+   98,
+   0
+  ],
+  [
+   -5.9,
+   89,
+   0
+  ],
+  [
+   -3.5,
+   90,
+   0
+  ],
+  [
+   18.6,
+   108,
+   0
+  ],
+  [
+   18.6,
+   99,
+   0
+  ],
+  [
+   -73.6,
+   90,
+   0
+  ],
+  [
+   -55.4,
+   108,
+   0
+  ],
+  [
+   -55.4,
+   99,
+   0
+  ],
+  [
+   -44.8,
+   95,
+   0
+  ],
+  [
+   -25.3,
+   113,
+   0
+  ],
+  [
+   -25.3,
+   104,
+   0
+  ],
+  [
+   -64.0,
+   100,
+   0
+  ],
+  [
+   -45.5,
+   118,
+   0
+  ],
+  [
+   -45.5,
+   109,
+   0
+  ],
+  [
+   -51.8,
+   110,
+   0
+  ],
+  [
+   -30.3,
+   128,
+   0
+  ],
+  [
+   -30.3,
+   119,
+   0
+  ],
+  [
+   -9.8,
+   105,
+   0
+  ],
+  [
+   19.7,
+   123,
+   0
+  ],
+  [
+   19.7,
+   114,
+   0
+  ],
+  [
+   -58.0,
+   125,
+   0
+  ],
+  [
+   -38.0,
+   143,
+   0
+  ],
+  [
+   -38.0,
+   134,
+   0
+  ]
+ ],
+ "scatter_ours": [
+  5.6,
+  58
+ ],
+ "apr": [
+  [
+   "Keep the plan",
+   "0",
+   "5.6",
+   "0.0"
+  ],
+  [
+   "Add B3 trust campaign",
+   "0",
+   "−5.5",
+   "−11.1"
+  ],
+  [
+   "Add A price push",
+   "0",
+   "−40.3",
+   "−45.9"
+  ],
+  [
+   "Add C trade in, month 1",
+   "1,000",
+   "21.4",
+   "+15.8"
+  ],
+  [
+   "Add C trade in, month 2",
+   "1,800",
+   "31.2",
+   "+25.6"
+  ],
+  [
+   "Add C trade in, month 3",
+   "2,600",
+   "37.2",
+   "+31.6"
+  ],
+  [
+   "Add C trade in, month 4",
+   "3,400",
+   "41.8",
+   "+36.2"
+  ],
+  [
+   "Add C trade in, month 5",
+   "4,000",
+   "45.3",
+   "+39.7"
+  ]
+ ],
+ "apr_n": [
+  [
+   "Keep the plan",
+   5.6
+  ],
+  [
+   "Add B3 trust campaign",
+   -5.5
+  ],
+  [
+   "Add A price push",
+   -40.3
+  ],
+  [
+   "Add C trade in, month 1",
+   21.4
+  ],
+  [
+   "Add C trade in, month 2",
+   31.2
+  ],
+  [
+   "Add C trade in, month 3",
+   37.2
+  ],
+  [
+   "Add C trade in, month 4",
+   41.8
+  ],
+  [
+   "Add C trade in, month 5",
+   45.3
+  ]
+ ],
+ "chm": [
+  [
+   "Performance ads",
+   "3,012",
+   "7.0",
+   "₹231",
+   "4.9%"
+  ],
+  [
+   "MegaKart",
+   "2,325",
+   "2.1",
+   "₹92",
+   "5.3%"
+  ],
+  [
+   "Creators",
+   "1,035",
+   "18.3",
+   "₹1,769",
+   "5.4%"
+  ],
+  [
+   "Stores",
+   "1,149",
+   "21.6",
+   "₹1,881",
+   "1.8%"
+  ],
+  [
+   "Referrals",
+   "807",
+   "23.6",
+   "₹2,923",
+   "3.9%"
+  ]
+ ],
+ "chm_cam_n": [
+  6.96,
+  2.14,
+  18.31,
+  21.61,
+  23.58
+ ],
+ "unit": {
+  "Today": {
+   "S": "₹4,653",
+   "G": "₹2,524",
+   "F": "₹716"
+  },
+  "A": {
+   "S": "₹4,653",
+   "G": "₹2,524",
+   "F": "₹416"
+  },
+  "B1": {
+   "S": "₹4,555",
+   "G": "₹2,442",
+   "F": "₹666"
+  },
+  "B2": {
+   "S": "₹5,602",
+   "G": "₹2,789",
+   "F": "₹228"
+  },
+  "B1 + B2": {
+   "S": "₹5,500",
+   "G": "₹2,699",
+   "F": "₹164"
+  },
+  "A + B1 + B2": {
+   "S": "₹5,500",
+   "G": "₹2,699",
+   "F": "−₹136"
+  }
+ },
+ "unit_n": {
+  "Today": {
+   "S": 4653,
+   "G": 2524,
+   "F": 716
+  },
+  "A": {
+   "S": 4653,
+   "G": 2524,
+   "F": 416
+  },
+  "B1": {
+   "S": 4555,
+   "G": 2442,
+   "F": 666
+  },
+  "B2": {
+   "S": 5602,
+   "G": 2789,
+   "F": 228
+  },
+  "B1 + B2": {
+   "S": 5500,
+   "G": 2699,
+   "F": 164
+  },
+  "A + B1 + B2": {
+   "S": 5500,
+   "G": 2699,
+   "F": -136
+  }
+ },
+ "fS": "3.4%",
+ "e_mar": "5.6",
+ "rr_mar": "4.5%",
+ "e0_mar": "−14.1",
+ "wf_month": [
+  [
+   "Phones",
+   179.2
+  ],
+  [
+   "MegaKart",
+   -33.8
+  ],
+  [
+   "Channels",
+   -99.0
+  ],
+  [
+   "Coupons",
+   -2.5
+  ],
+  [
+   "Fixed costs",
+   -58.0
+  ],
+  [
+   "EBITDA",
+   -14.1
+  ]
+ ],
+ "gross0": "179.2",
+ "comm0": "33.8",
+ "retgrid": [
+  [
+   "Performance ads",
+   "4.0",
+   "7.0",
+   "13.0",
+   "8.8"
+  ],
+  [
+   "MegaKart",
+   "4.0",
+   "7.0",
+   "13.0",
+   "9.4"
+  ],
+  [
+   "Creators",
+   "6.0",
+   "10.5",
+   "19.5",
+   "9.6"
+  ],
+  [
+   "Stores",
+   "2.0",
+   "3.5",
+   "6.5",
+   "3.1"
+  ],
+  [
+   "Referrals",
+   "4.0",
+   "7.0",
+   "13.0",
+   "6.9"
+  ]
+ ],
+ "pw_G": [
+  [
+   "Today",
+   2524
+  ],
+  [
+   "Price up 4%",
+   640
+  ],
+  [
+   "New battery",
+   -400
+  ],
+  [
+   "Report",
+   -120
+  ],
+  [
+   "Claims",
+   0
+  ],
+  [
+   "Fewer returns",
+   55
+  ],
+  [
+   "Our plan",
+   2699
+  ]
+ ],
+ "pw_F": [
+  [
+   "Today",
+   716
+  ],
+  [
+   "Price up 4%",
+   0
+  ],
+  [
+   "New battery",
+   -560
+  ],
+  [
+   "Report",
+   -120
+  ],
+  [
+   "Claims",
+   25
+  ],
+  [
+   "Fewer returns",
+   103
+  ],
+  [
+   "Our plan",
+   164
+  ]
+ ],
+ "pw_S": [
+  [
+   "Today",
+   4653
+  ],
+  [
+   "Price up 4%",
+   960
+  ],
+  [
+   "New battery",
+   0
+  ],
+  [
+   "Report",
+   -120
+  ],
+  [
+   "Claims",
+   -25
+  ],
+  [
+   "Fewer returns",
+   32
+  ],
+  [
+   "Our plan",
+   5500
+  ]
+ ],
+ "seg_rows": [
+  [
+   "Flagship on a budget",
+   5,
+   5,
+   1,
+   5,
+   3,
+   3,
+   22
+  ],
+  [
+   "Value seekers",
+   4,
+   1,
+   5,
+   1,
+   1,
+   1,
+   13
+  ],
+  [
+   "Family buyers",
+   3,
+   3,
+   5,
+   3,
+   5,
+   5,
+   24
+  ],
+  [
+   "Upgraders",
+   2,
+   4,
+   3,
+   4,
+   2,
+   1,
+   16
+  ]
+ ],
+ "seg_basis": {
+  "Flagship on a budget": [
+   "34%",
+   "Superb ₹5,500",
+   "Superb capped at 2,000",
+   "Superb 4%",
+   "photos and condition (41%)",
+   "B1 + B2, but Superb is rationed"
+  ],
+  "Value seekers": [
+   "29%",
+   "Fair ₹164",
+   "no cap",
+   "Fair 13%",
+   "price (24%)",
+   "only A, which fails tests 2 to 4"
+  ],
+  "Family buyers": [
+   "21%",
+   "Good ₹2,699",
+   "no cap",
+   "Good 7%",
+   "who will fix it: 12 months (39%), battery (46%)",
+   "B1 + B2"
+  ],
+  "Upgraders": [
+   "16%",
+   "Superb and Good",
+   "half capped",
+   "4% to 7%",
+   "part payment (31%)",
+   "C, which does not fit the ₹80 lakh with B1 + B2"
+  ]
+ },
+ "seg_crit": [
+  "Size: share of buyers",
+  "Contribution a phone after the plan",
+  "Room to grow in Q1",
+  "Return risk of the grade",
+  "Their worry is what B1 + B2 fix",
+  "A lever that passes the board tests reaches them"
+ ],
+ "reason_fix": [
+  "B2 (85% battery) with B1 (lab reading)",
+  "B1 (real photos, condition report)",
+  "B2 (12 month warranty)",
+  "Stores (existing channel)",
+  "A (Fair price cut only)",
+  "B1 (IMEI check)",
+  "B1 (data wipe certificate)"
+ ],
+ "e_gbat50": "1.9",
+ "rr_trig": "5.5%",
+ "gbat_trig": "50%",
+ "good_up": "531",
+ "mk_per_mar": "₹92",
+ "pb_gap": "1.9%",
+ "e0_rl": "−₹14.1 lakh",
+ "e_mar_rl": "+₹5.6 lakh",
+ "gm_rl": "₹58.0 lakh",
+ "swing_rl": "₹19.7 lakh",
+ "dq1_rl": "−₹0.5 lakh",
+ "q1_rl": "−₹42.9 lakh",
+ "q1_0_rl": "−₹42.4 lakh",
+ "ads_rl": "−₹2.1 lakh",
+ "trust_rl": "₹22.2 lakh",
+ "ltm_rl": "−₹169.6 lakh",
+ "lost_noshift": "1,198",
+ "kab_mar": "−₹8.6 lakh",
+ "roh_mar": "−₹55.7 lakh",
+ "roh_lost": "24%",
+ "tin_mar": "−₹4.9 lakh",
+ "tin_rr": "8.0%",
+ "all_gm": "93.0",
+ "all_mar": "31.2",
+ "b2_rr": "6.5%",
+ "b2_d": "+9.0",
+ "gap2": "14.2",
+ "b3_gain": "3.9",
+ "tin_payback": "2.2",
+ "claims_n0": "468",
+ "superb_dem": "2,070",
+ "ch_rets": [
+  [
+   "Performance ads",
+   "2,600",
+   "228.8",
+   "8.80%"
+  ],
+  [
+   "MegaKart",
+   "2,000",
+   "188.0",
+   "9.40%"
+  ],
+  [
+   "Creators",
+   "900",
+   "86.4",
+   "9.60%"
+  ],
+  [
+   "Stores",
+   "1,000",
+   "31.2",
+   "3.12%"
+  ],
+  [
+   "Referrals",
+   "700",
+   "48.0",
+   "6.85%"
+  ]
+ ],
+ "t2rows": [
+  [
+   "Average selling price",
+   "₹24,000",
+   "₹16,000",
+   "₹10,000"
+  ],
+  [
+   "Price paid to the trader",
+   "−₹17,800",
+   "−₹11,600",
+   "−₹7,000"
+  ],
+  [
+   "Testing and repair",
+   "−₹800",
+   "−₹1,000",
+   "−₹1,200"
+  ],
+  [
+   "Packing, delivery, payment",
+   "−₹600",
+   "−₹600",
+   "−₹600"
+  ],
+  [
+   "Claims: rate x ₹2,500",
+   "−₹75",
+   "−₹150",
+   "−₹250"
+  ],
+  [
+   "Returns: rate x ₹1,800",
+   "−₹72",
+   "−₹126",
+   "−₹234"
+  ],
+  [
+   "Contribution per phone",
+   "₹4,653",
+   "₹2,524",
+   "₹716"
+  ]
+ ],
+ "t4rows": [
+  [
+   "Performance ads",
+   "2,600",
+   "57.9",
+   "0.0",
+   "−60.0",
+   "0.0",
+   "−2.1",
+   "8.8%"
+  ],
+  [
+   "MegaKart",
+   "2,000",
+   "38.5",
+   "−33.8",
+   "0.0",
+   "0.0",
+   "4.6",
+   "9.4%"
+  ],
+  [
+   "Creators",
+   "900",
+   "28.2",
+   "0.0",
+   "−18.0",
+   "0.0",
+   "10.2",
+   "9.6%"
+  ],
+  [
+   "Stores",
+   "1,000",
+   "33.6",
+   "0.0",
+   "−21.0",
+   "0.0",
+   "12.6",
+   "3.1%"
+  ],
+  [
+   "Referrals",
+   "700",
+   "21.0",
+   "0.0",
+   "0.0",
+   "−2.4",
+   "18.5",
+   "6.9%"
+  ],
+  [
+   "Total",
+   "7,200",
+   "179.2",
+   "−33.8",
+   "−99.0",
+   "−2.4",
+   "43.9",
+   "8.1%"
+  ]
+ ],
+ "n_checks": "13 of 13"
+}

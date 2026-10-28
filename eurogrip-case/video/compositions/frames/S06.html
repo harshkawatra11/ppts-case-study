@@ -1,0 +1,94 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S06_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S06_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S06_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S06_root .lyr{position:absolute;will-change:opacity,transform}
+    #S06_root .lyr img{display:block;width:100%;height:100%}
+    #S06_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    
+  </style>
+  <div id="S06_root" data-composition-id="S06" data-width="1920" data-height="1080">
+    <div id="S06_stage"><img class="bg" src="assets/slides/s2_skel.png" alt=""><div class="lyr" id="S06_p1_title" style="left:122px;top:314px;width:656px;height:52px"><img src="assets/crops/p1_title.png" alt=""></div><div class="lyr" id="S06_p1_root" style="left:134px;top:368px;width:632px;height:44px"><img src="assets/crops/p1_root.png" alt=""></div><div class="lyr" id="S06_p1_bus" style="left:230px;top:408px;width:440px;height:22px"><img src="assets/crops/p1_bus.png" alt=""></div><div class="lyr" id="S06_p1_n1" style="left:134px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n1.png" alt=""></div><div class="lyr" id="S06_p1_n2" style="left:348px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n2.png" alt=""></div><div class="lyr" id="S06_p1_n3" style="left:562px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n3.png" alt=""></div><div class="lyr" id="S06_p2_title" style="left:798px;top:314px;width:466px;height:52px"><img src="assets/crops/p2_title.png" alt=""></div><div class="lyr" id="S06_p2_table" style="left:810px;top:368px;width:442px;height:158px"><img src="assets/crops/p2_table.png" alt=""></div><div class="lyr" id="S06_p3_title" style="left:1284px;top:314px;width:570px;height:52px"><img src="assets/crops/p3_title.png" alt=""></div><div class="lyr" id="S06_p3_table" style="left:1296px;top:368px;width:546px;height:158px"><img src="assets/crops/p3_table.png" alt=""></div><div class="lyr" id="S06_p4_title" style="left:122px;top:558px;width:756px;height:52px"><img src="assets/crops/p4_title.png" alt=""></div><div class="lyr" id="S06_p4_table" style="left:134px;top:612px;width:732px;height:128px"><img src="assets/crops/p4_table.png" alt=""></div><div class="lyr" id="S06_p4_repay" style="left:134px;top:744px;width:732px;height:32px"><img src="assets/crops/p4_repay.png" alt=""></div><div class="lyr" id="S06_p5" style="left:893px;top:553px;width:417px;height:245px"><img src="assets/crops/p5.png" alt=""></div><div class="lyr" id="S06_p6_title" style="left:1318px;top:558px;width:536px;height:52px"><img src="assets/crops/p6_title.png" alt=""></div><div class="lyr" id="S06_p6_n1" style="left:1330px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n1.png" alt=""></div><div class="lyr" id="S06_p6_n2" style="left:1460px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n2.png" alt=""></div><div class="lyr" id="S06_p6_n3" style="left:1590px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n3.png" alt=""></div><div class="lyr" id="S06_p6_n4" style="left:1720px;top:614px;width:122px;height:64px"><img src="assets/crops/p6_n4.png" alt=""></div><div class="lyr" id="S06_p6_return" style="left:1330px;top:678px;width:512px;height:48px"><img src="assets/crops/p6_return.png" alt=""></div><div class="lyr" id="S06_p6_bullets" style="left:1330px;top:726px;width:512px;height:60px"><img src="assets/crops/p6_bullets.png" alt=""></div><div class="lyr" id="S06_p7_title" style="left:122px;top:802px;width:556px;height:52px"><img src="assets/crops/p7_title.png" alt=""></div><div class="lyr" id="S06_p7_chart" style="left:134px;top:856px;width:240px;height:170px"><img src="assets/crops/p7_chart.png" alt=""></div><div class="lyr" id="S06_p7_legend" style="left:384px;top:854px;width:288px;height:166px"><img src="assets/crops/p7_legend.png" alt=""></div><div class="lyr" id="S06_p8_title" style="left:698px;top:802px;width:596px;height:52px"><img src="assets/crops/p8_title.png" alt=""></div><div class="lyr" id="S06_p8_bars" style="left:710px;top:856px;width:572px;height:138px"><img src="assets/crops/p8_bars.png" alt=""></div><div class="lyr" id="S06_p8_strip" style="left:710px;top:994px;width:572px;height:32px"><img src="assets/crops/p8_strip.png" alt=""></div><div class="lyr" id="S06_p9_title" style="left:1314px;top:802px;width:540px;height:52px"><img src="assets/crops/p9_title.png" alt=""></div><div class="lyr" id="S06_p9_table" style="left:1326px;top:856px;width:516px;height:158px"><img src="assets/crops/p9_table.png" alt=""></div><div class="lyr" id="S06_p1_full" style="left:118px;top:310px;width:664px;height:236px"><img src="assets/crops/p1_full.png" alt=""></div><div class="lyr" id="S06_p2_full" style="left:794px;top:310px;width:474px;height:236px"><img src="assets/crops/p2_full.png" alt=""></div><div class="lyr" id="S06_p3_full" style="left:1280px;top:310px;width:578px;height:236px"><img src="assets/crops/p3_full.png" alt=""></div><div class="lyr" id="S06_p4_full" style="left:118px;top:554px;width:764px;height:236px"><img src="assets/crops/p4_full.png" alt=""></div><div class="lyr" id="S06_p6_full" style="left:1314px;top:554px;width:544px;height:236px"><img src="assets/crops/p6_full.png" alt=""></div><div class="lyr" id="S06_p7_full" style="left:118px;top:798px;width:564px;height:236px"><img src="assets/crops/p7_full.png" alt=""></div><div class="lyr" id="S06_p8_full" style="left:694px;top:798px;width:604px;height:236px"><img src="assets/crops/p8_full.png" alt=""></div><div class="lyr" id="S06_p9_full" style="left:1310px;top:798px;width:548px;height:236px"><img src="assets/crops/p9_full.png" alt=""></div><div class="ovl" id="S06_o15" style="left:1325px;top:979px;width:518px;height:36px;border-color:#B91C1C;background:#B91C1C29"></div><div class="ovl" id="S06_rb0" style="left:59px;top:35px;width:307px;height:70px;border-color:#184898;background:#18489826"></div><div class="ovl" id="S06_rb1" style="left:436px;top:35px;width:334px;height:70px;border-color:#184898;background:#18489826"></div><div class="ovl" id="S06_rb2" style="left:840px;top:35px;width:226px;height:70px;border-color:#184898;background:#18489826"></div><div class="ovl" id="S06_rb3" style="left:1136px;top:35px;width:267px;height:70px;border-color:#184898;background:#18489826"></div><div class="ovl" id="S06_rb4" style="left:1473px;top:35px;width:264px;height:70px;border-color:#184898;background:#18489826"></div></div>
+    
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S06_stage",{x:-1682.4,y:-1080.0,scale:2.4000},0);
+      tl.set("#S06_p2_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S06_p3_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S06_p4_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S06_p7_title",{opacity:0},0);
+      tl.set("#S06_p7_chart",{opacity:0},0);
+      tl.set("#S06_p7_legend",{opacity:0},0);
+      tl.set("#S06_p8_title",{opacity:0},0);
+      tl.set("#S06_p8_bars",{opacity:0},0);
+      tl.set("#S06_p8_strip",{opacity:0},0);
+      tl.set("#S06_p9_title",{opacity:0},0);
+      tl.set("#S06_p9_table",{opacity:0},0);
+      tl.set("#S06_p1_full",{opacity:0},0);
+      tl.set("#S06_p2_full",{opacity:0},0);
+      tl.set("#S06_p3_full",{opacity:0},0);
+      tl.set("#S06_p4_full",{opacity:0},0);
+      tl.set("#S06_p6_full",{opacity:0},0);
+      tl.set("#S06_p7_full",{opacity:0},0);
+      tl.set("#S06_p8_full",{opacity:0},0);
+      tl.set("#S06_p9_full",{opacity:0},0);
+      tl.to("#S06_stage",{x:-66.6,y:-488.3,scale:1.4521,duration:0.01,ease:"power2.inOut"},0.000);
+      tl.fromTo("#S06_p7_title",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},0.100);
+      tl.set("#S06_p7_chart",{opacity:1},0.300);
+      tl.fromTo("#S06_p7_chart",{clipPath:"inset(100% 0px 0px 0px)"},{clipPath:"inset(0% 0px 0px 0px)",duration:0.9,ease:"power2.inOut"},0.300);
+      tl.set("#S06_p7_legend",{opacity:1,clipPath:"inset(0px 0px 162.0px 0px)"},0.500);
+      tl.to("#S06_p7_legend",{clipPath:"inset(0px 0px 130.0px 0px)",duration:0.22,ease:"power1.out"},0.550);
+      tl.to("#S06_p7_legend",{clipPath:"inset(0px 0px 98.0px 0px)",duration:0.22,ease:"power1.out"},0.670);
+      tl.to("#S06_p7_legend",{clipPath:"inset(0px 0px 66.0px 0px)",duration:0.22,ease:"power1.out"},0.790);
+      tl.to("#S06_p7_legend",{clipPath:"inset(0px 0px 34.0px 0px)",duration:0.22,ease:"power1.out"},0.910);
+      tl.to("#S06_p7_legend",{clipPath:"inset(0px 0px 2.0px 0px)",duration:0.22,ease:"power1.out"},1.030);
+      tl.fromTo("#S06_p8_title",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},0.410);
+      tl.set("#S06_p8_bars",{opacity:1,clipPath:"inset(0px 572.0px 0px 0px)"},0.410);
+      tl.to("#S06_p8_bars",{clipPath:"inset(0px 429.0px 0px 0px)",duration:0.6,ease:"power2.inOut"},0.410);
+      tl.to("#S06_p8_bars",{clipPath:"inset(0px 286.0px 0px 0px)",duration:0.6,ease:"power2.inOut"},3.470);
+      tl.to("#S06_p8_bars",{clipPath:"inset(0px 0.0px 0px 0px)",duration:0.6,ease:"power2.inOut"},4.790);
+      tl.set("#S06_p8_strip",{opacity:1},4.790);
+      tl.fromTo("#S06_p8_strip",{clipPath:"inset(0px 100% 0px 0px)"},{clipPath:"inset(0px 0% 0px 0px)",duration:0.8,ease:"power2.inOut"},4.790);
+      tl.to("#S06_stage",{x:-2688.0,y:-1512.0,scale:2.4000,duration:1.0,ease:"power2.inOut"},5.850);
+      tl.fromTo("#S06_p9_title",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},5.850);
+      tl.set("#S06_p9_table",{opacity:1,clipPath:"inset(0px 0px 122.0px 0px)"},7.770);
+      tl.to("#S06_p9_table",{clipPath:"inset(0px 0px 92.0px 0px)",duration:0.22,ease:"power1.out"},7.820);
+      tl.to("#S06_p9_table",{clipPath:"inset(0px 0px 62.0px 0px)",duration:0.22,ease:"power1.out"},9.980);
+      tl.to("#S06_p9_table",{clipPath:"inset(0px 0px 32.0px 0px)",duration:0.22,ease:"power1.out"},12.180);
+      tl.to("#S06_p9_table",{clipPath:"inset(0px 0px 2.0px 0px)",duration:0.22,ease:"power1.out"},13.080);
+      tl.set("#S06_o15",{opacity:0},0);
+      tl.to("#S06_o15",{opacity:1,duration:0.2},13.130);
+      tl.to("#S06_o15",{opacity:0,duration:0.45},14.330);
+      tl.to("#S06_p1_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p2_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p3_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p4_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p6_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p7_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p8_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_p9_full",{opacity:1,duration:0.3},14.368);
+      tl.to("#S06_stage",{x:0.0,y:0.0,scale:1.0000,duration:1.2,ease:"power2.inOut"},14.568);
+      tl.set("#S06_rb0",{opacity:0},0);
+      tl.fromTo("#S06_rb0",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.35,ease:"back.out(1.6)"},15.668);
+      tl.set("#S06_rb1",{opacity:0},0);
+      tl.fromTo("#S06_rb1",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.35,ease:"back.out(1.6)"},15.848);
+      tl.set("#S06_rb2",{opacity:0},0);
+      tl.fromTo("#S06_rb2",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.35,ease:"back.out(1.6)"},16.028);
+      tl.set("#S06_rb3",{opacity:0},0);
+      tl.fromTo("#S06_rb3",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.35,ease:"back.out(1.6)"},16.208);
+      tl.set("#S06_rb4",{opacity:0},0);
+      tl.fromTo("#S06_rb4",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.35,ease:"back.out(1.6)"},16.388);
+      tl.to({}, { duration: 16.968 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S06"] = tl;
+    })();
+  </script>
+</template>

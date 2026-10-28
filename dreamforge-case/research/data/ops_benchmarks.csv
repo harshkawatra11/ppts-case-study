@@ -1,0 +1,81 @@
+metric,value,unit,context,source_sid
+rider productivity (Shadowfax; vendor claim),2.5,orders per hour,pan-India cross-category average; vendor-reported,S437
+Zepto dark store orders (Q4 FY26; company disclosed),2140,orders per store per day,company-disclosed figure,S451
+Blinkit dark store orders (Q4 FY26; estimate),1357,orders per store per day,analyst estimate (Outlook Business),S451
+Blinkit dark store orders (Q4 FY26; estimate; alt),1425,orders per store per day,analyst estimate citing DAM Capital (Business Today),S446
+Instamart dark store orders (Q4 FY26; estimate),1095,orders per store per day,analyst estimate; Instamart does not disclose,S451
+Zepto dark store orders (FY26 full year),1677,orders per store per day,DAM Capital analysis,S446
+Blinkit dark store orders (FY26 full year),1417,orders per store per day,DAM Capital analysis,S446
+Instamart dark store orders (FY26 full year),1044,orders per store per day,DAM Capital analysis,S446
+delivery fleet availability target,98 to 99,percent,vendor-reported; delivery fleets in India,S419
+delivery fleet availability benchmark (less time-critical),95,percent,vendor-reported solid achievable benchmark,S419
+high-performing delivery fleet utilisation target,85,percent,vendor-reported,S430
+commercial fleet utilisation (general; not delivery-specific),60 to 70,percent,vendor-reported,S430
+underutilised vehicles share (benchmarking finding),15 to 20,percent,vendor-reported client benchmarking,S430
+fleet utilisation case result (9 months),65 to 88,percent,vendor-reported named client case,S430
+last-mile fleet achievable utilisation ceiling (1.4 peak ratio),61,percent,vendor method; assumes 5% maintenance plus 10% non-driving time,S428
+stable urban grocery utilisation ceiling (1.2 peak ratio),71,percent,vendor method,S428
+pooled 2-fleet utilisation ceiling (non-coincident peaks),72,percent,vendor-modelled illustration; not India-specific,S428
+battery swap time,2 to 5,minutes,industry-reported; India B2B delivery fleets,S278
+fast charger downtime,30,minutes,vendor-reported; EV taken out of service,S419
+normal AC charger downtime,several,hours,vendor-reported; EV taken out of service,S419
+India battery swap stations (Indofast Energy network),900+,stations,more than 22 cities; OEM-agnostic,S282
+India battery swaps per month (Indofast Energy network),1200000,swaps per month,approx 12 lakh swaps a month,S282
+preventive maintenance availability uplift,15 to 25,percent,vendor-reported; no primary source cited,S419
+unplanned downtime without preventive maintenance,40 to 60,percent,vendor-reported; no primary source cited,S419
+EV fleet TCO advantage (well-utilised; 4-5 yr horizon),40 to 50,percent,vendor-reported,S419
+EV fleet maintenance cost reduction vs petrol,60 to 70,percent,vendor-reported,S419
+recommended range buffer under brochure figure (summer or load),15 to 20,percent,vendor-reported,S419
+rider onboarding fee (Shadowfax; rider-paid deduction),1000,Rs per rider,deducted in two instalments at 1st and 50th order; direct fetch 404,S436
+rider onboarding automation time (Zypp; post-integration; max),3,minutes,down from about 30 minutes manual process; vendor-reported,S447
+PAN verification time (Zypp automation),5,seconds,fully automated; vendor-reported,S447
+PMJJBY life cover annual premium,330 to 400,Rs per year,Rs 2 lakh life cover; ages 18 to 50,S442
+PMJJBY bank retention of premium,41,Rs,out of Rs 330 premium,S442
+proposed gig-worker daily protection cover premium,10 to 20,Rs per day,proposed; not an existing product; payout up to Rs 10 lakh,S442
+Sewa Insurance wage-loss cover,200,Rs per day,up to 15 days cover,S442
+gig worker monthly earnings (lower end),8000 to 10000,Rs per month,cited as affordability benchmark for insurance premiums,S442
+Karnataka gig worker insurance cover (state-funded),400000,Rs,life and accident cover; premium paid by state,S445
+Telangana gig worker accident insurance cover,500000,Rs,extended to gig and platform workers,S444
+wholesale full-face helmet price,710,Rs per piece,before 18% GST; minimum order 48 units; vendor-reported wholesale,S449
+wholesale open-face helmet price,1000,Rs per unit,minimum order 60 units; vendor-reported wholesale,S450
+gig or delivery worker attrition (employer survey top concern),31,percent of employers,TeamLease HY1 FY2025-26; share of employers citing concern; not a worker attrition rate,S401
+scalability or time-bound hiring concern (employer survey),25,percent of employers,TeamLease HY1 FY2025-26,S401
+Zomato monthly delivery partner terminations,5000,partners per month,CEO podcast statement,S402
+Zomato monthly voluntary exits,150000 to 200000,workers per month,CEO podcast statement,S402
+India gig workforce size (2020-21),7700000,workers,NITI Aayog; about 1.5% of total workforce or 2.6% of non-agri workforce,S435
+India gig workforce projection (2029-30),23500000,workers,NITI Aayog projection,S435
+Fairwork India platform top score (2024),6,out of 10,bigbasket Swiggy Urban Company Zomato; seen via search summary,S403
+Fairwork India workers interviewed,440,workers,across 11 platforms; 5 cities including Delhi,S403
+LocoNav wired GPS tracker price,2184,Rs,annual charge per vendor page; device labelled as price,S420
+LocoNav wireless OBD tracker price,3999,Rs,annual charge per vendor page,S420
+LocoNav portable wireless tracker price,4539,Rs,annual charge per vendor page,S420
+Watsoo Prithvi AIS-140 tracker price,2500 to 5000,Rs,AIS-140 certified; vendor-reported,S421
+GPS tracker device price range (21-product comparison),500 to 17000,Rs,vendor blog comparison across India vendors,S421
+TechnoPurple fleet tracking base plan,8000,Rs per vehicle,device Rs 5000 one-time plus Rs 3000 annual subscription; page returned 404 on re-fetch,S422
+TechnoPurple annual subscription implied monthly (base plan),250,Rs per vehicle-month,Rs 3000 annual divided by 12; page returned 404 on re-fetch,S422
+TechnoPurple annual subscription implied monthly (Platinum plan),333,Rs per vehicle-month,Rs 4000 annual divided by 12; page returned 404 on re-fetch,S422
+GPS Trackit (US competitor) subscription,25 to 45,USD per vehicle-month,not India-specific; aggregator-reported,S423
+route optimisation empty-fleet distance (traditional routing),20 to 30,percent of fleet distance,vendor-reported; no study cited,S418
+route optimisation capacity utilisation (traditional routing),60 to 65,percent,vendor-reported; no study cited,S418
+route optimisation idle time (8-hour shift),2 to 3,hours,vendor-reported; no study cited,S418
+first-attempt delivery failure rate (urban India),10 to 15,percent,vendor-reported; rising to 20-25% in smaller cities,S418
+route optimisation distance reduction claim,15 to 25,percent,vendor-reported; no study cited,S418
+route optimisation fleet-sizing illustration,42 to 45 vehicles instead of 50,vehicles,vendor-reported; explicitly illustrative,S418
+route optimisation overall cost reduction claim (headline vs conclusion; inconsistent),25 to 45,percent,vendor-reported; internal inconsistency within one article,S418
+last-mile share of total transportation cost (Pidge vendor),53 to 55,percent,vendor-reported; disagrees with Fynd's 41% figure,S418
+last-mile share of total transportation cost (Fynd vendor),41,percent,vendor-reported; disagrees with Pidge's 53-55% figure,S418
+Delhi heatwave temperature (May 2026; afternoon),40 to 43,degrees Celsius,The Wire reporter fieldwork; 22-23 May 2026,S405
+rider take-home earnings after EV rental deductions,700 to 800,Rs per day,scooter rental Rs 200-300/day plus deposit; about Rs 20000 a month on 25 days,S405
+heatstroke cases (India-wide; March-May; year not specified in source),25000,suspected cases,national figure; Al Jazeera citing health data,S406
+heat-related deaths (India-wide; May; year not specified in source),46,deaths,national figure; Al Jazeera citing health data,S406
+delivery worker earnings drop during heatwave (named rider Aman),500 to 750,Rs per day,fell from winter level during heatwave,S406
+Delhi rain surcharge platform fee growth,2 to 10,Rs per order,platform fee risen over time across many areas,S413
+Zomato or Eternal Q4 FY25 PAT drop,78,percent year-on-year,Rs 39 crore versus Rs 175 crore prior year,S413
+Swiggy Q4 FY25 net loss,1081.18,Rs crore,nearly double Q4 FY24 loss of Rs 554.77 crore,S413
+Cyclone Nivar rain fee (Chennai; 2020; historical),15,Rs per order,valid only for 20 minutes after order acceptance,S417
+restaurant business drop during Delhi-NCR heavy rain (Aug 2024),up to 50,percent,one-weekend drop; KNN India,S416
+dine-in cancellation rise (Delhi-NCR; 4 days; Aug 2024),50,percent,KNN India,S416
+Shadowfax lost shipments cost (FY2025),141.0,Rs crore,almost 6% of revenue,S438
+Shadowfax lost shipments cost (H1 FY26),148.2,Rs crore,over 8% of revenue; seven times net profit for the half,S438
+Shadowfax EBITDA margin (H1 FY26),2.86,percent,on revenue of Rs 1805 crore,S438
+quick commerce orders outsourced to 3PLs,15,percent,approx share; per Shadowfax analysis,S438

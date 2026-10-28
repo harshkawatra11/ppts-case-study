@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "evidence_freeze": "2026-10-28",
+  "quote": {
+    "inr": 638,
+    "date": "2026-10-28",
+    "source_id": "R2-03",
+    "url": "https://www.indiapost.gov.in/calculate-postage?ACK=0&COD=0&POD=false&REG=0&fromPincode=110001&height=5&product=parcel&tab=international&toCountry=US&weight=250&width=5",
+    "qualification": "Delhi to US 250 g International Tracked Packet; check merchandise eligibility, dimensions, date and destination"
+  },
+  "assumptions": {
+    "sale": [
+      2600,
+      3000,
+      3400
+    ],
+    "product": [
+      1100,
+      1000,
+      950
+    ],
+    "pack": [
+      100,
+      80,
+      70
+    ],
+    "platform": [
+      0.15,
+      0.12,
+      0.1
+    ],
+    "payment_fx": [
+      0.04,
+      0.03,
+      0.025
+    ],
+    "seller_duty": [
+      180,
+      0,
+      0
+    ],
+    "minutes_before": [
+      50,
+      40,
+      35
+    ],
+    "minutes_after": [
+      35,
+      20,
+      15
+    ],
+    "hourly": [
+      140,
+      120,
+      100
+    ],
+    "freight_saving": [
+      0,
+      0.15,
+      0.25
+    ],
+    "service": [
+      50,
+      30,
+      25
+    ],
+    "collection": [
+      40,
+      22,
+      15
+    ],
+    "return_before": [
+      0.16,
+      0.1,
+      0.07
+    ],
+    "return_after": [
+      0.16,
+      0.09,
+      0.05
+    ],
+    "lost": [
+      0.02,
+      0.01,
+      0.005
+    ],
+    "reimport_share": [
+      0.7,
+      0.55,
+      0.4
+    ],
+    "resale_share": [
+      0.15,
+      0.25,
+      0.4
+    ],
+    "refund_no_return_share": [
+      0.15,
+      0.2,
+      0.2
+    ],
+    "reimport_cost": [
+      900,
+      700,
+      550
+    ],
+    "resale_recovery": [
+      0.5,
+      0.7,
+      0.8
+    ],
+    "fixed_monthly": [
+      500,
+      300,
+      200
+    ],
+    "orders_month": [
+      5,
+      10,
+      16
+    ],
+    "activation_m9": [
+      0.35,
+      0.6,
+      0.75
+    ],
+    "retention_m12": [
+      0.4,
+      0.65,
+      0.8
+    ]
+  },
+  "pilot": {
+    "sellers": 1200,
+    "clusters": 6,
+    "groups_per_cluster": 10,
+    "sellers_per_group": 20,
+    "intervention_fraction": 0.5,
+    "budget_inr": {
+      "local_desks": 3600000,
+      "training": 1200000,
+      "technology": 2400000,
+      "evaluation": 1200000,
+      "contingency": 1200000
+    }
+  },
+  "warning": "All numerical inputs other than the postal quote and structural pilot allocation are illustrative team assumptions, not observed data."
+}

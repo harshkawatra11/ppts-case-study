@@ -1,0 +1,90 @@
+[
+  {
+    "brand": "Eurogrip",
+    "file": "eurogrip.png",
+    "source_url": "https://website-files-new.s3.ap-south-1.amazonaws.com/assets/branding/eurogriptyres-logo-apr25.png",
+    "licence_note": "Official Eurogrip (TVS Eurogrip) brand mark, hosted on Eurogrip's own S3 asset bucket. Used only to mark Eurogrip as the analysed brand, not to claim endorsement.",
+    "w": 461,
+    "h": 104
+  },
+  {
+    "brand": "Unstop",
+    "file": "unstop.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Unstop-logo.svg",
+    "licence_note": "Wikimedia Commons File:Unstop-logo.svg, server-rendered PNG thumbnail (960px) via Wikimedia's own thumb.wikimedia.org renderer. Used to mark Unstop as the case-competition host, no partnership implied.",
+    "w": 960,
+    "h": 383
+  },
+  {
+    "brand": "DTU",
+    "file": "dtu.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/b/b5/DTU%2C_Delhi_official_logo.png",
+    "licence_note": "Official Delhi Technological University seal/logo, hosted on English Wikipedia's local upload (non-free logo used for identification, consistent with the deck's non-commercial, non-endorsement use).",
+    "w": 300,
+    "h": 299
+  },
+  {
+    "brand": "MRF",
+    "file": "mrf.png",
+    "source_url": "https://www.mrftyres.com/images/mrf-logo.png",
+    "licence_note": "MRF's own official site (mrftyres.com), also served as its og:image meta tag. Used only to mark MRF as a competitor referenced in the analysis.",
+    "w": 138,
+    "h": 110
+  },
+  {
+    "brand": "CEAT",
+    "file": "ceat.png",
+    "source_url": "https://www.ceat.com/content/dam/ceat/website/logo.png",
+    "licence_note": "CEAT's own official site (ceat.com) asset. Used only to mark CEAT as a competitor referenced in the analysis.",
+    "w": 300,
+    "h": 89
+  },
+  {
+    "brand": "Apollo Tyres",
+    "file": "apollo-tyres.png",
+    "source_url": "https://www.apollotyres.com/content/dam/orbit/logos/Apollo-Tyres-New-Logo-Horizontal-Purple-RGB.png",
+    "licence_note": "Apollo Tyres' own official site (apollotyres.com) asset. Used only to mark Apollo Tyres as a competitor referenced in the analysis.",
+    "w": 1272,
+    "h": 223
+  },
+  {
+    "brand": "Castrol",
+    "file": "castrol.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Castrol_logo_2023.svg",
+    "licence_note": "Wikimedia Commons File:Castrol logo 2023.svg, server-rendered PNG thumbnail (960px) via Wikimedia's own thumb.wikimedia.org renderer. Used only to mark Castrol as a referenced adjacent-category brand.",
+    "w": 960,
+    "h": 244
+  },
+  {
+    "brand": "Amaron",
+    "file": "amaron.png",
+    "source_url": "https://amaron-prod-images.s3.ap-south-1.amazonaws.com/s3fs-public/Amaron_Logo_0.jpg",
+    "licence_note": "Amaron's (Amara Raja) own official site (amaron.in) asset, also served as its og:image meta tag. Used only to mark Amaron as a referenced adjacent-category brand.",
+    "w": 178,
+    "h": 56
+  },
+  {
+    "brand": "Bosch",
+    "file": "bosch.png",
+    "source_url": "https://assets.bosch.com/media/global/bosch_logo_res_260x85.webp",
+    "licence_note": "Bosch's own official asset CDN (assets.bosch.com), referenced from bosch.in. Downloaded as WebP and converted to PNG with Pillow (no re-drawing or re-tracing, straight format re-encode). Used only to mark Bosch as a referenced adjacent-category brand.",
+    "w": 260,
+    "h": 85
+  },
+  {
+    "brand": "Pidilite",
+    "file": "pidilite.png",
+    "source_url": "https://assets.pidilite.com/is/image/pidilite/pidilite-logo-1",
+    "licence_note": "Pidilite's own official asset CDN (assets.pidilite.com), referenced from pidilite.com. Used only to mark Pidilite as a referenced adjacent-category brand.",
+    "w": 1052,
+    "h": 582
+  },
+  {
+    "brand": "Havells",
+    "file": "havells.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Havells_Logo.svg",
+    "licence_note": "Wikimedia Commons File:Havells Logo.svg, server-rendered PNG thumbnail (960px) via Wikimedia's own thumb.wikimedia.org renderer. Used only to mark Havells as a referenced adjacent-category brand.",
+    "w": 960,
+    "h": 634
+  }
+]

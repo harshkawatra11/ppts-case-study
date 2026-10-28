@@ -1,0 +1,375 @@
+{
+  "text": " Discover, reads the filings and the regularity record. Connect, pulls each and every quarter of results straight from the exchange. Calculate runs the numbers against 5 years of history and again C++ own pairs before any one forms an opinion about what they mean.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.28,
+      "text": " Discover, reads the filings and the regularity record. Connect, pulls each and every quarter",
+      "tokens": [
+        50364,
+        40386,
+        11,
+        15700,
+        264,
+        1387,
+        1109,
+        293,
+        264,
+        3890,
+        507,
+        2136,
+        13,
+        11653,
+        11,
+        16982,
+        1184,
+        293,
+        633,
+        6555,
+        50678
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3398341819888256,
+      "compression_ratio": 1.461111111111111,
+      "no_speech_prob": 0.0250523891299963,
+      "words": [
+        {
+          "word": " Discover,",
+          "start": 0.0,
+          "end": 1.24,
+          "probability": 0.8960874676704407
+        },
+        {
+          "word": " reads",
+          "start": 1.56,
+          "end": 1.68,
+          "probability": 0.7947617173194885
+        },
+        {
+          "word": " the",
+          "start": 1.68,
+          "end": 1.92,
+          "probability": 0.9828601479530334
+        },
+        {
+          "word": " filings",
+          "start": 1.92,
+          "end": 2.34,
+          "probability": 0.922903299331665
+        },
+        {
+          "word": " and",
+          "start": 2.34,
+          "end": 2.58,
+          "probability": 0.932564914226532
+        },
+        {
+          "word": " the",
+          "start": 2.58,
+          "end": 2.72,
+          "probability": 0.9561607837677002
+        },
+        {
+          "word": " regularity",
+          "start": 2.72,
+          "end": 3.14,
+          "probability": 0.5806236416101456
+        },
+        {
+          "word": " record.",
+          "start": 3.14,
+          "end": 3.52,
+          "probability": 0.8669116497039795
+        },
+        {
+          "word": " Connect,",
+          "start": 4.06,
+          "end": 4.42,
+          "probability": 0.9763877391815186
+        },
+        {
+          "word": " pulls",
+          "start": 4.92,
+          "end": 4.98,
+          "probability": 0.9440785646438599
+        },
+        {
+          "word": " each",
+          "start": 4.98,
+          "end": 5.38,
+          "probability": 0.9850452542304993
+        },
+        {
+          "word": " and",
+          "start": 5.38,
+          "end": 5.64,
+          "probability": 0.9251706004142761
+        },
+        {
+          "word": " every",
+          "start": 5.64,
+          "end": 5.94,
+          "probability": 0.9975773692131042
+        },
+        {
+          "word": " quarter",
+          "start": 5.94,
+          "end": 6.28,
+          "probability": 0.9812349677085876
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.28,
+      "end": 11.84,
+      "text": " of results straight from the exchange. Calculate runs the numbers against 5 years of history",
+      "tokens": [
+        50678,
+        295,
+        3542,
+        2997,
+        490,
+        264,
+        7742,
+        13,
+        3511,
+        2444,
+        473,
+        6676,
+        264,
+        3547,
+        1970,
+        1025,
+        924,
+        295,
+        2503,
+        50966
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3398341819888256,
+      "compression_ratio": 1.461111111111111,
+      "no_speech_prob": 0.0250523891299963,
+      "words": [
+        {
+          "word": " of",
+          "start": 6.28,
+          "end": 6.52,
+          "probability": 0.9922125935554504
+        },
+        {
+          "word": " results",
+          "start": 6.52,
+          "end": 6.94,
+          "probability": 0.9070395827293396
+        },
+        {
+          "word": " straight",
+          "start": 6.94,
+          "end": 7.5,
+          "probability": 0.7674960494041443
+        },
+        {
+          "word": " from",
+          "start": 7.5,
+          "end": 7.72,
+          "probability": 0.9947754144668579
+        },
+        {
+          "word": " the",
+          "start": 7.72,
+          "end": 7.84,
+          "probability": 0.9628862142562866
+        },
+        {
+          "word": " exchange.",
+          "start": 7.84,
+          "end": 8.24,
+          "probability": 0.9206666350364685
+        },
+        {
+          "word": " Calculate",
+          "start": 8.92,
+          "end": 9.52,
+          "probability": 0.9728114008903503
+        },
+        {
+          "word": " runs",
+          "start": 9.52,
+          "end": 9.82,
+          "probability": 0.9259732961654663
+        },
+        {
+          "word": " the",
+          "start": 9.82,
+          "end": 10.04,
+          "probability": 0.9522163271903992
+        },
+        {
+          "word": " numbers",
+          "start": 10.04,
+          "end": 10.32,
+          "probability": 0.99122554063797
+        },
+        {
+          "word": " against",
+          "start": 10.32,
+          "end": 10.72,
+          "probability": 0.9432262182235718
+        },
+        {
+          "word": " 5",
+          "start": 10.72,
+          "end": 11.12,
+          "probability": 0.5926756858825684
+        },
+        {
+          "word": " years",
+          "start": 11.12,
+          "end": 11.32,
+          "probability": 0.9792044162750244
+        },
+        {
+          "word": " of",
+          "start": 11.32,
+          "end": 11.52,
+          "probability": 0.9816230535507202
+        },
+        {
+          "word": " history",
+          "start": 11.52,
+          "end": 11.84,
+          "probability": 0.9925014972686768
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.84,
+      "end": 17.0,
+      "text": " and again C++ own pairs before any one forms an opinion about what they mean.",
+      "tokens": [
+        50966,
+        293,
+        797,
+        383,
+        25472,
+        1065,
+        15494,
+        949,
+        604,
+        472,
+        6422,
+        364,
+        4800,
+        466,
+        437,
+        436,
+        914,
+        13,
+        51216
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3398341819888256,
+      "compression_ratio": 1.461111111111111,
+      "no_speech_prob": 0.0250523891299963,
+      "words": [
+        {
+          "word": " and",
+          "start": 11.84,
+          "end": 12.16,
+          "probability": 0.8448629379272461
+        },
+        {
+          "word": " again",
+          "start": 12.16,
+          "end": 12.38,
+          "probability": 0.31098440289497375
+        },
+        {
+          "word": " C++",
+          "start": 12.38,
+          "end": 12.8,
+          "probability": 0.42858509719371796
+        },
+        {
+          "word": " own",
+          "start": 12.8,
+          "end": 13.18,
+          "probability": 0.23833957314491272
+        },
+        {
+          "word": " pairs",
+          "start": 13.18,
+          "end": 13.5,
+          "probability": 0.6888028383255005
+        },
+        {
+          "word": " before",
+          "start": 13.5,
+          "end": 14.66,
+          "probability": 0.46801990270614624
+        },
+        {
+          "word": " any",
+          "start": 14.66,
+          "end": 15.0,
+          "probability": 0.6681708097457886
+        },
+        {
+          "word": " one",
+          "start": 15.0,
+          "end": 15.16,
+          "probability": 0.31444767117500305
+        },
+        {
+          "word": " forms",
+          "start": 15.16,
+          "end": 15.46,
+          "probability": 0.9448001980781555
+        },
+        {
+          "word": " an",
+          "start": 15.46,
+          "end": 15.62,
+          "probability": 0.9896417260169983
+        },
+        {
+          "word": " opinion",
+          "start": 15.62,
+          "end": 16.0,
+          "probability": 0.9909616112709045
+        },
+        {
+          "word": " about",
+          "start": 16.0,
+          "end": 16.3,
+          "probability": 0.9700061082839966
+        },
+        {
+          "word": " what",
+          "start": 16.3,
+          "end": 16.56,
+          "probability": 0.9927065968513489
+        },
+        {
+          "word": " they",
+          "start": 16.56,
+          "end": 16.74,
+          "probability": 0.9872482419013977
+        },
+        {
+          "word": " mean.",
+          "start": 16.74,
+          "end": 17.0,
+          "probability": 0.99669349193573
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

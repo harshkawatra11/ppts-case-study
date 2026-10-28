@@ -1,0 +1,23 @@
+{ const s = await figma.getNodeByIdAsync("S3"); const D = V.s3;
+hdr(s, 3, D.finding, D.source);
+const a1 = panel(s, 64, 224, 580, 350, "ONE AVERAGE, TWO FILES (₹ A FILE)");
+const SEG = [C.primary, C.rival, C.tint], STX = [C.white, C.white, C.ink];
+stackV(a1, 16, 56, 380, 250, D.unit.map(u => ({ label: u.label, total: u.total, segs: u.segs.map((v, i) => ({ value: v, color: SEG[i], text: String(v), textColor: STX[i] })) })), { max: 72, labelH: 40, barW: 80 });
+const Yp = v => 266 - 166 * v / 72;
+addLine(a1, 16, Yp(38), 396, Yp(38), C.ink, 3, [10, 6]); addLine(a1, 16, Yp(27), 396, Yp(27), C.alert, 3, [10, 6]);
+TL(a1, 406, Yp(38) - 24, 22, "₹38 price", { family: "Inter", style: "Bold" }); TL(a1, 406, Yp(27) - 4, 22, "₹27 rival", { family: "Inter", style: "Bold", color: C.alert });
+legend(a1, 16, 312, [[C.primary, "Labour"], [C.rival, "Team lead"], [C.tint, "Overhead"]]);
+const a2 = panel(s, 660, 224, 700, 350, "WHERE ₹31 CR A YEAR IS LOST");
+waterfall(a2, 16, 56, 668, 262, D.lines.map(l => ({ label: l.label, value: l.value, text: l.text, color: l.value >= 0 ? C.good : C.alert })).concat([{ label: "EBITDA", value: D.lines_total, kind: "total", color: C.primaryDeep, text: String(D.lines_total).replace("-", "−") }]), { max: 14, min: -36, labelH: 60, barW: 84 });
+fine(a2, 16, 322, 668, "Line split is a team assumption (A03).");
+const a3 = panel(s, 1376, 224, 480, 350, "WHAT ONE EXIT COSTS");
+addTable(a3, 16, 62, [214, 100, 134], ["Route", "₹ lakh", "Months"], D.exits, { headerH: 40, rowH: 46, name: "TABLE: exits", align: ["LEFT", "RIGHT", "RIGHT"] });
+fine(a3, 16, 296, 448, "Per person. Months: months of that person's pay.");
+const b1 = panel(s, 64, 588, 800, 366, "WHAT THE COMPANY CAN AFFORD");
+addTable(b1, 16, 62, [380, 140, 248], ["Measure", "Value", "In people or pay"], D.afford, { headerH: 40, rowH: 42, name: "TABLE: afford", align: ["LEFT", "RIGHT", "RIGHT"], rowFills: [null, C.tint, C.tint, null, C.alertTint, C.alertTint] });
+const b2 = panel(s, 880, 588, 976, 366, "A WIND-DOWN TODAY CANNOT PAY ITS OWN DUES (₹ CR)");
+const WC = [C.primary, C.good, C.alert, C.alert, C.orange, C.primaryDeep];
+waterfall(b2, 16, 56, 944, 240, D.wd.map((w, i) => Object.assign({}, w, { color: WC[i] })), { max: 72, min: -46, labelH: 44, barW: 90 });
+RT(b2, 16, 302, 944, 22, [["Only " + D.cover + " of dues and debt can be met. ", "B"], ["Receivables and closure costs are team assumptions; the case gives no balance sheet.", ""]]);
+soWhat(s, 966, 64, [[D.sowhat, "W"]]);
+results.push({ slide: s.id, total: s.findAll(() => true).length, top: s.children.length }); }

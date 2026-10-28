@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "probabilities_sum_to_one": true,
+    "budget_sums": true,
+    "no_discount_pooling_can_lose": true,
+    "scenario_order": true,
+    "pilot_allocation": true
+  },
+  "pass": true
+}

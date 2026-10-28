@@ -1,0 +1,189 @@
+{
+  "typography": [
+    {
+      "role": "body",
+      "fontFamily": "Fraunces",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "color": "#7C2415",
+      "sampleText": "2,797/ 3,128"
+    },
+    {
+      "role": "display",
+      "fontFamily": "Fraunces",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "lineHeight": "50.4px",
+      "letterSpacing": "normal",
+      "color": "#241A10",
+      "sampleText": "You do not have a records problem. You have a government pro"
+    },
+    {
+      "role": "heading",
+      "fontFamily": "Fraunces",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "color": "#F2EAD9",
+      "sampleText": "rtionline.gov.in already exists. It is real, and it works."
+    },
+    {
+      "role": "heading-2",
+      "fontFamily": "Fraunces",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "#241A10",
+      "sampleText": "This is not one department’s problem"
+    },
+    {
+      "role": "heading-2",
+      "fontFamily": "Fraunces",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "#241A10",
+      "sampleText": "Who this is for"
+    },
+    {
+      "role": "heading-3",
+      "fontFamily": "Fraunces",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "#C9A24A",
+      "sampleText": "What rtionline.gov.in gets right"
+    },
+    {
+      "role": "heading-3",
+      "fontFamily": "Fraunces",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "#241A10",
+      "sampleText": "Scheme Eligibility Reader"
+    },
+    {
+      "role": "code",
+      "fontFamily": "-apple-system",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "#000000",
+      "sampleText": "Adhikaar: RTI Casework, Filed CorrectlyअAdhikaarA Register o"
+    }
+  ],
+  "spacing": {
+    "observed": [
+      3,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      32,
+      40,
+      48,
+      56
+    ],
+    "baseUnit": 8
+  },
+  "radius": [],
+  "shadows": [
+    {
+      "value": "rgba(36, 26, 16, 0.16) 3px 4px 0px 0px",
+      "count": 1
+    }
+  ],
+  "buttons": [
+    {
+      "label": "EN",
+      "background": "#93691F",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F2EAD9",
+      "padding": "4px 8px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(242, 234, 217)",
+      "boxShadow": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "height": "24px"
+    },
+    {
+      "label": "GitHub",
+      "background": "#241A10",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F2EAD9",
+      "padding": "6px 12px",
+      "borderRadius": "0px",
+      "border": "2px solid rgb(36, 26, 16)",
+      "boxShadow": "none",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "height": "36px"
+    },
+    {
+      "label": "Read the rule that makes this happen",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#551708",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "",
+      "boxShadow": "none",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "height": "21.3906px"
+    }
+  ],
+  "cards": [],
+  "nav": {
+    "label": "navigation",
+    "background": "#F2EAD9",
+    "backgroundImage": "",
+    "backdropFilter": "",
+    "color": "#241A10",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "",
+    "boxShadow": "none",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "height": "87px"
+  },
+  "chips": [
+    {
+      "label": "अ",
+      "background": "#7C2415",
+      "color": "#EEE2C3",
+      "padding": "0px",
+      "borderRadius": "999px",
+      "border": "2px solid rgb(36, 26, 16)",
+      "boxShadow": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "height": "36px"
+    }
+  ],
+  "statCells": [],
+  "tabs": [],
+  "backgrounds": [
+    {
+      "value": "linear-gradient(rgb(242, 234, 217) 0%, rgb(242, 234, 217) 100%), repeating-linear-gradient(0deg, rgba(36, 26, 16, 0.02) 0px, rgba(36, 26, 16, 0.02) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 3px)",
+      "area": 7939110
+    }
+  ],
+  "glass": []
+}

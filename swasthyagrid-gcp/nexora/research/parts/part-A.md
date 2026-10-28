@@ -1,0 +1,293 @@
+## 0. Document control: every number carries a tag, and the prototype runs on simulated data
+
+**Answer.** This document is the research spine behind SwasthyaGrid, the district health coordination start-up Team IdeaForge is pitching at NEXORA. Every number in it traces to one of three registers: a verified external source, a named team assumption, or an output of the stated NEXORA model, each marked with its own tag so a reader can check where a figure came from without asking us. The case-competition-deck skill supplies the argument patterns used throughout this document and the companion deck (the contrarian recommendation, action titles, the single moneyshot, foreshadowing, symmetric treatment); it carries no content on India's public health supply chain, CAG audit findings, or NHM budget mechanics, all of which come from this team's own research, recorded in the source register below. The prototype behind every product claim in this document runs on simulated data for forty facilities across five Rajasthan districts; no live district, no customer, and no interview exists yet, and this document never states otherwise.
+
+### 0.1 Tag legend
+
+Table 0.1 sets out what each tag means and where its register lives, so a reader can resolve any bracketed mark in this document without searching.
+
+| Tag form | Meaning | Register it points to |
+|---|---|---|
+| `[S##]` | An external source, verified against the publisher's own page or document | `research/sources-base.md`, plus `research/raw/sources-R1.md` through `sources-R5.md` for sources each writer added |
+| `[A##]` | A team assumption: a value the available sources do not supply directly, chosen with a stated basis | Plan section 5.4 and Appendix D of this document |
+| `[M]` | A model output: a figure the NEXORA model calculated from the facts and assumptions above, not independently sourced | `model/nexora_model.py`, reference output reproduced in Appendix B |
+
+*S: source. A: assumption. M: model.*
+
+### 0.2 Source hierarchy
+
+The source register below followed a fixed hierarchy whenever two sources disagreed or a figure needed cross-checking: government releases and audit reports first, then peer-reviewed research, then multilateral or donor-agency publications, then established media quoting one of the first three, with vendor pages used last and only for pricing benchmarks that are explicitly labelled as such. Table 0.2 sets this out with one example drawn from the register for each tier.
+
+| Tier | Source type | Example used in this document |
+|---|---|---|
+| 1 | Government release or audit report | MoHFW's Health Dynamics of India release on facility counts and specialist shortfall [S01]; the CAG performance audit chapter on public health infrastructure management [S122] |
+| 2 | Peer-reviewed research | The Puducherry essential-medicine availability study in PMC, giving the 66 to 80% range [S02]; the Human Resources for Health systematic review of community-level stock-outs across low and middle income countries [S123] |
+| 3 | Multilateral or donor-agency publication | UNDP India's account of the eVIN vaccine logistics programme [S12]; Management Sciences for Health's account of Uganda's digitised medicine supply portal, built under a USAID activity [S125] |
+| 4 | Established media quoting a tier 1 to 3 source | Medical Dialogues' reporting of the Telangana CAG audit figure of ₹390.26 Cr in expired drugs [S16] |
+| 5 | Vendor page, used only for a labelled pricing benchmark | Codingclave's 2026 guide to Indian hospital management software pricing [S25] |
+
+A figure that could not be confirmed against any tier is never used as a stated fact in this document; it is either dropped or reported as a named gap, consistent with the rule that an unverified number is dropped rather than softened into a vaguer claim.
+
+### 0.3 What is fact, what is assumption, and what is model output
+
+No figure in this document is invented. Table 0.3 gives three worked examples of each of the three tag types, so the distinction is concrete rather than definitional.
+
+| Type | Example 1 | Example 2 | Example 3 |
+|---|---|---|---|
+| Fact `[S##]` | 79.9% of CHC specialist posts are unfilled, 4,413 of 21,964 [S01] | ₹390.26 Cr of drugs expired in Telangana over 2016-22 [S16] | eVIN cut vaccine stock-outs by over 80% across 733 districts [S12] |
+| Assumption `[A##]` | A district licence runs ₹12 L a year, built from a ₹4 L base plus a per-facility tier [A05] | Gross margin sits at 71% in the base case, drawn from Indian SaaS benchmarks, not measured [A08] | A district licence lasts five years on average, a team estimate about government contract cycles [A10] |
+| Model `[M]` | 1.36 crore stock-out days avoided a year in the base case [M] | ₹93.6 Cr total addressable market across about 780 districts [M] | 5.6 months to pay back customer acquisition cost in the base case [M] |
+
+Appendix D reproduces the full seventeen-row assumptions register. Appendix B, generated by the assembler, reproduces the model's reference output in full so every `[M]` tag in this document can be checked against a single printed source.
+
+### 0.4 Honesty rules this document follows throughout
+
+Four rules hold without exception across every section that follows, and are restated here once rather than qualified on every sentence. First, the SwasthyaGrid prototype runs entirely on simulated data for forty facilities (thirty PHCs and ten CHCs) across five Rajasthan districts [S31]; no live district exists. Second, no customer interview has been conducted; the forty interviews named in Appendix E are a plan, not a result. Third, nothing described in this document or the companion deck has been deployed, piloted, or sold; SwasthyaGrid has no customers, no partners, and no signed district. Fourth, the merged deck and this document represent one founder, Harsh Kawatra, working under the team name Team IdeaForge; the two decks this project reconciles were each built by larger teams, named here only as "a two-member team" and "a three-member team" respectively, consistent with the project's standing rule never to name a team member who is not part of the NEXORA submission.
+
+### 0.5 Model version
+
+Every `[M]` tag in this document traces to `model/nexora_model.py`, a single deterministic Python script with no inputs and no network calls. It was run on 7 October 2026 and its full printed output is reproduced in Appendix B of this document; running the script again on the same code reproduces the same output line for line, which is itself the model's only correctness test. Any disagreement between a number quoted in this document and Appendix B is an error in this document, not in the model, and should be read as a defect to fix rather than a second valid figure.
+
+### 0.6 Why this discipline matters more for a ten-slide pitch than for a longer deck
+
+A ten-slide pitch has no room to show its working on the slide itself; a headline such as "1.36 crore stock-out days avoided a year" has to sit on one line of one slide with no footnote long enough to carry a derivation. The tagging discipline in this document exists precisely to carry that derivation somewhere a judge can still reach it during questions, without crowding the slide that states the finding. Every number that appears on a slide of the companion deck appears again in this document with its tag, its full derivation, and, where it is a model output, the exact line of Appendix B it comes from. A reader who wants to check one specific claim, for example the 10.65x lifetime-value-to-acquisition-cost ratio, does not need to read this entire document to find it; the tag legend in Table 0.1 and the section table in the plan's own specification point to exactly one place. This is the same discipline a due-diligence reviewer would apply to any pitch deck that claims a number: trust the number only as far as its stated source, and treat an untagged number anywhere in this project as a defect to be fixed, not a convenience to be allowed.
+
+---
+
+## 1. NEXORA's seven asks, each answered on one slide and in one section
+
+**Answer.** NEXORA's brief asks for one submission that is simultaneously innovative, sustainable, and feasible, and instructs teams to showcase seven things: the problem, the solution, the target market, the innovation, the sustainability, the feasibility, and the impact. Table 1.1 below maps each of those seven asks to the slide that carries it, the section of this document that backs it, and the single strongest number behind it, so a reader can verify in one pass that nothing in the brief was left unanswered. The submission itself runs ten slides, inside the brief's stated 8 to 10 slide range including the cover.
+
+### 1.1 The brief, verbatim
+
+> Present an innovative, sustainable, and feasible startup or innovation idea with potential real-world impact.
+> Submission Guidelines: Format: PDF only. Length: 8 to 10 slides, including cover.
+> Showcase your problem, solution, target market, innovation, sustainability, feasibility and impact.
+
+### 1.2 The coverage matrix
+
+Table 1.1 maps each of NEXORA's seven showcase items to the slide and section that carries it, plus the single strongest number behind it, so a reader can check in one pass that nothing in the brief was left unanswered.
+
+| Ask | Slide | Section of this document | One-line answer | Strongest number |
+|---|---|---|---|---|
+| Problem | S3 | 4 | Up to a third of key medicines can be missing from a PHC shelf on any day, while warehouses write off crores in stock that expired unused | 66 to 80% availability range across studies [S02][S03] |
+| Solution | S4 | 8 | One morning view of every shelf, bed and roster per district, a ranked transfer proposal, and a named officer's sign-off before anything moves | 1.2 to 21.0 days of ARV cover at PHC Kota-4 after one approved, simulated shipment [S31] |
+| Target market | S5 | 9 | State health departments buy for about 780 districts, a ₹93.6 Cr a year licence pool, entered through 112 aspirational districts | ₹93.6 Cr total addressable market, ₹13.44 Cr serviceable [M] |
+| Innovation | S6 | 10 | Five public systems already record India's health supply and none of them moves it; SwasthyaGrid adds the missing rebalancing layer with a human sign-off | eVIN's over 80% cut in vaccine stock-outs once stock became visible [S12] |
+| Sustainability | S7 | 11 | A 71% gross-margin licence business that also reduces medicine expiry and out-of-pocket spending, resting on an existing government budget line | ₹390.26 Cr and ₹168 Cr of audited expired-drug write-offs in two states [S16][S17] |
+| Feasibility | S8 | 13 | A district can go live in six weeks using stock exports states already produce, with no new hardware and one officer's sign-off per district | Six weeks from a data agreement to a live district, a stated plan, not yet run [A16] |
+| Impact | S9 | 14 | An estimated 1.36 crore stock-out days avoided a year in the base case, lifting availability from 72.2% to 86.1% | 1.36 crore stock-out days avoided a year, base case [M] |
+
+Each row names a slide, the section that defends it, and the one number a judge is likeliest to repeat back, so the table doubles as a cross-check that the deck and this document stay aligned.
+
+### 1.3 The three adjectives: where the evidence for each sits
+
+NEXORA's own framing asks for three qualities at once, not one. Table 1.2 names the strongest evidence for each, because a pitch that is merely "sustainable" or merely "feasible" without being all three at once has not actually answered the brief.
+
+| Adjective | What would make the claim weak | What makes SwasthyaGrid's claim specific | Supporting evidence |
+|---|---|---|---|
+| Innovative | Calling a dashboard innovative because it is new to the team, not because it fills a gap no existing system fills | SwasthyaGrid is the first layer that moves stock across a district rather than only recording it; five named public systems record, none moves [S01][S12][S15][S21][S35] | eVIN precedent [S12]; the independent evaluation evidence that the 112 aspirational districts already show measurable health gains under a different coordination mechanism [S120] |
+| Sustainable | Claiming sustainability only in an environmental sense while ignoring whether the business itself survives without a grant | The licence model pays for itself on margin alone, and separately on the medicine it saves from expiring, so two independent paths support the same conclusion | 71% gross margin, 5.6-month CAC payback [A08][M]; ₹390.26 Cr and ₹168 Cr of CAG-audited expiry in two states [S16][S17] |
+| Feasible | Assuming a government buyer will adopt new technology quickly, or assuming no new hardware means no real implementation effort | The product reads exports states already produce under an existing essential-drugs-list mechanism, so the state does not need to change what it already does, only share what it already has | The MoHFW essential drugs list that states already maintain and periodically update at HWC, PHC and SHC level [S121]; India's National Health Policy commitment to free essential drugs at public facilities [S126] |
+
+Table 1.2 shows that each adjective fails in a specific, nameable way if argued loosely, and that SwasthyaGrid's version of each claim survives the failure mode named beside it.
+
+### 1.4 A note on the ten-slide count
+
+The brief sets a range of 8 to 10 slides including the cover; the merged submission runs exactly ten: a cover, eight core content slides (Executive Summary, Problem, Solution, Target Market, Innovation, Sustainability, Feasibility, Impact), and one appendix. This sits at the top of the brief's own range rather than over it, a deliberate choice: the seven showcase items in section 1.1 each earn a full, dense slide rather than being compressed two or three to a page, which the case-competition-deck skill's own guidance on compressing an 8-section argument into a short deck recommends over spreading one argument thin across more slides than the brief allows.
+
+---
+
+## 2. The answer on one page: move what a district owns before buying more, and avoid 1.36 crore stock-out days a year
+
+**Answer.** India's primary-care shortage looks, on first reading, like a shortage problem: 79.9% of CHC specialist posts sit unfilled [S01][S32], and up to a third of key medicines can be missing from a PHC shelf on a given day [S02][S03]. The obvious response is to hire more specialists or buy more medicine. But the same states that report PHC medicine availability of 66 to 80% [S02] also write off expired stock worth crores: ₹390.26 Cr in Telangana over 2016-22 [S16] and ₹168 Cr in Odisha over April 2019 to January 2025 [S17]. A district already owns more than it uses; it cannot see what it owns district-wide. SwasthyaGrid gives each district one morning view of its own stock, beds and staff, proposes the nearest transfer, and lets a named officer approve it. Move first; buy for the gaps that remain. In the base case, this avoids an estimated 1.36 crore stock-out days a year and lifts key-medicine availability from 72.2% to 86.1% [M].
+
+### 2.1 Why the obvious fixes stall
+
+A board or a jury hearing this problem will reach first for the standard responses. Table 2.1 sets out why each one stalls, tested only against sourced facts, not supposition.
+
+| Obvious fix | Why it stalls |
+|---|---|
+| Hire more specialists | 79.9% of CHC specialist posts are already unfilled (4,413 of 21,964) [S01]; the per-specialty gaps run from 74.2% for obstetrics and gynaecology to 83.2% for surgeons [S32]. A shortage this wide does not close on a hiring cycle measured in months |
+| Buy more medicine | States already write off audited crores in expired stock: ₹390.26 Cr in Telangana [S16], ₹168 Cr in Odisha [S17], including ₹17.13 Cr of Telangana drugs issued with only 1 to 89 days of shelf life left [S16]. Buying more feeds the same waste rather than fixing its cause |
+| Build one national supply database | Health is a State subject under the Seventh Schedule, List II, Entry 6 [S13]; a single national database for a function the Constitution assigns to states invites exactly the kind of resistance that has slowed similar national platforms, and duplicates systems states already run, such as the essential drugs list each state maintains at HWC, PHC and SHC level [S121] |
+| Add another dashboard | Five public systems already record some part of India's health supply, from HMIS facility data to e-Aushadhi's drug ledger [S01][S15]; officers already have numbers to look at. What is missing is not another screen to read, it is a mechanism that proposes a specific move and records who approved it |
+
+Table 2.1 shows all four obvious fixes stall for a different, specific reason, none of which is "the idea is wrong," which is why the recommendation below is a fifth option rather than a harder push on one of these four.
+
+### 2.2 The three moves
+
+SwasthyaGrid's mechanism reduces to three verbs, repeated identically for every item on every shelf: see, propose, approve. Table 2.2 states what each move does and why it is deliberately the smallest version of itself.
+
+| Move | What happens | Why it stays this small |
+|---|---|---|
+| See | The district view surfaces days of cover for every item across every facility each morning, flagging anything under 3 days (5 days for emergency drugs) [S31] | A warning rule needs no judgement call; it is arithmetic (units divided by average daily use), which is why it can run on data states already export |
+| Propose | The system ranks the nearest facility with surplus and sizes a transfer, or a refill to 21 days of cover, within 40 km for critical items [S31] | A ranked proposal, not an instruction, keeps the officer in control of the final call and avoids any claim that software is making a clinical or administrative decision |
+| Approve | A named district officer approves, edits, or rejects every proposal before anything moves; the receiving facility confirms delivery before stock updates once [S31] | A human sign-off on every move is the guardrail that makes the system auditable and keeps patient-level data and clinical judgement outside its scope entirely [S14] |
+
+Each move is deliberately smaller than it could be, and Table 2.2's right-hand column names the specific reason for that restraint rather than leaving it implied.
+
+### 2.3 The moneyshot
+
+The single number this document and the companion deck are built around is 1.36 crore: the estimated stock-out days avoided a year across India's 38,241 PHCs and CHCs [S01] in the base case, where the system removes half of all stock-out days [A02][M]. The model's own range runs from 81.5 lakh in the bear case (a 30% cut) to 2.17 crore in the bull case (an 80% cut, matching eVIN's own reported result for vaccines) [S12][M], and the base case lifts average availability from 72.2% to 86.1% [S02][M]. This is a transparent estimate from a stated model, never a measured result; the hedge is repeated here because the honesty rules in section 0.4 forbid softening it anywhere else in this document.
+
+### 2.4 The argument in pyramid form, and the three reasons each side
+
+Stating a recommendation first, then supporting it with grouped reasons, lets a reader test the argument instead of following it passively. Table 2.3a sets out three reasons against the obvious fixes and three reasons for the recommended mechanism, each one specific and numbered rather than general.
+
+| Side | Quantitative reason | Strategic-fit reason | Feasibility reason |
+|---|---|---|---|
+| Against hiring or buying more alone | 79.9% of CHC specialist posts are already unfilled, so hiring does not move quickly [S01] | Buying more medicine feeds the same expiry loss already audited at ₹390.26 Cr and ₹168 Cr in two states [S16][S17] | A national supply database duplicates systems states already run and collides with health being a State subject [S13] |
+| For moving what a district already owns | Up to a third of key medicines can be missing from a shelf on a given day even while a warehouse elsewhere holds surplus of the same item [S02][S03] | eVIN already proved that visibility cuts stock-outs by over 80% for one supply chain [S12]; this extends the same logic to another | The mechanism reads exports states already produce under an existing essential drugs list [S15][S121], so no new state process is required |
+
+This is the same pyramid-principle discipline the case-competition-deck skill recommends for any contrarian recommendation: state the governing thought, the conclusion in section 2's opening paragraph, before the supporting reasons, and group the reasons so a reader can ask "why" of the top line and find the answer directly beneath it, rather than wading through evidence in the order it happened to be gathered.
+
+### 2.5 What would change our mind
+
+Table 2.3 names five conditions that would move this team off the recommendation, each with a reason the condition matters, so the argument can be tested rather than only asserted.
+
+| Condition | Why it would change the recommendation |
+|---|---|
+| The availability studies used turn out to be unrepresentative of most Indian districts | The 72.2% baseline [S02] and the 30 to 80% cut range [A02] both rest on a small set of published facility-level studies [S02][S03][S04]; if a larger, more representative survey showed materially different baseline availability, the moneyshot in section 2.3 would need to be recalculated, not merely restated |
+| States decline to share stock-export data | The entire mechanism in section 2.2 depends on reading exports states already produce [S15]; without a signed data agreement, there is no district view to build, which is why feasibility (section 13) treats this as the single largest schedule risk |
+| Officers ignore proposals even during a shadow-mode trial | If district officers do not act on ranked proposals once they see them, the "propose" and "approve" steps in Table 2.2 produce no real transfers, and the entire effect in section 2.3 collapses to zero regardless of how good the underlying data is |
+| A second country's digitised stock system shows a materially different result from eVIN's | eVIN's over 80% cut in vaccine stock-outs [S12] is the strongest precedent behind the bull case; Uganda's comparable digitised medicine portal independently reports about 80% average availability across 41 tracked medicines for roughly 46 million people [S125], which supports rather than undercuts the eVIN-based assumption, but a contrary finding from a comparable system would require the bull case to be revisited |
+| The expiry-to-stock-out link proves weaker than assumed | Section 6 treats the CAG expiry findings [S16][S17] and the availability studies [S02][S03] as two independent evidence sets pointing at the same underlying problem, not as a single measured chain; if a future audit showed expiring stock and stocked-out items never overlap in practice, the contrarian thesis in this section would need a different evidence base |
+
+None of the five conditions in Table 2.3 is hypothetical window-dressing; each names a specific test the recommendation has not yet passed and could still fail.
+
+### 2.5a Third-party validation for the precedent this argument leans on
+
+The contrarian thesis in this section leans heavily on one precedent: that visibility, not volume, was the fix that worked for India's vaccine supply chain. That precedent should not rest on this team's own reading of a single programme page. Table 2.3b sets out what independent sources say about the same precedent and a close international comparator, so the eVIN-based assumption in section 2.3 and Appendix D's A02 is not the only evidence behind the bull case.
+
+| Source | What it independently confirms |
+|---|---|
+| UNDP India, describing eVIN's own results | Vaccine availability held above 99% at cold chain points once the system covered all 733 districts and 36 states and union territories, with over 80% fewer stock-out instances reported [S12] |
+| A peer-reviewed study of eVIN's effect inside Pune city's immunisation sessions | Vaccine wastage fell across multiple vaccine types after eVIN implementation, a facility-level confirmation that sits below the national headline figure and is consistent in direction with it [S33] |
+| Management Sciences for Health, describing a comparable digitised medicine portal in Uganda | Over 760 facilities synced to one national stock system hold about 80% average availability across a tracked basket of 41 essential medicines, serving roughly 46 million people, a result that did not require India's specific institutions to produce it [S125] |
+
+Two independent country programmes and one facility-level academic study, each built on a different supply chain, a different set of commodities, and a different implementing organisation, point at the same conclusion: making stock visible across a network and acting on what becomes visible measurably raises availability. That convergence is the strongest evidence available that the bull-case assumption in Appendix D (an 80% cut in stock-out days, matching eVIN exactly) is not an isolated result unlikely to repeat for a different supply chain inside the same country. None of these three sources measured SwasthyaGrid itself, and none can be read as proof that the same cut will repeat for the seven tracer medicines this model covers; they are evidence that the mechanism this document proposes, visibility followed by a human-approved move, has produced a measurable effect more than once, in more than one country, for more than one class of commodity, which is a materially stronger basis than a single domestic precedent would be on its own.
+
+### 2.6 The eight headline numbers
+
+Table 2.4 collects the eight numbers this document returns to most often, each with its tag and the section where it is derived in full, so a reader can find the underlying arithmetic without re-reading the whole document.
+
+| Number | What it means | Tag | Derived in full at |
+|---|---|---|---|
+| 38,241 | PHCs (31,882) plus CHCs (6,359) nationwide, as of 31 March 2023 | [S01] | Section 4 |
+| 79.9% | Share of CHC specialist posts unfilled nationwide | [S01] | Section 4 |
+| 1.36 crore | Stock-out days avoided a year, base case | [M] | Section 2.3, section 14 |
+| 72.2% to 86.1% | Availability before and after the base-case cut in stock-out days | [S02][M] | Section 14 |
+| ₹390.26 Cr / ₹168 Cr | Expired drugs written off, Telangana 2016-22 and Odisha Apr 2019 to Jan 2025 | [S16][S17] | Section 6 |
+| ₹93.6 Cr | Total addressable market: about 780 districts at a ₹12 L a year licence | [M] | Section 9 |
+| ₹12 L | Annual district licence: ₹4 L base, 50 facilities at ₹14,000 each, ₹1 L support | [A05][M] | Section 9, section 12 |
+| 10.65x | Lifetime value to customer acquisition cost ratio, base case | [A08][A09][M] | Section 11 |
+
+A reader who commits only these eight numbers to memory, and the section each one traces to, can reconstruct the deck's entire quantitative spine without opening a second document.
+
+---
+
+## 3. How two decks became one: 14 changes, including a 10x correction to the market size
+
+**Answer.** SwasthyaGrid was pitched twice before this submission: a 12-slide hackathon deck (deck A) built by a two-member team for a Google "Build with AI" competition in September 2026, and a 9-slide startup pitch (deck B) built by a three-member team around the same product. Merging them into one NEXORA submission required 14 deliberate changes, the single largest being a 10x arithmetic correction to the headline market size, from a stated ₹960 Cr to a corrected ₹93.6 Cr. Every other change either removed a claim with no traceable source, dropped content NEXORA's brief does not ask for (an investment ask, cloud and AI-engineering detail), or added content neither deck carried (a sustainability case, for example). The result is a smaller market claim than either original deck stated, and, read correctly, a stronger one: ₹93.6 Cr that can be defended line by line beats ₹960 Cr that cannot.
+
+### 3.1 What deck A argued
+
+Deck A ran twelve slides for a hackathon audience judging a working build, not a startup pitch; Table 3.1 inventories its content at the level this project's own planning records it, since the original Figma file is a separate artefact from this document.
+
+| Content block | What it argued | Kept, cut, or fixed |
+|---|---|---|
+| Problem evidence (availability studies, emergency drugs, five whys, out-of-pocket spending) | Builds the case that supply visibility, not supply volume alone, is the gap | Kept, and extended with further sourced evidence in section 4 |
+| The eVIN precedent | A national system already proved that visibility cuts stock-outs, for vaccines | Kept, and used as the central innovation precedent in section 10 |
+| The closed loop (see, propose, approve, confirm) | Describes the product mechanism end to end | Kept, and restated as the three-move table in section 2.2 |
+| The PHC Kota-4 proof (1.2 to 21.0 days of ARV cover) | Shows the mechanism working once, on simulated data | Kept, and labelled explicitly as simulated throughout |
+| The six-week rollout plan | Shows a path from agreement to a live district | Kept, and detailed week by week in section 13 |
+| The risk map | Names implementation risks with mitigations | Kept, and expanded to a full probability and impact register in section 13 |
+| The validation plan (40 planned interviews) | States what primary research would look like, honestly labelled as not yet done | Kept, and detailed role by role in Appendix E |
+| The impact model and its moneyshot | Estimates stock-out days avoided a year | Kept unchanged; the model code is identical to the one this document cites throughout |
+| Google stack, AI engine, test counts, latency figures, voice interface | Demonstrates the technical build for a hackathon judge | Cut entirely; NEXORA's brief asks for a startup pitch, not an engineering demonstration, and the project's own standing rule keeps technology vocabulary off every slide |
+
+Eight of nine blocks survive the merge in some form; only the engineering content built for a different audience was cut outright, which is the clearest sign the two decks shared one underlying product rather than two different ones.
+
+### 3.2 What deck B argued
+
+Deck B ran nine slides structured as a classic startup pitch; Table 3.2 inventories it at the same level of granularity.
+
+| Content block | What it argued | Kept, cut, or fixed |
+|---|---|---|
+| Problem | A short-form version of the same supply-visibility gap | Kept, folded into the single problem slide and section 4 |
+| Market (TAM ₹960 Cr, SAM ₹480 Cr) | Sizes the licence opportunity top-down from a district count and a licence price | Fixed: both figures carried a 10x arithmetic slip, corrected in section 3.3 below |
+| Solution | The same product mechanism as deck A, described for a commercial rather than technical audience | Kept, merged with deck A's version |
+| Model (revenue path, unit economics) | States a bear, base, and bull revenue path and an approximate 10x lifetime-value-to-CAC ratio | Fixed: the original path mixed annual recurring revenue with one-time billings; the NEXORA model separates the two and reproduces deck B's original Year 1 and Year 2 billings figures exactly |
+| Moat (a 25/45/70/100% curve) | Claims a widening moat over time | Cut: the curve carried no stated basis; replaced with a 7 Powers framework analysis in section 10 |
+| GTM | A go-to-market sequence from pilot to scale | Kept, restated as the three-horizon roadmap in section 15 |
+| Before/after table | Contrasts today's process with SwasthyaGrid's process | Kept, used inside the solution section |
+| Investment ask (₹4.0 Cr for 24 months) | Asks for funding | Cut: NEXORA's brief is a startup pitch, not a funding round, and the team decided this submission carries no investment ask |
+| Appendix | Backs the pitch's numbers | Rebuilt entirely as the research document this file is part of |
+
+The one block that could not be kept or merely fixed, the market slide, is also the block the next section works through in full, because a tenfold arithmetic error is not a wording problem.
+
+### 3.3 The market-size correction, worked in full
+
+Deck B's stated total addressable market was ₹960 Cr a year, built from "800+ districts" at a ₹12 L a year licence. The arithmetic itself was wrong before any district count is questioned: 800 districts multiplied by ₹12 lakh a district gives 9,600 lakh, which is ₹96 Cr, not ₹960 Cr; the original figure carried a 10x error [M]. Deck B's serviceable addressable market of ₹480 Cr, built from "approximately 400 NHM digital-priority districts," carried the same 10x slip and additionally rested on a 400-district figure with no traceable source anywhere in either original deck.
+
+Correcting both the arithmetic and the district count gives the figures this document uses throughout. India's Local Government Directory, the Ministry of Panchayati Raj's own district register, shows about 780 districts as of the date this project verified it [S23]; 780 districts at a ₹12 L a year licence gives a total addressable market of ₹93.6 Cr a year [M], not ₹96 Cr or ₹960 Cr. The serviceable addressable market uses NITI Aayog's list of 112 aspirational districts [S19], a defined, named, and sourced list, rather than an unsourced "400 priority districts" category: 112 districts at ₹12 L gives ₹13.44 Cr a year [M]. Section 9 carries the full bottom-up build, including the beachhead figure for Rajasthan's 41 districts [S24] and the Year 3 serviceable obtainable market of 80 districts.
+
+### 3.4 Why the smaller, correct number is the stronger pitch
+
+A market sized at ₹93.6 Cr looks, on first reading, less impressive than one sized at ₹960 Cr. It is nonetheless the stronger claim to make in front of a jury that includes anyone willing to multiply two numbers together. A ₹960 Cr figure invites exactly one question a presenter cannot answer well: "how did you get that number." A ₹93.6 Cr figure invites the same question and survives it, because the answer is a single sentence: about 780 districts, at a ₹12 L a year licence, from a named government directory [S23]. The same logic applies to the serviceable addressable market: ₹13.44 Cr from a named, official list of 112 districts [S19] survives scrutiny in a way that ₹480 Cr from an undefined "400 priority districts" category cannot. A smaller number that holds up under a single follow-up question beats a larger number that does not, which is the entire argument for keeping the market slide at ₹93.6 Cr rather than restoring either original figure.
+
+### 3.5 Claims removed, and why
+
+Table 3.3 lists every claim present in deck A or deck B that does not appear anywhere in this document or the merged deck, with the reason each was removed.
+
+| Removed claim | Original deck | Reason removed |
+|---|---|---|
+| "8,776 new doctors," a "20x" figure, and "45% in 2005" | Deck A | No traceable source found for any of the three figures during this project's verification pass |
+| "3+ days before a stock-out is noticed" | Deck B, used as "illustrative" | Deck A itself had already excluded this figure as unsourced; deck B's reintroduction of it as "illustrative" does not meet this project's sourcing bar |
+| The 25/45/70/100% moat curve | Deck B | No stated basis for the specific percentages or the timeline; replaced with the sourced 7 Powers analysis in section 10 |
+| The ₹4.0 Cr, 24-month investment ask | Deck B | NEXORA's brief asks for a startup pitch, not a funding round; this submission makes no investment ask |
+| Google stack, AI engine, test counts, latency figures, voice interface | Deck A | Out of scope for a startup introduction pitch with technology deliberately kept out of the slides; the underlying prototype still exists, described without vendor or engineering vocabulary in section 8 |
+
+Every removal in Table 3.3 traces to one of two causes, no traceable source or the wrong brief, never a judgement that the underlying claim was uninteresting.
+
+### 3.6 The revenue path correction, worked in full
+
+Deck B's original revenue path stated Year 1 revenue of ₹1.8 Cr, Year 2 revenue of ₹6.4 Cr, and Year 3 revenue of ₹9.6 Cr. Read as a single line, this looks like one consistent measure of revenue growing across three years. It is not: the Year 1 figure of ₹1.8 Cr is what this document calls billings, the combination of recurring licence revenue and one-time onboarding fees, while the Year 3 figure of ₹9.6 Cr is pure annual recurring revenue, with no onboarding component left in it because, by Year 3, few new districts are being onboarded relative to the total licensed. Mixing the two measures inside one row makes the growth curve look smoother than it is and, more importantly, overstates how much of Year 1's revenue repeats in Year 2 without any new sales effort.
+
+The NEXORA model separates the two measures explicitly and reproduces deck B's own Year 1 and Year 2 billings figures exactly, which is the strongest evidence that the correction is a bookkeeping fix, not a change to the underlying growth assumption. Table 3.5 shows the separation for the base case.
+
+| Measure | Year 1 | Year 2 | Year 3 |
+|---|---|---|---|
+| Districts licensed, year end (base case) | 12 | 45 | 80 |
+| Annual recurring revenue, ₹ Cr [M] | 1.44 | 5.40 | 9.60 |
+| One-time onboarding revenue, ₹ Cr [M] | 0.36 | 0.99 | 1.05 |
+| Billings, ₹ Cr (annual recurring revenue plus onboarding) [M] | 1.80 | 6.39 | 10.65 |
+| Recurring share of billings [M] | 80.0% | 84.5% | 90.1% |
+
+Deck B's stated Year 1 billings of ₹1.8 Cr and Year 2 billings of ₹6.4 Cr both match Table 3.5's billings row to within rounding, confirming the original district-count growth path was kept unchanged; only the mixing of annual recurring revenue with one-time billings inside a single "revenue" line was corrected [M]. A board or a jury reading only the Year 3 figure of ₹9.6 Cr in the original deck would have reasonably assumed that figure, too, was annual recurring revenue; Table 3.5 shows the Year 3 billings figure is actually ₹10.65 Cr once onboarding is added back, and the ₹9.6 Cr the original deck used for that year happened to equal annual recurring revenue by coincidence of the growth path, not by a consistent definition applied across all three years.
+
+### 3.7 What the merge process itself tested for
+
+Reconciling two decks built by two different teams for two different audiences is not simply a matter of picking the better slide each time one exists in both. Four tests were applied to every claim that appeared in either original deck before it was allowed into this merged submission or this document. First, does the claim trace to a source either original deck can produce, or that this project's own verification pass located independently; if not, the claim was dropped, never softened into a hedge. Second, does the claim belong inside NEXORA's own brief, which asks for a startup pitch rather than an engineering demonstration or a funding round; content that answered a different brief, however well it was built, was cut regardless of its quality. Third, where two claims from the two decks addressed the same point differently, which one holds up under the single most obvious follow-up question a jury would ask; section 3.4 above works through this test for the market-size figure specifically, and the same test eliminated the unsupported moat curve in favour of the sourced 7 Powers analysis in section 10. Fourth, does the merged version remain honest about what is prototype, what is planned, and what has not been done; every content block in Table 3.1 and Table 3.2 that survived into this submission was re-checked against the honesty rules in section 0.4 regardless of how either original deck had phrased it.
+
+This four-test process is also why the merged submission is not simply deck A's problem evidence stapled to deck B's business sections. Several of the strongest arguments in this document exist in neither original deck: the sustainability section (section 11) was built new because NEXORA's brief explicitly asks for sustainability as a named showcase item and neither original deck, built for a hackathon judge or an investor respectively, had reason to address it. The cover's mind map with named public-body logo slots (section 1) likewise answers a presentation convention neither original audience required. Treating the merge as an argument-engineering exercise rather than a copy-and-paste exercise is what let this team catch the tenfold market-size error in the first place; a team that had simply combined the two decks' market slides without re-deriving the arithmetic from the stated inputs would have carried the ₹960 Cr error straight through into a NEXORA submission, and would likely have been asked the one follow-up question in section 3.4 that the corrected figure, unlike the original, can actually survive.
+
+### 3.8 Mapping the merged slides to their source decks
+
+Table 3.4 shows which slide in the ten-slide merged submission draws primarily on which original deck, and which section of this document backs it, so the lineage of every slide is traceable.
+
+| Merged slide | Primary source | Backing section |
+|---|---|---|
+| S1 Cover | New: neither deck had a mind-map cover with named public-body logo slots | Section 1 |
+| S2 Executive Summary | New synthesis of both decks' problem framing, written as the contrarian thesis | Section 2 |
+| S3 Problem | Deck A's problem evidence, extended with the CAG paradox from deck B's appendix and new research | Section 4, section 6 |
+| S4 Solution | Deck A's closed loop and PHC Kota-4 proof, deck B's before/after table | Section 8 |
+| S5 Target Market | Deck B's market slide, with the 10x arithmetic correction and the district count fixed | Section 9 |
+| S6 Innovation | Deck A's eVIN precedent, deck B's moat section rebuilt as a 7 Powers and ERRC analysis | Section 10 |
+| S7 Sustainability | New: neither deck had a dedicated sustainability section | Section 11 |
+| S8 Feasibility | Deck A's six-week rollout and risk map, deck B's GTM sequence | Section 13 |
+| S9 Impact | Deck A's impact model and moneyshot, unchanged | Section 14 |
+| S10 Appendix | Rebuilt entirely as this research document | All sections |
+
+Three of the ten slides, the cover, the executive summary and sustainability, carry no direct ancestor in either original deck, which is the clearest evidence that this submission is an argument built for NEXORA's own brief rather than a relabelled copy of either prior pitch.

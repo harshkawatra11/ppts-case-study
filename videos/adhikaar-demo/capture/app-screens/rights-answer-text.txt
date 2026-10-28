@@ -1,0 +1,57 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+RIGHTS NAVIGATOR
+
+Ask what the law actually says
+
+Every answer here cites the specific article or section it comes from. When our corpus does not cover something with enough confidence, we say so rather than guess, the same way the RTI jurisdiction engine already refuses to name an authority it does not cover.
+
+Ask about a right, in your own words
+
+Dictate
+EN
+HI
+Ask
+
+Model Tenancy Act, 2021, Section 12 Read the text
+
+Security deposit
+
+This is a MODEL law: Parliament passed it as a template in June 2021 for State legislatures to adopt, amend, or ignore, and it has no force of its own. It does not automatically apply anywhere. Whether it governs a specific tenancy depends entirely on whether that citizen's own State has separately enacted it or something based on it; several States still have older, different Rent Control legislation instead. This text was not re-verified against a freshly fetched primary source this session (the Ministry of Housing and Urban Affairs PDF that hosted it returned HTTP 404 at build time); treat as a starting point to confirm, not a settled citation.
+
+Right to Information Act, 2005, 8(1)(a) Read the text
+
+Sovereignty, security, strategic and economic interests
+
+Requires a demonstrable prejudicial effect. A document marked confidential is not, by that mark alone, exempt under this clause.
+
+Right to Information Act, 2005, 24(1) Read the text
+
+Exempt intelligence and security organisations
+
+This explains what the law says. It is not advice about your specific situation, and for that you need a lawyer or a legal aid clinic.
+
+Get the record you will need
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

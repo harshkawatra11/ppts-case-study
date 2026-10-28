@@ -1,0 +1,71 @@
+[
+  {"id": "sc01", "slide": "s01", "line": "L01", "header": [[0, 0, 1220, 122]], "beats": [
+    {"at": 0.0, "reveal": [[40, 122, 1180, 350]], "logos": {"in": [0, 0, 1220, 480]}},
+    {"cue": ["prizes", "prices", "prize"], "at": 0.36, "cam": "CARD: attention map", "radial": {"t": "CARD: attention map", "cx": 0.5, "cy": 0.44}, "logos": {"in": "CARD: attention map"}},
+    {"cue": ["verdict"], "at": 0.60, "cam": "CARD: verdict", "reveal": ["CARD: verdict"]},
+    {"cue": ["sharpen"], "at": 0.90, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc02", "slide": "s02", "line": "L02", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["ban"], "at": 0.05, "cam": "PANEL: WHAT THE BAN TOOK", "reveal": ["PANEL: WHAT THE BAN TOOK"]},
+    {"cue": ["keep"], "at": 0.30, "cam": "PANEL: DO NOT", "reveal": ["PANEL: DO NOT"]},
+    {"cue": ["make"], "at": 0.68, "cam": "PANEL: DO: SHARPEN", "reveal": ["PANEL: DO: SHARPEN"]},
+    {"at": 0.93, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc03", "slide": "s03", "line": "L03", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["registry"], "at": 0.12, "cam": "PANEL: THE 300M", "reveal": ["PANEL: THE 300M"]},
+    {"cue": ["left", "money"], "at": 0.70, "cam": ["PANEL: WHERE THE LEAVERS", "PANEL: WHO LEFT"], "reveal": ["PANEL: WHERE THE LEAVERS", "PANEL: WHO LEFT"]},
+    {"at": 0.94, "cam": "wide", "unveil": true, "logos": "all"}
+  ]},
+  {"id": "sc04", "slide": "s04", "line": "L04", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["segments"], "at": 0.08, "cam": "TABLE: segment heatmap", "reveal": ["TABLE: segment heatmap"]},
+    {"cue": ["prize"], "at": 0.40, "cam": "TABLE: wants", "reveal": ["TABLE: wants"]},
+    {"cue": ["brains", "brain"], "at": 0.55, "ring": [1146, 490, 710, 108]},
+    {"cue": ["thirteen", "13"], "at": 0.78, "cam": "PANEL: SIZE", "reveal": ["PANEL: SIZE"]},
+    {"at": 0.94, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc05", "slide": "s05", "line": "L05", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["criteria"], "at": 0.06, "cam": [64, 318, 1248, 400], "reveal": [[64, 318, 1248, 400]]},
+    {"cue": ["four", "435", "4"], "at": 0.22, "ring": [64, 532, 1248, 50]},
+    {"cue": ["declared"], "at": 0.42, "ring": [64, 382, 1248, 50]},
+    {"cue": ["watch"], "at": 0.68, "cam": [64, 742, 1288, 280], "reveal": [[64, 742, 1288, 280]], "logos": {"in": [64, 742, 1288, 280]}},
+    {"cue": ["play"], "at": 0.90, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc06", "slide": "s06", "line": "L06", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["loop"], "at": 0.10, "cam": [61, 340, 942, 700], "reveal": ["CARD: loop hub"]},
+    {"cue": ["pick"], "at": 0.24, "reveal": ["CARD: loop 1"]},
+    {"cue": ["call"], "at": 0.34, "reveal": ["CARD: loop 2"]},
+    {"cue": ["prove"], "at": 0.44, "reveal": ["CARD: loop 3"]},
+    {"cue": ["rank"], "at": 0.60, "reveal": ["CARD: loop 4"]},
+    {"cue": ["repeat"], "at": 0.72, "reveal": ["CARD: loop 5", [61, 340, 942, 640]]},
+    {"cue": ["rupee"], "at": 0.80, "reveal": [[61, 980, 942, 56]]},
+    {"at": 0.94, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc07", "slide": "s07", "line": "L07", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["ships", "loop"], "at": 0.06, "cam": "TABLE: gantt", "reveal": ["TABLE: gantt"], "wipe": 1.6},
+    {"cue": ["ipl"], "at": 0.42, "ring": [1031, 408, 267, 44]},
+    {"cue": ["seven", "no"], "at": 0.62, "cam": "PANEL: WE WILL NOT BUILD", "reveal": ["PANEL: WE WILL NOT BUILD"]},
+    {"at": 0.93, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc08", "slide": "s08", "line": "L08", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["revenue", "legal"], "at": 0.08, "cam": "PANEL: 12-MONTH", "reveal": ["PANEL: 12-MONTH"]},
+    {"cue": ["crore", "fifty", "250"], "at": 0.36, "count": {"t": "MONEYSHOT", "from": 0, "to": 250, "prefix": "₹", "suffix": " Cr", "dur": 1.3}},
+    {"cue": ["tests", "passes"], "at": 0.64, "cam": "PANEL: THE LEGALITY", "reveal": ["PANEL: THE LEGALITY"]},
+    {"at": 0.93, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc09", "slide": "s09", "line": "L09", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["north"], "at": 0.04, "cam": [64, 318, 1066, 488], "reveal": [[64, 318, 1066, 488]]},
+    {"cue": ["signal"], "at": 0.44, "cam": "CARD: kill signal", "reveal": ["CARD: kill signal"]},
+    {"cue": ["ban"], "at": 0.62, "cam": [1154, 318, 702, 398], "reveal": [[1154, 318, 702, 398]]},
+    {"cue": ["free"], "at": 0.88, "cam": "PANEL: THE DECISION RULE", "reveal": ["PANEL: THE DECISION RULE"]},
+    {"at": 0.97, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc10", "slide": "s10", "line": "L10", "header": [[0, 0, 1920, 306]], "beats": [
+    {"cue": ["sourced", "source"], "at": 0.12, "reveal": ["PANEL: METHOD", "PANEL: SOURCES"]},
+    {"cue": ["assumption"], "at": 0.48, "reveal": ["TABLE: assumptions"]},
+    {"cue": ["ai", "disclosed"], "at": 0.72, "cam": "CARD: ai use", "reveal": ["CARD: ai use"], "ring": "CARD: ai use"},
+    {"at": 0.95, "cam": "wide", "unveil": true}
+  ]},
+  {"id": "sc11", "slide": "s12", "line": "L11", "full": true, "push": 1.05, "beats": [
+    {"at": 0.20, "logos": "all"}
+  ]}
+]

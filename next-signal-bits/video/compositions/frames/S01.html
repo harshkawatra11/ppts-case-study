@@ -1,0 +1,33 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    #S01_root{position:relative;width:100%;height:100%;overflow:hidden;background:#FFFFFF;font-family:Georgia,'Times New Roman',serif}
+    #S01_wordmark{position:absolute;left:0;right:0;top:300px;text-align:center;font-size:120px;font-weight:700;letter-spacing:0.02em;color:#0B0B0C}
+    #S01_rule{position:absolute;left:560px;top:450px;width:800px;height:3px;background:#C8102E}
+    #S01_subtitle{position:absolute;left:0;right:0;top:488px;text-align:center;font-family:'Courier New',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#C8102E}
+    #S01_team{position:absolute;left:0;right:0;top:560px;text-align:center;font-family:Arial,sans-serif;font-size:28px;color:#3A3936}
+    #S01_strap{position:absolute;left:0;right:0;bottom:120px;text-align:center;font-size:42px;font-style:italic;color:#0B0B0C;padding:0 260px}
+  </style>
+  <div data-hf-id="hf-32f2" id="S01_root" data-composition-id="S01" data-width="1920" data-height="1080">
+    
+    <div data-hf-id="hf-438u" id="S01_wordmark">NEXT SIGNAL</div>
+    <div data-hf-id="hf-05ya" id="S01_rule"></div>
+    <div data-hf-id="hf-sx9o" id="S01_subtitle">Finding the Next Signal, ATMOS 2026, Track D</div>
+    <div data-hf-id="hf-vpoy" id="S01_team">Harsh Kawatra &middot; Gursimran Kaur &middot; Team IdeaForge</div>
+    <div data-hf-id="hf-v7ww" id="S01_strap">Computes before it reads. Checks outside the company before it trusts it. Spends most of its effort trying to prove itself wrong.</div>
+  </div>
+  <script>
+    (() => {
+      gsap.set(["#S01_wordmark","#S01_rule","#S01_subtitle","#S01_team","#S01_strap"], { opacity: 0 });
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#S01_wordmark", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }, 0.2);
+      tl.fromTo("#S01_rule", { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.6, ease: "power2.out" }, 0.9);
+      tl.fromTo("#S01_subtitle", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 1.3);
+      tl.fromTo("#S01_team", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.5 }, 2.0);
+      tl.fromTo("#S01_strap", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 6.7);
+      tl.to({}, { duration: 15.400 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S01"] = tl;
+    })();
+  </script>
+</template>

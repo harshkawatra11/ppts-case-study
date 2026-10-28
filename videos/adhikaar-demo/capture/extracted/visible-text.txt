@@ -1,0 +1,93 @@
+[div] Adhikaar
+[div] A Register of Applications
+[a] My filings
+[a] Start a new filing
+[a] Rights Navigator
+[a] Scheme Eligibility
+[a] Methodology
+[p] One citizen, four disconnected tools
+[h1] You do not have a records problem. You have a government problem, and it was never one question.
+[p] A citizen with a real grievance is usually asking four questions at once: am I even eligible for something here, what are my rights in this situation, which government is actually responsible, and can I produce a document that survives contact with a bureaucracy. Today those four questions live in four separate places that do not talk to each other. Adhikaar signs a citizen in once and answers all four in one continuous flow, checking eligibility, explaining rights, deciding jurisdiction and legality, then drafting the application and watching the statutory clock until it answers or misses.
+[a] Start with what went wrong
+[a] Read the methodology
+[p] From the government’s own disclosure register
+[span] 2,797
+[span] 3,128
+[p] applications in the Department of Land Resources’ own published register,
+[p] percent of the total, were returned to the applicant unanswered, not refused, returned, with no refund of the fee.
+[p] The department states the reason itself: a Central Public Information Officer receiving a State subject, most often a land record, is not required to transfer it. It is simply sent back.
+[button] Read the rule that makes this happen
+[p] Land is the subject of this particular department almost entirely, which is a State matter. This figure is not a national rate and should not be read as one. It is direct evidence of a specific failure, not a general statistic. Source:
+[p] Department of Land Resources, RTI disposal register (2024 edition)
+[p] The incumbent, honestly
+[h2] rtionline.gov.in already exists. It is real, and it works.
+[p] The Government of India’s own RTI Online Portal is not a strawman. It gets real things right that a new product should say plainly rather than pretend do not exist.
+[h3] What rtionline.gov.in gets right
+[li] Real, modern payment rails: net banking, UPI, and cards
+[li] A working BPL fee exemption
+[li] SMS status alerts once a case is registered
+[li] A published help desk for problems with the portal itself
+[h3] What it leaves a citizen holding
+[p] No real account
+[p] The portal's own FAQ says registration is optional. A case is tracked only by a registration number plus a typed email, and the portal states it retains RTI cases for just three years.
+[p] No help finding the right government
+[p] The portal covers Central authorities only, and says so. It does not ask what happened to the citizen and work out who is responsible. Addressed to the wrong government, an application is returned, not forwarded, no refund, under a real 2008 government office memorandum. That exact mechanism is what Adhikaar's jurisdiction check exists to catch before filing.
+[p] One 3,000-character box, no drafting help
+[p] A blank text field with a hard character limit and no guidance on what a Public Information Officer is legally required to act on.
+[p] Total silence after submission
+[p] Nothing tracks the statutory thirty-day clock, and nothing tells the citizen when a deemed refusal opens the window to appeal.
+[p] Adhikaar is not a replacement for the portal’s payment rails or its help desk. It is what a citizen needs before and after that box: an account that remembers the case, a jurisdiction check before the wrong office sends it back, help drafting the question itself, and a clock that keeps running after the portal goes quiet.
+[h2] This is not one department’s problem
+[p] 53,000+
+[p] Applications returned nationally in one tracked year
+[p] Maharashtra highest at 14,478, the Central Information Commission itself second at 13,922.
+[p] approximately 4 percent
+[p] National CIC rejection rate (a narrower category than return)
+[p] Central Information Commission annual reporting places outright rejection under section 8 or 9 in the 3.85 to 4.3 percent range in recent years. Rejection and return are different failures; this figure must not be conflated with the return-rate evidence above.
+[p] 2.41 lakh
+[p] Appeals and complaints registered with 27 Commissions, July 2024 to June 2025
+[p] Against roughly 1.8 lakh disposed in the same period. Six State Information Commissions were non-functional for periods due to unfilled commissioner posts.
+[h2] One journey, not four separate tools
+[p] Each of these answers exactly one question a citizen actually has, and each one hands off into the next rather than leaving the citizen to start over somewhere else. None of the deciding steps depend on a language model reaching a verdict, because a verdict about what the law permits is not something a model is entitled to make on its own.
+[p] Am I even eligible for something here?
+[h3] Scheme Eligibility Reader
+[p] Answers a citizen's eligibility questions in plain language before anything is filed, and hands off into the interview the moment a records request or an application is what comes next.
+[p] hands off into
+[p] step
+[p] What are my rights in this situation?
+[h3] Rights Navigator
+[p] Grounded statute Q&A: what a citizen can do, in their own words, cited back to the actual section. Where the answer is "file a records request," it hands off directly into the guided interview.
+[p] hands off into
+[p] step
+[p] Is this the correct authority, and is my question legally sound?
+[h3] Jurisdiction and legality, inside the interview
+[p] The guided interview classifies the subject matter against the Constitution's Seventh Schedule before an authority is ever suggested, and checks every drafted question against an eighteen-rule linter built from the Act's own exemptions, each rule citing its section. A State subject addressed to a Central authority is blocked, not filed.
+[p] feeds
+[p] step
+[p] Can I produce the document, and will I know if they go silent?
+[h3] Drafting and the statutory clock
+[p] A properly formatted application is generated, then the statutory clock runs on its own. If the thirty-day window lapses, the case becomes a deemed refusal and the First Appeal is drafted automatically, citing the free-of-cost provision, with no further input required.
+[h2] Who this is for
+[p] Adhikaar is built for the citizen with the actual grievance, signed in under their own account, from the first question to the drafted document. It also works well through a second channel: Common Service Centre operators and legal aid volunteers who file on someone else’s behalf. India’s Common Service Centre network alone runs to roughly
+[p] approximately 582,000
+[p] functional centres and
+[p] approximately 5.4 lakh
+[p] village level entrepreneurs, reaching
+[p] 2.5+ lakh Gram Panchayats
+[p] , so a tool that also serves that operator reaches citizens who would otherwise never open a web form themselves.
+[p] Source: Common Services Centres Scheme, Ministry of Electronics and Information Technology.
+[h2] Where coverage stops
+[p] This directory currently covers twelve central ministries and departments and two states, Delhi and Maharashtra, at the department level. It does not cover any other state. Where a case falls outside this coverage, Adhikaar says so rather than guessing an address.
+[p] Where a case falls outside that coverage, the honest answer is to say so, not to guess an address and let the applicant lose their fee finding out the hard way.
+[h2] Every document Adhikaar produces is a draft.
+[p] You review it before it is posted. That review is not a formality this product tries to shrink; it is the point at which you, not a model, take responsibility for what is filed.
+[a] Start with what went wrong
+[p] Demo citizen account, no signup needed:
+[p] demo@adhikaar.in
+[p] 5jYv3OpRfGblAHSFgdGD
+[p] Adhikaar
+[p] A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+[p] Civic and legal empowerment
+[p] Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+[p] Primary sources
+[p] Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

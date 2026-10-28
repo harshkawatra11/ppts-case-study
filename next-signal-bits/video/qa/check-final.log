@@ -1,0 +1,38 @@
+
+> check
+> npx --yes hyperframes@0.8.181 check --at 7,18,31,45,63,75,80,87,93,103 --snapshots
+
+◆  Checking video
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\eb-garamond)
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\eb-garamond)
+[INFO] [Compiler] Fetched 10 font face(s) for "JetBrains Mono" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\jetbrains-mono)
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to C:\Users\harsh\.cache\hyperframes\fonts\inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 4 requested font families
+
+Lint
+  ◇ 0 errors, 0 warnings
+
+Runtime
+  ◇ 0 errors, 0 warnings
+
+Layout
+  ◇ 0 issues across 10 sample(s)
+
+Motion
+  ◇ 0 errors, 0 warnings
+
+Contrast
+  ◇ 29/29 text checks pass WCAG AA
+
+Snapshots
+  ◇ 5 PNG(s) saved
+    .hyperframes\artifacts\snapshots\e4108efb-c2cb-4475-844b-a14d35284bd3\frame-00-at-7.0s.png
+    .hyperframes\artifacts\snapshots\e4108efb-c2cb-4475-844b-a14d35284bd3\frame-01-at-31.0s.png
+    .hyperframes\artifacts\snapshots\e4108efb-c2cb-4475-844b-a14d35284bd3\frame-02-at-63.0s.png
+    .hyperframes\artifacts\snapshots\e4108efb-c2cb-4475-844b-a14d35284bd3\frame-03-at-80.0s.png
+    .hyperframes\artifacts\snapshots\e4108efb-c2cb-4475-844b-a14d35284bd3\frame-04-at-103.0s.png
+
+◇  Check passed
+Report: C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\next-signal-bits\video\.hyperframes\artifacts\checks\3464443b-8f2c-4818-b072-da0500d770d8.json
+Revision: none (inputs-changed)

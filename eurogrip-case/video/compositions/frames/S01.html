@@ -1,0 +1,44 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S01_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S01_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S01_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S01_root .lyr{position:absolute;will-change:opacity,transform}
+    #S01_root .lyr img{display:block;width:100%;height:100%}
+    #S01_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    
+  </style>
+  <div id="S01_root" data-composition-id="S01" data-width="1920" data-height="1080">
+    <div id="S01_stage"><img class="bg" src="assets/slides/s1_skel.png" alt=""><div class="lyr" id="S01_s1_title" style="left:60px;top:154px;width:1126px;height:316px"><img src="assets/crops/s1_title.png" alt=""></div><div class="lyr" id="S01_s1_verdict" style="left:60px;top:476px;width:1116px;height:232px"><img src="assets/crops/s1_verdict.png" alt=""></div><div class="lyr" id="S01_s1_team" style="left:60px;top:728px;width:1116px;height:166px"><img src="assets/crops/s1_team.png" alt=""></div><div class="lyr" id="S01_s1_prep" style="left:60px;top:912px;width:1116px;height:44px"><img src="assets/crops/s1_prep.png" alt=""></div><div class="lyr" id="S01_s1_mind" style="left:1196px;top:156px;width:672px;height:852px"><img src="assets/crops/s1_mind.png" alt=""></div><div class="ovl" id="S01_o5" style="left:57px;top:473px;width:1122px;height:238px;border-color:#FFC20E;background:#FFC20E29"></div></div>
+    
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S01_stage",{x:0.0,y:0.0,scale:1.0000},0);
+      tl.set("#S01_s1_title",{opacity:0},0);
+      tl.set("#S01_s1_verdict",{opacity:0},0);
+      tl.set("#S01_s1_team",{opacity:0},0);
+      tl.set("#S01_s1_prep",{opacity:0},0);
+      tl.set("#S01_s1_mind",{opacity:0},0);
+      tl.fromTo("#S01_stage",{opacity:0},{opacity:1,duration:0.45,ease:"power1.out"},0);
+      tl.set("#S01_s1_title",{opacity:1},0.150);
+      tl.fromTo("#S01_s1_title",{clipPath:"inset(0px 100% 0px 0px)"},{clipPath:"inset(0px 0% 0px 0px)",duration:0.9,ease:"power2.inOut"},0.150);
+      tl.fromTo("#S01_s1_mind",{opacity:0,y:8},{opacity:1,y:0,duration:0.8,ease:"power2.out"},0.350);
+      tl.fromTo("#S01_s1_team",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},0.550);
+      tl.fromTo("#S01_s1_prep",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},3.270);
+      tl.fromTo("#S01_s1_verdict",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},5.310);
+      tl.set("#S01_o5",{opacity:0},0);
+      tl.to("#S01_o5",{opacity:1,duration:0.2},8.170);
+      tl.to("#S01_o5",{opacity:0,duration:0.45},9.970);
+      tl.to({}, { duration: 13.125 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S01"] = tl;
+    })();
+  </script>
+</template>

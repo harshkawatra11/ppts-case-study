@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "tables": [
+    "R16-03",
+    "R16-04",
+    "R16-05",
+    "R17-01",
+    "R17-02",
+    "R17-04",
+    "R17-05"
+  ],
+  "change": "Moved redundant title cell to a caption; retained every data cell and remaining header; removed one surplus separator cell."
+}

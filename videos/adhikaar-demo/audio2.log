@@ -1,0 +1,24 @@
+· tts: kokoro · voice am_michael · 14 line(s)
+  voice 01: assets/voice/01.wav (8.32s, 0 words)
+  voice 02: assets/voice/02.wav (5.568s, 0 words)
+  voice 03: assets/voice/03.wav (4.267s, 0 words)
+  voice 04: assets/voice/04.wav (9.877s, 0 words)
+  voice 05: assets/voice/05.wav (9.216s, 0 words)
+  voice 06: assets/voice/06.wav (4.096s, 0 words)
+  voice 07: assets/voice/07.wav (5.184s, 0 words)
+  voice 08: assets/voice/08.wav (6.997s, 0 words)
+  voice 09: assets/voice/09.wav (1.984s, 0 words)
+  voice 10: assets/voice/10.wav (6.869s, 0 words)
+  voice 11: assets/voice/11.wav (11.371s, 0 words)
+  voice 12: assets/voice/12.wav (12.757s, 0 words)
+  voice 13: assets/voice/13.wav (8.469s, 0 words)
+  voice 14: assets/voice/14.wav (4.245s, 0 words)
+· bgm: disabled
+✓ audio engine → C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\videos\adhikaar-demo\audio_engine_meta.json
+  heygen: no  ·  ran: tts,bgm
+  voices: 14  ·  bgm: none  ·  sfx: 0
+  total voice duration: 99.22s
+
+anomalies (non-fatal):
+  - bgm: retrieve requires a HeyGen credential — skipped (no generate fallback for an explicit retrieve)
+✓ audio generate: 14 voice + no bgm → C:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-court\videos\adhikaar-demo\audio_meta.json

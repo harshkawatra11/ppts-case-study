@@ -1,0 +1,237 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .top-bar {
+      position: absolute;
+      top: 40px;
+      left: 72px;
+      right: 72px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .badge-track {
+      background: #E8B33C;
+      color: #0A0A0A;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      padding: 8px 18px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 3px 3px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .badge-event {
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      padding: 8px 18px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 3px 3px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .hero-section {
+      position: absolute;
+      top: 125px;
+      left: 72px;
+      right: 72px;
+    }
+
+    .brand-title {
+      font-size: 80px;
+      font-weight: 900;
+      color: #3A0E30;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .sub-definition {
+      font-size: 26px;
+      font-weight: 600;
+      color: #5C1A4B;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      width: 100%;
+      height: 3px;
+      background: #0A0A0A;
+      margin-bottom: 22px;
+    }
+
+    .thesis-statement {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1.35;
+      color: #0A0A0A;
+      max-width: 1550px;
+    }
+
+    .cards-container {
+      position: absolute;
+      bottom: 75px;
+      left: 72px;
+      right: 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 36px;
+    }
+
+    .stat-card {
+      background: #FFFFFF;
+      border: 2.5px solid #0A0A0A;
+      box-shadow: 6px 6px 0 #0A0A0A;
+      padding: 36px;
+      position: relative;
+    }
+
+    .stat-number {
+      font-size: 64px;
+      font-weight: 900;
+      color: #3A0E30;
+      line-height: 1.1;
+      margin-bottom: 14px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-number.magenta {
+      color: #E5399E;
+    }
+
+    .stat-label {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #0A0A0A;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 20px;
+      left: 72px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="01-baseline" data-width="1920" data-height="1080">
+    <div class="top-bar">
+      <div class="badge-track" id="badge-track">TRACK: AI FOR SAFETY</div>
+      <div class="badge-event" id="badge-event">NARI KAVACH 2026 | FACULTY OF TECHNOLOGY, DU</div>
+    </div>
+
+    <div class="hero-section">
+      <div class="brand-title" id="brand-title">PUKAAR</div>
+      <div class="sub-definition" id="sub-definition">Pukaar: a call, a cry for help.</div>
+      <div class="divider" id="divider"></div>
+      <div class="thesis-statement" id="thesis-statement">
+        The call she is already pretending to be on, made real, with the alarm hidden inside the conversation.
+      </div>
+    </div>
+
+    <div class="cards-container">
+      <div class="stat-card" id="card-1">
+        <div class="stat-number" id="num-fake-call">72.3%</div>
+        <div class="stat-label">of women try to fake a phone call when travelling alone at night</div>
+      </div>
+
+      <div class="stat-card" id="card-2">
+        <div class="stat-number magenta" id="num-response">18.61 min</div>
+        <div class="stat-label">national average 112 response time, 2025</div>
+      </div>
+
+      <div class="stat-card" id="card-3">
+        <div class="stat-number" id="num-known">95.6%</div>
+        <div class="stat-label">of accused in rape cases are already known to her</div>
+      </div>
+    </div>
+
+    <div class="bottom-source" id="source-line">Source: Rideshare Safety Survey 2026 | ERSS 112 Response Data | NCRB 2025</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#badge-track, #badge-event", {
+        y: -30,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.1,
+        ease: "power3.out"
+      }, 0);
+
+      tl.from("#brand-title", {
+        scale: 0.92,
+        opacity: 0,
+        duration: 0.7,
+        ease: "power3.out"
+      }, 0.2);
+
+      tl.from("#sub-definition", {
+        opacity: 0,
+        y: 10,
+        duration: 0.5,
+        ease: "power2.out"
+      }, 0.4);
+
+      tl.from("#divider", {
+        scaleX: 0,
+        transformOrigin: "left center",
+        duration: 0.6,
+        ease: "power3.out"
+      }, 0.5);
+
+      tl.from("#thesis-statement", {
+        opacity: 0,
+        y: 15,
+        duration: 0.7,
+        ease: "power3.out"
+      }, 0.7);
+
+      tl.from("#card-1, #card-2, #card-3", {
+        y: 40,
+        opacity: 0,
+        duration: 0.7,
+        stagger: 0.15,
+        ease: "back.out(1.4)"
+      }, 0.9);
+
+      const obj = { val1: 0, val2: 0, val3: 0 };
+      tl.to(obj, {
+        val1: 72.3,
+        val2: 18.61,
+        val3: 95.6,
+        duration: 3.5,
+        ease: "power2.out",
+        onUpdate: () => {
+          document.getElementById("num-fake-call").textContent = obj.val1.toFixed(1) + "%";
+          document.getElementById("num-response").textContent = obj.val2.toFixed(2) + " min";
+          document.getElementById("num-known").textContent = obj.val3.toFixed(1) + "%";
+        }
+      }, 0.5);
+
+      tl.to({}, { duration: 9.36 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["01-baseline"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,1778 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "slide": "A3",
+  "targetSlideID": "__SLIDE_A3__",
+  "model_hash": "9b3628d94d",
+  "sources": [
+    "marksoc-case/research/parts/part-D.md",
+    "marksoc-case/research/parts/part-E.md",
+    "marksoc-case/audit/extended-model-tables.json",
+    "marksoc-case/audit/independent-audit.json",
+    "marksoc-case/model/model_outputs.json"
+  ],
+  "panels": {
+    "feasible": [
+      64,
+      310,
+      880,
+      340
+    ],
+    "sensitivity": [
+      968,
+      310,
+      888,
+      340
+    ],
+    "rationing": [
+      64,
+      674,
+      880,
+      358
+    ],
+    "timing": [
+      968,
+      674,
+      888,
+      358
+    ]
+  },
+  "claims": [
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[0].growth_money_lakh",
+      "value": 58,
+      "display": "58",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[0].march_ebitda_lakh",
+      "value": 5.604998083290155,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[0].q1_ebitda_lakh",
+      "value": -42.9269538334197,
+      "display": "−42.9",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[0].march_return_rate",
+      "value": 0.04549603662852649,
+      "display": "4.5%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[1].growth_money_lakh",
+      "value": 49,
+      "display": "49",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[1].march_ebitda_lakh",
+      "value": 5.604998083290155,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[1].q1_ebitda_lakh",
+      "value": -57.165293791834245,
+      "display": "−57.2",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[1].march_return_rate",
+      "value": 0.04549603662852649,
+      "display": "4.5%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[2].growth_money_lakh",
+      "value": 68,
+      "display": "68",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[2].march_ebitda_lakh",
+      "value": 1.8969548000000174,
+      "display": "+1.9",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[2].q1_ebitda_lakh",
+      "value": -69.02726439999998,
+      "display": "−69.0",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[2].march_return_rate",
+      "value": 0.05585454545454546,
+      "display": "5.6%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[3].growth_money_lakh",
+      "value": 59,
+      "display": "59",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[3].march_ebitda_lakh",
+      "value": 1.8969548000000174,
+      "display": "+1.9",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[3].q1_ebitda_lakh",
+      "value": -76.805932673997,
+      "display": "−76.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[3].march_return_rate",
+      "value": 0.05585454545454546,
+      "display": "5.6%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[4].growth_money_lakh",
+      "value": 75,
+      "display": "75",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[4].march_ebitda_lakh",
+      "value": 3.444900431126186,
+      "display": "+3.4",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[4].q1_ebitda_lakh",
+      "value": -86.76442250811556,
+      "display": "−86.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T23",
+      "valuekey": "tables.T23.rows[4].march_return_rate",
+      "value": 0.044726379893668435,
+      "display": "4.5%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "feasible",
+      "node": "ADD:A3:feasible:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[31].m.Mar.demand",
+      "value": 8398.08,
+      "display": "8,398",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[31].m.Mar.fS",
+      "value": 0.9660155721710233,
+      "display": "96.6%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[31].m.Mar.fC",
+      "value": 1,
+      "display": "100.0%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[31].m.Mar.sold",
+      "value": 8327.72,
+      "display": "8,328",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[30].m.Mar.demand",
+      "value": 8398.08,
+      "display": "8,398",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[30].m.Mar.fS",
+      "value": 0.9660155721710233,
+      "display": "96.6%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[30].m.Mar.fC",
+      "value": 0.864582382692982,
+      "display": "86.5%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[30].m.Mar.sold",
+      "value": 7200.000000000001,
+      "display": "7,200",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[42].m.Mar.demand",
+      "value": 9500,
+      "display": "9,500",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[42].m.Mar.fS",
+      "value": 1,
+      "display": "100.0%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[42].m.Mar.fC",
+      "value": 0.7578947368421053,
+      "display": "75.8%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[42].m.Mar.sold",
+      "value": 7200,
+      "display": "7,200",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[34].m.Mar.demand",
+      "value": 8938.08,
+      "display": "8,938",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[34].m.Mar.fS",
+      "value": 1,
+      "display": "100.0%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[34].m.Mar.fC",
+      "value": 1,
+      "display": "100.0%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T22",
+      "valuekey": "plans[34].m.Mar.sold",
+      "value": 8938.08,
+      "display": "8,938",
+      "unit": "phones",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "rationing",
+      "node": "ADD:A3:rationing:table",
+      "source": "marksoc-case/audit/independent-audit.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[0].february_ebitda_lakh",
+      "value": 5.604998083290155,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[0].march_ebitda_lakh",
+      "value": 5.604998083290155,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[0].q1_ebitda_lakh",
+      "value": -42.9269538334197,
+      "display": "−42.9",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[1].february_ebitda_lakh",
+      "value": -8.633341875124387,
+      "display": "−8.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[1].march_ebitda_lakh",
+      "value": 5.604998083290155,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[1].q1_ebitda_lakh",
+      "value": -57.165293791834245,
+      "display": "−57.2",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[2].february_ebitda_lakh",
+      "value": -8.633341875124387,
+      "display": "−8.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[2].march_ebitda_lakh",
+      "value": -8.633341875124387,
+      "display": "−8.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T25",
+      "valuekey": "tables.T25.rows[2].q1_ebitda_lakh",
+      "value": -71.40363375024879,
+      "display": "−71.4",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "timing",
+      "node": "ADD:A3:timing:table",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[0].march_ebitda_lakh",
+      "value": -3.7742173599999944,
+      "display": "−3.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:0",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[1].march_ebitda_lakh",
+      "value": -7.219417359999994,
+      "display": "−7.2",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:1",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[2].march_ebitda_lakh",
+      "value": -8.964030400083487,
+      "display": "−9.0",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:2",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[3].march_ebitda_lakh",
+      "value": -10.664617359999994,
+      "display": "−10.7",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:3",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[4].march_ebitda_lakh",
+      "value": 2.842170943040401e-14,
+      "display": "0.0",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:4",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[5].march_ebitda_lakh",
+      "value": -3.525353311249688,
+      "display": "−3.5",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:5",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[6].march_ebitda_lakh",
+      "value": -5.310555145020658,
+      "display": "−5.3",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:6",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[7].march_ebitda_lakh",
+      "value": -7.050706622499405,
+      "display": "−7.1",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:7",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[8].march_ebitda_lakh",
+      "value": 5.604998083290127,
+      "display": "+5.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:8",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[9].march_ebitda_lakh",
+      "value": 1.884182083290142,
+      "display": "+1.9",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:9",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[10].march_ebitda_lakh",
+      "value": 0,
+      "display": "0.0",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:10",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[11].march_ebitda_lakh",
+      "value": -1.8366339167098715,
+      "display": "−1.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:11",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[12].march_ebitda_lakh",
+      "value": 7.601493081690137,
+      "display": "+7.6",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:12",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[13].march_ebitda_lakh",
+      "value": 3.773493081690134,
+      "display": "+3.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:13",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[14].march_ebitda_lakh",
+      "value": 1.8350341482640715,
+      "display": "+1.8",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:14",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.rows[15].march_ebitda_lakh",
+      "value": -0.05450691830984056,
+      "display": "−0.1",
+      "unit": "₹ lakh",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:cell:15",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.combined_order_uplift[0]",
+      "value": 0.08,
+      "display": "8%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:combined_order_uplift:0",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.combined_order_uplift[1]",
+      "value": 0.1051264298588438,
+      "display": "10.51%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:combined_order_uplift:1",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.combined_order_uplift[2]",
+      "value": 0.1664,
+      "display": "16.64%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:combined_order_uplift:2",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.combined_order_uplift[3]",
+      "value": 0.2,
+      "display": "20%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:combined_order_uplift:3",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.good_battery_swap_share[0]",
+      "value": 0.4,
+      "display": "40%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:good_battery_swap_share:0",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.good_battery_swap_share[1]",
+      "value": 0.5,
+      "display": "50%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:good_battery_swap_share:1",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.good_battery_swap_share[2]",
+      "value": 0.5506389481041294,
+      "display": "55.06%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:good_battery_swap_share:2",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    },
+    {
+      "research_section": "part-D §§22-23; part-E §§24,30",
+      "caseIDs": [
+        "C-E3",
+        "C-E4b",
+        "C-E6H2",
+        "C-E6H4",
+        "C-T1t",
+        "C-T2t",
+        "C-T3t",
+        "C-T4t"
+      ],
+      "table": "T24",
+      "valuekey": "tables.T24.inputs.good_battery_swap_share[3]",
+      "value": 0.6,
+      "display": "60%",
+      "unit": "fraction",
+      "assumptions": [
+        "Frozen case inputs; team objective: highest unrounded Q1 EBITDA among conditional feasible plans",
+        "B1 is a compliance proxy; Exhibit 5 controls must be demonstrated"
+      ],
+      "panel": "sensitivity",
+      "node": "ADD:A3:sensitivity:axis:good_battery_swap_share:3",
+      "source": "marksoc-case/audit/extended-model-tables.json"
+    }
+  ],
+  "verification": {
+    "syntax": "PASS: AsyncFunction(figma, source) parsed with Node.js",
+    "numerical_data": "Direct frozen model fields, formatting only; no solution recalculation",
+    "text_fit": "22 pt minimum; table rows 41-44px; longest plan shortened with shift explicitly labeled; 44pt headline on one line within 1790px; native heatmap labels 145px; footer only 14pt",
+    "live_visual_QA": "Required after coordinator executes script",
+    "source_sha_note": "Original helper sections A-C preserved verbatim except approved palette token RGB replacement",
+    "local_font_measurement": {
+      "method": "Pillow getlength using installed Poppins Bold at authored sizes as conservative estimate for Inter body; Inter TTF unreadable by Pillow",
+      "checked_strings": 82,
+      "overflow_issues": []
+    }
+  }
+}

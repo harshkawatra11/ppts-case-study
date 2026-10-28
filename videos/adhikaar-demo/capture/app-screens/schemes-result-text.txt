@@ -1,0 +1,169 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+SCHEME ELIGIBILITY READER
+
+Do you actually qualify?
+
+The government’s own scheme portal, myscheme.gov.in, is real and useful. What this does differently: every answer here shows the exact rule applied, criterion by criterion, not a bare yes or no, and if you don’t qualify you can ask the department why, in writing, in one click.
+
+Your age
+Gender
+Select
+Female
+Male
+Other
+State
+Annual household income (Rs.)
+Land holding (acres, 0 if none)
+Ration card
+Select
+BPL (Below Poverty Line)
+AAY (Antyodaya Anna Yojana)
+APL (Above Poverty Line)
+No ration card
+Not sure
+Occupation
+Select
+Farmer / cultivates land
+Government employee or pensioner
+Doctor, engineer, lawyer, CA, or architect
+Daily-wage or domestic worker
+Artisan or craftsperson (carpenter, potter, tailor, etc.)
+Not currently working
+Other
+I already own a pucca (permanent) house
+I am a government employee or pensioner
+I paid income tax last assessment year
+I have a daughter under 10 years old
+Check eligibility
+
+Leave anything blank you are not sure of; we will say “need more information” rather than guess.
+
+Ayushman Bharat PM-JAY
+
+National Health Authority, Ministry of Health and Family Welfare
+
+ELIGIBLE
+
+Sources disagree on some figures for this scheme.
+
+✓ SECC 2011 deprivation category (via BPL/AAY ration card) or age 70 and above
+
+Health cover up to Rs. 5 lakh per family per year for secondary and tertiary hospitalisation.
+
+PM Ujjwala Yojana
+
+Ministry of Petroleum and Natural Gas
+
+ELIGIBLE
+
+This scheme's figures are unverified against a primary source this session.
+
+✓ Applicant is a woman aged 18 or above
+✓ Belongs to a BPL or AAY household with no existing LPG connection
+
+A free LPG connection with a security-deposit waiver, plus subsidised refills.
+
+NSAP: Indira Gandhi National Old Age Pension Scheme
+
+Ministry of Rural Development
+
+ELIGIBLE
+
+This scheme's figures are unverified against a primary source this session.
+
+✓ Aged 60 or above
+✓ Belongs to a BPL household
+
+Rs. 200 per month up to age 79, and Rs. 500 per month from age 80 onward, under the Central scheme; many states pay a top-up above this.
+
+Mukhyamantri Majhi Ladki Bahin Yojana (Maharashtra)
+
+Women and Child Development Department, Government of Maharashtra
+
+ELIGIBLE
+
+This scheme's figures are unverified against a primary source this session.
+
+✓ Applicant is a woman
+✓ Aged between 21 and 65
+✓ Resident of Maharashtra
+✓ Family annual income at or below Rs. 2.5 lakh
+
+Rs. 1,500 per month via Direct Benefit Transfer to an Aadhaar-linked bank account.
+
+PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)
+
+Ministry of Agriculture and Farmers Welfare
+
+NEED MORE INFORMATION
+✓ Belongs to a land-holding farmer family
+✓ Not a serving or retired government employee
+✓ Not a doctor, engineer, lawyer, chartered accountant, or architect
+? Did not pay income tax in the last assessment year
+All persons who paid income tax in the last assessment year are excluded.
+Ask them why, in writing
+
+PM Awas Yojana, Gramin
+
+Ministry of Rural Development
+
+NEED MORE INFORMATION
+
+This scheme's figures are unverified against a primary source this session.
+
+? Does not already own a pucca house
+Covers households living in a kutcha or dilapidated house, or with no house at all.
+✓ SECC-listed as housing-deprived (via BPL/AAY ration card)
+✓ Household income at or below Rs. 15,000 per month
+? Not a government employee and did not pay income tax
+Government employees and income-tax payers are excluded, per the scheme's standard exclusion list.
+Ask them why, in writing
+
+Sukanya Samriddhi Yojana
+
+Department of Economic Affairs / India Post
+
+NEED MORE INFORMATION
+
+This scheme's figures are unverified against a primary source this session.
+
+? Has a daughter under 10 years of age
+An account can be opened for a girl child any time from birth until she turns 10; the window closes permanently on her tenth birthday.
+Ask them why, in writing
+
+PM Vishwakarma
+
+Ministry of Micro, Small and Medium Enterprises
+
+NOT ELIGIBLE
+
+This scheme's figures are unverified against a primary source this session.
+
+✓ Aged 18 or above
+✕ Works in one of the 18 notified artisan trades
+Covers carpenters, blacksmiths, goldsmiths, potters, cobblers, tailors, masons and thirteen other named traditional trades.
+Ask them why, in writing
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

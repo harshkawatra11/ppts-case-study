@@ -1,0 +1,20 @@
+{
+  "Yulu": {
+    "url": "https://www.yulu.bike/wp-content/uploads/2019/08/Yulu-Logo.svg",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Yulu.png",
+    "content_type": "text/html",
+    "size": 4257
+  },
+  "Bajaj Auto": {
+    "url": "https://cdn.bajajauto.com/-/media/images/bajajauto/media-kit/logos/bajaj-logo-new.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Bajaj_Auto.png",
+    "content_type": "image/png",
+    "size": 6891
+  },
+  "Amazon": {
+    "error": "404 Client Error: Not Found for url: https://cdn.worldvectorlogo.com/logos/amazon-2.svg"
+  },
+  "Tata Power": {
+    "error": "404 Client Error: Not Found for url: https://cdn.worldvectorlogo.com/logos/tata-power.svg"
+  }
+}

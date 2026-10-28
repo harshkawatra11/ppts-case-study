@@ -1,0 +1,15 @@
+brand,size,pattern,type,mrp_inr,gst_included,channel,date,source_sid
+Eurogrip,90/100-10,Conta 625N,tubeless,2001,unknown,"e-commerce (price-history.in, MRP confirmed on direct fetch 15 Oct 2026; supersedes an earlier ₹1821 implied-from-discount snippet)",14 Oct 2026,S038
+Eurogrip,90/100-10,Jumbo GT,tube-type,1962,unknown,"e-commerce (price-history.in, MRP confirmed on direct fetch 15 Oct 2026; supersedes an earlier ₹1650 implied-from-discount snippet)",14 Oct 2026,S039
+Eurogrip,90/100-10,Dragon Plus,tubeless,1752,unknown,"e-commerce (listing implied MRP, not re-confirmed by direct fetch; SNIPPET in raw file)",14 Oct 2026,S040
+Eurogrip,90/90-12,Conta/Dragon (unspecified),unknown,998,unknown,dealer fitment chart (starting price),14 Oct 2026,S037
+MRF,90/100-10,Zapper (Scooter),unknown,1050,unknown,"e-commerce aggregator (Carbike360, not re-confirmed: HTTP 403 on direct fetch)",14 Oct 2026,S041
+MRF,90/100-10,Nylogrip Zapper N4,tubeless,1300,unknown,"dealer (IndiaMART, confirmed on direct fetch 15 Oct 2026)",14 Oct 2026,S042
+CEAT,90/100-10,Zoom D,tube-type,1210,unknown,"company blog (ceat.com, price confirmed on direct fetch 15 Oct 2026; supersedes an earlier ₹1270 aggregator figure)",15 Oct 2026,S043
+CEAT,90/90-12,Zoom D,tubeless,1240,unknown,"company blog (ceat.com, directly confirmed 15 Oct 2026)",15 Oct 2026,S043
+MRF,100/90-17,Zapper C,tube-type,2484,unknown,"e-commerce (Tyreplex, directly confirmed)",14 Oct 2026,S034
+MRF,100/90-17,Zapper C1,tubeless,2421,unknown,e-commerce aggregator,14 Oct 2026,S035
+MRF,100/90-17,Zapper C1,tubeless,1345,unknown,e-commerce aggregator (conflicting low figure),14 Oct 2026,S036
+Eurogrip,100/90-17,unspecified (Ignitor fitment chart, 9 models ₹920 to ₹2705),unknown,1311,"unknown,dealer fitment chart (starting price, directly confirmed)",14 Oct 2026,S046
+Eurogrip,3.00-18,Jumbo,tube-type,2560,unknown,"e-commerce (Amazon.in MRP, corrected on direct fetch)",14 Oct 2026,S047
+Eurogrip,3.00-18,Jumbo,tube-type,1854,unknown,"e-commerce (Amazon.in selling price, corrected on direct fetch)",14 Oct 2026,S047

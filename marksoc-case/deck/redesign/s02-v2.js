@@ -1,0 +1,25 @@
+const s=await resetBody('3:4','Back trust and throughput together: ₹58.0 lakh funds a +₹5.6 lakh March, while all four board tests pass','Source: case Exhibits 1 to 6 and page 7 | team model 9b3628d94d, T7 to T19 | survey responses are not exclusive; chart results are modelled | Q1 incremental EBITDA −₹0.5 lakh');
+function sideRail(y,h,text){const f=addFrame(s,64,y,38,h,R.navy,C.ink,2,'RAIL');const t=addText(f,'Poppins','Bold',22,C.white,text,0,0);t.rotation=90;t.x=5;t.y=h-18;}
+sideRail(310,318,'RATIONALE');sideRail(658,374,'BOARD DECISION');
+label(s,126,310,486,'1  CUSTOMERS WANT PROOF');
+bars(s,126,366,486,[{l:'85% battery',v:44,t:'44%',c:R.blue},{l:'12-month cover',v:39,t:'39%',c:R.navy},{l:'Condition report',v:36,t:'36%',c:R.blue},{l:'5% price cut',v:22,t:'22%',c:R.red}],{lw:210,rh:45,max:50,vw:68});
+tint(s,126,563,486,65,'Battery assurance draws 2× the response to a price cut.',{fill:R.ltgold});
+label(s,646,310,610,'2  THE MARCH PATH CLEARS ZERO');
+const chart=addFrame(s,646,354,610,205,C.white,C.ink,1.5,'CHART: monthly EBITDA');
+const X=i=>65+i*220,Y=v=>162-(v+60)/70*145;
+[-60,-40,-20,0].forEach(v=>{addRect(chart,60,Y(v),495,1,C.surface);tx(chart,5,Y(v)-14,45,String(v),{align:'RIGHT'});});addRect(chart,60,Y(0),495,2,C.ink);
+[{v:[-14.1,-14.1,-14.1],c:R.red},{v:[-54.1,5.6,5.6],c:R.blue}].forEach(q=>{line(chart,q.v.map((v,i)=>[X(i),Y(v)]),q.c,4);q.v.forEach((v,i)=>addEllipse(chart,X(i)-5,Y(v)-5,10,10,q.c,C.ink,1));});
+['Jan','Feb','Mar'].forEach((v,i)=>tx(chart,X(i)-40,169,80,v,{style:'Bold',align:'CENTER'}));tx(chart,495,0,106,'+5.6',{style:'Bold',color:R.blue});tx(chart,478,67,125,'−14.1',{style:'Bold',color:R.red});
+tx(s,646,571,610,'Our plan: −54.1 → +5.6 → +5.6 ₹ lakh',{style:'Bold',color:R.blue});tx(s,646,604,610,'₹40 lakh setup in January; do nothing: −14.1 each month.');
+label(s,1288,310,568,'3  FUND ₹58; PRESERVE ₹22');
+donutR(s,1386,455,184,[{v:15,c:R.blue},{v:25,c:R.navy},{v:18,c:R.gold},{v:22,c:C.tint}],'₹80','lakh budget');
+[['B1 report','₹15',R.blue],['B2 promise','₹25',R.navy],['Third shift*','₹18',R.gold],['Reserve','₹22',C.tint]].forEach((r,i)=>{addRect(s,1502,369+i*45,18,18,r[2],C.ink,1.5);tx(s,1530,364+i*45,220,r[0],{style:'Bold'});tx(s,1750,364+i*45,106,r[1],{style:'Bold',align:'RIGHT'});});
+tx(s,1288,566,568,'₹15 + ₹25 + ₹9 + ₹9 = ₹58.0 lakh',{style:'Bold'});tx(s,1288,603,568,'*February and March third-shift costs.');
+addDashedRow(s,126,644,1730,C.ink,10,7,1.5);
+label(s,126,658,1010,'FIVE ANSWERS, ONE COHERENT RECOMMENDATION');
+const A=[['DIAGNOSE','Trust at a full lab: 5 of 7 lost-sale reasons; all 7,200 sellable phones sold.'],['TARGET','Family buyers on Good: 24 / 30 fit; ₹2,699 contribution after the plan.'],['FUND','B1 + B2 in January; third shift on 1 February. No A or B3 in Q1.'],['LAUNCH','Tikau Report before price; stores, referrals and labelled creators.'],['CONTROL','Review orders, returns and swaps weekly. Trade in waits for April.']];
+A.forEach((r,i)=>{const y=707+i*62;const f=addFrame(s,126,y,150,44,i===2?R.gold:C.tint,C.ink,1.5,'DECISION LABEL');tx(f,8,7,134,r[0],{display:true,color:R.navy});tx(s,294,y-1,840,r[1],{style:'Bold'});if(i<4)addDashedRow(s,294,y+52,840,C.ink,7,7,1);});
+label(s,1190,658,666,'THE FOUR BOARD TESTS');
+table(s,1190,706,[248,154,154,110],['Test','Limit','Our plan','Status'],[['Growth money','₹80 lakh','₹58.0 lakh',{t:'PASS',bg:R.ltgreen,fg:R.green,bold:true}],['March EBITDA','≥ ₹0','+₹5.6 lakh',{t:'PASS',bg:R.ltgreen,fg:R.green,bold:true}],['March returns','≤ 6.0%','4.5%',{t:'PASS',bg:R.ltgreen,fg:R.green,bold:true}],['Claims supported','Every phone','3 claims',{t:'PASS',bg:R.ltgreen,fg:R.green,bold:true}]],{hh:42,rh:49});
+tint(s,1190,963,666,69,'Trade-off: Q1 is ₹0.5 lakh below doing nothing. Joint bear case: March EBITDA −₹8.7 lakh.',{fill:R.ltred});
+return stats(s);

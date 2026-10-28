@@ -1,0 +1,133 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      src: url("capture/assets/fonts/23f1a98b08006014-s.32g3_4t-7pe44.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F2EAD9;
+      font-family: "Fraunces", Georgia, serif;
+    }
+
+    .d05-layer {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+    }
+
+    .d05-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: 50% 54%;
+      will-change: transform, opacity, filter;
+    }
+
+    .d05-appeal-img {
+      opacity: 0;
+    }
+
+    .d05-dim {
+      position: absolute;
+      inset: 0;
+      background: rgba(242, 234, 217, 0.36);
+    }
+
+    .d05-chip {
+      position: absolute;
+      padding: 18px 26px;
+      border-radius: 8px;
+      background: #93691F;
+      color: #F2EAD9;
+      font-size: 34px;
+      line-height: 1;
+      box-shadow: 0 16px 48px rgba(147, 105, 31, 0.28);
+      opacity: 0;
+      transform-origin: 50% 50%;
+    }
+
+    #d05-missed {
+      left: 1068px;
+      top: 424px;
+    }
+
+    #d05-left {
+      left: 1054px;
+      top: 618px;
+      background: #241A10;
+    }
+
+    .d05-callout {
+      position: absolute;
+      left: 148px;
+      bottom: 112px;
+      width: 560px;
+      padding: 32px 36px;
+      border: 1px solid rgba(36, 26, 16, 0.18);
+      border-radius: 8px;
+      background: rgba(242, 234, 217, 0.96);
+      color: #241A10;
+      box-shadow: 0 18px 60px rgba(36, 26, 16, 0.16);
+      opacity: 0;
+    }
+
+    .d05-title {
+      font-size: 44px;
+      line-height: 1.08;
+      font-weight: 420;
+      margin-bottom: 14px;
+    }
+
+    .d05-copy {
+      font-size: 24px;
+      line-height: 1.35;
+      color: rgba(36, 26, 16, 0.76);
+    }
+
+    .d05-section {
+      color: #93691F;
+      font-weight: 650;
+    }
+  </style>
+
+  <div id="root" data-composition-id="05-deadline-appeal" data-width="1920" data-height="1080">
+    <div class="clip d05-layer" data-start="0" data-duration="9.216" data-track-index="0">
+      <img class="d05-img" id="d05-deadline-img" src="assets/filing-deadline-countdown-and-appeal-text.png" alt="" />
+      <img class="d05-img d05-appeal-img" id="d05-appeal-img" src="assets/filing-drafted-appeal-fullscroll.png" alt="" />
+      <div class="d05-dim" id="d05-dim"></div>
+      <div class="d05-chip" id="d05-missed">MISSED</div>
+      <div class="d05-chip" id="d05-left">9 DAYS LEFT</div>
+      <div class="d05-callout" id="d05-callout">
+        <div class="d05-title">Appeal draft ready</div>
+        <div class="d05-copy">The letter cites <span class="d05-section">7(2)</span>, <span class="d05-section">19(1)</span>, and <span class="d05-section">7(6)</span> for human review.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      tl.set("#d05-deadline-img", { scale: 1.12, y: -132, x: 0 });
+      tl.fromTo("#d05-deadline-img", { opacity: 0.75, filter: "blur(2px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+      tl.fromTo("#d05-missed", { opacity: 0, scale: 0.82, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: 0.36, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#d05-left", { opacity: 0, scale: 0.82, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.36, ease: "back.out(1.4)" }, 2.8);
+      tl.to("#d05-deadline-img", { scale: 1.18, y: -236, duration: 2.2, ease: "power3.inOut" }, 4.45);
+      tl.to("#d05-appeal-img", { opacity: 1, duration: 0.35, ease: "power1.out" }, 5.15);
+      tl.fromTo("#d05-appeal-img", { scale: 1.16, y: -148, filter: "blur(2px)" }, { scale: 1.21, y: -284, filter: "blur(0px)", duration: 2.1, ease: "power3.out" }, 5.15);
+      tl.fromTo("#d05-callout", { opacity: 0, y: 38 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 6.35);
+      tl.to("#d05-dim", { opacity: 0.16, duration: 0.6, ease: "power1.out" }, 6.2);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["05-deadline-appeal"] = tl;
+    })();
+  </script>
+</template>

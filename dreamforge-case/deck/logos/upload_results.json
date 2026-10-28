@@ -1,0 +1,90 @@
+[
+  {
+    "brand": "Battery Smart",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "3ced877e3c727f576d2b602c9fd4960507f70c03",
+      "sizeBytes": 9988,
+      "contentType": "image/webp",
+      "placedOnNodeId": "5:112"
+    }
+  },
+  {
+    "brand": "Sun Mobility",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "b40e88c5589e173eb670e8ad2ffc521684b87702",
+      "sizeBytes": 193144,
+      "contentType": "image/png",
+      "placedOnNodeId": "5:114"
+    }
+  },
+  {
+    "brand": "Delhi Govt",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "0c4a371702006f36e2cb8550bf82e39c2fd5dc83",
+      "sizeBytes": 8478,
+      "contentType": "image/png",
+      "placedOnNodeId": "38:34"
+    }
+  },
+  {
+    "brand": "MHI",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "46f6ed81657cfa74d0a04cdb572cf64a56b6e33a",
+      "sizeBytes": 3484,
+      "contentType": "image/png",
+      "placedOnNodeId": "38:36"
+    }
+  },
+  {
+    "brand": "Bajaj Auto",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "5c009d07885b4c7c4907a71786943a9a57834ac5",
+      "sizeBytes": 6891,
+      "contentType": "image/png",
+      "placedOnNodeId": "5:129"
+    }
+  },
+  {
+    "brand": "Hero Vida",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "9bffcd6b8658eec20b8947d0c662869752823d1e",
+      "sizeBytes": 74147,
+      "contentType": "image/png",
+      "placedOnNodeId": "5:131"
+    }
+  },
+  {
+    "brand": "Kinetic Green",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "83231f1464e7322a069d5ea7bb3eb6628b2687fc",
+      "sizeBytes": 83871,
+      "contentType": "image/png",
+      "placedOnNodeId": "5:133"
+    }
+  },
+  {
+    "brand": "IEEE DTU",
+    "status": 200,
+    "response": {
+      "success": true,
+      "imageHash": "96a242229609910235b0404e375de50c867b04ec",
+      "sizeBytes": 65496,
+      "contentType": "image/png",
+      "placedOnNodeId": "13:5"
+    }
+  }
+]

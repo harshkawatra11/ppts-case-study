@@ -1,0 +1,63 @@
+{
+  "lines": [
+    {
+      "id": "01",
+      "sfx": [
+        "riser (into the count-up)"
+      ]
+    },
+    {
+      "id": "03",
+      "sfx": [
+        "cursor-click-ripple (on the demo-citizen click)",
+        "soft whoosh (on the crossfade into the list)"
+      ]
+    },
+    {
+      "id": "04",
+      "sfx": [
+        "none (let the read carry it)"
+      ]
+    },
+    {
+      "id": "05",
+      "sfx": [
+        "soft impact (on the MISSED chip reveal)"
+      ]
+    },
+    {
+      "id": "06",
+      "sfx": [
+        "type-tick (light",
+        "under the second scene)"
+      ]
+    },
+    {
+      "id": "09",
+      "sfx": [
+        "whoosh (on the cut from Frame 8)"
+      ]
+    },
+    {
+      "id": "10",
+      "sfx": [
+        "soft impact (per tile landing)"
+      ]
+    },
+    {
+      "id": "12",
+      "sfx": [
+        "soft impact (on \"160\")"
+      ]
+    },
+    {
+      "id": "14",
+      "sfx": [
+        "soft chime (on the wordmark's spring-pop landing)"
+      ]
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,78 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:Poppins;font-weight:700;src:url('assets/fonts/Poppins-Bold.ttf')}
+@font-face{font-family:Poppins;font-weight:800;src:url('assets/fonts/Poppins-ExtraBold.ttf')}
+@font-face{font-family:Inter;font-weight:600;src:url('assets/fonts/Inter-SemiBold.ttf')}
+@font-face{font-family:Inter;font-weight:700;src:url('assets/fonts/Inter-Bold.ttf')}
+    #S04_root{position:relative;width:1920px;height:1080px;overflow:hidden;background:#FFFFFF}
+    #S04_stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;will-change:transform}
+    #S04_stage .bg{position:absolute;left:0;top:0;width:1920px;height:1080px}
+    #S04_root .lyr{position:absolute;will-change:opacity,transform}
+    #S04_root .lyr img{display:block;width:100%;height:100%}
+    #S04_root .ovl{position:absolute;border:4px solid;box-sizing:border-box}
+    
+  </style>
+  <div id="S04_root" data-composition-id="S04" data-width="1920" data-height="1080">
+    <div id="S04_stage"><img class="bg" src="assets/slides/s2_skel.png" alt=""><div class="lyr" id="S04_p1_title" style="left:122px;top:314px;width:656px;height:52px"><img src="assets/crops/p1_title.png" alt=""></div><div class="lyr" id="S04_p1_root" style="left:134px;top:368px;width:632px;height:44px"><img src="assets/crops/p1_root.png" alt=""></div><div class="lyr" id="S04_p1_bus" style="left:230px;top:408px;width:440px;height:22px"><img src="assets/crops/p1_bus.png" alt=""></div><div class="lyr" id="S04_p1_n1" style="left:134px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n1.png" alt=""></div><div class="lyr" id="S04_p1_n2" style="left:348px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n2.png" alt=""></div><div class="lyr" id="S04_p1_n3" style="left:562px;top:426px;width:204px;height:114px"><img src="assets/crops/p1_n3.png" alt=""></div><div class="lyr" id="S04_p2_title" style="left:798px;top:314px;width:466px;height:52px"><img src="assets/crops/p2_title.png" alt=""></div><div class="lyr" id="S04_p2_table" style="left:810px;top:368px;width:442px;height:158px"><img src="assets/crops/p2_table.png" alt=""></div><div class="lyr" id="S04_p3_title" style="left:1284px;top:314px;width:570px;height:52px"><img src="assets/crops/p3_title.png" alt=""></div><div class="lyr" id="S04_p3_table" style="left:1296px;top:368px;width:546px;height:158px"><img src="assets/crops/p3_table.png" alt=""></div><div class="lyr" id="S04_p4_title" style="left:122px;top:558px;width:756px;height:52px"><img src="assets/crops/p4_title.png" alt=""></div><div class="lyr" id="S04_p4_table" style="left:134px;top:612px;width:732px;height:128px"><img src="assets/crops/p4_table.png" alt=""></div><div class="lyr" id="S04_p4_repay" style="left:134px;top:744px;width:732px;height:32px"><img src="assets/crops/p4_repay.png" alt=""></div><div class="lyr" id="S04_p5" style="left:893px;top:553px;width:417px;height:245px"><img src="assets/crops/p5.png" alt=""></div><div class="lyr" id="S04_p6_title" style="left:1318px;top:558px;width:536px;height:52px"><img src="assets/crops/p6_title.png" alt=""></div><div class="lyr" id="S04_p6_n1" style="left:1330px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n1.png" alt=""></div><div class="lyr" id="S04_p6_n2" style="left:1460px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n2.png" alt=""></div><div class="lyr" id="S04_p6_n3" style="left:1590px;top:614px;width:132px;height:64px"><img src="assets/crops/p6_n3.png" alt=""></div><div class="lyr" id="S04_p6_n4" style="left:1720px;top:614px;width:122px;height:64px"><img src="assets/crops/p6_n4.png" alt=""></div><div class="lyr" id="S04_p6_return" style="left:1330px;top:678px;width:512px;height:48px"><img src="assets/crops/p6_return.png" alt=""></div><div class="lyr" id="S04_p6_bullets" style="left:1330px;top:726px;width:512px;height:60px"><img src="assets/crops/p6_bullets.png" alt=""></div><div class="lyr" id="S04_p7_title" style="left:122px;top:802px;width:556px;height:52px"><img src="assets/crops/p7_title.png" alt=""></div><div class="lyr" id="S04_p7_chart" style="left:134px;top:856px;width:240px;height:170px"><img src="assets/crops/p7_chart.png" alt=""></div><div class="lyr" id="S04_p7_legend" style="left:384px;top:854px;width:288px;height:166px"><img src="assets/crops/p7_legend.png" alt=""></div><div class="lyr" id="S04_p8_title" style="left:698px;top:802px;width:596px;height:52px"><img src="assets/crops/p8_title.png" alt=""></div><div class="lyr" id="S04_p8_bars" style="left:710px;top:856px;width:572px;height:138px"><img src="assets/crops/p8_bars.png" alt=""></div><div class="lyr" id="S04_p8_strip" style="left:710px;top:994px;width:572px;height:32px"><img src="assets/crops/p8_strip.png" alt=""></div><div class="lyr" id="S04_p9_title" style="left:1314px;top:802px;width:540px;height:52px"><img src="assets/crops/p9_title.png" alt=""></div><div class="lyr" id="S04_p9_table" style="left:1326px;top:856px;width:516px;height:158px"><img src="assets/crops/p9_table.png" alt=""></div><div class="lyr" id="S04_p1_full" style="left:118px;top:310px;width:664px;height:236px"><img src="assets/crops/p1_full.png" alt=""></div><div class="lyr" id="S04_p2_full" style="left:794px;top:310px;width:474px;height:236px"><img src="assets/crops/p2_full.png" alt=""></div><div class="lyr" id="S04_p3_full" style="left:1280px;top:310px;width:578px;height:236px"><img src="assets/crops/p3_full.png" alt=""></div><div class="lyr" id="S04_p4_full" style="left:118px;top:554px;width:764px;height:236px"><img src="assets/crops/p4_full.png" alt=""></div><div class="lyr" id="S04_p6_full" style="left:1314px;top:554px;width:544px;height:236px"><img src="assets/crops/p6_full.png" alt=""></div><div class="lyr" id="S04_p7_full" style="left:118px;top:798px;width:564px;height:236px"><img src="assets/crops/p7_full.png" alt=""></div><div class="lyr" id="S04_p8_full" style="left:694px;top:798px;width:604px;height:236px"><img src="assets/crops/p8_full.png" alt=""></div><div class="lyr" id="S04_p9_full" style="left:1310px;top:798px;width:548px;height:236px"><img src="assets/crops/p9_full.png" alt=""></div><div class="ovl" id="S04_o0" style="left:1644px;top:401px;width:199px;height:126px;border-color:#15803D;background:#15803D29"></div></div>
+    
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#S04_stage",{x:-2688.0,y:-487.2,scale:2.4000},0);
+      tl.set("#S04_p2_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S04_p3_table",{clipPath:"inset(0px 0px 2.0px 0px)"},0);
+      tl.set("#S04_p4_title",{opacity:0},0);
+      tl.set("#S04_p4_table",{opacity:0},0);
+      tl.set("#S04_p4_repay",{opacity:0},0);
+      tl.set("#S04_p5",{opacity:0},0);
+      tl.set("#S04_p6_title",{opacity:0},0);
+      tl.set("#S04_p6_n1",{opacity:0},0);
+      tl.set("#S04_p6_n2",{opacity:0},0);
+      tl.set("#S04_p6_n3",{opacity:0},0);
+      tl.set("#S04_p6_n4",{opacity:0},0);
+      tl.set("#S04_p6_return",{opacity:0},0);
+      tl.set("#S04_p6_bullets",{opacity:0},0);
+      tl.set("#S04_p7_title",{opacity:0},0);
+      tl.set("#S04_p7_chart",{opacity:0},0);
+      tl.set("#S04_p7_legend",{opacity:0},0);
+      tl.set("#S04_p8_title",{opacity:0},0);
+      tl.set("#S04_p8_bars",{opacity:0},0);
+      tl.set("#S04_p8_strip",{opacity:0},0);
+      tl.set("#S04_p9_title",{opacity:0},0);
+      tl.set("#S04_p9_table",{opacity:0},0);
+      tl.set("#S04_p1_full",{opacity:0},0);
+      tl.set("#S04_p2_full",{opacity:0},0);
+      tl.set("#S04_p3_full",{opacity:0},0);
+      tl.set("#S04_p4_full",{opacity:0},0);
+      tl.set("#S04_p6_full",{opacity:0},0);
+      tl.set("#S04_p7_full",{opacity:0},0);
+      tl.set("#S04_p8_full",{opacity:0},0);
+      tl.set("#S04_p9_full",{opacity:0},0);
+      tl.set("#S04_o0",{opacity:0},0);
+      tl.to("#S04_o0",{opacity:1,duration:0.2},0.250);
+      tl.to("#S04_o0",{opacity:0,duration:0.45},1.350);
+      tl.to("#S04_stage",{x:-153.4,y:-958.6,scale:2.2268,duration:1.0,ease:"power2.inOut"},1.610);
+      tl.fromTo("#S04_p4_title",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},1.610);
+      tl.set("#S04_p4_table",{opacity:1,clipPath:"inset(0px 0px 92.0px 0px)"},4.330);
+      tl.to("#S04_p4_table",{clipPath:"inset(0px 0px 62.0px 0px)",duration:0.22,ease:"power1.out"},4.380);
+      tl.to("#S04_p4_table",{clipPath:"inset(0px 0px 32.0px 0px)",duration:0.22,ease:"power1.out"},8.800);
+      tl.to("#S04_p4_table",{clipPath:"inset(0px 0px 2.0px 0px)",duration:0.22,ease:"power1.out"},10.880);
+      tl.set("#S04_p4_repay",{opacity:1},12.230);
+      tl.fromTo("#S04_p4_repay",{clipPath:"inset(0px 100% 0px 0px)"},{clipPath:"inset(0px 0% 0px 0px)",duration:0.8,ease:"power2.inOut"},12.230);
+      tl.to("#S04_stage",{x:-2688.0,y:-1075.2,scale:2.4000,duration:1.0,ease:"power2.inOut"},13.510);
+      tl.fromTo("#S04_p6_title",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},13.510);
+      tl.fromTo("#S04_p6_n1",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},13.850);
+      tl.fromTo("#S04_p6_n2",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},14.770);
+      tl.fromTo("#S04_p6_n3",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},15.490);
+      tl.fromTo("#S04_p6_n4",{opacity:0,scale:0.93},{opacity:1,scale:1,duration:0.55,ease:"back.out(1.6)"},18.010);
+      tl.set("#S04_p6_return",{opacity:1},19.850);
+      tl.fromTo("#S04_p6_return",{clipPath:"inset(0px 0px 0px 100%)"},{clipPath:"inset(0px 0px 0px 0%)",duration:0.8,ease:"power2.inOut"},19.850);
+      tl.fromTo("#S04_p6_bullets",{opacity:0,y:8},{opacity:1,y:0,duration:0.5,ease:"power2.out"},20.450);
+      tl.to({}, { duration: 23.616 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S04"] = tl;
+    })();
+  </script>
+</template>

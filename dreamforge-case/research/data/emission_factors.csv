@@ -1,0 +1,32 @@
+factor,value,unit,scope,source_sid,note
+motor gasoline net calorific value,44.3,TJ per Gg,upstream energy content,S470,IPCC 2006 Table 1.2 default; 95% CI 42.5 to 44.8
+motor gasoline default carbon content,18.9,kg per GJ,fuel composition,S470,IPCC 2006 Table 1.3 default; 95% CI 18.4 to 19.9
+motor gasoline carbon oxidation factor,1,fraction,fuel composition,S470,IPCC 2006 Table 1.4 default; complete combustion Tier 1 assumption
+motor gasoline effective CO2 emission factor,69300,kg CO2 per TJ,scope 1 combustion,S470,IPCC 2006 Table 1.4 default; 95% CI 67500 to 73000
+motor gasoline CO2 per kg of fuel,3.070,kg CO2 per kg fuel,scope 1 combustion,S470,derived from NCV times EF; 44.3 TJ/Gg x 69300 kg CO2/TJ
+motor gasoline density per IS 2796,0.7475,kg per litre,fuel property,S472,midpoint of IS 2796:2017 BIS range 0.720 to 0.775 kg per litre at 15 C
+motor gasoline density lower bound IS 2796,0.720,kg per litre,fuel property,S472,IS 2796:2017 BS VI (MG91) minimum density at 15 C
+motor gasoline density upper bound IS 2796,0.775,kg per litre,fuel property,S472,IS 2796:2017 BS VI (MG91) maximum density at 15 C
+motor gasoline CO2 per litre at midpoint density,2.294,kg CO2 per litre,scope 1 combustion,S470;S472,3.070 kg CO2/kg x 0.7475 kg/L midpoint density
+motor gasoline CO2 per litre at lower density,2.210,kg CO2 per litre,scope 1 combustion,S470;S472,3.070 kg CO2/kg x 0.720 kg/L
+motor gasoline CO2 per litre at upper density,2.379,kg CO2 per litre,scope 1 combustion,S470;S472,3.070 kg CO2/kg x 0.775 kg/L
+motor gasoline CO2 per litre implied density for A21,0.7524,kg per litre,fuel property,S470,density required to reach the model's A21 base of 2.31 kg CO2 per litre; within the IS 2796 range but not an IPCC or BIS single-point default
+motor gasoline CO2 per litre honest uncertainty band,2.21 to 2.43,kg CO2 per litre,scope 1 combustion,S470;S472,combines IPCC energy-side 95% CI and IS 2796 density range; A21 base of 2.31 sits near the centre
+India GHG Program diesel road freight factor,2.6444,kg CO2 per litre,scope 1 combustion benchmark,S482,for comparison only; no petrol factor published by the India GHG Program was found
+India GHG Program diesel rail freight factor,2.64,kg CO2 per litre,scope 1 combustion benchmark,S482,for comparison only; rail diesel not petrol
+India GHG Program rail electric traction grid factor,0.82,kg CO2 per kWh,scope 2 benchmark,S482,older India GHG Program figure; distinct from the CEA-sourced A24 figure
+UK DESNZ petrol (100% mineral) factor (secondary mirror),2.31 to 2.35,kg CO2 per litre,scope 1 combustion benchmark,S486,aggregator-reported mirror of UK conversion factors across editions; not India-specific; cited only for cross-check
+CEA weighted average grid emission factor FY2023-24 (Version 20.0),0.727,kg CO2 per kWh,scope 2 electricity,S474,matches model A24 base exactly; VERIFIED by direct PyMuPDF read of the primary PDF
+CEA weighted average grid emission factor FY2022-23 (Version 19.0),0.716,kg CO2 per kWh,scope 2 electricity,S475,one version and one fiscal year earlier than A24's source version
+CEA weighted average grid emission factor FY2019-20 adjusted (Version 16.0),0.79,kg CO2 per kWh,scope 2 electricity,S476,four versions earlier than A24 source version; higher than FY2023-24; confirms non-monotonic history
+CEA weighted average grid emission factor FY2024-25 (Version 21.0 reported),0.710 to 0.7117,kg CO2 per kWh,scope 2 electricity,S478,UNVERIFIABLE; could not be downloaded from CEA directly; two sub-sources within the same secondary page disagree
+CEA weighted average grid emission factor FY2025-26 (Version 22.0 reported),0.675,kg CO2 per kWh,scope 2 electricity,S477,SNIPPET; could not be downloaded from CEA directly; if real favours electrification further rather than against it
+CEA operating margin (OM) FY2023-24,0.962,kg CO2 per kWh,scope 2 electricity benchmark,S474,Table S; excludes low cost/must run sources; not the figure A24 should use
+CEA build margin (BM) FY2023-24,0.552,kg CO2 per kWh,scope 2 electricity benchmark,S474,Table S; most recent 20% of capacity additions; not the figure A24 should use
+CEA combined margin (CM) FY2023-24,0.757,kg CO2 per kWh,scope 2 electricity benchmark,S474,Table S; 50:50 weighted OM and BM; not the figure A24 should use
+DERC Green Energy Open Access eligibility threshold (post 2026 amendment),100,kW contracted demand or sanctioned load,scope 2 bull case,S481,voltage condition (11kV or above) removed by the First Amendment Regulations 2026; no price set by the Regulations themselves
+DERC Green Energy Open Access additional surcharge taper period,4,years to zero,scope 2 bull case,S480,additional surcharge linearly reduces to nil within four years of grant
+DERC Green Energy Open Access cross subsidy surcharge rate-protection period,12,years,scope 2 bull case,S480,surcharge rate held for renewable energy purchase contracts from date of commencement of supply
+DERC Green Energy Open Access banking charge,8,percent of energy banked,scope 2 bull case,S480,deducted when banked surplus green energy is later drawn back; accounted on a 15-minute time block basis
+Delhi green open access landed tariff (vendor-reported range),4.5 to 6,rupees per unit,scope 2 bull case benchmark,S484;S485,vendor-reported estimate only; no DERC-notified per-unit price was found in the Regulations themselves
+ISO 14083 / GLEC minimum report frequency,1,time per year minimum,reporting requirement,S479,required minimum; the case own O05 monthly cadence exceeds not merely matches this standard floor

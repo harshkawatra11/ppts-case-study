@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: #FFFFFF; }
+      .clip { position: absolute; inset: 0; }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-jsdl" id="root" data-composition-id="main" data-start="0" data-duration="108.000" data-width="1920" data-height="1080">
+      <div data-hf-id="hf-mv3g" id="clip-S01" class="clip" data-composition-id="S01" data-composition-src="compositions/frames/S01.html" data-start="0.000" data-duration="15.400" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-mq4d" id="clip-S02" class="clip" data-composition-id="S02" data-composition-src="compositions/frames/S02.html" data-start="15.400" data-duration="6.200" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-vaim" id="clip-S03" class="clip" data-composition-id="S03" data-composition-src="compositions/frames/S03.html" data-start="21.600" data-duration="14.000" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-zetj" id="clip-S04" class="clip" data-composition-id="S04" data-composition-src="compositions/frames/S04.html" data-start="35.600" data-duration="19.000" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-auns" id="clip-S05" class="clip" data-composition-id="S05" data-composition-src="compositions/frames/S05.html" data-start="54.600" data-duration="17.300" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-gttv" id="clip-S06" class="clip" data-composition-id="S06" data-composition-src="compositions/frames/S06.html" data-start="71.900" data-duration="12.400" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-inpd" id="clip-S07" class="clip" data-composition-id="S07" data-composition-src="compositions/frames/S07.html" data-start="84.300" data-duration="13.200" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div data-hf-id="hf-wy2a" id="clip-S08" class="clip" data-composition-id="S08" data-composition-src="compositions/frames/S08.html" data-start="97.500" data-duration="10.500" data-track-index="0" data-width="1920" data-height="1080"></div>
+
+      <audio data-hf-id="hf-so54" id="S01_audio" class="clip" data-start="0.150" data-duration="14.664000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S01.wav"></audio>
+      <audio data-hf-id="hf-tbg0" id="S02_audio" class="clip" data-start="15.550" data-duration="5.112000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S02.wav"></audio>
+      <audio data-hf-id="hf-2kdq" id="S03_audio" class="clip" data-start="21.750" data-duration="13.224000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S03.wav"></audio>
+      <audio data-hf-id="hf-w5e4" id="S04_audio" class="clip" data-start="35.750" data-duration="17.784000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S04.wav"></audio>
+      <audio data-hf-id="hf-tly8" id="S05_audio" class="clip" data-start="54.750" data-duration="15.552000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S05.wav"></audio>
+      <audio data-hf-id="hf-id2q" id="S06_audio" class="clip" data-start="72.050" data-duration="10.536000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S06.wav"></audio>
+      <audio data-hf-id="hf-d5gh" id="S07_audio" class="clip" data-start="84.450" data-duration="11.784000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S07.wav"></audio>
+      <audio data-hf-id="hf-otx8" id="S08_audio" class="clip" data-start="97.650" data-duration="9.384000" data-track-index="1" data-has-audio="true" src="assets/voice/master/S08.wav"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to({}, { duration: 108.000 });
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

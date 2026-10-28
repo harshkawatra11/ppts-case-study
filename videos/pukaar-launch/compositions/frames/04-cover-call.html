@@ -1,0 +1,350 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F5F5F5;
+      color: #0A0A0A;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .nav-ribbon {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      display: flex;
+      border: 2px solid #0A0A0A;
+      background: #EDEDED;
+    }
+    .ribbon-item {
+      padding: 6px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-right: 2px solid #0A0A0A;
+      color: #0A0A0A;
+      background: #E8B33C;
+    }
+    .ribbon-item.active {
+      background: #3A0E30;
+      color: #FFFFFF;
+    }
+    .ribbon-item:last-child {
+      border-right: none;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 36px;
+      right: 72px;
+      background: #3A0E30;
+      color: #FFF;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 6px 18px;
+      border: 2px solid #0A0A0A;
+    }
+
+    .section-chip {
+      position: absolute;
+      top: 86px;
+      left: 72px;
+      background: #3A0E30;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border: 2px solid #0A0A0A;
+      box-shadow: 2px 2px 0 #0A0A0A;
+      text-transform: uppercase;
+    }
+
+    .slide-headline {
+      position: absolute;
+      top: 130px;
+      left: 72px;
+      right: 72px;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0A0A0A;
+    }
+
+    /* 3 Top metric tags */
+    .top-tags {
+      position: absolute;
+      top: 195px;
+      left: 72px;
+      right: 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+    }
+    .top-tag-card {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 3px 3px 0 #0A0A0A;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .top-tag-val {
+      font-size: 32px;
+      font-weight: 900;
+      color: #E5399E;
+    }
+    .top-tag-lbl {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0A0A0A;
+    }
+
+    /* Main Demo Area */
+    .demo-container {
+      position: absolute;
+      top: 295px;
+      left: 72px;
+      right: 72px;
+      bottom: 50px;
+      display: grid;
+      grid-template-columns: 1.55fr 1fr;
+      gap: 32px;
+    }
+
+    /* Left: Live transcript flow */
+    .transcript-panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .panel-header-line {
+      font-size: 18px;
+      font-weight: 800;
+      color: #3A0E30;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dialogue-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .bubble {
+      padding: 12px 18px;
+      font-size: 16px;
+      font-weight: 600;
+      border: 2px solid #0A0A0A;
+      max-width: 85%;
+      line-height: 1.4;
+    }
+    .bubble.ai {
+      background: #E8D5E2;
+      align-self: flex-start;
+      color: #3A0E30;
+    }
+    .bubble.user {
+      background: #FFFFFF;
+      align-self: flex-end;
+      color: #0A0A0A;
+    }
+    .bubble.user.duress {
+      background: #E8B33C;
+      border-color: #0A0A0A;
+      font-weight: 800;
+      box-shadow: 3px 3px 0 #0A0A0A;
+    }
+
+    .duress-banner {
+      background: #E5399E;
+      color: #FFFFFF;
+      padding: 12px 18px;
+      border: 2px solid #0A0A0A;
+      font-size: 15px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    /* Right: Realistic Mock Phone Dialer */
+    .phone-panel {
+      background: #FFFFFF;
+      border: 2px solid #0A0A0A;
+      box-shadow: 4px 4px 0 #0A0A0A;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .phone-mockup {
+      width: 260px;
+      height: 480px;
+      background: #111111;
+      border: 3px solid #0A0A0A;
+      box-shadow: 6px 6px 0 #0A0A0A;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+      color: #FFF;
+      position: relative;
+    }
+    .phone-contact {
+      font-size: 26px;
+      font-weight: 800;
+      margin-top: 20px;
+    }
+    .phone-timer {
+      font-size: 18px;
+      color: #AAA;
+      margin-top: 6px;
+      font-variant-numeric: tabular-nums;
+    }
+    .phone-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #3A0E30;
+      border: 2px solid #E8B33C;
+      margin-top: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+    .phone-status-pill {
+      background: #10B981;
+      color: #FFF;
+      padding: 6px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 40px;
+    }
+    .phone-note {
+      font-size: 14px;
+      font-weight: 700;
+      color: #5C1A4B;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .bottom-source {
+      position: absolute;
+      bottom: 16px;
+      left: 72px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5C1A4B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="04-cover-call" data-width="1920" data-height="1080">
+    <div class="nav-ribbon">
+      <div class="ribbon-item">PROBLEM</div>
+      <div class="ribbon-item">ANALYSIS</div>
+      <div class="ribbon-item active">SOLUTION</div>
+      <div class="ribbon-item">ARCHITECTURE</div>
+      <div class="ribbon-item">IMPACT</div>
+    </div>
+    <div class="slide-num">04 / 07</div>
+
+    <div class="section-chip">PROPOSED SOLUTION</div>
+
+    <div class="slide-headline" id="headline-04">
+      Pukaar makes the pretend call real, then hides the alarm inside normal conversation.
+    </div>
+
+    <!-- 3 Metrics -->
+    <div class="top-tags">
+      <div class="top-tag-card" id="tag-1">
+        <div class="top-tag-val">1.2 s</div>
+        <div class="top-tag-lbl">target first spoken word</div>
+      </div>
+      <div class="top-tag-card" id="tag-2">
+        <div class="top-tag-val">2</div>
+        <div class="top-tag-lbl">independent alarm paths</div>
+      </div>
+      <div class="top-tag-card" id="tag-3">
+        <div class="top-tag-val">0</div>
+        <div class="top-tag-lbl">visible actions at trigger time</div>
+      </div>
+    </div>
+
+    <!-- Demo Main -->
+    <div class="demo-container">
+      <!-- Left: Dialogue Transcripts -->
+      <div class="transcript-panel" id="transcript-box">
+        <div class="panel-header-line">
+          <span>LIVE DIALOGUE RUNTIME</span>
+          <span style="font-size: 14px; color: #E5399E; font-weight: 700;">● Active Voice Stream (16 kHz)</span>
+        </div>
+
+        <div class="dialogue-stack">
+          <div class="bubble ai" id="b1"><strong>PUKAAR (AI):</strong> Where are you right now, still near the market?</div>
+          <div class="bubble user" id="b2"><strong>USER:</strong> Just crossed it. Ten minutes, maybe.</div>
+          <div class="bubble ai" id="b3"><strong>PUKAAR (AI):</strong> Okay, stay on the call. I will keep talking.</div>
+          <div class="bubble user duress" id="b4"><strong>USER (Duress):</strong> No, I already told mom. I will eat at home.</div>
+          <div class="bubble ai" id="b5"><strong>PUKAAR (AI):</strong> Haha, fine. So listen, about tomorrow...</div>
+        </div>
+
+        <div class="duress-banner" id="banner-alert">
+          <span>🚨</span>
+          <span>SILENT DISPATCH: Live GPS trail sent to trusted contacts on Line 4. Call continued smoothly.</span>
+        </div>
+      </div>
+
+      <!-- Right: Phone Mockup -->
+      <div class="phone-panel" id="phone-box">
+        <div class="phone-mockup">
+          <div class="phone-contact">Maa</div>
+          <div class="phone-timer" id="call-clock">02:14</div>
+          <div class="phone-avatar">📞</div>
+          <div class="phone-status-pill">On Call</div>
+        </div>
+        <div class="phone-note">Zero safety signals on screen. Ordinary dialer camouflage.</div>
+      </div>
+    </div>
+
+    <div class="bottom-source">Source: Web Speech API | MediaDevices Specification | Pukaar System Design</div>
+  </div>
+
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from("#headline-04", { opacity: 0, y: 15, duration: 0.7, ease: "power2.out" }, 0.1);
+      tl.from("#tag-1, #tag-2, #tag-3", { opacity: 0, y: 20, stagger: 0.12, duration: 0.6, ease: "power3.out" }, 0.4);
+      tl.from("#transcript-box, #phone-box", { opacity: 0, scale: 0.96, duration: 0.7, stagger: 0.2, ease: "power3.out" }, 0.8);
+
+      // Stagger in conversation bubbles synced to speech
+      tl.from("#b1", { opacity: 0, x: -20, duration: 0.5 }, 2.5);
+      tl.from("#b2", { opacity: 0, x: 20, duration: 0.5 }, 5.5);
+      tl.from("#b3", { opacity: 0, x: -20, duration: 0.5 }, 8.5);
+      tl.from("#b4", { opacity: 0, scale: 0.9, duration: 0.6, ease: "back.out(1.5)" }, 12.0);
+      tl.from("#banner-alert", { opacity: 0, y: 15, duration: 0.6, ease: "power3.out" }, 15.0);
+      tl.from("#b5", { opacity: 0, x: -20, duration: 0.5 }, 18.0);
+
+      tl.to({}, { duration: 22.48 });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["04-cover-call"] = tl;
+    })();
+  </script>
+</template>

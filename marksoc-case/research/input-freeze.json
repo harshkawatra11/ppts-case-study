@@ -1,0 +1,36 @@
+{
+  "version": "DOBAARA-inputs-v1.1",
+  "date": "2026-10-28",
+  "model_hash": "9b3628d94d",
+  "status": "PASS",
+  "independent_checks": 31,
+  "extended_checks": 13,
+  "sources": 77,
+  "primary_sources": 67,
+  "case_ids": 111,
+  "limitations": [
+    "B1 numerical compliance flag remains conditional on Exhibit5 controls",
+    "Source contradictions and inaccessible policy detail excluded or disclosed",
+    "April restart ramp/new funding assumption and ramp-aware payback1.7489408767months"
+  ],
+  "files": {
+    "model/dobaara_model.py": "119c4b2457d4d9251d584addfc935382443677dc821f6988db71a7cebbf1961b",
+    "model/model_outputs.json": "8ee6cc603aac7382173ad9bb10e2898e5040f942ec7032dd3d820d78bb10cc70",
+    "model/model_tables.md": "e1621ecb0d8a11d42371abfd18104094c7799955597415d2eb920f6bf46c6f92",
+    "audit/independent-audit.json": "ebc91afa7fc36312d90984115fc2ebeec7450cb2364101f6d550e4a0aa965f68",
+    "audit/extended-model-tables.json": "5e75ac53c7902c614586a4dc16b632b28b7ab29d17a43dc75b46c83ada3ed0b7",
+    "audit/coverage-ledger.json": "cf95bdc901fd31a4a3de20cc7670cefe85ff02062293e8a18d8b0cd77cbb7f9a",
+    "research/raw/evidence-register.json": "824525c0b8ebfcadbb377ee7d0d7282c3d8d377fe1b1e651efd0c3ba64a18e7a",
+    "research/raw/sources.json": "24775561afee3f51f721ecd9e6879a23f3f0701388934b3805d9746b29495a2e"
+  },
+  "change_log": [
+    {
+      "date": "2026-10-28",
+      "file": "audit/independent-audit.json",
+      "reason": "Coordinator rerun changed file serialization only; recursive comparison of parsed JSON found zero changed values.",
+      "previous_sha256": "1410d2111b3221bfa804136ebac96825cd8f3e15214279f28438473ab31f663f",
+      "current_sha256": "ebc91afa7fc36312d90984115fc2ebeec7450cb2364101f6d550e4a0aa965f68",
+      "numerical_changes": 0
+    }
+  ]
+}

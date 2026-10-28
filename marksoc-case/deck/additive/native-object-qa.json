@@ -1,0 +1,192 @@
+[
+  {
+    "id": "3:2",
+    "nodes": 142,
+    "text": 52,
+    "images": 7,
+    "nonzeroRadius": [],
+    "titleSizes": [],
+    "placeholderText": []
+  },
+  {
+    "id": "3:4",
+    "nodes": 232,
+    "text": 110,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:200",
+        "text": "EXECUTIVE SUMMARY"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:5",
+    "nodes": 292,
+    "text": 142,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:440",
+        "text": "THE ECONOMICS"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:6",
+    "nodes": 407,
+    "text": 93,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:740",
+        "text": "DEMAND OR TRUST"
+      },
+      {
+        "id": "4:757",
+        "text": "91.6%"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:7",
+    "nodes": 229,
+    "text": 95,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:1155",
+        "text": "WHO TO WIN"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:8",
+    "nodes": 451,
+    "text": 164,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:1387",
+        "text": "THE OPTIONS"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:9",
+    "nodes": 207,
+    "text": 101,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:1846",
+        "text": "THE PLAN"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:10",
+    "nodes": 245,
+    "text": 104,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:2060",
+        "text": "THE LAUNCH"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:11",
+    "nodes": 179,
+    "text": 86,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:2304",
+        "text": "SIGNALS AND APRIL"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:12",
+    "nodes": 260,
+    "text": 146,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:2455",
+        "text": "APPENDIX"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:13",
+    "nodes": 241,
+    "text": 127,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:2706",
+        "text": "APPENDIX"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:14",
+    "nodes": 211,
+    "text": 116,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:2986",
+        "text": "APPENDIX 3 | MODEL DEFENCE"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:15",
+    "nodes": 138,
+    "text": 68,
+    "images": 0,
+    "nonzeroRadius": [],
+    "titleSizes": [
+      {
+        "id": "4:3197",
+        "text": "A4 | OPERATING & CLAIMS CONTROLS"
+      }
+    ],
+    "placeholderText": []
+  },
+  {
+    "id": "3:16",
+    "nodes": 40,
+    "text": 22,
+    "images": 3,
+    "nonzeroRadius": [],
+    "titleSizes": [],
+    "placeholderText": []
+  }
+]

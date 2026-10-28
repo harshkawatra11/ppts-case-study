@@ -1,0 +1,10 @@
+material,grade,price_inr_per_kg,date,source_sid
+natural rubber,"RSS4 (Kottayam benchmark; USD/100kg converted at illustrative 87 INR/USD; not a Rubber Board rupee quote)",230,16 Aug 2026,S483
+SBR,"1502 emulsion grade (blended judgement from stale 2017/2020 CFR India USD benchmarks converted at illustrative 87 INR/USD; no current India quote found)",150,"Oct 2017 to Oct 2020 (stale)",S490
+solution SBR,"SSBR (reasoned 20 to 30 percent premium over emulsion SBR 1502; basis: qualitative premium statement only; no numeric India quote found)",185,"17 Oct 2026 (estimate basis date)",S490
+carbon black,"N220/N330 (retail small-lot IndiaMART listing, confirmed directly; bulk FOB India benchmark is lower at approx 106 to 113 per kg)",150,17 Oct 2026,S486
+silica,"precipitated silica general grade (India market-research index, confirmed directly; tyre-grade-specific retail quote could not be confirmed, see Gaps)",50,17 Oct 2026,S485
+silane,"TESPT/Si69 coupling agent (reasoned estimate: no India market price found; estimated at a 5 to 8x specialty-chemical multiple over the silica price; basis stated in R-F Gaps)",400,"17 Oct 2026 (estimate basis date)",S489
+process oil,"aromatic/naphthenic rubber process oil (IndiaMART litre-priced listings, approximated to per-kg assuming density near 1; not a direct per-kg quote)",50,17 Oct 2026,S493
+chemicals,"blended average of accelerators, anti-oxidants, zinc oxide and stearic acid (reasoned estimate: no single source prices this blended basket; anchored to typical rubber-chemical retail price bands seen across this search)",180,"17 Oct 2026 (estimate basis date)",S489
+other,"blended average of bead wire, textile/nylon cord reinforcement, bladder and release agents (reasoned estimate anchored to bead-wire approx 30 to 40 per kg and nylon cord fabric approx 160 to 200 per kg listings)",120,"17 Oct 2026 (estimate basis date)",S517

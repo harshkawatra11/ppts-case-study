@@ -1,0 +1,584 @@
+{
+  "slide": "A4",
+  "model_hash": "9b3628d94d",
+  "inputs": [
+    "marksoc-case/case/01-case.md",
+    "marksoc-case/audit/extended-model-tables.json",
+    "marksoc-case/research/parts/part-E.md",
+    "marksoc-case/research/parts/part-F.md"
+  ],
+  "geometry": {
+    "claims": [
+      64,
+      310,
+      1088,
+      350
+    ],
+    "weekly": [
+      1176,
+      310,
+      680,
+      350
+    ],
+    "service": [
+      64,
+      684,
+      1088,
+      348
+    ],
+    "risks": [
+      1176,
+      684,
+      680,
+      348
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "A4-CLAIM-1",
+      "research_section": "§28 R28-01 to R28-04",
+      "case_ids": [
+        "C-E6B1",
+        "C-E5a",
+        "C-E5f"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Tikau Report",
+      "unit": "claim/conditional proof",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:claims:row:0:col:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-CLAIM-2",
+      "research_section": "§28 R28-01 to R28-04",
+      "case_ids": [
+        "C-E6B2",
+        "C-CO5",
+        "C-E5a"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Battery ≥85%",
+      "unit": "claim/conditional proof",
+      "assumption_ids": [
+        "A08"
+      ],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:claims:row:1:col:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-CLAIM-3",
+      "research_section": "§28 R28-01 to R28-04",
+      "case_ids": [
+        "C-E6B2",
+        "C-E4d"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "12-month warranty",
+      "unit": "claim/conditional proof",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:claims:row:2:col:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-CLAIM-4",
+      "research_section": "§28 R28-01 to R28-04",
+      "case_ids": [
+        "C-E5b"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "REFUSE: Like new",
+      "unit": "claim/conditional proof",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:claims:row:3:col:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-CLAIM-5",
+      "research_section": "§28 R28-01 to R28-04",
+      "case_ids": [
+        "C-E5b"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "REFUSE: Genuine battery",
+      "unit": "claim/conditional proof",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:claims:row:4:col:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-1",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[0].planned",
+      "display_value": "~1,923",
+      "unit": "phones/week",
+      "assumption_ids": [
+        "A13"
+      ],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:0:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-2",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[0].boundary",
+      "display_value": "~1,838",
+      "unit": "phones/week",
+      "assumption_ids": [
+        "A13"
+      ],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:0:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-3",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "inputs.weeks_per_month",
+      "display_value": "4.33",
+      "unit": "weeks/month",
+      "assumption_ids": [
+        "A13"
+      ],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:0:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-4",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[1].planned",
+      "display_value": "~4.5%",
+      "unit": "cohort returned/delivered",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:1:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-5",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[1].warning",
+      "display_value": "5.5%",
+      "unit": "cohort returned/delivered",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:1:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-6",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[1].boundary",
+      "display_value": "6.0%",
+      "unit": "board return maximum",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:1:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-7",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[2].planned",
+      "display_value": "40%",
+      "unit": "Good tested batch share",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:2:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-8",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[2].warning",
+      "display_value": "50%",
+      "unit": "Good tested batch share",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:2:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-METRIC-9",
+      "research_section": "§29 R29-01 to R29-04; §30",
+      "case_ids": [
+        "C-Q5",
+        "C-D2",
+        "C-E6B2",
+        "C-T3t"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[2].boundary",
+      "display_value": "~55%",
+      "unit": "local EBITDA-zero delivered share",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "weekly",
+      "node_name": "ADD:A4:weekly:metric:2:line:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-1",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Intake: identity and IMEI",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:0:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-2",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Measurement: own-lab reading and replacement",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:1:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-3",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Report/listing: linked evidence and completed wipe",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:2:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-4",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Sale: refurbished, terms and claim route",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:3:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-5",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Repair: claim age, stages and repeat visits",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:4:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SERVICE-6",
+      "research_section": "§27; §28 R28-04; §29",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5f",
+        "C-E4d",
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Feedback: cohort reason and correction",
+      "unit": "proposed control",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:step:5:body",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-1",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E6SH"
+      ],
+      "model_table": "T25",
+      "model_value_key": null,
+      "display_value": "Shift delay: rerun timing",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:0",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-2",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E6B2"
+      ],
+      "model_table": "T27",
+      "model_value_key": null,
+      "display_value": "Good swap cost: audit lot and reforecast",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:1",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-3",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E6B1",
+        "C-E6B2"
+      ],
+      "model_table": "T27",
+      "model_value_key": null,
+      "display_value": "Weak return cut: diagnose mature cohorts",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:2",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-4",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E5a"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Lab proof mismatch: hold unit claim",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:3",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-5",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E5f"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Wipe/IMEI failure: stop sale",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:4",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-RISK-6",
+      "research_section": "§32 R32-01/R32-02",
+      "case_ids": [
+        "C-E4d"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Repair backlog: inspect stages and repeat visits",
+      "unit": "proposed risk/response",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "risks",
+      "node_name": "ADD:A4:risks:item:5",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-SELECTION-CAVEAT",
+      "research_section": "§29 R29-03",
+      "case_ids": [
+        "C-E6B2",
+        "C-E4a"
+      ],
+      "model_table": "T27",
+      "model_value_key": "rows[2].definition",
+      "display_value": "Tested batch must represent delivered Good cost, or adjust selection",
+      "unit": "assumption",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "service",
+      "node_name": "ADD:A4:service:selection",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    },
+    {
+      "claim_id": "A4-COMPLIANCE",
+      "research_section": "§28",
+      "case_ids": [
+        "C-E5a",
+        "C-E5b",
+        "C-E5c",
+        "C-E5d",
+        "C-E5e",
+        "C-E5f",
+        "C-F16"
+      ],
+      "model_table": null,
+      "model_value_key": null,
+      "display_value": "Compliance conditional on phone proof and actual claim execution",
+      "unit": "qualification",
+      "assumption_ids": [],
+      "logical_slide": "A4",
+      "panel_name": "claims",
+      "node_name": "ADD:A4:qualification",
+      "source_footer": "Case Exhibit 5/6, D2, FAQ16 | Model T24/T25/T27 (9b3628d94d) | Research §§28/29/32 | Proposed controls"
+    }
+  ],
+  "assumptions": {
+    "owners_cohorts_warnings": "All roles, cohort handling, warning periods and actions proposed, not observed.",
+    "selection": "Tested-batch replacement need maps to delivered-unit cost only if representative or adjusted.",
+    "boundary": "Local EBITDA zero holds other base inputs; 6.0% is board return limit.",
+    "A13": "Monthly references / 4.33 weeks.",
+    "A08": "Superb own-lab battery threshold retained; no migration modeled."
+  },
+  "estimated_fit": {
+    "font_floor": 22,
+    "source_size": 14,
+    "body_line_height": 25,
+    "claims_row_height": 50,
+    "weekly_row_height": 91,
+    "service_card_height": 98,
+    "risks_row_height": 36,
+    "status": "AsyncFunction syntax passes. Offline native-node mock with explicit line heights passes estimated bounds/text collision/font floor; Figma rendering still required.",
+    "nodes": 138,
+    "text_nodes": 68,
+    "claimed_no_live_figma_calls": true
+  }
+}

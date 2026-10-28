@@ -1,0 +1,951 @@
+{
+ "assumptions": {
+  "A01": [
+   30.0,
+   30.0,
+   30.0,
+   "um",
+   "Dry film per coat of a premium interior emulsion; two coats; the same wet film and spreading rate for every system compared"
+  ],
+  "A02": [
+   0.18,
+   0.18,
+   0.18,
+   "fraction",
+   "TiO2 pigment volume concentration of the premium baseline film (about 20 percent TiO2 by weight in the can)"
+  ],
+  "A03": [
+   0.2,
+   0.2,
+   0.2,
+   "fraction",
+   "Coarse ground calcium carbonate (3 um) volume fraction in the baseline film"
+  ],
+  "A04": [
+   250.0,
+   250.0,
+   250.0,
+   "nm",
+   "Rutile pigment median crystal diameter, lognormal geometric standard deviation 1.35"
+  ],
+  "A05": [
+   0.35,
+   0.25,
+   0.45,
+   "fraction",
+   "Porosity of the air-network base coat; pigment coating layers on paper run 25 to 45 percent"
+  ],
+  "A06": [
+   0.25,
+   0.25,
+   0.25,
+   "fraction",
+   "Binder share of base-coat solids by volume (the base coat is formulated above its critical PVC)"
+  ],
+  "A07": [
+   0.1,
+   0.25,
+   0.0,
+   "fraction",
+   "Share of base-coat pore volume filled by the seal coat during application (infiltration)"
+  ],
+  "A08": [
+   "bruggeman",
+   "binder-wetted",
+   "air",
+   "rule",
+   "Optical surroundings of base-coat particles: Bruggeman mix of the air and binder that remain; bear halves the air share; bull is pure air"
+  ],
+  "A09": [
+   600.0,
+   600.0,
+   600.0,
+   "nm",
+   "Median diameter of the precipitated calcium carbonate in the base coat, lognormal geometric standard deviation 1.4"
+  ],
+  "A10": [
+   0.00015,
+   0.00015,
+   0.00015,
+   "1/um",
+   "Background absorption of binder and trace impurities per unit binder volume; sets baseline luminous reflectance at full hiding near 91 percent"
+  ],
+  "A11": [
+   0.2,
+   0.2,
+   0.2,
+   "Y units",
+   "Brightness tolerance: the proposal's luminous reflectance over white may sit at most this far below the baseline"
+  ],
+  "A12": [
+   0.998,
+   0.998,
+   0.998,
+   "ratio",
+   "Minimum two-coat contrast ratio over black (1 percent) and white (80 percent) substrates"
+  ],
+  "A13": [
+   250.0,
+   200.0,
+   300.0,
+   "INR/kg",
+   "Landed price of rutile TiO2 pigment in India"
+  ],
+  "A14": [
+   4.0,
+   4.0,
+   4.0,
+   "g/cm3",
+   "Density of pigment-grade rutile"
+  ],
+  "A15": [
+   25.0,
+   30.0,
+   20.0,
+   "INR/kg",
+   "Price of fine precipitated calcium carbonate (0.6 um)"
+  ],
+  "A16": [
+   8.0,
+   8.0,
+   8.0,
+   "INR/kg",
+   "Price of coarse ground calcium carbonate"
+  ],
+  "A17": [
+   190.0,
+   190.0,
+   190.0,
+   "INR/kg",
+   "Price of acrylic binder solids"
+  ],
+  "A18": [
+   3.0,
+   2.5,
+   3.5,
+   "kg CO2e/kg",
+   "Cradle-to-gate footprint of TiO2 pigment"
+  ],
+  "A19": [
+   2.7,
+   2.7,
+   2.7,
+   "g/cm3",
+   "Density of calcium carbonate"
+  ],
+  "A20": [
+   1.1,
+   1.1,
+   1.1,
+   "g/cm3",
+   "Density of acrylic binder solids"
+  ],
+  "A21": [
+   35500.0,
+   35500.0,
+   35500.0,
+   "INR Cr",
+   "Asian Paints consolidated revenue, FY26"
+  ],
+  "A22": [
+   0.563,
+   0.563,
+   0.563,
+   "share",
+   "Raw material and packaging cost as a share of revenue (one minus the 43.7 percent FY26 gross margin)"
+  ],
+  "A23": [
+   0.15,
+   0.1,
+   0.2,
+   "share",
+   "TiO2 share of the raw material bill"
+  ],
+  "A24": [
+   0.4,
+   0.3,
+   0.5,
+   "share",
+   "Share of TiO2 use that sits in interior emulsions and their primers (the addressable use)"
+  ],
+  "A25": [
+   0.4,
+   0.2,
+   0.6,
+   "share",
+   "Adoption across the addressable volume by year 5"
+  ],
+  "A26": [
+   2.5,
+   2.5,
+   2.5,
+   "kg CO2e/kg",
+   "Cradle-to-gate footprint of acrylic binder solids"
+  ],
+  "A27": [
+   0.6,
+   0.8,
+   0.4,
+   "kg CO2e/kg",
+   "Cradle-to-gate footprint of precipitated calcium carbonate"
+  ],
+  "A28": [
+   15.0,
+   20.0,
+   12.0,
+   "um",
+   "Minimum dry film of the seal coat, so that it forms a continuous, scrubbable skin over a porous base"
+  ],
+  "A29": [
+   0.5,
+   0.5,
+   0.5,
+   "um/s",
+   "Water evaporation rate of a fresh film, hot and dry interior (north India summer)"
+  ],
+  "A30": [
+   0.25,
+   0.25,
+   0.25,
+   "um/s",
+   "Water evaporation rate of a fresh film, composite climate interior"
+  ],
+  "A31": [
+   0.1,
+   0.1,
+   0.1,
+   "um/s",
+   "Water evaporation rate of a fresh film, warm and humid interior (coastal monsoon)"
+  ]
+ },
+ "baseline": {
+  "CR": 0.9986,
+  "Y": 90.8768,
+  "L": 96.3593,
+  "b": 1.405
+ },
+ "reference": {
+  "phi": 0.1701,
+  "CR": 0.9984,
+  "Y": 90.6768,
+  "L": 96.2768,
+  "b": 1.3775
+ },
+ "baseline_tio2_um": 10.2042,
+ "scenarios": {
+  "bear": {
+   "CR": 0.998,
+   "Y": 90.7269,
+   "L": 96.2975,
+   "b": 1.4524,
+   "tio2_um": 8.6249,
+   "nh": 1.3818,
+   "X1": 40.0,
+   "X2": 21.5,
+   "vT1": 0.1585,
+   "vT2": 0.18,
+   "X2f": 0.8,
+   "P": 0.25,
+   "binder_um": 25.48,
+   "pcc_um": 17.7451,
+   "gcc_um": 2.15,
+   "base_TiO2_pvc": 0.1189,
+   "CR_base_coat_alone": 0.9939,
+   "saving": 0.1548
+  },
+  "base": {
+   "CR": 0.998,
+   "Y": 90.7429,
+   "L": 96.3041,
+   "b": 1.4906,
+   "tio2_um": 6.1882,
+   "nh": 1.18,
+   "X1": 46.1538,
+   "X2": 16.3846,
+   "vT1": 0.1407,
+   "vT2": 0.12,
+   "X2f": 0.6,
+   "P": 0.35,
+   "binder_um": 21.8954,
+   "pcc_um": 18.278,
+   "gcc_um": 1.6385,
+   "base_TiO2_pvc": 0.0915,
+   "CR_base_coat_alone": 0.9966,
+   "saving": 0.3936
+  },
+  "bull": {
+   "CR": 0.998,
+   "Y": 90.7028,
+   "L": 96.2875,
+   "b": 1.5235,
+   "tio2_um": 3.5838,
+   "nh": 1.0,
+   "X1": 54.5455,
+   "X2": 18.0,
+   "vT1": 0.0475,
+   "vT2": 0.12,
+   "X2f": 0.6,
+   "P": 0.45,
+   "binder_um": 21.54,
+   "pcc_um": 21.0762,
+   "gcc_um": 1.8,
+   "base_TiO2_pvc": 0.0261,
+   "CR_base_coat_alone": 0.9964,
+   "saving": 0.6488
+  }
+ },
+ "host_index": [
+  [
+   1.0,
+   12.5574,
+   1.5229
+  ],
+  [
+   1.1,
+   11.7498,
+   1.4249
+  ],
+  [
+   1.2,
+   10.9461,
+   1.3275
+  ],
+  [
+   1.33,
+   10.043,
+   1.2179
+  ],
+  [
+   1.4,
+   9.2256,
+   1.1188
+  ],
+  [
+   1.49,
+   8.2458,
+   1.0
+  ],
+  [
+   1.55,
+   7.5528,
+   0.916
+  ]
+ ],
+ "halo": [
+  [
+   0,
+   11.7064,
+   11.7064
+  ],
+  [
+   20,
+   10.4677,
+   6.4071
+  ],
+  [
+   40,
+   9.8717,
+   3.9631
+  ],
+  [
+   80,
+   10.4298,
+   2.0818
+  ],
+  [
+   150,
+   16.2012,
+   1.2753
+  ],
+  [
+   250,
+   28.0548,
+   0.8386
+  ]
+ ],
+ "crowding": [
+  [
+   0.05,
+   0.4013,
+   0.9733,
+   0.5979,
+   0.9522
+  ],
+  [
+   0.1,
+   0.781,
+   0.9472,
+   1.1298,
+   0.8997
+  ],
+  [
+   0.15,
+   1.1406,
+   0.9222,
+   1.5847,
+   0.8413
+  ],
+  [
+   0.18,
+   1.3475,
+   0.9078,
+   1.8147,
+   0.8029
+  ],
+  [
+   0.2,
+   1.482,
+   0.8986,
+   1.9482,
+   0.7757
+  ],
+  [
+   0.25,
+   1.808,
+   0.8771,
+   null,
+   null
+  ]
+ ],
+ "screen": [
+  {
+   "id": "S01",
+   "name": "Rutile in binder (premium baseline)",
+   "family": "Reference",
+   "per_vol": 8.2196,
+   "feasible": true,
+   "level": 0.1701,
+   "tio2_um": 10.2041,
+   "Y": 90.6768,
+   "CR": 0.9984,
+   "saving": 0.0,
+   "verdict": "Reference"
+  },
+  {
+   "id": "S02",
+   "name": "Rutile plus hollow polymer opacifier at 15 percent",
+   "family": "Commercial today",
+   "per_vol": 0.2858,
+   "feasible": true,
+   "level": 0.1547,
+   "tio2_um": 9.2802,
+   "Y": 90.8178,
+   "CR": 0.998,
+   "saving": 0.0906,
+   "verdict": "Discard: saves less than 30 percent of TiO2"
+  },
+  {
+   "id": "S03",
+   "name": "Rutile in a binder full of closed nano-air (30 percent)",
+   "family": "Lower-index matrix",
+   "per_vol": 8.9985,
+   "feasible": true,
+   "level": 0.1514,
+   "tio2_um": 9.0824,
+   "Y": 90.6769,
+   "CR": 0.9985,
+   "saving": 0.1099,
+   "verdict": "Discard: saves less than 30 percent of TiO2"
+  },
+  {
+   "id": "S04",
+   "name": "Yolk-shell: rutile in an air gap inside a shell",
+   "family": "Particle-level air",
+   "per_vol": 0.7549,
+   "feasible": false,
+   "level": 0.5,
+   "tio2_um": null,
+   "Y": 86.1219,
+   "CR": 0.9826,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S05",
+   "name": "Hollow rutile spheres",
+   "family": "Particle-level air",
+   "per_vol": 4.9928,
+   "feasible": true,
+   "level": 0.2531,
+   "tio2_um": 8.2129,
+   "Y": 90.6781,
+   "CR": 0.998,
+   "saving": 0.1951,
+   "verdict": "Discard: saves less than 30 percent of TiO2"
+  },
+  {
+   "id": "S06",
+   "name": "Zinc sulfide, no TiO2",
+   "family": "Substitute pigment",
+   "per_vol": 4.6255,
+   "feasible": false,
+   "level": 0.3,
+   "tio2_um": null,
+   "Y": 90.3731,
+   "CR": 0.9974,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S07",
+   "name": "Zirconia, no TiO2",
+   "family": "Substitute pigment",
+   "per_vol": 2.993,
+   "feasible": false,
+   "level": 0.3,
+   "tio2_um": null,
+   "Y": 87.9927,
+   "CR": 0.9926,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S08",
+   "name": "Barium sulfate at high loading, no TiO2",
+   "family": "Substitute pigment",
+   "per_vol": 0.0644,
+   "feasible": false,
+   "level": 0.55,
+   "tio2_um": null,
+   "Y": 63.15,
+   "CR": 0.4893,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S09",
+   "name": "Organic crystal spheres, n 1.96, no TiO2",
+   "family": "Nature-inspired",
+   "per_vol": 1.3651,
+   "feasible": false,
+   "level": 0.4,
+   "tio2_um": null,
+   "Y": 84.0573,
+   "CR": 0.9749,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S10",
+   "name": "Air network under a seal coat (this proposal, base case)",
+   "family": "Film architecture",
+   "per_vol": 11.0621,
+   "feasible": true,
+   "level": 0.1407,
+   "tio2_um": 6.1882,
+   "Y": 90.7429,
+   "CR": 0.998,
+   "saving": 0.3936,
+   "verdict": "Retain"
+  },
+  {
+   "id": "S11",
+   "name": "Air network with no TiO2 in either coat",
+   "family": "Film architecture",
+   "per_vol": 1.1524,
+   "feasible": false,
+   "level": 0.0,
+   "tio2_um": null,
+   "Y": 82.9046,
+   "CR": 0.9728,
+   "saving": null,
+   "verdict": "Discard: cannot match baseline brightness at maximum loading"
+  },
+  {
+   "id": "S12",
+   "name": "Air network with organic crystals in place of base-coat TiO2 (horizon 3)",
+   "family": "Film architecture",
+   "per_vol": 4.6051,
+   "feasible": true,
+   "level": 0.5355,
+   "tio2_um": 1.9662,
+   "Y": 90.7358,
+   "CR": 0.998,
+   "saving": 0.8073,
+   "verdict": "Retain for horizon 3"
+  }
+ ],
+ "hiding": {
+  "baseline": [
+   [
+    7.2,
+    0.9541
+   ],
+   [
+    10.8,
+    0.9759
+   ],
+   [
+    14.4,
+    0.9851
+   ],
+   [
+    18.0,
+    0.9898
+   ],
+   [
+    21.6,
+    0.9926
+   ],
+   [
+    25.2,
+    0.9943
+   ],
+   [
+    28.8,
+    0.9955
+   ]
+  ],
+  "air_network": [
+   [
+    0.0,
+    0.9724
+   ],
+   [
+    6.0,
+    0.9901
+   ],
+   [
+    12.0,
+    0.9949
+   ],
+   [
+    18.0,
+    0.9969
+   ],
+   [
+    24.0,
+    0.9979
+   ],
+   [
+    30.0,
+    0.9985
+   ],
+   [
+    36.0,
+    0.9988
+   ]
+  ]
+ },
+ "tornado": [
+  {
+   "id": "A08",
+   "label": "What surrounds base-coat particles",
+   "low_label": "binder-wetted",
+   "high_label": "pure air",
+   "low": 0.2135,
+   "high": 0.6502,
+   "swing": 0.4367
+  },
+  {
+   "id": "A05",
+   "label": "Base-coat porosity",
+   "low_label": "0.25",
+   "high_label": "0.45",
+   "low": 0.3267,
+   "high": 0.4548,
+   "swing": 0.1281
+  },
+  {
+   "id": "A07",
+   "label": "Seal-coat infiltration into pores",
+   "low_label": "25 percent",
+   "high_label": "none",
+   "low": 0.3429,
+   "high": 0.4281,
+   "swing": 0.0852
+  },
+  {
+   "id": "A28",
+   "label": "Minimum seal-coat film",
+   "low_label": "20 um",
+   "high_label": "12 um",
+   "low": 0.3711,
+   "high": 0.3936,
+   "swing": 0.0225
+  },
+  {
+   "id": "A09",
+   "label": "Base-coat extender size",
+   "low_label": "0.8 um",
+   "high_label": "0.4 um",
+   "low": 0.3732,
+   "high": 0.3799,
+   "swing": 0.0067
+  }
+ ],
+ "economics": {
+  "bear": {
+   "base_g": {
+    "TiO2": 40.8168,
+    "binder": 41.5754,
+    "PCC": 0.0,
+    "GCC": 32.4
+   },
+   "prop_g": {
+    "TiO2": 34.4995,
+    "binder": 28.028,
+    "PCC": 47.9118,
+    "GCC": 5.805
+   },
+   "base_inr": 16.3219,
+   "prop_inr": 13.709,
+   "base_co2": 0.207,
+   "prop_co2": 0.1948
+  },
+  "base": {
+   "base_g": {
+    "TiO2": 40.8168,
+    "binder": 41.5754,
+    "PCC": 0.0,
+    "GCC": 32.4
+   },
+   "prop_g": {
+    "TiO2": 24.7528,
+    "binder": 24.0849,
+    "PCC": 49.3505,
+    "GCC": 4.4238
+   },
+   "base_inr": 18.3627,
+   "prop_inr": 12.0335,
+   "base_co2": 0.2274,
+   "prop_co2": 0.1642
+  },
+  "bull": {
+   "base_g": {
+    "TiO2": 40.8168,
+    "binder": 41.5754,
+    "PCC": 0.0,
+    "GCC": 32.4
+   },
+   "prop_g": {
+    "TiO2": 14.3353,
+    "binder": 23.694,
+    "PCC": 56.9057,
+    "GCC": 4.86
+   },
+   "base_inr": 20.4036,
+   "prop_inr": 9.9794,
+   "base_co2": 0.2478,
+   "prop_co2": 0.1323
+  }
+ },
+ "ap_scale": {
+  "bear": {
+   "tio2_spend_cr": 1998.65,
+   "tio2_t": 99932.5,
+   "m2_mn": 146.8992,
+   "tio2_avoided_t": 927.9975,
+   "tio2_saving_cr": 18.5599,
+   "net_saving_cr": 38.3827,
+   "co2_kt": 1.7819
+  },
+  "base": {
+   "tio2_spend_cr": 2997.975,
+   "tio2_t": 119919.0,
+   "m2_mn": 470.0773,
+   "tio2_avoided_t": 7551.31,
+   "tio2_saving_cr": 188.7827,
+   "net_saving_cr": 297.5227,
+   "co2_kt": 29.684
+  },
+  "bull": {
+   "tio2_spend_cr": 3997.3,
+   "tio2_t": 133243.3333,
+   "m2_mn": 979.3278,
+   "tio2_avoided_t": 25934.0299,
+   "tio2_saving_cr": 778.0209,
+   "net_saving_cr": 1020.8619,
+   "co2_kt": 113.0659
+  }
+ },
+ "spectral": [
+  [
+   380,
+   0.0,
+   0.0
+  ],
+  [
+   400,
+   0.168,
+   0.1696
+  ],
+  [
+   420,
+   0.7601,
+   0.7624
+  ],
+  [
+   440,
+   0.9103,
+   0.9059
+  ],
+  [
+   460,
+   0.9098,
+   0.9067
+  ],
+  [
+   480,
+   0.9104,
+   0.906
+  ],
+  [
+   500,
+   0.9132,
+   0.9103
+  ],
+  [
+   520,
+   0.9111,
+   0.9126
+  ],
+  [
+   540,
+   0.9079,
+   0.9057
+  ],
+  [
+   560,
+   0.9066,
+   0.9034
+  ],
+  [
+   580,
+   0.9082,
+   0.9089
+  ],
+  [
+   600,
+   0.9105,
+   0.9089
+  ],
+  [
+   620,
+   0.9083,
+   0.9075
+  ],
+  [
+   640,
+   0.9063,
+   0.907
+  ],
+  [
+   660,
+   0.9028,
+   0.9059
+  ],
+  [
+   680,
+   0.8995,
+   0.9036
+  ],
+  [
+   700,
+   0.896,
+   0.9013
+  ],
+  [
+   720,
+   0.8926,
+   0.8999
+  ]
+ ],
+ "nir": [
+  [
+   800,
+   0.8697,
+   0.8792
+  ],
+  [
+   1000,
+   0.8278,
+   0.8626
+  ],
+  [
+   1200,
+   0.7334,
+   0.7945
+  ],
+  [
+   1500,
+   0.6369,
+   0.7106
+  ]
+ ],
+ "peclet": [
+  [
+   "Hot and dry",
+   0.5,
+   5.7675,
+   43.256
+  ],
+  [
+   "Composite",
+   0.25,
+   2.8837,
+   21.628
+  ],
+  [
+   "Warm and humid",
+   0.1,
+   1.1535,
+   8.6512
+  ]
+ ],
+ "checks": [
+  [
+   "C1 Mie benchmark m 1.55, x 5.213: Qsca within 0.1 percent of 3.10543 (Bohren and Huffman)",
+   true
+  ],
+  [
+   "C2 a two-layer sphere with equal layers equals the homogeneous sphere",
+   true
+  ],
+  [
+   "C3 an absorbing sphere has positive absorption",
+   true
+  ],
+  [
+   "C4 Percus-Yevick S(q to 0) equals the compressibility limit within 3 percent",
+   true
+  ],
+  [
+   "C5 Kubelka-Munk thick-film limit equals R infinity",
+   true
+  ],
+  [
+   "C6 baseline is a plausible premium white (CR 0.995 to 0.9995, Y 88 to 93, b* 0.5 to 3)",
+   true
+  ],
+  [
+   "C7 base-case proposal meets brightness, contrast ratio and seal thickness",
+   true
+  ],
+  [
+   "C8 scenario order bear < base < bull",
+   true
+  ],
+  [
+   "C9 contrast ratio rises with TiO2 in the baseline coat",
+   true
+  ],
+  [
+   "C10 every reflectance lies between 0 and 1",
+   true
+  ],
+  [
+   "C11 rutile scatters more per unit volume in air than in binder",
+   true
+  ],
+  [
+   "C12 the screen's baseline row reproduces the fair reference within 1 percent of TiO2",
+   true
+  ],
+  [
+   "C13 the fair reference needs between 85 and 100 percent of the premium's TiO2",
+   true
+  ]
+ ],
+ "hash": "b377745d37"
+}

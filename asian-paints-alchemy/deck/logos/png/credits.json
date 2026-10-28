@@ -1,0 +1,146 @@
+{
+ "chemours": {
+  "file": "chemours.png",
+  "commons_title": "File:Chemours.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chemours.svg",
+  "licence": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "bytes": 26830
+ },
+ "tronox": {
+  "file": "tronox.png",
+  "commons_title": "File:Tronox logo.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Tronox_logo.png",
+  "licence": "Public domain",
+  "author": "Tronox",
+  "bytes": 15446
+ },
+ "dow": {
+  "file": "dow.png",
+  "commons_title": "File:Dow Chemical Company logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dow_Chemical_Company_logo.svg",
+  "licence": "Public domain",
+  "author": "Dow Chemical Company",
+  "bytes": 26553
+ },
+ "arkema": {
+  "file": "arkema.png",
+  "commons_title": "File:Logo Arkema.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_Arkema.svg",
+  "licence": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "bytes": 20703
+ },
+ "evonik": {
+  "file": "evonik.png",
+  "commons_title": "File:Logo Evonik 2020.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_Evonik_2020.svg",
+  "licence": "Public domain",
+  "author": "Evonik Industries AG",
+  "bytes": 33570
+ },
+ "imerys": {
+  "file": "imerys.png",
+  "commons_title": "File:Imerys logo.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Imerys_logo.png",
+  "licence": "CC BY-SA 4.0",
+  "author": "Guillaume Imerys",
+  "bytes": 61379
+ },
+ "berger": {
+  "file": "berger.png",
+  "commons_title": "File:Berger Paints logo.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Berger_Paints_logo.png",
+  "licence": "Public domain",
+  "author": "Berger Paints",
+  "bytes": 8116
+ },
+ "jsw": {
+  "file": "jsw.png",
+  "commons_title": "File:JSW Group logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:JSW_Group_logo.svg",
+  "licence": "Public domain",
+  "author": "JSW Steel Ltd",
+  "bytes": 31584
+ },
+ "indigo": {
+  "file": "indigo.jpg",
+  "commons_title": "File:Indigo-logo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Indigo-logo.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Indigo Paints",
+  "bytes": 40716
+ },
+ "kansai": {
+  "file": "kansai.png",
+  "commons_title": "File:Kansai Paint Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansai_Paint_Logo.svg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Kansai Paint Co., Ltd",
+  "bytes": 30227
+ },
+ "akzonobel": {
+  "file": "akzonobel.png",
+  "commons_title": "File:AkzoNobel.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:AkzoNobel.svg",
+  "licence": "Public domain",
+  "author": "AkzoNobel",
+  "bytes": 21203
+ },
+ "akzonobel_black": {
+  "file": "akzonobel_black.png",
+  "commons_title": "File:AkzoNobel wordmark black.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:AkzoNobel_wordmark_black.svg",
+  "licence": "Public domain",
+  "author": "Akzo Nobel N.V.",
+  "bytes": 11625
+ },
+ "exeter": {
+  "file": "exeter.png",
+  "commons_title": "File:Uni Exeter.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Uni_Exeter.svg",
+  "licence": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "bytes": 47135
+ },
+ "scirep": {
+  "file": "scirep.png",
+  "commons_title": "File:Scientific Reports logo 2023.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Scientific_Reports_logo_2023.svg",
+  "licence": "Public domain",
+  "author": "Springer Nature",
+  "bytes": 11170
+ },
+ "bis": {
+  "file": "bis.png",
+  "commons_title": "File:Bureau of Indian Standards Logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bureau_of_Indian_Standards_Logo.svg",
+  "licence": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "bytes": 34896
+ },
+ "cpcb": {
+  "file": "cpcb.png",
+  "commons_title": "File:Logo of the Central Pollution Control Board.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Central_Pollution_Control_Board.svg",
+  "licence": "Public domain",
+  "author": "Government of India",
+  "bytes": 38118
+ },
+ "iso": {
+  "file": "iso.png",
+  "commons_title": "File:ISO logo red.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:ISO_logo_red.svg",
+  "licence": "Public domain",
+  "author": "Smartcom5",
+  "bytes": 53444
+ },
+ "astm": {
+  "file": "astm.png",
+  "commons_title": "File:ASTM International logo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:ASTM_International_logo.svg",
+  "licence": "Public domain",
+  "author": "ASTM International",
+  "bytes": 29870
+ }
+}

@@ -1,0 +1,6028 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Project Satoshi Gate: Research Deliverable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 22mm 18mm 22mm 18mm;
+  @bottom-left { content: "Project Satoshi Gate  |  Team IdeaForge"; font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #0F7A4D; }
+  @bottom-right { content: counter(page); font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #0A0A0A; } }
+@page :first { margin: 0; @bottom-left { content: none } @bottom-right { content: none } }
+:root { --p:#0F7A4D; --pd:#0A5233; --a:#F5C518; --tint:#CFEEDB; --ink:#0A0A0A; --grey:#F4F5F4; --line:#D5D9D6; }
+* { box-sizing: border-box; }
+body { font: 9.6pt/1.5 Inter, 'Segoe UI', Calibri, sans-serif; color: var(--ink); margin: 0; }
+.cover { height: 297mm; background: var(--pd); color: #fff; padding: 30mm 22mm; position: relative; page-break-after: always; }
+.cover .bar { position:absolute; left:0; top:0; bottom:0; width:10mm; background: var(--a); }
+.cover .kicker { font: 700 10pt Poppins,'Segoe UI',sans-serif; letter-spacing: .18em; color: var(--a); text-transform: uppercase; margin-top: 30mm; }
+.cover h1 { font: 800 40pt/1.05 Poppins,'Segoe UI',sans-serif; margin: 8mm 0 6mm; border: 0; padding: 0; color:#fff; }
+.cover .sub { font: 600 15pt/1.35 Poppins,'Segoe UI',sans-serif; color: var(--tint); max-width: 150mm; }
+.cover .meta { position:absolute; left:22mm; right:22mm; bottom:26mm; border-top: 2px solid var(--a); padding-top: 6mm; font-size: 10pt; color:#fff; }
+.cover .meta b { color: var(--a); }
+.tocpage { page-break-after: always; }
+.tocpage h2.tt { font: 800 20pt Poppins,'Segoe UI',sans-serif; color: var(--pd); border-bottom: 3px solid var(--a); padding-bottom: 3mm; margin: 0 0 8mm; }
+.tocpage ol { list-style: none; padding: 0; margin: 0; columns: 1; }
+.tocpage li { padding: 1.5mm 0; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 9.6pt; }
+.tocpage a { color: var(--ink); text-decoration: none; }
+h1,h2,h3,h4 { font-family: Poppins,'Segoe UI',sans-serif; color: var(--pd); line-height: 1.2; }
+h2 { font-size: 16pt; font-weight: 800; margin: 12mm 0 4mm; padding: 0 0 2.5mm; border-bottom: 3px solid var(--a); page-break-after: avoid; }
+h2::before { content: ""; display:inline-block; width: 4mm; height: 4mm; background: var(--p); margin-right: 3mm; vertical-align: 1px; }
+h3 { font-size: 11.6pt; font-weight: 700; margin: 7mm 0 2mm; color: var(--p); page-break-after: avoid; }
+h4 { font-size: 10pt; font-weight: 700; margin: 5mm 0 1mm; page-break-after: avoid; }
+p { margin: 0 0 3mm; text-align: left; }
+strong { font-weight: 700; }
+ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+li { margin-bottom: 1mm; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 6mm 0; }
+blockquote { margin: 4mm 0; padding: 3mm 5mm; background: var(--tint); border-left: 1.5mm solid var(--p); }
+blockquote p:last-child { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 8.3pt; line-height: 1.35; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: var(--pd); color: #fff; text-align: left; font: 700 8pt Poppins,'Segoe UI',sans-serif; padding: 2mm 2.2mm; border: 1px solid var(--pd); }
+td { padding: 1.7mm 2.2mm; border: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+tbody tr:nth-child(even) td { background: var(--grey); }
+td:first-child { font-weight: 600; min-width: 15mm; }
+a { color: var(--p); text-decoration: none; }
+.tag { font: 600 7pt Inter,'Segoe UI',sans-serif; color: var(--pd); background: var(--tint); border-radius: 2px; padding: 0 1.3mm; white-space: nowrap; }
+.code { font: 500 8pt Consolas,'Courier New',monospace; background: var(--grey); border: 1px solid var(--line); padding: 0 1mm; border-radius: 2px; }
+</style></head><body><section class="cover"><div class="bar"></div>
+<div class="kicker">M&amp;A Masterminds 2026  |  Research deliverable</div>
+<h1>Project Satoshi Gate</h1>
+<div class="sub">Board recommendation on Paytm&#x27;s proposed acquisition of Liminal Custody Solutions</div>
+<div class="meta"><b>Team IdeaForge</b><br>Harsh Kawatra, Delhi Technological University<br>Gursimran Kaur, GGSIPU<br>Dayita Arora, Ramjas College, University of Delhi<br><br>M&amp;A Masterminds, September 2026</div></section>
+<section class="tocpage"><h2 class="tt">Contents</h2><ol><li><a href="#0-document-control">0. Document control</a></li><li><a href="#1-question-coverage-matrix">1. Question coverage matrix</a></li><li><a href="#2-board-answer-executive-summary">2. Board answer (executive summary)</a></li><li><a href="#3-situation-overview-paytm-needs-growth-outside-payments-and-cannot-afford-an-eps-hit-to-get-it">3. Situation overview: Paytm needs growth outside payments, and cannot afford an EPS hit to get it</a></li><li><a href="#4-strategic-value-of-custody-and-mpc-real-gated-and-years-away-so-buy-an-option">4. Strategic value of custody and MPC: real, gated and years away, so buy an option</a></li><li><a href="#5-target-assessment-liminal-is-the-right-target-so-the-real-question-is-the-structure">5. Target assessment: Liminal is the right target, so the real question is the structure</a></li><li><a href="#6-competition-and-the-consortium-the-rival-bidder-inherits-the-same-revolt">6. Competition and the consortium: the rival bidder inherits the same revolt</a></li><li><a href="#7-valuation-4-000-cr-is-2-4-times-what-liminal-is-worth-on-a-weighted-basis">7. Valuation: ₹4,000 Cr is 2.4 times what Liminal is worth on a weighted basis</a></li><li><a href="#8-the-four-paths-the-minority-stake-wins-on-value-risk-and-optionality">8. The four paths: the minority stake wins on value, risk and optionality</a></li><li><a href="#9-stress-test-of-the-full-acquisition-no-churn-level-makes-it-work">9. Stress test of the full acquisition: no churn level makes it work</a></li><li><a href="#10-recommended-structure-and-financing">10. Recommended structure and financing</a></li><li><a href="#11-churn-defense-and-governance">11. Churn defense and governance</a></li><li><a href="#12-regulatory-path-and-compliance-architecture">12. Regulatory path and compliance architecture</a></li><li><a href="#13-contingency-planning">13. Contingency planning</a></li><li><a href="#14-risk-register">14. Risk register</a></li><li><a href="#15-implementation-roadmap-and-decision-triggers">15. Implementation roadmap and decision triggers</a></li><li><a href="#16-assumptions-register-and-model-summary">16. Assumptions register and model summary</a></li><li><a href="#17-slide-blueprint-for-the-figma-deck">17. Slide blueprint for the Figma deck</a></li><li><a href="#18-anticipated-judge-questions">18. Anticipated judge questions</a></li><li><a href="#appendix-a-bibliography">Appendix A: Bibliography</a></li><li><a href="#appendix-b-model-tables-generated-by-model-satoshi-gate-model-py">Appendix B: Model tables (generated by model/satoshi_gate_model.py)</a></li><li><a href="#appendix-c-glossary">Appendix C: Glossary</a></li></ol></section>
+<h2 id="0-document-control">0. Document control</h2>
+<p><strong>Purpose.</strong> This document answers every question in the Project Satoshi Gate case, the
+organisers' brief and the Modeling Clarification. It is the evidence base for a 15-slide board deck
+(cover, 12 core slides, appendix, thank you) and for the Excel model <span class="code">Satoshi_Gate_Model.xlsx</span>.</p>
+<p><strong>Source hierarchy.</strong> The case document governs every case fact. External research is used only
+as context, to test the logic of our assumptions and to inform regulatory design. It never
+replaces a case input. Where the real world differs from the case (Paytm's actual cash balance or
+P/E, for instance), we say so and keep the case figure.</p>
+<p><strong>Tags used on every number</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="code">[C §x]</span></td>
+<td>Case fact, with section reference</td>
+</tr>
+<tr>
+<td><span class="code">[CL]</span></td>
+<td>Modeling Clarification</td>
+</tr>
+<tr>
+<td><span class="code">[A##]</span></td>
+<td>Team assumption, listed in §16</td>
+</tr>
+<tr>
+<td><span class="code">[M]</span></td>
+<td>Output of the deal model (<span class="code">model/satoshi_gate_model.py</span>, mirrored in the Excel file)</td>
+</tr>
+<tr>
+<td><span class="code">[S##]</span></td>
+<td>External source, listed in Appendix A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Model version.</strong> The model was run on 24 Sep 2026 after two research-driven updates, both made
+under pre-set rules rather than by judgment after seeing results:</p>
+<ol>
+<li>The discount rates moved from 15.0% to 15.5% (Paytm) and from 16.5% to 17.0% (Liminal),
+because the 10-year G-sec (7.04%) and Damodaran's India ERP (7.08%) shifted the cost of equity
+by more than 50 bps.</li>
+<li>The stake price moved from ₹600 Cr to ₹400 Cr, because the researched valuation comparables
+put Liminal's weighted fair value at ₹1,656 Cr, and the pricing rule is 24.9% of fair value
+rounded down to ₹50 Cr.</li>
+</ol>
+<p>All figures are ₹ Cr unless stated. FY27 means April 2026 to March 2027, and FY27 is model Year 1.</p>
+<hr />
+<h2 id="1-question-coverage-matrix">1. Question coverage matrix</h2>
+<p>Every case question, mission item, expected output, organiser brief item and modeling requirement,
+with where it is answered.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Question (short)</th>
+<th>One-line answer</th>
+<th>Section</th>
+<th>Slide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M1</td>
+<td>Recommend one of four paths</td>
+<td>24.9% minority stake with ROFR and a gated call option to control</td>
+<td>2, 8</td>
+<td>2, 6</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>Governance to protect client relationships</td>
+<td>Independent-majority board, info barrier, standalone brand, client charter, key-shard escrow</td>
+<td>11</td>
+<td>9</td>
+</tr>
+<tr>
+<td>M3</td>
+<td>Structure the payout to limit balance-sheet and rating pressure</td>
+<td>₹400 Cr cash upfront, up to ₹600 Cr only against delivered ARR, zero new debt or shares</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>M4</td>
+<td>Factor in the UPI MDR</td>
+<td>Included in every path (+₹1.35 EPS), shown as deal-independent</td>
+<td>3, 9</td>
+<td>3, 7</td>
+</tr>
+<tr>
+<td>M5</td>
+<td>Downside scenarios (churn, capital)</td>
+<td>Full NPV grid across churn and drag; minority stress tests</td>
+<td>9, 11</td>
+<td>7, 9</td>
+</tr>
+<tr>
+<td>Q5.1.1</td>
+<td>Which structure</td>
+<td>Minority stake, 24.9%</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Q5.1.2</td>
+<td>Strategic value of custody/MPC</td>
+<td>Real, but regulator-gated and 3 to 7 years out in all four arenas</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Q5.1.3</td>
+<td>Big enough to justify moving beyond payments</td>
+<td>Justifies a bounded ₹400 Cr step, not an unbounded ₹4,000 Cr + ₹750 Cr/yr one</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Q5.1.4</td>
+<td>Licence instead of ownership</td>
+<td>A licence captures ~70% of operating value but fails on change of control; licence + equity + ROFR is durable</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Q5.1.5</td>
+<td>Reasons to accept or reject</td>
+<td>Reject as proposed; approve the restructured minority</td>
+<td>8</td>
+<td>2, 6</td>
+</tr>
+<tr>
+<td>Q5.2.1</td>
+<td>Significance of losing top clients</td>
+<td>High under control: 60% of ARR sits with four clients who have precedent reasons to leave</td>
+<td>11</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Q5.2.2</td>
+<td>Governance safeguards</td>
+<td>Nine-part safeguard set, mapped to each client concern</td>
+<td>11</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Q5.2.3</td>
+<td>Return profile at 30 to 45% churn</td>
+<td>NPV −₹7,518 to −₹7,760 Cr; FY27 EPS ₹4.92 to ₹4.48</td>
+<td>9</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Q5.2.4</td>
+<td>Churn that makes it unattractive</td>
+<td>None: the deal is already negative at 0% churn (−₹7,042 Cr); minority tolerates up to 57.6%</td>
+<td>9, 11</td>
+<td>7, 9</td>
+</tr>
+<tr>
+<td>Q5.3.1</td>
+<td>Financing mix to protect AA-</td>
+<td>Cash only for the minority; for a full deal, never debt (3.83x gross debt/EBITDA)</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Q5.3.2</td>
+<td>Cash/equity mix and EPS dilution</td>
+<td>FY27 EPS ₹3.44 (all cash) to ₹6.05 (all equity) against ₹7.50; minority ₹8.79</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Q5.3.3</td>
+<td>Implied multiple and supportability</td>
+<td>18.2x ARR today, 29.1x post-churn, 2.4x the weighted fair value</td>
+<td>7</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Q5.3.4</td>
+<td>Breakeven after ₹750 Cr drag</td>
+<td>Full: PAT FY2033, FCF never within 10 years. Minority: PAT FY2028, FCF FY2034</td>
+<td>9, 16</td>
+<td>7, 13</td>
+</tr>
+<tr>
+<td>Q5.3.5</td>
+<td>MDR offset of drag</td>
+<td>15.3% pre-tax, 11.5% post-tax, and not attributable to the deal</td>
+<td>3, 9</td>
+<td>3, 7</td>
+</tr>
+<tr>
+<td>Q5.3.6</td>
+<td>Deferred, earn-out or CVR structures</td>
+<td>They fix price risk, not the drag; only non-control removes the drag</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Q5.4.1</td>
+<td>Regulatory sequence</td>
+<td>Three-phase sequence; no mandatory CCI filing or RBI approval expected for the minority</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Q5.4.2</td>
+<td>Extra capital requirements from owning custody</td>
+<td>Yes under ownership (₹750 Cr/yr [C]); the minority avoids it, secured by an RBI comfort CP</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Q5.4.3</td>
+<td>Risks pre-signing, signing to close, post-close</td>
+<td>Phase-by-phase table</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Q5.4.4</td>
+<td>Data, compliance, AML, infosec structure</td>
+<td>Liminal stays a separate FIU-IND reporting entity with its own controls</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Q5.5.1</td>
+<td>If the consortium outbids</td>
+<td>Let it win control; it inherits the same revolt and a comparable capital problem</td>
+<td>6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Q5.5.2</td>
+<td>Response to a higher bid</td>
+<td>Compete on structure, never on control price above ₹1,797 Cr</td>
+<td>6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Q5.5.3</td>
+<td>Justification under multiple compression</td>
+<td>Minority is cash-funded and immune; full-deal loss rises to 10.7% of market cap</td>
+<td>6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Q5.5.4</td>
+<td>Implications of consortium ownership</td>
+<td>PhonePe extends into institutional rails; ROFR and Plan B contain it</td>
+<td>6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Q5.6.1</td>
+<td>Churn above 45%: remediation or unwind</td>
+<td>Four-step ladder for a full deal; for the minority, simply do not exercise</td>
+<td>13</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Q5.6.2</td>
+<td>Minority now, option later</td>
+<td>Yes, that is the recommendation</td>
+<td>13</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Q5.6.3</td>
+<td>Milestones before exercise</td>
+<td>Five gates G1 to G5</td>
+<td>13</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Q5.6.4</td>
+<td>Standalone subsidiary indefinitely</td>
+<td>Yes as an associate; under full ownership the drag persists</td>
+<td>13</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Q5.6.5</td>
+<td>Walk-away conditions after signing</td>
+<td>Seven conditions precedent and triggers</td>
+<td>13</td>
+<td>11</td>
+</tr>
+<tr>
+<td>E1</td>
+<td>Recommended structure</td>
+<td>§2, §10</td>
+<td>2, 10</td>
+<td>2, 8</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>Strategic rationale</td>
+<td>§4, §5</td>
+<td>4, 5</td>
+<td>4</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>Financial implications</td>
+<td>§9, §10</td>
+<td>9, 10</td>
+<td>7, 8</td>
+</tr>
+<tr>
+<td>E4</td>
+<td>Churn and downside</td>
+<td>§9, §11</td>
+<td>9, 11</td>
+<td>7, 9</td>
+</tr>
+<tr>
+<td>E5</td>
+<td>Financing structure</td>
+<td>§10</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>E6</td>
+<td>Regulatory and governance approach</td>
+<td>§11, §12</td>
+<td>11, 12</td>
+<td>9, 10</td>
+</tr>
+<tr>
+<td>E7</td>
+<td>Risks and mitigants</td>
+<td>§14</td>
+<td>14</td>
+<td>12</td>
+</tr>
+<tr>
+<td>E8</td>
+<td>Roadmap and decision triggers</td>
+<td>§15</td>
+<td>15</td>
+<td>12</td>
+</tr>
+<tr>
+<td>B1</td>
+<td>Situation, performance, competition and positioning</td>
+<td>§3, §5, §6</td>
+<td>3, 5, 6</td>
+<td>3, 4</td>
+</tr>
+<tr>
+<td>B2</td>
+<td>Do not overestimate; logic-backed assumptions</td>
+<td>Conservative DCF, scenario weights, 29 disclosed assumptions</td>
+<td>7, 16</td>
+<td>5, 13</td>
+</tr>
+<tr>
+<td>B3</td>
+<td>Acquisition opportunities, risk-benefit, fixes</td>
+<td>Four paths plus alternative targets, risk register</td>
+<td>5, 8, 14</td>
+<td>4, 6, 12</td>
+</tr>
+<tr>
+<td>B4</td>
+<td>Valuation, financing, growth</td>
+<td>Football field, funding table, strategic arenas</td>
+<td>4, 7, 10</td>
+<td>4, 5, 8</td>
+</tr>
+<tr>
+<td>B5</td>
+<td>Targets mapped against alternatives</td>
+<td>MECE filter over eight alternatives: Liminal is the only pass</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr>
+<td>B6</td>
+<td>15-slide format</td>
+<td>Cover + 12 core + appendix + thank you</td>
+<td>17</td>
+<td>all</td>
+</tr>
+<tr>
+<td>K1</td>
+<td>Assumptions disclosed</td>
+<td>§16 register, 29 items</td>
+<td>16</td>
+<td>13</td>
+</tr>
+<tr>
+<td>K2</td>
+<td>No external substitution of case inputs</td>
+<td>Case facts locked in <span class="code">Case_Inputs</span> sheet</td>
+<td>0, 16</td>
+<td>13</td>
+</tr>
+<tr>
+<td>K3</td>
+<td>Unstated parameters are assumptions</td>
+<td>Every financing, WACC, minority, JV, earn-out item tagged <span class="code">[A]</span></td>
+<td>16</td>
+<td>13</td>
+</tr>
+<tr>
+<td>K4</td>
+<td>Dedicated assumptions slide</td>
+<td>Slide 13</td>
+<td>17</td>
+<td>13</td>
+</tr>
+<tr>
+<td>K5</td>
+<td>PAT and FCF breakeven</td>
+<td>Breakeven table, both bases, all paths</td>
+<td>9, 16</td>
+<td>7, 13</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-board-answer-executive-summary">2. Board answer (executive summary)</h2>
+<p><strong>Recommendation.</strong> Do not buy Liminal outright. Take a 24.9% stake for ₹400 Cr of balance-sheet
+cash, with a milestone second tranche of up to ₹600 Cr paid only if Liminal's FY29 ARR reaches
+₹500 to ₹650 Cr. Add an MPC technology licence, a right of first refusal with a 30-day matching
+right against the PhonePe-Mastercard consortium, and an option to take control in months 30 to 42
+at fair value, exercisable only if five gates are met.</p>
+<p>The proposed ₹4,000 Cr acquisition destroys ₹7,638 Cr of shareholder value in our base case
+(₹117.5 per share, 6.4% of market cap) <span class="tag">M</span>. It stays negative even if every constraint in the case
+disappears: with zero churn and zero capital drag it still loses ₹2,203 Cr in the base case and
+₹1,073 Cr in the bull case <span class="tag">M</span>. The price pays for the bull case twice, and the ₹750 Cr annual
+capital drag <span class="tag">C §3.2</span> is larger than Liminal's entire ARR (3.4x) and larger than Paytm's entire
+PAT (156%) <span class="tag">M</span>.</p>
+<p>The minority structure pays fair value for 24.9% of Liminal's economics (base NPV +₹211 Cr,
+probability-weighted +₹128 Cr) <span class="tag">M</span>. It keeps Liminal neutral, which is the thing its bank and
+exchange clients are paying for. It blocks the consortium from walking away with Liminal
+unopposed. And it lets Paytm decide on control only after the two unknowns that sink the full deal
+(client churn and the RBI capital regime) have resolved.</p>
+<p><strong>The eight expected outputs, answered</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Output</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1</td>
+<td>Structure</td>
+<td>24.9% CCPS stake in First Answer India Technologies (Liminal's Indian entity): ₹400 Cr upfront (₹250 Cr primary, ₹150 Cr secondary), Tranche 2 up to ₹600 Cr, ₹25 Cr/yr MPC licence, ROFR + matching right, FMV call option on control (months 30 to 42)</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>Rationale</td>
+<td>Custody is a real option on India's tokenization, e₹ and cross-border rails, but every arena is regulator-gated and 3 to 7 years out. Liminal's moat is neutrality, which a consumer-wallet owner destroys by taking control</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>Financials</td>
+<td>Full deal: NPV −₹7,638 Cr, FY27 EPS ₹4.70 (−37.3% vs ₹7.50). Minority: NPV +₹211 Cr, FY27 EPS ₹8.79 (+17.2% vs ₹7.50, including the MDR)</td>
+</tr>
+<tr>
+<td>E4</td>
+<td>Churn and downside</td>
+<td>Full deal is negative at every churn level from 0% to 60%. Minority breaks even only at 57.6% churn, against an expected 5%</td>
+</tr>
+<tr>
+<td>E5</td>
+<td>Financing</td>
+<td>100% balance-sheet cash: ₹400 Cr is 4.5% of Paytm's ₹8,900 Cr cash. Gross debt stays ₹350 Cr; no new shares</td>
+</tr>
+<tr>
+<td>E6</td>
+<td>Regulatory and governance</td>
+<td>Invest through One97 into Liminal's Indian entity (avoids the ODI profit test and keeps PPSL ring-fenced). Independent-majority Liminal board, information barrier, standalone brand. RBI comfort letter as a condition precedent</td>
+</tr>
+<tr>
+<td>E7</td>
+<td>Risks</td>
+<td>Twelve-item register; the top three are RBI treating the minority as ownership, a Liminal security incident, and the consortium bidding for control. Each has a contractual or structural mitigant</td>
+</tr>
+<tr>
+<td>E8</td>
+<td>Roadmap</td>
+<td>100-day plan, gate reviews at months 12, 24 and 30, option window at months 30 to 42, and seven kill switches</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Draft executive-summary slide text (≤110 words)</strong></p>
+<ul>
+<li><em>What we recommend.</em> Take 24.9% of Liminal for ₹400 Cr in cash, plus up to ₹600 Cr only if ARR
+reaches ₹650 Cr by FY29. Pair it with an MPC licence, a ROFR against the consortium, and an
+option on control in 2029.</li>
+<li><em>Why not buy it.</em> At ₹4,000 Cr, control destroys ₹7,638 Cr: a 37.5% client revolt plus a
+₹750 Cr yearly capital drag that the ₹115 Cr MDR covers only 15%.</li>
+<li><em>What the Board approves today.</em> ₹400 Cr from cash, no new debt, no new shares, FY27 EPS ₹8.79.
+The deal lapses if RBI will not confirm that a 24.9% stake is not ownership.</li>
+</ul>
+<hr />
+<h2 id="3-situation-overview-paytm-needs-growth-outside-payments-and-cannot-afford-an-eps-hit-to-get-it">3. Situation overview: Paytm needs growth outside payments, and cannot afford an EPS hit to get it</h2>
+<p><strong>Answer.</strong> On case figures, Paytm trades at 247x earnings and 172x EBITDA <span class="tag">M</span>. The market has
+priced in a turnaround that has barely started showing in earnings. Core UPI growth is capped by a
+two-player duopoly, and Paytm's regulatory record makes RBI trust its scarcest asset. Any
+acquisition that dilutes EPS or invites fresh RBI scrutiny attacks both of Paytm's valuation
+supports at once.</p>
+<h3 id="3-1-paytm-on-case-figures">3.1 Paytm on case figures</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Market cap</td>
+<td>₹1,18,750 Cr</td>
+<td><span class="tag">C §1</span></td>
+</tr>
+<tr>
+<td>Share price</td>
+<td>₹1,855.47</td>
+<td>₹1,18,750 Cr ÷ 64 Cr shares <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Enterprise value</td>
+<td>₹1,10,200 Cr</td>
+<td>market cap − ₹8,900 Cr cash + ₹350 Cr debt <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>P/E</td>
+<td>247.4x</td>
+<td>₹1,855.47 ÷ ₹7.50 <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>EV/Revenue</td>
+<td>13.04x</td>
+<td>₹1,10,200 ÷ ₹8,450 Cr <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>EV/EBITDA</td>
+<td>172.2x</td>
+<td>₹1,10,200 ÷ ₹640 Cr <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>EBITDA margin</td>
+<td>7.6%</td>
+<td>₹640 ÷ ₹8,450 Cr <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Earnings yield</td>
+<td>0.40%</td>
+<td>the inverse of P/E <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Post-tax yield on cash</td>
+<td>4.49%</td>
+<td>6.0% <span class="tag">A03</span> × (1 − 25.17% <span class="tag">A02</span>) <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Deal value as % of market cap</td>
+<td>3.37%</td>
+<td><span class="tag">M</span></td>
+</tr>
+</tbody>
+</table>
+<p>The last two lines matter for financing. Paytm's stock earns 0.40% for every rupee of market
+value, while its cash earns 4.49% after tax. Every rupee of cash that leaves the balance sheet
+costs more EPS than a rupee of stock issued. This is why the all-equity version of the full deal
+is the least dilutive, and why a buyback (which the case says shareholders may demand <span class="tag">C §3.3</span>)
+actually <em>reduces</em> EPS: retiring ₹2,100 Cr of shares at ₹1,855 buys back 1.13 Cr shares but
+gives up ₹94 Cr of post-tax interest, and EPS falls to ₹6.14 (−18.2%) <span class="tag">M</span>. Shareholder pressure
+for buybacks is a valuation-signalling argument, not an EPS argument.</p>
+<p><strong>Context (does not replace case figures).</strong> Aggregators put Paytm's market cap at ₹1.14 to 1.16
+lakh Cr in mid-September 2026, within 2 to 4% of the case figure, with a trailing P/E near 141 on
+reported earnings <span class="tag">S15</span>. Paytm's FY26 PAT was ₹552 Cr on revenue of ₹8,437 Cr <span class="tag">S06</span>, and Q1 FY27
+PAT was ₹220 Cr on revenue of ₹2,448 Cr (+28% YoY) <span class="tag">S05</span>. Reported cash was ₹13,529 Cr in June 2026
+<span class="tag">S128</span> against the case's ₹8,900 Cr. The stock is up 44% over the past year <span class="tag">S15</span>. The case's
+&quot;turnaround narrative&quot; is visible in the real data; the case figures govern the model.</p>
+<h3 id="3-2-industry-position-third-in-a-two-player-market">3.2 Industry position: third in a two-player market</h3>
+<table>
+<thead>
+<tr>
+<th>UPI app, Aug 2026</th>
+<th>Volume share</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PhonePe</td>
+<td>45.9% (~11.25 bn transactions)</td>
+<td><span class="tag">S03</span></td>
+</tr>
+<tr>
+<td>Google Pay</td>
+<td>32.4% (~7.9 bn)</td>
+<td><span class="tag">S03</span></td>
+</tr>
+<tr>
+<td><strong>Paytm</strong></td>
+<td><strong>8.1%</strong></td>
+<td><span class="tag">S03</span></td>
+</tr>
+<tr>
+<td>Navi</td>
+<td>4.4%</td>
+<td><span class="tag">S03</span></td>
+</tr>
+<tr>
+<td>PhonePe + Google Pay</td>
+<td>78.3%</td>
+<td><span class="tag">S03, S04</span></td>
+</tr>
+</tbody>
+</table>
+<p>Paytm is a distant third with 8.1%, behind a duopoly holding 78.3%. The case says pure-play UPI
+and checkout growth has slowed <span class="tag">C §1</span>. Growth has to come from adjacent revenue pools, which is the
+strategic logic behind looking at Liminal. That logic is sound. The question for the Board is
+whether ownership is the right instrument for it.</p>
+<h3 id="3-3-regulatory-history-rbi-trust-is-paytm-s-scarcest-asset">3.3 Regulatory history: RBI trust is Paytm's scarcest asset</h3>
+<ul>
+<li>RBI stopped Paytm Payments Bank (PPBL) from onboarding new customers in March 2022 <span class="tag">S08</span>.</li>
+<li>On 31 January 2024, citing &quot;persistent non-compliances and continued material supervisory
+concerns&quot;, RBI barred deposits and top-ups after 29 February 2024 <span class="tag">S08</span>. On 16 February it
+extended the cut-off to 15 March 2024 <span class="tag">S09</span>. The case references these 2024 restrictions <span class="tag">C §1</span>.</li>
+<li>In April 2026 RBI cancelled PPBL's banking licence outright <span class="tag">S10</span>, and the Delhi High Court
+ordered winding up in July 2026 <span class="tag">S112</span>. Paytm said the financial impact was nearly nil because
+the investment was already impaired <span class="tag">S07</span>.</li>
+<li>Paytm's payment aggregator arm, PPSL, received final online PA authorisation on 26 November 2025
+<span class="tag">S12</span> and authorisation for offline and cross-border (inward and outward) PA on 17 December 2025
+<span class="tag">S11</span>. The PA licence is recent and hard-won.</li>
+<li>The Enforcement Directorate issued a ₹611 Cr FEMA show-cause notice in March 2025 <span class="tag">S100</span>; RBI
+compounded part of it in February 2026 for ₹18.76 lakh <span class="tag">S101</span>.</li>
+</ul>
+<p>The implication is simple. Paytm has just rebuilt its standing with RBI. The case's capital trap
+<span class="tag">C §3.2</span> is RBI applying bank-like capital to a PA group that owns crypto custody, at a time when
+RBI has told Parliament it favours containing crypto, &quot;leaning towards prohibition&quot; <span class="tag">S57</span>. A deal
+that puts custodied digital assets inside the Paytm group spends regulatory capital Paytm does not
+have to spare.</p>
+<h3 id="3-4-the-upi-mdr-real-money-but-not-a-reason-to-do-this-deal">3.4 The UPI MDR: real money, but not a reason to do this deal</h3>
+<p>The MDR mechanics <span class="tag">C §3.4, S01, S02</span>:</p>
+<ul>
+<li>0.4% on person-to-merchant UPI payments above ₹2,000, capped at ₹300 per transaction, from
+15 October 2026. Payments up to ₹2,000 and all P2P transfers stay free.</li>
+<li>Merchants pay, not consumers.</li>
+<li>Research adds that essential sectors (railways, telecom, agri inputs) pay a flat ₹5, that
+merchants with monthly UPI QR receipts under ₹1 lakh are exempt, and that about 96% of P2M
+transactions are unaffected <span class="tag">S01</span>.</li>
+</ul>
+<p>For Paytm, the case sets incremental net revenue at ₹115 Cr/yr <span class="tag">C §3.4</span>. After tax that is
+₹86.05 Cr, or +₹1.345 of EPS, lifting standalone EPS from ₹7.50 to ₹8.845 (+17.9%) <span class="tag">M</span>.</p>
+<p>Three analytical points follow:</p>
+<ol>
+<li><strong>The MDR is deal-independent.</strong> Paytm earns it whether it buys Liminal, takes a minority,
+forms a JV or walks away. It belongs in every path's baseline, and we show EPS against both
+₹7.50 (the case baseline) and ₹8.845 (the MDR-adjusted baseline), so no path gets credit for
+revenue it did not create.</li>
+<li><strong>It barely dents the drag.</strong> ₹115 Cr covers 15.3% of the ₹750 Cr drag pre-tax, and 11.5% on a
+like-for-like cash basis, because the drag is a cash outflow and the MDR is taxable income <span class="tag">M</span>.</li>
+<li><strong>It carries political risk.</strong> A zero-MDR regime existed until October 2026 for policy
+reasons. If half the MDR were rolled back, standalone EPS would be ₹8.17 rather than ₹8.85 <span class="tag">M</span>.
+Our recommendation does not depend on the MDR in any way.</li>
+</ol>
+<hr />
+<h2 id="4-strategic-value-of-custody-and-mpc-real-gated-and-years-away-so-buy-an-option">4. Strategic value of custody and MPC: real, gated and years away, so buy an option</h2>
+<p><strong>Answer to Q5.1.2 and Q5.1.3.</strong> Custody and MPC infrastructure could matter to Paytm in all four
+arenas the case names. In every one of them the opening is controlled by a regulator and is 2 to 7
+years away. Uncertain, gated, long-dated value is the textbook case for a real option: a small
+irreversible commitment now, with the right (not the obligation) to scale once the uncertainty
+resolves. The opportunity justifies a bounded ₹400 Cr step (0.34% of market cap). It does not
+justify an unbounded commitment of ₹4,000 Cr plus ₹750 Cr every year.</p>
+<table>
+<thead>
+<tr>
+<th>Arena</th>
+<th>Size signal</th>
+<th>Regulatory gate</th>
+<th>Timing</th>
+<th>Paytm's right to win</th>
+<th>Own or licence?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Digital assets (VDA custody)</td>
+<td>India ranked #1 in Chainalysis's 2025 adoption index <span class="tag">S55</span>; ₹51,180 Cr of declared VDA transactions and ₹511.83 Cr of 1% TDS in FY25 <span class="tag">S56</span>; 54 VDA providers registered with FIU-IND <span class="tag">S57</span></td>
+<td>RBI told Parliament on 2 Jul 2026 that VDAs &quot;should not be legalised&quot; and that it leans towards prohibition <span class="tag">S57, S58</span>; 30% tax plus 1% TDS</td>
+<td>Closed for a regulated payments group</td>
+<td>Weak: an RBI-regulated PA group is the wrong owner</td>
+<td>Neither; stay out of VDA exposure directly</td>
+</tr>
+<tr>
+<td>Tokenized assets</td>
+<td>2030 forecasts range from ~$2T (McKinsey base) <span class="tag">S69</span> to $5.5T (Citi base; $2.7T to $8.2T) <span class="tag">S68</span> and ~$9.4T (BCG/Ripple) <span class="tag">S70</span>; ~$38.6B on-chain today <span class="tag">S71</span>. In India, RBI's Unified Markets Interface has settled ~248 tokenized CD trades worth ₹17,000 Cr in wholesale e₹ <span class="tag">S63, S64</span>, and SEBI's Demat 2.0 pilot issued ~₹1,025 Cr of tokenized bonds <span class="tag">S65</span></td>
+<td>SEBI's pilot has depositories holding the private keys <span class="tag">S65</span>; IFSCA is still at consultation stage <span class="tag">S77</span></td>
+<td>3 to 5 years before third-party custodians get a role</td>
+<td>Medium: Paytm's merchant and treasury base, if custody opens to third parties</td>
+<td>Licence now, own later if the gate opens</td>
+</tr>
+<tr>
+<td>CBDC (e₹)</td>
+<td>Retail e₹ in circulation fell 24% to ₹771.7 Cr in FY26 <span class="tag">S59</span>; wholesale balances are nil at day end <span class="tag">S59</span>; ~120 mn cumulative retail transactions worth ₹28,000 Cr, 7 to 8 mn users <span class="tag">S60</span>; programmable PDS pilots from Feb 2026 <span class="tag">S63</span></td>
+<td>RBI owns the ledger; non-bank wallets allowed since 2024, with MobiKwik and CRED live <span class="tag">S61</span>; Paytm was not among the 2024 applicants <span class="tag">S62</span></td>
+<td>2 to 4 years</td>
+<td>Medium: wallet distribution, not custody</td>
+<td>Licence</td>
+</tr>
+<tr>
+<td>Cross-border settlement</td>
+<td>Remittances to India $135.46B gross in FY25 <span class="tag">S72</span> and $144.8B net in FY26 <span class="tag">S73</span>; $150.7B in calendar 2025, about 16 to 19% of the world total <span class="tag">S74</span>; UPI live in 8+ countries <span class="tag">S67</span>; BIS Project Nexus go-live targeted for 2027 <span class="tag">S66</span></td>
+<td>Fiat rails open (PPSL holds PA-CB authorisation since Dec 2025 <span class="tag">S11</span>); crypto rails closed</td>
+<td>2 to 4 years</td>
+<td>Strong on fiat rails</td>
+<td>Licence is enough; cost advantage of crypto rails is small</td>
+</tr>
+</tbody>
+</table>
+<p>Two findings from the research cut against the bullish reading of the case, and a board should hear
+them:</p>
+<ul>
+<li><strong>India's tokenization stack is being built around incumbents.</strong> SEBI's pilot keeps private keys
+with the depositories <span class="tag">S65</span>. RBI's pilot settles in wholesale e₹ on RBI's own platform <span class="tag">S63</span>. A
+third-party custodian such as Liminal is outside the regulated pipeline today.</li>
+<li><strong>The cross-border cost gap is already small.</strong> Sending money to India costs 1.76% on average
+<span class="tag">S75</span>, against a 5.04% global weighted average <span class="tag">S76</span>. Blockchain settlement competes against
+one of the cheapest corridors in the world.</li>
+</ul>
+<p><strong>Conclusion.</strong> The strategic value is real, but it is an option on regulatory change. Buying an
+option requires a small premium and a clear exercise decision later. Buying the company now pays
+the full price of an asset whose value depends on events Paytm cannot control. This is the
+foreshadowing for the recommendation: the structure must be sized for uncertainty.</p>
+<hr />
+<h2 id="5-target-assessment-liminal-is-the-right-target-so-the-real-question-is-the-structure">5. Target assessment: Liminal is the right target, so the real question is the structure</h2>
+<p><strong>Answer.</strong> Of eight alternatives screened, Liminal is the only one with an Indian regulatory
+footprint, Indian bank and exchange clients, an institutional MPC stack, a reachable price and a
+realistic path to a stake. What the research also shows is that Liminal's durable advantage is
+trust and neutrality. That is exactly what changes hands if a consumer-payments company buys
+control.</p>
+<h3 id="5-1-profile">5.1 Profile</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Case fact</th>
+<th>External context (not a case input)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Business</td>
+<td>Institutional digital-asset custody and MPC infrastructure <span class="tag">C §2</span></td>
+<td>Singapore-headquartered group; Indian entity First Answer India Technologies Pvt Ltd <span class="tag">S38</span></td>
+</tr>
+<tr>
+<td>Founder</td>
+<td>Mahin Gupta, co-founder of ZebPay, founded 2021 <span class="tag">C §2</span></td>
+<td>$4.7M seed led by Elevation Capital (May 2022); investors included CoinDCX <span class="tag">S42</span></td>
+</tr>
+<tr>
+<td>Clients</td>
+<td>Exchanges, hedge funds, OTC desks; HDFC Bank, Axis Bank, CoinDCX and ZebPay are 60% of ARR <span class="tag">C §2</span></td>
+<td>80+ business clients in 12 countries, 130+ staff; $72B of transaction volume in 2025 and over $100B cumulative <span class="tag">S41</span></td>
+</tr>
+<tr>
+<td>Certifications</td>
+<td>ISO 27001, SOC 2 Type II <span class="tag">C §2</span></td>
+<td>EY Advisory appointed for a 3-year internal audit (Jan 2026) <span class="tag">S134</span></td>
+</tr>
+<tr>
+<td>ARR</td>
+<td>₹220 Cr (~$26M) <span class="tag">C §2 table</span></td>
+<td>Tracxn reported revenue under $1M as of Sep 2022 <span class="tag">S43</span>; no later revenue disclosure found</td>
+</tr>
+<tr>
+<td>Profitability</td>
+<td>Approximately breakeven at net income <span class="tag">C §2</span></td>
+<td>Not disclosed</td>
+</tr>
+<tr>
+<td>Licences</td>
+<td>Not specified</td>
+<td>First custodian registered with FIU-IND (May 2024) <span class="tag">S38</span>; VARA (Dubai) initial approval only (Apr 2024) <span class="tag">S40</span>; ADGM licence granted May 2024 and withdrawn 20 Mar 2025, reason not disclosed <span class="tag">S39</span>; CBI appointed Liminal to manage seized digital assets (Nov 2023) <span class="tag">S38</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-2-client-concentration">5.2 Client concentration</h3>
+<p>Top-4 clients hold ₹132 Cr of ARR (60%), an average of ₹33 Cr each <span class="tag">M</span>. The remaining ₹88 Cr is
+spread over the rest of the book. Losing even one top client removes about 15% of ARR.</p>
+<h3 id="5-3-vrio-the-moat-is-neutrality">5.3 VRIO: the moat is neutrality</h3>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Valuable</th>
+<th>Rare</th>
+<th>Hard to imitate</th>
+<th>Organised to exploit</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MPC wallet technology</td>
+<td>Yes</td>
+<td>Somewhat (Fireblocks, BitGo and others offer MPC)</td>
+<td>No: 2 to 3 years to build</td>
+<td>Yes</td>
+<td>Temporary advantage</td>
+</tr>
+<tr>
+<td>First FIU-IND registration, ISO 27001, SOC 2 Type II</td>
+<td>Yes</td>
+<td>Yes in India</td>
+<td>Partly (time and audit history)</td>
+<td>Yes</td>
+<td>Temporary to sustained</td>
+</tr>
+<tr>
+<td>Trust of banks and exchanges as a neutral custodian</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes (founder pedigree, ZebPay link)</td>
+<td><strong>Sustained advantage</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The one sustained advantage is neutrality. A bank or exchange hands its keys to a custodian it
+believes has no competing interest in its customers or flows. The case's bank-partner revolt
+<span class="tag">C §3.1</span> is this advantage failing under a new owner. Any structure that keeps Liminal neutral
+keeps its moat.</p>
+<h3 id="5-4-alternative-targets-the-mece-filter">5.4 Alternative targets: the MECE filter</h3>
+<p>Screening criteria: (1) Indian regulatory presence; (2) Indian bank or exchange clients; (3)
+institutional MPC or custody stack; (4) price within reach for a stake or acquisition; (5)
+realistically available.</p>
+<table>
+<thead>
+<tr>
+<th>Candidate</th>
+<th>India presence</th>
+<th>Indian clients</th>
+<th>MPC/custody stack</th>
+<th>Price reachable</th>
+<th>Available</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Liminal</strong></td>
+<td>FIU-IND registered <span class="tag">S38</span></td>
+<td>Yes <span class="tag">C §2</span></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes (in talks <span class="tag">C §2</span>)</td>
+<td><strong>Pass</strong></td>
+</tr>
+<tr>
+<td>Fireblocks</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>No: last valued at $8B <span class="tag">S48</span></td>
+<td>No evidence</td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>BitGo</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>Listed, ~$0.94B market cap <span class="tag">S46</span>; control premium out of reach for a strategic minority</td>
+<td>Listed, not for sale</td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>Offers ~$200M vs $500M ask <span class="tag">S47</span></td>
+<td>For sale</td>
+<td>Fail (no India footprint)</td>
+</tr>
+<tr>
+<td>Taurus</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>Unknown</td>
+<td>Deutsche Bank-aligned <span class="tag">S130</span></td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>Hex Trust</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>Last valued $300M (2022)</td>
+<td>No evidence</td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>Komainu / Zodia</td>
+<td>Not found</td>
+<td>Not found</td>
+<td>Yes</td>
+<td>n/a</td>
+<td>Bank-owned; Zodia being folded into Standard Chartered <span class="tag">S50</span></td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>Build in-house</td>
+<td>n/a</td>
+<td>None</td>
+<td>2 to 3 years</td>
+<td>₹40 Cr/yr <span class="tag">A20</span></td>
+<td>Yes</td>
+<td>Fail on time and trust</td>
+</tr>
+</tbody>
+</table>
+<p>&quot;Not found&quot; means our research found no evidence, not proof of absence. Liminal passes all five
+screens. It is the right target. The analysis that follows is about how to hold it.</p>
+<h3 id="5-5-due-diligence-flags-a-board-must-hear">5.5 Due-diligence flags a board must hear</h3>
+<ol>
+<li><strong>The WazirX incident.</strong> About $234.9M was drained from a WazirX multisig wallet run under a
+custody arrangement with Liminal on 18 July 2024, in an attack attributed to North Korea's
+Lazarus Group <span class="tag">S33</span>. WazirX blamed Liminal, and Liminal denied a breach <span class="tag">S33</span>. A Grant Thornton
+audit in September 2024 found the breach originated outside Liminal's systems <span class="tag">S34</span>. WazirX
+ended the custody relationship <span class="tag">S35</span>. Delhi Police's chargesheet alleged Liminal had not provided
+logs for the hack date <span class="tag">S36</span>. WazirX's restructuring was sanctioned by the Singapore High Court in
+October 2025 <span class="tag">S37</span>. No direct suit against Liminal was found. Diligence must include an
+independent forensic review and a litigation search.</li>
+<li><strong>The ADGM withdrawal.</strong> The reason Liminal's Abu Dhabi licence was withdrawn within a year is
+not public <span class="tag">S39</span>. Diligence must obtain it.</li>
+<li><strong>Revenue verification.</strong> The case's ₹220 Cr ARR <span class="tag">C §2</span> governs the model, but no public source
+confirms Liminal's current revenue <span class="tag">S43</span>. A quality-of-earnings review is a condition precedent.</li>
+</ol>
+<hr />
+<h2 id="6-competition-and-the-consortium-the-rival-bidder-inherits-the-same-revolt">6. Competition and the consortium: the rival bidder inherits the same revolt</h2>
+<p><strong>Answer.</strong> If Paytm steps back from control, the PhonePe-Mastercard consortium may bid <span class="tag">C §2</span>.
+But PhonePe is also a payments company running a consumer wallet, so the bank-partner revolt
+<span class="tag">C §3.1</span> applies to it just as much. Paytm should compete on structure, never on control price. If
+the consortium wins control, it inherits the churn and faces a comparable RBI problem, and Paytm
+keeps its options through a ROFR and a Plan B.</p>
+<h3 id="6-1-the-peer-set-is-repricing-downwards">6.1 The peer set is repricing downwards</h3>
+<table>
+<thead>
+<tr>
+<th>Custodian</th>
+<th>Owner type</th>
+<th>Latest valuation signal</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BitGo</td>
+<td>Listed (NYSE, Jan 2026 IPO at $18)</td>
+<td>Market cap ~$0.94B at $8.07/share; FY25 fee revenue ~$188M; $81.6B assets on platform</td>
+<td><span class="tag">S44, S45, S46</span></td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>VC-backed, for sale</td>
+<td>Offers ~$200M against a $500M ask; $2.5B peak in 2021</td>
+<td><span class="tag">S47</span></td>
+</tr>
+<tr>
+<td>Fireblocks</td>
+<td>VC-backed</td>
+<td>$8B in Jan 2022; ARR over $100M in 2022</td>
+<td><span class="tag">S48</span></td>
+</tr>
+<tr>
+<td>Anchorage Digital</td>
+<td>OCC-chartered trust bank</td>
+<td>First federally chartered crypto bank (2021)</td>
+<td><span class="tag">S49</span></td>
+</tr>
+<tr>
+<td>Zodia Custody</td>
+<td>Standard Chartered subsidiary</td>
+<td>Minorities bought out May 2026; custody folded into the bank</td>
+<td><span class="tag">S50</span></td>
+</tr>
+<tr>
+<td>Hex Trust</td>
+<td>VC-backed</td>
+<td>$300M (2022)</td>
+<td><span class="tag">S132</span></td>
+</tr>
+</tbody>
+</table>
+<p>Two lessons: private crypto-infrastructure valuations have fallen sharply from their 2021 to 2022
+peaks, and bank-owned custody is being reorganised, not expanded.</p>
+<h3 id="6-2-what-the-consortium-wants-and-what-it-faces">6.2 What the consortium wants, and what it faces</h3>
+<ul>
+<li><strong>PhonePe</strong> is 71.77% owned by Walmart <span class="tag">S17</span>. It holds RBI authorisation for prepaid payment
+instruments and runs PhonePe Wallet <span class="tag">S20</span>, and it received final online PA authorisation on
+19 September 2025 <span class="tag">S19</span>. It paused its IPO on 16 March 2026 <span class="tag">S18</span>. It is exactly the kind of
+owner the case says Liminal's clients will reject: &quot;a competing payments company that also runs a
+consumer wallet&quot; <span class="tag">C §3.1</span>.</li>
+<li><strong>Mastercard</strong> closed its acquisition of BVNK (up to $1.8B, including $300M contingent) on
+3 August 2026 <span class="tag">S23, S24</span>, and obtained a New York BitLicense in May 2026 <span class="tag">S22</span>. It held talks to
+buy Zerohash for up to ~$2B, then considered a minority stake, then dropped both <span class="tag">S25, S26</span>. RBI
+barred Mastercard from onboarding new Indian customers from July 2021 to June 2022 over data
+localisation <span class="tag">S21</span>. Mastercard is a buyer of on-chain rails, but its integration bandwidth is on
+BVNK, and its India regulatory history is not clean.</li>
+</ul>
+<h3 id="6-3-the-game-tree">6.3 The game tree</h3>
+<ol>
+<li>Paytm offers the minority structure (24.9%, ROFR, matching right, Tranche 2 to a ₹4,016 Cr
+headline). Liminal's founders get independence (which protects their ARR), ₹150 Cr of
+secondary liquidity for early holders, ₹250 Cr of growth capital, and a fair-value exit via the
+option.</li>
+<li>If Liminal accepts, which is our base case, the consortium is blocked by the ROFR on any future
+sale.</li>
+<li>If Liminal shops the deal and the consortium bids for control, Paytm uses its matching right
+only at or below the maximum justified control price. That is ₹1,797 Cr in the base case with
+zero churn and zero drag, and ₹1,201 Cr at case churn <span class="tag">M</span>. A consortium bid for control will
+exceed that, so Paytm lets it win.</li>
+<li>The consortium then inherits a 30 to 45% revolt risk <span class="tag">C §3.1</span> (PhonePe is a consumer-wallet
+payments rival to HDFC and Axis too), and PhonePe, as an RBI-regulated PA and PPI issuer, faces
+the same kind of RBI capital scrutiny the case describes for Paytm (our inference from the case
+logic, not a case fact).</li>
+<li>Paytm's Plan B: license an alternative MPC stack (Fireblocks-class providers), and position a
+Paytm-aligned neutral offering to capture defecting Liminal clients.</li>
+</ol>
+<h3 id="6-4-answers-to-the-competitive-questions">6.4 Answers to the competitive questions</h3>
+<ul>
+<li><strong>Q5.5.1, consortium outbids.</strong> Paytm loses a right, not value. On our numbers, every rupee of
+control price above ₹1,797 Cr is value destruction for any buyer facing the case's churn and
+drag <span class="tag">M</span>. The consortium would be buying the problem.</li>
+<li><strong>Q5.5.2, higher valuation or better terms.</strong> Do not enter a bidding war for control. Compete on
+structure: independence for clients, liquidity for early holders, the ₹4,016 Cr headline via
+Tranche 2 for delivered ARR, and a fair-value exit via the option. Mastercard's own record
+(BVNK's $300M contingent tranche <span class="tag">S23</span>, and its minority-stake talks with Zerohash <span class="tag">S26</span>) shows
+that contingent and minority structures are normal in this sector. Indian precedents point the
+same way: Coinbase holds a non-controlling minority in CoinDCX, cleared by CCI <span class="tag">S125</span>, and PayU
+took 43.5% of UPI-switch provider Mindgate while the founders kept majority control <span class="tag">S126</span>.</li>
+<li><strong>Q5.5.3, multiple compression.</strong> The minority is paid in cash, so Paytm's share price does not
+affect it. The full deal gets worse as the price falls:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Paytm share price move</th>
+<th>0%</th>
+<th>−20%</th>
+<th>−30%</th>
+<th>−40%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Share price (₹)</td>
+<td>1,855</td>
+<td>1,484</td>
+<td>1,299</td>
+<td>1,113</td>
+</tr>
+<tr>
+<td>Shares issued for ₹1,900 Cr (Cr)</td>
+<td>1.024</td>
+<td>1.280</td>
+<td>1.463</td>
+<td>1.707</td>
+</tr>
+<tr>
+<td>Dilution</td>
+<td>1.60%</td>
+<td>2.00%</td>
+<td>2.29%</td>
+<td>2.67%</td>
+</tr>
+<tr>
+<td>Full-deal NPV loss as % of market cap</td>
+<td>6.4%</td>
+<td>8.0%</td>
+<td>9.2%</td>
+<td>10.7%</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>.</p>
+<ul>
+<li><strong>Q5.5.4, consortium ownership.</strong> PhonePe would add institutional digital-asset rails to 45.9% of
+UPI volume <span class="tag">S03</span>, and Mastercard would pair Indian custody with BVNK. Paytm would depend on third
+parties for tokenization. That is a real strategic cost, estimated at ₹406 Cr of forgone synergy
+and build-avoidance value in the base case <span class="tag">M</span>. It is contained by the ROFR, the licence (which
+survives as long as Liminal is independent) and Plan B vendors.</li>
+</ul>
+<hr />
+<h2 id="7-valuation-4-000-cr-is-2-4-times-what-liminal-is-worth-on-a-weighted-basis">7. Valuation: ₹4,000 Cr is 2.4 times what Liminal is worth on a weighted basis</h2>
+<p><strong>Answer to Q5.3.3.</strong> The deal is priced at 18.2x today's ARR, 29.1x the ARR that survives a
+base-case revolt, and 2.4x Liminal's weighted fair value of ₹1,656 Cr <span class="tag">M</span>. It is not supportable on
+intrinsic value at any churn level, and it is above every listed peer multiple.</p>
+<h3 id="7-1-discount-rates">7.1 Discount rates</h3>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Paytm</th>
+<th>Liminal</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Risk-free rate</td>
+<td>7.04%</td>
+<td>7.04%</td>
+<td>10-year G-sec, 23 Sep 2026 <span class="tag">S30</span></td>
+</tr>
+<tr>
+<td>Equity risk premium</td>
+<td>7.08%</td>
+<td>7.08%</td>
+<td>Damodaran India total ERP, Jan 2026 (country risk premium 2.85%) <span class="tag">S31</span></td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>1.20</td>
+<td>1.40</td>
+<td>Team assumption <span class="tag">A07, A08</span>; see note</td>
+</tr>
+<tr>
+<td>Cost of equity</td>
+<td>15.54%, rounded to 15.5%</td>
+<td>16.95%, rounded to 17.0%</td>
+<td></td>
+</tr>
+<tr>
+<td>Capital structure</td>
+<td>Net cash, so WACC = cost of equity</td>
+<td>All equity</td>
+<td><span class="tag">C §1</span></td>
+</tr>
+</tbody>
+</table>
+<p><em>Beta note.</em> No clean Nifty-benchmarked beta for Paytm was found: TradingView shows 1.65 over one
+year without naming the index, and a 5-year beta of −0.27 is distorted by the 2021 IPO crash and
+the 2024 RBI action <span class="tag">S32</span>. We use 1.20 for Paytm and 1.40 for Liminal (a riskier, crypto-exposed,
+unlisted business). Using 1.65 for Paytm would raise its WACC to 18.7%, which makes the full
+acquisition's drag cheaper in PV terms but lowers the value of every future synergy; the verdict
+does not change.</p>
+<h3 id="7-2-liminal-dcf-three-scenarios">7.2 Liminal DCF, three scenarios</h3>
+<p>Revenue growth and EBITDA margins by scenario <span class="tag">A10</span>:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>FY27</th>
+<th>FY28</th>
+<th>FY29</th>
+<th>FY30</th>
+<th>FY31</th>
+<th>FY32</th>
+<th>FY33</th>
+<th>FY34</th>
+<th>FY35</th>
+<th>FY36</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Growth, bear</td>
+<td>22%</td>
+<td>20%</td>
+<td>18%</td>
+<td>16%</td>
+<td>14%</td>
+<td>12%</td>
+<td>11%</td>
+<td>10%</td>
+<td>9%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>Growth, base</td>
+<td>35%</td>
+<td>32%</td>
+<td>28%</td>
+<td>25%</td>
+<td>22%</td>
+<td>20%</td>
+<td>18%</td>
+<td>16%</td>
+<td>14%</td>
+<td>12%</td>
+</tr>
+<tr>
+<td>Growth, bull</td>
+<td>50%</td>
+<td>45%</td>
+<td>38%</td>
+<td>32%</td>
+<td>27%</td>
+<td>23%</td>
+<td>20%</td>
+<td>17%</td>
+<td>15%</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>Margin, bear</td>
+<td>4%</td>
+<td>9%</td>
+<td>13%</td>
+<td>17%</td>
+<td>20%</td>
+<td>22%</td>
+<td>23%</td>
+<td>24%</td>
+<td>25%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Margin, base</td>
+<td>8%</td>
+<td>16%</td>
+<td>23%</td>
+<td>29%</td>
+<td>33%</td>
+<td>36%</td>
+<td>37%</td>
+<td>38%</td>
+<td>38%</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>Margin, bull</td>
+<td>10%</td>
+<td>20%</td>
+<td>28%</td>
+<td>34%</td>
+<td>38%</td>
+<td>40%</td>
+<td>41%</td>
+<td>42%</td>
+<td>42%</td>
+<td>42%</td>
+</tr>
+</tbody>
+</table>
+<p>Base-case revenue with no churn grows from ₹220 Cr to ₹297 Cr (FY27), ₹502 Cr (FY29) and
+₹765 Cr (FY31) <span class="tag">M</span>. D&amp;A is 4% and capex 5% of revenue, NWC is 2% of incremental revenue <span class="tag">A11</span>.
+Terminal growth is 6% <span class="tag">A09</span>.</p>
+<p><strong>Liminal enterprise value by scenario and churn (₹ Cr)</strong> <span class="tag">M</span></p>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>0%</th>
+<th>5%</th>
+<th>15%</th>
+<th>30%</th>
+<th>37.5%</th>
+<th>45%</th>
+<th>60%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bear</td>
+<td>428</td>
+<td>398</td>
+<td>337</td>
+<td>243</td>
+<td>196</td>
+<td>149</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>1,391</td>
+<td>1,313</td>
+<td>1,154</td>
+<td>915</td>
+<td>795</td>
+<td>673</td>
+<td>430</td>
+</tr>
+<tr>
+<td>Bull</td>
+<td>2,398</td>
+<td>2,269</td>
+<td>2,009</td>
+<td>1,615</td>
+<td>1,418</td>
+<td>1,221</td>
+<td>822</td>
+</tr>
+</tbody>
+</table>
+<p>Churned ARR is not free to lose: 60% of it drops through as lost margin in year 1 and 30% in year
+2, because costs are sticky before they can be cut <span class="tag">A12</span>.</p>
+<p><strong>Sensitivity, base, no churn (₹ Cr)</strong> <span class="tag">M</span></p>
+<table>
+<thead>
+<tr>
+<th>Discount rate</th>
+<th>g 5.0%</th>
+<th>g 5.5%</th>
+<th>g 6.0%</th>
+<th>g 6.5%</th>
+<th>g 7.0%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15%</td>
+<td>1,696</td>
+<td>1,754</td>
+<td>1,819</td>
+<td>1,891</td>
+<td>1,972</td>
+</tr>
+<tr>
+<td>16%</td>
+<td>1,489</td>
+<td>1,533</td>
+<td>1,582</td>
+<td>1,636</td>
+<td>1,696</td>
+</tr>
+<tr>
+<td>17%</td>
+<td>1,319</td>
+<td>1,353</td>
+<td><strong>1,391</strong></td>
+<td>1,432</td>
+<td>1,477</td>
+</tr>
+<tr>
+<td>18%</td>
+<td>1,178</td>
+<td>1,205</td>
+<td>1,234</td>
+<td>1,266</td>
+<td>1,300</td>
+</tr>
+<tr>
+<td>19%</td>
+<td>1,058</td>
+<td>1,080</td>
+<td>1,103</td>
+<td>1,128</td>
+<td>1,155</td>
+</tr>
+</tbody>
+</table>
+<p>The most generous cell (₹1,972 Cr) is 49% of the price.</p>
+<h3 id="7-3-trading-comparables">7.3 Trading comparables</h3>
+<p>EV/LTM revenue, 23 September 2026 <span class="tag">S78, S79, S80, S81, S82, S83, S84</span>:</p>
+<table>
+<thead>
+<tr>
+<th>Company</th>
+<th>EV/LTM revenue</th>
+<th>EV/EBITDA</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PB Fintech</td>
+<td>11.60x</td>
+<td>137.0x</td>
+<td></td>
+</tr>
+<tr>
+<td>Coinbase</td>
+<td>8.35x</td>
+<td>72.1x</td>
+<td></td>
+</tr>
+<tr>
+<td>Adyen</td>
+<td>6.39x</td>
+<td>12.2x</td>
+<td>net cash may include merchant balances</td>
+</tr>
+<tr>
+<td>BitGo</td>
+<td>5.96x (on gross profit)</td>
+<td>n.m.</td>
+<td>reports gross revenue including digital-asset sales; 0.06x on that basis</td>
+</tr>
+<tr>
+<td>Pine Labs</td>
+<td>4.92x</td>
+<td>32.4x</td>
+<td></td>
+</tr>
+<tr>
+<td>PayPal</td>
+<td>1.41x</td>
+<td>7.4x</td>
+<td></td>
+</tr>
+<tr>
+<td>Zaggle</td>
+<td>0.97x</td>
+<td>10.4x</td>
+<td></td>
+</tr>
+<tr>
+<td>MobiKwik</td>
+<td>0.91x</td>
+<td>n.m.</td>
+<td></td>
+</tr>
+<tr>
+<td>Infibeam (AvenuesAI)</td>
+<td>0.53x</td>
+<td>13.5x</td>
+<td>gross revenue</td>
+</tr>
+<tr>
+<td><strong>Paytm (case figures)</strong></td>
+<td><strong>13.04x</strong></td>
+<td><strong>172.2x</strong></td>
+<td><span class="tag">M</span></td>
+</tr>
+<tr>
+<td><strong>Deal for Liminal</strong></td>
+<td><strong>18.2x ARR</strong></td>
+<td>n.m.</td>
+<td><span class="tag">M</span></td>
+</tr>
+</tbody>
+</table>
+<p>We use the custody and high-growth subset (PB Fintech, Coinbase, Adyen, BitGo on gross profit,
+Pine Labs), because payment processors that book gross revenue (PayPal, Infibeam, MobiKwik,
+Zaggle) are not comparable to a software custodian. Its interquartile range is 5.96x to 8.35x
+<span class="tag">A30</span>. The deal multiple is above every name on the list, including Paytm itself.</p>
+<h3 id="7-4-precedent-transactions">7.4 Precedent transactions</h3>
+<table>
+<thead>
+<tr>
+<th>Deal</th>
+<th>Date</th>
+<th>Price</th>
+<th>EV/Revenue</th>
+<th>Revenue basis</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Robinhood / Bitstamp</td>
+<td>Jun 2025</td>
+<td>$200M</td>
+<td>2.1x</td>
+<td>~$95M LTM, disclosed</td>
+<td><span class="tag">S88</span></td>
+</tr>
+<tr>
+<td>Coinbase / Deribit</td>
+<td>Aug 2025</td>
+<td>$2.9B</td>
+<td>9.7x</td>
+<td>third-party volume-based estimate</td>
+<td><span class="tag">S86</span></td>
+</tr>
+<tr>
+<td>Ripple / Hidden Road</td>
+<td>Apr 2025</td>
+<td>$1.25B</td>
+<td>12.5x</td>
+<td>$100M 2024 revenue, disclosed by investor</td>
+<td><span class="tag">S85</span></td>
+</tr>
+<tr>
+<td>Mastercard / BVNK</td>
+<td>Mar 2026</td>
+<td>up to $1.8B incl. $300M contingent</td>
+<td>12.5x to 15x</td>
+<td>third-party estimate</td>
+<td><span class="tag">S87</span></td>
+</tr>
+<tr>
+<td>Ripple / Metaco</td>
+<td>May 2023</td>
+<td>$250M</td>
+<td>n.a.</td>
+<td>revenue not disclosed</td>
+<td><span class="tag">S89</span></td>
+</tr>
+<tr>
+<td>Stripe / Bridge</td>
+<td>Feb 2025</td>
+<td>$1.1B</td>
+<td>n.a.</td>
+<td>revenue not disclosed</td>
+<td><span class="tag">S90</span></td>
+</tr>
+</tbody>
+</table>
+<p>Interquartile range of the four deals with a revenue basis: about 7.8x to 12.8x (median 11.1x). The
+sample is small and two of the four are estimates, so it carries a 20% weight, not more. Even the
+top of the range (15x on BVNK) is below 18.2x.</p>
+<h3 id="7-5-football-field-and-the-stake-price">7.5 Football field and the stake price</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Low</th>
+<th>High</th>
+<th>Weight</th>
+<th>Midpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DCF, base, no churn (19% to 15%, g 6%)</td>
+<td>₹1,103 Cr</td>
+<td>₹1,819 Cr</td>
+<td>50%</td>
+<td>₹1,461 Cr</td>
+</tr>
+<tr>
+<td>Trading comps (5.96x to 8.35x ARR)</td>
+<td>₹1,311 Cr</td>
+<td>₹1,837 Cr</td>
+<td>30%</td>
+<td>₹1,574 Cr</td>
+</tr>
+<tr>
+<td>Precedents (7.8x to 12.8x ARR)</td>
+<td>₹1,716 Cr</td>
+<td>₹2,816 Cr</td>
+<td>20%</td>
+<td>₹2,266 Cr</td>
+</tr>
+<tr>
+<td><strong>Weighted fair value (100%)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>₹1,656 Cr (7.5x ARR)</strong></td>
+</tr>
+<tr>
+<td><strong>Proposed price</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>₹4,000 Cr (18.2x), 2.4x fair value</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. The stake price follows a mechanical rule: 24.9% × ₹1,656 Cr = ₹412 Cr, rounded down
+to ₹400 Cr <span class="tag">A24</span>. That implies a post-money valuation of ₹1,606 Cr (7.3x ARR). If Tranche 2 pays
+in full, the headline valuation reaches ₹4,016 Cr, the founders' number, but only for ARR that has
+actually arrived.</p>
+<h3 id="7-6-implied-multiple-under-churn">7.6 Implied multiple under churn</h3>
+<table>
+<thead>
+<tr>
+<th>Churn</th>
+<th>0%</th>
+<th>30%</th>
+<th>37.5%</th>
+<th>45%</th>
+<th>60%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Surviving ARR (₹ Cr)</td>
+<td>220</td>
+<td>154</td>
+<td>137.5</td>
+<td>121</td>
+<td>88</td>
+</tr>
+<tr>
+<td>₹4,000 Cr / surviving ARR</td>
+<td>18.2x</td>
+<td>26.0x</td>
+<td>29.1x</td>
+<td>33.1x</td>
+<td>45.5x</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. <strong>Action title for the slide:</strong> at ₹4,000 Cr Paytm pays 18.2x today's ARR and 29.1x the
+ARR that survives a base-case revolt, against a DCF value of ₹795 Cr after that revolt.</p>
+<hr />
+<h2 id="8-the-four-paths-the-minority-stake-wins-on-value-risk-and-optionality">8. The four paths: the minority stake wins on value, risk and optionality</h2>
+<p><strong>Answer to Q5.1.1.</strong> A 24.9% minority stake. It is the only path that is value-positive,
+EPS-accretive, free of the capital drag, low-churn and a block on the consortium at the same time.</p>
+<h3 id="8-1-symmetric-comparison">8.1 Symmetric comparison</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Full acquisition</th>
+<th><strong>24.9% minority</strong></th>
+<th>50:50 JV</th>
+<th>Walk away</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consideration</td>
+<td>₹4,000 Cr [C]</td>
+<td>₹400 Cr + up to ₹600 Cr</td>
+<td>₹400 Cr <span class="tag">A25</span></td>
+<td>0</td>
+</tr>
+<tr>
+<td>Paytm cash out at close</td>
+<td>₹2,100 Cr</td>
+<td>₹400 Cr</td>
+<td>₹400 Cr</td>
+<td>0</td>
+</tr>
+<tr>
+<td>New Paytm shares</td>
+<td>1.024 Cr</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>New debt</td>
+<td>0 (case mix)</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Churn, base <span class="tag">A13</span></td>
+<td>37.5%</td>
+<td>5%</td>
+<td>10%</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Capital drag <span class="tag">A14</span></td>
+<td>₹750 Cr/yr [C]</td>
+<td>0 (CP-protected)</td>
+<td>₹375 Cr/yr</td>
+<td>0</td>
+</tr>
+<tr>
+<td>NPV bear / base / bull</td>
+<td>−8,374 / −7,638 / −6,892</td>
+<td>−113 / <strong>+211</strong> / +204</td>
+<td>−2,613 / −2,544 / −2,483</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Probability-weighted NPV</td>
+<td>−7,636</td>
+<td><strong>+128</strong></td>
+<td>−2,546</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FY27 EPS (vs ₹7.50)</td>
+<td>₹4.70 (−37.3%)</td>
+<td><strong>₹8.79 (+17.2%)</strong></td>
+<td>₹8.80 (+17.3%)</td>
+<td>₹8.85 (+17.9%)</td>
+</tr>
+<tr>
+<td>FY29 EPS</td>
+<td>₹6.96</td>
+<td>₹9.15</td>
+<td>₹9.10</td>
+<td>₹8.85</td>
+</tr>
+<tr>
+<td>PAT breakeven</td>
+<td>FY2033</td>
+<td>FY2028</td>
+<td>FY2029</td>
+<td>n.a.</td>
+</tr>
+<tr>
+<td>FCF breakeven</td>
+<td>Never within 10 years</td>
+<td>FY2034 (look-through)</td>
+<td>Never (drag exceeds JV cash)</td>
+<td>n.a.</td>
+</tr>
+<tr>
+<td>Regulatory steps</td>
+<td>CCI filing, SEBI preferential issue, RBI engagement</td>
+<td>Board approval, LODR disclosure, RBI comfort</td>
+<td>New entity, possible new licences</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Block on consortium</td>
+<td>Full</td>
+<td>ROFR + matching right</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reversibility</td>
+<td>Very low</td>
+<td>High (do not exercise; tag-along)</td>
+<td>Medium</td>
+<td>n.a.</td>
+</tr>
+</tbody>
+</table>
+<p>Sources: all figures <span class="tag">M</span> except where tagged. JV figures assume the JV operates custody under joint
+control (drag ₹375 Cr/yr <span class="tag">A14</span>); with zero drag the JV is still slightly negative (−₹193 to −₹63 Cr)
+<span class="tag">M</span>.</p>
+<h3 id="8-2-decision-matrix">8.2 Decision matrix</h3>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th>Weight</th>
+<th>Full</th>
+<th>Minority</th>
+<th>JV</th>
+<th>Walk</th>
+<th>Why the scores differ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shareholder value (NPV)</td>
+<td>25%</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>4</td>
+<td>Full −₹7,638 Cr; JV −₹2,544 Cr; minority and walk-away near or above zero</td>
+</tr>
+<tr>
+<td>EPS and FCF impact</td>
+<td>15%</td>
+<td>1</td>
+<td>4</td>
+<td>3</td>
+<td>5</td>
+<td>Full cuts FY27 EPS 37%; minority slightly below walk-away on FY27 EPS</td>
+</tr>
+<tr>
+<td>Balance sheet and rating</td>
+<td>10%</td>
+<td>2</td>
+<td>5</td>
+<td>4</td>
+<td>5</td>
+<td>Full drains ₹2,100 Cr plus ₹750 Cr/yr of cash</td>
+</tr>
+<tr>
+<td>Client churn risk</td>
+<td>15%</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>5</td>
+<td>37.5% vs 5 to 10%</td>
+</tr>
+<tr>
+<td>Regulatory and capital-drag exposure</td>
+<td>10%</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>5</td>
+<td>Drag attaches to ownership and joint control</td>
+</tr>
+<tr>
+<td>Strategic access to custody and tokenization</td>
+<td>15%</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>Minority gets licence, board seat and option; walk-away gets nothing durable</td>
+</tr>
+<tr>
+<td>Block on the consortium</td>
+<td>10%</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>ROFR and matching right vs nothing</td>
+</tr>
+<tr>
+<td><strong>Weighted score</strong></td>
+<td>100%</td>
+<td><strong>2.10</strong></td>
+<td><strong>4.10</strong></td>
+<td><strong>2.70</strong></td>
+<td><strong>3.75</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Source: [M, A28]. Walk-away is a respectable second. What separates the minority is strategic
+access and the consortium block, bought for a positive NPV.</p>
+<h3 id="8-3-can-a-licence-do-the-job-instead-q5-1-4">8.3 Can a licence do the job instead? (Q5.1.4)</h3>
+<p>A commercial MPC licence alone captures most of the operating benefit: we assume 70% of the revenue
+synergy <span class="tag">A22</span> plus the avoided ₹40 Cr/yr build <span class="tag">A20</span>. It fails in three ways:</p>
+<ol>
+<li><strong>Change of control.</strong> If the consortium buys Liminal, the licence can be terminated or
+repriced. A licence is only as durable as the licensor's independence.</li>
+<li><strong>No seat, no information.</strong> Paytm would have no view of Liminal's tokenization roadmap or its
+regulatory dialogue.</li>
+<li><strong>No path to control.</strong> If the regulatory gate opens, Paytm has no pre-agreed route in.</li>
+</ol>
+<p>The licence plus 24.9% equity plus a ROFR fixes all three. The equity is what makes the licence
+durable.</p>
+<h3 id="8-4-reasons-to-accept-or-reject-the-transaction-as-proposed-q5-1-5">8.4 Reasons to accept or reject the transaction as proposed (Q5.1.5)</h3>
+<table>
+<thead>
+<tr>
+<th>Reasons to accept (as proposed, ₹4,000 Cr full)</th>
+<th>Reasons to reject</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Owns India's first FIU-registered custodian outright</td>
+<td>NPV −₹7,638 Cr base; negative in every scenario, even with zero churn and zero drag</td>
+</tr>
+<tr>
+<td>Full control of the tokenization and e₹ option</td>
+<td>37.5% expected ARR loss; 60% of ARR sits with four clients with reasons to leave</td>
+</tr>
+<tr>
+<td>Blocks the consortium completely</td>
+<td>₹750 Cr/yr drag, 3.4x Liminal's ARR and 156% of Paytm's PAT</td>
+</tr>
+<tr>
+<td></td>
+<td>FY27 EPS falls 37.3% to ₹4.70; PAT breakeven not until FY2033; FCF never within 10 years</td>
+</tr>
+<tr>
+<td></td>
+<td>Likely ~₹2,800 Cr goodwill impairment at the first annual test</td>
+</tr>
+<tr>
+<td></td>
+<td>Puts crypto custody inside an RBI-regulated PA group that has just rebuilt its standing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Verdict: reject the transaction as proposed, and approve the restructured minority.</strong></p>
+<hr />
+<h2 id="9-stress-test-of-the-full-acquisition-no-churn-level-makes-it-work">9. Stress test of the full acquisition: no churn level makes it work</h2>
+<p><strong>Answer to Q5.2.3, Q5.2.4, Q5.3.4 and Q5.3.5.</strong> At the case's churn range the full deal loses
+₹7,518 Cr to ₹7,760 Cr. It loses ₹7,042 Cr at zero churn. Churn is not the swing factor. The
+capital drag is (₹4,839 Cr of PV on its own), followed by the price.</p>
+<h3 id="9-1-npv-grid-base-case-cr">9.1 NPV grid, base case (₹ Cr)</h3>
+<table>
+<thead>
+<tr>
+<th>Annual drag \ churn</th>
+<th>0%</th>
+<th>15%</th>
+<th>30%</th>
+<th>37.5%</th>
+<th>45%</th>
+<th>60%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>₹0</td>
+<td>−2,203</td>
+<td>−2,440</td>
+<td>−2,679</td>
+<td>−2,799</td>
+<td>−2,921</td>
+<td>−3,164</td>
+</tr>
+<tr>
+<td>₹250 Cr</td>
+<td>−3,816</td>
+<td>−4,053</td>
+<td>−4,292</td>
+<td>−4,412</td>
+<td>−4,534</td>
+<td>−4,777</td>
+</tr>
+<tr>
+<td>₹500 Cr</td>
+<td>−5,429</td>
+<td>−5,666</td>
+<td>−5,905</td>
+<td>−6,025</td>
+<td>−6,147</td>
+<td>−6,390</td>
+</tr>
+<tr>
+<td><strong>₹750 Cr (case)</strong></td>
+<td>−7,042</td>
+<td>−7,279</td>
+<td><strong>−7,518</strong></td>
+<td><strong>−7,638</strong></td>
+<td><strong>−7,760</strong></td>
+<td>−8,002</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. Each percentage point of churn costs about ₹16 Cr of NPV. Each ₹250 Cr of annual drag
+costs ₹1,613 Cr.</p>
+<h3 id="9-2-maximum-justified-control-price-value-before-price-cr">9.2 Maximum justified control price (value before price, ₹ Cr)</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>No churn, no drag</th>
+<th>37.5% churn, no drag</th>
+<th>No churn, ₹750 Cr drag</th>
+<th>37.5% churn, ₹750 Cr drag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bear</td>
+<td>697</td>
+<td>465</td>
+<td>−4,142</td>
+<td>−4,374</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>1,797 (8.2x ARR)</td>
+<td>1,201</td>
+<td>−3,042</td>
+<td>−3,638</td>
+</tr>
+<tr>
+<td>Bull</td>
+<td>2,927</td>
+<td>1,946</td>
+<td>−1,912</td>
+<td>−2,892</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. With the case's drag, no price above zero is justified: Paytm would need to be <em>paid</em>
+to take control.</p>
+<h3 id="9-3-what-level-of-churn-makes-the-deal-unattractive-q5-2-4">9.3 What level of churn makes the deal unattractive? (Q5.2.4)</h3>
+<p>None, because it is unattractive at 0%. The question can be turned round: what would it take for a
+full acquisition to break even? With zero drag, the base case needs a price of ₹1,500 Cr and churn
+below 18.7%. The bull case needs ₹2,000 Cr and churn below 35.4%. At ₹3,000 Cr or ₹4,000 Cr it
+never breaks even, even in the bull case <span class="tag">M</span>.</p>
+<p>For the recommended minority, the break-even churn is 57.6% in the base case and 86.2% in the bull
+case, against an expected 5% <span class="tag">M</span>.</p>
+<h3 id="9-4-return-profile-under-the-case-churn-range-q5-2-3">9.4 Return profile under the case churn range (Q5.2.3)</h3>
+<table>
+<thead>
+<tr>
+<th>Churn</th>
+<th>0%</th>
+<th>30%</th>
+<th>37.5%</th>
+<th>45%</th>
+<th>60%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NPV (₹ Cr)</td>
+<td>−7,042</td>
+<td>−7,518</td>
+<td>−7,638</td>
+<td>−7,760</td>
+<td>−8,002</td>
+</tr>
+<tr>
+<td>FY27 EPS (₹)</td>
+<td>5.75</td>
+<td>4.92</td>
+<td>4.70</td>
+<td>4.48</td>
+<td>4.04</td>
+</tr>
+<tr>
+<td>Implied multiple on surviving ARR</td>
+<td>18.2x</td>
+<td>26.0x</td>
+<td>29.1x</td>
+<td>33.1x</td>
+<td>45.5x</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>.</p>
+<h3 id="9-5-breakeven-on-both-bases-q5-3-4-k5">9.5 Breakeven on both bases (Q5.3.4, K5)</h3>
+<p>Definitions:</p>
+<ul>
+<li><strong>PAT basis:</strong> the first year pro-forma EPS is back at the MDR-adjusted standalone EPS (full
+deal and JV), or deal-attributable PAT turns positive (minority).</li>
+<li><strong>FCF basis:</strong> the first year cumulative deal operating FCF, after the capital drag, covers the
+cash paid (full deal); or cumulative look-through FCF covers the cash paid (minority).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>PAT breakeven (bear / base / bull)</th>
+<th>FCF breakeven (bear / base / bull)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full acquisition, case funding</td>
+<td>never / <strong>FY2033</strong> / FY2031</td>
+<td>never / <strong>never</strong> / never within 10 years</td>
+</tr>
+<tr>
+<td>Full acquisition if drag were zero</td>
+<td>base FY2032</td>
+<td>base never within 10 years</td>
+</tr>
+<tr>
+<td><strong>24.9% minority</strong></td>
+<td>FY2029 / <strong>FY2028</strong> / FY2028</td>
+<td>never / <strong>FY2034</strong> / FY2035</td>
+</tr>
+<tr>
+<td>JV</td>
+<td>FY2029 / FY2029 / FY2028</td>
+<td>never (drag exceeds JV cash flow)</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. The full deal's cumulative operating FCF over FY27 to FY36 is negative, because the
+₹750 Cr drag exceeds Liminal's free cash flow in every year of the forecast. Paytm's cash falls from
+₹8,900 Cr to ₹6,800 Cr at close and to ₹5,563 Cr by FY31, even after adding its own PAT and the
+MDR back every year <span class="tag">M</span>.</p>
+<h3 id="9-6-how-much-of-the-drag-the-mdr-covers-q5-3-5">9.6 How much of the drag the MDR covers (Q5.3.5)</h3>
+<p>₹115 Cr / ₹750 Cr = <strong>15.3% pre-tax</strong>. On a like-for-like cash basis, ₹86.05 Cr / ₹750 Cr =
+<strong>11.5%</strong> <span class="tag">M</span>. The MDR arrives in every path, so none of it is a deal benefit.</p>
+<h3 id="9-7-how-we-treated-the-drag-and-why-it-does-not-change-the-answer">9.7 How we treated the drag, and why it does not change the answer</h3>
+<p>The case calls the drag a &quot;recurring annual Free Cash Flow drag&quot; <span class="tag">C §3.2</span>. We treat it as a
+perpetual outflow (PV ₹4,839 Cr at 15.5%). A reviewer could argue the capital is only trapped, not
+lost, and is released one day. The two alternative treatments:</p>
+<table>
+<thead>
+<tr>
+<th>Treatment</th>
+<th>PV of drag</th>
+<th>Full-deal base NPV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perpetual outflow (our base)</td>
+<td>₹4,839 Cr</td>
+<td>−₹7,638 Cr</td>
+</tr>
+<tr>
+<td>Trapped for 10 years, never released</td>
+<td>₹3,693 Cr</td>
+<td>n.a.</td>
+</tr>
+<tr>
+<td>Trapped for 10 years, then fully released</td>
+<td>₹1,918 Cr</td>
+<td><strong>−₹4,717 Cr</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. Even on the mildest reading the deal destroys ₹4.7 thousand crore.</p>
+<h3 id="9-8-the-accounting-headline">9.8 The accounting headline</h3>
+<p>Under Ind AS 103, acquisition costs are expensed and goodwill is recognised; under Ind AS 36,
+goodwill is tested for impairment every year <span class="tag">S113, S115</span>. At 37.5% churn, Liminal's recoverable
+value (₹795 Cr DCF plus ₹406 Cr of synergies) is about ₹1,201 Cr against a ₹4,000 Cr carrying
+value <span class="tag">M</span>. The first annual test would likely force a write-down of about ₹2,800 Cr, subject to the
+purchase-price allocation. That is a reported-PAT event larger than five years of Paytm's case PAT.</p>
+<h3 id="9-9-the-fy27-pat-bridge-for-the-full-deal">9.9 The FY27 PAT bridge for the full deal</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>₹ Cr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paytm PAT [C]</td>
+<td>480.0</td>
+</tr>
+<tr>
+<td>+ UPI MDR after tax [C, A02]</td>
+<td>+86.1</td>
+</tr>
+<tr>
+<td>− forgone interest on ₹2,100 Cr cash <span class="tag">A03</span></td>
+<td>−94.3</td>
+</tr>
+<tr>
+<td>− negative carry on locked reserves <span class="tag">A05</span></td>
+<td>−5.6</td>
+</tr>
+<tr>
+<td>− standalone governance cost <span class="tag">A17</span></td>
+<td>−11.2</td>
+</tr>
+<tr>
+<td>− PPA amortisation <span class="tag">A18</span></td>
+<td>−74.8</td>
+</tr>
+<tr>
+<td>− transaction costs <span class="tag">A19</span></td>
+<td>−44.9</td>
+</tr>
+<tr>
+<td>− Liminal loss after churn (37.5%) <span class="tag">A12, A13</span></td>
+<td>−59.4</td>
+</tr>
+<tr>
+<td>+ avoided build <span class="tag">A20</span></td>
+<td>+29.9</td>
+</tr>
+<tr>
+<td><strong>Pro-forma PAT</strong></td>
+<td><strong>305.7</strong></td>
+</tr>
+<tr>
+<td>÷ 65.024 Cr shares = <strong>FY27 EPS ₹4.70</strong> (−37.3% vs ₹7.50)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>.</p>
+<hr />
+<h2 id="10-recommended-structure-and-financing">10. Recommended structure and financing</h2>
+<p><strong>Answer to M3, Q5.3.1, Q5.3.2 and Q5.3.6.</strong> Pay ₹400 Cr from balance-sheet cash for 24.9%. Pay up
+to ₹600 Cr more only for ARR that has been delivered. Issue no shares, raise no debt. FY27 EPS rises
+to ₹8.79. The drag never arrives, because Paytm never owns the custody infrastructure.</p>
+<h3 id="10-1-term-sheet">10.1 Term sheet</h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Proposal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Investor</td>
+<td>One97 Communications Ltd (listed holdco), never PPSL (the PA entity)</td>
+</tr>
+<tr>
+<td>Investee</td>
+<td>First Answer India Technologies Pvt Ltd (Liminal's Indian entity, FIU-IND registered) <span class="tag">S38</span></td>
+</tr>
+<tr>
+<td>Instrument</td>
+<td>Compulsorily convertible preference shares (CCPS), 1x non-participating liquidation preference; the Articles must adopt the 2015 private-company exemption for preference terms to bind <span class="tag">S124</span></td>
+</tr>
+<tr>
+<td>Stake</td>
+<td>24.9% fully diluted <span class="tag">A24</span></td>
+</tr>
+<tr>
+<td>Upfront price</td>
+<td>₹400 Cr: ₹250 Cr primary (growth capital), ₹150 Cr secondary (liquidity for early holders) <span class="tag">A24</span></td>
+</tr>
+<tr>
+<td>Implied valuation</td>
+<td>Post-money ₹1,606 Cr, 7.3x ARR <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Tranche 2</td>
+<td>Up to ₹600 Cr in FY30, a separate conditional share purchase: ₹0 if FY29 ARR ≤ ₹500 Cr, linear to ₹600 Cr at ≥ ₹650 Cr, and only if top-4 gross revenue retention is ≥ 90%. Priced at or below fair value at that time, so it complies with FEMA pricing if any seller is non-resident <span class="tag">S109</span>. It is deliberately not deferred consideration, which FEMA caps at 25% of the price and 18 months <span class="tag">S107</span></td>
+</tr>
+<tr>
+<td>Headline if Tranche 2 pays in full</td>
+<td>₹4,016 Cr for 100% <span class="tag">M</span></td>
+</tr>
+<tr>
+<td>Commercial licence</td>
+<td>MPC and custody technology for Paytm's tokenized-treasury, e₹ and cross-border B2B settlement uses; ₹25 Cr/yr <span class="tag">A23</span>; survives any change of control of Liminal for 5 years</td>
+</tr>
+<tr>
+<td>ROFR and matching right</td>
+<td>On any transfer of more than 5% by founders or investors, and a 30-day right to match any change-of-control offer; tag-along for Paytm. Enforceable as a contract under s.58(2) and permitted by SEBI's 2013 notification; must be written into Liminal's Articles <span class="tag">S122, S123</span></td>
+</tr>
+<tr>
+<td>Call option</td>
+<td>On the remaining 75.1%, exercisable in months 30 to 42 after close, at independent fair value with a collar of 8x to 12x trailing ARR; subject to gates G1 to G5 (§13). FEMA permits options with a 1-year lock-in and no assured return <span class="tag">S108</span></td>
+</tr>
+<tr>
+<td>Board</td>
+<td>One Paytm non-executive nominee on a 7-seat board (§11)</td>
+</tr>
+<tr>
+<td>Standstill</td>
+<td>Paytm stays at or below 24.9% until the option is exercised</td>
+</tr>
+<tr>
+<td>Non-compete</td>
+<td>Paytm will not build competing institutional custody</td>
+</tr>
+<tr>
+<td>Information rights</td>
+<td>Aggregate KPIs only; no client-level data</td>
+</tr>
+<tr>
+<td>Conditions precedent</td>
+<td>RBI comfort letter (§12), quality-of-earnings review confirming ARR ≥ ₹200 Cr, forensic review of the WazirX incident, client comfort letters from the top-4 clients, IP assignment or licence ensuring the Indian entity holds rights to the MPC stack for Indian clients</td>
+</tr>
+<tr>
+<td>Reverse break fee</td>
+<td>₹30 Cr, payable only if Paytm walks away without a CP failure <span class="tag">A29</span></td>
+</tr>
+<tr>
+<td>Long-stop date</td>
+<td>6 months from signing</td>
+</tr>
+</tbody>
+</table>
+<h3 id="10-2-financing">10.2 Financing</h3>
+<ul>
+<li><strong>100% balance-sheet cash.</strong> ₹400 Cr is 4.5% of Paytm's ₹8,900 Cr cash <span class="tag">C §1</span>. Tranche 2, if
+earned, is paid from cash in FY30.</li>
+<li><strong>Credit metrics unchanged.</strong> Gross debt stays ₹350 Cr (0.55x EBITDA), interest cover stays
+20.9x, and cash falls to ₹8,500 Cr <span class="tag">M</span>. On CRISIL's financial-ratio approach (gearing, interest
+coverage, debt service, net cash accruals, liquidity) <span class="tag">S116</span>, nothing moves. The AA- (Stable)
+rating <span class="tag">C §1</span> is not pressured.</li>
+<li><strong>Why not debt.</strong> Funding even the full deal's ₹2,100 Cr cash leg with debt takes gross debt to
+3.83x EBITDA and interest cover down to 3.0x <span class="tag">M</span>, a profile inconsistent with AA-.</li>
+<li><strong>Why not equity for a minority.</strong> A share swap for a stake this size would need a SEBI
+preferential issue (floor price at the higher of the 90-day and 10-day VWAP, a registered
+valuer's report, a special resolution, a 6-month lock-in for allottees) <span class="tag">S102, S103</span>, and would
+dilute shareholders to save ₹14 Cr/yr of post-tax interest.</li>
+</ul>
+<h3 id="10-3-funding-mixes-for-the-full-deal-for-comparison-q5-3-1-q5-3-2">10.3 Funding mixes for the full deal, for comparison (Q5.3.1, Q5.3.2)</h3>
+<table>
+<thead>
+<tr>
+<th>Mix</th>
+<th>FY27 EPS</th>
+<th>vs ₹7.50</th>
+<th>New shares</th>
+<th>Gross debt / EBITDA</th>
+<th>Interest cover</th>
+<th>Cash after close</th>
+<th>Cash FY31</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M1 case: ₹2,100 Cr cash + ₹1,900 Cr equity</td>
+<td>₹4.70</td>
+<td>−37.3%</td>
+<td>1.024 Cr (1.60%)</td>
+<td>0.55x</td>
+<td>20.9x</td>
+<td>₹6,800 Cr</td>
+<td>₹5,563 Cr</td>
+</tr>
+<tr>
+<td>M2: ₹2,100 Cr debt + ₹1,900 Cr equity</td>
+<td>₹4.04</td>
+<td>−46.2%</td>
+<td>1.024 Cr</td>
+<td>3.83x</td>
+<td>3.0x</td>
+<td>₹8,900 Cr</td>
+<td>₹7,446 Cr</td>
+</tr>
+<tr>
+<td>M3: ₹1,050 Cr cash + ₹1,050 Cr debt + ₹1,900 Cr equity</td>
+<td>₹4.37</td>
+<td>−41.7%</td>
+<td>1.024 Cr</td>
+<td>2.19x</td>
+<td>5.2x</td>
+<td>₹7,850 Cr</td>
+<td>₹6,504 Cr</td>
+</tr>
+<tr>
+<td>M4: ₹4,000 Cr all equity</td>
+<td>₹6.05</td>
+<td>−19.4%</td>
+<td>2.156 Cr (3.37%)</td>
+<td>0.55x</td>
+<td>20.9x</td>
+<td>₹8,900 Cr</td>
+<td>₹8,134 Cr</td>
+</tr>
+<tr>
+<td>M5: ₹4,000 Cr all cash</td>
+<td>₹3.44</td>
+<td>−54.1%</td>
+<td>0</td>
+<td>0.55x</td>
+<td>20.9x</td>
+<td>₹4,900 Cr</td>
+<td>₹3,236 Cr</td>
+</tr>
+<tr>
+<td><strong>Recommended minority, all cash</strong></td>
+<td><strong>₹8.79</strong></td>
+<td><strong>+17.2%</strong></td>
+<td><strong>0</strong></td>
+<td><strong>0.55x</strong></td>
+<td><strong>20.9x</strong></td>
+<td><strong>₹8,500 Cr</strong></td>
+<td>n.a.</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. Every full-deal mix has the same NPV (−₹7,638 Cr): financing moves EPS and credit
+metrics, not value. All-equity is the least dilutive because Paytm's 0.40% earnings yield makes its
+stock cheaper than its cash. Debt is the worst for the rating.</p>
+<h3 id="10-4-eps-bridge-recommended-structure-fy27">10.4 EPS bridge, recommended structure, FY27</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>₹ per share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Case baseline EPS</td>
+<td>7.500</td>
+</tr>
+<tr>
+<td>+ UPI MDR (not a deal effect)</td>
+<td>+1.345</td>
+</tr>
+<tr>
+<td>− forgone interest on ₹400 Cr</td>
+<td>−0.281</td>
+</tr>
+<tr>
+<td>− licence fee</td>
+<td>−0.292</td>
+</tr>
+<tr>
+<td>+ avoided in-house build</td>
+<td>+0.468</td>
+</tr>
+<tr>
+<td>+ retained synergy (zero in FY27)</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td>+ equity-method share of Liminal profit and interest on primary cash</td>
+<td>+0.051</td>
+</tr>
+<tr>
+<td><strong>Pro-forma EPS</strong></td>
+<td><strong>8.790</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. Against the MDR-adjusted baseline of ₹8.845, the deal effect in FY27 is −₹0.055
+(−0.6%), turning positive in FY28 <span class="tag">M</span>. At 24.9% with a board seat and a call option, Liminal is
+presumed an associate under Ind AS 28 and is equity-accounted <span class="tag">S114</span>.</p>
+<h3 id="10-5-if-the-board-insists-on-full-control">10.5 If the Board insists on full control</h3>
+<p>The least-bad full structure uses M4-style equity-heavy consideration, holds 20% of the equity in
+escrow with a retention-linked claw-back, defers the cash leg against retention, and adds a CVR on
+ARR. This improves FY27 EPS to about ₹6.05, but NPV stays around −₹7,000 Cr, because the drag is
+structural, not a financing problem.</p>
+<h3 id="10-6-what-deferred-consideration-earn-outs-and-cvrs-can-and-cannot-do-q5-3-6">10.6 What deferred consideration, earn-outs and CVRs can and cannot do (Q5.3.6)</h3>
+<p>They transfer <em>price risk</em> to the seller: pay less if ARR disappears. That is why Tranche 2 exists.
+They do nothing about the ₹750 Cr/yr drag, which follows ownership of custody infrastructure
+<span class="tag">C §3.2</span>, not the price paid. The only structural fix for the drag is not to own the custody
+infrastructure. The minority does that, and it keeps the earn-out logic in Tranche 2 as well.
+Mastercard's $300M contingent tranche on BVNK is the sector precedent for performance-linked
+consideration <span class="tag">S23</span>.</p>
+<hr />
+<h2 id="11-churn-defense-and-governance">11. Churn defense and governance</h2>
+<p><strong>Answer to M2, Q5.2.1 and Q5.2.2.</strong> Under full control, losing the top-4 clients is the single
+most likely outcome in the case: 60% of ARR sits with four institutions that each have a concrete
+reason to leave a custodian owned by a payments rival. Under the minority, Liminal stays
+independent and the same safeguards, which would only reduce churn under control, keep expected
+churn near 5%.</p>
+<h3 id="11-1-client-by-client-risk">11.1 Client-by-client risk</h3>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>Why a Paytm-controlled custodian worries them</th>
+<th>Risk under full control</th>
+<th>Risk under minority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HDFC Bank</td>
+<td>A regulated bank's custody provider owned by a payments rival with a consumer wallet; RBI is pushing banks away from crypto exposure <span class="tag">S58</span>; data exposure</td>
+<td>High</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Axis Bank</td>
+<td>Same as HDFC</td>
+<td>High</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>CoinDCX</td>
+<td>An exchange whose flows would be visible to a payments group; CoinDCX was a seed investor in Liminal <span class="tag">S42</span></td>
+<td>High</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>ZebPay</td>
+<td>Same as CoinDCX; the founder link to Mahin Gupta <span class="tag">C §2</span> is a relationship asset that control could strain</td>
+<td>Medium to high</td>
+<td>Low</td>
+</tr>
+</tbody>
+</table>
+<p><strong>External evidence.</strong> No public data quantifies client churn after a custody vendor changes hands
+(we record this honestly rather than invent a number). The documented reactions point one way:</p>
+<ul>
+<li>Citi reviewed its Metaco custody contract about six weeks after Ripple agreed to buy Metaco <span class="tag">S51</span>,
+and Metaco's CEO said banks raised the ownership change and it took months to reassure them <span class="tag">S52</span>.</li>
+<li>Standard Chartered is folding Zodia's custody business back into the bank because the bank's own
+unit and Zodia &quot;competed for the same institutional clients&quot; <span class="tag">S50</span>, which is channel conflict
+inside one group.</li>
+<li>Visa's $5.3B bid for Plaid was abandoned in January 2021 after a DOJ challenge, so no churn data
+exists for that case either <span class="tag">S54</span>.</li>
+<li>Mastercard's Finicity deal drew supportive client statements at announcement <span class="tag">S53</span>, a reminder
+that churn is not automatic when the owner is not a direct competitor. Paytm is one.</li>
+</ul>
+<h3 id="11-2-safeguards-apply-to-the-minority-now-and-would-be-needed-under-any-later-control">11.2 Safeguards (apply to the minority now, and would be needed under any later control)</h3>
+<table>
+<thead>
+<tr>
+<th>Safeguard</th>
+<th>Mechanism</th>
+<th>Client concern addressed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Independent-majority board</td>
+<td>7 seats: 2 management, 1 Paytm non-executive nominee, 1 existing investor, 3 independents including the chair (a bank risk or regulatory profile, a cybersecurity expert, an audit chair)</td>
+<td>Ownership influence</td>
+</tr>
+<tr>
+<td>Recusal</td>
+<td>Paytm nominee recused from client-level matters; Risk and Security committee has no Paytm member</td>
+<td>Data and competitive exposure</td>
+</tr>
+<tr>
+<td>Information barrier</td>
+<td>Contractual and technical: separate cloud tenancy and identity management, no data sharing, aggregate KPIs only; certified annually by an external auditor; client audit rights</td>
+<td>Data and flow visibility</td>
+</tr>
+<tr>
+<td>Standalone identity</td>
+<td>Liminal keeps its brand, legal entity, key management personnel and FIU-IND Principal Officer</td>
+<td>Perception of neutrality</td>
+</tr>
+<tr>
+<td>Client charter</td>
+<td>Change-of-control termination rights and most-favoured-nation pricing for all institutional clients</td>
+<td>Lock-in fear</td>
+</tr>
+<tr>
+<td>Key-shard escrow</td>
+<td>MPC key-shard continuity escrow with an independent trustee</td>
+<td>Operational continuity</td>
+</tr>
+<tr>
+<td>Client Advisory Council</td>
+<td>Top clients meet the independent chair quarterly</td>
+<td>Voice</td>
+</tr>
+<tr>
+<td>Paytm non-compete</td>
+<td>No competing institutional custody</td>
+<td>Channel conflict</td>
+</tr>
+<tr>
+<td>Paytm standstill</td>
+<td>Stays at or below 24.9% until the gates are met</td>
+<td>Creeping control</td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-3-churn-by-path-and-how-we-validate-it">11.3 Churn by path, and how we validate it</h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Base</th>
+<th>Range</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full acquisition</td>
+<td>37.5%</td>
+<td>30% to 45%</td>
+<td>Case range <span class="tag">C §3.1</span></td>
+</tr>
+<tr>
+<td>24.9% minority</td>
+<td>5%</td>
+<td>0% to 15%</td>
+<td>Independence preserved; residual perception risk <span class="tag">A13</span></td>
+</tr>
+<tr>
+<td>JV</td>
+<td>10%</td>
+<td>5% to 15%</td>
+<td>Association without control <span class="tag">A13</span></td>
+</tr>
+<tr>
+<td>Walk away</td>
+<td>0%</td>
+<td>n.a.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The minority and JV churn figures are team assumptions and cannot be verified without talking to
+the clients. We have not done that, and we do not claim to have. Instead, a <strong>Customer Validation
+Plan</strong> is a condition precedent:</p>
+<ul>
+<li>Structured conversations before signing with the custody head, chief risk officer and
+procurement lead at each of the top-4 clients.</li>
+<li>Plus 8 long-tail clients across hedge funds and OTC desks.</li>
+<li>The deliverable is a comfort letter from each top-4 client.</li>
+</ul>
+<h3 id="11-4-churn-stress-on-the-recommendation">11.4 Churn stress on the recommendation</h3>
+<table>
+<thead>
+<tr>
+<th>Minority stress test</th>
+<th>NPV (₹ Cr)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base (5% churn)</td>
+<td>+211</td>
+</tr>
+<tr>
+<td>0% churn</td>
+<td>+225</td>
+</tr>
+<tr>
+<td>15% churn</td>
+<td>+171</td>
+</tr>
+<tr>
+<td>Break-even churn</td>
+<td>57.6%</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="tag">M</span>. The minority is robust to churn because Paytm pays fair value for a 24.9% slice and
+bears none of the sticky-cost losses at the Paytm level.</p>
+<hr />
+<h2 id="12-regulatory-path-and-compliance-architecture">12. Regulatory path and compliance architecture</h2>
+<p><strong>Answer to Q5.4.1 to Q5.4.4.</strong> The minority needs no RBI approval and, on our reading, no
+mandatory CCI filing; it needs Board approval, a stock-exchange disclosure and an RBI comfort letter
+that we make a condition precedent. Investing through One97 into Liminal's Indian entity avoids the
+overseas investment regime, which Paytm would likely fail, and keeps the PA licence ring-fenced.</p>
+<h3 id="12-1-why-the-indian-entity-and-why-one97">12.1 Why the Indian entity, and why One97</h3>
+<ul>
+<li><strong>The ODI trap.</strong> Under the FEMA Overseas Investment Rules 2022, an Indian company that is not in
+financial services may invest in a foreign financial-services entity only if it posted net
+profits in each of the preceding three years <span class="tag">S97, S98</span>. One97 lost about ₹1,417 Cr in FY24 and
+₹658.7 Cr in FY25 before earning ₹552 Cr in FY26 <span class="tag">S16, S06</span>. A stake in Liminal's Singapore
+parent would therefore need the RBI approval route (or a contestable argument that crypto custody
+is not &quot;financial services&quot;). Any open ED matter would also require an agency NOC <span class="tag">S99, S100</span>.</li>
+<li><strong>The domestic route.</strong> First Answer India Technologies is an Indian company. One97 has been an
+Indian-owned and -controlled company since early 2026 (domestic investors 50.3%) <span class="tag">S13, S14</span>, so
+its investment is not indirect foreign investment. One open point for diligence: Ant Group retains
+an economic interest in about 5.22% of Paytm through optionally convertible debentures held by
+Resilient Asset Management <span class="tag">S127</span>, and no regulator has ruled on whether that matters under Press
+Note 3. Paying in cash, not shares, keeps this off the critical path. A primary subscription is resident-to-resident
+and outside FEMA pricing; Companies Act valuation rules apply <span class="tag">S109</span>.</li>
+<li><strong>PA ring-fence.</strong> RBI's 2025 PA directions require prior approval for a change of control of the
+PA itself (PPSL) and fit-and-proper promoters, with RBI's decision final <span class="tag">S110, S111</span>. Investing at the
+One97 level, not PPSL, keeps Liminal out of the PA's balance sheet and licence.</li>
+</ul>
+<h3 id="12-2-sequence-for-the-recommended-minority">12.2 Sequence for the recommended minority</h3>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Steps</th>
+<th>Risks to close out</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pre-signing (weeks 0 to 8)</strong></td>
+<td>Due diligence: technology and security (independent WazirX forensic review), legal and litigation (Delhi Police chargesheet <span class="tag">S36</span>, ADGM withdrawal <span class="tag">S39</span>), FIU-IND and PMLA compliance, tax and GST, quality of earnings. Route decision: Indian entity (§12.1). Informal RBI (DPSS) consultation. CCI analysis. Customer Validation Plan conversations. Board approval (unanimous under s.186 <span class="tag">S106</span>). SEBI LODR Reg 30 disclosure within 30 minutes of the board meeting, since a 5%+ acquisition is disclosable regardless of size <span class="tag">S104, S105</span></td>
+<td>RBI's view of a PA group holding a crypto custodian; security liabilities; revenue quality</td>
+</tr>
+<tr>
+<td><strong>Signing to closing (weeks 8 to 20)</strong></td>
+<td>Conditions precedent: RBI comfort letter; client comfort letters; registered valuer's report; Liminal shareholder special resolution for the CCPS issue; Articles amended for ROFR, tag, option and preference terms <span class="tag">S122, S124</span>; FEMA filings for any non-resident secondary sellers (price ≤ fair value <span class="tag">S109</span>); FIU-IND notification of the change in beneficial ownership</td>
+<td>CP failure, client notice, security incident</td>
+</tr>
+<tr>
+<td><strong>Post-closing (day 1 to 100, then ongoing)</strong></td>
+<td>Board reconstitution; information barrier live and certified; licence live; equity-method accounting (Ind AS 28 <span class="tag">S114</span>); quarterly compliance reporting to the Paytm audit committee; gate tracking</td>
+<td>Barrier leakage, regulatory drift</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-3-competition-clearance">12.3 Competition clearance</h3>
+<ul>
+<li>The deal value threshold is ₹2,000 Cr for targets with substantial business operations in India
+<span class="tag">S91, S92</span>. Value includes deferred consideration and call options assuming full exercise <span class="tag">S93</span>.</li>
+<li>Our structure: ₹400 Cr upfront plus up to ₹600 Cr Tranche 2 = ₹1,000 Cr. CCI's September 2025
+FAQs say options vesting after two years may be excluded <span class="tag">S94</span>; ours opens at month 30. Liminal is
+below the de minimis thresholds (turnover under ₹1,250 Cr, assets under ₹450 Cr) <span class="tag">S96, S91</span>. On
+this reading, no filing is required. Counsel must confirm.</li>
+<li>If the option were counted at full exercise and pushed value above ₹2,000 Cr, the Green Channel
+applies (no horizontal, vertical or complementary overlap between Paytm and a custodian), giving
+deemed approval on filing <span class="tag">S95</span>.</li>
+<li>The full acquisition, by contrast, is a mandatory filing at ₹4,000 Cr with a 30-day Phase I and a
+150-day outer limit <span class="tag">S95</span>.</li>
+</ul>
+<h3 id="12-4-does-owning-custody-add-regulatory-or-capital-requirements-q5-4-2">12.4 Does owning custody add regulatory or capital requirements? (Q5.4.2)</h3>
+<p>Yes. The case assumes RBI would require bank-like capital reserves once Paytm owns the custody
+infrastructure, a ₹750 Cr/yr FCF drag <span class="tag">C §3.2</span>. RBI's 2026 stance on crypto (containment &quot;leaning
+towards prohibition&quot; <span class="tag">S57, S133</span>) makes that assumption plausible, not conservative. Our structure is
+built so Paytm does not own the infrastructure. The RBI comfort letter converts the assumption that
+a 24.9% non-controlling stake is not &quot;ownership&quot; into a confirmed fact before any cash moves. If RBI
+declines, the deal lapses at a cost of diligence fees only.</p>
+<p>Stress test: if RBI applied a proportional drag to the minority (24.9% × ₹750 Cr = ₹187 Cr/yr), the
+minority's NPV would fall to −₹996 Cr <span class="tag">M</span>. That is exactly why the comfort letter is a condition
+precedent rather than a hope.</p>
+<h3 id="12-5-full-acquisition-counterfactual-what-the-board-avoids">12.5 Full-acquisition counterfactual (what the Board avoids)</h3>
+<table>
+<thead>
+<tr>
+<th>Additional step under full acquisition</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SEBI preferential issue for ₹1,900 Cr of shares: special resolution at an EGM or postal ballot, VWAP floor pricing, exchange in-principle approval, valuer report, 6-month lock-in</td>
+<td><span class="tag">S102, S103</span></td>
+</tr>
+<tr>
+<td>Mandatory CCI filing (₹4,000 Cr &gt; ₹2,000 Cr)</td>
+<td><span class="tag">S91, S95</span></td>
+</tr>
+<tr>
+<td>RBI engagement on PA-group implications and capital; fit-and-proper review</td>
+<td><span class="tag">S110</span></td>
+</tr>
+<tr>
+<td>Rating-agency engagement</td>
+<td><span class="tag">S116</span></td>
+</tr>
+<tr>
+<td>Goodwill recognition and annual impairment testing</td>
+<td><span class="tag">S113, S115</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-6-data-compliance-aml-and-information-security-q5-4-4">12.6 Data, compliance, AML and information security (Q5.4.4)</h3>
+<p>Liminal stays a separate reporting entity under PMLA with its own controls:</p>
+<ul>
+<li><strong>AML.</strong> An India-based, full-time Principal Officer and a separate Designated Director.
+Suspicious-transaction reports within 7 working days. Real-time Travel Rule compliance under
+FIU-IND's January 2026 guidelines <span class="tag">S117, S118</span>. Sanctions screening including Lazarus-linked
+wallet lists, given the WazirX history.</li>
+<li><strong>Cyber.</strong> CERT-In's six-hour incident reporting, 180-day log retention in India and five-year
+KYC retention for custodian wallet providers <span class="tag">S119</span>.</li>
+<li><strong>Data protection.</strong> DPDP Act duties: core data-fiduciary obligations from May 2027, 72-hour
+breach reporting to the Board, penalties up to ₹250 Cr <span class="tag">S120, S121</span>.</li>
+<li><strong>Security certifications.</strong> SOC 2 Type II and ISO 27001 maintained <span class="tag">C §2</span>; annual independent
+penetration test; HSM plus MPC key management.</li>
+<li><strong>Separation from Paytm.</strong> No Paytm access to client data. Paytm's audit committee receives
+aggregate KPIs and the annual barrier certification only.</li>
+</ul>
+<hr />
+<h2 id="13-contingency-planning">13. Contingency planning</h2>
+<p><strong>Q5.6.1: churn above 45%.</strong></p>
+<ul>
+<li><em>Under a full acquisition</em>, the remediation ladder is:
+<ol>
+<li>Claw back escrowed equity consideration.</li>
+<li>Move key custody to an independent trustee and re-brand.</li>
+<li>Sell down to 24.9% or below to a bank consortium or financial sponsor within 18 months,
+converting after the fact to the structure we recommend today.</li>
+<li>Take the impairment and disclose it.</li>
+</ol>
+</li>
+<li><em>Under the recommended minority</em>, the remedy is built in: Paytm does not exercise the option, pays
+no Tranche 2, keeps its liquidation preference, and can exit through tag-along.</li>
+</ul>
+<p><strong>Q5.6.2: minority now, option later.</strong> Yes. That is the recommendation.</p>
+<p><strong>Q5.6.3: exercise gates.</strong> All five must hold before the option is exercised:</p>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G1 Regulatory</td>
+<td>Written RBI position that the capital requirement on ownership is ₹150 Cr/yr or less, or a ring-fenced custody regime outside the PA group; no VDA prohibition law enacted</td>
+</tr>
+<tr>
+<td>G2 Clients</td>
+<td>Top-4 clients have renewed for 3+ years with change-of-control consent; gross revenue retention ≥ 90%; top-4 concentration below 45%</td>
+</tr>
+<tr>
+<td>G3 Financial</td>
+<td>Liminal trailing ARR ≥ ₹500 Cr; EBITDA margin ≥ 20%</td>
+</tr>
+<tr>
+<td>G4 Security</td>
+<td>Clean SOC 2 Type II; no Sev-1 security incident in the prior 24 months</td>
+</tr>
+<tr>
+<td>G5 Paytm</td>
+<td>Year-1 EPS dilution from exercise ≤ 5%; NPV at the strike ≥ 0 at the then-prevailing drag; CRISIL AA- affirmation expected</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q5.6.4: can Liminal stay standalone and arm's-length indefinitely?</strong> Yes, as an associate, and
+that is the steady state if G1 never clears. Under full ownership it could operate at arm's length,
+but the drag would persist, because it attaches to ownership, not to the operating model. The
+precedents cut both ways: Coinbase runs an independently capitalised custody trust company <span class="tag">S129</span>, while Standard Chartered found an arm's-length custodian inside a bank group ended up
+competing with the bank and pulled it back in <span class="tag">S50</span>.</p>
+<p><strong>Q5.6.5: walk-away conditions after signing.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Contract mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RBI declines comfort, or indicates the capital requirement applies at 24.9%</td>
+<td>Condition precedent; lapse without break fee</td>
+</tr>
+<tr>
+<td>Any top-4 client serves notice before close</td>
+<td>Condition precedent (client comfort letters)</td>
+</tr>
+<tr>
+<td>Diligence finds unresolved liabilities (WazirX-related, FIU-IND non-compliance)</td>
+<td>Condition precedent plus specific indemnity</td>
+</tr>
+<tr>
+<td>Closing ARR below ₹200 Cr (−10%)</td>
+<td>Condition precedent (quality of earnings)</td>
+</tr>
+<tr>
+<td>Sev-1 security incident before close</td>
+<td>Material adverse change clause</td>
+</tr>
+<tr>
+<td>A VDA prohibition bill is introduced</td>
+<td>Material adverse change clause</td>
+</tr>
+<tr>
+<td>Long-stop date passes</td>
+<td>Automatic termination</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="14-risk-register">14. Risk register</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Risk</th>
+<th>Category</th>
+<th>Probability (1 to 5)</th>
+<th>Impact (1 to 5)</th>
+<th>Score</th>
+<th>RAG</th>
+<th>Mitigant</th>
+<th>Owner</th>
+<th>Trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>RBI treats a 24.9% stake as ownership (drag applies)</td>
+<td>Regulatory</td>
+<td>2</td>
+<td>5</td>
+<td>10</td>
+<td>Amber</td>
+<td>RBI comfort letter as CP; deal lapses</td>
+<td>CFO, Regulatory Affairs</td>
+<td>RBI response</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Liminal security incident</td>
+<td>Operational</td>
+<td>2</td>
+<td>5</td>
+<td>10</td>
+<td>Amber</td>
+<td>Forensic DD, SOC 2, CERT-In reporting, liquidation preference, no Paytm balance-sheet exposure</td>
+<td>Paytm nominee director</td>
+<td>Any Sev-1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Consortium bids for control of Liminal</td>
+<td>Competitive</td>
+<td>3</td>
+<td>3</td>
+<td>9</td>
+<td>Amber</td>
+<td>ROFR + matching right; Plan B vendors</td>
+<td>Strategy</td>
+<td>Offer notice</td>
+</tr>
+<tr>
+<td>4</td>
+<td>VDA prohibition law</td>
+<td>Regulatory</td>
+<td>2</td>
+<td>4</td>
+<td>8</td>
+<td>Amber</td>
+<td>Pivot Liminal to tokenized and e₹ custody; option stays unexercised</td>
+<td>Strategy</td>
+<td>Bill introduced</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Client churn higher than 5%</td>
+<td>Commercial</td>
+<td>2</td>
+<td>3</td>
+<td>6</td>
+<td>Green</td>
+<td>Safeguards §11; break-even churn 57.6%</td>
+<td>Liminal CEO</td>
+<td>Quarterly GRR</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Founder or key-talent exit</td>
+<td>People</td>
+<td>2</td>
+<td>3</td>
+<td>6</td>
+<td>Green</td>
+<td>Founder retention via Tranche 2 and ESOP refresh from primary</td>
+<td>Liminal board</td>
+<td>Resignation</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Overpayment or impairment of the stake</td>
+<td>Financial</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>Green</td>
+<td>Price at 7.3x vs 7.5x fair value; Tranche 2 only on delivery</td>
+<td>CFO</td>
+<td>Annual impairment test</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MDR rolled back</td>
+<td>Policy</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>Green</td>
+<td>Recommendation does not rely on MDR</td>
+<td>CFO</td>
+<td>NPCI circular</td>
+</tr>
+<tr>
+<td>9</td>
+<td>FEMA or ODI route challenged</td>
+<td>Legal</td>
+<td>2</td>
+<td>3</td>
+<td>6</td>
+<td>Green</td>
+<td>Indian-entity route; counsel opinion</td>
+<td>Legal</td>
+<td>Structuring</td>
+</tr>
+<tr>
+<td>10</td>
+<td>CCI counts the option and requires filing</td>
+<td>Legal</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>Green</td>
+<td>Green Channel deemed approval</td>
+<td>Legal</td>
+<td>Counsel view</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Licence or integration underdelivers</td>
+<td>Execution</td>
+<td>3</td>
+<td>2</td>
+<td>6</td>
+<td>Green</td>
+<td>Service levels in licence; 5-year survival clause</td>
+<td>CTO</td>
+<td>Usage KPIs</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Reputational spill-over to Paytm (crypto association)</td>
+<td>Reputational</td>
+<td>2</td>
+<td>3</td>
+<td>6</td>
+<td>Green</td>
+<td>Standalone brand; no Paytm co-branding; no VDA exposure at Paytm</td>
+<td>Communications</td>
+<td>Media event</td>
+</tr>
+</tbody>
+</table>
+<p>Heat-map layout for the slide: a 5×5 grid (probability on the x-axis, impact on the y-axis), with
+risks 1 and 2 in the amber band top-left of centre, risk 3 in the centre, and the rest in the green
+band.</p>
+<hr />
+<h2 id="15-implementation-roadmap-and-decision-triggers">15. Implementation roadmap and decision triggers</h2>
+<p><strong>First 100 days after Board approval</strong></p>
+<table>
+<thead>
+<tr>
+<th>Weeks</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 2</td>
+<td>Board approval; LODR disclosure; appoint advisors; open data room</td>
+</tr>
+<tr>
+<td>2 to 8</td>
+<td>Diligence (forensic, legal, QoE); RBI DPSS consultation; Customer Validation Plan; CCI analysis</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sign; announce ROFR and licence</td>
+</tr>
+<tr>
+<td>8 to 20</td>
+<td>CPs: RBI comfort, client letters, valuer report, Articles, FIU-IND notification</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Close; board reconstitution; licence live</td>
+</tr>
+<tr>
+<td>20 to 34</td>
+<td>Information barrier certification; first quarterly KPI pack; Plan B vendor shortlist kept warm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Thirty-six months</strong></p>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Gate review</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td>
+<td>Churn and GRR, licence usage, RBI dialogue</td>
+<td>Continue or escalate risks</td>
+</tr>
+<tr>
+<td>24</td>
+<td>ARR trajectory vs Tranche 2 band, security record</td>
+<td>Prepare Tranche 2</td>
+</tr>
+<tr>
+<td>30</td>
+<td>All five gates</td>
+<td>Open the option window, or stay at 24.9%</td>
+</tr>
+<tr>
+<td>30 to 42</td>
+<td>Option window</td>
+<td>Exercise only if G1 to G5 hold and NPV at strike ≥ 0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>KPI dashboard.</strong> Liminal ARR, gross revenue retention, top-4 concentration, EBITDA margin,
+security incidents, RBI dialogue status, licence usage by Paytm, Paytm EPS impact.</p>
+<p><strong>Kill switches.</strong> RBI indicating that the drag applies; any top-4 client leaving because of Paytm;
+a Sev-1 security incident; a VDA prohibition law; Liminal ARR below ₹200 Cr; information-barrier
+failure; a consortium offer above the maximum justified price (Paytm lets it pass).</p>
+<hr />
+<h2 id="16-assumptions-register-and-model-summary">16. Assumptions register and model summary</h2>
+<h3 id="16-1-case-facts-used-never-modified">16.1 Case facts used (never modified)</h3>
+<p>₹1,18,750 Cr market cap; 64 Cr shares; ₹8,900 Cr cash; ₹350 Cr debt; CRISIL AA- (Stable); revenue
+₹8,450 Cr; EBITDA ₹640 Cr; PAT ₹480 Cr; EPS ₹7.50 <span class="tag">C §1</span>. Deal ₹4,000 Cr (₹2,100 Cr cash,
+₹1,900 Cr equity); ARR ₹220 Cr; top-4 clients 60% of ARR; Liminal about breakeven <span class="tag">C §2</span>. Churn 30%
+to 45% under full acquisition <span class="tag">C §3.1</span>. Drag ₹750 Cr/yr <span class="tag">C §3.2</span>. MDR ₹115 Cr/yr <span class="tag">C §3.4</span>.</p>
+<p><em>Note on the rating.</em> Our research found no current CRISIL rating for One97 or PPSL <span class="tag">S131</span>;
+we use AA- (Stable) because the case states it, per the Modeling Clarification <span class="tag">CL</span>.</p>
+<h3 id="16-2-team-assumptions">16.2 Team assumptions</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Assumption</th>
+<th>Value</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A01</td>
+<td>Share price for issuance</td>
+<td>₹1,855.47</td>
+<td>Market cap ÷ shares</td>
+</tr>
+<tr>
+<td>A02</td>
+<td>Tax rate</td>
+<td>25.17%</td>
+<td>Section 115BAA; carried losses ignored (conservative)</td>
+</tr>
+<tr>
+<td>A03</td>
+<td>Pre-tax yield on Paytm cash</td>
+<td>6.00%</td>
+<td>364-day T-bill 5.74% <span class="tag">S28</span> plus treasury mix</td>
+</tr>
+<tr>
+<td>A04</td>
+<td>Cost of new debt</td>
+<td>8.75%</td>
+<td>AA band 8.0% to 9.5% <span class="tag">S29</span></td>
+</tr>
+<tr>
+<td>A05</td>
+<td>Yield on locked reserves</td>
+<td>5.00%</td>
+<td>RBI SDF rate <span class="tag">S27</span>; 1% negative carry</td>
+</tr>
+<tr>
+<td>A06</td>
+<td>Paytm PAT held flat</td>
+<td>₹480 Cr</td>
+<td>Isolates the deal effect</td>
+</tr>
+<tr>
+<td>A07</td>
+<td>Paytm WACC</td>
+<td>15.5%</td>
+<td>7.04% + 1.20 × 7.08% <span class="tag">S30, S31</span></td>
+</tr>
+<tr>
+<td>A08</td>
+<td>Liminal discount rate</td>
+<td>17.0%</td>
+<td>7.04% + 1.40 × 7.08%</td>
+</tr>
+<tr>
+<td>A09</td>
+<td>Liminal terminal growth</td>
+<td>6.0%</td>
+<td>Below India's nominal growth</td>
+</tr>
+<tr>
+<td>A10</td>
+<td>Liminal growth and margin paths</td>
+<td>§7.2</td>
+<td>Three scenarios</td>
+</tr>
+<tr>
+<td>A11</td>
+<td>D&amp;A, capex, NWC</td>
+<td>4%, 5%, 2% of incremental revenue</td>
+<td>Infrastructure-software norms</td>
+</tr>
+<tr>
+<td>A12</td>
+<td>Loss on churned ARR</td>
+<td>60% year 1, 30% year 2</td>
+<td>Sticky costs</td>
+</tr>
+<tr>
+<td>A13</td>
+<td>Churn by path</td>
+<td>Full 37.5%; minority 5%; JV 10%; walk 0</td>
+<td>§11.3</td>
+</tr>
+<tr>
+<td>A14</td>
+<td>Drag by path</td>
+<td>Full ₹750 Cr [C]; minority 0 (stress ₹187 Cr); JV ₹375 Cr</td>
+<td>Drag follows ownership × control</td>
+</tr>
+<tr>
+<td>A15</td>
+<td>Drag treatment</td>
+<td>Perpetual; alternatives in §9.7</td>
+<td>Case says &quot;recurring&quot;</td>
+</tr>
+<tr>
+<td>A16</td>
+<td>MDR</td>
+<td>₹115 Cr [C] in every path</td>
+<td>Deal-independent</td>
+</tr>
+<tr>
+<td>A17</td>
+<td>Standalone governance cost (full)</td>
+<td>₹15 Cr/yr</td>
+<td>Board, barriers, separate infrastructure</td>
+</tr>
+<tr>
+<td>A18</td>
+<td>PPA amortisation (full)</td>
+<td>₹100 Cr/yr for 10 years</td>
+<td>25% of price as intangibles</td>
+</tr>
+<tr>
+<td>A19</td>
+<td>Transaction costs (full)</td>
+<td>₹60 Cr</td>
+<td>1.5% of deal value</td>
+</tr>
+<tr>
+<td>A20</td>
+<td>Avoided in-house build</td>
+<td>₹40 Cr/yr</td>
+<td>3-year MPC build and certifications</td>
+</tr>
+<tr>
+<td>A21</td>
+<td>Revenue synergy</td>
+<td>₹0 to ₹165 Cr/yr (base), 40% margin, 5% terminal growth</td>
+<td>Tokenized settlement, e₹, cross-border B2B</td>
+</tr>
+<tr>
+<td>A22</td>
+<td>Synergy retained via licence</td>
+<td>70%</td>
+<td>Operations, not growth economics</td>
+</tr>
+<tr>
+<td>A23</td>
+<td>Licence fee</td>
+<td>₹25 Cr/yr</td>
+<td>Platform fee</td>
+</tr>
+<tr>
+<td>A24</td>
+<td>Stake terms</td>
+<td>24.9%; ₹400 Cr upfront (₹250 Cr primary, ₹150 Cr secondary); Tranche 2 up to ₹600 Cr on FY29 ARR ₹500 to ₹650 Cr</td>
+<td>Priced at 24.9% × weighted fair value, rounded down</td>
+</tr>
+<tr>
+<td>A25</td>
+<td>JV terms</td>
+<td>50:50; ₹400 Cr cash; ₹40 Cr/yr set-up for 2 years</td>
+<td>Symmetric with the minority</td>
+</tr>
+<tr>
+<td>A26</td>
+<td>Scenario probabilities</td>
+<td>Bear 25%, base 50%, bull 25%</td>
+<td></td>
+</tr>
+<tr>
+<td>A27</td>
+<td>Call option</td>
+<td>Months 30 to 42; FMV strike, 8x to 12x trailing ARR collar</td>
+<td>FEMA: no assured return</td>
+</tr>
+<tr>
+<td>A28</td>
+<td>Decision-matrix weights</td>
+<td>Value 25, EPS/FCF 15, rating 10, churn 15, drag 10, access 15, block 10</td>
+<td></td>
+</tr>
+<tr>
+<td>A29</td>
+<td>Reverse break fee</td>
+<td>₹30 Cr</td>
+<td>Only on a walk without CP failure</td>
+</tr>
+<tr>
+<td>A30</td>
+<td>Comparables basis</td>
+<td>Trading 5.96x to 8.35x ARR (custody and high-growth subset); precedents 7.8x to 12.8x; weights 50/30/20 with DCF</td>
+<td>§7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="16-3-assumptions-slide-content-the-fourteen-that-move-the-answer">16.3 Assumptions-slide content (the fourteen that move the answer)</h3>
+<p>A07, A08, A13 (churn by path), A14 (drag by path), A15 (drag treatment), A16 (MDR treatment), A18,
+A20, A21, A22, A24, A26, A27, A30.</p>
+<hr />
+<h2 id="17-slide-blueprint-for-the-figma-deck">17. Slide blueprint for the Figma deck</h2>
+<p>The deck runs cover + 12 core slides + appendix + thank you. Each core slide carries an action
+title, a source line and at least four visual forms. Data keys refer to <span class="code">model_outputs.json</span>.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Slide</th>
+<th>Action title</th>
+<th>Content blocks</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Cover</td>
+<td>Project Satoshi Gate: a board recommendation on Liminal Custody Solutions</td>
+<td>Title, recommendation strip, team block</td>
+<td>n.a.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Executive Summary</td>
+<td>Take 24.9% of Liminal for ₹400 Cr with a path to control; buying it outright destroys ₹7,638 Cr</td>
+<td>Recommendation panel; for/against columns; 4 KPI tiles (NPV, EPS, drag, churn); E1 to E8 answer strip</td>
+<td><span class="code">moneyshot</span>, <span class="code">pw_npv</span>, <span class="code">eps_bridge_min_fy27</span></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Situation overview</td>
+<td>Paytm trades at 247x earnings with 8.1% of UPI, so growth must come from beyond payments without an EPS hit</td>
+<td>Ratio table; UPI share bars; MDR mechanics diagram; regulatory timeline 2022 to 2026</td>
+<td><span class="code">ratios</span></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Strategic value and targets</td>
+<td>Custody is a real 3 to 7 year option on India's tokenized rails, and its moat is neutrality, which control destroys</td>
+<td>Four-arena matrix; VRIO; MECE target filter; peer valuation strip</td>
+<td>§4, §5</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Valuation</td>
+<td>₹4,000 Cr is 18.2x ARR today and 29.1x after a base-case revolt, 2.4x Liminal's ₹1,656 Cr fair value</td>
+<td>Football field; implied-multiple bars; DCF grid; comps table</td>
+<td><span class="code">football</span>, <span class="code">implied_mult</span>, <span class="code">dcf_grid_base</span></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Four paths</td>
+<td>The minority stake scores 4.10 of 5, ahead of walk-away 3.75, JV 2.70 and full acquisition 2.10</td>
+<td>Symmetric table; weighted matrix; licence-vs-ownership panel</td>
+<td><span class="code">matrix</span>, <span class="code">paths</span></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Stress test (moneyshot)</td>
+<td>Buying control destroys ₹7,638 Cr in the base case and still loses ₹7,042 Cr with zero churn</td>
+<td>Churn × drag heatmap; giant numeral; PAT/FCF breakeven timeline; MDR-offset bar; drag-treatment table</td>
+<td><span class="code">full_grid</span>, <span class="code">breakeven_summary</span></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Structure and financing</td>
+<td>₹400 Cr of cash buys the stake with no new shares or debt, and FY27 EPS rises to ₹8.79</td>
+<td>Term sheet; EPS waterfall; funding-mix table M1 to M5; credit metrics</td>
+<td><span class="code">funding</span>, <span class="code">eps_bridge_min_fy27</span></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Churn and governance</td>
+<td>Independence holds expected churn to 5% against 37.5% under control; the stake breaks even only at 57.6%</td>
+<td>Client risk table; governance chart; safeguard matrix; churn-by-path bars</td>
+<td><span class="code">min_stress</span>, <span class="code">min_be_churn</span></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Regulatory path</td>
+<td>Investing through One97 into Liminal's Indian entity avoids the ODI test and mandatory CCI review, and keeps the PA ring-fenced</td>
+<td>Three-phase swimlane; regulator map; compliance architecture</td>
+<td>§12</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Competition and contingency</td>
+<td>The consortium inherits the same bank revolt, so Paytm competes on structure and never pays above ₹1,797 Cr for control</td>
+<td>Game tree; response ladder; walk-away triggers; &gt;45% churn ladder</td>
+<td><span class="code">max_price</span>, <span class="code">compression</span></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Roadmap and risks</td>
+<td>Five gates decide the option in months 30 to 42; failing any one keeps Paytm at 24.9%</td>
+<td>Gantt; gate table; KPI dashboard; risk heat map</td>
+<td>§13 to §15</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Assumptions</td>
+<td>Our case rests on 30 disclosed assumptions; PAT breaks even in FY2028 and look-through FCF in FY2034</td>
+<td>Assumptions table; case-vs-assumption legend; breakeven table</td>
+<td>§16</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Appendix</td>
+<td>Model detail behind every number in the deck</td>
+<td>DCF table; EPS by year; funding detail; bibliography</td>
+<td>Appendix B</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Thank you</td>
+<td>n.a.</td>
+<td>Team names</td>
+<td>n.a.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="18-anticipated-judge-questions">18. Anticipated judge questions</h2>
+<ol>
+<li><strong>&quot;Your DCF gives Liminal ₹1,391 Cr. BitGo IPO'd at $2B and BVNK sold for $1.8B. Isn't that
+too conservative?&quot;</strong> BitGo now trades at a ~$0.94B market cap and a ~$1.23B enterprise value, about 6.5x its ~$188M
+fee revenue <span class="tag">S45, S46, S82</span>; Copper
+is drawing offers at 8% of its peak valuation <span class="tag">S47</span>. The football field gives precedents a 20%
+weight and still lands at 7.5x ARR. Even the top of the precedent range (15x on BVNK) is below
+18.2x.</li>
+<li><strong>&quot;Why 24.9% and not 26% or 30%?&quot;</strong> Below 25% there is no power to block a special resolution,
+the stake stays under CCI's material-influence line for minority exemptions, and it signals
+non-control to clients and RBI. At 20% or more Paytm still gets significant influence and equity
+accounting <span class="tag">S114</span>.</li>
+<li><strong>&quot;Why would the founders accept a minority when a consortium wants control?&quot;</strong> Independence
+protects their ARR; they get ₹250 Cr of growth capital, ₹150 Cr of liquidity for early holders,
+and a route to a ₹4,016 Cr headline valuation for delivered ARR. Control by a consumer-wallet
+owner puts 30% to 45% of their ARR at risk <span class="tag">C §3.1</span>.</li>
+<li><strong>&quot;What if RBI applies the drag to your minority?&quot;</strong> Then the deal does not happen. RBI comfort
+is a condition precedent. Stress-tested, a proportional drag would take NPV to −₹996 Cr, which is
+exactly why we will not proceed without the letter.</li>
+<li><strong>&quot;Isn't the MDR a reason to do the deal?&quot;</strong> No. Paytm earns it in every path. It offsets 15% of
+the drag.</li>
+<li><strong>&quot;Why not just license?&quot;</strong> A licence dies on a change of control. Equity plus a ROFR is what
+makes the licence durable.</li>
+<li><strong>&quot;What does the option cost you?&quot;</strong> Nothing beyond the fair price of the stake. The strike is
+fair value at exercise, so the option's value is the right to decide later, not a bargain price.</li>
+<li><strong>&quot;Your churn assumptions for the minority are unvalidated.&quot;</strong> Correct, and we say so. The
+Customer Validation Plan and client comfort letters are conditions precedent. The recommendation
+survives up to 57.6% churn.</li>
+<li><strong>&quot;What if the consortium also walks?&quot;</strong> Liminal stays independent with Paytm as its largest
+strategic shareholder, which is the base case.</li>
+<li><strong>&quot;Walk-away has an NPV of zero and no risk. Why not that?&quot;</strong> It forgoes ₹406 Cr of synergy and
+build value and leaves Liminal open to the consortium. The minority is NPV-positive and keeps
+both.</li>
+<li><strong>&quot;Why is the JV worse than the minority?&quot;</strong> Joint control attracts half the drag (₹375 Cr/yr)
+and offers no block on the consortium; even with zero drag it is slightly negative.</li>
+<li><strong>&quot;The case says AA-. Your research says there is no CRISIL rating.&quot;</strong> The case governs. Either
+way, our structure leaves every credit metric unchanged.</li>
+<li><strong>&quot;How do you handle the WazirX history?&quot;</strong> An independent forensic review is a condition
+precedent. The Grant Thornton audit placed the breach outside Liminal <span class="tag">S34</span>, but the Delhi Police
+allegation on logs <span class="tag">S36</span> needs closing.</li>
+<li><strong>&quot;Why invest in the Indian entity?&quot;</strong> Because One97 would likely fail the ODI three-year profit
+test for a foreign stake <span class="tag">S97</span>, and Liminal's case clients are Indian.</li>
+<li><strong>&quot;What is the single number that decides this?&quot;</strong> ₹750 Cr a year. It is larger than Liminal's
+ARR and Paytm's PAT. Only non-control removes it.</li>
+<li><strong>&quot;Why not an all-equity full deal? It halves the dilution.&quot;</strong> Financing changes EPS, not value.
+Every mix has the same −₹7,638 Cr NPV.</li>
+<li><strong>&quot;What if Liminal's ARR is lower than ₹220 Cr?&quot;</strong> Quality of earnings is a CP; closing ARR
+below ₹200 Cr is a walk-away trigger.</li>
+<li><strong>&quot;Can the Board still get control if the market opens up?&quot;</strong> Yes, via the option in months 30 to
+42, at fair value, once the five gates hold.</li>
+<li><strong>&quot;Is the ₹400 Cr stake itself value-destroying at bear case?&quot;</strong> Slightly: −₹113 Cr in bear
+against +₹211 Cr in base, probability-weighted +₹128 Cr. The downside is bounded at the stake
+price, protected by a liquidation preference.</li>
+<li><strong>&quot;How do you know the drag would not apply to the consortium?&quot;</strong> We do not claim to know. We
+infer from the case logic that an RBI-regulated PA and wallet issuer would face comparable
+scrutiny. That is why we treat it as a risk to the consortium, not a certainty.</li>
+</ol>
+<hr />
+<h2 id="appendix-a-bibliography">Appendix A: Bibliography</h2>
+<p>All sources accessed 23 to 24 September 2026. Where a primary page was blocked, the fact was taken
+from a reputable secondary report of it, and that report is the one cited. Raw fact tables with
+verbatim snippets are in <span class="code">research/raw/</span>.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Source</th>
+<th>URL</th>
+<th>Used in §</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01</td>
+<td>PayU (2026) 'UPI MDR 2026: What the new 0.4% charge means for businesses'</td>
+<td>https://payu.in/blog/upi-mdr-2026-what-the-new-charge-means-for-businesses/</td>
+<td>3.4</td>
+</tr>
+<tr>
+<td>S02</td>
+<td>Vajiram &amp; Ravi (2026) 'UPI merchant charges above ₹2,000, new MDR rules from 15th October'</td>
+<td>https://vajiramandravi.com/current-affairs/upi-mdr-2026/</td>
+<td>3.4</td>
+</tr>
+<tr>
+<td>S03</td>
+<td>Inc42 (2026) 'UPI in August: Navi's market share climbs to 4.4%, PhonePe and Google Pay slip'</td>
+<td>https://inc42.com/buzz/upi-in-august-navis-market-share-climbs-to-4-4-phonepe-google-pay-slip/</td>
+<td>3.2, 6.4</td>
+</tr>
+<tr>
+<td>S04</td>
+<td>Entrackr (2026) 'August marks all-time high UPI transactions for PhonePe and Google Pay'</td>
+<td>https://entrackr.com/news/august-marks-all-time-high-upi-transactions-for-phonepe-and-google-pay-10065606</td>
+<td>3.2</td>
+</tr>
+<tr>
+<td>S05</td>
+<td>One97 Communications (2026) 'Earnings Release Q1 FY2027'</td>
+<td>https://paytm.com/document/ir/financial-results/Paytm_Earning-Release_Q1-FY-2027.pdf</td>
+<td>3.1</td>
+</tr>
+<tr>
+<td>S06</td>
+<td>One97 Communications (2026) 'Paytm FY2026 results: full year profitability with PAT at ₹552 Cr'</td>
+<td>https://paytm.com/support/investor-relations/paytm-fy-2026-results-full-year-profitability-with-pat-at-552-cr-revenue-grows-to-8437-cr</td>
+<td>3.1, 12.1</td>
+</tr>
+<tr>
+<td>S07</td>
+<td>One97 Communications (2026) 'Earnings Release Q4 FY2026'</td>
+<td>https://paytm.com/document/ir/financial-results/Paytm_Earnings-Release_Q4_FY-2026_Final.pdf</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S08</td>
+<td>Reserve Bank of India (2024) 'Action against Paytm Payments Bank Ltd under Section 35A', press release 2023-2024/1774, 31 Jan</td>
+<td>https://fidcindia.org.in/wp-content/uploads/2024/02/RBI-PAYTM-PAYMENTS-BANK-31-01-24.pdf</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S09</td>
+<td>Reserve Bank of India (2024) 'Action against Paytm Payments Bank Ltd under Section 35A', 16 Feb</td>
+<td>https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57345</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S10</td>
+<td>Reserve Bank of India (2026) 'RBI cancels the licence of Paytm Payments Bank Limited', press release 2026-2027/143</td>
+<td>https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62621</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S11</td>
+<td>Outlook Money (2025) 'RBI clears Paytm arm PPSL as payment aggregator for offline, cross-border transactions'</td>
+<td>https://www.outlookmoney.com/banking/rbi-clears-paytm-arm-ppsl-as-payment-aggregator-for-offline-crossborder-transactions</td>
+<td>3.3, 4</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>YourStory (2025) 'RBI grants Paytm's PPSL final approval to operate as payment aggregator'</td>
+<td>https://yourstory.com/2025/11/rbi-paytm-ppsl-final-approval-payment-aggregator</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S13</td>
+<td>One97 Communications (2026) 'Is Paytm an Indian company? Here's what our latest shareholding tells you'</td>
+<td>https://paytm.com/blog/investor-relations/paytm-becomes-an-indian-owned-and-controlled-company/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S14</td>
+<td>Trendlyne (2026) 'One97 Communications latest shareholding pattern'</td>
+<td>https://trendlyne.com/equity/share-holding/712312/PAYTM/latest/one97-communications-ltd/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S15</td>
+<td>Screener.in (2026) 'One 97 Communications Ltd, consolidated'</td>
+<td>https://www.screener.in/company/PAYTM/consolidated/</td>
+<td>3.1</td>
+</tr>
+<tr>
+<td>S16</td>
+<td>Business Standard (2025) 'Paytm reports consolidated loss of ₹539.8 crore in Q4FY25'</td>
+<td>https://www.business-standard.com/companies/news/paytm-reports-consolidated-loss-of-539-8-crore-in-q4fy25-revenue-drops-125050601502_1.html</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S17</td>
+<td>Inc42 (2026) 'PhonePe DRHP: a look at shareholding pattern and key executives'</td>
+<td>https://inc42.com/buzz/phonepe-drhp-a-look-at-shareholding-pattern-key-executives/</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S18</td>
+<td>TechCrunch (2026) 'Walmart-backed PhonePe shelves IPO as global tensions rattle markets'</td>
+<td>https://techcrunch.com/2026/03/16/walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets/</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S19</td>
+<td>PhonePe (2025) 'PhonePe receives final RBI authorization to operate as an online payment aggregator'</td>
+<td>https://www.phonepe.com/press/phonepe-receives-final-rbi-authorization-to-operate-as-an-online-payment-aggregator/</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S20</td>
+<td>PhonePe (2026) 'Grievance Policy' (PPI authorisation)</td>
+<td>https://www.phonepe.com/grievance-policy/</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S21</td>
+<td>ThePrint / PTI (2022) 'RBI lifts restrictions on Mastercard'</td>
+<td>https://theprint.in/economy/rbi-lifts-restrictions-on-mastercard/999399/</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S22</td>
+<td>CoinDesk (2026) 'Mastercard secures New York BitLicense'</td>
+<td>https://www.coindesk.com/business/2026/05/27/mastercard-secures-new-york-bitlicense-to-support-stablecoin-and-digital-payment-infrastructure</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S23</td>
+<td>Mastercard (2026) 'Mastercard to acquire BVNK to connect on-chain payments and fiat rails'</td>
+<td>https://www.mastercard.com/global/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html</td>
+<td>6.2, 6.4, 10.6</td>
+</tr>
+<tr>
+<td>S24</td>
+<td>Business Wire / Mastercard (2026) 'Mastercard completes acquisition of BVNK'</td>
+<td>https://www.businesswire.com/news/home/20260803104450/en/Mastercard-completes-acquisition-of-BVNK-to-advance-global-stablecoin-capabilities</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S25</td>
+<td>CoinDesk (2026) 'Zerohash pursues new funding at more than $1.5 billion valuation after Mastercard drops investment plans'</td>
+<td>https://www.coindesk.com/business/2026/05/19/zerohash-pursues-new-funding-at-more-than-usd1-5-billion-valuation-after-mastercard-drops-investment-plans</td>
+<td>6.2</td>
+</tr>
+<tr>
+<td>S26</td>
+<td>CoinDesk (2026) 'Mastercard said to weigh Zerohash investment after crypto company ends takeover talks'</td>
+<td>https://www.coindesk.com/business/2026/01/16/mastercard-said-to-weigh-zerohash-investment-after-crypto-company-ends-takeover-talks</td>
+<td>6.2, 6.4</td>
+</tr>
+<tr>
+<td>S27</td>
+<td>ClearTax (2026) 'Repo rate 2026: current, reverse, SDF'</td>
+<td>https://cleartax.in/s/repo-rate</td>
+<td>16.2</td>
+</tr>
+<tr>
+<td>S28</td>
+<td>CEIC (2026) 'India Treasury Bills auction: 364 days: implicit yield at cut off'</td>
+<td>https://www.ceicdata.com/en/india/treasury-bills-auction-364-days/treasury-bills-auction-364-days-price-implicit-yield-at-cut-off</td>
+<td>16.2</td>
+</tr>
+<tr>
+<td>S29</td>
+<td>BondScanner (2026) 'Corporate bond interest rates India 2026: rates by rating and sector'</td>
+<td>https://bondscanner.com/blog/corporate-bond-interest-rates-india-2026</td>
+<td>16.2</td>
+</tr>
+<tr>
+<td>S30</td>
+<td>Trading Economics (2026) 'India 10-year government bond yield'</td>
+<td>https://tradingeconomics.com/india/government-bond-yield</td>
+<td>7.1, 16.2</td>
+</tr>
+<tr>
+<td>S31</td>
+<td>Damodaran, A. (2026) 'Country default spreads and risk premiums', January update, NYU Stern</td>
+<td>https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html</td>
+<td>7.1, 16.2</td>
+</tr>
+<tr>
+<td>S32</td>
+<td>TradingView (2026) 'NSE:PAYTM' beta, with stockanalysis.com PAYTM statistics</td>
+<td>https://in.tradingview.com/symbols/NSE-PAYTM/</td>
+<td>7.1</td>
+</tr>
+<tr>
+<td>S33</td>
+<td>CoinDesk (2024) 'WazirX, Liminal Custody blame each other as $230M crypto exploit leaves customers stranded'</td>
+<td>https://www.coindesk.com/business/2024/07/19/wazirx-liminal-custody-blame-each-other-as-230m-crypto-exploit-leaves-customers-stranded</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>S34</td>
+<td>Benzinga (2024) 'Liminal Custody not responsible for $230M WazirX hack: audit finds'</td>
+<td>https://benzinga.com/content/40782223/liminal-custody-not-responsible-for-230-wazirx-hack-audit-finds</td>
+<td>5.5, 18</td>
+</tr>
+<tr>
+<td>S35</td>
+<td>CoinDesk (2024) 'WazirX ends custody relationship with Liminal'</td>
+<td>https://www.coindesk.com/business/2024/08/14/wazirx-ends-custody-relationship-with-liminal-is-moving-funds-to-new-multisig-wallets</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>S36</td>
+<td>The Crypto Times (2024) 'Delhi Police files chargesheet in court for WazirX hack, Liminal to be probed'</td>
+<td>https://www.cryptotimes.io/2024/11/18/delhi-police-files-chargesheet-in-court-for-wazirx-hack-liminal-to-be-probed/</td>
+<td>5.5, 12.2, 18</td>
+</tr>
+<tr>
+<td>S37</td>
+<td>CoinDesk (2025) 'WazirX restructuring cleared'</td>
+<td>https://www.coindesk.com/markets/2025/10/13/wazirx-restructuring-cleared-in-massive-relief-for-usd230m-hack-victims</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>S38</td>
+<td>CoinDesk via Yahoo Finance (2024) 'Custody provider Liminal wins approval' (FIU-IND registration; CBI mandate)</td>
+<td>https://finance.yahoo.com/news/custody-provider-liminal-wins-approval-094912440.html</td>
+<td>5.1, 5.4, 10.1</td>
+</tr>
+<tr>
+<td>S39</td>
+<td>ADGM FSRA (2025) Public register: First Answer Middle East Limited (FSP 220125), status withdrawn</td>
+<td>https://www.adgm.com/public-registers/fsra/firms/financial-firms/first-answer-middle-east-limited-liminal-220125</td>
+<td>5.1, 5.5, 12.2</td>
+</tr>
+<tr>
+<td>S40</td>
+<td>Liminal Custody (2024) 'Liminal granted an initial approval from VARA in Dubai'</td>
+<td>https://www.liminalcustody.com/blog/liminal-granted-an-initial-approval-from-virtual-asset-regulatory-authority-vara-in-dubai/</td>
+<td>5.1</td>
+</tr>
+<tr>
+<td>S41</td>
+<td>PR Newswire (2026) 'Liminal Custody crosses $100 billion in total transaction volume'</td>
+<td>https://www.prnewswire.com/news-releases/liminal-custody-crosses-100-billion-in-total-transaction-volume-302706024.html</td>
+<td>5.1</td>
+</tr>
+<tr>
+<td>S42</td>
+<td>Business Wire (2022) 'Liminal raises $4.7 million seed round led by Elevation Capital'</td>
+<td>https://www.businesswire.com/news/home/20220531006014/en/Liminal-Raises-%244.7-Million-Seed-Round-Led-By-Elevation-Capital</td>
+<td>5.1, 11.1</td>
+</tr>
+<tr>
+<td>S43</td>
+<td>Tracxn (2026) 'Liminal company profile'</td>
+<td>https://tracxn.com/d/companies/liminal/__zEqcRH4sCuxNoLj3nMqDlI4hb-H90ZV0p7iraq6FIBk</td>
+<td>5.1, 5.5</td>
+</tr>
+<tr>
+<td>S44</td>
+<td>CoinDesk (2026) 'BitGo prices IPO at $18'</td>
+<td>https://www.coindesk.com/markets/2026/01/21/bitgo-prices-ipo-at-usd18-pitching-custody-growth-over-crypto-trading-swings</td>
+<td>6.1</td>
+</tr>
+<tr>
+<td>S45</td>
+<td>BitGo Holdings (2026) FY2025 results, SEC Exhibit 99.1</td>
+<td>https://www.sec.gov/Archives/edgar/data/1740604/000174060426000017/btgo-exhibit991.htm</td>
+<td>6.1, 18</td>
+</tr>
+<tr>
+<td>S46</td>
+<td>CompaniesMarketCap (2026) 'BitGo market cap'</td>
+<td>https://companiesmarketcap.com/bitgo/marketcap/</td>
+<td>5.4, 6.1, 18</td>
+</tr>
+<tr>
+<td>S47</td>
+<td>CoinDesk (2026) 'Crypto custody firm Copper has potential buyers but offers are way below its $500 million ask'</td>
+<td>https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-ask</td>
+<td>5.4, 6.1, 18</td>
+</tr>
+<tr>
+<td>S48</td>
+<td>Fireblocks (2022) 'Fireblocks surpasses $100 million ARR milestone'</td>
+<td>https://www.fireblocks.com/press/fireblocks-surpasses-100-million-arr-milestone-cementing-its-status-as-saas-centaur</td>
+<td>5.4, 6.1</td>
+</tr>
+<tr>
+<td>S49</td>
+<td>Office of the Comptroller of the Currency (2021) Conditional approval for Anchorage Digital, NR 2021-6</td>
+<td>https://www.occ.gov/news-issuances/news-releases/2021/nr-occ-2021-6.html</td>
+<td>6.1</td>
+</tr>
+<tr>
+<td>S50</td>
+<td>The Crypto Times (2026) 'Standard Chartered confirms acquisition of Zodia Custody crypto unit'</td>
+<td>https://www.cryptotimes.io/2026/05/18/standard-chartered-confirms-acquisition-of-zodia-custody-crypto-unit/</td>
+<td>5.4, 6.1, 11.1, 13</td>
+</tr>
+<tr>
+<td>S51</td>
+<td>Ledger Insights (2023) 'Citi reconsidering Metaco digital asset custody'</td>
+<td>https://www.ledgerinsights.com/citi-digital-asset-custody-metaco-reconsidering/</td>
+<td>11.1</td>
+</tr>
+<tr>
+<td>S52</td>
+<td>CoinDesk (2023) 'Ripple edges closer to banks via crypto custody firm Metaco'</td>
+<td>https://www.coindesk.com/business/2023/11/27/ripple-edges-closer-to-banks-via-crypto-custody-firm-metaco</td>
+<td>11.1</td>
+</tr>
+<tr>
+<td>S53</td>
+<td>Mastercard (2020) 'Mastercard to acquire Finicity to advance open banking strategy'</td>
+<td>https://investor.mastercard.com/investor-news/investor-news-details/2020/Mastercard-to-Acquire-Finicity-to-Advance-Open-Banking-Strategy/default.aspx</td>
+<td>11.1</td>
+</tr>
+<tr>
+<td>S54</td>
+<td>CNBC (2021) 'Visa abandons takeover of Plaid after DOJ raises antitrust concerns'</td>
+<td>https://www.cnbc.com/2021/01/12/visa-abandons-takeover-of-plaid-after-doj-raises-antitrust-concerns.html</td>
+<td>11.1</td>
+</tr>
+<tr>
+<td>S55</td>
+<td>Chainalysis (2025) '2025 Global Crypto Adoption Index'</td>
+<td>https://www.chainalysis.com/blog/2025-global-crypto-adoption-index/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S56</td>
+<td>KoinX (2026) 'India TDS on crypto statistics' (citing Ministry of Finance Rajya Sabha replies)</td>
+<td>https://www.koinx.com/stats/india-tds-on-crypto-statistics</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S57</td>
+<td>The Cryptonomist (2026) 'India crypto regulation: RBI's prohibition stance and market impact'</td>
+<td>https://en.cryptonomist.ch/2026/07/08/india-crypto-regulation-rbi/</td>
+<td>3.3, 4, 12.4</td>
+</tr>
+<tr>
+<td>S58</td>
+<td>The Coin Republic (2026) 'RBI pushes banks away from stablecoins'</td>
+<td>https://www.thecoinrepublic.com/2026/07/06/crypto-regulation-news-rbi-pushes-banks-away-from-stablecoins/</td>
+<td>4, 11.1</td>
+</tr>
+<tr>
+<td>S59</td>
+<td>Business Upturn (2026) 'Digital rupee in circulation falls 24% to ₹771.7 crore' (reporting RBI Annual Report 2025-26)</td>
+<td>https://www.businessupturn.com/sectors/banking/digital-rupee-in-circulation-falls-24-to-rs-771-7-crore-even-as-rbi-expands-cbdc-pilots</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S60</td>
+<td>Business Standard (2025) 'Retail CBDC transactions hit 120 mn, value crosses ₹28,000 crore: RBI DG'</td>
+<td>https://www.business-standard.com/amp/finance/news/retail-cbdc-transactions-hit-120-mn-value-crosses-28-000-crore-rbi-dg-125120501178_1.html</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S61</td>
+<td>Electronic Payments International (2025) 'MobiKwik, CRED e-rupee wallets'</td>
+<td>https://www.electronicpaymentsinternational.com/news/mobikwik-cred-e-rupee-wallets/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S62</td>
+<td>Ledger Insights (2024) 'Google Pay, Walmart-backed PhonePe to join India's CBDC pilot'</td>
+<td>https://www.ledgerinsights.com/google-pay-walmart-backed-phonepe-to-join-indias-cbdc-pilot/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S63</td>
+<td>IBTimes India / IANS (2026) 'RBI expands e-rupee pilots, starts tokenised CD trial'</td>
+<td>https://www.ibtimes.co.in/rbi-expands-e-rupee-pilots-starts-tokenised-credit-deposit-trial-902456</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S64</td>
+<td>Deccan Chronicle (2026) 'RBI considering gold tokenisation, says RBI executive director at GFF'</td>
+<td>https://www.deccanchronicle.com/business/economics/rbi-considering-gold-tokenisation-says-rbi-exec-director-at-gff-1986165</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S65</td>
+<td>SEBI (2026) FAQs on the Demat 2.0 tokenised bond pilot</td>
+<td>https://www.sebi.gov.in/sebi_data/faqfiles/sep-2026/1789049630065.pdf</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S66</td>
+<td>Nexus Global Payments (2026) 'Nexus Global Payments appoints technical operator'</td>
+<td>https://www.nexusglobalpayments.org/nexus-global-payments-appoints-technical-operator/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S67</td>
+<td>Press Information Bureau (2026) Ministry of Finance release on UPI international presence, 6 Feb</td>
+<td>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224505&amp;reg=3&amp;lang=2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S68</td>
+<td>Citi Institute (2026) 'Tokenization 2030' GPS report</td>
+<td>https://www.citigroup.com/rcs/citigpa/storage/public/Citi_Institute_GPS_Report_Tokenization_2030.pdf</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S69</td>
+<td>Ledger Insights (2024) 'McKinsey estimates tokenization will be less than $2 trillion by 2030'</td>
+<td>https://www.ledgerinsights.com/mckinsey-estimates-tokenization-will-be-less-than-2-trillion-by-2030/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S70</td>
+<td>Ripple and BCG (2025) 'Global financial infrastructure entering a new era'</td>
+<td>https://ripple.com/ripple-press/global-financial-infrastructure-entering-a-new-era/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S71</td>
+<td>KuCoin News (2026) 'Tokenized RWA market surpasses $38 billion' (citing rwa.xyz)</td>
+<td>https://www.kucoin.com/news/flash/tokenized-rwa-market-surpasses-38-billion-shifts-focus-to-utility</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S72</td>
+<td>News On AIR (2025) 'Remittances by Indians working abroad scale record high of $135 billion in FY25'</td>
+<td>https://www.newsonair.gov.in/remittances-by-indians-working-abroad-scale-record-high-of-135-billion-in-fy25/</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S73</td>
+<td>The Tribune (2026) 'India's net private transfers rise to record $144.8 billion in FY25-26'</td>
+<td>https://www.tribuneindia.com/news/business/indias-net-private-transfers-rise-to-record-usd-144-8-billion-in-fy25-26-centre-says-no-war-wise-</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S74</td>
+<td>World Bank (2026) World Development Indicators, personal remittances received (BX.TRF.PWKR.CD.DT)</td>
+<td>https://api.worldbank.org/v2/country/IN;WLD/indicator/BX.TRF.PWKR.CD.DT?format=json&amp;per_page=30&amp;date=2020:2025</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S75</td>
+<td>World Bank (2026) Average cost of remittances to India (SI.RMT.COST.IB.ZS)</td>
+<td>https://api.worldbank.org/v2/country/IN/indicator/SI.RMT.COST.IB.ZS?format=json&amp;per_page=20</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S76</td>
+<td>World Bank (2026) Remittance Prices Worldwide, Q3 2025 report</td>
+<td>https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S77</td>
+<td>IFSCA (2025) 'Consultation paper on regulatory approach towards tokenization of real-world assets'</td>
+<td>https://ifsca.gov.in/Document/ReportandPublication/ifsca-consultation-paper-on-regulatory-approach-towards-tokenization-of-real-world-assets</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S78</td>
+<td>stockanalysis.com (2026) PB Fintech statistics</td>
+<td>https://stockanalysis.com/quote/nse/POLICYBZR/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S79</td>
+<td>stockanalysis.com (2026) Pine Labs statistics</td>
+<td>https://stockanalysis.com/quote/nse/PINELABS/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S80</td>
+<td>stockanalysis.com (2026) Coinbase statistics</td>
+<td>https://stockanalysis.com/stocks/coin/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S81</td>
+<td>stockanalysis.com (2026) Adyen statistics</td>
+<td>https://stockanalysis.com/quote/ams/ADYEN/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S82</td>
+<td>stockanalysis.com (2026) BitGo statistics</td>
+<td>https://stockanalysis.com/stocks/btgo/statistics/</td>
+<td>7.3, 18</td>
+</tr>
+<tr>
+<td>S83</td>
+<td>stockanalysis.com (2026) PayPal statistics</td>
+<td>https://stockanalysis.com/stocks/pypl/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S84</td>
+<td>stockanalysis.com and Screener.in (2026) MobiKwik, Zaggle and Infibeam statistics</td>
+<td>https://stockanalysis.com/quote/nse/MOBIKWIK/statistics/ ; https://stockanalysis.com/quote/nse/ZAGGLE/statistics/ ; https://stockanalysis.com/quote/nse/INFIBEAM/statistics/</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>S85</td>
+<td>Architect Partners (2025) 'Ripple / Hidden Road M&amp;A alert'</td>
+<td>https://architectpartners.com/wp-content/uploads/2025/04/Ripple-_-Hidden-Road-MA-Alert.pdf</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S86</td>
+<td>Architect Partners (2025) 'Coinbase acquiring Deribit for $2.9B'</td>
+<td>https://architectpartners.com/coinbase-acquiring-deribit-for-2-9b/</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S87</td>
+<td>Architect Partners (2026) 'Mastercard acquires BVNK for up to $1.8B'</td>
+<td>https://architectpartners.com/mastercard-acquires-bvnk-for-up-to-1-8b/</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S88</td>
+<td>The Block (2025) 'Robinhood Bitstamp acquisition', with Robinhood's revenue disclosure</td>
+<td>https://www.theblock.co/post/356701/robinhood-bitstamp-acquisition</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S89</td>
+<td>Ripple (2023) 'Ripple acquires custody provider Metaco for $250M'</td>
+<td>https://ripple.com/ripple-press/leading-enterprise-crypto-company-ripple-acquires-custody-provider-metaco-for-250m/</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S90</td>
+<td>TechCrunch (2025) 'Stripe makes $1.1 billion crypto bet as it closes on Bridge acquisition'</td>
+<td>https://techcrunch.com/2025/02/05/stripe-makes-1-1-billion-crypto-bet-as-it-closes-on-bridge-acquisition/</td>
+<td>7.4</td>
+</tr>
+<tr>
+<td>S91</td>
+<td>Morgan Lewis (2024) 'Competition Commission of India provides updated deal value threshold'</td>
+<td>https://www.morganlewis.com/pubs/2024/09/competition-commission-of-india-provides-updated-deal-value-threshold</td>
+<td>12.3, 12.5</td>
+</tr>
+<tr>
+<td>S92</td>
+<td>AZB &amp; Partners (2024) 'Deal value threshold'</td>
+<td>https://www.azbpartners.com/bank/deal-value-threshold/</td>
+<td>12.3</td>
+</tr>
+<tr>
+<td>S93</td>
+<td>Shardul Amarchand Mangaldas (2024) 'CCI revised deal value threshold regulations explained'</td>
+<td>https://www.amsshardul.com/insight/cci-revised-deal-value-threshold-regulations-explained/</td>
+<td>12.3</td>
+</tr>
+<tr>
+<td>S94</td>
+<td>Nishith Desai Associates (2025) Hotline on CCI merger control FAQs, September update</td>
+<td>https://nishithdesai.com/fileadmin/user_upload/Html/Hotline/Article_Sep1225-M.html</td>
+<td>12.3</td>
+</tr>
+<tr>
+<td>S95</td>
+<td>Trilegal (2024) 'New era for Indian merger control begins on 10 September 2024'</td>
+<td>https://trilegal.com/wp-content/uploads/2024/09/Trilegal-Update_New-Era-for-Indian-Merger-Control-Begins-on-10-September-2024.pdf</td>
+<td>12.3, 12.5</td>
+</tr>
+<tr>
+<td>S96</td>
+<td>Cyril Amarchand Mangaldas (2024) 'Demystifying the revised merger exemptions'</td>
+<td>https://www.cyrilshroff.com/wp-content/uploads/2024/09/Client-Alert-Demystifying-the-revised-merger-exemptions.pdf</td>
+<td>12.3</td>
+</tr>
+<tr>
+<td>S97</td>
+<td>Foreign Exchange Management (Overseas Investment) Rules 2022, G.S.R. 646(E), text via LegitQuest</td>
+<td>https://www.legitquest.com/act/foreign-exchange-management-overseas-investment-rules-2022/C409</td>
+<td>12.1, 18</td>
+</tr>
+<tr>
+<td>S98</td>
+<td>AZB &amp; Partners (2022) 'New overseas direct investment regime: key changes and the road ahead'</td>
+<td>https://www.azbpartners.com/bank/new-overseas-direct-investment-regime-key-changes-and-the-road-ahead/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S99</td>
+<td>SCC Online Blog (2026) 'FEMA overseas investment rules 2022: enforcement analysis'</td>
+<td>https://www.scconline.com/blog/post/2026/07/18/fema-overseas-investment-rules-2022-enforcement-analysis/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S100</td>
+<td>ThePrint (2025) 'Why ED sent ₹611 crore FEMA violation show-cause notice to Paytm parent company'</td>
+<td>https://theprint.in/india/why-ed-sent-rs-611-cr-fema-violation-show-cause-notice-to-paytm-parent-company/2529149/</td>
+<td>3.3, 12.1</td>
+</tr>
+<tr>
+<td>S101</td>
+<td>Business Standard (2026) 'Paytm receives RBI compounding order, company to pay ₹18.76 lakh'</td>
+<td>https://www.business-standard.com/companies/news/paytm-receives-rbi-compounding-order-company-to-pay-rs-18-76-lakh-126020301518_1.html</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S102</td>
+<td>Shardul Amarchand Mangaldas (2022) 'Decoding the amended preferential allotment norms'</td>
+<td>https://www.amsshardul.com/insight/decoding-the-amended-preferential-allotment-norms/</td>
+<td>10.2, 12.5</td>
+</tr>
+<tr>
+<td>S103</td>
+<td>Vinod Kothari Consultants (2022) 'FAQs on preferential issue under SEBI ICDR'</td>
+<td>https://vinodkothari.com/2022/10/faqs-on-preferential-issue-of-equity-shares-and-convertible-securities-under-sebi-icdr/</td>
+<td>10.2, 12.5</td>
+</tr>
+<tr>
+<td>S104</td>
+<td>CAIRR (2023) SEBI LODR Schedule III Part A</td>
+<td>https://ca2013.com/schedule/lodr-schedule-iii-part-2/</td>
+<td>12.2</td>
+</tr>
+<tr>
+<td>S105</td>
+<td>National Law Review (2023) 'SEBI's amendments to LODR'</td>
+<td>https://natlawreview.com/article/sebi-s-amendments-to-lodr-increasing-corporate-responsibility-and-governance-india</td>
+<td>12.2</td>
+</tr>
+<tr>
+<td>S106</td>
+<td>ClearTax (2026) 'Section 186 of the Companies Act 2013'</td>
+<td>https://cleartax.in/s/section-186-companies-act-2013</td>
+<td>12.2</td>
+</tr>
+<tr>
+<td>S107</td>
+<td>Majmudar &amp; Partners (2024) 'The impact of India's 18/25 cap on indemnities in cross-border M&amp;A'</td>
+<td>https://www.majmudarindia.com/the-impact-of-indias-18-25-cap-on-indemnities-in-cross-border-ma-transactions/</td>
+<td>10.1</td>
+</tr>
+<tr>
+<td>S108</td>
+<td>TaxGuru (2020) 'Overview of FEMA (Non-Debt Instruments) Rules 2019'</td>
+<td>https://taxguru.in/rbi/overview-foreign-exchange-management-non-debt-instruments-rules-2019.html</td>
+<td>10.1</td>
+</tr>
+<tr>
+<td>S109</td>
+<td>Harchandani &amp; Associates (2025) 'FEMA FDI pricing rules: Rule 21 compliance'</td>
+<td>https://harchandani.in/articles/mastering-fema-fdi-pricing-rules-ultimate-guide-to-rule-21-compliance</td>
+<td>10.1, 12.1, 12.2</td>
+</tr>
+<tr>
+<td>S110</td>
+<td>Reserve Bank of India (2025) Master Direction on Regulation of Payment Aggregators, RBI/DPSS/2025-26/141, 15 Sep</td>
+<td>https://www.fidcindia.org.in/wp-content/uploads/2025/09/RBI-PAYMENT-AGGREGATORS-DIRECTIONS-15-09-25.pdf</td>
+<td>12.1, 12.5</td>
+</tr>
+<tr>
+<td>S111</td>
+<td>IndiaCorpLaw (2025) 'Decoding RBI's overhaul of the payment aggregator directions'</td>
+<td>https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S112</td>
+<td>Retail Banker International (2026) 'Paytm Payments Bank set for winding up after RBI licence revocation'</td>
+<td>https://www.retailbankerinternational.com/news/paytm-payments-bank-set-for-winding-up-after-rbi-licence-revocation/</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>S113</td>
+<td>Ind AS 103 Business Combinations, text via CAIRR</td>
+<td>https://ca2013.com/indian-accounting-standard-ind-103/</td>
+<td>9.8, 12.5</td>
+</tr>
+<tr>
+<td>S114</td>
+<td>Ind AS 28 Investments in Associates and Joint Ventures, text via CAIRR</td>
+<td>https://ca2013.com/indian-accounting-standard-ind-28/</td>
+<td>10.4, 12.2, 18</td>
+</tr>
+<tr>
+<td>S115</td>
+<td>Ind AS 36 Impairment of Assets, text via CAIRR</td>
+<td>https://ca2013.com/indian-accounting-standard-ind-36/</td>
+<td>9.8, 12.5</td>
+</tr>
+<tr>
+<td>S116</td>
+<td>Crisil Ratings (2025) 'Crisil's approach to financial ratios'</td>
+<td>https://www.crisilratings.com/mnt/winshare/Ratings/SectorMethodology/MethodologyDocs/criteria/CRISILs%20Approach%20to%20Financial%20Ratios_1</td>
+<td>10.2, 12.5</td>
+</tr>
+<tr>
+<td>S117</td>
+<td>FIU-IND (2023) AML and CFT guidelines for VDA service providers, 10 Mar</td>
+<td>https://fiuindia.gov.in/pdfs/AML_legislation/AMLCFTguidelines10032023.pdf</td>
+<td>12.6</td>
+</tr>
+<tr>
+<td>S118</td>
+<td>AZB &amp; Partners (2026) 'Client update: FIU guidelines 2026'</td>
+<td>https://www.azbpartners.com/wp-content/uploads/2026/01/Client-Update-FIU-Guidelines-2026-AZB-January-14-2026.pdf</td>
+<td>12.6</td>
+</tr>
+<tr>
+<td>S119</td>
+<td>CERT-In (2022) Directions under section 70B(6) of the IT Act, 28 Apr</td>
+<td>https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf</td>
+<td>12.6</td>
+</tr>
+<tr>
+<td>S120</td>
+<td>Shardul Amarchand Mangaldas (2025) 'Enforcement of the DPDP Act and notification of the DPDP Rules'</td>
+<td>https://www.amsshardul.com/insight/enforcement-of-the-dpdp-act-and-notification-of-the-dpdp-rules/</td>
+<td>12.6</td>
+</tr>
+<tr>
+<td>S121</td>
+<td>Press Information Bureau (2025) DPDP Rules 2025 explainer</td>
+<td>https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf</td>
+<td>12.6</td>
+</tr>
+<tr>
+<td>S122</td>
+<td>Cyril Amarchand Mangaldas blog (2024) 'Share transfer restrictions under SHA: revisiting section 58(2)'</td>
+<td>https://corporate.cyrilamarchandblogs.com/2024/10/share-transfer-restrictions-under-sha-the-need-to-revisit-section-582-of-ca-2013/</td>
+<td>10.1, 12.2</td>
+</tr>
+<tr>
+<td>S123</td>
+<td>SEBI (2013) 'SEBI permits contracts for pre-emption and options in shareholders agreements'</td>
+<td>https://www.sebi.gov.in/media/press-releases/oct-2013/sebi-permits-contracts-for-pre-emption-and-options-in-shareholders-agreements_25486.html</td>
+<td>10.1</td>
+</tr>
+<tr>
+<td>S124</td>
+<td>International Bar Association (2024) 'Are liquidation preference arrangements legally enforceable in India?'</td>
+<td>https://www.ibanet.org/Are-liquidation-preference-arrangements-legally-enforceable-in-India</td>
+<td>10.1, 12.2</td>
+</tr>
+<tr>
+<td>S125</td>
+<td>Outlook Business (2025) 'CCI clears Coinbase's minority stake in CoinDCX parent'</td>
+<td>https://www.outlookbusiness.com/news/cci-clears-coinbases-minority-stake-in-coindcx-parent-valuation-hits-245bn</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>S126</td>
+<td>Elets BFSI (2025) 'PayU acquires 43.5% stake in Mindgate Solutions'</td>
+<td>https://bfsi.eletsonline.com/payu-acquires-43-5-stakes-in-mindgate-solutions/</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>S127</td>
+<td>Upstox News (2026) 'Paytm block deal: Resilient Asset Management proposes to sell up to 4.98% stake'</td>
+<td>https://upstox.com/news/market-news/stocks/paytm-block-deal-resilient-asset-management-proposes-to-sell-up-to-4-98-stake/article-198782/</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>S128</td>
+<td>Business Standard (2026) 'Paytm builds ₹13,529 crore cash pile, eyes organic growth and acquisitions'</td>
+<td>https://www.business-standard.com/companies/news/paytm-builds-13-529-crore-cash-pile-eyes-organic-growth-and-acquisitions-126072101468_1.html</td>
+<td>3.1</td>
+</tr>
+<tr>
+<td>S129</td>
+<td>Coinbase (2018) 'Coinbase Custody receives trust charter from the New York Department of Financial Services'</td>
+<td>https://www.coinbase.com/blog/coinbase-custody-receives-trust-charter-from-the-new-york-department-of</td>
+<td>13</td>
+</tr>
+<tr>
+<td>S130</td>
+<td>The Block (2023) 'Deutsche Bank and Taurus: digital asset custody and tokenization'</td>
+<td>https://www.theblock.co/post/250963/deutsche-bank-taurus-digital-asset-custody-tokenization-services</td>
+<td>5.4</td>
+</tr>
+<tr>
+<td>S131</td>
+<td>CRISIL (2011) 'One 97 Communications Limited IPO grading rationale' (the only CRISIL document found for One97)</td>
+<td>https://www.crisilratings.com/content/dam/crisil/our-businesses/capital-markets/ipo-grading-list/view-rationale/CRISIL-Research_ipo-grading-rat_One97-communications.pdf</td>
+<td>16.1</td>
+</tr>
+<tr>
+<td>S132</td>
+<td>Caplight (2026) 'Hex Trust company profile'</td>
+<td>https://www.caplight.com/company/hex-trust</td>
+<td>6.1</td>
+</tr>
+<tr>
+<td>S133</td>
+<td>MediaNama (2026) 'Why RBI wants cryptocurrencies out of India's banking system'</td>
+<td>https://www.medianama.com/2026/07/223-why-rbi-want-cryptocurrencies-out-indias-banking-system/</td>
+<td>12.4</td>
+</tr>
+<tr>
+<td>S134</td>
+<td>Liminal Custody (2026) Company website (EY Advisory internal audit appointment)</td>
+<td>https://www.liminalcustody.com/</td>
+<td>5.1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-b-model-tables-generated-by-model-satoshi-gate-model-py">Appendix B: Model tables (generated by <span class="code">model/satoshi_gate_model.py</span>)</h2>
+<p>All figures ₹ Cr unless stated. Generated 2026-09-24T00:06:44.</p>
+<h3 id="t1-paytm-baseline-ratios-case-facts">T1. Paytm baseline ratios (case facts)</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Share price (₹)</td>
+<td>1855.47</td>
+</tr>
+<tr>
+<td>Enterprise value</td>
+<td>110200</td>
+</tr>
+<tr>
+<td>P/E (x)</td>
+<td>247.4</td>
+</tr>
+<tr>
+<td>EV/Revenue (x)</td>
+<td>13.04</td>
+</tr>
+<tr>
+<td>EV/EBITDA (x)</td>
+<td>172.2</td>
+</tr>
+<tr>
+<td>EBITDA margin %</td>
+<td>7.6</td>
+</tr>
+<tr>
+<td>Deal / ARR (x)</td>
+<td>18.18</td>
+</tr>
+<tr>
+<td>Deal as % of market cap</td>
+<td>3.37</td>
+</tr>
+<tr>
+<td>MDR post-tax</td>
+<td>86.05</td>
+</tr>
+<tr>
+<td>MDR-adjusted standalone EPS (₹)</td>
+<td>8.845</td>
+</tr>
+<tr>
+<td>MDR EPS uplift vs ₹7.50 %</td>
+<td>17.9</td>
+</tr>
+<tr>
+<td>MDR offset of drag, pre-tax %</td>
+<td>15.3</td>
+</tr>
+<tr>
+<td>MDR offset of drag, post-tax %</td>
+<td>11.5</td>
+</tr>
+<tr>
+<td>Drag / Liminal ARR (x)</td>
+<td>3.41</td>
+</tr>
+<tr>
+<td>Drag as % of Paytm PAT</td>
+<td>156</td>
+</tr>
+<tr>
+<td>Top-4 client ARR</td>
+<td>132</td>
+</tr>
+<tr>
+<td>Earnings yield %</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>Post-tax cash yield %</td>
+<td>4.49</td>
+</tr>
+<tr>
+<td>EPS with MDR at 50% of case value (₹)</td>
+<td>8.172</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t2-implied-multiple-on-surviving-arr">T2. Implied multiple on surviving ARR</h3>
+<table>
+<thead>
+<tr>
+<th>Churn</th>
+<th>Surviving ARR</th>
+<th>Deal / ARR (x)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0%</td>
+<td>220</td>
+<td>18.2</td>
+</tr>
+<tr>
+<td>30.0%</td>
+<td>154.0</td>
+<td>26.0</td>
+</tr>
+<tr>
+<td>37.5%</td>
+<td>137.5</td>
+<td>29.1</td>
+</tr>
+<tr>
+<td>45.0%</td>
+<td>121.0</td>
+<td>33.1</td>
+</tr>
+<tr>
+<td>60.0%</td>
+<td>88.0</td>
+<td>45.5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t3-liminal-standalone-ev-by-scenario-and-churn-dcf-16-5-g-6">T3. Liminal standalone EV by scenario and churn (DCF, 16.5%, g 6%)</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>0.0%</th>
+<th>5.0%</th>
+<th>15.0%</th>
+<th>30.0%</th>
+<th>37.5%</th>
+<th>45.0%</th>
+<th>60.0%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bear</td>
+<td>428</td>
+<td>398</td>
+<td>337</td>
+<td>243</td>
+<td>196</td>
+<td>149</td>
+<td>55</td>
+</tr>
+<tr>
+<td>base</td>
+<td>1391</td>
+<td>1313</td>
+<td>1154</td>
+<td>915</td>
+<td>795</td>
+<td>673</td>
+<td>430</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>2398</td>
+<td>2269</td>
+<td>2009</td>
+<td>1615</td>
+<td>1418</td>
+<td>1221</td>
+<td>822</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t4-bear-liminal-p-l-path-bear-no-churn">T4-bear. Liminal P&amp;L path, bear, no churn</h3>
+<table>
+<thead>
+<tr>
+<th>FY</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>268.4</td>
+<td>322.1</td>
+<td>380.1</td>
+<td>440.9</td>
+<td>502.6</td>
+<td>562.9</td>
+<td>624.8</td>
+<td>687.3</td>
+<td>749.2</td>
+<td>809.1</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>10.7</td>
+<td>29.0</td>
+<td>49.4</td>
+<td>74.9</td>
+<td>100.5</td>
+<td>123.8</td>
+<td>143.7</td>
+<td>165.0</td>
+<td>187.3</td>
+<td>202.3</td>
+</tr>
+<tr>
+<td>PAT</td>
+<td>0.0</td>
+<td>12.1</td>
+<td>25.6</td>
+<td>42.9</td>
+<td>60.2</td>
+<td>75.8</td>
+<td>88.8</td>
+<td>102.9</td>
+<td>117.7</td>
+<td>127.1</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td>-3.7</td>
+<td>7.8</td>
+<td>20.6</td>
+<td>37.3</td>
+<td>53.9</td>
+<td>69.0</td>
+<td>81.3</td>
+<td>94.7</td>
+<td>109.0</td>
+<td>117.9</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t4-base-liminal-p-l-path-base-no-churn">T4-base. Liminal P&amp;L path, base, no churn</h3>
+<table>
+<thead>
+<tr>
+<th>FY</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>297.0</td>
+<td>392.0</td>
+<td>501.8</td>
+<td>627.3</td>
+<td>765.3</td>
+<td>918.3</td>
+<td>1083.6</td>
+<td>1257.0</td>
+<td>1433.0</td>
+<td>1604.9</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>23.8</td>
+<td>62.7</td>
+<td>115.4</td>
+<td>181.9</td>
+<td>252.5</td>
+<td>330.6</td>
+<td>400.9</td>
+<td>477.7</td>
+<td>544.5</td>
+<td>609.9</td>
+</tr>
+<tr>
+<td>PAT</td>
+<td>8.9</td>
+<td>35.2</td>
+<td>71.3</td>
+<td>117.3</td>
+<td>166.1</td>
+<td>219.9</td>
+<td>267.6</td>
+<td>319.8</td>
+<td>364.6</td>
+<td>408.3</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td>4.4</td>
+<td>29.4</td>
+<td>64.1</td>
+<td>108.6</td>
+<td>155.7</td>
+<td>207.7</td>
+<td>253.4</td>
+<td>303.8</td>
+<td>346.7</td>
+<td>388.8</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t4-bull-liminal-p-l-path-bull-no-churn">T4-bull. Liminal P&amp;L path, bull, no churn</h3>
+<table>
+<thead>
+<tr>
+<th>FY</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revenue</td>
+<td>330.0</td>
+<td>478.5</td>
+<td>660.3</td>
+<td>871.6</td>
+<td>1107.0</td>
+<td>1361.6</td>
+<td>1633.9</td>
+<td>1911.7</td>
+<td>2198.4</td>
+<td>2484.2</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>33.0</td>
+<td>95.7</td>
+<td>184.9</td>
+<td>296.4</td>
+<td>420.7</td>
+<td>544.6</td>
+<td>669.9</td>
+<td>802.9</td>
+<td>923.3</td>
+<td>1043.4</td>
+</tr>
+<tr>
+<td>PAT</td>
+<td>14.8</td>
+<td>57.3</td>
+<td>118.6</td>
+<td>195.7</td>
+<td>281.6</td>
+<td>366.8</td>
+<td>452.4</td>
+<td>543.6</td>
+<td>625.1</td>
+<td>706.4</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td>9.3</td>
+<td>49.5</td>
+<td>108.4</td>
+<td>182.7</td>
+<td>265.9</td>
+<td>348.1</td>
+<td>430.6</td>
+<td>518.9</td>
+<td>597.4</td>
+<td>675.8</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t5-dcf-sensitivity-base-no-churn-wacc-rows-x-terminal-growth-columns">T5. DCF sensitivity, base, no churn (WACC rows x terminal growth columns)</h3>
+<table>
+<thead>
+<tr>
+<th>WACC</th>
+<th>5.0%</th>
+<th>5.5%</th>
+<th>6.0%</th>
+<th>6.5%</th>
+<th>7.0%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15.0%</td>
+<td>1696</td>
+<td>1754</td>
+<td>1819</td>
+<td>1891</td>
+<td>1972</td>
+</tr>
+<tr>
+<td>16.0%</td>
+<td>1489</td>
+<td>1533</td>
+<td>1582</td>
+<td>1636</td>
+<td>1696</td>
+</tr>
+<tr>
+<td>17.0%</td>
+<td>1319</td>
+<td>1353</td>
+<td>1391</td>
+<td>1432</td>
+<td>1477</td>
+</tr>
+<tr>
+<td>18.0%</td>
+<td>1178</td>
+<td>1205</td>
+<td>1234</td>
+<td>1266</td>
+<td>1300</td>
+</tr>
+<tr>
+<td>19.0%</td>
+<td>1058</td>
+<td>1080</td>
+<td>1103</td>
+<td>1128</td>
+<td>1155</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t6-synergy-pv-full-ownership-basis">T6. Synergy PV (full ownership basis)</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Revenue synergy PV</th>
+<th>Build avoided PV</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bear</td>
+<td>76</td>
+<td>193</td>
+<td>269</td>
+</tr>
+<tr>
+<td>base</td>
+<td>213</td>
+<td>193</td>
+<td>406</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>335</td>
+<td>193</td>
+<td>529</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t7-npv-by-path-and-scenario">T7. NPV by path and scenario</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Full acquisition</th>
+<th>24.9% minority</th>
+<th>JV</th>
+<th>Walk away</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bear</td>
+<td>-8374</td>
+<td>-113</td>
+<td>-2613</td>
+<td>0</td>
+</tr>
+<tr>
+<td>base</td>
+<td>-7638</td>
+<td>211</td>
+<td>-2544</td>
+<td>0</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>-6892</td>
+<td>204</td>
+<td>-2483</td>
+<td>0</td>
+</tr>
+<tr>
+<td>probability-weighted</td>
+<td>-7636</td>
+<td>128</td>
+<td>-2546</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t8-bear-eps-path-bear">T8-bear. EPS path (₹), bear</h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full (M1)</td>
+<td>4.687</td>
+<td>5.91</td>
+<td>6.425</td>
+<td>6.551</td>
+<td>6.677</td>
+<td>6.787</td>
+<td>6.849</td>
+<td>6.921</td>
+<td>7.0</td>
+<td>7.027</td>
+</tr>
+<tr>
+<td>Minority</td>
+<td>8.752</td>
+<td>8.816</td>
+<td>8.91</td>
+<td>9.007</td>
+<td>9.104</td>
+<td>9.194</td>
+<td>9.259</td>
+<td>9.327</td>
+<td>9.398</td>
+<td>9.449</td>
+</tr>
+<tr>
+<td>JV</td>
+<td>8.798</td>
+<td>8.798</td>
+<td>9.055</td>
+<td>9.078</td>
+<td>9.102</td>
+<td>9.125</td>
+<td>9.137</td>
+<td>9.149</td>
+<td>9.16</td>
+<td>9.172</td>
+</tr>
+<tr>
+<td>Walk away</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+</tr>
+</tbody>
+</table>
+<p>Full: PAT breakeven never (10 yrs), FCF breakeven never (10 yrs), cumulative operating FCF FY27 to FY36 -7294, Paytm cash FY27 to FY31 [6427, 6134, 5873, 5621, 5376].<br />
+Minority: PAT breakeven 2029, look-through FCF breakeven never (10 yrs), Tranche 2 paid 0 (FY29 revenue 361).</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full ΔPAT</td>
+<td>-261.3</td>
+<td>-181.8</td>
+<td>-148.3</td>
+<td>-140.1</td>
+<td>-131.9</td>
+<td>-124.7</td>
+<td>-120.7</td>
+<td>-116.1</td>
+<td>-110.9</td>
+<td>-109.1</td>
+</tr>
+<tr>
+<td>Full operating FCF after drag</td>
+<td>-844.5</td>
+<td>-765.3</td>
+<td>-732.2</td>
+<td>-724.5</td>
+<td>-716.7</td>
+<td>-709.9</td>
+<td>-706.3</td>
+<td>-702.0</td>
+<td>-697.2</td>
+<td>-695.8</td>
+</tr>
+<tr>
+<td>Minority ΔPAT</td>
+<td>-5.9</td>
+<td>-1.8</td>
+<td>4.2</td>
+<td>10.4</td>
+<td>16.6</td>
+<td>22.4</td>
+<td>26.5</td>
+<td>30.9</td>
+<td>35.4</td>
+<td>38.7</td>
+</tr>
+<tr>
+<td>Minority look-through FCF</td>
+<td>8.4</td>
+<td>12.3</td>
+<td>18.2</td>
+<td>24.2</td>
+<td>30.3</td>
+<td>35.9</td>
+<td>39.9</td>
+<td>44.1</td>
+<td>48.5</td>
+<td>51.7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t8-base-eps-path-base">T8-base. EPS path (₹), base</h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full (M1)</td>
+<td>4.702</td>
+<td>6.204</td>
+<td>6.957</td>
+<td>7.428</td>
+<td>7.948</td>
+<td>8.494</td>
+<td>8.958</td>
+<td>9.443</td>
+<td>9.833</td>
+<td>10.213</td>
+</tr>
+<tr>
+<td>Minority</td>
+<td>8.79</td>
+<td>8.933</td>
+<td>9.145</td>
+<td>9.397</td>
+<td>9.675</td>
+<td>9.956</td>
+<td>10.198</td>
+<td>10.44</td>
+<td>10.638</td>
+<td>10.832</td>
+</tr>
+<tr>
+<td>JV</td>
+<td>8.798</td>
+<td>8.821</td>
+<td>9.102</td>
+<td>9.16</td>
+<td>9.23</td>
+<td>9.289</td>
+<td>9.336</td>
+<td>9.371</td>
+<td>9.394</td>
+<td>9.418</td>
+</tr>
+<tr>
+<td>Walk away</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+</tr>
+</tbody>
+</table>
+<p>Full: PAT breakeven 2033, FCF breakeven never (10 yrs), cumulative operating FCF FY27 to FY36 -6328, Paytm cash FY27 to FY31 [6428, 6152, 5925, 5727, 5563].<br />
+Minority: PAT breakeven 2028, look-through FCF breakeven 2034, Tranche 2 paid 0 (FY29 revenue 477).</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full ΔPAT</td>
+<td>-260.3</td>
+<td>-162.6</td>
+<td>-113.7</td>
+<td>-83.1</td>
+<td>-49.2</td>
+<td>-13.7</td>
+<td>16.5</td>
+<td>48.0</td>
+<td>73.3</td>
+<td>98.1</td>
+</tr>
+<tr>
+<td>Full operating FCF after drag</td>
+<td>-844.0</td>
+<td>-747.2</td>
+<td>-699.1</td>
+<td>-669.4</td>
+<td>-636.6</td>
+<td>-602.3</td>
+<td>-573.3</td>
+<td>-542.9</td>
+<td>-518.7</td>
+<td>-495.0</td>
+</tr>
+<tr>
+<td>Minority ΔPAT</td>
+<td>-3.5</td>
+<td>5.7</td>
+<td>19.2</td>
+<td>35.3</td>
+<td>53.2</td>
+<td>71.1</td>
+<td>86.6</td>
+<td>102.1</td>
+<td>114.8</td>
+<td>127.2</td>
+</tr>
+<tr>
+<td>Minority look-through FCF</td>
+<td>10.6</td>
+<td>19.4</td>
+<td>32.7</td>
+<td>48.4</td>
+<td>65.9</td>
+<td>83.4</td>
+<td>98.4</td>
+<td>113.5</td>
+<td>125.7</td>
+<td>137.8</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t8-bull-eps-path-bull">T8-bull. EPS path (₹), bull</h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full (M1)</td>
+<td>4.664</td>
+<td>6.435</td>
+<td>7.503</td>
+<td>8.342</td>
+<td>9.266</td>
+<td>10.182</td>
+<td>11.057</td>
+<td>11.962</td>
+<td>12.752</td>
+<td>13.516</td>
+</tr>
+<tr>
+<td>Minority</td>
+<td>8.809</td>
+<td>9.046</td>
+<td>9.385</td>
+<td>9.444</td>
+<td>9.892</td>
+<td>10.338</td>
+<td>10.753</td>
+<td>11.172</td>
+<td>11.538</td>
+<td>11.888</td>
+</tr>
+<tr>
+<td>JV</td>
+<td>8.798</td>
+<td>8.845</td>
+<td>9.149</td>
+<td>9.242</td>
+<td>9.336</td>
+<td>9.429</td>
+<td>9.499</td>
+<td>9.558</td>
+<td>9.605</td>
+<td>9.64</td>
+</tr>
+<tr>
+<td>Walk away</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+<td>8.845</td>
+</tr>
+</tbody>
+</table>
+<p>Full: PAT breakeven 2031, FCF breakeven never (10 yrs), cumulative operating FCF FY27 to FY36 -5358, Paytm cash FY27 to FY31 [6425, 6163, 5969, 5829, 5746].<br />
+Minority: PAT breakeven 2028, look-through FCF breakeven 2035, Tranche 2 paid 509 (FY29 revenue 627).</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>2027</th>
+<th>2028</th>
+<th>2029</th>
+<th>2030</th>
+<th>2031</th>
+<th>2032</th>
+<th>2033</th>
+<th>2034</th>
+<th>2035</th>
+<th>2036</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full ΔPAT</td>
+<td>-262.8</td>
+<td>-147.6</td>
+<td>-78.2</td>
+<td>-23.6</td>
+<td>36.5</td>
+<td>96.0</td>
+<td>152.9</td>
+<td>211.8</td>
+<td>263.1</td>
+<td>312.8</td>
+</tr>
+<tr>
+<td>Full operating FCF after drag</td>
+<td>-847.1</td>
+<td>-733.4</td>
+<td>-665.4</td>
+<td>-612.6</td>
+<td>-554.3</td>
+<td>-496.5</td>
+<td>-441.6</td>
+<td>-384.5</td>
+<td>-335.1</td>
+<td>-287.2</td>
+</tr>
+<tr>
+<td>Minority ΔPAT</td>
+<td>-2.3</td>
+<td>12.9</td>
+<td>34.6</td>
+<td>38.3</td>
+<td>67.1</td>
+<td>95.6</td>
+<td>122.1</td>
+<td>148.9</td>
+<td>172.4</td>
+<td>194.8</td>
+</tr>
+<tr>
+<td>Minority look-through FCF</td>
+<td>11.6</td>
+<td>26.2</td>
+<td>47.3</td>
+<td>73.3</td>
+<td>101.4</td>
+<td>129.2</td>
+<td>155.0</td>
+<td>181.1</td>
+<td>203.9</td>
+<td>225.6</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t9-full-acquisition-npv-grid-base-rows-annual-drag-columns-churn">T9. Full acquisition NPV grid, base (rows: annual drag; columns: churn)</h3>
+<table>
+<thead>
+<tr>
+<th>Drag</th>
+<th>0.0%</th>
+<th>15.0%</th>
+<th>30.0%</th>
+<th>37.5%</th>
+<th>45.0%</th>
+<th>60.0%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>-2203</td>
+<td>-2440</td>
+<td>-2679</td>
+<td>-2799</td>
+<td>-2921</td>
+<td>-3164</td>
+</tr>
+<tr>
+<td>250</td>
+<td>-3816</td>
+<td>-4053</td>
+<td>-4292</td>
+<td>-4412</td>
+<td>-4534</td>
+<td>-4777</td>
+</tr>
+<tr>
+<td>500</td>
+<td>-5429</td>
+<td>-5666</td>
+<td>-5905</td>
+<td>-6025</td>
+<td>-6147</td>
+<td>-6390</td>
+</tr>
+<tr>
+<td>750</td>
+<td>-7042</td>
+<td>-7279</td>
+<td>-7518</td>
+<td>-7638</td>
+<td>-7760</td>
+<td>-8002</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t10-maximum-justified-control-price">T10. Maximum justified control price</h3>
+<p>| Scenario | 0|0 | 0|750 | 0.3|0 | 0.3|750 | 0.375|0 | 0.375|750 | 0.45|0 | 0.45|750 |
+|---|---|---|---|---|---|---|---|---|
+| bear | 697 | -4142 | 512 | -4327 | 465 | -4374 | 417 | -4421 |
+| base | 1797 | -3042 | 1321 | -3518 | 1201 | -3638 | 1079 | -3760 |
+| bull | 2927 | -1912 | 2143 | -2695 | 1946 | -2892 | 1749 | -3090 |</p>
+<p>Key format: churn|annual drag.</p>
+<h3 id="t11-breakeven-churn-npv-0">T11. Breakeven churn (NPV = 0)</h3>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Breakeven churn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>base</td>
+<td>4000</td>
+</tr>
+<tr>
+<td>base</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>base</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>base</td>
+<td>1500</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>4000</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>bull</td>
+<td>1500</td>
+</tr>
+<tr>
+<td>minority bear</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>minority base</td>
+<td>0.5758</td>
+</tr>
+<tr>
+<td>minority bull</td>
+<td>0.8623</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t12-minority-stress-tests-base">T12. Minority stress tests (base)</h3>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>NPV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>drag187</td>
+<td>-996</td>
+</tr>
+<tr>
+<td>churn15</td>
+<td>171</td>
+</tr>
+<tr>
+<td>churn0</td>
+<td>225</td>
+</tr>
+<tr>
+<td>drag187_pw</td>
+<td>-1078</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t13-funding-mixes-for-the-full-acquisition-base-churn-37-5-drag-750">T13. Funding mixes for the full acquisition (base churn 37.5%, drag 750)</h3>
+<table>
+<thead>
+<tr>
+<th>Mix</th>
+<th>FY27 EPS</th>
+<th>FY29 EPS</th>
+<th>vs ₹7.50 %</th>
+<th>vs MDR-adj %</th>
+<th>New shares (Cr)</th>
+<th>Dilution %</th>
+<th>Gross debt/EBITDA</th>
+<th>ICR</th>
+<th>Cash post</th>
+<th>Cash FY31</th>
+<th>NPV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M1 cash 2100 + equity 1900 (case)</td>
+<td>4.702</td>
+<td>6.957</td>
+<td>-37.3</td>
+<td>-46.8</td>
+<td>1.024</td>
+<td>1.6</td>
+<td>0.55</td>
+<td>20.9</td>
+<td>6800</td>
+<td>5563</td>
+<td>-7638</td>
+</tr>
+<tr>
+<td>M2 debt 2100 + equity 1900</td>
+<td>4.037</td>
+<td>6.293</td>
+<td>-46.2</td>
+<td>-54.4</td>
+<td>1.024</td>
+<td>1.6</td>
+<td>3.83</td>
+<td>3.0</td>
+<td>8900</td>
+<td>7446</td>
+<td>-7638</td>
+</tr>
+<tr>
+<td>M3 cash 1050 + debt 1050 + equity 1900</td>
+<td>4.37</td>
+<td>6.625</td>
+<td>-41.7</td>
+<td>-50.6</td>
+<td>1.024</td>
+<td>1.6</td>
+<td>2.19</td>
+<td>5.2</td>
+<td>7850</td>
+<td>6504</td>
+<td>-7638</td>
+</tr>
+<tr>
+<td>M4 all equity 4000</td>
+<td>6.047</td>
+<td>8.263</td>
+<td>-19.4</td>
+<td>-31.6</td>
+<td>2.156</td>
+<td>3.37</td>
+<td>0.55</td>
+<td>20.9</td>
+<td>8900</td>
+<td>8134</td>
+<td>-7638</td>
+</tr>
+<tr>
+<td>M5 all cash 4000</td>
+<td>3.444</td>
+<td>5.736</td>
+<td>-54.1</td>
+<td>-61.1</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.55</td>
+<td>20.9</td>
+<td>4900</td>
+<td>3236</td>
+<td>-7638</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t14-drag-pv-treatments">T14. Drag PV treatments</h3>
+<table>
+<thead>
+<tr>
+<th>Treatment</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>perpetual</td>
+<td>4839</td>
+</tr>
+<tr>
+<td>ten_yr_trapped</td>
+<td>3693</td>
+</tr>
+<tr>
+<td>ten_yr_released</td>
+<td>1918</td>
+</tr>
+<tr>
+<td>full_npv_mildest</td>
+<td>-4717</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t15-buyback-and-multiple-compression">T15. Buyback and multiple compression</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shares</td>
+<td>1.132</td>
+</tr>
+<tr>
+<td>eps</td>
+<td>6.135</td>
+</tr>
+<tr>
+<td>chg</td>
+<td>-18.2</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Share price move</th>
+<th>Price</th>
+<th>Shares for ₹1,900 Cr</th>
+<th>Dilution %</th>
+<th>Full-deal loss as % of mcap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1855</td>
+<td>1.024</td>
+<td>1.6</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>-0.2</td>
+<td>1484</td>
+<td>1.28</td>
+<td>2.0</td>
+<td>8.0</td>
+</tr>
+<tr>
+<td>-0.3</td>
+<td>1299</td>
+<td>1.463</td>
+<td>2.29</td>
+<td>9.2</td>
+</tr>
+<tr>
+<td>-0.4</td>
+<td>1113</td>
+<td>1.707</td>
+<td>2.67</td>
+<td>10.7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t16-decision-matrix">T16. Decision matrix</h3>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th>Weight</th>
+<th>Full</th>
+<th>Minority</th>
+<th>JV</th>
+<th>Walk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shareholder value (NPV)</td>
+<td>0.25</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>EPS and FCF impact</td>
+<td>0.15</td>
+<td>1</td>
+<td>4</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Balance sheet and rating</td>
+<td>0.1</td>
+<td>2</td>
+<td>5</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Client churn risk</td>
+<td>0.15</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Regulatory and capital drag exposure</td>
+<td>0.1</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Strategic access to custody and tokenization</td>
+<td>0.15</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Block on the consortium</td>
+<td>0.1</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Weighted score</td>
+<td>1.0</td>
+<td>2.1</td>
+<td>4.1</td>
+<td>2.7</td>
+<td>3.75</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t17-eps-bridge-fy27-recommended-minority-per-share">T17. EPS bridge FY27, recommended minority (₹ per share)</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>₹</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>start</td>
+<td>7.5</td>
+</tr>
+<tr>
+<td>mdr</td>
+<td>1.345</td>
+</tr>
+<tr>
+<td>forgone</td>
+<td>-0.281</td>
+</tr>
+<tr>
+<td>licence</td>
+<td>-0.292</td>
+</tr>
+<tr>
+<td>build</td>
+<td>0.468</td>
+</tr>
+<tr>
+<td>synergy</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>equity_income</td>
+<td>0.051</td>
+</tr>
+<tr>
+<td>end</td>
+<td>8.79</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t18-pat-bridge-fy27-full-acquisition-m1-cr">T18. PAT bridge FY27, full acquisition M1 (₹ Cr)</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>start_pat</td>
+<td>480</td>
+</tr>
+<tr>
+<td>mdr</td>
+<td>86.1</td>
+</tr>
+<tr>
+<td>forgone</td>
+<td>-94.3</td>
+</tr>
+<tr>
+<td>carry</td>
+<td>-5.6</td>
+</tr>
+<tr>
+<td>gov</td>
+<td>-11.2</td>
+</tr>
+<tr>
+<td>ppa</td>
+<td>-74.8</td>
+</tr>
+<tr>
+<td>txn</td>
+<td>-44.9</td>
+</tr>
+<tr>
+<td>liminal</td>
+<td>-59.4</td>
+</tr>
+<tr>
+<td>build</td>
+<td>29.9</td>
+</tr>
+<tr>
+<td>synergy</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>end_pat</td>
+<td>305.7</td>
+</tr>
+<tr>
+<td>shares</td>
+<td>65.024</td>
+</tr>
+<tr>
+<td>eps</td>
+<td>4.702</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t19-football-field-liminal-100-equity">T19. Football field (Liminal, 100% equity)</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dcf</td>
+<td>[1103, 1819]</td>
+</tr>
+<tr>
+<td>dcf_point</td>
+<td>1391</td>
+</tr>
+<tr>
+<td>trading</td>
+<td>[1311, 1837]</td>
+</tr>
+<tr>
+<td>precedent</td>
+<td>[1716, 2816]</td>
+</tr>
+<tr>
+<td>weights</td>
+<td>[0.5, 0.3, 0.2]</td>
+</tr>
+<tr>
+<td>weighted_fv</td>
+<td>1656</td>
+</tr>
+<tr>
+<td>weighted_fv_x</td>
+<td>7.5</td>
+</tr>
+<tr>
+<td>stake_price_rule</td>
+<td>400</td>
+</tr>
+<tr>
+<td>stake_price_used</td>
+<td>400</td>
+</tr>
+<tr>
+<td>post_money</td>
+<td>1606</td>
+</tr>
+<tr>
+<td>post_money_x</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td>headline_max</td>
+<td>4016</td>
+</tr>
+<tr>
+<td>deal_price</td>
+<td>4000</td>
+</tr>
+<tr>
+<td>notes</td>
+<td>['25th to 75th pct EV/LTM revenue, custody and high-growth fintech subset (Pine Labs, BitGo on gross profit, Adyen, Coinbase, PB Fintech), 23 Sep 2026', 'IQR of precedent EV/revenue with revenue basis (Bitstamp 2.1x, Deribit 9.7x, Hidden Road 12.5x, BVNK 12.5 to 15x)']</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t20-moneyshot-and-impairment">T20. Moneyshot and impairment</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>npv</td>
+<td>-7638</td>
+</tr>
+<tr>
+<td>per_share</td>
+<td>117.5</td>
+</tr>
+<tr>
+<td>pct_mcap</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>impairment carrying</td>
+<td>4000</td>
+</tr>
+<tr>
+<td>impairment recoverable</td>
+<td>1201</td>
+</tr>
+<tr>
+<td>impairment gap</td>
+<td>2799</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t21-breakeven-summary">T21. Breakeven summary</h3>
+<pre><code>{
+ &quot;full_M1&quot;: {
+  &quot;pat&quot;: {
+   &quot;bear&quot;: null,
+   &quot;base&quot;: 2033,
+   &quot;bull&quot;: 2031
+  },
+  &quot;fcf&quot;: {
+   &quot;bear&quot;: null,
+   &quot;base&quot;: null,
+   &quot;bull&quot;: null
+  }
+ },
+ &quot;minority&quot;: {
+  &quot;pat&quot;: {
+   &quot;bear&quot;: 2029,
+   &quot;base&quot;: 2028,
+   &quot;bull&quot;: 2028
+  },
+  &quot;fcf&quot;: {
+   &quot;bear&quot;: null,
+   &quot;base&quot;: 2034,
+   &quot;bull&quot;: 2035
+  }
+ },
+ &quot;jv&quot;: {
+  &quot;pat&quot;: {
+   &quot;bear&quot;: 2029,
+   &quot;base&quot;: 2029,
+   &quot;bull&quot;: 2028
+  },
+  &quot;fcf&quot;: &quot;n/a (drag exceeds JV cash flow)&quot;
+ },
+ &quot;full_nodrag&quot;: {
+  &quot;pat&quot;: 2032,
+  &quot;fcf&quot;: null
+ }
+}
+</code></pre>
+<h2 id="appendix-c-glossary">Appendix C: Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AA-</td>
+<td>Credit rating grade (case: CRISIL AA- Stable)</td>
+</tr>
+<tr>
+<td>ARR</td>
+<td>Annual recurring revenue</td>
+</tr>
+<tr>
+<td>CCI</td>
+<td>Competition Commission of India</td>
+</tr>
+<tr>
+<td>CCPS</td>
+<td>Compulsorily convertible preference shares</td>
+</tr>
+<tr>
+<td>CERT-In</td>
+<td>Indian Computer Emergency Response Team</td>
+</tr>
+<tr>
+<td>CP</td>
+<td>Condition precedent to closing</td>
+</tr>
+<tr>
+<td>CVR</td>
+<td>Contingent value right</td>
+</tr>
+<tr>
+<td>DPDP</td>
+<td>Digital Personal Data Protection Act 2023</td>
+</tr>
+<tr>
+<td>DVT</td>
+<td>CCI deal value threshold (₹2,000 Cr)</td>
+</tr>
+<tr>
+<td>e₹</td>
+<td>RBI's central bank digital currency (Digital Rupee)</td>
+</tr>
+<tr>
+<td>FEMA</td>
+<td>Foreign Exchange Management Act</td>
+</tr>
+<tr>
+<td>FIU-IND</td>
+<td>Financial Intelligence Unit, India</td>
+</tr>
+<tr>
+<td>FMV</td>
+<td>Fair market value</td>
+</tr>
+<tr>
+<td>GRR</td>
+<td>Gross revenue retention</td>
+</tr>
+<tr>
+<td>ICR</td>
+<td>Interest cover ratio (EBITDA / interest)</td>
+</tr>
+<tr>
+<td>IOCC</td>
+<td>Indian-owned and controlled company</td>
+</tr>
+<tr>
+<td>LODR</td>
+<td>SEBI Listing Obligations and Disclosure Requirements</td>
+</tr>
+<tr>
+<td>MDR</td>
+<td>Merchant discount rate</td>
+</tr>
+<tr>
+<td>MPC</td>
+<td>Multi-party computation (key management without a single private key)</td>
+</tr>
+<tr>
+<td>NDI</td>
+<td>FEMA Non-Debt Instruments Rules 2019</td>
+</tr>
+<tr>
+<td>ODI</td>
+<td>Overseas direct investment</td>
+</tr>
+<tr>
+<td>PA / PA-CB</td>
+<td>Payment aggregator / cross-border payment aggregator</td>
+</tr>
+<tr>
+<td>PMLA</td>
+<td>Prevention of Money Laundering Act</td>
+</tr>
+<tr>
+<td>PPA</td>
+<td>Purchase price allocation</td>
+</tr>
+<tr>
+<td>PPI</td>
+<td>Prepaid payment instrument (wallet)</td>
+</tr>
+<tr>
+<td>PPSL</td>
+<td>Paytm Payment Services Ltd, Paytm's PA entity</td>
+</tr>
+<tr>
+<td>ROFR</td>
+<td>Right of first refusal</td>
+</tr>
+<tr>
+<td>RWA</td>
+<td>Real-world assets (tokenized)</td>
+</tr>
+<tr>
+<td>VDA</td>
+<td>Virtual digital asset</td>
+</tr>
+<tr>
+<td>WACC</td>
+<td>Weighted average cost of capital</td>
+</tr>
+</tbody>
+</table>
+</body></html>

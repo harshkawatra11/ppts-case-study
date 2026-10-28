@@ -1,0 +1,22 @@
+const s=await resetBody('3:7','Choose family buyers for Good phones: 24 / 30 fit, no grade supply cap, and ₹2,699 contribution funds the trust promise','Source: case Exhibit 1, Exhibits 2, 4 and 6 | team model 9b3628d94d, T10 and T11 | STP scores and JTBD interpretation are team judgement; bubble area follows segment share');
+const a=box(s,64,310,626,722,'STP: MARGIN × SUPPLY HEADROOM',{dark:R.navy});
+tx(a,20,58,580,'Margin score (1 to 5)',{style:'Bold'});
+const X=v=>90+(v-1)*112,Y=v=>442-(v-1)*76;
+addRect(a,90,138,448,304,C.surfaceAlt,C.ink,1.5);addRect(a,X(3),138,224,152,C.tint,C.ink,1);
+for(let v=1;v<=5;v++){tx(a,X(v)-15,451,30,String(v),{align:'CENTER'});tx(a,44,Y(v)-14,32,String(v),{align:'RIGHT'});if(v>1&&v<5){addRect(a,X(v),138,1,304,C.surface);addRect(a,90,Y(v),448,1,C.surface);}}
+const P=[['Flagship',1,5,34,R.blue,112,150],['Value seekers',5,1,29,R.red,350,390],['Family buyers',5,3,21,R.gold,345,245],['Upgraders',3,4,16,R.navy,245,180]];
+P.forEach(r=>{const d=12*Math.sqrt(r[3]);addEllipse(a,X(r[1])-d/2,Y(r[2])-d/2,d,d,r[4],C.ink,2);tx(a,r[5],r[6],230,r[0]+' '+r[3]+'%',{style:'Bold',color:R.navy});});
+tx(a,90,490,460,'Headroom score →',{style:'Bold'});
+label(a,20,539,586,'TOTAL SCORE / 30');
+bars(a,20,578,586,[{l:'Family buyers',v:24,t:'24',c:R.gold},{l:'Flagship',v:22,t:'22'},{l:'Upgraders',v:16,t:'16',c:R.navy},{l:'Value seekers',v:13,t:'13',c:R.red}],{lw:188,rh:32,max:30,vw:60});
+const b=box(s,710,310,1146,352,'THE SEGMENT SCREEN: APPLY ONE STANDARD TO ALL FOUR',{dark:R.blue});
+const H=[C.white,{r:.918,g:.941,b:.980},{r:.776,g:.835,b:.933},{r:.557,g:.667,b:.859},{r:.290,g:.443,b:.737},R.navy];
+table(b,20,54,[242,112,112,112,112,112,112,202],['Segment','Size','Margin','Room','Returns','Worry','Lever','TOTAL'],V.seg_rows.map((r,i)=>[r[0],...r.slice(1,7).map(v=>({t:String(v),bg:H[v],fg:v>=4?C.white:C.ink})),{t:String(r[7])+' / 30',bg:i===2?R.gold:C.white,bold:true}]),{hh:54,rh:46});
+tx(b,20,308,1106,'Total = size + margin + headroom + returns + worry fit + lever fit; equal weights.',{style:'Bold'});
+const c=box(s,710,682,580,350,'JTBD: BUY CONFIDENCE FOR SOMEONE ELSE');
+[['FUNCTIONAL JOB','A working phone for a parent or child'],['SERVICE JOB','Know who will fix it when it fails'],['REASON TO TRUST','Own lab reading + a year of repair cover']].forEach((r,i)=>{const yy=55+i*72;addRect(c,14,yy,185,62,i===2?R.gold:C.tint,C.ink,1.5);tx(c,23,yy+5,166,r[0],{style:'Bold',color:R.navy});tx(c,215,yy+3,351,r[1]);});
+tint(c,14,278,552,58,'“Phone theek hai, par bharosa nahi hua.”',{fill:R.ltgold});
+const d=box(s,1310,682,546,350,'GOOD PHONES PAY FOR THE PROMISE');
+table(d,14,52,[340,178],['₹ per Good phone','Contribution'],[['Today','2,524'],['4% price rise','+640'],['New battery, expected','−400'],['Tikau Report','−120'],['Claims + return benefit','+55'],['B1 + B2','2,699']],{hh:34,rh:31,fills:[null,null,null,null,null,R.ltgold],align:['LEFT','RIGHT']});
+tint(d,14,284,518,52,'Position on proof and repair responsibility.',{fill:C.tint});
+return stats(s);

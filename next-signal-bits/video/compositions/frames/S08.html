@@ -1,0 +1,39 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    #S08_root{position:relative;width:100%;height:100%;overflow:hidden;background:#FFFFFF;font-family:Arial,sans-serif}
+    #S08_thankyou{position:absolute;left:0;right:0;top:140px;text-align:center;font-family:Georgia,serif;font-size:96px;font-weight:700;color:#0B0B0C;opacity:0}
+    #S08_strap{position:absolute;left:0;right:0;top:280px;text-align:center;font-size:32px;font-style:italic;color:#3A3936;padding:0 380px;opacity:0}
+    #S08_links{position:absolute;left:560px;top:460px;width:800px;opacity:0}
+    .s08-row{display:flex;align-items:center;justify-content:space-between;border:1px solid #E2DFD9;padding:20px 28px;margin-bottom:14px;background:#FFFFFF}
+    .s08-label{font-size:30px;color:#1D4ED8}
+    .s08-arrow{font-size:30px;color:#1D4ED8}
+    #S08_team{position:absolute;left:0;right:0;bottom:110px;text-align:center;font-size:26px;color:#3A3936;opacity:0}
+    #S08_disclaimer{position:absolute;left:0;right:0;bottom:70px;text-align:center;font-family:'Courier New',monospace;font-size:18px;color:#595650;opacity:0}
+  </style>
+  <div data-hf-id="hf-qqly" id="S08_root" data-composition-id="S08" data-width="1920" data-height="1080">
+    
+    <div data-hf-id="hf-gj51" id="S08_thankyou">THANK YOU</div>
+    <div data-hf-id="hf-0d5c" id="S08_strap">Public data only. Nothing here is investment advice.</div>
+    <div data-hf-id="hf-xjl2" id="S08_links">
+      <div data-hf-id="hf-arbc" class="s08-row"><span data-hf-id="hf-w7eb" class="s08-label">Research paper (PDF)</span><span data-hf-id="hf-3zny" class="s08-arrow">&#8594;</span></div>
+      <div data-hf-id="hf-yhj4" class="s08-row"><span data-hf-id="hf-70d0" class="s08-label">Model workbook (XLSX)</span><span data-hf-id="hf-l2ky" class="s08-arrow">&#8594;</span></div>
+      <div data-hf-id="hf-xam1" class="s08-row"><span data-hf-id="hf-y0jq" class="s08-label">github.com/harshkawatra11/next-signal</span><span data-hf-id="hf-lgvz" class="s08-arrow">&#8594;</span></div>
+    </div>
+    <div data-hf-id="hf-dncn" id="S08_team">Team IdeaForge: Harsh Kawatra, Gursimran Kaur</div>
+    <div data-hf-id="hf-ym7e" id="S08_disclaimer">ATMOS 2026 &middot; TRACK D &middot; PHARMA AND HEALTHCARE</div>
+  </div>
+  <script>
+    (() => {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#S08_thankyou", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.6, ease: "power2.out" }, 0.1);
+      tl.fromTo("#S08_strap", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+      tl.fromTo("#S08_links", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.6 }, 1.8);
+      tl.fromTo("#S08_team", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 3.2);
+      tl.fromTo("#S08_disclaimer", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 3.8);
+      tl.to({}, { duration: 10.500 }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["S08"] = tl;
+    })();
+  </script>
+</template>

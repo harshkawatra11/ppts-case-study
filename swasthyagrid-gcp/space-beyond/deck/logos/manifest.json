@@ -1,0 +1,15 @@
+{
+  "National Health Mission": {"file": "nhm.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:20", "w": 71, "h": 54},
+  "District officer": {"file": "district_officer.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:23", "w": 73, "h": 72},
+  "Ayushman Bharat": {"file": "ayushman_bharat.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:26", "w": 87, "h": 87},
+  "e-Aushadhi": {"file": "e_aushadhi.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:29", "w": 75, "h": 75},
+  "eVIN": {"file": "evin.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:32", "w": 106, "h": 57},
+  "ABDM": {"file": "abdm.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:35 (MoHFW emblem used for ABDM in NEXORA)", "w": 120, "h": 58},
+  "NITI Aayog": {"file": "niti_aayog.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:38", "w": 114, "h": 72},
+  "Government of Rajasthan": {"file": "rajasthan.png", "source": "NEXORA Figma O0YlsAbRsIqQqSugUDWrxJ node 23:41", "w": 101, "h": 79},
+  "UNDP": {"file": "undp.png", "source": "NX/deck/logos/undp.png (reused from NEXORA build, on disk)"},
+  "DTU": {"file": "dtu.png", "source": "beyondtech-dcg/deck/assets/logos/dtu.png (reused, on disk)"},
+  "NSUT": {"file": "nsut.png", "source": "Wikimedia Commons, File:NSUT logo.png, width=600 render", "w": 512, "h": 512},
+  "GGSIPU": {"file": "ggsipu.jpg", "source": "Wikimedia Commons, File:Indraprastha University header.jpg, width=600 render", "w": 960, "h": 223},
+  "Space and Beyond": {"file": null, "source": "not found; organiser has no public mark located; slot left as labelled dashed placeholder, listed in plan open items"}
+}

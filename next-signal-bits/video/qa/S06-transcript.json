@@ -1,0 +1,299 @@
+{
+  "text": " Click any number and it opens the exact filing and the code behind it. Every rival explanation sits in the same table, scored the same way, so nothing is quite likely to be like.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.6400000000000003,
+      "end": 4.66,
+      "text": " Click any number and it opens the exact filing and the code behind it.",
+      "tokens": [
+        50364,
+        8230,
+        604,
+        1230,
+        293,
+        309,
+        9870,
+        264,
+        1900,
+        26854,
+        293,
+        264,
+        3089,
+        2261,
+        309,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30487488477658004,
+      "compression_ratio": 1.347457627118644,
+      "no_speech_prob": 0.05734340846538544,
+      "words": [
+        {
+          "word": " Click",
+          "start": 0.6400000000000003,
+          "end": 1.2,
+          "probability": 0.8465161919593811
+        },
+        {
+          "word": " any",
+          "start": 1.2,
+          "end": 1.52,
+          "probability": 0.890280544757843
+        },
+        {
+          "word": " number",
+          "start": 1.52,
+          "end": 1.84,
+          "probability": 0.9820687174797058
+        },
+        {
+          "word": " and",
+          "start": 1.84,
+          "end": 2.04,
+          "probability": 0.9320885539054871
+        },
+        {
+          "word": " it",
+          "start": 2.04,
+          "end": 2.2,
+          "probability": 0.9864364266395569
+        },
+        {
+          "word": " opens",
+          "start": 2.2,
+          "end": 2.42,
+          "probability": 0.9873233437538147
+        },
+        {
+          "word": " the",
+          "start": 2.42,
+          "end": 2.62,
+          "probability": 0.9848651885986328
+        },
+        {
+          "word": " exact",
+          "start": 2.62,
+          "end": 2.9,
+          "probability": 0.8739095330238342
+        },
+        {
+          "word": " filing",
+          "start": 2.9,
+          "end": 3.38,
+          "probability": 0.8670790195465088
+        },
+        {
+          "word": " and",
+          "start": 3.38,
+          "end": 3.68,
+          "probability": 0.8891645669937134
+        },
+        {
+          "word": " the",
+          "start": 3.68,
+          "end": 3.82,
+          "probability": 0.7468944191932678
+        },
+        {
+          "word": " code",
+          "start": 3.82,
+          "end": 3.96,
+          "probability": 0.9736851453781128
+        },
+        {
+          "word": " behind",
+          "start": 3.96,
+          "end": 4.3,
+          "probability": 0.9942951798439026
+        },
+        {
+          "word": " it.",
+          "start": 4.3,
+          "end": 4.66,
+          "probability": 0.991460919380188
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.94,
+      "end": 9.64,
+      "text": " Every rival explanation sits in the same table, scored the same way, so nothing is quite",
+      "tokens": [
+        50614,
+        2048,
+        16286,
+        10835,
+        12696,
+        294,
+        264,
+        912,
+        3199,
+        11,
+        18139,
+        264,
+        912,
+        636,
+        11,
+        370,
+        1825,
+        307,
+        1596,
+        50848
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30487488477658004,
+      "compression_ratio": 1.347457627118644,
+      "no_speech_prob": 0.05734340846538544,
+      "words": [
+        {
+          "word": " Every",
+          "start": 4.94,
+          "end": 5.3,
+          "probability": 0.9785172343254089
+        },
+        {
+          "word": " rival",
+          "start": 5.3,
+          "end": 5.64,
+          "probability": 0.803300142288208
+        },
+        {
+          "word": " explanation",
+          "start": 5.64,
+          "end": 6.18,
+          "probability": 0.7730962038040161
+        },
+        {
+          "word": " sits",
+          "start": 6.18,
+          "end": 6.52,
+          "probability": 0.9420925974845886
+        },
+        {
+          "word": " in",
+          "start": 6.52,
+          "end": 6.68,
+          "probability": 0.9423448443412781
+        },
+        {
+          "word": " the",
+          "start": 6.68,
+          "end": 6.8,
+          "probability": 0.975522518157959
+        },
+        {
+          "word": " same",
+          "start": 6.8,
+          "end": 7.04,
+          "probability": 0.9956811666488647
+        },
+        {
+          "word": " table,",
+          "start": 7.04,
+          "end": 7.42,
+          "probability": 0.9980931878089905
+        },
+        {
+          "word": " scored",
+          "start": 7.76,
+          "end": 7.94,
+          "probability": 0.3576117753982544
+        },
+        {
+          "word": " the",
+          "start": 7.94,
+          "end": 8.12,
+          "probability": 0.9397639036178589
+        },
+        {
+          "word": " same",
+          "start": 8.12,
+          "end": 8.42,
+          "probability": 0.9990666508674622
+        },
+        {
+          "word": " way,",
+          "start": 8.42,
+          "end": 8.62,
+          "probability": 0.586303174495697
+        },
+        {
+          "word": " so",
+          "start": 8.9,
+          "end": 8.98,
+          "probability": 0.9862951636314392
+        },
+        {
+          "word": " nothing",
+          "start": 8.98,
+          "end": 9.24,
+          "probability": 0.9843938946723938
+        },
+        {
+          "word": " is",
+          "start": 9.24,
+          "end": 9.46,
+          "probability": 0.9875671863555908
+        },
+        {
+          "word": " quite",
+          "start": 9.46,
+          "end": 9.64,
+          "probability": 0.8706138134002686
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 964,
+      "start": 9.64,
+      "end": 10.12,
+      "text": " likely to be like.",
+      "tokens": [
+        50364,
+        3700,
+        281,
+        312,
+        411,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.919236958026886,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.5763526558876038,
+      "words": [
+        {
+          "word": " likely",
+          "start": 9.64,
+          "end": 9.82,
+          "probability": 0.06133398041129112
+        },
+        {
+          "word": " to",
+          "start": 9.82,
+          "end": 9.88,
+          "probability": 0.06568341702222824
+        },
+        {
+          "word": " be",
+          "start": 9.88,
+          "end": 10.0,
+          "probability": 0.2265976369380951
+        },
+        {
+          "word": " like.",
+          "start": 10.0,
+          "end": 10.12,
+          "probability": 0.2923986613750458
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,1049 @@
+ ▐▛███▜▌   Claude Code v2.1.220
+▝▜█████▛▘  Opus 5 · Claude Pro
+  ▘▘ ▝▝    c:\Users\harsh\Desktop\HARSH\PPTS-CASE-STUDY\nsut-innovators-cou…
+
+
+❯ A top-notch mba-level storytelling hackathon presentation has to be built     
+  using the existing deck-building workflow via figma using deck-system and     
+  case-competition-skill as a repeatable workflow of this folder : problem      
+  statement , solution, idea impact each and everything : a very in-depth       
+  markdown file covering each and every feature of product is present in the    
+  folder named swasthyagrid and using it build the ppt for the hackathon        
+  HACKSYNERGY 2026, I have built this product for some other hackathon but      
+  right now it has to be built for another hackathon and eventually implemented 
+  as an ideation and not as a ready product : build a visually and practically  
+  content rich, ppt with charts, diagrams, mockups, wireframes and a            
+  well-designed one for the hackathon                                           
+                                                                                
+  EVALUATION : CLARITY , FEASIBILITY                                            
+                                                                                
+  TECHNOLOGY STACK : LANGUAGE / FRAMEWORKS / TOOLS / API                        
+                                                                                
+  all code present at :                                                         
+  C:\Users\harsh\Desktop\HARSH\WEB-DEV-PROJECTS\ai-healthcare platform          
+                                                                                
+  time to plan and build a very in-depth and great plan to build the            
+  presentation                                                                  
+
+● I'll start by exploring the source material.
+
+● Skill(superpowers:brainstorming)
+  ⎿  Successfully loaded skill
+
+  Searched for 2 patterns, read 2 files (ctrl+o to expand)
+
+● Explore(Explore SwasthyaGrid codebase)
+  ⎿  Done (18 tool uses · 83.8k tokens · 3m 20s)
+  (ctrl+o to expand)
+
+● Skill(case-competition-deck)
+  ⎿  Successfully loaded skill
+
+  Searched for 1 pattern, read 1 file (ctrl+o to expand)
+
+● User answered Claude's questions:
+  ⎿  · HACKSYNERGY caps at 10 slides. How should I spend that budget? → Cover + 
+     9 content
+     · The product already exists as a working prototype (live on Vercel/Cloud 
+     Run) but must be pitched as ideation. How do I handle that in the deck? → 
+     Ideation-first, prototype as feasibility proof (Recommended)
+     · Palette for this deck — the folder default is EY-purple/yellow. → Keep 
+     default purple/yellow
+     · How many of the 10 slides should carry native UI mockups/wireframes? → 
+     One full mockup slide + inline mini-frames (Recommended)
+
+● Updated plan
+  ⎿  /plan to preview
+  ⎿  User rejected Claude's plan:
+     ╭─────────────────────────────────────────────────────────────────────────╮
+     │ SwasthyaGrid — HACKSYNERGY 2026 deck (Figma Slides, 10 slides)          │
+     │                                                                         │
+     │ Context                                                                 │
+     │                                                                         │
+     │ SwasthyaGrid is an AI district health operations concept (district      │
+     │ command console for                                                     │
+     │ PHCs/CHCs + citizen services layer). A full-stack prototype already     │
+     │ exists at                                                               │
+     │ C:\Users\harsh\Desktop\HARSH\WEB-DEV-PROJECTS\ai-healthcare platform    │
+     │ (Next.js 16 +                                                           │
+     │ FastAPI + Firestore + Gemini, deployed to Vercel/Cloud Run), and a 37   │
+     │ KB ideation source                                                      │
+     │ document lives at                                                       │
+     │ swasthyagrid/SwasthyaGrid-HACKSYNERGY-2026-Ideation.md.                 │
+     │                                                                         │
+     │ It must now be re-pitched for HACKSYNERGY 2026 as an ideation           │
+     │ blueprint, not a                                                        │
+     │ shipped product. Hard constraints: max 10 slides, judged on Clarity and │
+     │ Feasibility, with an explicit Technology Stack (language / frameworks / │
+     │ tools / API)                                                            │
+     │ requirement. The deliverable is a native Figma Slides deck built to     │
+     │ this folder's                                                           │
+     │ EY-density standard (CLAUDE.md §1–§8 + deck-system/), not a template    │
+     │ PPTX — HACKSYNERGY                                                      │
+     │ imposes no mandatory template, so the Figma path in CLAUDE.md applies   │
+     │ rather than the                                                         │
+     │ python-pptx path recorded in memory for Innovator's Court.              │
+     │                                                                         │
+     │ Outcome: a 1920×1080, 10-slide Figma Slides deck, zero imported images, │
+     │ every chart and                                                         │
+     │ mockup drawn from native nodes, that argues a contrarian thesis and     │
+     │ answers "is this                                                        │
+     │ buildable?" with concrete engineering evidence.                         │
+     │                                                                         │
+     │ Decisions locked with the user                                          │
+     │                                                                         │
+     │ ┌─────────────┬──────────────────────────────────────────────────────── │
+     │ ───┐                                                                    │
+     │ │  Decision   │                          Choice                         │
+     │   │                                                                     │
+     │ ├─────────────┼──────────────────────────────────────────────────────── │
+     │ ───┤                                                                    │
+     │ │ Slide       │ Cover + 9 content = 10                                  │
+     │   │                                                                     │
+     │ │ budget      │                                                         │
+     │   │                                                                     │
+     │ ├─────────────┼──────────────────────────────────────────────────────── │
+     │ ───┤                                                                    │
+     │ │ Prototype   │ Ideation-first; prototype cited only as technical       │
+     │   │                                                                     │
+     │ │ framing     │ feasibility evidence (endpoints, formulas, deploy       │
+     │   │                                                                     │
+     │ │             │ targets, CI) — never as "we shipped this"               │
+     │   │                                                                     │
+     │ ├─────────────┼──────────────────────────────────────────────────────── │
+     │ ───┤                                                                    │
+     │ │             │ Folder default — purple/yellow (#5B21E6 / #3A0CA3 /     │
+     │   │                                                                     │
+     │ │ Palette     │ #F5C518 / #E5399E / #C4B5FD), unchanged from the kit's  │
+     │ C  │                                                                    │
+     │ │             │ object                                                  │
+     │   │                                                                     │
+     │ ├─────────────┼──────────────────────────────────────────────────────── │
+     │ ───┤                                                                    │
+     │ │ Mockups     │ One full wireframe slide (S6) + inline mini-frames on   │
+     │ S5  │                                                                   │
+     │ │             │ and S9                                                  │
+     │   │                                                                     │
+     │ └─────────────┴──────────────────────────────────────────────────────── │
+     │ ───┘                                                                    │
+     │                                                                         │
+     │ The argument (content engineering, per case-competition-deck §A/§D)     │
+     │                                                                         │
+     │ Contrarian recommendation. The obvious hackathon answer to rural health │
+     │ is another                                                              │
+     │ predictive AI model / diagnosis chatbot. SwasthyaGrid argues the        │
+     │ binding constraint is                                                   │
+     │ coordination latency, not medical intelligence or absolute scarcity —   │
+     │ the district                                                            │
+     │ usually has the resource; it is sitting at the wrong facility, unseen,  │
+     │ for days. And the                                                       │
+     │ correct AI posture is deliberately non-autonomous: the model explains,  │
+     │ a human approves.                                                       │
+     │                                                                         │
+     │ Moneyshot (exactly one, on S4). The giant-numeral band:                 │
+     │ 4 km — the distance between a PHC that runs out of anti-snake-venom in  │
+     │ 2.0 days                                                                │
+     │ and a CHC holding 80 units (26.7 days of cover). Sub-line: "The         │
+     │ district was never                                                      │
+     │ short. The surplus was 4 km away, and nobody could see it."             │
+     │                                                                         │
+     │ Foreshadowing. S2 plants "the failure is distribution, not supply"      │
+     │ inside the problem                                                      │
+     │ issue tree; S4 pays it off; S10 closes on it.                           │
+     │                                                                         │
+     │ Data integrity (CLAUDE.md §5). Two clearly separated tiers, and this    │
+     │ separation must                                                         │
+     │ be visible on the slides:                                               │
+     │ - Illustrative district scenario — every SwasthyaGrid number (Jaipur    │
+     │ Rural, 8                                                                │
+     │ facilities, 2.0 days ORS, 97% bed occupancy, 218 footfall) is labelled  │
+     │ "Illustrative district scenario — modelled on Jaipur Rural, Rajasthan"  │
+     │ in the source                                                           │
+     │ line. Never presented as measured field data.                           │
+     │ - Externally sourced — problem-side statistics (PHC/CHC counts,         │
+     │ shortfall %, stock-out                                                  │
+     │ and vacancy rates) must come from real citations (Rural Health          │
+     │ Statistics / MoHFW,                                                     │
+     │ NHM, NITI Aayog Health Index, CAG audits). A short WebSearch sourcing   │
+     │ pass runs                                                               │
+     │ before S2 is built; any stat without a citation is cut, not rounded     │
+     │ into existence.                                                         │
+     │ - No invented interviews, LOIs, pilot MoUs, or willingness-to-pay.      │
+     │                                                                         │
+     │ Slide-by-slide spec                                                     │
+     │                                                                         │
+     │ Archetypes reference deck-system/slide-archetypes.md; helpers reference │
+     │ deck-system/figma-deck-kit.js. Ribbon label set (7 tags,                │
+     │ section-scoped):                                                        │
+     │ PROBLEM · USERS · IDEA · HOW · PRODUCT · TECH · IMPACT.                 │
+     │                                                                         │
+     │ S1 — Cover. Full-bleed. SwasthyaGrid at 100–112pt, vision line,         │
+     │ HACKSYNERGY 2026                                                        │
+     │ badge chip, team chip, and a native district-grid motif (8 ink-outlined │
+     │ facility nodes on                                                       │
+     │ a faint grid, 2 filled alert = critical, wired to a central hub). No    │
+     │ ribbon.                                                                 │
+     │                                                                         │
+     │ S2 — Problem. Action title: "District health fails at the seams: the    │
+     │ resource exists,                                                        │
+     │ the visibility doesn't." Left = 3-level MECE issue tree (Visibility gap │
+     │ · Coordination                                                          │
+     │ gap · Explainability gap) with the middle branch tinted as the one this │
+     │ product attacks.                                                        │
+     │ Right = 3 sourced stat cards + a before/after latency bar               │
+     │ (days-to-detect vs                                                      │
+     │ days-to-act). Rail-labelled commentary panel narrating the "detected    │
+     │ late" pattern.                                                          │
+     │                                                                         │
+     │ S3 — Users. Action title: "One district network, four decision rights." │
+     │ Symmetric                                                               │
+     │ 4-column grid (District Administrator · PHC/CHC Staff · State Health    │
+     │ Officer · Citizen),                                                     │
+     │ each column identical in structure: role badge → what they decide →     │
+     │ what they lack today                                                    │
+     │ → what SwasthyaGrid gives them. Bottom band: decision-rights strip      │
+     │ showing who can                                                         │
+     │ approve vs read-only (maps to the app's real RoleProvider               │
+     │ capabilities). This is the                                              │
+     │ clarity slide — symmetric treatment is the whole point.                 │
+     │                                                                         │
+     │ S4 — The Big Idea + moneyshot. Action title carries the contrarian      │
+     │ claim. Top: the                                                         │
+     │ 4-layer stack (Predictive → Prescriptive → Explainable →                │
+     │ Human-governed) as four                                                 │
+     │ layered sticker cards with an arrow spine. Bottom: KPI-hero band with   │
+     │ the 4 km                                                                │
+     │ moneyshot at 72pt plus two supporting numerals (2.0 days cover          │
+     │ remaining, 80 units                                                     │
+     │ surplus). Formula callout box (a real one from the code, not            │
+     │ decoration):                                                            │
+     │ days_remaining = units_remaining ÷ avg_daily_consumption · high risk <  │
+     │ 3 days.                                                                 │
+     │                                                                         │
+     │ S5 — How it works. Action title: "From a morning stock entry to an      │
+     │ approved transfer,                                                      │
+     │ in one district loop." Punch-hole + wire process strip, 7 nodes:        │
+     │ Facility intake →                                                       │
+     │ Firestore-first repository (20 s TTL, seed fallback) → Forecast service │
+     │ → Recommendation                                                        │
+     │ engine → Gemini explanation (grounded, tool-calling only) → Human       │
+     │ approve/reject/modify →                                                 │
+     │ Transfer log + citizen layer. Beneath it, the worked PHC Rural-14 / PHC │
+     │ Phagi trace                                                             │
+     │ with real intermediate values, and a small inline browser frame at the  │
+     │ "human approves"                                                        │
+     │ node. Rail label: "Signal path".                                        │
+     │                                                                         │
+     │ S6 — Product wireframe. Action title: "The console is built around one  │
+     │ question:                                                               │
+     │ where does attention go first?" Full native district-console mockup —   │
+     │ browser chrome,                                                         │
+     │ sidebar (Command / Operations / District / Public), KPI strip,          │
+     │ Leaflet-style map panel with                                            │
+     │ 8 risk pins, risk donut, and a recommendation card with Approve /       │
+     │ Reject / Modify                                                         │
+     │ buttons and a confidence pill. Right rail: compact 11-page feature      │
+     │ index + a small phone                                                   │
+     │ frame for Citizen Services (108 escalation). All mockup text respects   │
+     │ the 22pt floor.                                                         │
+     │                                                                         │
+     │ S7 — AI design & safety. Action title: "Gemini explains; it never       │
+     │ invents a number."                                                      │
+     │ Dual-agent hub-and-spoke: HealthAgent (7 district tools, named) and     │
+     │ PublicAgent                                                             │
+     │ (2 citizen tools) as separate hubs with no crossing edges — the         │
+     │ separation is the visual                                                │
+     │ argument. Paired Does / Does-not panels. Confidence-scoring formula     │
+     │ callout from                                                            │
+     │ recommendation_service.py (forecast 0.4 + factor + logistics +          │
+     │ safety-margin, capped 99).                                              │
+     │ Note MAX_TOOL_ITERATIONS = 5 and the pending-by-default state machine.  │
+     │                                                                         │
+     │ S8 — Technology stack & architecture. This slide directly answers the   │
+     │ stated                                                                  │
+     │ "Language / Frameworks / Tools / API" criterion, so it is built as a    │
+     │ wall, not a list.                                                       │
+     │ Left: 4-band architecture diagram (Client → API → Services → Data/AI)   │
+     │ with real module                                                        │
+     │ names and the request path drawn as ink wires. Right: 4-column stack    │
+     │ table with the                                                          │
+     │ literal criterion headers — Language · Frameworks · Tools · APIs —      │
+     │ populated with real                                                     │
+     │ versions (Next.js 16.2, React 19.2, TypeScript 5, Tailwind 4, Python    │
+     │ 3.12, FastAPI,                                                          │
+     │ Pydantic, google-genai, Firestore, Cloud Run asia-south1, Vercel,       │
+     │ Secret Manager, Docker,                                                 │
+     │ GitHub Actions, Recharts, Leaflet, Google Maps Places, Gemini). Bottom  │
+     │ strip: the 16 REST                                                      │
+     │ endpoints as compact monospace chips.                                   │
+     │                                                                         │
+     │ S9 — Feasibility & risk. Action title: "Every hard part is already a    │
+     │ solved                                                                  │
+     │ engineering pattern." Three zones: (a) feasibility evidence ladder —    │
+     │ deterministic                                                           │
+     │ forecasts, Firestore-first with seed fallback, 3 s client timeout →     │
+     │ mock fallback, security                                                 │
+     │ headers, ruff + pytest CI, scale-to-zero Cloud Run (cost-credible); (b) │
+     │ risk register                                                           │
+     │ with 1:1 mitigations (data quality · over-trust in AI · connectivity ·  │
+     │ real-world                                                              │
+     │ constraints · citizen misreading guidance); (c) 4-phase roadmap as a    │
+     │ 3-horizon strip                                                         │
+     │ (Hackathon → Pilot → Production intelligence: Vertex                    │
+     │ AI/BigQuery/Pub-Sub → Public scale:                                     │
+     │ multilingual, WhatsApp, FHIR). Small inline degradation-path diagram.   │
+     │                                                                         │
+     │ S10 — Impact & close. Action title restates the thesis with a number.   │
+     │ People /                                                                │
+     │ Facilities / System three-column impact split with measurable KPIs and  │
+     │ how each would be                                                       │
+     │ measured (stock-out days averted, wait time, bed utilisation, redirect  │
+     │ latency, % of AI                                                        │
+     │ actions with recorded human decision). Closing line: "SwasthyaGrid      │
+     │ helps public health                                                     │
+     │ teams act before the crisis reaches the patient." Ribbon on the last    │
+     │ tag.                                                                    │
+     │                                                                         │
+     │ Build procedure                                                         │
+     │                                                                         │
+     │ Follows CLAUDE.md §6 exactly. Key points, not restated in full:         │
+     │                                                                         │
+     │ 1. Sourcing pass (WebSearch) for S2 external statistics → discard       │
+     │ anything uncitable.                                                     │
+     │ 2. whoami → create_new_file with editorType: "slides".                  │
+     │ 3. listAvailableFontsAsync — verify Inter "Semi Bold" (space) and       │
+     │ Poppins "ExtraBold"                                                     │
+     │ (no space).                                                             │
+     │ 4. Create 10 empty slides in one script; capture node IDs.              │
+     │ 5. Paste deck-system/figma-deck-kit.js verbatim as the preamble of      │
+     │ every content                                                           │
+     │ script. Do not re-derive addFrame/addText — that is how the (−240,−240) │
+     │ bug                                                                     │
+     │ (CLAUDE.md §7.1) returns. Append to the real parent before setting x/y, │
+     │ at every                                                                │
+     │ nesting level.                                                          │
+     │ 6. Build in batches of 2–3 slides: [S1,S2,S3] → [S4,S5] → [S6,S7] →     │
+     │ [S8,S9,S10].                                                            │
+     │ S6 (wireframe) and S8 (architecture) are the two highest-node-count     │
+     │ slides — give each                                                      │
+     │ its own script if a batch stalls.                                       │
+     │ 7. Run the kit's overlap/clip/out-of-bounds validator after every       │
+     │ batch; screenshot after                                                 │
+     │ batch 1 before building the rest.                                       │
+     │ 8. Final sweeps: cornerRadius = 0 across all nodes; 22pt font floor     │
+     │ (source lines and                                                       │
+     │ photo captions exempt by name match).                                   │
+     │ 9. Screenshot all 10 slides, check each against its archetype spec,     │
+     │ fix, re-sweep.                                                          │
+     │ 10. No photo uploads planned — everything is native vector, so          │
+     │ §7.4/§7.5 do not apply.                                                 │
+     │                                                                         │
+     │ Files                                                                   │
+     │                                                                         │
+     │ - Read-only inputs:                                                     │
+     │ swasthyagrid/SwasthyaGrid-HACKSYNERGY-2026-Ideation.md,                 │
+     │ deck-system/figma-deck-kit.js, deck-system/slide-archetypes.md, and the │
+     │ prototype repo                                                          │
+     │ for verbatim formulas/versions.                                         │
+     │ - Output: a new Figma Slides file (ID recorded back here on             │
+     │ completion).                                                            │
+     │ - No files in this repo are modified.                                   │
+     │                                                                         │
+     │ Verification                                                            │
+     │                                                                         │
+     │ - Structural: kit validator returns no unexplained overlaps (ribbon     │
+     │ punch-holes and                                                         │
+     │ layered back-cards are expected hits — CLAUDE.md §7.8); no node outside │
+     │ 1920×1080; no                                                           │
+     │ cornerRadius ≠ 0; no content text < 22pt.                               │
+     │ - Visual: get_screenshot on all 10 slides; each must show zero dead     │
+     │ space and 4–5                                                           │
+     │ distinct type levels; every content slide has a bottom-right source     │
+     │ line.                                                                   │
+     │ - Content: grep the deck text for every recurring number (4 km, 2.0     │
+     │ days, 80 units, 97%, 218) and confirm consistency across cover chip,    │
+     │ KPI, table and footer.                                                  │
+     │ Cross-check every stack version and endpoint against the live repo.     │
+     │ Confirm each                                                            │
+     │ SwasthyaGrid figure is labelled illustrative and each external stat     │
+     │ carries a citation.                                                     │
+     │ - Argument: run the skill's critique mode                               │
+     │ (references/critique_rubric.md) against                                 │
+     │ the finished deck — every headline must be a declarative action title,  │
+     │ exactly one                                                             │
+     │ moneyshot, contrarian thesis foreshadowed on S2 and paid off on S4/S10. │
+     │ - Submission fit: exactly 10 slides; export/present check that it reads │
+     │ at projector                                                            │
+     │ distance.                                                               │
+     ╰─────────────────────────────────────────────────────────────────────────╯
+
+❯ /model sonnet                                                                 
+  ⎿  Set model to claude-sonnet-5
+
+❯ execute the plan                                                              
+
+● I'll start executing the plan: sourcing pass for S2 stats, then set up the
+  Figma file.
+
+● Web Search("India Rural Health Statistics 2023 PHC CHC shortfall specialist
+            vacancy percentage NHM")
+  ⎿  Did 1 search in 14s
+
+● Now let me load the Slides-specific guidance and read the deck kit before
+  creating the file.
+
+  Called Figma (ctrl+o to expand)
+● File created. Now let me verify fonts and set up the 10-slide grid.
+
+  Called Figma (ctrl+o to expand)
+
+❯ make sure to implement no AI-generated slop and em dashes and explain the     
+  content properly rather than doing it just for the sake of doing it'          
+
+● Noted — I'll write real, specific analysis into every slide (not filler), and
+  avoid em dashes throughout all slide copy. Creating the 10-slide grid now.
+
+  Called Figma 4 times (ctrl+o to expand)
+
+● All 10 slides created with node IDs recorded. Now building batch 1 (S1-S3).
+
+  Called Figma (ctrl+o to expand)
+
+● Let me screenshot both slides to check the visual result before continuing.
+
+  Read 2 files, called Figma, ran 1 shell command (ctrl+o to expand)
+
+● I see an artifact near node 7 on the cover slide (crossing lines). Let me
+  inspect the actual wire geometry to debug it.
+
+  Read 1 file, called Figma 2 times, ran 2 shell commands (ctrl+o to expand)
+
+● Found it: Figma Slides rotates rectangles around their top-left corner, not
+  their center (unlike the assumption in the shared kit, calibrated on Design
+  files). Let me fix the diagonal-wire helper and rebuild slide 1's connectors.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● The wires now radiate correctly, but they render on top of the hub circle. Let
+  me fix the z-order by bringing the hub node to front.
+
+  Called Figma (ctrl+o to expand)
+
+● Slide 1 and 2 are solid. Now building Slide 3 (Users) with the corrected
+  diagonal-wire helper carried forward.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● Slides 1-3 complete and clean. Moving to batch 2: S4 (Big Idea + moneyshot)
+  and S5 (How it works).
+  ⎿  Interrupted · What should Claude do instead?
+
+❯ https://www.figma.com/slides/Ja3BL89SGzpAifDi1vIKZ4 : look at this ppt for    
+  design inspo of all slides : this one's top notch in all terms I do not want  
+  a white screen at the back just resting there and destrroying the design,     
+  plan properly and build well                                                  
+
+  Read 6 files, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+● Updated plan
+  ⎿  /plan to preview
+
+● Updated plan
+  ⎿  /plan to preview
+
+● Updated plan
+  ⎿  /plan to preview
+
+● Updated plan
+  ⎿  /plan to preview
+
+● Now let me update the build procedure and verification sections to reflect the
+  current state and new checks.
+
+● Updated plan
+  ⎿  /plan to preview
+
+● Updated plan
+  ⎿  /plan to preview
+
+● Now let me ask about the one genuine blocker: the team roster for the cover
+  credit line.
+
+● User answered Claude's questions:
+  ⎿  · The reference cover has a team-credit line (names + institution). What 
+     should S1's cover carry for HACKSYNERGY 2026? → Team has 4 members : Harsh 
+     Kawatra (Delhi Technological Uni----), Anuj Gambhir (Same as harsh), 
+     Gursimran Kaur (Guru Gobind Singh Indraprastha University GGSIPU) and 
+     Dayita Arora (Ramjas College DU)
+
+● Updated plan
+  ⎿  /plan to preview
+
+● User approved Claude's plan
+  ⎿  Plan saved to: 
+     ~\.claude\plans\a-top-notch-mba-level-storytelling-tingly-bunny.md · /plan 
+     to edit
+     SwasthyaGrid — HACKSYNERGY 2026 deck (Figma Slides, 10 slides)
+
+     Context
+
+     SwasthyaGrid is an AI district health operations concept (district command
+     console for
+     PHCs/CHCs + citizen services layer). A full-stack prototype already exists
+     at
+     C:\Users\harsh\Desktop\HARSH\WEB-DEV-PROJECTS\ai-healthcare platform
+     (Next.js 16 +
+     FastAPI + Firestore + Gemini, deployed to Vercel/Cloud Run), and a 37 KB
+     ideation source
+     document lives at swasthyagrid/SwasthyaGrid-HACKSYNERGY-2026-Ideation.md.
+
+     It must now be re-pitched for HACKSYNERGY 2026 as an ideation blueprint, 
+     not a
+     shipped product. Hard constraints: max 10 slides, judged on Clarity and
+     Feasibility, with an explicit Technology Stack (language / frameworks / 
+     tools / API)
+     requirement. The deliverable is a native Figma Slides deck built to this
+     folder's
+     EY-density standard (CLAUDE.md §1–§8 + deck-system/), not a template PPTX —
+     HACKSYNERGY
+     imposes no mandatory template, so the Figma path in CLAUDE.md applies
+     rather than the
+     python-pptx path recorded in memory for Innovator's Court.
+
+     Outcome: a 1920×1080, 10-slide Figma Slides deck, zero imported images,
+     every chart and
+     mockup drawn from native nodes, that argues a contrarian thesis and answers
+     "is this
+     buildable?" with concrete engineering evidence.
+
+     Decisions locked with the user
+
+     ┌─────────────┬───────────────────────────────────────────────────────────┐
+     │  Decision   │                          Choice                           │
+     ├─────────────┼───────────────────────────────────────────────────────────┤
+     │ Slide       │ Cover + 9 content = 10                                    │
+     │ budget      │                                                           │
+     ├─────────────┼───────────────────────────────────────────────────────────┤
+     │ Prototype   │ Ideation-first; prototype cited only as technical         │
+     │ framing     │ feasibility evidence (endpoints, formulas, deploy         │
+     │             │ targets, CI) — never as "we shipped this"                 │
+     ├─────────────┼───────────────────────────────────────────────────────────┤
+     │             │ Folder default — purple/yellow (#5B21E6 / #3A0CA3 /       │
+     │ Palette     │ #F5C518 / #E5399E / #C4B5FD), unchanged from the kit's C  │
+     │             │ object                                                    │
+     ├─────────────┼───────────────────────────────────────────────────────────┤
+     │ Mockups     │ One full wireframe slide (S6) + inline mini-frames on S5  │
+     │             │ and S9                                                    │
+     ├─────────────┼───────────────────────────────────────────────────────────┤
+     │ Content     │ No filler/marketing slop, no em dashes anywhere in slide  │
+     │ tone        │ copy; every claim explains its why, not just states a     │
+     │             │ label                                                     │
+     └─────────────┴───────────────────────────────────────────────────────────┘
+
+     Progress so far (this build)
+
+     A Figma Slides file was already created and is in progress: file key 
+     kKS0Ef1cN8iPzY88XVJrH4
+     (https://www.figma.com/slides/kKS0Ef1cN8iPzY88XVJrH4). 10 empty slides
+     exist with node IDs
+     2:2 (S1) through 2:12 (S10), named 01 Cover … 10 Impact and Close. S1, S2, 
+     S3 are
+     built (with white backgrounds, per the original spec) and passed screenshot
+     review. The
+     sourcing pass for S2's external stats already ran: 31,053 PHCs, 79.5% CHC
+     specialist
+     vacancy, 41.9% male health-worker vacancy at PHCs, all cited to Rural
+     Health Statistics
+     2021-22 / 2020-21 (MoHFW/NHM).
+
+     A real Slides-specific bug was found and fixed: the kit's addDiagonalWire
+     helper
+     (figma-deck-kit.js §C, and CLAUDE.md §7.10) assumes Figma rotates a
+     rectangle around its
+     center — true in Design files, false in Slides, where rotation pivots
+     around the node's
+     top-left (x, y) corner. Using the Design-file formula produced
+     disconnected, wrongly-angled
+     wires (visually confirmed on S1's hub-and-spoke). Fixed formula for Slides:
+     function addDiagonalWireFixed(parent, x1, y1, x2, y2, color, thickness) {
+       thickness = thickness || 2.5;
+       const dx = x2 - x1, dy = y2 - y1;
+       const length = Math.sqrt(dx*dx + dy*dy);
+       const angleDeg = Math.atan2(dy, dx) * 180 / Math.PI;
+       const r = figma.createRectangle();
+       parent.appendChild(r);
+       r.resize(length, thickness);
+       r.fills = [{ type: "SOLID", color }];
+       r.cornerRadius = 0;
+       r.x = x1;                    // start AT point1 (not centered on the 
+     midpoint)
+       r.y = y1 - thickness / 2;
+       r.rotation = angleDeg;       // pivots around (x1,y1), sweeping the far 
+     end onto point2
+       return r;
+     }
+     Every remaining slide (S4–S10) must use this corrected version, not the 
+     plan's original
+     addDiagonalWire, anywhere a diagonal connector is drawn (S4 arrow spine, S5
+     process
+     trace, S7 dual hub-and-spoke). addWireH (axis-aligned, no rotation) is
+     unaffected and stays
+     as-is. Also note: after drawing radiating wires from a shared hub,
+     re-append the hub
+     shape(s) last so they render on top of the spokes (z-order = append order)
+     — done for S1,
+     must be repeated on S7.
+
+     Design refinements from the reference deck
+
+     The user pointed at https://www.figma.com/slides/Ja3BL89SGzpAifDi1vIKZ4
+     (their own prior
+     competition deck, "The Ames Goldsmith Decommissioning Disaster," Team
+     IdeaForge) as the
+     design bar to hit, and flagged that a content slide reading as a 
+     mostly-empty white canvas
+     is a failure, not an acceptable default. That reference deck was inspected
+     (screenshots of
+     slides 1, 2, 4, 6, 8, 10, 12). Findings:
+
+     - It uses the exact same purple/gold/magenta system already locked in for
+     this deck
+     (primary/accent/alert/tint) — confirms the palette choice, no change needed
+     there.
+     - Content slides (its slides 2, 4, 6, 8, 10) are white-background, but
+     every region is a
+     bordered panel, table, or numbered card — there is no visible bare canvas
+     anywhere. S2 and
+     S3, already built here, independently match this (verified by screenshot:
+     dense panels
+     top to bottom, no gaps) — no rework needed on those two.
+     - The cover slide is full-bleed primary purple, not white: a white title
+     card (layered,
+     dashed-shadow) sits on the purple field, a torn/rotated gold accent shape
+     bleeds off the
+     top-right corner, three small stat/fact chips sit below the title, and a
+     team-credit block
+     (name + institution) sits at the bottom below a dashed divider. S1 as 
+     already built uses
+     a plain white background and needs to be rebuilt to this full-bleed 
+     treatment before
+     moving on — see the revised S1 spec below.
+     - The closing slide is full-bleed primaryDeep purple with large reversed
+     (white) text,
+     no content panels — a deliberate palette bookend. This deck's S10 cannot
+     spend a full slide
+     on a bare "Thank you" (10-slide cap, and the density doctrine forbids a
+     content-free
+     slide), so the bookend is adapted: S10 keeps its dense impact content on a
+     white body, and
+     closes with a full-width, full-bleed-color band across the bottom carrying
+     the closing
+     line in large reversed text — the color bookend without giving up a slide.
+     - Ribbon nav matches almost exactly what was already built (interlocking
+     gold tags,
+     purple active tag with layered back-card, punch-hole + wire connectors) —
+     no change, except
+     the reference appends a small page-number chip (02 / 12 style) at the
+     ribbon's far
+     right end. Adopt this: append a NN / 10 chip after the last ribbon tag on
+     S2–S10.
+     - A "Claim / Confidence / Basis" table (three columns: the claim, a
+     High/Medium/Low
+     rating, and its evidentiary basis) appears on the reference's chemistry
+     slide as an honesty
+     device. This is a strong fit for S9 (Feasibility) — adopt it there to rate
+     this deck's
+     own key feasibility claims (e.g. "Firestore-first fallback is
+     production-grade": High,
+     basis = it's live code in the repo; "80-unit ASV surplus figure": Medium,
+     basis = seed
+     dataset, illustrative) rather than asserting feasibility flatly.
+     - Its dashed-row layer diagram (a horizontal dashed wire with a punch-hole
+     circle at its
+     midpoint, one per process stage) matches what was already planned for S5's
+     process strip —
+     no change, just confirms the archetype choice.
+
+     Team roster (confirmed by user)
+
+     Same four-person team as the reference deck:
+     - Harsh Kawatra, Delhi Technological University
+     - Anuj Gambhir, Delhi Technological University
+     - Gursimran Kaur, Guru Gobind Singh Indraprastha University (GGSIPU)
+     - Dayita Arora, Ramjas College, Delhi University
+
+     Used verbatim on S1's team-credit line, same two-line grouping style as the
+     reference
+     (DTU pair on one line, GGSIPU/Ramjas pair on the next, pipe-separated).
+
+     The argument (content engineering, per case-competition-deck §A/§D)
+
+     Contrarian recommendation. The obvious hackathon answer to rural health is
+     another
+     predictive AI model / diagnosis chatbot. SwasthyaGrid argues the binding
+     constraint is
+     coordination latency, not medical intelligence or absolute scarcity — the
+     district
+     usually has the resource; it is sitting at the wrong facility, unseen, for
+     days. And the
+     correct AI posture is deliberately non-autonomous: the model explains, a
+     human approves.
+
+     Moneyshot (exactly one, on S4). The giant-numeral band:
+     4 km — the distance between a PHC that runs out of anti-snake-venom in 2.0 
+     days
+     and a CHC holding 80 units (26.7 days of cover). Sub-line: "The district 
+     was never
+     short. The surplus was 4 km away, and nobody could see it."
+
+     Foreshadowing. S2 plants "the failure is distribution, not supply" inside
+     the problem
+     issue tree; S4 pays it off; S10 closes on it.
+
+     Data integrity (CLAUDE.md §5). Two clearly separated tiers, and this
+     separation must
+     be visible on the slides:
+     - Illustrative district scenario — every SwasthyaGrid number (Jaipur Rural,
+     8
+     facilities, 2.0 days ORS, 97% bed occupancy, 218 footfall) is labelled
+     "Illustrative district scenario — modelled on Jaipur Rural, Rajasthan" in
+     the source
+     line. Never presented as measured field data.
+     - Externally sourced — problem-side statistics (PHC/CHC counts, shortfall
+     %, stock-out
+     and vacancy rates) must come from real citations (Rural Health Statistics /
+     MoHFW,
+     NHM, NITI Aayog Health Index, CAG audits). A short WebSearch sourcing pass 
+     runs
+     before S2 is built; any stat without a citation is cut, not rounded into
+     existence.
+     - No invented interviews, LOIs, pilot MoUs, or willingness-to-pay.
+
+     Slide-by-slide spec
+
+     Archetypes reference deck-system/slide-archetypes.md; helpers reference
+     deck-system/figma-deck-kit.js. Ribbon label set actually built (9 tags, one
+     per content
+     slide, section-scoped, superseding the original 7-tag draft):
+     PROBLEM · USERS · IDEA · HOW · PRODUCT · AI · TECH · FEASIBILITY · IMPACT,
+     active index =
+     slide number − 2 (S2 = index 0 … S10 = index 8). Each ribbon on S2–S10 also
+     gets a
+     NN / 10 page-number chip appended after the last tag, per the
+     reference-deck study above.
+
+     S1 — Cover (revised to full-bleed, supersedes the white-background version 
+     already
+     built). Full-bleed primary background, not white. A white layered title
+     card (dashed
+     gold back-offset) carries SwasthyaGrid at 100–112pt and the vision line.
+     Below it, 2–3
+     small fact/stat chips in alert/accent/white. The district hub-and-spoke
+     motif (8
+     ink-outlined facility nodes, 2 filled alert = critical, wired to a central
+     hub, using the
+     corrected wire helper above) sits on the right, now against the purple
+     field with white
+     node fills instead of transparent. A torn/rotated gold accent shape bleeds
+     off the top-right
+     corner. Bottom: a dashed divider above a team-credit line (real names, see
+     open question) and
+     the HACKSYNERGY 2026 badge. No ribbon.
+
+     S2 — Problem. Action title: "District health fails at the seams: the 
+     resource exists,
+     the visibility doesn't." Left = 3-level MECE issue tree (Visibility gap ·
+     Coordination
+     gap · Explainability gap) with the middle branch tinted as the one this
+     product attacks.
+     Right = 3 sourced stat cards + a before/after latency bar (days-to-detect
+     vs
+     days-to-act). Rail-labelled commentary panel narrating the "detected late"
+     pattern.
+
+     S3 — Users. Action title: "One district network, four decision rights."
+     Symmetric
+     4-column grid (District Administrator · PHC/CHC Staff · State Health
+     Officer · Citizen),
+     each column identical in structure: role badge → what they decide → what 
+     they lack today
+     → what SwasthyaGrid gives them. Bottom band: decision-rights strip showing
+     who can
+     approve vs read-only (maps to the app's real RoleProvider capabilities).
+     This is the
+     clarity slide — symmetric treatment is the whole point.
+
+     S4 — The Big Idea + moneyshot. Action title carries the contrarian claim.
+     Top: the
+     4-layer stack (Predictive → Prescriptive → Explainable → Human-governed) as
+     four
+     layered sticker cards with an arrow spine. Bottom: KPI-hero band with the 4
+     km
+     moneyshot at 72pt plus two supporting numerals (2.0 days cover remaining,
+     80 units
+     surplus). Formula callout box (a real one from the code, not decoration):
+     days_remaining = units_remaining ÷ avg_daily_consumption · high risk < 3 
+     days.
+
+     S5 — How it works. Action title: "From a morning stock entry to an approved
+     transfer,
+     in one district loop." Punch-hole + wire process strip, 7 nodes: Facility
+     intake →
+     Firestore-first repository (20 s TTL, seed fallback) → Forecast service →
+     Recommendation
+     engine → Gemini explanation (grounded, tool-calling only) → Human
+     approve/reject/modify →
+     Transfer log + citizen layer. Beneath it, the worked PHC Rural-14 / PHC 
+     Phagi trace
+     with real intermediate values, and a small inline browser frame at the
+     "human approves"
+     node. Rail label: "Signal path".
+
+     S6 — Product wireframe. Action title: "The console is built around one 
+     question:
+     where does attention go first?" Full native district-console mockup —
+     browser chrome,
+     sidebar (Command / Operations / District / Public), KPI strip,
+     Leaflet-style map panel with
+     8 risk pins, risk donut, and a recommendation card with Approve / Reject / 
+     Modify
+     buttons and a confidence pill. Right rail: compact 11-page feature index +
+     a small phone
+     frame for Citizen Services (108 escalation). All mockup text respects the
+     22pt floor.
+
+     S7 — AI design & safety. Action title: "Gemini explains; it never invents a
+     number."
+     Dual-agent hub-and-spoke: HealthAgent (7 district tools, named) and
+     PublicAgent
+     (2 citizen tools) as separate hubs with no crossing edges — the separation
+     is the visual
+     argument. Paired Does / Does-not panels. Confidence-scoring formula callout
+     from
+     recommendation_service.py (forecast 0.4 + factor + logistics +
+     safety-margin, capped 99).
+     Note MAX_TOOL_ITERATIONS = 5 and the pending-by-default state machine.
+
+     S8 — Technology stack & architecture. This slide directly answers the 
+     stated
+     "Language / Frameworks / Tools / API" criterion, so it is built as a wall, 
+     not a list.
+     Left: 4-band architecture diagram (Client → API → Services → Data/AI) with
+     real module
+     names and the request path drawn as ink wires. Right: 4-column stack table
+     with the
+     literal criterion headers — Language · Frameworks · Tools · APIs —
+     populated with real
+     versions (Next.js 16.2, React 19.2, TypeScript 5, Tailwind 4, Python 3.12,
+     FastAPI,
+     Pydantic, google-genai, Firestore, Cloud Run asia-south1, Vercel, Secret
+     Manager, Docker,
+     GitHub Actions, Recharts, Leaflet, Google Maps Places, Gemini). Bottom
+     strip: the 16 REST
+     endpoints as compact monospace chips.
+
+     S9 — Feasibility & risk. Action title: "Every hard part is already a solved
+     engineering pattern." Three zones: (a) a Claim / Confidence / Basis table
+     (per the
+     reference-deck pattern above) rating this deck's own feasibility claims
+     High/Medium/Low
+     against their actual evidence — deterministic forecasts, Firestore-first
+     with seed fallback,
+     3 s client timeout → mock fallback, security headers, ruff + pytest CI,
+     scale-to-zero Cloud
+     Run, each claim honestly sourced rather than asserted; (b) risk register 
+     with 1:1
+     mitigations (data quality · over-trust in AI · connectivity · real-world
+     constraints ·
+     citizen misreading guidance); (c) 4-phase roadmap as a 3-horizon strip
+     (Hackathon →
+     Pilot → Production intelligence: Vertex AI/BigQuery/Pub-Sub → Public scale:
+     multilingual,
+     WhatsApp, FHIR).
+
+     S10 — Impact & close. Action title restates the thesis with a number.
+     People /
+     Facilities / System three-column impact split with measurable KPIs and how 
+     each would be
+     measured (stock-out days averted, wait time, bed utilisation, redirect
+     latency, % of AI
+     actions with recorded human decision) on a white body. Closes with a
+     full-width, full-bleed
+     primaryDeep band across the bottom of the slide carrying the closing line
+     in large
+     reversed (white) text: "SwasthyaGrid helps public health teams act before 
+     the crisis
+     reaches the patient." — the deck's color bookend against S1, without
+     spending a dedicated
+     "thank you" slide out of the fixed 10-slide budget.
+
+     Build procedure
+
+     Follows CLAUDE.md §6, adapted from what actually happened so far in file
+     kKS0Ef1cN8iPzY88XVJrH4:
+
+     1. Sourcing pass done — see Progress section above.
+     2. whoami → create_new_file done.
+     3. Verify fonts done — confirmed Poppins/"ExtraBold" (no space) and
+     Inter/"Semi Bold" (space) both resolve via listAvailableFontsAsync.
+     4. Create 10 empty slides done, IDs 2:2–2:12.
+     5. Paste deck-system/figma-deck-kit.js verbatim as the preamble of every 
+     content
+     script, EXCEPT swap in the corrected addDiagonalWireFixed from the Progress
+     section
+     above wherever a diagonal wire is drawn — the original kit formula is wrong
+     for Slides.
+     Do not re-derive addFrame/addText. Append to the real parent before setting
+     x/y, at
+     every nesting level (CLAUDE.md §7.1, unaffected by the rotation bug, still
+     applies).
+     6. Remaining batches: rebuild S1 to the full-bleed cover (needs the
+     team-roster answer
+     first) → [S4, S5] → [S6, S7] (re-append hub shapes last on S7's dual
+     hub-and-spoke) →
+     [S8, S9, S10]. S6 (wireframe) and S8 (architecture) are the densest — give
+     each its own
+     script if a batch stalls. Also do a light pass over S2/S3 to append the NN 
+     / 10
+     page-number chip to their ribbons (only change needed there).
+     7. Run the kit's overlap/clip/out-of-bounds validator after every batch;
+     screenshot after
+     every new slide given how much the rotation bug cost last time — cheap
+     insurance.
+     8. Final sweeps: cornerRadius = 0 across all nodes; 22pt font floor (source
+     lines and
+     photo captions exempt by name match).
+     9. Screenshot all 10 slides, check each against its archetype spec, fix,
+     re-sweep.
+     10. No photo uploads planned — everything is native vector, so §7.4/§7.5 do
+     not apply.
+
+     Files
+
+     - Read-only inputs: swasthyagrid/SwasthyaGrid-HACKSYNERGY-2026-Ideation.md,
+     deck-system/figma-deck-kit.js, deck-system/slide-archetypes.md, and the
+     prototype repo
+     for verbatim formulas/versions.
+     - Output: a new Figma Slides file (ID recorded back here on completion).
+     - No files in this repo are modified.
+
+     Verification
+
+     - Structural: kit validator returns no unexplained overlaps (ribbon
+     punch-holes and
+     layered back-cards are expected hits — CLAUDE.md §7.8); no node outside
+     1920×1080; no
+     cornerRadius ≠ 0; no content text < 22pt.
+     - Visual: get_screenshot on all 10 slides; each must show zero dead space —
+     no bare
+     canvas region without a panel, table, card, or the full-bleed cover/closing
+     treatment;
+     4–5 distinct type levels; every content slide has a bottom-right source
+     line and a
+     NN / 10 ribbon page chip. All diagonal wires (S1, S4, S5, S7) confirmed
+     connected
+     endpoint-to-endpoint, not floating or crossing incorrectly.
+     - Copy: no em dashes anywhere in slide text; no generic filler phrasing —
+     every claim
+     states a concrete why, not just a label.
+     - Content: grep the deck text for every recurring number (4 km, 2.0 days,
+     80 units, 97%, 218) and confirm consistency across cover chip, KPI, table
+     and footer.
+     Cross-check every stack version and endpoint against the live repo. Confirm
+     each
+     SwasthyaGrid figure is labelled illustrative and each external stat carries
+     a citation.
+     - Argument: run the skill's critique mode (references/critique_rubric.md)
+     against
+     the finished deck — every headline must be a declarative action title,
+     exactly one
+     moneyshot, contrarian thesis foreshadowed on S2 and paid off on S4/S10.
+     - Submission fit: exactly 10 slides; export/present check that it reads at
+     projector
+     distance.
+
+● Plan approved. Rebuilding S1 as a full-bleed cover first.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● S1 now matches the reference's design bar. Moving to add page-number chips on
+  S2/S3, then build S4-S5.
+
+  Called Figma (ctrl+o to expand)
+
+● Now building S4 (Big Idea + moneyshot) and S5 (How it works) together.
+
+  Read 2 files, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+● S5 has overlapping text (title collides with the process strip, last node
+  label clips off the slide edge, and the mockup text collides with its own
+  chrome bar). Let me clear and rebuild it with fixed spacing.
+
+  Called Figma (ctrl+o to expand)
+
+● mockY=918, mock ends at 1046, close to source line at 1050 but should be fine.
+  Let me verify with a screenshot.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● Height 57 confirms single line now. Let me verify visually.
+
+  Read 1 file, called Figma, ran 1 shell command (ctrl+o to expand)
+
+● S4 and S5 are both clean now. Updating todos and moving to S6/S7.
+
+  Read 1 file, called Figma 3 times, ran 1 shell command (ctrl+o to expand)
+
+● Two minor overlaps on S6 (KPI captions clipping, one map pin overlapping its
+  caption). Let me rebuild with corrected spacing.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● S6 is clean now. Moving to S7 (AI design and safety).
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● One small overlap: the dashed divider crosses the public agent's first spoke.
+  Let me nudge the divider left.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● S7 is clean. Moving to the final batch: S8 (Tech stack), S9 (Feasibility), S10
+  (Impact/close).
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● One overflow on S8: the last architecture band's text spills past its border
+  into the endpoint chips below. Let me rebuild with taller bands and shift the
+  endpoint strip down.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● Excellent, S8 is clean now. Moving to S9 (Feasibility & risk) with the
+  Claim/Confidence/Basis table pattern.
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● Two spacing fixes needed on S9: the CONFIDENCE header wraps awkwardly, and the
+  roadmap cards clip their last line. Rebuilding with corrected sizes.
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● S9 is clean. Now the final slide, S10 (Impact + close with the full-bleed
+  colored closing band).
+
+  Read 1 file, called Figma 2 times, ran 1 shell command (ctrl+o to expand)
+
+● All 10 slides are built. Now running the final validation sweeps:
+  corner-radius, font-floor (including fixing the S8 table cells I built at
+  20pt), and overlap checks.
+
+  Called Figma (ctrl+o to expand)
+
+● This is a real, systemic issue — I used sub-22pt text extensively for chips,
+  badges, table headers, and mockup labels across every slide, violating the
+  hard type-floor rule. Fixing all 192 instances now.
+
+  Called Figma (ctrl+o to expand)
+
+● All 192 fixed. Now let me screenshot every slide to catch any clipping the
+  size increase introduced.
+
+  Called Figma (ctrl+o to expand)

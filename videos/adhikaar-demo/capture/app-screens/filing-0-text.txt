@@ -1,0 +1,107 @@
+अ
+Adhikaar
+A REGISTER OF APPLICATIONS
+My filings
+Start a new filing
+Rights Navigator
+Scheme Eligibility
+Methodology
+Sign out
+EN
+हि
+GitHub
+
+FILING C0696812
+
+Vikram Singh
+TRIAGED
+
+We have worked out who is responsible for answering you. Add your questions below to build the application.
+
+My landlord is refusing to return my security deposit of Rs 50,000 after I vacated the flat two months ago, despite no damage to the property.
+
+Will an RTI actually get you what you need?
+
+THIS IS REALLY A TENANCY MATTER
+
+State Rent Authority or Rent Control Court of the relevant state
+
+Tenancy law is entirely state-legislated with no uniform national statute, and this directory does not cover any state's rent authority. This case is out of coverage. Direct the citizen to the State Rent Authority, or to a local legal aid clinic if one is available, rather than attempting an RTI, which cannot resolve a landlord-tenant dispute.
+
+Limitation: Governed by the state's own Rent Control or Model Tenancy Act; there is no single national limitation period
+
+Who is legally required to answer you
+State subject
+Land and land revenue
+List II, Entry 18 (Land)
+
+Department of Revenue, Government of NCT of Delhi
+
+confidence 78%
+
+Government of NCT of Delhi
+
+The Public Information Officer, Department of Revenue, Government of NCT of Delhi, 5th Level, C-Wing, Delhi Secretariat, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Land and land revenue" (List II, Entry 18 (Land)). For a specific khasra or mutation record, file with the Sub-Divisional Magistrate or Tehsildar of the concerned area, not the Secretariat directly, where the local office is known.
+
+Delhi Police
+
+confidence 52%
+
+Government of NCT of Delhi (administered through Ministry of Home Affairs)
+
+The Public Information Officer, Delhi Police Headquarters, MSO Building, I.P. Estate, New Delhi 110002
+
+Matched on subject matter "Land and land revenue" (List II, Entry 18 (Land)). Delhi Police is administratively under the Ministry of Home Affairs, an exception to the usual state-police pattern; the CPIO structure still follows the police force, not the ministry.
+
+This is the office I will write to
+Your application
+
+No questions drafted yet.
+
+Draft the next question
+
+Dictate
+EN
+HI
+Add question to the application
+Plain-language copy for you
+
+A translated, plain-language copy of this application in Hindi, for the citizen. Machine-generated, always shown beside the formal filing, and reviewed before it is handed over.
+
+Generate with Gemini
+
+Add at least one question before generating a plain-language copy.
+
+Fee
+
+Rs. 10, payable via court fee stamp, demand draft, online via rtionline.delhi.gov.in
+
+Your deadline
+
+Tell us the date you sent this, and we will start your thirty days.
+
+Date filed
+Concerns life or liberty (forty-eight hour track)
+Filed via an Assistant Public Information Officer
+I have sent it. Start my thirty days.
+Download
+Download your application
+
+Select an authority and add at least one question first.
+
+My notes
+Save notes
+
+Adhikaar
+
+A citizen’s guided path from am I even eligible to here is the document, grounded in the actual statutory text at every step. It is not a source of legal advice, and every filing requires your own review before it is sent.
+
+Civic and legal empowerment
+
+Built for citizens navigating government processes on their own. Released under the Apache License, Version 2.0.
+
+Primary sources
+
+Right to Information Act, 2005. Digital Personal Data Protection Act, 2023. Department of Land Resources RTI disposal register. Full citations on the Methodology page.

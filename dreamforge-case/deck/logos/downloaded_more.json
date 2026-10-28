@@ -1,0 +1,44 @@
+{
+  "Zypp Electric": {
+    "url": "https://zypp.app/assets/Zypp-Electric-Logo-ChISi-2M.svg",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Zypp_Electric.svg",
+    "content_type": "image/svg+xml",
+    "size": 7621
+  },
+  "Kinetic Green": {
+    "url": "https://kineticgreen.com/assets/header_logo-BwEmavfP.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Kinetic_Green.png",
+    "content_type": "image/png",
+    "size": 83871
+  },
+  "Amazon": {
+    "error": "404 Client Error: Not Found for url: https://cdn.jsdelivr.net/gh/gilbarbara/logos@main/logos/amazon.svg"
+  },
+  "Yulu-home": {
+    "url": "https://www.yulu.bike/api/header",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Yulu-home.txt",
+    "content_type": "application/json; charset=utf-8",
+    "size": 175
+  },
+  "Yulu-news": {
+    "url": "https://newsroom.yulu.bike/",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Yulu-news.txt",
+    "content_type": "text/html",
+    "size": 70143
+  },
+  "Tata-commons": {
+    "error": "403 Client Error: Forbidden for url: https://commons.wikimedia.org/wiki/File:Tata_Power_logo.svg"
+  },
+  "Bajaj-media": {
+    "url": "https://legacy.bajajauto.com/corporate/media-centre",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Bajaj-media.txt",
+    "content_type": "text/html; charset=utf-8",
+    "size": 647738
+  },
+  "IEEE alternate": {
+    "url": "https://www.ieeedtu.in/images/logo.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\IEEE_alternate.png",
+    "content_type": "image/png",
+    "size": 65496
+  }
+}

@@ -1,0 +1,10 @@
+facilities 38,241
+facility-medicine lines 2,67,687
+baseline stock-out days a year 2,71,62,200 = 2.72 crore
+bear 30% 81,48,660 = 81.5 lakh = 0.81 crore availability after 80.5%
+base 50% 1,35,81,100 = 135.8 lakh = 1.36 crore availability after 86.1%
+bull 80% 2,17,29,760 = 217.3 lakh = 2.17 crore availability after 94.4%
+sensitivity (lakh days avoided)
+66% 99.7 166.1 265.8
+72.2% 81.5 135.8 217.3
+80% 58.6 97.7 156.3

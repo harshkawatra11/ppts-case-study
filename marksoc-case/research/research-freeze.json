@@ -1,0 +1,145 @@
+{
+  "version": "DOBAARA-release-v1.0",
+  "date": "2026-10-28",
+  "model_version": "9b3628d94d",
+  "input_freeze": "DOBAARA-inputs-v1.1",
+  "research": {
+    "pages": 158,
+    "authored_words": 92861,
+    "total_words": 113289,
+    "analytical_tables": 196,
+    "model_tables": 29,
+    "judge_questions": 40,
+    "case_ids": 111,
+    "substantively_cited_sources": 76
+  },
+  "deck": {
+    "file_key": "viBAXiMyRZoVBndv7wELRM",
+    "url": "https://www.figma.com/slides/viBAXiMyRZoVBndv7wELRM",
+    "pages": 14,
+    "page_size": [
+      1920,
+      1080
+    ],
+    "original_file_key": "KZO1f42mxT6YHTwCofkcLs",
+    "protected_files_checked": 40
+  },
+  "checksums": {
+    "research/dobaara-research.md": {
+      "bytes": 783045,
+      "sha256": "3df871d00ba405088dadb114e22dee76b8887834e2cbcfbfc6c369a24bf0923d"
+    },
+    "research/dobaara-research.html": {
+      "bytes": 4652329,
+      "sha256": "8679fb1769df6a6a6856ffa5cc286f4f541bfc2755dd32c494fbb329e265b5b2"
+    },
+    "research/dobaara-research.pdf": {
+      "bytes": 6410463,
+      "sha256": "3e60ccf0522dd6901e2ce5679f4cfe7f387ba013267467a04300ccb6da7dbbee"
+    },
+    "rebuild-card.md": {
+      "bytes": 4864,
+      "sha256": "d5f105bba157dd733c934f27991c4a7cf6da5c139b76e1eb4156420108af7244"
+    },
+    "rebuild-card.html": {
+      "bytes": 3684618,
+      "sha256": "16c406a1d0a21704705456c87858c2cf62db81b43a1e8e2807843fadd700c96f"
+    },
+    "rebuild-card.pdf": {
+      "bytes": 81342,
+      "sha256": "4d2a1548c713603eb1ba49e1a23b2799886fcc4dbb7cc311f9469b78de46dd02"
+    },
+    "research/acceptance-report.md": {
+      "bytes": 2401,
+      "sha256": "fb459b243ea4fe1481d86de850dc28f3e2d0b8bd747391b7964359984abb1c84"
+    },
+    "research/qa/assembly-checks.json": {
+      "bytes": 1176,
+      "sha256": "1dd461bd2736a31d60aed2aae9ebc19dc6483d10fb2a57a9399ed38201b9acfb"
+    },
+    "research/qa/evidence-checks.json": {
+      "bytes": 7380,
+      "sha256": "99fa956095032502f627bb07bf3306b8be3921f15fa704c527e69f8a8ae1a29a"
+    },
+    "research/raw/evidence-register.json": {
+      "bytes": 270308,
+      "sha256": "824525c0b8ebfcadbb377ee7d0d7282c3d8d377fe1b1e651efd0c3ba64a18e7a"
+    },
+    "research/raw/sources.json": {
+      "bytes": 32761,
+      "sha256": "24775561afee3f51f721ecd9e6879a23f3f0701388934b3805d9746b29495a2e"
+    },
+    "research/raw/sources.md": {
+      "bytes": 17576,
+      "sha256": "5fc1d914455159ed3f940e95a1df8468736baa654b44d25b2abdf3ccb2157ad7"
+    },
+    "research/input-freeze.json": {
+      "bytes": 1792,
+      "sha256": "28e18589b7fdffc90db2d6128d2edf46466003016e94df2f27899dfe6ffa55d2"
+    },
+    "model/dobaara_model.py": {
+      "bytes": 51975,
+      "sha256": "119c4b2457d4d9251d584addfc935382443677dc821f6988db71a7cebbf1961b"
+    },
+    "model/model_outputs.json": {
+      "bytes": 67235,
+      "sha256": "8ee6cc603aac7382173ad9bb10e2898e5040f942ec7032dd3d820d78bb10cc70"
+    },
+    "model/model_tables.md": {
+      "bytes": 24402,
+      "sha256": "e1621ecb0d8a11d42371abfd18104094c7799955597415d2eb920f6bf46c6f92"
+    },
+    "audit/independent-audit.json": {
+      "bytes": 4780154,
+      "sha256": "ebc91afa7fc36312d90984115fc2ebeec7450cb2364101f6d550e4a0aa965f68"
+    },
+    "audit/economics-audit.md": {
+      "bytes": 16743,
+      "sha256": "6d1521ee0b7941bc40b95a608dbdcee72335a19698ed8227af488ce37513f417"
+    },
+    "audit/extended-model-tables.json": {
+      "bytes": 174785,
+      "sha256": "5e75ac53c7902c614586a4dc16b632b28b7ab29d17a43dc75b46c83ada3ed0b7"
+    },
+    "audit/extended-model-tables.md": {
+      "bytes": 57068,
+      "sha256": "147cf76cc92dc2103629c4583842dc752e56e0da331f037a8afe4ba30dbadfbd"
+    },
+    "audit/coverage-ledger.md": {
+      "bytes": 44093,
+      "sha256": "d9580efe7f6432ee306b7e42b940530150638a0c73bd5e3fea82af76e482bdec"
+    },
+    "deck/additive/dobaara-submission.pdf": {
+      "bytes": 11718773,
+      "sha256": "95a063f8484b5379f8a333fbd31b420b882d4ca6edb2858db09a1958e30e1b1f"
+    },
+    "deck/additive/claim-to-slide-manifest.json": {
+      "bytes": 423619,
+      "sha256": "3cd9cf10a8a4b3ba7346c1f433a68c550c10695e9627662231b6ed0f3081c2bf"
+    },
+    "deck/additive/native-object-qa.json": {
+      "bytes": 3120,
+      "sha256": "6e62bd400bf6de1b4616101faaf3ec40b4f7006c252f3fa4b1520f75b5e1a06b"
+    },
+    "deck/additive/deck-qa-and-critique.md": {
+      "bytes": 3620,
+      "sha256": "a4c2f01c910ad81fee3641df5473ea51d2a4fc4bdefc22a6b45ee7e84b014afa"
+    },
+    "deck/additive/asset-credits.json": {
+      "bytes": 4399,
+      "sha256": "7a9b577044e28381536479fc6377d65e2cba58cdc9f62f8737ee4632930ebafe"
+    },
+    "deck/additive/slide-mapping.json": {
+      "bytes": 531,
+      "sha256": "bf23a24c887be1e926477268ef45a11adadb7fccbc970f7ba99c0138c1b039a2"
+    },
+    "deck/additive/replay-manifest.json": {
+      "bytes": 5069,
+      "sha256": "1838b21653682489a4f9dc1fda0faeced986a9ecedb6cdccb82eadac4c45dd08"
+    },
+    "deck/original-draft/TeamIdeaForge_ProjectDobaara_Original_Claude_Draft.pdf": {
+      "bytes": 10090684,
+      "sha256": "f9901d0b2f7a463d68132bed09ff5457dad3b29d9c184f98b80bf4ff02a4ef08"
+    }
+  }
+}

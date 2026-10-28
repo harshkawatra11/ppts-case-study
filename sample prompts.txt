@@ -1,0 +1,212 @@
+working folder : [folder-name]
+This is an [college-name] case study and hence has to be treated with very care and note of each and every detail of the case, read each and every detail of the case and your task would be to actually develop and solve this case along with tailoring a very deep research document as a deliverable and then a figma native deck that would be consulting grade in nature, content heavy and dense slides to a very heavy extent, research backed, laced up with tables, charts and more using the skill file present in the root folder as case-competition-deck.skill and apart from that the plan file : the plan file has to be very detailed in nature in terms of execution as further it has to be executed by sonnet class subagents and hence your task is to make a very detailed plan such that sonnet class agents spend on execution and not thinking to fixes and bugs , the plan file can be as long as you want to stretch it , it has no limits to no of lines or characters, mentioning proper usage of the case deck skill everywhere
+use the humanizer skill to humanize the writing of content as consulting grade humanised storytelling
+for the ppt as a deliverable use the .claude folder, claude.md file, figma deck-system folder and a few figma decks as inspo that you can use
+
+for reference and checks of how deep the research has to be you can refer to the folder mandamasterminds,lsr-caseforchange, iim-lucknow-pivot, maudrik-policy and more on how to develop and structure research
+
+inspo decks : 
+
+https://www.figma.com/slides/hOJVMGv9nIhDmayTT7DmOt(prime inspo)
+https://www.figma.com/slides/e5VEexsLMhDampx7gvhFmM
+https://www.figma.com/slides/vAIyXmljHlFDuwQo6RsoIN
+https://www.figma.com/slides/APbOstO4SSU7iAjYIgEeSd
+https://www.figma.com/slides/JLOOyohkQPUrwXEsxDKz4m
+https://www.figma.com/slides/YoiazGGOribfg69EjEDIlP
+https://www.figma.com/slides/7N3v6bAfmXYRrte0zChFDg
+proper mind maps on cover : not like the Satoshi gate deck with plain text, brand image placeholders in the mind map and across the presentation if possible and if case covers real-life companies
+
+for the research deliverable it can be as long as you want to stretch it, there is absolutely no limit to characters or number of lines
+you do have access to internet, the data you are trained on and much more to that
+
+it should be professional and content heavy in nature, consulting grade output, the language should be graded humanised storytelling and no hooks(they are for speeches), ai generated slop or em dashes in either of the ppt and the case deck and include heatmaps, tables, bars, charts, graphs, lines and more and apart from that make sure the content is 1 cover 1 thankyou 1 appendix and 5 core slides 
+continue building as deep as you can again confirming there is no limits to characters or no of lines to plan or any heavy research deliverable 
+BUILD THE BEST PLAN OUT THERE, A HELL OF A RESEARCH DOCUMENT AND A WINNING DECK
+cognee-setup : 
+
+github cli is available as gh auth from harshkawatra11 , all prs, and all git requests to be made only and only from this account
+
+this repo has to be setup properly for open-source contribution towards the repo cognee primarily
+https://github.com/topoteretes/cognee
+too many branches to it
+too many prs
+its all for a hackathon mergetober
+Since website is scroll hooked and js animated, I'll provide you with all the documentation, details and more
+notion is also present as cli so you can read documentation present via notion : https://app.notion.com/p/topoteretes/Building-a-cognee-Integration-3c937007fa8281b18e83fcc24f86004a?source=copy_link
+
+they say that : 02
+
+Pick an issue
+Start from the open INTEGRATIONS + hackathon issues. New to open source? Some of them are marked good first issue.
+https://github.com/topoteretes/cognee/issues?q=is%3Aissue+is%3Aopen+label%3AINTEGRATIONS+label%3Ahackathon
+
+pip install cognee : to install and work with cognee for qa testing
+
+02
+
+Try Cognee first
+Spend a few minutes running Cognee locally before you build on it. Install it with pip install cognee and follow the installation guide and docs.
+
+terminal
+
+Copy
+pip install cognee
+
+# Explore a bundled demo graph, no API key needed
+"cognee-cli demo" : this is a bash command
+
+cognee community repo : https://github.com/topoteretes/cognee-community
+
+03
+
+See where your code goes
+Data source connectors live in the cognee-community repo under packages/connector/<name>/, and the Notion connector is a good reference to copy the shape from. Agent and framework integrations live in the cognee-integrations repo.
+
+cognee-community/
+packages/
+connector/
+notion/
+# the reference
+cognee_community_connector_notion/
+__init__.py
+notion.py
+examples/
+tests/
+pyproject.toml
+README.md
+<name>/
+# yours goes here
+
+cognee community connector notion : https://github.com/topoteretes/cognee-community/tree/main/packages/connector/notion
+
+https://github.com/topoteretes/cognee-integrations : cognee-integrations repo
+
+04
+
+Follow the contribution rules
+Read Cognee's contributing guide before opening your PR. It covers branches, signed-off commits (git commit -s) and the DCO line your PR description needs.
+
+terminal
+
+Copy
+# Branch from main in cognee-community, or from dev in cognee
+git checkout -b feature/gitlab-connector
+
+# Sign off every commit (adds the DCO line)
+git commit -s -m "feat: add GitLab connector"
+Paste at the end of your PR description
+
+Copy
+I affirm that all code in every commit of this pull request conforms to the terms of the Topoteretes Developer Certificate of Origin.
+
+A lot of open source work goes unpaid, and we wanted to change that, at least for a month. So for Mergetober, we're paying contributors. Everything you build goes into Cognee, a real project that developers and companies around the world use to give their AI agents memory, so your work won't end up in a hackathon repo nobody opens again. You build something that ships, people you've never met end up using it, and you get rewarded for it.
+
+AI models forget. Every call to an LLM starts from zero, with no idea what happened before. Cognee is an open source memory layer for AI agents: you feed it documents, chats, code or data, and it turns them into a knowledge graph of the things in your data and how they connect. Agents can then remember and recall that knowledge across sessions instead of starting fresh every time.
+
+A company brain is only as good as what's plugged into it. Cognee has a handful of data source connectors today, like Notion, Slack and Google Drive, and a long list of tools still waiting to be connected. Every integration you build is one more place whose knowledge AI agents can actually use.
+
+Code shows what you built, and a blog post shows why it matters. We want real stories of how people use these integrations, so the next person knows what's possible.
+
+Two paths, one finish line
+What's an integration?
+A small piece of code that connects Cognee to another tool. It reads data from somewhere a team already works, like GitLab issues, Linear tickets or files in an S3 bucket, and feeds it into Cognee. Once it's in, AI agents can remember it and answer questions about it.
+What we're looking for
+Integrations that actually work against a real account of that tool, not just on paper. That means clear setup steps, a working example, tests, and code someone else can read and maintain after you.
+Build integrations that plug new tools into Cognee's memory.
+
+You can pick up an existing open issue labelled INTEGRATIONS and hackathon on the Cognee GitHub repo, with connectors for tools like GitLab, Linear, Elasticsearch, Postman, AWS S3 and ClickUp, or you can propose a brand new integration that Cognee doesn't have yet by opening an issue.
+
+Path A
+
+Take an open issue
+Labelled INTEGRATIONS and hackathon on the Cognee repo. Connectors for tools like:
+GitLab
+Linear
+Elasticsearch
+Postman
+AWS S3
+ClickUp
+
+ath B
+
+Propose a new integration
+Got a tool Cognee doesn't connect to yet? Open an issue for it. Only for integrations that aren't already an open issue or already in Cognee.
+
+Up to 5 issues each
+
+Open an issue
+
+The same finish line
+
+Every PR you submit comes with a blog post showing how you use that integration in the real world.
+
+https://github.com/topoteretes/cognee/issues/new/choose : to open new issue
+
+open issues for hackathon : https://github.com/topoteretes/cognee/issues?q=is%3Aissue+is%3Aopen+label%3AINTEGRATIONS+label%3Ahackathon
+
+Hi @NMZivkovic, I'd like to work on this one for Mergetober.
+
+How I'd build it:
+- Source: <which API or SDK I'll read from, and how I'll authenticate>
+- Data: <what gets ingested into Cognee, and how it's shaped>
+- Testing: <how I'll test it against a real account>
+
+Could you assign it to me?
+
+all links in one place attatched to the image
+
+
+Comment on the issue with your approach and tag @NMZivkovic to request assignment. Don't write code or open a PR until you're assigned, and don't work on an issue someone else has. Working on an issue before you're assigned gets you banned from all future WeMakeDevs events.
+
+06
+Don't hoard issues
+Only ask to be assigned to issues you're about to build. Asking to be assigned to too many issues at once gets you banned from all future WeMakeDevs events.
+
+07
+5 issue limit
+You can open a maximum of 5 new integration issues, and only for integrations that aren't already in the open issues or already in Cognee. Duplicate or low-effort issues will be closed.
+
+08
+5 open PRs at a time
+You can have a maximum of 5 PRs open at a time.
+
+09
+Blog post required
+Every PR needs its own public blog post about how you use the integration in the real world.
+
+10
+Don't pressure maintainers
+No spamming or pinging maintainers to review or merge. They'll get to it in their own time, and opening the PR in October is what makes you eligible.
+
+11
+Originality
+All code and writing must be your own. Plagiarized posts or copied code will be disqualified.
+
+12
+AI use
+Using AI to assist you is fine, but any spammming PR gets you banned from all future WeMakeDevs events.
+
+13
+Repo rules
+Follow Cognee's contributing guide, including signed-off commits and the DCO statement.
+
+14
+Code of Conduct
+Be kind and respectful to maintainers and other contributors, and follow the WeMakeDevs Code of Conduct.
+
+15
+Judging
+The 20 Merged PR Reward winners are picked at random from everyone with a merged PR submitted through the form. Top Contributor goes to the person with the most merged PRs.
+
+16
+Prizes
+Winners are contacted by email and may need to share payment or shipping details. Winners are responsible for any local taxes or customs fees.
+
+17
+Final decisions
+WeMakeDevs and Cognee can disqualify any entry that breaks these rules, and all judging decisions are final.
+
+BUILD A VERY DEEP PLAN AS ANY PR OR ANYTHING REPORTED WOULD BE REVIEWED DEEPLY BY THE MAINTAINERS AND HENCE EACH AND EVERYTHING HAS TO BE CURATED WITH CALM, EASE, PATIENCE, PERSEVERANCE AND DEEP RESEARCH, for you ease you clone cognee repos if you want to, pull them daily to update on a daily basis, the plan should be a hell of a research before any execution, further the plan file will be executed by sonnet class models to actually work and hence the plan file developed by opus class models has to be very deep and laced up with each and every minute detail, has to be very copy paste level deep, with each and every job to be reviewed by opus models once executed and ready to submit, code with care, and execute with patience and multiple checkpoint review system, and develop a CONSOLE where I can see if any of my work has actually been useful, reviewed, merged, or I actually made a meaningful contribution to the hackathon, each and everything has to be carefully reviewed and pass through a humanizer, no ai generated slop, em dashes or any act of similar manner, no reference of claude or any AI anywhere, all git and github actions to take place from github cli only
+
+READ EACH AND EVERY LINE OF THE PROMPT AND EXTRACT THE IMAGES with care and patience
+if you can access the browser : https://www.wemakedevs.org/hackathons/mergetober

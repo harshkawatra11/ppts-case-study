@@ -1,0 +1,25 @@
+{ const s = await figma.getNodeByIdAsync("S5");
+skelBT(s,3,"4 / 8","DTU BUDGET",300,V.f5,"Source: model "+V.hash+", tables T3, T4, T6, T7 | Meta and LinkedIn India cost benchmarks, research section 12 | A01 fee is an assumption: BeyondTech publishes no fee");
+const m=layered(s,64,316,1792,150,C.primaryDeep,"CARD: MONEYSHOT");
+T(m,28,14,1000,28,V.budget_lk+" at DTU buys "+V.enrol+" enrolments at a blended "+V.cac+" each, and the "+V.org_pct0+" of the budget spent organically delivers "+V.org_e_pct0+" of them.",{family:"Poppins",style:"Bold",color:C.white});
+[[V.budget,"total DTU cash"],[V.ch[3][5],"cheapest CAC, gated library"],["2 of 4","paid channels get ₹0"]].forEach((k,i)=>{ const x=1068+i*240;
+  addRect(m,x-16,20,3,110,C.accent); TL(m,x,8,44,k[0],{family:"Poppins",style:"ExtraBold",color:C.accent,maxW:210,min:30}); T(m,x,82,210,22,k[1],{family:"Inter",style:"Bold",color:C.white}); });
+const bp=panel(s,64,482,600,548,"CHEAPEST FIRST: CAC BY CHANNEL");
+const items=V.cac_rows.map(r=>({label:r[0],value:r[1],text:r[2],color:r[3]?(r[6]?C.primary:C.primaryDeep):C.alertTint}));
+hBars(bp,16,60,568,items.slice(0,9),{labelW:250,rowH:38,barH:24,valueW:100,max:33333});
+dashedH(bp,16,408,568,C.alert,2.5);
+TL(bp,16,414,22,"FUNDING STOPS: "+V.enrol+" ENROLMENTS REACHED",{color:C.alert,maxW:568});
+hBars(bp,16,450,568,items.slice(9),{labelW:250,rowH:38,barH:24,valueW:100,max:33333});
+const dp=panel(s,680,482,560,548,"CASH SHARE AGAINST RESULT SHARE");
+donut(dp,150,150,160,[{v:V.split[0],c:C.primary},{v:V.split[1],c:C.primaryDeep}]); donut(dp,410,150,160,[{v:V.split[2],c:C.primary},{v:V.split[3],c:C.primaryDeep}]);
+addText(dp,"Poppins","Bold",22,C.ink,"CASH",105,133,90,34,"CENTER","CENTER"); addText(dp,"Poppins","Bold",22,C.ink,"ENROL",365,133,90,34,"CENTER","CENTER");
+TL(dp,0,236,22,V.org_pct0+" organic cash",{family:"Inter",style:"Bold",color:C.primary,centerAt:150}); TL(dp,0,236,22,V.org_e_pct0+" organic enrolments",{family:"Inter",style:"Bold",color:C.primary,centerAt:410});
+let lx=lg(dp,16,270,C.primary,"Organic"); lg(dp,lx,270,C.primaryDeep,"Paid");
+addTable(dp,16,306,[130,150,90,158],["Layer","Cash","Enrol.","Per head"],V.layer,{rowH:42,headerH:44});
+callout(dp,16,486,528,46,"Blended CAC = ",V.budget+" ÷ "+V.enrol+" = "+V.cac,{py:8});
+const rp=panel(s,1256,482,600,548,"BASE, BULL AND A BEAR STRESS TEST");
+wrapTable(rp,16,60,[184,128,128,128],["₹ and count","Bear","Base","Bull"],[["Enrolments"].concat(V.t6.map(r=>r[1])),["Spend"].concat(V.t6.map(r=>r[2])),["Blended CAC"].concat(V.t6.map(r=>r[3])),["Contribution"].concat(V.t6.map(r=>r[4]))],{rowH:56,headerH:40,name:"scenarios"});
+TL(rp,16,330,22,"SWING IN DTU CONTRIBUTION, ₹ LAKH",{color:C.primaryDeep,maxW:568});
+tornado(rp,16,366,568,V.t7.map(r=>({label:r[0],lo:r[1],hi:r[2]})),V.t7base,{labelW:280,rowH:26,min:5,max:16});
+fine(rp,16,528,568,"Bear is a stress case, never a budget option.");
+results.push({slide:s.id,total:s.findAll(()=>true).length,top:s.children.length}); }

@@ -1,0 +1,385 @@
+{
+  "sittings_crore": 5.0,
+  "central_crore": 3.0,
+  "affected_lakh": 38.59,
+  "per_candidate": 7300,
+  "direct_cr": 2817.3,
+  "vacancy_cr": 499.2,
+  "EAL_cr": 3316.5,
+  "EAL_cash_cr": 1386.8,
+  "capex": 779.5,
+  "opex": 673.5,
+  "hardware": 460.0,
+  "refresh": 184.0,
+  "scenarios": {
+    "bear": {
+      "reduction": 0.58,
+      "pv_benefit": 10859.2,
+      "pv_cost": 4767.6,
+      "npv": 6091.6,
+      "bcr": 2.28,
+      "payback": 2030,
+      "cum_cost": 7092.4,
+      "cum_benefit": 17795.9
+    },
+    "base": {
+      "reduction": 0.8,
+      "pv_benefit": 14978.2,
+      "pv_cost": 4767.6,
+      "npv": 10210.6,
+      "bcr": 3.14,
+      "payback": 2029,
+      "cum_cost": 7092.4,
+      "cum_benefit": 24546.1
+    },
+    "bull": {
+      "reduction": 0.9125,
+      "pv_benefit": 17084.5,
+      "pv_cost": 4767.6,
+      "npv": 12316.9,
+      "bcr": 3.58,
+      "payback": 2028,
+      "cum_cost": 7092.4,
+      "cum_benefit": 27997.9
+    }
+  },
+  "base_rows": [
+    {
+      "year": 2027,
+      "cost": 581.2,
+      "eal": 3316.5,
+      "benefit": 265.3,
+      "cum_benefit": 265.3,
+      "cum_cost": 581.2
+    },
+    {
+      "year": 2028,
+      "cost": 783.2,
+      "eal": 3416.0,
+      "benefit": 956.5,
+      "cum_benefit": 1221.8,
+      "cum_cost": 1364.5
+    },
+    {
+      "year": 2029,
+      "cost": 829.4,
+      "eal": 3518.5,
+      "benefit": 1688.9,
+      "cum_benefit": 2910.7,
+      "cum_cost": 2193.8
+    },
+    {
+      "year": 2030,
+      "cost": 673.5,
+      "eal": 3624.0,
+      "benefit": 2319.4,
+      "cum_benefit": 5230.1,
+      "cum_cost": 2867.3
+    },
+    {
+      "year": 2031,
+      "cost": 673.5,
+      "eal": 3732.8,
+      "benefit": 2986.2,
+      "cum_benefit": 8216.3,
+      "cum_cost": 3540.8
+    },
+    {
+      "year": 2032,
+      "cost": 857.5,
+      "eal": 3844.7,
+      "benefit": 3075.8,
+      "cum_benefit": 11292.1,
+      "cum_cost": 4398.4
+    },
+    {
+      "year": 2033,
+      "cost": 673.5,
+      "eal": 3960.1,
+      "benefit": 3168.1,
+      "cum_benefit": 14460.1,
+      "cum_cost": 5071.9
+    },
+    {
+      "year": 2034,
+      "cost": 673.5,
+      "eal": 4078.9,
+      "benefit": 3263.1,
+      "cum_benefit": 17723.3,
+      "cum_cost": 5745.4
+    },
+    {
+      "year": 2035,
+      "cost": 673.5,
+      "eal": 4201.3,
+      "benefit": 3361.0,
+      "cum_benefit": 21084.3,
+      "cum_cost": 6418.9
+    },
+    {
+      "year": 2036,
+      "cost": 673.5,
+      "eal": 4327.3,
+      "benefit": 3461.8,
+      "cum_benefit": 24546.1,
+      "cum_cost": 7092.4
+    }
+  ],
+  "cash_only": {
+    "reduction": 0.8,
+    "pv_benefit": 6263.3,
+    "pv_cost": 4767.6,
+    "npv": 1495.8,
+    "bcr": 1.31,
+    "payback": 2032,
+    "cum_cost": 7092.4,
+    "cum_benefit": 10264.3
+  },
+  "per_sitting_10y": 123.6,
+  "per_sitting_steady": 134.6,
+  "fee_share": 0.079,
+  "gl_ceiling": 1220.1,
+  "opex_share_EAL": 0.203,
+  "opex_share_GL": 0.552,
+  "tornado": [
+    [
+      "Candidate time per re-sit, Rs 0 to Rs 10,000",
+      1495.8,
+      18925.4
+    ],
+    [
+      "Candidates hit a year, -30% to +30%",
+      6393.5,
+      14027.7
+    ],
+    [
+      "Effectiveness, bear to bull",
+      6091.6,
+      12316.9
+    ],
+    [
+      "Discount rate, 12% to 6%",
+      7991.2,
+      11605.0
+    ],
+    [
+      "Programme cost, +30% to -30%",
+      8780.3,
+      11640.9
+    ],
+    [
+      "Appointment delay, 4 to 12 months",
+      9083.3,
+      11337.9
+    ],
+    [
+      "Re-conduct cost, Rs 500 to Rs 1,200",
+      9687.7,
+      10907.8
+    ]
+  ],
+  "forms_full": 96,
+  "forms_interim": 24,
+  "blast_now": 2270000,
+  "blast_full": 23646,
+  "blast_interim": 94583,
+  "blast_govt": 113500,
+  "blast_ratio": 96,
+  "exposure_now": 0.667,
+  "exposure_p": 0.025,
+  "cap_p": 0.05,
+  "attacker": {
+    "rev_now": 15.0,
+    "ev_now": 14.0,
+    "rev_p": 0.56,
+    "ev_p": -5.44
+  },
+  "incidents": 49,
+  "by_stage": {
+    "QC": 4,
+    "QS": 12,
+    "PA": 6,
+    "TR": 3,
+    "EC": 4,
+    "CA": 3,
+    "EX": 10,
+    "ER": 7
+  },
+  "by_type": {
+    "INS": 31,
+    "PHY": 7,
+    "CYB": 8,
+    "OPS": 3
+  },
+  "count": {
+    "QC": {
+      "INS": 4,
+      "PHY": 0,
+      "CYB": 0,
+      "OPS": 0
+    },
+    "QS": {
+      "INS": 10,
+      "PHY": 1,
+      "CYB": 1,
+      "OPS": 0
+    },
+    "PA": {
+      "INS": 6,
+      "PHY": 0,
+      "CYB": 0,
+      "OPS": 0
+    },
+    "TR": {
+      "INS": 3,
+      "PHY": 0,
+      "CYB": 0,
+      "OPS": 0
+    },
+    "EC": {
+      "INS": 2,
+      "PHY": 2,
+      "CYB": 0,
+      "OPS": 0
+    },
+    "CA": {
+      "INS": 0,
+      "PHY": 3,
+      "CYB": 0,
+      "OPS": 0
+    },
+    "EX": {
+      "INS": 0,
+      "PHY": 1,
+      "CYB": 7,
+      "OPS": 2
+    },
+    "ER": {
+      "INS": 6,
+      "PHY": 0,
+      "CYB": 0,
+      "OPS": 1
+    }
+  },
+  "cancelled_known": 9,
+  "cancelled_lakh": 115.81,
+  "pre_centre_lakh": 100.73,
+  "pre_centre_share": 0.87,
+  "heat": {
+    "QC": [
+      20,
+      5,
+      10,
+      6
+    ],
+    "QS": [
+      20,
+      15,
+      15,
+      8
+    ],
+    "PA": [
+      16,
+      6,
+      12,
+      9
+    ],
+    "TR": [
+      15,
+      12,
+      8,
+      6
+    ],
+    "EC": [
+      12,
+      9,
+      6,
+      6
+    ],
+    "CA": [
+      4,
+      6,
+      4,
+      4
+    ],
+    "EX": [
+      9,
+      8,
+      16,
+      12
+    ],
+    "ER": [
+      9,
+      2,
+      8,
+      9
+    ]
+  },
+  "register": [
+    [
+      20,
+      12,
+      "QS",
+      "INS"
+    ],
+    [
+      20,
+      4,
+      "QC",
+      "INS"
+    ],
+    [
+      16,
+      10,
+      "EX",
+      "CYB"
+    ],
+    [
+      16,
+      6,
+      "PA",
+      "INS"
+    ],
+    [
+      15,
+      12,
+      "QS",
+      "PHY"
+    ],
+    [
+      15,
+      12,
+      "QS",
+      "CYB"
+    ],
+    [
+      15,
+      3,
+      "TR",
+      "INS"
+    ],
+    [
+      12,
+      10,
+      "EX",
+      "OPS"
+    ],
+    [
+      12,
+      6,
+      "PA",
+      "CYB"
+    ],
+    [
+      12,
+      4,
+      "EC",
+      "INS"
+    ]
+  ],
+  "funding": {
+    "levy": 250.2,
+    "states": 72.0,
+    "union": 351.3
+  }
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "brand": "Gousto",
+    "source": "https://production-assets.gousto.co.uk/build/1d26daff727a2ef7256b3b7da1ecd716a08dbfbc/favicon.ico",
+    "file": "Gousto.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "brand": "Blue Apron",
+    "source": "https://www.google.com/s2/favicons?domain=blueapron.com&sz=128",
+    "official_domain": "blueapron.com",
+    "file": "Blue Apron.png",
+    "size": [
+      128,
+      128
+    ],
+    "cached": true
+  },
+  {
+    "brand": "HelloFresh",
+    "source": "https://www.google.com/s2/favicons?domain=hellofresh.com&sz=128",
+    "official_domain": "hellofresh.com",
+    "file": "HelloFresh.png",
+    "size": [
+      32,
+      32
+    ],
+    "cached": true
+  },
+  {
+    "brand": "Marley Spoon",
+    "source": "https://marleyspoon.com/images/ms/favicon/apple-touch-72x72-precomposed.png",
+    "file": "Marley Spoon.png",
+    "size": [
+      72,
+      72
+    ]
+  },
+  {
+    "brand": "Blinkit",
+    "source": "https://www.google.com/s2/favicons?domain=blinkit.com&sz=128",
+    "official_domain": "blinkit.com",
+    "file": "Blinkit.png",
+    "size": [
+      128,
+      128
+    ],
+    "cached": true
+  },
+  {
+    "brand": "Zepto",
+    "source": "https://www.google.com/s2/favicons?domain=zeptonow.com&sz=128",
+    "official_domain": "zeptonow.com",
+    "file": "Zepto.png",
+    "size": [
+      128,
+      128
+    ],
+    "cached": true
+  },
+  {
+    "brand": "Swiggy",
+    "source": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
+    "official_domain": "swiggy.com",
+    "file": "Swiggy.png",
+    "size": [
+      128,
+      128
+    ],
+    "cached": true
+  },
+  {
+    "brand": "Zomato",
+    "source": "https://b.zmtcdn.com/data/o2_assets/6449ef4ded4244cee7b3230c25f94b081785325660.png",
+    "file": "Zomato.png",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "brand": "Flipkart",
+    "source": "https://static-assets-web.flixcart.com/apex-static/images/fk-lite-assets/app-icons/app-icon_384x384.png",
+    "file": "Flipkart.png",
+    "size": [
+      1536,
+      1536
+    ]
+  },
+  {
+    "brand": "BigBasket",
+    "missing": "No decodable official icon"
+  },
+  {
+    "brand": "Instamart",
+    "source": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128",
+    "official_domain": "swiggy.com",
+    "file": "Instamart.png",
+    "size": [
+      128,
+      128
+    ],
+    "cached": true
+  }
+]

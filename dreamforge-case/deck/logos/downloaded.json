@@ -1,0 +1,70 @@
+{
+  "IEEE DTU": {
+    "url": "https://www.ieeedtu.in/IEEE_DTU_Logo.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\IEEE_DTU.png",
+    "content_type": "image/png",
+    "size": 48222
+  },
+  "Dream Forge": {
+    "url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aa8d0e033c50_images.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Dream_Forge.png",
+    "content_type": "image/png",
+    "size": 41033
+  },
+  "Dream Forge Banner": {
+    "url": "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/opportunity-bannerImages/1789397929.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Dream_Forge_Banner.jpg",
+    "content_type": "image/jpeg",
+    "size": 235238
+  },
+  "Battery Smart": {
+    "url": "https://www.batterysmart.in/_next/static/media/logo.9f0b8870.webp",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Battery_Smart.webp",
+    "content_type": "image/webp",
+    "size": 9988
+  },
+  "Sun Mobility": {
+    "url": "https://www.sunmobility.com/assets/images/header/logo.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Sun_Mobility.png",
+    "content_type": "image/png",
+    "size": 193144
+  },
+  "Delhi Govt": {
+    "url": "https://delhi.gov.in/sites/default/files/emblem-dark.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Delhi_Govt.png",
+    "content_type": "image/png",
+    "size": 8478
+  },
+  "MHI": {
+    "url": "https://heavyindustries.gov.in/themes/mhi/images/logo.png",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\MHI.png",
+    "content_type": "image/png",
+    "size": 3484
+  },
+  "Ather": {
+    "url": "https://media.atherenergy.com/Ather-logo-black.svg",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Ather.svg",
+    "content_type": "image/svg+xml",
+    "size": 2980
+  },
+  "TVS Motor": {
+    "url": "https://www.tvsmotor.com/-/media/Feature/Header/TVSLogo-hr.svg",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\TVS_Motor.svg",
+    "content_type": "image/svg+xml",
+    "size": 3917
+  },
+  "Hero Vida": {
+    "url": "https://media.vidaworld.com/is/image/heromotocorp/VIDA-new-logo?fmt=png-alpha",
+    "file": "C:\\Users\\harsh\\Desktop\\HARSH\\PPTS-CASE-STUDY\\nsut-innovators-court\\dreamforge-case\\deck\\logos\\Hero_Vida.png",
+    "content_type": "image/png",
+    "size": 74147
+  },
+  "Amazon": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "error": "403 Client Error: Forbidden for url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+  },
+  "Bajaj Auto": {
+    "url": "https://www.bajajauto.com/images/default-source/bajaj-logo/bajaj-logo2.png",
+    "error": "404 Client Error: Not Found for url: https://www.bajajauto.com/images/default-source/bajaj-logo/bajaj-logo2.png"
+  }
+}
