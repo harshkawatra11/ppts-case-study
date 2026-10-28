@@ -1,136 +1,110 @@
-"""Render the CaseQuest research Markdown as a readable PDF with linked citations."""
-from __future__ import annotations
+"""Render casequest-research.md to a consulting-style PDF (markdown-it -> HTML/CSS -> headless Chrome)."""
+import re, html, subprocess, sys, pathlib, shutil
+from markdown_it import MarkdownIt
 
-import html
-import re
-from pathlib import Path
+HERE = pathlib.Path(__file__).parent
+SRC = HERE / "casequest-research.md"
+HTML_OUT = HERE / "casequest-research.html"
+PDF_OUT = HERE / "casequest-research.pdf"
 
-import fitz
-from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import (
-    HRFlowable, KeepTogether, LongTable, PageBreak, Paragraph, SimpleDocTemplate,
-    Spacer, TableStyle,
-)
+text = SRC.read_text(encoding="utf-8")
+head, body = text.split("\n---\n", 1)
 
-ROOT = Path(__file__).resolve().parent
-SRC = ROOT / "casequest-research.md"
-OUT = ROOT / "casequest-research.pdf"
+title = re.search(r"^# (.+)$", head, re.M).group(1)
+subtitle = re.search(r"^\*\*(.+?)\*\*", head, re.M).group(1)
+team_block = ""
+prepared = re.search(r"^Prepared for: (.+)$", head, re.M).group(1)
 
-pdfmetrics.registerFont(TTFont("ArialCase", "C:/Windows/Fonts/arial.ttf"))
-pdfmetrics.registerFont(TTFont("ArialCaseBold", "C:/Windows/Fonts/arialbd.ttf"))
-pdfmetrics.registerFontFamily("ArialCase", normal="ArialCase", bold="ArialCaseBold")
-styles = getSampleStyleSheet()
-sty = {
-    "title": ParagraphStyle("TitleCase", fontName="ArialCaseBold", fontSize=22, leading=27,
-                            textColor=colors.HexColor("#0B2233"), spaceAfter=17),
-    "h2": ParagraphStyle("H2Case", fontName="ArialCaseBold", fontSize=13, leading=17,
-                         textColor=colors.HexColor("#174B6B"), spaceBefore=16, spaceAfter=7),
-    "body": ParagraphStyle("BodyCase", fontName="ArialCase", fontSize=9.3, leading=13.7,
-                           textColor=colors.HexColor("#0A0A0A"), spaceAfter=8),
-    "small": ParagraphStyle("SmallCase", fontName="ArialCase", fontSize=7.2, leading=10,
-                            textColor=colors.HexColor("#0A0A0A")),
-    "head": ParagraphStyle("TableHeadCase", fontName="ArialCaseBold", fontSize=7.2, leading=10,
-                           textColor=colors.white),
-}
+md = MarkdownIt("commonmark").enable("table")
+md.options["html"] = False
 
-def inline(s: str) -> str:
-    s = html.escape(s.strip())
-    s = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)",
-               lambda m: f'<link href="{m.group(2)}" color="#174B6B">{m.group(1)}</link>', s)
-    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
-    s = re.sub(r"`([^`]+)`", r"<font face='ArialCase'>\1</font>", s)
-    return s
+# slugify + collect headings for TOC
+toc = []
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
-def footer(canvas, doc):
-    canvas.saveState()
-    w, _ = A4
-    canvas.setStrokeColor(colors.HexColor("#F5C518"))
-    canvas.line(42, 39, w - 42, 39)
-    canvas.setFont("ArialCase", 7)
-    canvas.setFillColor(colors.HexColor("#174B6B"))
-    canvas.drawString(42, 28, "CASEQUEST | TEAM IDEAFORGE | RESEARCH BRIEF")
-    canvas.drawRightString(w - 42, 28, str(doc.page))
-    canvas.restoreState()
+tokens = md.parse(body)
+for i, t in enumerate(tokens):
+    if t.type == "heading_open" and t.tag in ("h2", "h3"):
+        inline = tokens[i + 1].content
+        sid = slug(inline)
+        t.attrSet("id", sid)
+        if t.tag == "h2":
+            toc.append((inline.replace("`",""), sid))
 
-def build():
-    lines = SRC.read_text(encoding="utf-8").splitlines()
-    story = []
-    para = []
-    table = []
+out = md.renderer.render(tokens, md.options, {})
 
-    def flush_para():
-        nonlocal para
-        if para:
-            story.append(Paragraph(inline(" ".join(para)), sty["body"]))
-            para = []
+# style provenance tags outside <code>
+TAG = re.compile(r"\[((?:C-[A-Za-z0-9]+|A\d{2}|M|T\d{1,2}|S\d+|[B-G]\d{2,3})(?:, ?(?:C-[A-Za-z0-9]+|A\d{2}|M|T\d{1,2}|S\d+|[B-G]\d{2,3}))*)\]")
+def tag_repl(m):
+    return f'<span class="tag">{m.group(1)}</span>'
+parts = re.split(r"(<code>.*?</code>|<a [^>]*>.*?</a>)", out, flags=re.S)
+parts = [p if p.startswith(("<code>", "<a ")) else TAG.sub(tag_repl, p) for p in parts]
+out = "".join(parts)
+out = re.sub(r"<code>(.*?)</code>", r'<span class="code">\1</span>', out)
 
-    def flush_table():
-        nonlocal table
-        if not table:
-            return
-        rows = []
-        for i, row in enumerate(table):
-            cells = [x.strip() for x in row.strip().strip("|").split("|")]
-            if i == 1 and all(re.fullmatch(r":?-{3,}:?", x) for x in cells):
-                continue
-            rows.append([Paragraph(inline(x), sty["head" if i == 0 else "small"]) for x in cells])
-        if rows:
-            n = max(len(r) for r in rows)
-            rows = [r + [Paragraph("", sty["small"])] * (n-len(r)) for r in rows]
-            width = A4[0] - 84
-            t = LongTable(rows, colWidths=[width/n] * n, repeatRows=1, hAlign="LEFT")
-            t.setStyle(TableStyle([
-                ("BACKGROUND", (0,0), (-1,0), colors.HexColor("#174B6B")),
-                ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.white, colors.HexColor("#F5F5F5")]),
-                ("GRID", (0,0), (-1,-1), 0.3, colors.HexColor("#0A0A0A")),
-                ("VALIGN", (0,0), (-1,-1), "TOP"),
-                ("LEFTPADDING", (0,0), (-1,-1), 5),
-                ("RIGHTPADDING", (0,0), (-1,-1), 5),
-                ("TOPPADDING", (0,0), (-1,-1), 5),
-                ("BOTTOMPADDING", (0,0), (-1,-1), 5),
-            ]))
-            story.extend([t, Spacer(1, 8)])
-        table = []
+toc_html = "".join(f'<li><a href="#{sid}">{html.escape(t)}</a></li>' for t, sid in toc)
 
-    for line in lines:
-        if line.startswith("|"):
-            flush_para()
-            table.append(line)
-            continue
-        flush_table()
-        if not line.strip():
-            flush_para()
-            continue
-        if line.startswith("# "):
-            flush_para()
-            story.append(Paragraph(inline(line[2:]), sty["title"]))
-        elif line.startswith("## "):
-            flush_para()
-            story.append(Paragraph(inline(line[3:]), sty["h2"]))
-        elif line.startswith("### "):
-            flush_para()
-            story.append(Paragraph(inline(line[4:]), sty["h2"]))
-        elif line.startswith("- "):
-            flush_para()
-            story.append(Paragraph("&#8226; " + inline(line[2:]), sty["body"]))
-        else:
-            para.append(line)
-    flush_para()
-    flush_table()
-    doc = SimpleDocTemplate(str(OUT), pagesize=A4, leftMargin=42, rightMargin=42,
-                            topMargin=44, bottomMargin=48, title="CaseQuest Research Brief",
-                            author="Team IdeaForge")
-    doc.build(story, onFirstPage=footer, onLaterPages=footer)
-    check = fitz.open(OUT)
-    assert check.page_count > 5
-    assert all(p.get_text().strip() for p in check)
-    assert "CaseQuest" in check[0].get_text() or "small-parcel" in check[0].get_text()
-    print(f"{OUT} | {check.page_count} pages")
+CSS = """
+@page { size: A4; margin: 22mm 18mm 22mm 18mm;
+  @bottom-left { content: "Small Parcels, Full Checks  |  Team IdeaForge"; font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #1B7F3B; }
+  @bottom-right { content: counter(page); font: 600 8pt Inter, 'Segoe UI', sans-serif; color: #0A0A0A; } }
+@page :first { margin: 0; @bottom-left { content: none } @bottom-right { content: none } }
+:root { --p:#1B7F3B; --pd:#0E4D25; --a:#FFC72C; --tint:#D5EFDC; --ink:#0A0A0A; --grey:#F4F5F4; --line:#D5D9D6; }
+* { box-sizing: border-box; }
+body { font: 9.6pt/1.5 Inter, 'Segoe UI', Calibri, sans-serif; color: var(--ink); margin: 0; }
+.cover { height: 297mm; background: var(--pd); color: #fff; padding: 30mm 22mm; position: relative; page-break-after: always; }
+.cover .bar { position:absolute; left:0; top:0; bottom:0; width:10mm; background: var(--a); }
+.cover .kicker { font: 700 10pt Poppins,'Segoe UI',sans-serif; letter-spacing: .18em; color: var(--a); text-transform: uppercase; margin-top: 30mm; }
+.cover h1 { font: 800 40pt/1.05 Poppins,'Segoe UI',sans-serif; margin: 8mm 0 6mm; border: 0; padding: 0; color:#fff; }
+.cover .sub { font: 600 15pt/1.35 Poppins,'Segoe UI',sans-serif; color: var(--tint); max-width: 150mm; }
+.cover .meta { position:absolute; left:22mm; right:22mm; bottom:26mm; border-top: 2px solid var(--a); padding-top: 6mm; font-size: 10pt; color:#fff; }
+.cover .meta b { color: var(--a); }
+.tocpage { page-break-after: always; }
+.tocpage h2.tt { font: 800 20pt Poppins,'Segoe UI',sans-serif; color: var(--pd); border-bottom: 3px solid var(--a); padding-bottom: 3mm; margin: 0 0 8mm; }
+.tocpage ol { list-style: none; padding: 0; margin: 0; columns: 1; }
+.tocpage li { padding: 1.5mm 0; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 9.6pt; }
+.tocpage a { color: var(--ink); text-decoration: none; }
+h1,h2,h3,h4 { font-family: Poppins,'Segoe UI',sans-serif; color: var(--pd); line-height: 1.2; }
+h2 { font-size: 16pt; font-weight: 800; margin: 12mm 0 4mm; padding: 0 0 2.5mm; border-bottom: 3px solid var(--a); page-break-after: avoid; }
+h2::before { content: ""; display:inline-block; width: 4mm; height: 4mm; background: var(--p); margin-right: 3mm; vertical-align: 1px; }
+h3 { font-size: 11.6pt; font-weight: 700; margin: 7mm 0 2mm; color: var(--p); page-break-after: avoid; }
+h4 { font-size: 10pt; font-weight: 700; margin: 5mm 0 1mm; page-break-after: avoid; }
+p { margin: 0 0 3mm; text-align: left; }
+strong { font-weight: 700; }
+ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+li { margin-bottom: 1mm; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 6mm 0; }
+blockquote { margin: 4mm 0; padding: 3mm 5mm; background: var(--tint); border-left: 1.5mm solid var(--p); }
+blockquote p:last-child { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 8.3pt; line-height: 1.35; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: var(--pd); color: #fff; text-align: left; font: 700 8pt Poppins,'Segoe UI',sans-serif; padding: 2mm 2.2mm; border: 1px solid var(--pd); }
+td { padding: 1.7mm 2.2mm; border: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+tbody tr:nth-child(even) td { background: var(--grey); }
+td:first-child { font-weight: 600; min-width: 15mm; }
+a { color: var(--p); text-decoration: none; }
+.tag { font: 600 7pt Inter,'Segoe UI',sans-serif; color: var(--pd); background: var(--tint); border-radius: 2px; padding: 0 1.3mm; white-space: nowrap; }
+.code { font: 500 8pt Consolas,'Courier New',monospace; background: var(--grey); border: 1px solid var(--line); padding: 0 1mm; border-radius: 2px; }
+"""
 
-if __name__ == "__main__":
-    build()
+cover = f"""<section class="cover"><div class="bar"></div>
+<div class="kicker">CaseQuest 2026  |  USME DTU  |  Research deliverable</div>
+<h1>{html.escape(title.replace('Project Satoshi Gate: ', 'Project Satoshi Gate<br><span style="font-size:24pt;font-weight:700;color:#F5C518">')) if False else 'Small Parcels, Full Checks'}</h1>
+<div class="sub">{html.escape(subtitle)}</div>
+<div class="meta"><b>Team IdeaForge</b><br>Harsh Kawatra, Delhi Technological University (DTU), Team Leader<br>Dayita Arora, Delhi Technological University (DTU), Member<br><br>{html.escape(prepared)}</div></section>"""
+
+doc = f"""<!doctype html><html><head><meta charset="utf-8"><title>{html.escape(title)}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<style>{CSS}</style></head><body>{cover}
+<section class="tocpage"><h2 class="tt">Contents</h2><ol>{toc_html}</ol></section>
+{out}</body></html>"""
+HTML_OUT.write_text(doc, encoding="utf-8")
+
+chrome = shutil.which("chrome") or "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome"
+cmd = [chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=20000",
+       f"--print-to-pdf={PDF_OUT}", HTML_OUT.resolve().as_uri()]
+r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+print(r.returncode, r.stderr[-300:])
+print(PDF_OUT, PDF_OUT.exists() and PDF_OUT.stat().st_size)
