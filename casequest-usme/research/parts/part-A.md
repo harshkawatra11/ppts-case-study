@@ -31,7 +31,7 @@ The case sets a Policy Consultant's brief for DPIIT [C-R0], built on a backgroun
 
 | Case ID | Line | Answered in section(s) | Answered on slide |
 |---|---|---|---|
-| C-P1 | USME DTU "Conspectus" case, title "The Rise of Cross-Border E-Commerce: Unlocking India's MSME Export Potential" | §0 | Cover |
+| C-P1 | USME DTU "Conspectus" case, title "The Rise of Cross-Border E-Commerce" (full title as printed in the case brief) | §0 | Cover |
 | C-I1 | Deadline, extended by one day per the organisers | build-log.md, not a research finding | n/a |
 | C-I2 | One PDF, 3 slides excluding cover and appendix | §31 (slide crosswalk) | All |
 | C-I3 | Submit through Unstop only | build-log.md | n/a |

@@ -67,7 +67,7 @@ def count_not_x_but_y(authored):
         hits += len(re.findall(r"\bnot (?:just|only|merely)\b", sec, re.I))
         for ln in sec.splitlines():
             if "Sponsor context, not case data" in ln: continue  # PLAN section 0's own required, deliberately repeated box label, not a humanizer violation
-            if ln.startswith("#") and re.search(NOTXY, ln, re.I): hits += 1
+            if ln.startswith("###") and re.search(NOTXY, ln, re.I): hits += 1  # H2 titles are locked by PLAN 7.2 (section 10 is the slide 2 headline phrase)
         for para in sec.split("\n\n"):
             n = len(re.findall(NOTXY, para, re.I))
             if n >= 3: hits += n  # 2-instance clusters reviewed by hand (R6 follow-up): each pairs two separate, informative clarifications, not staged rhythm; 3+ is the genuine overuse signal
@@ -97,8 +97,8 @@ def md():
     extra = {rid[t] for t in toks if re.fullmatch(r"[B-G]\d+", t) and t in rid}
     allc = sorted(set(cited) | extra, key=lambda s: int(s[1:]))
     app_a = ("| ID | Source | Available at |\n|---|---|---|\n" + "\n".join("| %s | %s | %s |" % (s, reg[s][0], reg[s][1]) for s in allc if s in reg) +
-             "\n\nAssumption tags (`[A21]` style) resolve to section 27 and Appendix B (model table T1). Case tags (`[C-E1]` style) resolve to "
-             "`case/01-case.md`. Raw research rows (`[F07]` style) resolve through `research/raw/R-F.md` and are listed here through their URL.")
+             "\n\nAssumption tags (`[A21]` style) resolve to section 30 and Appendix B (model table T1). Case tags (`[C-E1]` style) resolve to "
+             "`case/01-case.md`. Raw research rows (`[C07]` style) resolve through `research/raw/R-C.md` and are listed here through their URL.")
     doc = (HEADER + body + "\n\n## Appendix A: Bibliography\n\nSources were opened and checked in October 2026. Only sources cited in the text are listed.\n\n" + app_a +
            "\n\n## Appendix B: Model tables\n\n" + demote(rd(AK / "model" / "model_tables.md")) + "\n\n" + rd(R / "parts" / "appendix-C.md").strip() + "\n\n" +
            rd(R / "parts" / "appendix-D.md").strip() + "\n")

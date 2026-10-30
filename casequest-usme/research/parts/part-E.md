@@ -223,7 +223,7 @@ Exhibit for the deck: slide 2's moneyshot card, the ₹640 to ₹1,038 waterfall
 
 ## 22. Three scenarios: even the bear case lifts an order from ₹14 to ₹385
 
-**Answer.** We never give a single point estimate for an uncertain number: T5 runs bear, base and bull assumptions through all three lanes, and in every one of the three scenarios the reformed parcel lane beats today's direct parcel lane. The honest reading is that this is a model, not a measurement: the gap between ₹14 and ₹385 in the bear case is as much a statement about how thin today's margin already is as it is a claim about the reform's own power.
+**Answer.** We never give a single point estimate for an uncertain number: T5 runs bear, base and bull assumptions through all three lanes, and in every one of the three scenarios the reformed parcel lane beats today's direct parcel lane. The honest reading is that this is a model, not a measurement: the gap between ₹14 and ₹385 in the bear case is as much a statement about how thin the present margin already is as it is a claim about the reform's own power.
 
 ### 22.1 All three lanes across all three scenarios
 

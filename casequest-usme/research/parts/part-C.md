@@ -133,9 +133,9 @@ Reading down any column shows that return rate alone is enough to erase the marg
 
 ### 10.4 A single return costs more than it recovers
 
-The clearest instance of the point above sits inside T2 itself. If the representative order, a ₹3,960 handmade décor or textile item at 0.5 kg, is delivered and kept, the seller's delivered value is ₹1,334 in the base case [T2]. If that same order is returned, the expected loss is ₹2,132 [T2], which is ₹2,132 minus ₹1,334, or ₹798 worse than simply not having made the sale at all [arithmetic on T2]. In the bear case the gap is starker: delivered value is ₹692 against a return loss of ₹2,390, a difference of ₹1,698 [T2]. A single return on a low-value item like this one does not just erase the margin; it costs the seller more than the order would ever have earned.
+The clearest instance of the point above sits inside T2 itself. If the representative order, a ₹3,960 handmade décor or textile item at 0.5 kg, is delivered and kept, the seller's delivered value is ₹1,334 in the base case [T2]. If that same order is returned, the expected loss is ₹2,132 [T2], which is ₹2,132 minus ₹1,334, or ₹798 worse than simply not having made the sale at all [arithmetic on T2]. In the bear case the gap is starker: delivered value is ₹692 against a return loss of ₹2,390, a difference of ₹1,698 [T2]. A single return on a low-value item like this one erases the margin and costs the seller more than the order would ever have earned.
 
-The same comparison holds across every scenario the model runs, not only the base case.
+The same comparison holds across every scenario the model runs, the base case included.
 
 | Scenario | Delivered value if kept | Expected loss if returned | Gap, loss minus delivered |
 |---|---|---|---|
@@ -263,7 +263,7 @@ In our model, table T6 sets out the sequence from today's direct parcel to the r
 
 The ₹195 figure comes from cutting paperwork time from 45 minutes to 15 minutes [A07, A27] and removing the ₹120 agent fee entirely, since the desk files for free at tier 1 (section 3.5), leaving admin at ₹37.50, a fall of ₹195 from the base case's ₹232.50 [A07, A09, A27, T2, T3]. It is the single largest step in the waterfall, close to half the total ₹398 uplift, which is why the desk is the first lever in the recommendation rather than the pooled rate card or pooled returns. A07 and A27, the minutes of paperwork before and after the desk, and A09, the agent fee the desk removes, stay labelled as team assumptions, since no primary time study of seller paperwork exists; the validation plan in section 29 sets out how the pilot measures them directly rather than assumes them.
 
-The four roles and six desks are a pilot-scale design, not a finished national blueprint. Section 25 sets out how the pilot's 2,400 sellers across the six clusters, 400 per cluster, test whether four staff per desk is enough at the order volumes a cluster the size of Jaipur or Moradabad would actually generate once more sellers enroll, and section 26's scale gates decide whether staffing, not just budget, needs to grow before the model extends beyond these six clusters to the wider set of Towns of Export Excellence and export hubs the case implies a national reform would eventually reach [C31, C32].
+The four roles and six desks are a pilot-scale design, not a finished national blueprint. Section 25 sets out how the pilot's 2,400 sellers across the six clusters, 400 per cluster, test whether four staff per desk is enough at the order volumes a cluster the size of Jaipur or Moradabad would actually generate once more sellers enroll, and section 26's scale gates decide whether staffing as well as budget needs to grow before the model extends beyond these six clusters to the wider set of Towns of Export Excellence and export hubs the case implies a national reform would eventually reach [C31, C32].
 
 Exhibit for the deck: the desk's role table and the ₹195 waterfall step feed slide 4's compact and pilot panel, and slide 2's access-levers card (section 3.2).
 
@@ -301,7 +301,7 @@ Table T8 moves every input in the model to its bear and bull value, one at a tim
 
 A28 is the longest bar in both directions, a ₹130 span from −₹70 to +₹60, wider than any other input in the model, including the two paperwork assumptions behind the largest single waterfall step in section 12. This is why the pilot design tests the rate card first, as section 23 sets out: if the real-world saving on a cluster tender turns out closer to the bear value of 5% than the base value of 12% [A28], the whole uplift narrows, though it does not disappear, since A07, A09 and A27 together are worth more than A28 even at its bull value. A committee asked to back one lever with the most scrutiny before scaling the pilot should pick this one.
 
-### 13.3 Returns flow and the legal basis we are asking for, not claiming
+### 13.3 Returns flow and the legal basis we are asking for
 
 The returns side of the reformed lane works like this: a returned parcel is routed either to a pooled return point abroad, shared by multiple sellers in the same cluster, or it is abandoned, exactly as happens today. At the pooled point, a returned item that can be resold locally is resold there, recovering its value without ever re-crossing the border; an item that cannot be resold is consolidated with other unsold or returned stock from the same cluster and brought home once a month, under a single matched duty-free re-import bill, rather than the parcel-by-parcel re-import process a direct return uses today.
 

@@ -8,8 +8,6 @@ Prepared for: CaseQuest 2026, USME, Delhi Technological University, for DPIIT an
 
 ---
 
-> **Working draft.** Sections 0 to 24 are published here; sections 25 to 32 (pilot design, gates, measures, risks, validation plan, assumption register and committee questions) follow at this same address.
-
 ## 0. How to read this report
 
 **Answer.** This report answers the CaseQuest 2026 brief for the Department for Promotion of Industry and Internal Trade (DPIIT): a reform-oriented strategy for the 2026 Inter-Ministerial Committee on E-Commerce Exports that keeps every parcel declared, grades the seller instead of the parcel, and moves paperwork from the seller to a cluster export desk. Every number below carries a tag that says where it comes from, and every model result is stated as a model result, not a measurement. The report covers 33 sections; this part (sections 0 to 3) sets the scope, resolves every line of the case brief to a section and a slide, states the recommendation and the four answers to the four case requirements, and lays out the market the recommendation acts on.
@@ -43,7 +41,7 @@ The case sets a Policy Consultant's brief for DPIIT [C-R0], built on a backgroun
 
 | Case ID | Line | Answered in section(s) | Answered on slide |
 |---|---|---|---|
-| C-P1 | USME DTU "Conspectus" case, title "The Rise of Cross-Border E-Commerce: Unlocking India's MSME Export Potential" | §0 | Cover |
+| C-P1 | USME DTU "Conspectus" case, title "The Rise of Cross-Border E-Commerce" (full title as printed in the case brief) | §0 | Cover |
 | C-I1 | Deadline, extended by one day per the organisers | build-log.md, not a research finding | n/a |
 | C-I2 | One PDF, 3 slides excluding cover and appendix | §31 (slide crosswalk) | All |
 | C-I3 | Submit through Unstop only | build-log.md | n/a |
@@ -375,7 +373,7 @@ Etsy's own reported reach for Indian sellers, exports to 168 countries worldwide
 | Amazon cumulative e-commerce exports from India, 2015 to 2025, and its own 2030 target | $20 billion cumulative [B22], target $80 billion by 2030 [B23] | Government target of $200 billion to $300 billion in e-commerce exports by FY2030 [B17]; Amazon explicitly ties its own target to this government vision [B25] |
 | India's total e-commerce export value | FY2023 estimate $4 billion to $5 billion, about 0.9% to 1.1% of merchandise exports (EY-ASSOCHAM, repeated in the Economic Survey) [B15, B16] | GTRI's March 2023 report set a $350 billion by 2030 target from a stated baseline of about $2 billion; a 2024 GTRI-linked update instead describes the baseline as about $5 billion for the same 2030 target, a conflict this report keeps rather than resolves [B18, B19]; GTRI itself projects only about $25 billion by 2030 without policy reform [B20] |
 
-One platform's own reported cumulative export figure, $20 billion over ten years, is four to five times India's entire estimated e-commerce export base for a single recent fiscal year. A seller negotiating with a counterpart of that scale, alone, is not in a position to move a posted 15% referral fee or a $1.00 per-item minimum. The committee's stakeholder and coordination strategy (research §19 and §20) answers this asymmetry by asking platforms to publish a seller fee sheet and to return order data to the sellers who generate it, neither of which this report finds any platform currently doing; that is a gap in today's market, not an existing commitment from any named platform.
+One platform's own reported cumulative export figure, $20 billion over ten years, is four to five times India's entire estimated e-commerce export base for a single recent fiscal year. A seller negotiating with a counterpart of that scale, alone, is not in a position to move a posted 15% referral fee or a $1.00 per-item minimum. The committee's stakeholder and coordination strategy (research §19 and §20) answers this asymmetry by asking platforms to publish a seller fee sheet and to return order data to the sellers who generate it, neither of which this report finds any platform currently doing; that is a gap in the present market, not an existing commitment from any named platform.
 
 ### 6.4 Why a posted fee is not a negotiated fee
 
@@ -631,9 +629,9 @@ Reading down any column shows that return rate alone is enough to erase the marg
 
 ### 10.4 A single return costs more than it recovers
 
-The clearest instance of the point above sits inside T2 itself. If the representative order, a ₹3,960 handmade décor or textile item at 0.5 kg, is delivered and kept, the seller's delivered value is ₹1,334 in the base case [T2]. If that same order is returned, the expected loss is ₹2,132 [T2], which is ₹2,132 minus ₹1,334, or ₹798 worse than simply not having made the sale at all [arithmetic on T2]. In the bear case the gap is starker: delivered value is ₹692 against a return loss of ₹2,390, a difference of ₹1,698 [T2]. A single return on a low-value item like this one does not just erase the margin; it costs the seller more than the order would ever have earned.
+The clearest instance of the point above sits inside T2 itself. If the representative order, a ₹3,960 handmade décor or textile item at 0.5 kg, is delivered and kept, the seller's delivered value is ₹1,334 in the base case [T2]. If that same order is returned, the expected loss is ₹2,132 [T2], which is ₹2,132 minus ₹1,334, or ₹798 worse than simply not having made the sale at all [arithmetic on T2]. In the bear case the gap is starker: delivered value is ₹692 against a return loss of ₹2,390, a difference of ₹1,698 [T2]. A single return on a low-value item like this one erases the margin and costs the seller more than the order would ever have earned.
 
-The same comparison holds across every scenario the model runs, not only the base case.
+The same comparison holds across every scenario the model runs, the base case included.
 
 | Scenario | Delivered value if kept | Expected loss if returned | Gap, loss minus delivered |
 |---|---|---|---|
@@ -761,7 +759,7 @@ In our model, table T6 sets out the sequence from today's direct parcel to the r
 
 The ₹195 figure comes from cutting paperwork time from 45 minutes to 15 minutes [A07, A27] and removing the ₹120 agent fee entirely, since the desk files for free at tier 1 (section 3.5), leaving admin at ₹37.50, a fall of ₹195 from the base case's ₹232.50 [A07, A09, A27, T2, T3]. It is the single largest step in the waterfall, close to half the total ₹398 uplift, which is why the desk is the first lever in the recommendation rather than the pooled rate card or pooled returns. A07 and A27, the minutes of paperwork before and after the desk, and A09, the agent fee the desk removes, stay labelled as team assumptions, since no primary time study of seller paperwork exists; the validation plan in section 29 sets out how the pilot measures them directly rather than assumes them.
 
-The four roles and six desks are a pilot-scale design, not a finished national blueprint. Section 25 sets out how the pilot's 2,400 sellers across the six clusters, 400 per cluster, test whether four staff per desk is enough at the order volumes a cluster the size of Jaipur or Moradabad would actually generate once more sellers enroll, and section 26's scale gates decide whether staffing, not just budget, needs to grow before the model extends beyond these six clusters to the wider set of Towns of Export Excellence and export hubs the case implies a national reform would eventually reach [C31, C32].
+The four roles and six desks are a pilot-scale design, not a finished national blueprint. Section 25 sets out how the pilot's 2,400 sellers across the six clusters, 400 per cluster, test whether four staff per desk is enough at the order volumes a cluster the size of Jaipur or Moradabad would actually generate once more sellers enroll, and section 26's scale gates decide whether staffing as well as budget needs to grow before the model extends beyond these six clusters to the wider set of Towns of Export Excellence and export hubs the case implies a national reform would eventually reach [C31, C32].
 
 Exhibit for the deck: the desk's role table and the ₹195 waterfall step feed slide 4's compact and pilot panel, and slide 2's access-levers card (section 3.2).
 
@@ -799,7 +797,7 @@ Table T8 moves every input in the model to its bear and bull value, one at a tim
 
 A28 is the longest bar in both directions, a ₹130 span from −₹70 to +₹60, wider than any other input in the model, including the two paperwork assumptions behind the largest single waterfall step in section 12. This is why the pilot design tests the rate card first, as section 23 sets out: if the real-world saving on a cluster tender turns out closer to the bear value of 5% than the base value of 12% [A28], the whole uplift narrows, though it does not disappear, since A07, A09 and A27 together are worth more than A28 even at its bull value. A committee asked to back one lever with the most scrutiny before scaling the pilot should pick this one.
 
-### 13.3 Returns flow and the legal basis we are asking for, not claiming
+### 13.3 Returns flow and the legal basis we are asking for
 
 The returns side of the reformed lane works like this: a returned parcel is routed either to a pooled return point abroad, shared by multiple sellers in the same cluster, or it is abandoned, exactly as happens today. At the pooled point, a returned item that can be resold locally is resold there, recovering its value without ever re-crossing the border; an item that cannot be resold is consolidated with other unsold or returned stock from the same cluster and brought home once a month, under a single matched duty-free re-import bill, rather than the parcel-by-parcel re-import process a direct return uses today.
 
@@ -865,7 +863,7 @@ The desk does the work; the seller still owns the filing. A committee reading on
 
 This is also where the case's own test for granularity [C-J4] is best answered with a specific example rather than a general promise. A seller whose Banarasi silk stole is declared at an HS code one digit different from the correct one has, under our design, made an error that is theirs, flagged by the risk engine against their own tier record, resolved through the existing post-clearance audit power under Section 99A of the Customs Act [C52], not absorbed anonymously into a cluster-wide filing where no single seller's mistake can be traced back to them. A reform that cannot point to who is responsible for a specific error, at a specific field, on a specific order, has not actually reduced risk, only moved it out of sight. Ours can, because the shared record in 14.1 tags every field to the order and the seller that supplied it, and the legal-position table above is the map of exactly which of those tags still belongs to the seller once the desk has filed on their behalf.
 
-### 14.4 Why one shared record, not one new portal
+### 14.4 Why one shared record beats one new portal
 
 A committee could reasonably ask why we propose a shared data record rather than the more obvious fix: one new government portal that replaces ICEGATE, the DNK portal and ANF-9A outright. Section 11 already scores that option against ours and finds it loses on time to deliver, 1 against 4 on our scoring [T13], and the reason is concrete rather than abstract. DGFT already runs the Trade Connect ePlatform, launched to connect more than 6 lakh IEC holders, over 180 Indian Mission officials and over 600 Export Promotion Council officials [C36], and moved certificate-of-origin issuance (eCoO 2.0) onto it from 28 August 2024 [C37]. A new single-window export portal would either duplicate this existing investment or compete with it for the same users, and either way it takes years to build and adopt, the exact criticism section 3.3's option table levels at a new portal [T13]. Our shared record asks for none of that. It sits in front of ICEGATE, the DNK portal and ANF-9A, feeding each one the data it already accepts, rather than replacing any of them. The desk's software is new; the three government systems it talks to are not, and that is deliberate, since every month spent waiting for a new portal to go live is a month the case's own complaint, hand-filled forms for a seller moving a handful of parcels [C-E2], keeps standing.
 
@@ -887,7 +885,7 @@ Exhibit for the deck: the six field groups and the three-route table feed slide 
 
 Every tier keeps the same floor: 100% of parcels declared and risk-scored. Nothing in the tier design relaxes the requirement that every parcel is on the record, because the brief's own warning is that large volumes of low-value parcels that cannot be inspected one by one are exactly the misuse risk authorities will not accept being waived away [C-E5]. What changes across tiers is not whether a parcel is checked at all, but how often it is pulled for physical examination and how fast its seller's incentive claim clears.
 
-### 15.2 Promotion and demotion: the thresholds are a pilot hypothesis, not a rule in force
+### 15.2 Promotion and demotion: the thresholds are a pilot hypothesis
 
 The 25-parcel, 3-month and 12-month thresholds are proposals for the pilot in section 25 to test, not existing customs categories, and we repeat that here because a committee reading the tier table alone could mistake a clean table for a settled rule.
 
@@ -895,7 +893,7 @@ The 25-parcel, 3-month and 12-month thresholds are proposals for the pilot in se
 |---|---|---|---|
 | Tier 1 to tier 2 | 25 clean parcels or 3 months, whichever comes first | eBRC-matched realisation on every parcel in the window (section 16); zero discrepancies flagged by the risk engine | Examination rate drops by the risk engine's own scoring, not by a fixed percentage we set in advance; incentive claims move from per-parcel to monthly |
 | Tier 2 to tier 3 | 12 months clean, realisation matched throughout, one physical verification passed | Same as above over a full year, plus the one-time physical check | Examination rate drops again; the seller enters the post-clearance audit sampling pool instead of routine physical checks |
-| Any tier to a lower tier, or exit | A misdeclaration (tier 1), an unmatched payment beyond the legal realisation window or any discrepancy (tier 2), or an audit finding or unmatched realisation (tier 3) | The same eBRC and GST matching the desk already runs for every seller (section 16) | Immediate reset to the triggering tier's examination treatment; a tier 3 seller with an audit finding does not merely drop to tier 2, since an audit finding is graver than a missed deadline, and the desk escalates it for Section 99A review [C52] rather than a quiet demotion |
+| Any tier to a lower tier, or exit | A misdeclaration (tier 1), an unmatched payment beyond the legal realisation window or any discrepancy (tier 2), or an audit finding or unmatched realisation (tier 3) | The same eBRC and GST matching the desk already runs for every seller (section 16) | Immediate reset to the triggering tier's examination treatment; a tier 3 seller with an audit finding drops further than tier 2, since an audit finding is graver than a missed deadline, and the desk escalates it for Section 99A review [C52] rather than a quiet demotion |
 
 The asymmetry in the demotion column is deliberate. A tier 1 seller is demoted by nothing, there is no tier below tier 1, so the consequence of a misdeclaration at that level is exit from the desk's assisted filing rather than a step down. A tier 3 seller's audit finding is treated as graver than a tier 2 seller's missed realisation deadline, because by the time a seller reaches tier 3 the desk and the risk engine have a full year of clean record behind them, and a finding at that point is less likely to be an honest slip.
 
@@ -906,7 +904,7 @@ A tier is only as good as the data behind it, and the three questions the tier t
 | Risk-engine input | Source in the shared record (section 14) | What it tells the desk |
 |---|---|---|
 | Identity | IEC, GSTIN or GST-exempt status, Udyam or artisan ID (seller identity field group) | Whether the seller is a known, verified entity or a fresh enrolment |
-| Payment realisation | Realisation link field group, matched against the self-certified eBRC built from the bank's Inward Remittance Message (IRM) [C38] | Whether export proceeds actually came in within the FEMA window, not merely whether a sale was declared |
+| Payment realisation | Realisation link field group, matched against the self-certified eBRC built from the bank's Inward Remittance Message (IRM) [C38] | Whether export proceeds actually came in within the FEMA window, beyond whether a sale was declared |
 | Past discrepancy history | Every prior declaration filed under the seller's ID, flagged by customs' own Risk Management System (RMS) for exports, in place since 15 July 2013 [C51] | Whether a seller's prior parcels cleared clean or drew an examination finding |
 | Physical verification (tier 2 to tier 3 only) | A one-time, in-person check recorded against the seller's file | Confirms the paper record matches a seller who genuinely exists and operates at the stated address |
 
@@ -937,7 +935,7 @@ The tier table in 15.1 is easier to read against one seller's path through it th
 
 Nothing in this path required the seller to apply for a new certification or fill a form to request promotion. Every transition is read off the same shared record described in section 14 and the risk-engine inputs in 15.3; the seller experiences it as paperwork getting lighter and payments arriving faster the longer their record stays clean, not as a bureaucratic step they must separately pursue.
 
-### 15.6 Symmetric treatment and why three tiers, not two or five
+### 15.6 Symmetric treatment and why three tiers
 
 The rhetoric standard this report follows asks that comparable things get the same structure, so a reader can compare them without re-learning a format each time, and the three tiers above share exactly one layout, entry, treatment, benefit, demotion, with no tier given more or fewer dimensions than another. We chose three tiers rather than two or five for a specific reason: two tiers, new and established, would not distinguish a seller with three months of clean history from one with a full year, collapsing the case for a lighter audit touch on the most proven sellers into the same bucket as a seller only recently promoted; five tiers would ask the desk to track finer gradations than the underlying risk-engine inputs in 15.3, identity, realisation and discrepancy history, can actually support, since none of those three inputs changes meaningfully between, say, a seventh and an eighth clean month. Three tiers is the smallest number that lets the examination rate fall in more than one step as a seller's record lengthens, while staying small enough that the desk, the risk engine and the seller can all describe where a given order sits without consulting a lookup table. We note, again, that this is our judgement on the right granularity for a pilot to test, not a number any existing CBIC or DGFT category has already settled on. The four dimensions, entry, customs treatment, seller benefit, demotion, are themselves a deliberate MECE split of what a tier can possibly determine: entry answers who may hold the tier, treatment answers how customs handles that seller's parcels, benefit answers what the seller gains in return, and demotion answers what removes it. No fifth column was needed because no further question about a tier remained unanswered once those four were filled in, and no column could be dropped without leaving a seller or a customs officer unable to say what the tier actually does.
 
@@ -1040,7 +1038,7 @@ CBIC is cited putting e-commerce export returns at 20% to 25%, against under 5% 
 | Lok Sabha Unstarred Question reply, Ministry of Commerce and Industry, 2025 [C12] | 15% to 20% | 3 to 4 times the under-5% traditional-export rate |
 | Our model's assumption range [A10] | 18% to 22%, base 20% | Sits inside both cited ranges |
 
-Table T2 shows why that gap matters in rupees, not just in percentage points: in our base case, a direct parcel that is sold and kept earns the seller ₹1,334 after freight, fees, admin and product cost, but a parcel that is returned costs the seller ₹2,132 once freight both ways, admin and the lost product cost are counted [T2]. At a 20% base return rate [A10], roughly one order in five swings from a ₹1,334 gain to a ₹2,132 loss, which is why the expected contribution across all orders falls to ₹640 even before any reform [T2, T5]. A traditional export, returning under 5% of the time, never faces this swing often enough for it to dominate the seller's expected outcome the way it does for e-commerce. This is also the arithmetic behind insight 7 in our research plan: bringing a single low-value parcel home as a return costs more than the item is worth recovering, since the return freight and re-import handling on a ₹3,960 order can exceed what reselling or writing off the item abroad would cost, which is precisely why resolving the return abroad, not bringing it home at all unless it truly cannot be resold there, is the lane our design prefers.
+Table T2 shows why that gap matters in rupees as well as in percentage points: in our base case, a direct parcel that is sold and kept earns the seller ₹1,334 after freight, fees, admin and product cost, but a parcel that is returned costs the seller ₹2,132 once freight both ways, admin and the lost product cost are counted [T2]. At a 20% base return rate [A10], roughly one order in five swings from a ₹1,334 gain to a ₹2,132 loss, which is why the expected contribution across all orders falls to ₹640 even before any reform [T2, T5]. A traditional export, returning under 5% of the time, never faces this swing often enough for it to dominate the seller's expected outcome the way it does for e-commerce. This is also the arithmetic behind insight 7 in our research plan: bringing a single low-value parcel home as a return costs more than the item is worth recovering, since the return freight and re-import handling on a ₹3,960 order can exceed what reselling or writing off the item abroad would cost, which is precisely why resolving the return abroad, not bringing it home at all unless it truly cannot be resold there, is the lane our design prefers.
 
 Lane C also found a general mechanism worth distinguishing from the one we propose: Return to Origin (RTO), under which goods uncleared or unclaimed at an International Courier Terminal for more than 15 days may be sent back, provided they are not prohibited, restricted or held by an enforcement agency, with the authorised courier filing the request with the jurisdictional officer [C13, C14]. RTO addresses a different problem, goods that were never cleared on arrival in the first place, abandoned imports sitting in a terminal, not a seller's export that was sold, delivered and then returned by a dissatisfied buyer. Goods not cleared within 30 days, with no RTO request filed, are detained and disposed of after notice, with storage charges payable by the authorised courier [C15]. We note RTO here only to rule it out as an existing analogue for our pooled-return-point proposal: it is a mechanism for unclaimed imports, not for resolving a seller's export return abroad, and no part of our returns decision table in 17.1 relies on it.
 
@@ -1327,7 +1325,7 @@ Exhibit for the deck: slide 2's moneyshot card, the ₹640 to ₹1,038 waterfall
 
 ## 22. Three scenarios: even the bear case lifts an order from ₹14 to ₹385
 
-**Answer.** We never give a single point estimate for an uncertain number: T5 runs bear, base and bull assumptions through all three lanes, and in every one of the three scenarios the reformed parcel lane beats today's direct parcel lane. The honest reading is that this is a model, not a measurement: the gap between ₹14 and ₹385 in the bear case is as much a statement about how thin today's margin already is as it is a claim about the reform's own power.
+**Answer.** We never give a single point estimate for an uncertain number: T5 runs bear, base and bull assumptions through all three lanes, and in every one of the three scenarios the reformed parcel lane beats today's direct parcel lane. The honest reading is that this is a model, not a measurement: the gap between ₹14 and ₹385 in the bear case is as much a statement about how thin the present margin already is as it is a claim about the reform's own power.
 
 ### 22.1 All three lanes across all three scenarios
 
@@ -1507,7 +1505,670 @@ What the evaluator cannot reasonably be asked to certify, on the same budget and
 
 Exhibit for the deck: slide 3's integrity heat map (misuse type by control) drawn from section 24.2, with T9's declarations comparison as the supporting panel and a footnote carrying the statistical caveat from section 24.3.
 
-## Appendix B: Model tables (hash 8fe043dc97)
+## 25. Six clusters, six product types, 2,400 sellers and two waves test the reform for ₹3.58 crore
+
+**Answer.** We propose a 12-month pilot in six clusters across six regions and six product types, enrolling 400 sellers in each cluster for 2,400 sellers in total, at a budget of ₹3,57,72,000 (₹3.58 crore) [T10]. Half the sellers start in month 3 and half in month 7, so the second wave serves as a comparison group for the first wave's first four months. In our model the base case leaves 960 sellers actively exporting by month 12, at ₹37,262 of budget per active seller [T11]. The pilot tests mechanism and uptake; it cannot certify that rare misuse is absent, and section 24.3 sets out why.
+
+### 25.1 Why six clusters and why these six
+
+The brief asks for a pilot that "shows how sellers across regions and product types can adopt the new process through localized participation" [C-R4]. Two clusters would test the mechanism. They would say little about whether it travels. Six is the smallest number that gives one cluster in each of India's five broad regions plus the north-east, with each cluster making a different product, so that freight weight, fragility, return behaviour and regulatory exposure all vary across the sample.
+
+Three of the six are named in the brief itself: Jaipur, Moradabad and Varanasi [C-B2]. We keep all three because a committee reading the pilot results will look for them first. The other three add what the named clusters lack: a western craft cluster with long pickup distances (Kutch), a southern cluster whose product carries its own safety rules abroad (Channapatna toys), and a remote north-eastern cluster where first-time sellers dominate (Agartala, for Tripura's cane and bamboo).
+
+| Cluster | Region | Product archetype | Recognition | What it tests |
+|---|---|---|---|---|
+| Jaipur | North | Hand block-print textiles | Town of Export Excellence for handicrafts, 2009 [B41] | Named in the brief; light, flat parcels; high listing volume |
+| Moradabad | North | Brassware and metal craft | Town of Export Excellence under FTP 2023 [B43]; GI tag reported for 2013 [B44] | Named in the brief; heavier items stress freight and the rate card |
+| Varanasi | East | Banarasi silk stoles | GI "Banaras Brocades and Sarees", 4 September 2009; silk weaving is the district's ODOP [B46] | Named in the brief; home-based weavers; high value per gram |
+| Kutch | West | Embroidery and Ajrakh | GI for Kutch Embroidery, listed March 2013 [B48]; more Kutch products tagged in November 2025 [B49] | Scattered production centres; long distances to a desk |
+| Channapatna | South | Wooden toys | GI tag 2005; about 4,000 artisans in a 2021 estimate [B50] | Toy safety rules abroad; wholesale-to-retail price gap |
+| Agartala (Tripura) | North-east | Cane and bamboo | GI status contested [B52]; press estimate of about 1.49 lakh artisans [B53] | Remote logistics; first-time sellers; thin export history |
+
+*Abbreviations: FTP, Foreign Trade Policy; GI, Geographical Indication; ODOP, One District One Product.*
+
+The table shows that the six sites differ on the four variables that move a parcel's economics in our model: weight (freight, A05), fragility and fit (return rate, A10), distance to a desk (paperwork minutes, A07 and A27) and price point (A02). A pilot that ran only in Jaipur would tell the committee how a light textile parcel behaves and nothing about brass or toys.
+
+The north-east site carries the most uncertainty. Sources conflict on whether Tripura's cane craft holds a GI tag [B52], and the artisan workforce figure is a press estimate with no official census behind it [B53]. We keep Agartala because the brief's emphasis on "localized participation" [C-R4] is hardest to meet in a remote cluster, and a pilot that avoids the hardest case would overstate how far the reform travels. If the district committee in Tripura cannot staff a desk by month 2, Guwahati's cane and bamboo producers are the fallback, and the evaluation reports the substitution.
+
+### 25.2 Who enrols: 400 sellers a cluster, recorded by type
+
+Each cluster enrols 400 sellers [T10]. The enrolment rule is simple: a seller makes a product in the cluster's archetype, holds or is willing to obtain an Importer Exporter Code and a GST registration or GST-exempt status, and has not exported online more than 25 parcels in the previous 12 months. The last condition keeps the pilot on the population the brief describes, sellers for whom "the effort is often not worth the reward" at a handful of parcels a month [C-E2], and keeps out established exporters who would lift the averages without testing anything.
+
+The desk records four attributes of every seller at enrolment so that the evaluation can report uptake by group: whether the enterprise is women-owned, whether the owner is a first-generation entrepreneur, whether the seller has ever exported before, and whether production is home-based. The brief names women and first-generation entrepreneurs as a large part of this population [C-B2]. Official figures on the women-owned share conflict: a parliamentary reply gives 20.5% of Udyam Registration Portal registrations from July 2020 to January 2024 [B12], a later reply gives 40% across the portal and the Udyam Assist Platform together [B13], and a secondary source gives 38% [B14]. The scopes differ, so we do not pick one. We set the pilot's own target at the lower official figure: at least 20.5% of enrolled sellers in each cluster are women-owned enterprises, and the evaluation reports the actual share by cluster.
+
+| Recorded attribute | Why it is recorded | Pilot floor or rule |
+|---|---|---|
+| Women-owned enterprise | Brief names women entrepreneurs [C-B2]; official shares conflict [B12, B13] | At least 20.5% of each cluster's 400 sellers |
+| First-generation entrepreneur | Brief names first-generation entrepreneurs [C-B2] | Recorded; no floor; reported by cluster |
+| No prior export | Tests whether the desk brings in new exporters | At least half of each cluster's enrolment |
+| Home-based production | Pickup and packaging differ from workshop production | Recorded; drives desk pickup routes |
+
+The registered base is large enough to fill these places. A 2026 Lok Sabha reply gives 16,87,534 women artisans registered with the Development Commissioner (Handicrafts) [B57], so finding at least 82 women-owned enterprises in each cluster (20.5% of 400) is a recruitment task, not a supply problem.
+
+### 25.3 Two waves: the second wave is the comparison group
+
+A pilot that enrols everyone at once has no counterfactual: if margins rise, the committee cannot tell whether the desk did it or the season did. We split each cluster's 400 sellers into two waves of 200 by lottery at enrolment, giving 1,200 sellers in wave 1 and 1,200 in wave 2 across the six clusters [T10].
+
+| Months | Wave 1 (1,200 sellers) | Wave 2 (1,200 sellers) | What the comparison shows |
+|---|---|---|---|
+| 1 to 2 | Legal checks, desk set-up, rate card tender | Enrolled, baseline data collected | Nothing yet: set-up period |
+| 3 to 6 | Full package: desk, pre-filled declaration, tiers, rate card, pooled returns | Export as today; the desk only records their orders and costs | Wave 1 against wave 2, same cluster, same season |
+| 7 to 12 | Full package | Full package | Whether wave 2 catches up, which tests that the effect is the package |
+
+The lottery matters more than the size. Because sellers are assigned to waves at random within each cluster, the two waves start alike on product, location and experience, so a gap in contribution per order between them in months 3 to 6 is a fair estimate of what the package adds. This is a stepped rollout, the design public evaluators use when every unit is meant to receive the programme and the only question is order. No seller is denied the package; wave 2 waits four months.
+
+Wave 2 sellers who export in months 3 to 6 do so on today's terms, and the desk records their costs per order on the same template. That record is the pilot's measured version of T2: a real "today" column to set against the model's ₹640 [T5]. If the measured baseline differs materially from the model, section 29's decision rules say what changes.
+
+### 25.4 The budget, line by line
+
+The pilot budget is ₹3,57,72,000 [T10]. Five lines carry the cost and a 10% contingency sits on top.
+
+| Line | ₹ | Share | What it buys |
+|---|---|---|---|
+| Cluster export desks (6 desks, 4 staff each, 12 months) | 1,15,20,000 | 32% | ₹19,20,000 a desk for the year; ₹40,000 a staff month |
+| Seller onboarding, cataloguing, photography | 72,00,000 | 20% | ₹3,000 for each of 2,400 sellers |
+| Data link and dashboard (IEC, GSTIN, Udyam, eBRC) | 60,00,000 | 17% | One seller ID linking the four identifiers; the monthly scorecard |
+| First-shipment freight bridge (capped per seller) | 48,00,000 | 13% | ₹2,000 a seller on average, for the first parcels only |
+| Independent evaluation | 30,00,000 | 8% | Lottery, sampling, integrity audit, final report |
+| Contingency (10%) | 32,52,000 | 9% | Held by the convenor; drawn only against a logged variance |
+| Total | 3,57,72,000 | 100% | ₹14,905 for each enrolled seller [T10] |
+
+Source: T10, team model. Shares are rounded.
+
+Three features of the budget answer the questions a finance member of the committee will ask. First, the freight bridge is 13% of the total and capped per seller: it pays for a seller's first few parcels while the rate card is tendered, and it ends there. It is the only freight money in the package, and the model's ₹398 uplift per order [T5] does not depend on it, because the model contains no freight subsidy. Second, the desk line is the largest line because the desk is the reform: it takes the paperwork that costs a seller ₹232 a parcel today [T2] and does it at scale. Third, the evaluation line is separate from the desk line, so the people being judged do not mark their own work, the point section 24.4 makes about the integrity read.
+
+### 25.5 What the budget buys in our model
+
+Section 21 and T11 give the pilot's outcomes in three scenarios.
+
+| Scenario | Active sellers by month 12 | Orders in months 7 to 12 | Seller gain against today | Budget per active seller |
+|---|---|---|---|---|
+| Bear | 600 (25% of 2,400) | 21,600 | ₹0.80 crore | ₹59,620 |
+| Base | 960 (40%) | 57,600 | ₹2.29 crore | ₹37,262 |
+| Bull | 1,320 (55%) | 1,18,800 | ₹4.92 crore | ₹27,100 |
+
+Source: T11, team model.
+
+The arithmetic is plain. In the base case 960 active sellers each ship 10 orders a month for six months, which is 57,600 orders [T11], and each order earns the seller ₹398 more than it would today [T5], which sums to about ₹2.29 crore. That is 64% of the pilot budget returned to sellers inside the pilot year alone, before any scale-up. In the bear case the gain is ₹0.80 crore, about 22% of the budget, and the cost per active seller rises to ₹59,620 [T11].
+
+We do not present the seller gain as a return on public money. The gain accrues to sellers, the budget is public, and the comparison is useful only as a scale check: it shows that the pilot is small against the value it moves even in the bear case. The committee's decision at month 12 rests on the gates in section 26, which test whether the gain is real and whether integrity held.
+
+### 25.6 Who runs it
+
+DPIIT convenes and funds the pilot as the department named in the brief [C-R0]. The DGFT Regional Authority is already the nodal body for each district's export-hub work under Chapter 3 of the Foreign Trade Policy 2023 [C31], so the district export committee chaired through that authority hosts each desk. Where a Dak Ghar Niryat Kendra already operates in the cluster district, the desk sits inside it: there are 1,013 such centres nationally [C30], and the India Post year-end review for 2025 credits them with about 12.31 lakh shipments worth about ₹287 crore [C29]. Building on those counters is cheaper and faster than building new offices, which is the "builds on 2026" test in our option filter [T13].
+
+| Role | Body | Pilot duty |
+|---|---|---|
+| Convenor and funder | DPIIT | Releases budget by gate; chairs the monthly review |
+| District host | DGFT Regional Authority and district export committee [C31] | Hosts the desk; names a nodal officer |
+| Counter and booking | Department of Posts, through the DNK where one exists [C30] | Desk space, postal booking, PBE-III filing |
+| Risk engine and tiers | CBIC | Tier rules, risk scoring, sample examination |
+| Payment match | RBI and authorised dealer banks; DGFT eBRC system [C38] | Daily realisation feed to the seller ID |
+| Refund match | GSTN | IGST refund status against the seller ID |
+| Evaluation | Independent evaluator, contracted by DPIIT | Lottery, sampling, gate reports |
+
+*Abbreviations: DNK, Dak Ghar Niryat Kendra; PBE-III, Postal Bill of Export, form III; eBRC, electronic Bank Realisation Certificate; IGST, Integrated Goods and Services Tax.*
+
+Exhibit for the deck: slide 4 lower band, the India dot map with six numbered clusters and the "Why" note, plus the dark pilot card (₹3.58 crore to 960 active sellers) and the three-scenario table from T11.
+
+## 26. Four gates decide whether the reform scales, is revised or stops
+
+**Answer.** The pilot passes four gates, in months 2, 6, 9 and 12, and each gate has one numeric test agreed before the pilot starts. Gate 1 checks that the cluster rate card saves at least 5% on parcel freight, the bear value of A28 [T1]. Gate 2 checks that wave 1 sellers keep at least ₹200 more an order than wave 2. Gate 3 checks that the discrepancy rate in pilot clusters is no worse than in the comparison wave. Gate 4 asks for three of four headline targets at month 12 and decides scale, revise or stop.
+
+### 26.1 Why gates, and why these four
+
+A pilot without pre-agreed tests drifts into a pilot that cannot fail. Each gate below is set so that a committee member can read the result in one line and know what happens next. The order follows the tornado in section 23: the rate card is the least certain lever in the model [T8], so it is tested first, in month 2, before the desks spend most of their budget.
+
+| Gate | Month | Test | Pass | Fail |
+|---|---|---|---|---|
+| G1 Rate card priced | 2 | Tendered cluster rate saves at least 5% on 0.5 kg parcel freight against the published rate (A28 bear value [T1]) | Wave 1 starts on the rate card | Wave 1 starts with the desk and pooled returns only; the model drops the ₹120 step [T6] |
+| G2 Margin up in wave 1 | 6 | Wave 1 contribution per order exceeds wave 2's by at least ₹200 in months 3 to 6 | Wave 2 joins in month 7 as planned | Desk processes reviewed; wave 2 joins only if the gap exceeds ₹100 |
+| G3 Integrity holds | 9 | Discrepancy rate on sampled parcels in wave 1 is no higher than in wave 2's months 3 to 6 baseline | Tier promotions continue | Promotions to tier 2 and tier 3 paused; sample rate doubled for tier 1 |
+| G4 Scale, revise or stop | 12 | Three of four headline targets met (section 27.4) and G3 passed | Proposal to scale to 30 districts in year 2 | Three targets missed: stop. Two met: revise and rerun in the same six clusters |
+
+The ₹200 threshold at gate 2 is half the model's base uplift of ₹398 [T5] and close to the bear uplift of ₹371 less the rate card step, a margin that allows for the model being optimistic without letting a null result pass. If the rate card fails gate 1, the threshold falls to ₹140, which is the base uplift less the ₹120 rate card step [T6] and a further allowance of about ₹140 for model error, rounded. We publish both thresholds before the pilot starts so the test is fixed in advance.
+
+### 26.2 The 12-month timeline
+
+| Workstream | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 | M9 | M10 | M11 | M12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Legal checks and tenders | X | X | | | | | | | | | | |
+| Rate card priced (G1) | X | G1 | | | | | | | | | | |
+| Wave 1: 1,200 sellers | | | X | X | X | G2 | X | X | X | X | X | X |
+| Wave 2: 1,200 sellers | | | base | base | base | base | X | X | X | X | X | X |
+| Integrity sample audit | | | | X | X | X | X | X | G3 | X | X | X |
+| Independent evaluation | | | | | | | | | | X | X | G4 |
+
+*X marks an active month; "base" marks months in which wave 2 exports on today's terms and the desk records costs only.*
+
+Months 1 and 2 carry the legal work section 17 and section 21.3 flag as open: no published provision yet establishes a legal basis for a pooled overseas return point consolidating several sellers' returns, or for one monthly consolidated re-import bill [C57]. The pilot therefore runs pooled returns under the existing re-import route, which since 1 April 2026 assesses returned e-commerce goods by risk rather than consignment by consignment [C06] and runs through the ECCS Return Module [C07]. The monthly consolidated bill is tested only if CBIC issues a pilot circular by month 2. If it does not, the evaluation reports returns under the existing route and the model's ₹83 returns step [T6] is the step most likely to shrink.
+
+### 26.3 What each gate result changes in the model
+
+| Gate result | Model step affected | Base uplift after the change |
+|---|---|---|
+| All gates pass | None | ₹398 an order [T5] |
+| G1 fails (no rate card) | Pooled rate card step removed [T6] | ₹278 an order (₹398 less ₹120) |
+| Monthly bill not authorised | Returns step reduced; desk and rate card intact | Between ₹315 and ₹398, depending on how many returns the existing route closes |
+| G1 fails and bill not authorised | Desk step only | ₹195 an order [T6] |
+
+The last row is the floor of the reform: the cluster desk alone, with no rate card and no pooled returns, still lifts the representative ₹3,960 order by ₹195 in our model [T6], because paperwork and agent fees are the largest controllable cost after freight. That floor is why we place the desk at the centre of the design and let the rate card and pooled returns be add-ons the pilot can lose without the reform failing.
+
+### 26.4 Who decides at each gate
+
+Each gate result goes to the monthly review DPIIT chairs (section 20) with the evaluator's report attached, and the decision is minuted within two weeks, the escalation rule the compact sets. The evaluator reports. The committee decides. No desk, platform or carrier sees gate data before the evaluator has signed it.
+
+| Gate | Evidence owner | Decision owner | Published |
+|---|---|---|---|
+| G1 | Department of Posts and the tender committee | DPIIT review | Tender outcome and saving, month 2 |
+| G2 | Independent evaluator | DPIIT review | Wave 1 against wave 2 gap, month 6 |
+| G3 | Independent evaluator with CBIC sample data | DPIIT review with CBIC concurrence | Discrepancy rates by wave, month 9 |
+| G4 | Independent evaluator | Inter-Ministerial Committee | Final report, month 12 |
+
+Exhibit for the deck: slide 4, the 12-month Gantt with gate diamonds G1 to G4 and the "GO ONLY IF" table beside it.
+
+## 27. Success is measured per order, per seller and per declaration
+
+**Answer.** We measure the reform at three levels with one headline number each: contribution per order for the seller, the share of enrolled sellers still exporting at month 12, and the discrepancy rate per sampled declaration for customs. Every measure has a stated numerator and denominator so that two evaluators would compute the same figure. The four headline targets for gate 4 are proposals, set below the model's base case so that a pass means something.
+
+### 27.1 The KPI tree
+
+The brief asks for "clear success measures" [C-R4]. One number would hide the trade-off the brief is about, "too much control keeps small sellers out; too little control opens the door to misuse" [C-E6], so the tree has a seller branch and an integrity branch that must both hold.
+
+| Level | Headline measure | Driver measures | Model value |
+|---|---|---|---|
+| Per order | Seller contribution per order | Cost to serve; paperwork minutes; freight per parcel; return loss per order | ₹640 today to ₹1,038 reformed [T5] |
+| Per seller | Share of enrolled sellers active at month 12 | Orders a month per active seller; months to first export | 40% base, 25% bear, 55% bull [T11] |
+| Per declaration | Discrepancy rate on sampled parcels | Examination rate by tier; realisation match rate; refund match rate | No model value; measured against wave 2 |
+
+The per-declaration branch has no model value on purpose. Our model prices the seller's side; it does not predict misuse, and section 24.3 explains why a 2,400-seller pilot cannot estimate a rare misuse rate precisely. The integrity branch is therefore a comparison: the pilot passes if integrity in reformed clusters is no worse than in the comparison wave.
+
+### 27.2 Definitions and denominators
+
+| Measure | Numerator | Denominator | Source |
+|---|---|---|---|
+| Contribution per order | Price received less platform fee, product cost, freight, paperwork and agent cost, and the cost of returns | Orders shipped in the period | Desk cost template; platform settlement reports |
+| Cost to serve per order | Freight, paperwork and agent cost, and return handling | Orders shipped | Desk cost template |
+| Paperwork minutes per parcel | Seller minutes logged at the desk or reported in a weekly diary | Parcels shipped | Desk log; seller diary |
+| Active seller share | Enrolled sellers with at least one export order in month 12 | Sellers enrolled at the start of their wave | Seller ID data link |
+| Return closure time | Days from buyer return to resale abroad or re-import entry | Returned parcels closed in the period | ECCS Return Module [C07]; desk log |
+| Discrepancy rate | Sampled parcels with a confirmed value, description or classification discrepancy | Parcels sampled | CBIC sample results |
+| Realisation match rate | Shipping bills matched to an inward remittance within the FEMA window | Shipping bills filed | eBRC and IRM feed [C38]; FEMA window [C41] |
+
+*Abbreviations: IRM, Inward Remittance Message; FEMA, Foreign Exchange Management Act.*
+
+Two definitions carry most of the weight. Contribution per order includes the cost of returns, because the brief calls returns "the biggest hidden cost" [C-E4] and a measure that ignored them would flatter today's parcel. The realisation match uses the realisation window RBI set in 2026, which sources report was cut back from 15 months to 9 months [C41]; the measure follows whatever window is in force when the pilot runs.
+
+### 27.3 Baselines
+
+Each headline measure has two baselines: the model's value for today [T2, T5] and the measured value for wave 2 sellers in months 3 to 6 (section 25.3). The measured baseline governs the gate tests. The model value is reported beside it so the committee can see how far the model was off.
+
+| Measure | Model baseline (today) | Measured baseline |
+|---|---|---|
+| Contribution per order | ₹640 [T5] | Wave 2, months 3 to 6 |
+| Cost to serve per order | ₹1,531 [T2] | Wave 2, months 3 to 6 |
+| Paperwork and agent cost per order | ₹232 [T2] | Wave 2, months 3 to 6 |
+| Paperwork minutes per parcel | 45 [A07] | Wave 2 diary |
+| Return rate | 20% [A10] | Wave 2 orders |
+
+### 27.4 Headline targets for gate 4
+
+| Target | Model base | Target at month 12 | Why the target sits below the model |
+|---|---|---|---|
+| Cost per parcel | ₹1,531 to ₹959, a fall of 37% [T2, T3] | A fall of 20% against the measured baseline | Allows the rate card or pooled returns to underdeliver |
+| Seller paperwork | 45 to 15 minutes, a fall of 67% [A07, A27] | A fall of 60% | The desk time study (section 29) has not been run |
+| Return closure time | No model value | A fall of 30% against wave 2 | Depends on the legal route for pooled returns [C57] |
+| Discrepancy rate | No model value | No worse than wave 2 | The integrity test is a comparison by design |
+
+These targets appeared on slide 4 as "targets, not forecasts", and that label is accurate: they are thresholds for a decision, chosen below the model so that a pass is credible even if the model is optimistic.
+
+### 27.5 Reporting
+
+The dashboard funded in T10's data line publishes the monthly scorecard section 20 describes: the four headline measures by cluster and by wave, the active seller count, and the gate status. Seller-level data stays inside the data link; the published scorecard reports cluster aggregates only. A scorecard line that moves the wrong way for two consecutive months goes to the committee under the two-week escalation rule.
+
+Exhibit for the deck: slide 4, the pilot card's mini numerals (₹37,262 per seller, ₹2.29 crore seller gain, 6 clusters) and the four targets used at gate 4.
+
+## 28. What could go wrong and what we do about it
+
+**Answer.** We list ten risks, score each for probability and impact on a three-point scale, and pair each with one mitigation and one owner. The two highest-scoring risks are that the rate card saves less than assumed, which is the least certain lever in our model [T8], and that misuse rises under lighter checks for tier 2 and tier 3 sellers, which is the risk the brief names [C-E5]. A pre-mortem written from month 12 checks the list for gaps.
+
+### 28.1 The risk register
+
+| # | Risk | Probability (1 to 3) | Impact (1 to 3) | Score | Mitigation | Owner |
+|---|---|---|---|---|---|---|
+| 1 | Rate card saves less than 5%, or carriers do not bid | 2 | 3 | 6 | Gate 1 in month 2; desk-only package if it fails; the uplift falls to ₹278 an order [T6] | Department of Posts, tender committee |
+| 2 | Misuse rises among promoted sellers | 2 | 3 | 6 | Every parcel still declared; gate 3 comparison; promotions paused on a fail; post-clearance audit even in tier 3 | CBIC |
+| 3 | No legal route for the pooled return point or monthly bill [C57] | 3 | 2 | 6 | Run returns under the existing risk-based re-import route [C06]; seek a pilot circular by month 2 | CBIC |
+| 4 | Low seller uptake; active share near the bear 25% [T11] | 2 | 2 | 4 | Local-language onboarding; desk does the first listing and the first filing; freight bridge for first parcels | District committees |
+| 5 | Agency delays on the data link | 2 | 2 | 4 | Two-week escalation rule; manual match at the desk until the link is live | DPIIT, GSTN, DGFT |
+| 6 | Platforms decline to publish a fee sheet or share seller data | 2 | 1 | 2 | Desk reconstructs fees from settlement reports; DGFT's existing platform MOU route [C34] | DGFT |
+| 7 | Destination rules tighten further during the pilot | 2 | 2 | 4 | Desk keeps a destination rule sheet; duty treatment held equal across lanes in the model [A25] | DGFT |
+| 8 | Desk capture: staff favour some sellers | 1 | 2 | 2 | Lottery for waves; published desk queue; evaluator audits a sample of desk files | Independent evaluator |
+| 9 | Seller data misused or leaked | 1 | 3 | 3 | Data link holds identifiers only; scorecard publishes aggregates only | DPIIT |
+| 10 | Model error: measured baseline far from ₹640 | 2 | 2 | 4 | Gate tests run on measured baselines; model refitted after month 6 | Independent evaluator |
+
+*Probability and impact are team judgement on a scale of 1 (low) to 3 (high); the score is their product.*
+
+The register shows a pattern: the three risks scored 6 each touch a different part of the package. The rate card is a commercial risk, misuse is an integrity risk and the return route is a legal risk. No single failure takes the whole reform down, because the desk step survives all three, which is the floor section 26.3 computes at ₹195 an order [T6].
+
+### 28.2 Risk heat map
+
+| Impact / Probability | 1 Low | 2 Medium | 3 High |
+|---|---|---|---|
+| 3 High | 9 Data misuse | 1 Rate card; 2 Misuse rises | |
+| 2 Medium | 8 Desk capture | 4 Low uptake; 5 Agency delay; 7 Destination rules; 10 Model error | 3 Legal route for pooled returns |
+| 1 Low | | 6 Platform data | |
+
+The heat map has no risk in the top right corner. The legal route for pooled returns is the only risk we score as highly probable, because the search found no provision that establishes it [C57]; we score its impact as medium because the existing route [C06, C07] still closes returns, only less cheaply.
+
+### 28.3 Misuse risk in more detail
+
+The brief is specific about what authorities fear: "under-invoicing, misuse of export incentives and tax leakage" [C-E5]. India's audit record shows these are real. The Comptroller and Auditor General's Report No. 33 of 2025 on the Duty Drawback Scheme found a revenue implication of ₹701.69 crore [F38], a separate CAG report covered MEIS and SEIS incentive irregularities across 39 customs commissionerates [F40], and the Directorate of Revenue Intelligence lists overvaluation of exports combined with non-realisation of proceeds as a standard drawback fraud [F42].
+
+| Misuse type | How it works | Where our package blocks it |
+|---|---|---|
+| Overvaluation to claim drawback or RoDTEP | Declared value inflated; proceeds never realised | Incentives released only after the realisation match [C38, C41] |
+| Under-invoicing | Declared value below true value to cut duty abroad or move money | Risk engine scores value against the order record; every parcel declared |
+| IGST refund leakage | Refund claimed on an export whose proceeds are not realised | Refund tied to realisation since 1 October 2023 [C45]; GSTN match on the seller ID |
+| Fake returns | Goods "returned" to re-import duty-free without a genuine export | Return matched to the original shipping bill and the order; demotion on any mismatch |
+| Split consignments | One large shipment split into many parcels to stay under thresholds | No value threshold in our package; tier treatment depends on the seller's record |
+
+The last row is the reason we rejected the low-value exemption in section 11. A value threshold below which parcels go unchecked rewards splitting. Grading the seller removes the reward, because the seller's treatment does not change with parcel value.
+
+### 28.4 Pre-mortem: the pilot failed; why
+
+A pre-mortem asks the team to assume the pilot failed at month 12 and to write the most likely story. We wrote three.
+
+| Failure story | Earliest warning | Gate that catches it | What we would do |
+|---|---|---|---|
+| Sellers enrolled, shipped a few parcels and stopped, because platform listing work, which the desk does not do well, ate their time | Active share below 30% in wave 1 at month 6 | G2 and the active-share target | Move cataloguing budget [T10] into a listing assistant per desk |
+| Carriers bid a rate card in month 2 but service collapsed by month 5, so parcels went back to retail rates | Freight per parcel drifting back toward ₹1,000 [A05] | Monthly scorecard; G4 cost target | Retender with a service-level clause; desk-only package meanwhile |
+| A handful of promoted sellers under-invoiced at scale and the press story ended the pilot | Sample discrepancies concentrated in tier 2 | G3 | Pause promotions; publish the case; show that the sample caught it |
+
+The third story is the one a committee will fear most. Our answer is that the pilot is designed so that misuse, if it happens, is caught by the pilot's own sample and reported by the evaluator before the press finds it. A control that catches a case is working, and the gate rule says what happens next.
+
+Exhibit for the deck: slide 4, the "TOP RISKS, ONE FIX EACH" table (rate card, misuse rises, delays, low uptake).
+
+## 29. Validation plan: nothing below has been run yet
+
+**Answer.** No interview, survey, provider quote, time study or pilot result has been collected for this report, and none is reported anywhere in it. This section is a plan. It lists the evidence we would gather before the committee meets, by method, respondent and count, and for each piece of evidence it states the decision rule: which assumption it tests, and what we would change if the result comes back outside the assumption's range.
+
+### 29.1 Why a validation plan instead of claimed fieldwork
+
+The model rests on 31 assumptions [T1]. Some come from published tariffs and fee pages; others, notably the paperwork minutes (A07, A27) and the agent fee (A09), are team assumptions with no primary measurement behind them. Inventing seller quotes to support them would be easy and wrong. We instead state what we would measure, how many responses we need, and what a result would change.
+
+### 29.2 Seller interviews
+
+| Respondent | Count | Where | What we ask | Assumptions tested |
+|---|---|---|---|---|
+| Sellers who export online today | 30 (5 per cluster) | Six pilot clusters | Minutes and money per parcel on forms, agents and booking; return rate; what happens to returns | A07, A09, A10, A11 |
+| Sellers who sell online in India but not abroad | 30 (5 per cluster) | Six pilot clusters | What stops them exporting; what a desk would need to do | Uptake assumption behind T11 |
+| Sellers who tried exporting and stopped | 12 (2 per cluster) | Six pilot clusters | Why they stopped; whether returns or paperwork decided it | A10, A11, A12 |
+| Women-owned and first-generation enterprises | Within the 72 above, at least 20 | Six pilot clusters | Barriers specific to them: travel to a counter, banking, documents | Inclusion design in section 25.2 |
+
+The count of 72 seller interviews is enough to see whether the order of magnitude of each assumption is right. It is far short of what would estimate a mean precisely, and we would report the results as ranges.
+
+### 29.3 Provider quotes and institutional interviews
+
+| Respondent | Count | What we ask | Assumptions tested |
+|---|---|---|---|
+| Courier and postal providers (India Post, two express carriers, two aggregators) | 5 | Published and negotiated 0.5 kg rates to the US, UK, EU and UAE; volume tiers; what a cluster tender would need | A05, A28 |
+| Return-handling 3PLs in the US and UK | 3 | Cost to receive, inspect and resell or hold a returned item; minimum volumes | A21, A20, A31 |
+| Customs brokers and agents | 4 | Fee per postal and courier export; time per filing | A09, A07 |
+| CBIC and DGFT officers (informational, not commitments) | 4 | Whether a pilot circular for pooled returns is feasible; data-sharing constraints | A29, A31; the legal gap [C57] |
+| Platform seller-support teams | 3 | Fee structure for Indian handmade sellers; seller data access | A06 |
+
+Interviews with officers would be informational. We would not report any officer's view as an agency position, consistent with section 2.1's rule that no agency "has agreed" to anything.
+
+### 29.4 Time study
+
+The paperwork minutes are the assumption with the least evidence and among the largest effects: A07 is the second bar in the tornado, moving the uplift by +₹38 or −₹25 [T8]. We would time 60 parcels: 30 filed by sellers today through the usual route and 30 filed by a desk operator from order data in a mock desk, each from first form to booking confirmation, in two clusters.
+
+| Measure | Sample | Assumption | Decision rule |
+|---|---|---|---|
+| Seller minutes per parcel today | 30 parcels | A07, base 45, range 35 to 60 | Outside 30 to 75 minutes: re-run the model and restate T6 |
+| Desk minutes per parcel with pre-fill | 30 parcels | A27, base 15, range 10 to 25 | Above 25 minutes: desk staffing in T10 rises; uplift restated |
+| Agent fee per parcel | From the 4 broker interviews | A09, base ₹120, range ₹100 to ₹150 | Outside ₹80 to ₹200: restate T2 |
+
+### 29.5 Decision rules
+
+| If the evidence shows | Then we change |
+|---|---|
+| Any input outside its bear-to-bull range in T1 | The base value in the model, with the old and new values logged, and every figure that depends on it restated |
+| Rate quotes show no saving available from pooling | The rate card step is dropped from the base case; uplift falls to ₹278 [T6]; gate 1 is kept as a test |
+| Return rates far above 25% in a cluster | That cluster's product is flagged for the warehouse graduation lane once a SKU sells 10 a month [T12] |
+| Officers indicate no route for a pooled return pilot | Pooled returns run under the existing route only [C06]; the monthly bill is dropped from the pilot |
+| Sellers report listing work, not paperwork, as the main barrier | Desk role extended to listing; budget moved from the freight bridge [T10] |
+
+### 29.6 What the plan costs and when it would run
+
+The interviews and time study fit inside the pilot's month 1 and month 2 set-up period and the evaluation line of T10. Nothing in this report depends on them having been done, and nothing in this report claims that they were.
+
+Exhibit for the deck: slide 5, the red "Not yet run: interviews, time study (§29)" line under the short forms.
+
+## 30. Every assumption, why we chose it and who tested it
+
+**Answer.** The model uses 31 numbered inputs [T1]. This section gives each one its base value, its bear and bull values, a one-line justification and the research lane that checked it, as the brief asks: "assumptions, if any, clearly stated and justified" [C-I6]. Bear always means the value least favourable to our recommendation. Inputs that no lane could verify are labelled team assumptions, and section 29 says how we would test them.
+
+### 30.1 Prices, costs and freight
+
+| ID | Input | Bear | Base | Bull | Why this value | Checked in |
+|---|---|---|---|---|---|---|
+| A01 | INR per USD | 88 | 88 | 88 | RBI reference rate range at the time of writing; held fixed so scenarios isolate the reform | Lane D |
+| A02 | Retail price abroad, USD | 40 | 45 | 50 | Middle of listed prices for block-print, Banarasi, Kutch and Channapatna items [B32, B34, B35, B36] | Lane B |
+| A03 | Packed weight, kg | 0.5 | 0.5 | 0.5 | Representative small textile or decor parcel | Team |
+| A04 | Seller product cost, ₹ | 900 | 800 | 750 | About 20% of retail price, consistent with the wholesale-to-retail gaps in Lane B listings [B36] | Lane B |
+| A05 | Direct parcel freight, 0.5 kg, ₹ | 1,100 | 1,000 | 900 | Postal and courier rate cards for 0.5 kg to the US and UK | Lane D |
+| A06 | Platform referral share | 15% | 15% | 15% | Common referral rate for handmade categories on large marketplaces | Lane B |
+| A13 | Bulk air freight per chargeable kg, ₹ | 450 | 380 | 320 | Forwarder benchmarks at 100 kg plus | Lane D |
+| A14 | Chargeable over packed weight | 1.30 | 1.25 | 1.20 | Volumetric factor for cartons of mixed items | Team |
+| A15 | Destination last-mile, USD | 6.0 | 5.5 | 5.0 | Ground parcel tables for a 0.5 kg item | Lane D |
+| A16 | Warehouse pick, pack and storage, USD | 5.0 | 4.5 | 4.0 | Third-party fulfilment fee tables for a small item | Lane D |
+
+### 30.2 Paperwork and the seller's time
+
+| ID | Input | Bear | Base | Bull | Why this value | Checked in |
+|---|---|---|---|---|---|---|
+| A07 | Seller paperwork per parcel today, minutes | 60 | 45 | 35 | Brief describes forms across offices and portals, many by hand [C-E2]; no time study exists | Team; section 29.4 |
+| A08 | Value of one seller hour, ₹ | 150 | 150 | 150 | Conservative value of an artisan-owner's hour | Team |
+| A09 | Agent or CHA fee per parcel, ₹ | 150 | 120 | 100 | Brief notes forms filled "through agents" [C-E2]; broker fees not published | Team; section 29.3 |
+| A18 | Seller minutes per order, consolidated lane | 10 | 6 | 4 | Batch pickup and one bill for many orders | Team |
+| A27 | Seller paperwork per parcel with the desk, minutes | 25 | 15 | 10 | Pre-filled declaration from order data; seller only confirms | Team; section 29.4 |
+
+### 30.3 Returns
+
+| ID | Input | Bear | Base | Bull | Why this value | Checked in |
+|---|---|---|---|---|---|---|
+| A10 | Return rate, direct parcel | 22% | 20% | 18% | CBIC cites 20% to 25% for e-commerce exports against under 5% for traditional exports | Lane C |
+| A11 | Share of direct returns abandoned abroad | 85% | 80% | 75% | Brief: sellers "absorb the loss" [C-E4]; a single return costs more to bring home than it recovers | Team |
+| A12 | Cost to bring one parcel back and clear it, ₹ | 1,500 | 1,300 | 1,200 | Return freight plus clearance under the pre-2026 route | Lane D |
+| A19 | Return rate, warehouse lane | 18% | 15% | 12% | Faster local delivery lowers returns | Team |
+| A20 | Share of warehouse returns resold locally | 50% | 60% | 70% | Returns handled where the buyer is | Team |
+| A21 | Cost to process one local return, USD | 4.0 | 3.5 | 3.0 | Third-party return processing tables | Lane D |
+| A29 | Cost to bring a parcel back under matched re-import, ₹ | 1,200 | 950 | 800 | Risk-based re-import and ECCS Return Module from 1 April 2026 [C06, C07]; spread across a 40-item carton | Lane C |
+| A31 | Share of direct returns routed to a pooled return point | 50% | 65% | 80% | Return-network coverage in the US and UK; legal route still open [C57] | Lane C |
+
+### 30.4 Warehouse lane, working capital and the reform levers
+
+| ID | Input | Bear | Base | Bull | Why this value | Checked in |
+|---|---|---|---|---|---|---|
+| A17 | Consolidator or EOR margin on product cost | 10% | 8% | 7% | Exporter-on-record service charges | Lane C |
+| A22 | Unsold stock written off | 10% | 7% | 5% | Inventory risk for handmade SKUs held abroad | Team |
+| A23 | Annual working capital cost | 12% | 11% | 10% | MSME lending rates | Lane D |
+| A24 | Months stock is held | 5 | 4 | 3 | Turn assumption for slow-moving craft SKUs | Team |
+| A25 | Destination duty and VAT difference between lanes | 0 | 0 | 0 | Held equal so the comparison isolates Indian-side costs; destination rules discussed in section 8 | Lane E |
+| A26 | Fixed cost per SKU a month, warehouse lane, ₹ | 2,500 | 2,500 | 2,500 | Third-party storage minimums | Team |
+| A28 | Pooled rate-card saving on parcel freight | 5% | 12% | 18% | Volume discounts available to aggregated senders; no published cluster tender found | Lane D; gate 1 |
+| A30 | Unused, kept for ID stability | n/a | n/a | n/a | Retired input; kept so IDs do not shift | n/a |
+
+*Abbreviations: CHA, Customs House Agent; EOR, Exporter on Record; SKU, stock-keeping unit; MSME, micro, small and medium enterprise.*
+
+### 30.5 Which assumptions matter most
+
+The tornado in T8 ranks the inputs by how far each moves the ₹398 uplift. Four inputs account for almost all the movement.
+
+| Rank | ID | Swing on the uplift (bear, bull) | Evidence today | Next test |
+|---|---|---|---|---|
+| 1 | A28 rate card saving | −₹70, +₹60 [T8] | No published cluster tender | Gate 1, month 2 |
+| 2 | A07 paperwork today | +₹38, −₹25 [T8] | Brief's description only | Time study, section 29.4 |
+| 3 | A09 agent fee | +₹30, −₹20 [T8] | Brief's description only | Broker interviews |
+| 4 | A27 paperwork with the desk | −₹25, +₹12 [T8] | Design estimate | Time study, section 29.4 |
+
+Even with every one of these four at its bear value at once, the bear scenario still lifts the representative order from ₹14 to ₹385 [T5], because bear values move today's parcel and the reformed parcel in the same direction.
+
+Exhibit for the deck: slide 5, panel A2 "Assumptions that move the answer", with the "Checked in" column.
+
+## 31. From research to slides
+
+**Answer.** The deck compresses this report's 33 sections into three core slides, one per pair of case requirements, plus a cover, an appendix and a closing slide. Every number on the slides comes from the model tables T1 to T13 or a tagged source in this report. This section maps each slide panel to the section that supports it, so a judge who doubts a slide figure can find its evidence in one step.
+
+### 31.1 Slide crosswalk
+
+| Slide | Panel | Report section | Key number |
+|---|---|---|---|
+| 1 Cover | Verdict card | §2 | ₹640 to ₹1,038 an order [T5] |
+| 1 Cover | Mind map of eight actors | §19, §20 | 1,013 DNKs [C30] |
+| 2 Market and access (R1) | Four KPI cards | §9 | ₹3,960 price, ₹640 kept, ₹1,531 cost to serve [T2] |
+| 2 Market and access (R1) | One order today waterfall | §9, §10 | Forms and returns ₹925; freight ₹1,000 [T2] |
+| 2 Market and access (R1) | Five ways to ship one order | §12, §13, §18 | ₹835, ₹955, ₹1,038, ₹892 [T5, T6] |
+| 2 Market and access (R1) | MSME exports and the online slice | §3, §5 | 52,849 to 1,73,350 exporting MSMEs |
+| 2 Market and access (R1) | Five forces on one cluster seller | §6 | Platform fee 15% [A06] |
+| 2 Market and access (R1) | Destinations close the low-value door | §8 | EU €3 an item from 1 July 2026 |
+| 2 Market and access (R1) | 2026 clock | §4 | Cap removed April 2026 |
+| 2 Market and access (R1) | MECE issue tree | §10 | 20% to 25% returns (CBIC) |
+| 3 Rules and integrity (R2) | Six options, Harvey balls | §11 | 4.45 weighted, 4.40 equal [T13] |
+| 3 Rules and integrity (R2) | Obvious answers struck out | §11 | ₹1,000 a parcel subsidy |
+| 3 Rules and integrity (R2) | Process lanes today and after | §12, §14 | 45 to 15 minutes [A07, A27] |
+| 3 Rules and integrity (R2) | Three tiers | §15 | 25 clean parcels; 12 months clean |
+| 3 Rules and integrity (R2) | Misuse against controls | §16, §24 | Six misuse types, five controls |
+| 3 Rules and integrity (R2) | Moneyshot card | §21 | ₹640 to ₹1,038, +62% [T5] |
+| 3 Rules and integrity (R2) | Waterfall and tornado | §21, §23 | +₹195, +₹120, +₹83 [T6]; A28 −₹70 [T8] |
+| 4 Coordination and pilot (R3, R4) | Mind map and give-and-get tables | §19, §20 | Eight actors, one duty and one gain each |
+| 4 Coordination and pilot (R3, R4) | Six clusters map | §25 | 400 sellers a cluster [T10] |
+| 4 Coordination and pilot (R3, R4) | Gantt and GO ONLY IF table | §26 | Four gates, months 2, 6, 9, 12 |
+| 4 Coordination and pilot (R3, R4) | Pilot card and scenarios | §25, §27 | ₹3.58 crore; 960 active; ₹37,262 [T10, T11] |
+| 4 Coordination and pilot (R3, R4) | Top risks | §28 | Four risks, one fix each |
+| 5 Appendix | A1 to A4 | §21, §22, §23, §30, Appendices A to C | 31 assumptions [T1] |
+| 6 Thank you | THEREFORE card | §2 | No new number |
+
+### 31.2 How the deck applies the case-competition structure
+
+The deck follows an eight-part argument structure compressed into three slides: executive summary, context, actors, quantitative analysis, feasibility, recommended alternative, conclusion and appendix. Each part maps to a slide band.
+
+| Argument part | Where it sits in the deck | Supporting sections |
+|---|---|---|
+| Executive summary | Cover verdict card; slide 2 headline | §2 |
+| Context | Slide 2 market band and 2026 clock | §3, §4, §8 |
+| Actors | Cover mind map; slide 4 compact band | §5, §6, §19 |
+| Quantitative analysis | Slide 2 waterfall; slide 3 money band | §9, §10, §21 to §23 |
+| Feasibility | Slide 3 option scores and controls; slide 4 risks | §11, §16, §24, §28 |
+| Recommended alternative | Slide 3 rules band; slide 4 pilot band | §12 to §20, §25, §26 |
+| Conclusion | Thank-you THEREFORE card | §2 |
+| Appendix | Slide 5 | §29, §30, Appendices |
+
+Two rhetorical choices run across the slides. The headline of every core slide is a full sentence with a number, so a judge who reads only the headlines gets the argument. And the deck carries exactly one moneyshot, the dark card on slide 3 showing ₹640 becoming ₹1,038 [T5], so the number a judge remembers is the one the recommendation rests on.
+
+Exhibit for the deck: none; this section is the map between the two documents.
+
+## 32. Questions the committee will ask, with our answers
+
+**Answer.** We expect eighteen questions from a committee of secretaries and give a short answer to each, with the number and section that support it. The answers do not add new evidence; they point to where the evidence already sits in this report.
+
+| # | Question | Our answer | Where |
+|---|---|---|---|
+| 1 | Is this a subsidy by another name? | No. The model contains no freight subsidy; the ₹398 uplift comes from paperwork, pooled rates and returns [T6]. The only freight money is a capped first-shipment bridge inside the pilot budget [T10]. | §13, §25.4 |
+| 2 | Does grading sellers mean fewer checks? | Fewer checks on low-risk sellers, more on new and risky ones, and every parcel is still declared and risk-scored. WTO TFA Article 7.4 asks for exactly this concentration of control [F45]. | §15, §24 |
+| 3 | Why not exempt parcels below a value line? | It invites splitting and under-invoicing, and it scores 1 of 5 on integrity in our filter [T13]. | §11 |
+| 4 | Why not build one portal? | The systems exist: ICEGATE, ECCS, DNK, DGFT. A new portal duplicates them and takes years; it scores 1 of 5 on time [T13]. | §11, §14 |
+| 5 | What if the rate card saves nothing? | The uplift falls from ₹398 to ₹278 an order and the reform still passes; gate 1 tests this in month 2. | §23, §26 |
+| 6 | Is there a legal basis for the pooled return point? | Not yet; we found none [C57]. The pilot runs returns under the 2026 risk-based re-import route [C06] and seeks a pilot circular for the monthly bill. | §17, §26.2 |
+| 7 | How do you know sellers spend 45 minutes on forms? | We do not; it is an assumption [A07]. The time study in section 29.4 would test it, and the tornado shows the answer moves by at most ₹38 [T8]. | §29, §30 |
+| 8 | Who pays for the desks after the pilot? | In the pilot, DPIIT [T10]. At scale, a per-parcel desk fee below today's ₹120 agent fee [A09] would cover staff; the pilot measures whether sellers would pay it. | §25.4 |
+| 9 | Will 2,400 sellers prove the reform is safe? | No pilot of this size can prove rare misuse is absent; it can show the controls work and that integrity is no worse. | §24.3 |
+| 10 | Why these six clusters? | Three are named in the brief; three add region, product and remoteness. | §25.1 |
+| 11 | Why not overseas warehouses everywhere? | In our model the warehouse beats today's parcel from about 10 orders per SKU a month but never beats the reformed parcel at unit level [T12]. | §18 |
+| 12 | What does each ministry give up? | One duty each, with one gain each, set out in the give-and-get matrix. | §20 |
+| 13 | What happens if a desk officer favours some sellers? | Waves are set by lottery; the desk queue is published; the evaluator audits desk files. | §28 |
+| 14 | How does this interact with the US and EU changes? | Destination duties are held equal across lanes in the model [A25]; the desk keeps a destination rule sheet. | §8 |
+| 15 | What is the worst case for a seller? | In the bear case today's parcel earns ₹14 an order and the reformed parcel ₹385 [T5]. | §22 |
+| 16 | How will we know in six months whether it works? | Gate 2 compares wave 1 against wave 2 in the same clusters; a gap of ₹200 an order passes. | §26 |
+| 17 | Are the option scores biased toward your proposal? | They are our judgement and we scored our own option. Under equal weights ours scores 4.40 against 2.80 for the next option [T13]. | §11 |
+| 18 | What would make you drop the recommendation? | Gate 3 failing twice: misuse in reformed clusters measurably worse than in the comparison wave. | §26, §28 |
+
+### 32.1 Three questions we cannot yet answer
+
+| Question | Why we cannot answer it now | What would answer it |
+|---|---|---|
+| What share of India's small producers would use a desk at national scale? | The pilot measures uptake in six clusters only | A second-year rollout to 30 districts with the same measures |
+| What is the true misuse rate among small online exporters? | No source we found measures it; a pilot sample cannot estimate a rare rate precisely | CBIC's own risk-engine data, if released in aggregate |
+| How much would carriers discount a national rate card? | No published cluster tender exists | Gate 1 in each pilot cluster, then a national tender |
+
+Exhibit for the deck: none; these answers are prepared for the presentation round [C-I7].
+
+## Appendix A: Bibliography
+
+Sources were opened and checked in October 2026. Only sources cited in the text are listed.
+
+| ID | Source | Available at |
+|---|---|---|
+| S01 | Tribune India (press, citing SBI) MSME sector displayed remarkable resilience in recent years: SBI Group Chief Economic Advisor | https://www.tribuneindia.com/news/business/msme-sector-displayed-remarkable-resilience-in-recent-years-says-sbi-group-chief-economic-advisor/ |
+| S02 | domain-b (press, citing PIB-sourced release) MSME exports nearly quadruple in 5 years to Rs 12.39 lakh crore | https://www.domain-b.com/industry/industry-general/msme-exports-nearly-quadruple-in-5-years-to-rs12-39-lakh-crore |
+| S03 | eparlib.sansad.in (primary, not opened: network blocked) Lok Sabha Unstarred Question No. 2786 answer, MSME exports | https://eparlib.sansad.in/bitstream/123456789/2985834/1/AU2786_HfMwu0.pdf |
+| S04 | Newsable/Asianet (press, citing SBI) MSME sector displayed remarkable resilience: SBI data cited | https://newsable.asianetnews.com/amp/business/msme-sectors-gva-share-hits-301-driving-indias-economy-sbi-cea-articleshow-7gzxn5s |
+| S05 | IANS (press, citing government Parliament reply) MSME exports cross Rs 9.52 lakh crore during April-Sep: Govt | https://ianslive.in/msme-exports-cross-rs-952-lakh-crore-during-april-sept-govt--20251218144406 |
+| S06 | KNN India (press) India's MSME export share rises to 48.55% in FY25: govt data | https://knnindia.co.in/news/newsdetails/msme/indias-msme-export-share-rises-to-4855-in-fy25-govt-data |
+| S07 | udyamregistration.gov.in (primary, not opened: network blocked) Factsheet of MSME (Udyam) Registration Including Udyam Assist Platform | https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm |
+| S08 | The Statesman (press, citing MSME Ministry year-end review) MSME sector achieves key milestones in 2025, Udyam registrations cross 7.3 Crore: MSME Ministry | https://www.thestatesman.com/business/msme-sector-achieves-key-milestones-in-2025-udyam-registrations-cross-7-3-crore-msme-ministry-1503532923.html |
+| S09 | aviation-defence-universe.com (press, citing Ministry year-end review) Year-End Review 2025: Ministry of MSME | https://www.aviation-defence-universe.com/year-end-review-2025-ministry-of-micro-small-medium-enterprises/ |
+| S10 | rsdebate.nic.in (primary, not opened: network blocked) Rajya Sabha unstarred question reply on women-owned MSMEs | https://rsdebate.nic.in/bitstream/123456789/747311/1/PQ_263_05022024_U263_p319_p324.pdf |
+| S11 | rsdebate.nic.in (primary, not opened: network blocked) Rajya Sabha unstarred question reply on women-owned MSMEs, later date | https://rsdebate.nic.in/bitstream/123456789/754181/1/PQ_266_02122024_U736_p245_p246.pdf |
+| S12 | Shankar IAS Parliament (exam-prep secondary source) Women work and enterprise | https://www.shankariasparliament.com/blogs/pdf/women-work-and-enterprise |
+| S13 | EY and ASSOCHAM (industry report, cited by Economic Survey) Enabling e-commerce exports from India | https://assets.ey.com/content/dam/ey-sites/ey-com/en_in/news/2024/07/ey-enabling-e-commerce-exports-from-india.pdf |
+| S14 | Outlook Business (press, citing Economic Survey) Economic Survey flags challenges that India's $300 billion e-commerce exports goal faces | https://www.outlookbusiness.com/amp/story/budget/economic-survey-flags-challenges-that-indias-300-billion-e-commerce-exports-goal-faces |
+| S15 | Indian Retailer (press, citing government target) Unlocking India's E-commerce Export Potential: A Path to $200-300 Bn by FY30 | https://indianretailer.com/article/retail-business/retail-trends/unlocking-indias-e-commerce-export-potential-path-200-300-bn |
+| S16 | GTRI (think-tank report, cited by press) India should target $350 bn exports through e-commerce by 2030; needs separate policy | https://gtri.co.in/gtriRep8.pdf |
+| S17 | Deccan Herald (press, citing GTRI) Customs, banking reforms, incentives at par with China key to boost e-com exports: GTRI | https://www.deccanherald.com/amp/story/business%2Feconomy%2Fcustoms-banking-reforms-incentives-at-par-with-china-key-to-boost-e-com-exports-to-rs-29l-crore-gtri-3137034 |
+| S18 | Amazon (company press release) [press] Amazon surpasses $20 billion milestone for e-commerce exports from India before 2025 deadline, targets $80 billion by 2030 | https://press.aboutamazon.com/in/news/amazon-global-selling/2025/10/amazon-surpasses-20-billion-milestone-for-ecommerce-exports-from-india-before-2025-deadline-targets-80-billion-by-2030 |
+| S19 | Inc42 (press, citing Amazon) [press] Amazon Doubles Export Target to $20 Bn From India By 2025 Via Global Selling | https://inc42.com/?p=288161 |
+| S20 | infinitycompliance.in epaper (press) [press] Amazon targets India e-commerce exports of $80 billion by 2030 despite US tariffs | https://epaper.infinitycompliance.in/?p=44168 |
+| S21 | Nextbasket (vendor guide) [vendor] How to Sell on Etsy from India | https://nextbasket.com/in/how-to-sell-on-etsy-from-india-the-full-guide |
+| S22 | craftindustryalliance.org (trade press, citing Etsy) [press] Etsy India seller export reach, September 2023 | https://craftindustryalliance.org/etsy-indias-business-falters-as-sellers-encounter-numerous-challenges |
+| S23 | marmalead.com (vendor guide) [vendor] Etsy fees explained | https://blog.marmalead.com/etsy-fees-explained-2025/ |
+| S24 | runfutureproof.com (vendor guide) [vendor] Amazon Handmade fee structure | https://www.runfutureproof.com/amazon-fees/handmade |
+| S25 | BW Retail World (press, citing Amazon) [press] Amazon India Eliminates Referral Fees On 1.2 Cr Products Priced Below Rs 300 | https://bwretailworld.com/companies/amazon-india-eliminates-referral-fees-on-1-2-cr-products-priced-below-rs-300 |
+| S26 | channelx.world (trade press, dated 2017) [press] eBay India selling fees slashed to zero (2017) | https://channelx.world/2017/11/ebay-india-selling-fees-slashed-to-zero/ |
+| S27 | Etsy / itokri / Chairish (retail marketplace listings) Hand block print cotton cushion cover listings (Etsy, itokri, Chairish) | https://www.etsy.com/listing/1629154335 |
+| S28 | Exotic India / IndiaHandmade / Bhunes (retail marketplace listings) Handheld brass puja diya and other brass diya listings | https://exoticindiaart.com/product/sculptures/handheld-puja-diya-in-brass-handmade-made-in-india-zen942 |
+| S29 | Khinkhwab / Exotic India / Pernia's Pop Up Shop (retail marketplace listings) Georgette Blue Banarasi Stole and related listings | https://khinkhwab.com/en-us/products/georgette-blue-banarasi-stole |
+| S30 | Exotic India (retail marketplace listings) Shopper Bag from Kutch with Floral Embroidery and Sea-Shells and related listings | https://exoticindiaart.com/product/textiles/shopper-bag-from-kutch-with-floral-embroidery-and-sea-shells-sbd38 |
+| S31 | Exotic India / Ruralhandmade (retail and wholesale marketplace listings) Channapatna handmade toy listings, retail and wholesale | https://exoticindiaart.com/product/homeandliving/handmade-channapatna-toys-non-toxic-wooden-car-push-pull-toy-for-kids-1-year-hla518 |
+| S32 | IndiaHandmade / Ruralhandmade (retail and wholesale marketplace listings) Handwoven bamboo basket and related listings | https://www.indiahandmade.com/catalog/product/view/id/22356 |
+| S33 | Shriram Finance (vendor guide) [vendor] How to Start a Handicraft Business and Make it Profitable | https://www.shriramfinance.in/articles/business-loan/2026/how-to-start-handicraft-business-in-india |
+| S34 | DGFT (primary, not opened: network blocked) List of Towns of Export Excellence, DGFT Appendix 1B | https://content.dgft.gov.in/Website/dgftprod/df723833-1089-4cf2-889d-bd3693d4ce2c/Appendix%201B.pdf |
+| S35 | EPCH (export promotion council report) EPCH Handicrafts Sector Roadmap 2024 | https://www.epch.in/sites/default/files/studies&reports/v3_Final_Handicrafts_EPCH_12 11 2024_Final.pdf |
+| S36 | authindia.com (press, citing FTP 2023 notification) [press] Varanasi and Moradabad declared as Town of Export Excellence for Handicrafts under FTP 2023 | https://authindia.com/varanasi-and-moradabad-declared-as-town-of-export-excellence-for-handicrafts-under-foreign-trade-policy-2023/ |
+| S37 | origin-gi.com / Drishti IAS (GI database and current-affairs digest) Moradabad metal craft GI registration and export estimates | https://www.origin-gi.com/wp-content/uploads/2017/01/177-moradabad-metal-craft.pdf |
+| S38 | Drishti IAS (current-affairs digest) Moradabad's Brassware Industry | https://www.drishtiias.com/daily-updates/daily-news-analysis/moradabad-brassware-industry/print_manually |
+| S39 | odopup.in (state ODOP portal, primary, not opened: network blocked) Varanasi ODOP project report, Banarasi silk GI | https://api.odopup.in/uploads/storage/documents/project-report/5vi5WixQWiWFa35HutekANL2lXllej8TFYNWOOhy.pdf |
+| S40 | odopup.in / Down To Earth (state portal and investigative press) [press for Down To Earth figure] Varanasi ODOP weaver counts; Golden thread of misery | https://www.downtoearth.org.in/economy/golden-thread-of-misery-56195 |
+| S41 | origin-gi.com (GI database, citing GI Registry) Kutch Embroidery GI registration | https://www.origin-gi.com/wp-content/uploads/2017/01/212-kutch-embroidery.pdf |
+| S42 | IANS (press) [press] From Kachchhi Kharek to Kesar Mango: over 10 treasures of Kutch and Saurashtra earn GI tag | https://ianslive.in/from-kachchhi-kharek-to-kesar-mango-over-10-artisanal-and-agricultural-treasures-of-kutch-and-saurashtra-earn-gi-tag--20251127150522 |
+| S43 | Wikipedia / Zenodo 2021 study (secondary, GI history and academic estimate) Channapatna toys GI and artisan estimate | https://zenodo.org/record/5726707 |
+| S44 | ODOP portal, india.gov.in (government portal) Channapatna Toys & Dolls | https://www.india.gov.in/explore-india/odop/details/channapatna-toys-dolls |
+| S45 | Sentinel Assam (press) [press] Tripura government requests Geographical Indication tag for cane craft | https://sentinelassam.com/north-east-india-news/tripura-news/tripura-government-requests-geographical-indication-tag-for-cane-craft |
+| S46 | aniweb.voxturr.us / Eastern Mirror Nagaland (press, undated primary basis) [press] Tripura cane and bamboo artisan workforce estimate | https://eastmojo.com/news/2019/06/25/now-tripuras-bamboo-ganesh-idols-to-enter-maharashtra-markets/ |
+| S47 | Tripura Times (press) [press] ODOP products from Tripura see rising demand nationwide | https://tripuratimes.com/ttimes/odop-products-from-tripura-sees-rising-demand-nationwide-34869.html |
+| S48 | Office of the Development Commissioner (Handlooms), Ministry of Textiles (primary, census report) Fourth All India Handloom Census 2019-2020 | https://ruralindiaonline.org/en/library/resource/fourth-all-india-handloom-census-2019-2020 |
+| S49 | india-seminar.com (secondary, citing 1993 census and 2012 reply) Handicrafts artisan count history | https://www.india-seminar.com/2003/523/523%20census.htm |
+| S50 | Lok Sabha / Development Commissioner (Handicrafts) (primary, not opened: network blocked) Lok Sabha reply on registered women handicraft artisans | https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251212729201.pdf |
+| S51 | TaxGuru [blog] CBIC removes Rs 10 lakh cap on courier exports to boost e-commerce trade | https://taxguru.in/custom-duty/rs-10-lakh-cap-removed-courier-exports-boost-e-commerce-trade-1st-april-2026.html |
+| S52 | The Week / PTI [press] CBIC operationalises reforms for e-commerce exports and courier trade | https://www.theweek.in/wire-updates/business/2026/03/31/cbic-operationalises-reforms-for-e-commerce-exports-courier-trade-to-enhance-ease-of-doing-biz.html |
+| S54 | EPCH [trade body] e-CRAFTCIL Impex Column, Issue 130 | https://www.epch.in/sites/default/files/ecraftcil/issue130/pdf/6_Impex-Column.pdf |
+| S55 | TaxGuru [blog] TaxGuru summary of Circular 17/2026 | https://taxguru.in/?p=1035146 |
+| S56 | TaxTMI / CAalley [blog] CBIC risk-based re-import summary | https://www.taxtmi.com/article/detailed?id=16128 |
+| S57 | TaxTMI [blog] CBIC ECCS Return Module coverage | https://www.taxtmi.com/tmi_blog_details?id=894832 |
+| S58 | Mundhra Consulting [blog] Mundhra Consulting commentary | https://mundhraconsulting.com/?p=1944 |
+| S59 | EICI [trade body] EICI advisory listing | https://www.eiciindia.org/Advisory%20on%20Implementation%20of%20enhanced%20%E2%80%9CReturn%20to%20Origin%20(RTO)%E2%80%9D%20functionality%20in%20ECCS%20(1)%2006%2004%202026.pdf |
+| S60 | Upstox [vendor/press] Upstox Budget 2026 e-commerce exporters explainer | https://upstox.com/news/business-news/latest-updates/no-10-lakh-limit-anymore-what-budget-2026-just-changed-for-e-commerce-exporters/article-188766 |
+| S61 | Ministry of Commerce and Industry (commerce.gov.in) Lok Sabha Unstarred Question reply | https://www.commerce.gov.in/wp-content/uploads/2025/03/LSUQ-No.2951-for-18.03.2025.pdf |
+| S62 | TaxTMI [blog, seed source per PLAN] CBIC RTO mechanism summary | https://www.taxtmi.com/news?id=72039 |
+| S63 | SSRana [law firm, press] ssrana.in / India Briefing commentary on Press Note 3 | https://ssrana.in/articles/dpiit-liberalises-fdi-policy-to-permit-inventory-based-e-commerce-exclusively-for-exports-the-foundational-change-behind-dgfts-new-framework/ |
+| S64 | Mundhra Consulting [blog] Mundhra Consulting August 2026 newsletter | https://mundhraconsulting.com/wp-content/uploads/2026/09/August-2026-Indirect-Tax-Newsletter-MCS.pdf |
+| S65 | Mundhra Consulting [blog] Mundhra Consulting / SSRana commentary | https://mundhraconsulting.com/?p=2265 |
+| S66 | Business Today [press] CBIC extends export incentives to postal shipments | https://www.businesstoday.in/amp/india/story/cbic-extends-export-sops-to-postal-route-msme-exporters-in-remote-areas-to-benefit-511171-2026-01-16 |
+| S67 | Outlook Business [press, citing CBIC] Export incentive schemes applicable for postal shipments from Jan 15 | https://www.outlookbusiness.com/news/export-incentive-schemes-applicable-for-postal-shipments-from-jan-15-cbic |
+| S68 | Maritime Gateway [press] CBIC allows export-related benefits on Courier Shipments from 12th Sept 2024 | https://www.maritimegateway.com/cbic-allows-export-related-benefits-on-courier-shipments-from-12th-sept-2024/ |
+| S70 | Texprocil [trade body] Texprocil Eserve 158 of 2024 circular | https://texprocil.org/circular/1727335841-Eserve-158_of_2024.pdf |
+| S71 | VJM Global [vendor/blog] Export through Courier: IGST Refund process through ECCS Application | https://www.vjmglobal.com/blog/igst-refund-process-through-eccs-application |
+| S72 | VJM Global [vendor/blog] Export through Courier IGST Refund via ECCS | https://vjmglobal.com/tag/eccs/ |
+| S73 | Lokmat Times, carrying ANI copy [press] India Post emerges as a key driver of digital inclusion, public service delivery in 2025 | https://www.lokmattimes.com/business/india-post-emerges-as-a-key-driver-of-digital-inclusion-public-service-delivery-in-2025 |
+| S74 | Hindusthan Samachar [press] YEARENDER 2025: postal department | https://english.hindusthansamachar.in/Encyc/2025/12/23/YEARENDER-2025-postal-department.php |
+| S75 | Rajya Sabha Secretariat (rsdebate.nic.in / staffnews.in copy) Rajya Sabha unstarred Q.332, 06.02.2025 | https://www.staffnews.in/wp-content/uploads/2025/02/Post-Offices-RS-US-Q-332-06-02-2025.pdf |
+| S76 | DGFT [primary, via projectexports.com mirror] DGFT Handbook of Procedures / FTP 2023 Chapter 3 | https://projectexports.com/pdf/FTP2023_Chapter03.pdf |
+| S77 | DGFT [primary document, via content.dgft.gov.in] DGFT Chapter 9 FTP eCommerce | https://content.dgft.gov.in/Website/Chapter+9+FTP+eCommerce.pdf |
+| S79 | Ministry of Commerce and Industry Lok Sabha Unstarred reply, commerce.gov.in | https://www.commerce.gov.in/wp-content/uploads/2025/02/LS-Unstarred-No-234.pdf |
+| S81 | Maritime Gateway [press] Trade Connect e-Platform for exports is single window, fast, accessible and transformational: Piyush Goyal | https://www.maritimegateway.com/trade-connect-e-platform-for-exports-is-single-window-fast-accessible-and-transformational-piyush-goyal/ |
+| S82 | CHEMEXCIL [trade body] CHEMEXCIL circular on launch/revamp of Trade Connect ePlatform for eCoO 2.0 | https://chemexcil.in/circulars/imp---launch-revamp-of-trade-connect-e-platform-for-issuance-of-non-preferential--certificate-of-origin--ecoo--2.0-system:-regarding/6245/5ca9572f24701f0c2601e5b7209c3fce.html |
+| S83 | Maritime Gateway [press, citing DGFT Trade Notice] Pilot Launch of the Upgraded eBRC system for self-certification by Exporters | https://www.maritimegateway.com/pilot-launch-of-electronic-bank-realization-certificate-ebrc-system-for-self-certification-by-exporters/ |
+| S84 | VJM Global [blog] eBRC system is revamped by DGFT | https://www.vjmglobal.com/blog/ebrc-system-revamped-by-dgft |
+| S85 | Taxmann [blog/press] RBI Notifies FEM Export and Import Regulations, 2026 | https://www.taxmann.com/post/blog/rbi-notifies-fem-export-and-import-regulations-2026 |
+| S86 | TheTaxCorp [blog] RBI Curtails Export Proceeds Realisation Period To Nine Months: FEMA 23(R) Amendment Explained | https://thetaxcorp.in/article/rbi-narrows-export-realisation-window-to-9-months-under-fema-23r |
+| S87 | SCC Online [press/legal blog] RBI amends FEMA Regulations on export proceeds and trade transactions | https://www.scconline.com/blog/post/2026/09/29/rbi-amends-fema-export-import-goods-services-regulations-2026/ |
+| S88 | Cogoport [vendor/blog] GST on exports guide | https://www.cogoport.com/blogs/gst-refunds-part-1-export-without-payment-of-igst |
+| S89 | GSTHero [vendor/blog] GST Refund on Exports | https://gsthero.com/?p=33134 |
+| S90 | TaxAJ support portal [vendor/blog] GST on Export of Services, LUT vs IGST Refund Route | https://support.taxaj.com/portal/en/kb/articles/gst-on-export-of-services-lut-versus-igst-refund-route |
+| S91 | Mundhra Consulting [blog] AEO Certification in India: 2026 Guide to Benefits, Tiers and Eligibility | https://mundhraconsulting.com/?p=2233 |
+| S92 | EY [press/advisory]; TaxManagementIndia [blog] EY TradeWatch EMEIA, May 2026 issue; TaxManagementIndia manual | https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/services/tax/documents/ey-gl-tradewatch-issue-emeia-05-2026.pdf ; https://taxmanagementindia.com/visitor/detail_manual.asp?ID=2393 |
+| S94 | TaxTMI [blog] ECCS/RMS courier background | https://www.taxtmi.com/article/detailed?id=17271 |
+| S95 | TaxGuru [blog] Customs post clearance audit | https://taxguru.in/custom-duty/customs-post-clearance-audit.html |
+| S96 | ABCAUS [blog] Customs Post Clearance Audit-Transaction based Premises based audit (PBA) prescribed | https://abcaus.in/excise-custom/customs-post-clearance-audit-transaction-premises-based-audit.html |
+| S97 | Construction World [press] India Post Rationalises International Letter Mail Services | https://www.constructionworld.in/policy-updates-and-economic-news/india-post-rationalises-international-letter-mail-services/84711 |
+| S98 | IBTimes India [press] Govt rationalises certain international letter post services from Jan 1 | https://www.ibtimes.co.in/govt-rationalises-certain-international-letter-post-services-jan-1-895120 |
+| S99 | Millennium Post [press] Postal dept to discontinue certain outward intl letter mail services | https://www.millenniumpost.in/business/postal-dept-to-discontinue-certain-outward-intl-letter-mail-services-642041 |
+| S100 | Amazon (sell.amazon.in) [primary, vendor]; Amazon Seller Forums [vendor forum, unverified] Amazon Global Selling fulfilment pages; seller forum post | https://sell.amazon.in/grow-your-business/amazon-global-selling/fulfillment ; https://sellercentral.amazon.com/seller-forums/discussions/t/77e45403-d05c-441a-becd-4137ae6d3a9e |
+| S101 | RBI (via search snippets only) RBI Reference Rate Archive | https://www.rbi.org.in/Scripts/ReferenceRateArchive.aspx |
+| S102 | MSEI (quoting RBI archive) Historical Data for RBI Reference Rate 09-May-2026 to 18-May-2026 | https://www.msei.in/markets/currency/historical-data/rbireferenceratearchives.aspx |
+| S103 | News on Air (All India Radio, govt broadcaster) Rupee closes at 94.68 against US dollar | https://newsonair.gov.in/rupee-closes-at-94-68-against-us-dollar/ |
+| S105 | advocategandhi.com [blog] Recalibrating International Postal Charges: A Legal Overview of the Post Office (Amendment) Regulations, 2026 | https://advocategandhi.com/recalibrating-international-postal-charges-a-legal-overview-of-the-post-office-amendment-regulations-2026/ |
+| S106 | potoolsblog.in [blog] ITPS international tracked rates revision | https://www.potoolsblog.in/2025/03/revised-itps-international-tracked.html |
+| S107 | Shiprocket [blog][vendor] vs potoolsblog.in [blog] India Post explained | https://www.shiprocket.in/blog/india-post-explained/amp/ |
+| S110 | indiapost.org [blog, not the official indiapost.gov.in domain] International Speed Post (EMS) 2026: Rates, Countries and Tracking | https://indiapost.org/international-speed-post-ems |
+| S112 | Shiprocket X [vendor] Best International Courier Services | https://www.shiprocket.in/blog/global-shipping-by-shiprocket/amp |
+| S114 | Clickpost [vendor][blog] DHL shipping calculator | https://www.clickpost.ai/blog/dhl-shipping-calculator |
+| S115 | Clickpost [vendor][blog] DHL courier charges | https://www.clickpost.ai/blog/dhl-courier-charges |
+| S116 | Bombino Express [vendor] Quick Rates | https://bombinoexp.com/quick-rates.php |
+| S117 | FedEx (official PDF, found via search, contents not confirmed) fedex-rates-exp-en-in.pdf | https://www.fedex.com/content/dam/fedex/international/rates/fedex-rates-exp-en-in.pdf |
+| S118 | Aramex [official page, rate not shown in snippet] Check shipment rates | https://www.aramex.com/help/Content/Topics/Shipping/Check_shipment_rates.htm |
+| S119 | Suaid Global [blog][vendor] International shipping costs 2026 | https://suaidglobal.com/hi/insights/international-shipping-costs-2026 |
+| S120 | movizy.in [blog] (rate guide page) | https://movizy.in/?p=1364 |
+| S121 | pulse.bot, citing TAC Index/Baltic Exchange [press] Air cargo rates edge lower w/w, down 6% y/y (TAC Index) | https://indiaseatradenews.com/air-cargo-rates-edge-lower-wow-down-6-yoy-tac-index/ |
+| S122 | indiaseatradenews.com, citing Xeneta/TAC [press] Air freight rates clock gains on most routes | https://indiaseatradenews.com/air-freight-rates-clock-gains-on-most-routes/ |
+| S136 | globaltradealert.org Launch of the Facilitating Logistics Interventions for Freight and Transport Lift scheme for MSMEs | https://globaltradealert.org/state-act/96541-india-launch-of-the-facilitating-logistics-interventions-for-freight-and-transport-lift-scheme-for-msmes |
+| S137 | aircargoupdate.com [press] Aramex India signs MoU with FIEO to support MSME exporters | https://aircargoupdate.com/?p=20047 |
+| S138 | indiashippingnews.com / related trade press [press] (May 2026 report, exporter concerns on container freight) | https://indiashippingnews.com/tag/msme-clusters/ |
+| S139 | importdutyusa-apex.pages.dev [blog] vs multiple others giving 29 Aug 2025 What changed on 29 August 2025, and what replaced the IEEPA tariffs | https://importdutyusa-apex.pages.dev/en/guides/us-import-duty-changes |
+| S140 | Thomson Reuters (OneSource Global Trade) Supreme Court rejects IEEPA as a tariff statute | https://www.thomsonreuters.com/en-us/help/onesource-global-trade/regulatory-insights/2026/february-20th/supreme-court-rejects-ieepa-as-a-tariff-statute |
+| S141 | White & Case United States terminates IEEPA-based tariffs following supreme court decision | https://www.whitecase.com/insight-alert/united-states-terminates-ieepa-based-tariffs-following-supreme-court-decision |
+| S142 | govinfo.gov (Federal Register) (Federal Register document) | https://www.govinfo.gov/content/pkg/FR-2026-02-25/pdf/2026-03829.pdf |
+| S144 | Thomson Reuters (OneSource Global Trade) de min suspension means global trade prof | https://www.thomsonreuters.com/en-us/help/onesource-global-trade/regulatory-insights/2026/february-25th/de-min-suspension-means-global-trade-prof.html |
+| S145 | Alvarez & Marsal / Troutman Pepper Locke UCIT Upholds IEEPA Suspension of De Minimis Treatment in Axle of Dearborn | https://www.troutman.com/insights/the-800-free-pass-is-gone-cit-confirms-president-can-eliminate-de-minimis-tariff-exemption/ |
+| S146 | worldtradescanner.com Export to US thru $800 De Minimis Duty Free Suspended: FAQs | https://worldtradescanner.com/Export%20to%20US%20thru%20$800%20De%20Minimis%20Duty%20Free%20Suspended.htm |
+| S147 | CBP (CSMS, via policyrisk.com citation) Cargo Systems Messaging Service | https://policyrisk.com/behind-the-curtain/federal-register/2025-21606 |
+| S148 | Expeditors, citing CBP CSMS bulletin CBP Provides Guidance on Additional Duties on Imports from India | https://info.expeditors.com/newsflash/cbp-provides-guidance-on-additional-duties-on-imports-from-india |
+| S149 | ustariffrates.com-style guide [blog, unverified] (guide page, title not fully captured) | https://ustariffrates.com/legal/eo-14388 |
+| S152 | Devdiscourse India Post Resumes Affordable U.S. Postal Services Amidst New Tariff Guidelines | https://www.devdiscourse.com/article/business/3663166-india-post-resumes-affordable-us-postal-services-amidst-new-tariff-guidelines |
+| S153 | Deloitte Hungary EU to replace EUR 150 exemption with EUR 3 customs duty | https://www.deloitte.com/hu/en/services/tax/perspectives/eu-to-replace--150-euros-exemption-with--3-euros-customs-duty.html |
+| S154 | European Commission (Access2Markets / trade.ec.europa.eu) EU applies EUR 3 customs duty per item on low-value e-commerce consignments | https://trade.ec.europa.eu/access-to-markets/en/news/eu-applies-eu3-customs-duty-item-low-value-e-commerce-consignments |
+| S155 | Baker McKenzie Global Import Blog [law firm blog] Tariffs. Customs. Trade Remedies (EU EUR 3 duty explainer) | https://globalimportblog.bakermckenzie.com/?p=23259 |
+| S159 | HMRC / gov.uk Impact assessment (VAT treatment of low-value parcels) | https://www.gov.uk/government/publications/hmrc-impact-assessment-for-the-vat-treatment-of-low-value-parcels/hmrc-impact-assessment-for-the-vat-treatment-of-low-value-parcels |
+| S161 | KPMG UK Small parcels, big impact | https://kpmg.com/uk/en/insights/tax/small-parcels-big-impact.html |
+| S162 | golocad.com [vendor blog] UAE Import Duties And Customs Clearance: A-Z Guide | https://golocad.com/blog/uae-import-duties-and-customs-e-commerce-guide/ |
+| S163 | dutydecoder.com [vendor blog] UAE Import Duty Guide: Customs Taxes, VAT and Clearance Explained | https://dutydecoder.com/united-arab-emirates/ |
+| S164 | Australian Taxation Office (ato.gov.au) GST on low value imported goods | https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/gst-on-imported-goods-and-services/gst-on-low-value-imported-goods |
+| S165 | Australian Treasury Doc 05a | https://treasury.gov.au/sites/default/files/2019-03/Doc-05a.pdf |
+| S166 | SBS / International Tax Review [press, dates unconfirmed] (multiple headlines, dates unconfirmed) | https://www.sbs.com.au/news/article/imported-goods-under-1000-to-face-gst/5uy6inuey |
+| S172 | PromPeru repository (joint SUNAT/SERPOST data) PromPeru/SERPOST/SUNAT joint presentation on Exporta Facil | https://repositorio.promperu.gob.pe/bitstreams/69cc5a83-e2bd-40fb-bbf3-259b5a4794de/download |
+| S182 | China Daily, citing General Administration of Customs (Xinhua) China's cross-border e-commerce exports reach new high in 2024 | https://www.chinadaily.com.cn/a/202506/17/WS6850d61fa310a04af22c6b49.html |
+| S184 | China Daily / Xinhua, citing General Administration of Customs GACC data as reported, 2025 full-year cross-border e-commerce figures | https://www.chinadaily.com.cn/ (2026 report on 2025 full-year GACC data; specific article not independently re-fetched, WebFetch unavailable |
+| S186 | ecns.cn / Henan provincial government, citing GACC July 2026 briefing Cross-border e-commerce shoppers in China hit 140 mln in H1 | https://www.ecns.cn/hd/2026-07-22/detail-ihfhqwkz8164935.shtml |
+| S187 | General Administration of Customs of China (GACC) notice; cross-checked against commercial logistics guides [vendor] GACC Announcement No.12, 2014 on Adding "9610" Customs Supervision Code, and multiple logistics-industry explainer pages | https://www.e-to-china.com/tariff_changes/Policy_Focus/2014/0214/111981.html |
+| S197 | Comptroller and Auditor General of India (CAG) Report No. 33 of 2025, Union Government (English); press brief | https://saiindia.gov.in/uploads/download_audit_report/2025/Report-No.-33-of-2025,-Union-Government-(English)-06a2ba801d2a2a5.47856233.pdf |
+| S199 | PSU Watch [press], citing CAG Report No. 21 of 2025 CAG pulls up govt for irregular grant of MEIS, SEIS benefits with revenue impact of Rs 725 crore | https://psuwatch.com/amp/story/newsupdates/cag-pulls-up-govt-for-irregular-grant-of-meis-seis-benefits-with-revenue-impact-of-rs-725-crore |
+| S200 | Directorate of Revenue Intelligence (DRI), Government of India DRI Annual Report (ebook, page excerpts) | https://www.dri.nic.in/writereaddata/annualreportebook/files/basic-html/page87.html |
+| S201 | Directorate of Revenue Intelligence (DRI), Government of India DRI Annual Report (ebook, page excerpts) | https://www.dri.nic.in/writereaddata/annualreportebook/files/basic-html/page90.html |
+| S204 | WTO Trade Facilitation Agreement Facility WTO TFA Facility explanatory material (Zambia case study) | https://www.tfafacility.org/sites/default/files/2022-01/2016_-_zambia_border_inspections_clearance_wto.pdf |
+| S205 | heerazhaveraat.com (GJEPC-linked trade press) Union Budget 2026-27 Reaction by Shri Kirit Bhansali | https://heerazhaveraat.com/union-budget-2026-27-reaction-by-shri-kirit-bhansali/ |
+| S207 | Outlook Business India Should Target $350 Billion Exports Through E-Commerce By 2030; Needs Separate Policy: GTRI | https://www.outlookbusiness.com/news/india-should-target-350-billion-exports-through-e-commerce-by-2030-needs-separate-policy-gtri-news-271373 |
+| S208 | Outlook Business Dak Ghar Niryat Kendras To Give Boost To Small Traders: Vineet Pandey | https://www.outlookbusiness.com/news/dak-ghar-niryat-kendras-to-give-boost-to-small-traders-vineet-pandey-news-261793 |
+| S210 | Indian Transport & Logistics (ITLN) From Automation to AI: How DHL Express India is Powering SME Exports | https://www.itln.in/logistics/from-automation-to-ai-how-dhl-express-india-is-powering-sme-exports-1355999 |
+| S211 | Hindustan Times (via Magzter) Goyal unveils plans to propel MSMEs into global e-comm arena | https://magzter.com/stories/newspaper/Hindustan-Times/GOYAL-UNVEILS-PLANS-TO-PROPEL-MSMES-INTO-GLOBAL-ECOMM-ARENA |
+| S212 | APA (Azerbaijan state news agency), en.apa.az UPU Director General: EU fee on low-value parcels could affect millions of consumers | https://en.apa.az/ict/upu-director-general-eu-fee-on-low-value-parcels-could-affect-millions-of-consumers-528606 |
+| S213 | World Customs Organization (wcoomd.org) High Level Dialogue on the Implementation of the Cross-Border E-Commerce Framework of Standards | https://www.wcoomd.org/en/media/newsroom/2018/july/high-level-dialogue-on-the-implementation-of-the-cross-border-e-commerce-framework-of-standards.aspx |
+| S216 | YourStory Union Budget paves way for faster, more efficient ecommerce exports | https://yourstory.com/2026/02/union-budget-faster-more-efficient-ecommerce-courier-exports |
+
+Assumption tags (`[A21]` style) resolve to section 30 and Appendix B (model table T1). Case tags (`[C-E1]` style) resolve to `case/01-case.md`. Raw research rows (`[C07]` style) resolve through `research/raw/R-C.md` and are listed here through their URL.
+
+## Appendix B: Model tables
 
 Every value is a team assumption or a model output unless a row says otherwise. Verify inputs through the research lanes before freeze.
 
@@ -1672,3 +2333,81 @@ Every value is a team assumption or a model output unless a row says otherwise. 
 | Overseas warehouses for every cluster | 3 | 4 | 2 | 2 | 3 | 2.95 | 2.80 |
 | Cluster desk, seller tiers, pooled rates and returns | 5 | 4 | 4 | 4 | 5 | 4.45 | 4.40 |
 
+## Appendix C: Glossary of short forms
+
+Every short form used in this report and on the slides, expanded once. Where a term names an Indian system or document, the right-hand column says what it does in the export process.
+
+| Short form | Expansion | What it means here |
+|---|---|---|
+| AD bank | Authorised Dealer bank | A bank licensed by RBI to handle foreign exchange; reports export realisation |
+| AEO | Authorised Economic Operator | CBIC's trusted-trader programme, tiers T1 to T3, with an MSME package |
+| CAG | Comptroller and Auditor General of India | Audits incentive and drawback schemes |
+| CBIC | Central Board of Indirect Taxes and Customs | Runs customs clearance and the Risk Management System |
+| CHA | Customs House Agent (customs broker) | Files declarations for a fee on the seller's behalf |
+| CSB-V | Courier Shipping Bill, form V | The courier export declaration for e-commerce goods |
+| DGFT | Directorate General of Foreign Trade | Runs the Foreign Trade Policy, IEC, eBRC and district export hubs |
+| DNK | Dak Ghar Niryat Kendra | Post-office export counter; 1,013 in operation |
+| DoP | Department of Posts | Runs India Post and the DNK network |
+| DPIIT | Department for Promotion of Industry and Internal Trade | The department the brief asks us to advise |
+| DRI | Directorate of Revenue Intelligence | Investigates customs fraud |
+| eBRC | electronic Bank Realisation Certificate | Proof that export proceeds arrived, sent by banks to DGFT |
+| ECCS | Express Cargo Clearance System | CBIC's automated courier clearance system, with a Return Module |
+| EOR | Exporter on Record | An entity that exports on a seller's behalf under the 2026 inventory framework |
+| FEMA | Foreign Exchange Management Act | Sets the window within which export proceeds must be realised |
+| FTP | Foreign Trade Policy | The 2023 policy; Chapter 3 covers districts as export hubs |
+| GI | Geographical Indication | A tag protecting a product's regional origin |
+| GSTIN | Goods and Services Tax Identification Number | A seller's GST registration |
+| GSTN | Goods and Services Tax Network | Runs the GST system and IGST refund data |
+| IEC | Importer Exporter Code | The DGFT identifier every exporter needs |
+| IGST | Integrated Goods and Services Tax | Tax refunded on exports once proceeds are realised |
+| IRM | Inward Remittance Message | A bank's electronic record of money received from abroad |
+| LUT | Letter of Undertaking | Lets an exporter ship without paying IGST upfront |
+| MEIS | Merchandise Exports from India Scheme | A former export incentive, replaced by RoDTEP |
+| MSME | Micro, small and medium enterprise | The seller population the brief describes |
+| ODOP | One District One Product | Government programme naming a lead product per district |
+| PBE-III | Postal Bill of Export, form III | The postal export declaration that carries benefit claims |
+| RBI | Reserve Bank of India | Sets FEMA rules on export realisation |
+| RMS | Risk Management System | CBIC's engine that scores consignments for examination |
+| RoDTEP | Remission of Duties and Taxes on Exported Products | The current export incentive scheme |
+| SKU | Stock-keeping unit | One product variant listed for sale |
+| TFA | Trade Facilitation Agreement | WTO agreement; Article 7.4 requires risk management |
+| Udyam | Udyam Registration | The government registration identifying an MSME |
+| UPU | Universal Postal Union | Sets postal data standards such as ITMATT |
+| WCO | World Customs Organization | Publisher of the 2018 E-Commerce Framework of Standards |
+| 3PL | Third-party logistics provider | A warehouse or returns operator abroad |
+
+## Appendix D: Case line coverage
+
+Every line of the case brief, by reference ID, with the report section that answers it and the slide that shows it. Slide numbers follow the submitted deck: 1 cover, 2 market and access (R1), 3 rules and integrity (R2), 4 coordination and pilot (R3 and R4), 5 appendix, 6 thank you.
+
+| Case ID | Case line, in short | Report sections | Slide |
+|---|---|---|---|
+| C-P1 | Organiser, title and contacts | §0 | 1 |
+| C-I1 | Submission deadline | §0 | Not applicable |
+| C-I2 | One PDF; three slides excluding cover and appendix | §31 | 2, 3, 4 |
+| C-I3 | Upload through Unstop | §0 | Not applicable |
+| C-I4 | File named after the team | §0 | Not applicable |
+| C-I5 | Frameworks and matrices allowed | §0, §31 | 2, 3, 4 |
+| C-I6 | Assumptions stated and justified | §30, Appendix B | 5 |
+| C-I7 | Final round offline at DTU East Campus | §32 | Not applicable |
+| C-J1 | Creativity | §2, §12, §15 | 3 |
+| C-J2 | Originality | §2, §11 | 3 |
+| C-J3 | Feasibility | §11, §25, §26, §28 | 3, 4 |
+| C-J4 | Granularity | §9, §21, §30 | 2, 5 |
+| C-J5 | Key challenges addressed | §1, §10, §24 | 2, 3 |
+| C-B1 | Cross-border e-commerce reaches buyers without offices abroad; 2026 policy priority | §3, §4 | 2 |
+| C-B2 | Millions of MSMEs, artisans and weavers in clusters; many women-led and first-generation | §5, §25.2 | 1, 4 |
+| C-B3 | The largest untapped pool of potential online exporters | §3, §5 | 2 |
+| C-E1 | Only a small share sell abroad online | §3 | 2 |
+| C-E2 | Complicated process across offices, portals, routes and agents | §7, §9, §12, §14 | 2, 3 |
+| C-E3 | Customs delays and high small-parcel freight | §7, §13 | 2, 3 |
+| C-E4 | Returns treated as fresh imports | §10, §17 | 2, 3 |
+| C-E5 | Under-invoicing, incentive misuse and tax leakage; destinations tightening | §8, §16, §24, §28 | 2, 3 |
+| C-E6 | Simple and affordable without weakening checks or tax collection | §2, §15, §27 | 1, 3, 6 |
+| C-R0 | Reform strategy for DPIIT and the 2026 Inter-Ministerial Committee | §2, §20 | 1, 6 |
+| C-R1 | Market and access: bargaining position, shipping and returns cost | §6, §12, §13, §18, §21 | 2 |
+| C-R2 | Risk-based export framework with lower compliance effort and intact integrity | §14, §15, §16, §17, §24 | 3 |
+| C-R3 | Consensus among sellers, platforms, logistics providers and agencies | §19, §20 | 4 |
+| C-R4 | Scalable pilot with clear success measures across regions and product types | §25, §26, §27 | 4 |
+
+All 27 case lines are covered. The four case requirements, C-R1 to C-R4, each have a full slide band and at least three report sections.
